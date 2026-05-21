@@ -217,52 +217,63 @@ def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
 
         content_type = resp.headers.get("Content-Type", "")
         raw = resp.text
+        print(f"   📄 Transcript response: {len(raw)} chars, content-type: {content_type[:50]}, starts: {raw.strip()[:80]!r}")
 
-        # If XML — parse out all <p> tag text regardless of namespace
-        if "xml" in content_type or raw.strip().startswith("<"):
+        def extract_text_from_xml(xml_str: str) -> str:
+            """Extract all paragraph text from FactSet transcript XML."""
             try:
-                root = ET.fromstring(raw)
-                paragraphs = []
-                # Iterate all elements looking for <p> tags (with or without namespace)
+                root = ET.fromstring(xml_str)
+                parts = []
                 for elem in root.iter():
-                    if elem.tag.endswith("}p") or elem.tag == "p":
-                        if elem.text and elem.text.strip():
-                            paragraphs.append(elem.text.strip())
-                if paragraphs:
-                    return "\n\n".join(paragraphs)[:max_chars]
-            except ET.ParseError:
-                pass
-            # Fallback: strip all XML tags
+                    tag = elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
+                    if tag == "p":
+                        # Collect all text including mixed content
+                        full_text = "".join(elem.itertext()).strip()
+                        if full_text:
+                            parts.append(full_text)
+                if parts:
+                    return "\n\n".join(parts)
+            except ET.ParseError as e:
+                print(f"   ⚠️  XML parse error: {e}")
+            return ""
+
+        # If XML response — parse directly
+        if "xml" in content_type or raw.strip().startswith("<"):
+            text = extract_text_from_xml(raw)
+            if text and len(text) > 50:
+                return text[:max_chars]
+            # Fallback: brute-force strip tags
             text = re.sub(r"<[^>]+>", " ", raw)
-            text = re.sub(r"\s{3,}", "\n\n", text)
-            if len(text.strip()) > 50:
+            text = re.sub(r"\s{3,}", "\n\n", text).strip()
+            if len(text) > 50:
                 return text[:max_chars]
 
-        # If JSON — fetch the transcriptsUrl
+        # If JSON — response contains a URL to the actual transcript
         try:
             json_data = resp.json()
-            for item in json_data.get("data", []):
+            items = json_data.get("data", [])
+            print(f"   📄 JSON response with {len(items)} items")
+            for item in items:
                 url = item.get("transcriptsUrl", "")
                 if url:
-                    txt_resp = requests.get(url, timeout=20)
-                    # Returned URL may itself be XML
-                    if "xml" in txt_resp.headers.get("Content-Type", "") or txt_resp.text.strip().startswith("<"):
-                        try:
-                            root2 = ET.fromstring(txt_resp.text)
-                            paragraphs = []
-                            for elem in root2.iter():
-                                if elem.tag.endswith("}p") or elem.tag == "p":
-                                    if elem.text and elem.text.strip():
-                                        paragraphs.append(elem.text.strip())
-                            if paragraphs:
-                                return "\n\n".join(paragraphs)[:max_chars]
-                        except ET.ParseError:
-                            pass
-                    text = re.sub(r"<[^>]+>", " ", txt_resp.text)
-                    text = re.sub(r"\s{3,}", "\n\n", text)
-                    return text[:max_chars]
-        except Exception:
-            pass
+                    print(f"   📄 Fetching transcript URL...")
+                    txt_resp = requests.get(url, timeout=30)
+                    inner_ct = txt_resp.headers.get("Content-Type", "")
+                    inner_raw = txt_resp.text
+                    print(f"   📄 Inner response: {len(inner_raw)} chars, ct: {inner_ct[:50]}")
+                    if "xml" in inner_ct or inner_raw.strip().startswith("<"):
+                        text = extract_text_from_xml(inner_raw)
+                        if text and len(text) > 50:
+                            return text[:max_chars]
+                        # Brute force
+                        text = re.sub(r"<[^>]+>", " ", inner_raw)
+                        text = re.sub(r"\s{3,}", "\n\n", text).strip()
+                        if len(text) > 50:
+                            return text[:max_chars]
+                    elif len(inner_raw.strip()) > 50:
+                        return inner_raw[:max_chars]
+        except Exception as e:
+            print(f"   ⚠️  JSON transcript fetch error: {e}")
 
         # Last resort: strip tags from raw response
         text = re.sub(r"<[^>]+>", " ", raw)
