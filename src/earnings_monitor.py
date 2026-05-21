@@ -5,6 +5,7 @@ Uses FactSet Events & Transcripts API (v2) + SEC EDGAR + Claude
 
 import os
 import re
+import json
 import time
 import smtplib
 import requests
@@ -612,7 +613,367 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
 </html>"""
 
 
-def send_email(subject: str, html_body: str):
+
+# ── Earnings PMI Scoring System ───────────────────────────────────────────────
+PMI_SCORE_PROMPT = """You are a macro economist scoring an earnings report for a PMI-style indicator.
+
+Score this company's earnings report across 6 macro sub-indices, each from 0 to 100.
+50 = neutral, >50 = expansionary/positive, <50 = contractionary/negative.
+
+Sub-indices to score:
+1. NEW_ORDERS: Forward guidance strength, bookings, backlog, demand pipeline
+2. OUTPUT: Revenue beat/miss vs expectations, volume growth vs prior year
+3. EMPLOYMENT: Hiring trends, headcount changes, wage/labor cost commentary
+4. PRICES: Pricing power, margin direction, ability to pass through input costs
+5. SUPPLY_CHAINS: Inventory levels, lead times, supplier commentary, logistics
+6. DEMAND_BREADTH: Geographic demand signals — US, China, Europe, emerging markets
+
+Also provide:
+- COMPOSITE: Weighted average (New Orders 30%, Output 25%, Employment 15%, Prices 15%, Supply 10%, Breadth 5%)
+- SECTOR: The company's primary sector (e.g. Technology, Financials, Consumer Discretionary, Industrials, Healthcare, Energy, Materials, Utilities, Real Estate, Communication Services, Consumer Staples)
+- CONFIDENCE: Your confidence in this scoring 1-3 (1=low data, 2=moderate, 3=high)
+- KEY_SIGNAL: One sentence describing the single most important macro signal from this report
+
+Respond ONLY with valid JSON, no other text:
+{
+  "new_orders": 0-100,
+  "output": 0-100,
+  "employment": 0-100,
+  "prices": 0-100,
+  "supply_chains": 0-100,
+  "demand_breadth": 0-100,
+  "composite": 0-100,
+  "sector": "string",
+  "confidence": 1-3,
+  "key_signal": "string"
+}"""
+
+
+def score_earnings(ticker: str, name: str, analysis_html: str,
+                   transcript: str, sec_filing: str) -> dict:
+    """
+    Score an earnings report across PMI sub-indices using Claude.
+    Returns a dict of scores or empty dict on failure.
+    """
+    # Strip HTML tags from analysis for cleaner input
+    clean_analysis = re.sub(r"<[^>]+>", " ", analysis_html)
+    clean_analysis = re.sub(r"\s{3,}", "\n", clean_analysis).strip()
+
+    content = f"""COMPANY: {name} ({ticker})
+
+EARNINGS ANALYSIS SUMMARY:
+{clean_analysis[:3000]}
+
+TRANSCRIPT EXCERPT:
+{transcript[:8000] if transcript else "[Not available]"}
+
+SEC FILING EXCERPT:
+{sec_filing[:4000] if sec_filing else "[Not available]"}
+"""
+    try:
+        msg = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=400,
+            system=PMI_SCORE_PROMPT,
+            messages=[{"role": "user", "content": content}]
+        )
+        raw = msg.content[0].text.strip()
+        # Strip markdown code fences if present
+        raw = re.sub(r"```json|```", "", raw).strip()
+        scores = json.loads(raw)
+        scores["ticker"] = ticker
+        scores["name"]   = name
+        scores["date"]   = date.today().isoformat()
+        print(f"   📊 PMI score: {scores.get('composite', '?')} "
+              f"(orders={scores.get('new_orders','?')} "
+              f"output={scores.get('output','?')} "
+              f"empl={scores.get('employment','?')})")
+        return scores
+    except Exception as e:
+        print(f"   ⚠️  PMI scoring error for {ticker}: {e}")
+        return {}
+
+
+# ── PMI Storage (JSON file in repo) ──────────────────────────────────────────
+PMI_FILE = "pmi_scores.json"
+
+def load_pmi_scores() -> dict:
+    """Load accumulated PMI scores from local JSON file."""
+    try:
+        if os.path.exists(PMI_FILE):
+            with open(PMI_FILE, "r") as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"   ⚠️  Could not load PMI scores: {e}")
+    return {"season": _current_season(), "scores": []}
+
+
+def save_pmi_scores(data: dict):
+    """Save PMI scores to local JSON file."""
+    try:
+        with open(PMI_FILE, "w") as f:
+            json.dump(data, f, indent=2)
+        print(f"   💾 PMI scores saved ({len(data.get('scores', []))} total)")
+    except Exception as e:
+        print(f"   ⚠️  Could not save PMI scores: {e}")
+
+
+def _current_season() -> str:
+    """Return current earnings season label e.g. 'Q1 2026'."""
+    m = date.today().month
+    if m <= 3:   q = "Q4"
+    elif m <= 6: q = "Q1"
+    elif m <= 9: q = "Q2"
+    else:        q = "Q3"
+    y = date.today().year if m > 3 else date.today().year - 1
+    return f"{q} {y}"
+
+
+def add_pmi_scores(new_scores: list[dict]):
+    """Add new company scores to the season's accumulated data."""
+    data = load_pmi_scores()
+
+    # Reset if new season
+    if data.get("season") != _current_season():
+        print(f"   🔄 New earnings season — resetting PMI scores")
+        data = {"season": _current_season(), "scores": []}
+
+    # Deduplicate: replace existing score for same ticker+date
+    existing = {(s["ticker"], s["date"]) for s in data["scores"]}
+    for score in new_scores:
+        key = (score["ticker"], score["date"])
+        if key not in existing:
+            data["scores"].append(score)
+            existing.add(key)
+
+    save_pmi_scores(data)
+    return data
+
+
+def compute_pmi_summary(data: dict) -> dict:
+    """
+    Compute season-level PMI summary statistics.
+    Returns composite PMI, sub-index averages, breadth, and sector breakdown.
+    """
+    scores = data.get("scores", [])
+    if not scores:
+        return {}
+
+    n = len(scores)
+
+    def avg(key):
+        vals = [s[key] for s in scores if key in s and s[key] is not None]
+        return round(sum(vals) / len(vals), 1) if vals else None
+
+    composites   = [s["composite"] for s in scores if "composite" in s]
+    breadth      = round(sum(1 for c in composites if c > 50) / len(composites) * 100, 1) if composites else 0
+
+    # Sector breakdown
+    sector_scores = {}
+    for s in scores:
+        sector = s.get("sector", "Unknown")
+        if sector not in sector_scores:
+            sector_scores[sector] = []
+        if "composite" in s:
+            sector_scores[sector].append(s["composite"])
+    sector_avgs = {
+        k: round(sum(v) / len(v), 1)
+        for k, v in sector_scores.items() if v
+    }
+
+    return {
+        "season":         data.get("season"),
+        "n_companies":    n,
+        "composite":      avg("composite"),
+        "breadth":        breadth,
+        "new_orders":     avg("new_orders"),
+        "output":         avg("output"),
+        "employment":     avg("employment"),
+        "prices":         avg("prices"),
+        "supply_chains":  avg("supply_chains"),
+        "demand_breadth": avg("demand_breadth"),
+        "sectors":        sector_avgs,
+        "top_signals":    [s["key_signal"] for s in scores if s.get("key_signal")][-5:],
+        "last_updated":   date.today().isoformat(),
+    }
+
+
+# ── PMI Email ─────────────────────────────────────────────────────────────────
+PMI_EMAIL_TEMPLATE = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+<style>
+  body {{ font-family: Georgia, serif; background: #f4f1ec; color: #1a1a1a; margin: 0; padding: 20px; }}
+  .wrapper {{ max-width: 680px; margin: 0 auto; background: #fffef9; border: 1px solid #ddd; border-radius: 4px; }}
+  .header {{ background: #1a1a2e; color: #e8d5b0; padding: 28px 32px; }}
+  .header h1 {{ margin: 0; font-size: 22px; letter-spacing: 2px; text-transform: uppercase; }}
+  .header p {{ margin: 6px 0 0; font-size: 13px; color: #a89880; }}
+  .body {{ padding: 24px 32px; }}
+  .pmi-gauge {{ text-align: center; padding: 24px; background: {gauge_bg}; border-radius: 8px; margin-bottom: 24px; }}
+  .pmi-number {{ font-size: 72px; font-weight: bold; color: {gauge_color}; margin: 0; line-height: 1; }}
+  .pmi-label {{ font-size: 16px; color: #555; margin-top: 8px; }}
+  .pmi-breadth {{ font-size: 14px; color: #777; margin-top: 4px; }}
+  .sub-indices {{ width: 100%; border-collapse: collapse; margin-bottom: 24px; }}
+  .sub-indices th {{ background: #f0ede4; text-align: left; padding: 8px 12px; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #666; }}
+  .sub-indices td {{ padding: 8px 12px; font-size: 14px; border-bottom: 1px solid #eee; }}
+  .bar-cell {{ width: 160px; }}
+  .bar-bg {{ background: #eee; border-radius: 4px; height: 8px; width: 100%; }}
+  .bar-fill {{ height: 8px; border-radius: 4px; }}
+  .sector-block {{ margin-bottom: 16px; }}
+  .sector-block h3 {{ font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin: 0 0 8px; }}
+  .signals {{ background: #f8f6f0; border-radius: 4px; padding: 14px 16px; font-size: 13px; line-height: 1.7; }}
+  .signals li {{ margin-bottom: 6px; }}
+  .footer {{ padding: 16px 32px; font-size: 11px; color: #999; border-top: 1px solid #eee; }}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <h1>📈 Earnings PMI</h1>
+    <p>S&P 500 Macro Breadth Indicator · {season} · {n_companies} companies</p>
+  </div>
+  <div class="body">
+    <div class="pmi-gauge">
+      <div class="pmi-number">{composite}</div>
+      <div class="pmi-label">{pmi_label}</div>
+      <div class="pmi-breadth">Breadth: {breadth}% of companies above 50 (expanding)</div>
+    </div>
+
+    <table class="sub-indices">
+      <tr>
+        <th>Sub-Index</th>
+        <th>Score</th>
+        <th class="bar-cell">vs Neutral (50)</th>
+      </tr>
+      {sub_index_rows}
+    </table>
+
+    <div class="sector-block">
+      <h3>By Sector</h3>
+      {sector_rows}
+    </div>
+
+    <div class="signals">
+      <strong>Key Macro Signals This Season:</strong>
+      <ul>
+        {signal_items}
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    Earnings PMI · {n_companies} S&P 500 companies scored · {season} · Updated {last_updated}
+  </div>
+</div>
+</body>
+</html>"""
+
+
+def _bar_html(score: float) -> str:
+    """Generate a colored progress bar for a PMI score."""
+    pct    = max(0, min(100, score))
+    color  = "#1a7a3a" if pct >= 55 else "#b91c1c" if pct <= 45 else "#c0932a"
+    return (f'<div class="bar-bg"><div class="bar-fill" '
+            f'style="width:{pct}%;background:{color}"></div></div>')
+
+
+def _pmi_label(score: float) -> str:
+    if score >= 60: return "Strong Expansion"
+    if score >= 55: return "Expansion"
+    if score >= 50: return "Modest Expansion"
+    if score >= 45: return "Modest Contraction"
+    if score >= 40: return "Contraction"
+    return "Sharp Contraction"
+
+
+def _pmi_colors(score: float) -> tuple[str, str]:
+    if score >= 55: return "#e8f5e9", "#1a7a3a"
+    if score >= 50: return "#fff8e1", "#c0932a"
+    if score >= 45: return "#fff3e0", "#e65100"
+    return "#fce4ec", "#b91c1c"
+
+
+def build_pmi_email(summary: dict) -> str:
+    composite    = summary.get("composite", 50)
+    gauge_bg, gauge_color = _pmi_colors(composite)
+
+    sub_index_rows = ""
+    for label, key in [
+        ("New Orders",     "new_orders"),
+        ("Output",         "output"),
+        ("Employment",     "employment"),
+        ("Prices",         "prices"),
+        ("Supply Chains",  "supply_chains"),
+        ("Demand Breadth", "demand_breadth"),
+    ]:
+        val = summary.get(key)
+        if val is not None:
+            color = "#1a7a3a" if val >= 55 else "#b91c1c" if val <= 45 else "#c0932a"
+            sub_index_rows += (
+                f"<tr><td>{label}</td>"
+                f"<td style='color:{color};font-weight:bold'>{val}</td>"
+                f"<td class='bar-cell'>{_bar_html(val)}</td></tr>"
+            )
+
+    sector_rows = ""
+    for sector, score in sorted(summary.get("sectors", {}).items(),
+                                 key=lambda x: x[1], reverse=True):
+        color = "#1a7a3a" if score >= 55 else "#b91c1c" if score <= 45 else "#c0932a"
+        sector_rows += (
+            f"<div style='display:flex;justify-content:space-between;"
+            f"font-size:13px;padding:4px 0;border-bottom:1px solid #eee'>"
+            f"<span>{sector}</span>"
+            f"<span style='font-weight:bold;color:{color}'>{score}</span></div>"
+        )
+
+    signal_items = "\n".join(
+        f"<li>{s}</li>"
+        for s in summary.get("top_signals", [])
+    )
+
+    return PMI_EMAIL_TEMPLATE.format(
+        season       = summary.get("season", ""),
+        n_companies  = summary.get("n_companies", 0),
+        composite    = composite,
+        pmi_label    = _pmi_label(composite),
+        breadth      = summary.get("breadth", 0),
+        gauge_bg     = gauge_bg,
+        gauge_color  = gauge_color,
+        sub_index_rows = sub_index_rows,
+        sector_rows  = sector_rows,
+        signal_items = signal_items,
+        last_updated = summary.get("last_updated", ""),
+    )
+
+
+def maybe_send_pmi_email(data: dict):
+    """
+    Send the PMI summary email on Fridays or when we have 10+ companies scored.
+    """
+    summary = compute_pmi_summary(data)
+    if not summary:
+        return
+
+    n         = summary.get("n_companies", 0)
+    is_friday = date.today().weekday() == 4
+
+    if n < 3:
+        print(f"   📊 PMI: {n} companies scored — need at least 3 to send")
+        return
+
+    if is_friday or n % 10 == 0:
+        print(f"   📊 Sending PMI summary email ({n} companies, Friday={is_friday})")
+        html    = build_pmi_email(summary)
+        subject = (f"📈 Earnings PMI: {summary.get('composite')} | "
+                   f"{summary.get('season')} | "
+                   f"Breadth {summary.get('breadth')}% | "
+                   f"{n} companies")
+        send_email(subject, html)
+    else:
+        print(f"   📊 PMI updated: {summary.get('composite')} composite, "
+              f"{summary.get('breadth')}% breadth ({n} companies)")
+
+
+
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = GMAIL_USER
@@ -638,7 +999,8 @@ def main():
         print("   No S&P 500 earnings today — skipping email.")
         return
 
-    analyses = []
+    analyses         = []
+    pmi_scores_today = []
     for company in todays:
         ticker    = company["symbol"]
         name      = company["name"]
@@ -672,21 +1034,49 @@ def main():
             continue
 
         analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing, market_cap)
-
         analyses.append(analysis)
+
+        # Score for PMI
+        pmi_score = score_earnings(ticker, name, analysis, transcript, sec_filing)
+        if pmi_score:
+            pmi_scores_today.append(pmi_score)
+
         time.sleep(1)
 
     if not analyses:
         print("   No analyses produced.")
         return
 
+    # Build PMI snapshot for bottom of daily email
+    pmi_snapshot = ""
+    existing_pmi = load_pmi_scores()
+    if existing_pmi.get("scores"):
+        summary = compute_pmi_summary(existing_pmi)
+        if summary:
+            comp   = summary.get("composite", 50)
+            _, gc  = _pmi_colors(comp)
+            pmi_snapshot = f"""
+<div style="margin-top:32px;padding:16px;background:#f8f6f0;border-radius:6px;border-top:3px solid {gc}">
+  <p style="margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#888">
+    📈 Season PMI Snapshot — {summary.get('season')} ({summary.get('n_companies')} companies)
+  </p>
+  <p style="margin:0;font-size:24px;font-weight:bold;color:{gc}">{comp}
+    <span style="font-size:14px;font-weight:normal;color:#555"> — {_pmi_label(comp)} | Breadth: {summary.get('breadth')}%</span>
+  </p>
+</div>"""
+
     full_html = EMAIL_TEMPLATE.format(
         date=date.today().strftime("%B %d, %Y"),
-        content="\n".join(analyses)
+        content="\n".join(analyses) + pmi_snapshot
     )
     subject = f"📊 Earnings Intelligence — {len(analyses)} Reports | {date.today().strftime('%b %d')}"
     send_email(subject, full_html)
     print(f"\n✅ Done — {len(analyses)} companies analyzed.")
+
+    # Save PMI scores and maybe send PMI summary email
+    if pmi_scores_today:
+        pmi_data = add_pmi_scores(pmi_scores_today)
+        maybe_send_pmi_email(pmi_data)
 
 if __name__ == "__main__":
     main()
