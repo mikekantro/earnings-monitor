@@ -191,40 +191,57 @@ def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
         )
         resp.raise_for_status()
 
-        # Response is XML — parse out speaker paragraphs
         content_type = resp.headers.get("Content-Type", "")
-        if "xml" in content_type:
-            root = ET.fromstring(resp.text)
-            paragraphs = []
-            ns = {"cs": "http://www.factset.com/callstreet/xmllayout/v0.1"}
-            # Try with namespace
-            for section in root.iter():
-                if section.tag.endswith("section"):
-                    sec_name = section.get("name", "")
-                    for speaker in section:
-                        spk_id = speaker.get("id", "")
-                        for plist in speaker:
-                            for p in plist:
-                                if p.text:
-                                    paragraphs.append(p.text.strip())
-            if paragraphs:
-                return "\n\n".join(paragraphs)[:max_chars]
+        raw = resp.text
 
-        # If JSON (URL response), fetch the URL
+        # If XML — parse out all <p> tag text regardless of namespace
+        if "xml" in content_type or raw.strip().startswith("<"):
+            try:
+                root = ET.fromstring(raw)
+                paragraphs = []
+                # Iterate all elements looking for <p> tags (with or without namespace)
+                for elem in root.iter():
+                    if elem.tag.endswith("}p") or elem.tag == "p":
+                        if elem.text and elem.text.strip():
+                            paragraphs.append(elem.text.strip())
+                if paragraphs:
+                    return "\n\n".join(paragraphs)[:max_chars]
+            except ET.ParseError:
+                pass
+            # Fallback: strip all XML tags
+            text = re.sub(r"<[^>]+>", " ", raw)
+            text = re.sub(r"\s{3,}", "\n\n", text)
+            if len(text.strip()) > 50:
+                return text[:max_chars]
+
+        # If JSON — fetch the transcriptsUrl
         try:
             json_data = resp.json()
             for item in json_data.get("data", []):
                 url = item.get("transcriptsUrl", "")
                 if url:
                     txt_resp = requests.get(url, timeout=20)
+                    # Returned URL may itself be XML
+                    if "xml" in txt_resp.headers.get("Content-Type", "") or txt_resp.text.strip().startswith("<"):
+                        try:
+                            root2 = ET.fromstring(txt_resp.text)
+                            paragraphs = []
+                            for elem in root2.iter():
+                                if elem.tag.endswith("}p") or elem.tag == "p":
+                                    if elem.text and elem.text.strip():
+                                        paragraphs.append(elem.text.strip())
+                            if paragraphs:
+                                return "\n\n".join(paragraphs)[:max_chars]
+                        except ET.ParseError:
+                            pass
                     text = re.sub(r"<[^>]+>", " ", txt_resp.text)
                     text = re.sub(r"\s{3,}", "\n\n", text)
                     return text[:max_chars]
         except Exception:
             pass
 
-        # Raw text fallback
-        text = re.sub(r"<[^>]+>", " ", resp.text)
+        # Last resort: strip tags from raw response
+        text = re.sub(r"<[^>]+>", " ", raw)
         text = re.sub(r"\s{3,}", "\n\n", text)
         return text[:max_chars]
 
@@ -233,7 +250,6 @@ def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
         return ""
 
 
-# ── SEC EDGAR: Earnings press release (8-K) ──────────────────────────────────
 def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
     """Pull the most recent 8-K or 10-Q from SEC EDGAR as a supplement."""
     headers = {"User-Agent": "EarningsMonitor mikekantro@gmail.com"}
@@ -323,7 +339,7 @@ QUARTER: {quarter}
 {sec_filing[:12_000] if sec_filing else "[Not available]"}
 """
     msg = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=1200,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": content}]
