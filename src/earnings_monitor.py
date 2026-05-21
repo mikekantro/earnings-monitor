@@ -460,42 +460,77 @@ def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
 # ── Stock price reaction ──────────────────────────────────────────────────────
 def get_price_reaction(ticker: str) -> dict:
     """
-    Fetch the stock's price reaction to earnings using Yahoo Finance.
-    Returns prev close, current/post-earnings price, and % change.
-    No API key needed.
+    Fetch the stock's true earnings reaction using Yahoo Finance quote endpoint.
+    Uses post-market price if available (evening run after earnings),
+    otherwise pre-market price (morning run after after-hours earnings).
+    Compares against the regular session close to show the real reaction.
     """
     try:
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
-        params = {
-            "interval": "1d",
-            "range":    "5d",
-        }
+        params = {"interval": "1d", "range": "2d"}
         headers = {"User-Agent": "Mozilla/5.0"}
         resp = requests.get(url, params=params, headers=headers, timeout=10)
         resp.raise_for_status()
         data   = resp.json()
         result = data["chart"]["result"][0]
-        closes = result["indicators"]["quote"][0]["close"]
-        timestamps = result["timestamp"]
+        meta   = result.get("meta", {})
+        closes = result["indicators"]["quote"][0].get("close", [])
 
-        # Filter out None values
-        valid = [(t, c) for t, c in zip(timestamps, closes) if c is not None]
-        if len(valid) < 2:
+        # Get today's actual regular session closing price from chart data
+        # (more reliable than meta.regularMarketPrice which can lag)
+        valid_closes = [c for c in closes if c is not None]
+        todays_close = valid_closes[-1] if valid_closes else None
+        prev_close   = valid_closes[-2] if len(valid_closes) >= 2 else None
+
+        post_price   = meta.get("postMarketPrice")
+        pre_price    = meta.get("preMarketPrice")
+        prev_meta    = meta.get("chartPreviousClose") or meta.get("previousClose")
+
+        # Determine the most relevant reaction price and correct base
+        # Post-market (PM reporters): reaction=post_price, base=TODAY's actual close
+        # Pre-market (AM reporters):  reaction=pre_price,  base=YESTERDAY's close
+        # Regular session fallback:   reaction=today's close, base=yesterday's close
+        reaction_price = None
+        base           = None
+        session_label  = ""
+
+        if post_price and todays_close and post_price != todays_close:
+            # Company reported after close — base is today's close
+            reaction_price = post_price
+            base           = todays_close
+            session_label  = "after-hours"
+        elif pre_price and (prev_close or prev_meta) and pre_price != (prev_close or prev_meta):
+            # Company reported pre-market or prior evening — base is yesterday's close
+            reaction_price = pre_price
+            base           = prev_close or prev_meta
+            session_label  = "pre-market"
+        elif todays_close and (prev_close or prev_meta):
+            # Regular session — day over day
+            reaction_price = todays_close
+            base           = prev_close or prev_meta
+            session_label  = "regular session"
+
+        if not reaction_price or not base:
             return {}
 
-        prev_close    = valid[-2][1]
-        latest_close  = valid[-1][1]
-        pct_change    = ((latest_close - prev_close) / prev_close) * 100
-        direction     = "▲" if pct_change >= 0 else "▼"
-        color         = "#1a7a3a" if pct_change >= 0 else "#b91c1c"
+        pct_change = ((reaction_price - base) / base) * 100
+        direction  = "▲" if pct_change >= 0 else "▼"
+        color      = "#1a7a3a" if pct_change >= 0 else "#b91c1c"
+
+        label = (
+            f"{direction} {abs(pct_change):.1f}% {session_label} "
+            f"(close ${base:.2f} → ${reaction_price:.2f})"
+        )
+        print(f"   📈 {ticker}: reg close=${base:.2f}, {session_label}=${reaction_price:.2f}, change={pct_change:.1f}%")
 
         return {
-            "prev_close":   round(prev_close, 2),
-            "latest_close": round(latest_close, 2),
-            "pct_change":   round(pct_change, 2),
-            "direction":    direction,
-            "color":        color,
-            "label":        f"{direction} {abs(pct_change):.1f}%  (${prev_close:.2f} → ${latest_close:.2f})",
+            "prev_close":     round(base, 2),
+            "latest_close":   round(reaction_price, 2),
+            "pct_change":     round(pct_change, 2),
+            "direction":      direction,
+            "color":          color,
+            "label":          label,
+            "session":        session_label,
         }
     except Exception as e:
         print(f"   ⚠️  Price data error for {ticker}: {e}")
