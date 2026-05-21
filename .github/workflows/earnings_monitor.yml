@@ -1,0 +1,36 @@
+name: S&P 500 Earnings Monitor
+
+on:
+  schedule:
+    # 8 AM ET (12 UTC) — catches pre-market reporters
+    - cron: "0 12 * * 1-5"
+    # 9 PM ET (1 AM UTC next day) — catches after-hours reporters
+    - cron: "0 1 * * 2-6"
+  workflow_dispatch:  # allows manual trigger from GitHub Actions UI
+
+jobs:
+  run-earnings-monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run earnings monitor
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS:     ${{ secrets.GMAIL_APP_PASS }}
+          EMAIL_TO:           ${{ secrets.EMAIL_TO }}
+          FACTSET_USERNAME:   ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:    ${{ secrets.FACTSET_API_KEY }}
+        run: python src/earnings_monitor.py
