@@ -73,6 +73,30 @@ SP500 = {
     "WDC","WY","WHR","WMB","WTW","WYNN","XEL","XYL","YUM","ZBRA","ZBH","ZTS"
 }
 
+# ── FactSet: Live S&P 500 constituents via Benchmarks API ────────────────────
+def get_sp500_tickers_live() -> set[str]:
+    """
+    Fetch current S&P 500 constituents from FactSet Benchmarks API.
+    GET /factset-benchmarks/v1/constituents?ids=SP50
+    Returns a set of FactSet fsymIds (e.g. 'F07Q7W-R').
+    Falls back to hardcoded SP500 set if API call fails.
+    """
+    url = "https://api.factset.com/content/factset-benchmarks/v1/constituents"
+    params = {"ids": "SP50", "currency": "USD"}
+    try:
+        resp = requests.get(url, auth=FS_AUTH, params=params, timeout=20)
+        resp.raise_for_status()
+        data = resp.json().get("data", [])
+        if data:
+            # fsymId here is the constituent security ID like 'F07Q7W-R'
+            ids = {item["fsymId"] for item in data if item.get("fsymId")}
+            print(f"   Benchmarks API: {len(ids)} S&P 500 constituents loaded")
+            return ids
+    except Exception as e:
+        print(f"   ⚠️  Benchmarks API error: {e} — using hardcoded list")
+    return set()  # Caller falls back to SP500 set
+
+
 # ── FactSet: Earnings calendar ────────────────────────────────────────────────
 def get_todays_earnings() -> list[dict]:
     """
@@ -250,8 +274,50 @@ def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
         return ""
 
 
+def _get_readable_filing_doc(cik: str, acc_no: str, headers: dict) -> str:
+    """
+    Given an accession number, find the best human-readable document
+    (HTML/HTM) from the filing index, skipping XBRL files.
+    Returns extracted plain text or empty string.
+    """
+    index_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no}/{acc_no}-index.htm"
+    try:
+        idx = requests.get(index_url, headers=headers, timeout=15).text
+    except Exception:
+        return ""
+
+    # Find all document links in the index
+    doc_links = re.findall(r'href="(/Archives/edgar/data/[^"]+\.(htm|html))"', idx, re.IGNORECASE)
+
+    for path, _ in doc_links:
+        # Skip XBRL viewer, R files, and inline XBRL
+        if any(x in path.lower() for x in ["viewer", "/r/", "xbrl", "ix?doc", "FilingSummary"]):
+            continue
+        url = f"https://www.sec.gov{path}"
+        try:
+            resp = requests.get(url, headers=headers, timeout=20)
+            text = resp.text
+            # Skip if it looks like XBRL (contains ix: namespace tags)
+            if "ix:nonNumeric" in text or "ix:nonFraction" in text or "<xbrl" in text.lower():
+                continue
+            # Strip HTML and clean up
+            text = re.sub(r"<[^>]+>", " ", text)
+            text = re.sub(r"&[a-z]+;", " ", text)
+            text = re.sub(r"\s{3,}", "\n\n", text)
+            text = text.strip()
+            if len(text) > 500:
+                return text
+        except Exception:
+            continue
+    return ""
+
+
 def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
-    """Pull the most recent 8-K or 10-Q from SEC EDGAR as a supplement."""
+    """
+    Pull the most recent 8-K earnings press release from SEC EDGAR.
+    Falls back to 10-Q/10-K if no fresh 8-K found.
+    Skips XBRL files and finds the human-readable HTML version.
+    """
     headers = {"User-Agent": "EarningsMonitor mikekantro@gmail.com"}
     try:
         tickers_data = requests.get(
@@ -266,36 +332,62 @@ def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
         if not cik:
             return ""
 
-        subs     = requests.get(
+        subs    = requests.get(
             f"https://data.sec.gov/submissions/CIK{cik}.json",
             headers=headers, timeout=15
         ).json()
-        filings  = subs.get("filings", {}).get("recent", {})
-        forms    = filings.get("form", [])
+        filings = subs.get("filings", {}).get("recent", {})
+        forms   = filings.get("form", [])
         acc_nums = filings.get("accessionNumber", [])
-        docs     = filings.get("primaryDocument", [])
-        dates    = filings.get("filingDate", [])
+        docs    = filings.get("primaryDocument", [])
+        dates   = filings.get("filingDate", [])
 
+        # Try fresh 8-K first (last 5 days)
         cutoff = (date.today() - timedelta(days=5)).isoformat()
-        target = None
+        targets = []
         for i, (form, filed) in enumerate(zip(forms, dates)):
             if form == "8-K" and filed >= cutoff:
-                target = i
+                targets.append(i)
                 break
-        if target is None:
+
+        # Fall back to most recent 10-Q or 10-K
+        if not targets:
             for i, form in enumerate(forms):
                 if form in ("10-Q", "10-K"):
-                    target = i
+                    targets.append(i)
                     break
-        if target is None:
-            return ""
 
-        acc_no = acc_nums[target].replace("-", "")
-        url    = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no}/{docs[target]}"
-        text   = requests.get(url, headers=headers, timeout=20).text
-        text   = re.sub(r"<[^>]+>", " ", text)
-        text   = re.sub(r"\s{3,}", "\n\n", text)
-        return text[:max_chars]
+        for target in targets:
+            acc_no = acc_nums[target].replace("-", "")
+            primary_doc = docs[target]
+
+            # Skip if primary doc is XBRL
+            if primary_doc.lower().endswith((".xml", ".xsd")):
+                text = _get_readable_filing_doc(cik, acc_no, headers)
+                if text:
+                    return text[:max_chars]
+                continue
+
+            url  = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no}/{primary_doc}"
+            resp = requests.get(url, headers=headers, timeout=20)
+            raw  = resp.text
+
+            # If it looks like XBRL, find the readable version instead
+            if ("ix:nonNumeric" in raw or "ix:nonFraction" in raw or
+                    raw.strip().startswith("<?xml") or "<xbrl" in raw.lower()):
+                text = _get_readable_filing_doc(cik, acc_no, headers)
+                if text:
+                    return text[:max_chars]
+                continue
+
+            text = re.sub(r"<[^>]+>", " ", raw)
+            text = re.sub(r"&[a-z]+;", " ", text)
+            text = re.sub(r"\s{3,}", "\n\n", text)
+            text = text.strip()
+            if len(text) > 500:
+                return text[:max_chars]
+
+        return ""
     except Exception as e:
         print(f"   ⚠️  SEC EDGAR error for {ticker}: {e}")
         return ""
@@ -396,6 +488,9 @@ def send_email(subject: str, html_body: str):
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print(f"🔍 Running earnings monitor for {date.today()}")
+
+    # Try to get live S&P 500 list from Benchmarks API (logged but not blocking)
+    get_sp500_tickers_live()
 
     todays = get_todays_earnings()
     print(f"   Found {len(todays)} S&P 500 earnings today")
