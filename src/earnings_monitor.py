@@ -457,127 +457,47 @@ def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
         return ""
 
 
-# ── Stock price reaction ──────────────────────────────────────────────────────
-def get_price_reaction(ticker: str) -> dict:
-    """
-    Fetch the stock's true earnings reaction using Yahoo Finance quote endpoint.
-    Uses post-market price if available (evening run after earnings),
-    otherwise pre-market price (morning run after after-hours earnings).
-    Compares against the regular session close to show the real reaction.
-    """
-    try:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
-        params = {"interval": "1d", "range": "2d"}
-        headers = {"User-Agent": "Mozilla/5.0"}
-        resp = requests.get(url, params=params, headers=headers, timeout=10)
-        resp.raise_for_status()
-        data   = resp.json()
-        result = data["chart"]["result"][0]
-        meta   = result.get("meta", {})
-        closes = result["indicators"]["quote"][0].get("close", [])
-
-        # Get today's actual regular session closing price from chart data
-        # (more reliable than meta.regularMarketPrice which can lag)
-        valid_closes = [c for c in closes if c is not None]
-        todays_close = valid_closes[-1] if valid_closes else None
-        prev_close   = valid_closes[-2] if len(valid_closes) >= 2 else None
-
-        post_price   = meta.get("postMarketPrice")
-        pre_price    = meta.get("preMarketPrice")
-        prev_meta    = meta.get("chartPreviousClose") or meta.get("previousClose")
-
-        # Determine the most relevant reaction price and correct base
-        # Post-market (PM reporters): reaction=post_price, base=TODAY's actual close
-        # Pre-market (AM reporters):  reaction=pre_price,  base=YESTERDAY's close
-        # Regular session fallback:   reaction=today's close, base=yesterday's close
-        reaction_price = None
-        base           = None
-        session_label  = ""
-
-        if post_price and todays_close and post_price != todays_close:
-            # Company reported after close — base is today's close
-            reaction_price = post_price
-            base           = todays_close
-            session_label  = "after-hours"
-        elif pre_price and (prev_close or prev_meta) and pre_price != (prev_close or prev_meta):
-            # Company reported pre-market or prior evening — base is yesterday's close
-            reaction_price = pre_price
-            base           = prev_close or prev_meta
-            session_label  = "pre-market"
-        elif todays_close and (prev_close or prev_meta):
-            # Regular session — day over day
-            reaction_price = todays_close
-            base           = prev_close or prev_meta
-            session_label  = "regular session"
-
-        if not reaction_price or not base:
-            return {}
-
-        pct_change = ((reaction_price - base) / base) * 100
-        direction  = "▲" if pct_change >= 0 else "▼"
-        color      = "#1a7a3a" if pct_change >= 0 else "#b91c1c"
-
-        label = (
-            f"{direction} {abs(pct_change):.1f}% {session_label} "
-            f"(close ${base:.2f} → ${reaction_price:.2f})"
-        )
-        print(f"   📈 {ticker}: reg close=${base:.2f}, {session_label}=${reaction_price:.2f}, change={pct_change:.1f}%")
-
-        return {
-            "prev_close":     round(base, 2),
-            "latest_close":   round(reaction_price, 2),
-            "pct_change":     round(pct_change, 2),
-            "direction":      direction,
-            "color":          color,
-            "label":          label,
-            "session":        session_label,
-        }
-    except Exception as e:
-        print(f"   ⚠️  Price data error for {ticker}: {e}")
-        return {}
-
-
-
+# ── Claude analysis ───────────────────────────────────────────────────────────
 SYSTEM_PROMPT = """You are a senior macro research analyst at a top-tier hedge fund.
 You have access to a company's earnings call transcript and SEC filings.
 
-Extract the 5 most important takeaways with emphasis on MACRO implications:
-signals about the broader economy, consumer behavior, credit conditions, supply chains,
-inflation, labor markets, interest rate sensitivity, geopolitical exposure, and sector-wide trends.
+Extract exactly 6 takeaways — the first 5 focus on macro implications, the 6th specifically covers AI:
 
 Format your response as clean HTML using this exact structure:
 
 <div class="company-block">
   <h2 class="ticker">{TICKER} — {COMPANY_NAME} | {QUARTER}</h2>
   <ol class="takeaways">
-    <li><strong>Takeaway title</strong> — Explanation with macro context. Cite specific numbers. (2-3 sentences)</li>
-    [5 total]
+    <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
+    <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
+    <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
+    <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
+    <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
+    <li class="ai-bullet"><strong>🤖 AI Impact</strong> — Did the company mention AI driving revenue, margin improvement, cost savings, or productivity gains? Quote specific claims and figures if mentioned. If AI was not meaningfully discussed, say so explicitly: "AI not a material topic this quarter."</li>
   </ol>
-  <p class="macro-signal"><em>🌐 Macro Signal:</em> One crisp sentence: the single biggest macro implication.</p>
+  <p class="macro-signal"><em>🌐 Macro Signal:</em> One crisp sentence: the single biggest macro implication from this report.</p>
 </div>
 
-Rules:
-- Cite actual figures (EPS, revenue, margins, guidance)
+Rules for the first 5 bullets:
+- Focus on macro implications: consumer behavior, credit conditions, supply chains, inflation, labor markets, interest rate sensitivity, geopolitical exposure, sector-wide trends
+- Cite actual figures (EPS, revenue, margins, guidance ranges)
 - Flag consumer trade-downs, pricing power, hiring trends, capex cuts, demand softening
 - Flag geographic shifts (China, Europe, EM) and what they signal
-- Be specific — no generic observations"""
+- Be specific — no generic observations
+
+Rules for bullet 6 (AI Impact):
+- Look for: AI-driven revenue growth, AI cost savings, margin improvement from AI, headcount reduction via AI, AI product launches, AI capex spend, competitive AI positioning
+- Quote specific numbers if given (e.g. "AI features drove $X in incremental revenue", "reduced costs by X% using AI")
+- Note whether AI discussion was substantive or just buzzword-level
+- Always include this bullet even if AI was not mentioned"""
 
 
 def analyze_earnings(ticker: str, name: str, quarter: str,
-                     transcript: str, sec_filing: str,
-                     price_reaction: dict) -> str:
-    price_str = ""
-    if price_reaction:
-        price_str = (
-            f"STOCK REACTION: {price_reaction['label']} "
-            f"(prev close ${price_reaction['prev_close']} → "
-            f"${price_reaction['latest_close']})\n\n"
-        )
-
+                     transcript: str, sec_filing: str) -> str:
     content = f"""COMPANY: {name} ({ticker})
 QUARTER: {quarter}
 
-{price_str}=== FACTSET EARNINGS CALL TRANSCRIPT ===
+=== FACTSET EARNINGS CALL TRANSCRIPT ===
 {transcript[:22_000] if transcript else "[Transcript not yet available — analyzing SEC filing only]"}
 
 === SEC FILING (8-K / 10-Q) ===
@@ -585,7 +505,7 @@ QUARTER: {quarter}
 """
     msg = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=1200,
+        max_tokens=1500,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": content}]
     )
@@ -605,9 +525,9 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
   .body {{ padding: 24px 32px; }}
   .company-block {{ border-left: 3px solid #c0932a; margin: 24px 0; padding: 0 0 0 16px; }}
   .company-block h2.ticker {{ margin: 0 0 4px; font-size: 17px; color: #1a1a2e; }}
-  .price-badge {{ display: inline-block; font-size: 13px; font-weight: bold; padding: 3px 10px; border-radius: 12px; margin-bottom: 10px; color: white; }}
   .takeaways {{ margin: 0; padding-left: 20px; }}
   .takeaways li {{ margin-bottom: 10px; font-size: 14px; line-height: 1.6; }}
+  .takeaways li.ai-bullet {{ background: #f0f4ff; border-left: 3px solid #4a6fa5; padding: 8px 12px; margin-left: -12px; border-radius: 0 4px 4px 0; list-style: none; }}
   .macro-signal {{ background: #f0ede4; border-radius: 4px; padding: 10px 14px; font-size: 13px; margin-top: 12px; }}
   .footer {{ padding: 16px 32px; font-size: 11px; color: #999; border-top: 1px solid #eee; }}
 </style>
@@ -677,29 +597,13 @@ def main():
         else:
             print(f"   ⚠️  No transcript yet — using SEC filing only")
 
-        sec_filing     = get_sec_press_release(ticker)
-        price_reaction = get_price_reaction(ticker)
-
-        if price_reaction:
-            print(f"   📈 Price reaction: {price_reaction['label']}")
-        else:
-            print(f"   ⚠️  No price data for {ticker}")
+        sec_filing = get_sec_press_release(ticker)
 
         if not transcript and not sec_filing:
             print(f"   ⚠️  No data for {ticker} — skipping.")
             continue
 
-        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing, price_reaction)
-
-        # Inject price badge directly after the <h2> tag
-        if price_reaction:
-            badge = (
-                f'<span class="price-badge" style="background:{price_reaction["color"]}">'
-                f'{price_reaction["label"]}</span>'
-            )
-            analysis = analysis.replace(
-                '</h2>', f'</h2>\n  {badge}', 1
-            )
+        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing)
 
         analyses.append(analysis)
         time.sleep(1)
