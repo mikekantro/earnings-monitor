@@ -461,14 +461,12 @@ def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
 SYSTEM_PROMPT = """You are a senior macro research analyst at a top-tier hedge fund.
 You have access to a company's earnings call transcript and SEC filings.
 
-Extract exactly 6 takeaways — the first 5 focus on macro implications, the 6th specifically covers AI:
-
 Format your response as clean HTML using this exact structure:
 
 <div class="company-block">
-  <h2 class="ticker">{TICKER} — {COMPANY_NAME} | {QUARTER}</h2>
+  <h2 class="ticker">{TICKER} — {COMPANY_NAME} | {QUARTER} | {MARKET CAP if provided}</h2>
+  <p class="company-desc"><em>{One sentence: what the company does, its primary business, and rough revenue scale. E.g. "Deere & Co. manufactures agricultural and construction equipment, generating ~$55B in annual revenue primarily from equipment sales and financing."}</em></p>
   <ol class="takeaways">
-    <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
     <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
     <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
     <li><strong>Takeaway title</strong> — Macro-focused explanation. Cite specific numbers. (2-3 sentences)</li>
@@ -478,25 +476,91 @@ Format your response as clean HTML using this exact structure:
   <p class="macro-signal"><em>🌐 Macro Signal:</em> One crisp sentence: the single biggest macro implication from this report.</p>
 </div>
 
-Rules for the first 5 bullets:
+Rules for the first 4 bullets:
 - Focus on macro implications: consumer behavior, credit conditions, supply chains, inflation, labor markets, interest rate sensitivity, geopolitical exposure, sector-wide trends
 - Cite actual figures (EPS, revenue, margins, guidance ranges)
 - Flag consumer trade-downs, pricing power, hiring trends, capex cuts, demand softening
 - Flag geographic shifts (China, Europe, EM) and what they signal
 - Be specific — no generic observations
 
-Rules for bullet 6 (AI Impact):
+Rules for bullet 5 (AI Impact):
 - Look for: AI-driven revenue growth, AI cost savings, margin improvement from AI, headcount reduction via AI, AI product launches, AI capex spend, competitive AI positioning
 - Quote specific numbers if given (e.g. "AI features drove $X in incremental revenue", "reduced costs by X% using AI")
 - Note whether AI discussion was substantive or just buzzword-level
 - Always include this bullet even if AI was not mentioned"""
 
 
+def get_market_cap(ticker: str) -> str:
+    """
+    Fetch market cap from FactSet Global Prices market-value endpoint.
+    Falls back to SEC EDGAR company facts if FactSet not available.
+    Returns a formatted string like '$3.2T' or '$45B'.
+    """
+    # Try FactSet market-value endpoint
+    try:
+        url = "https://api.factset.com/content/factset-global-prices/v1/market-value"
+        params = {"ids": f"{ticker}-US", "currency": "USD"}
+        resp = requests.get(url, auth=FS_AUTH, params=params, timeout=10)
+        if resp.status_code == 200:
+            data = resp.json().get("data", [])
+            if data and data[0].get("marketValue"):
+                mv_millions = data[0]["marketValue"]
+                return _format_market_cap(mv_millions * 1_000_000)
+    except Exception:
+        pass
+
+    # Fall back to SEC EDGAR company facts (shares * price approximation)
+    try:
+        headers = {"User-Agent": "EarningsMonitor mikekantro@gmail.com"}
+        tickers_data = requests.get(
+            "https://www.sec.gov/files/company_tickers.json",
+            headers=headers, timeout=10
+        ).json()
+        cik = None
+        for entry in tickers_data.values():
+            if entry.get("ticker", "").upper() == ticker.upper():
+                cik = str(entry["cik_str"]).zfill(10)
+                break
+        if cik:
+            facts = requests.get(
+                f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json",
+                headers=headers, timeout=15
+            ).json()
+            # Try to get shares outstanding
+            shares_facts = (facts.get("facts", {})
+                           .get("us-gaap", {})
+                           .get("CommonStockSharesOutstanding", {})
+                           .get("units", {})
+                           .get("shares", []))
+            if shares_facts:
+                latest = sorted(shares_facts, key=lambda x: x.get("end", ""))[-1]
+                shares = latest.get("val", 0)
+                if shares > 0:
+                    return f"~{_format_market_cap(shares)}  shares outstanding"
+    except Exception:
+        pass
+
+    return ""
+
+
+def _format_market_cap(value: float) -> str:
+    """Format a number into T/B/M string."""
+    if value >= 1_000_000_000_000:
+        return f"${value/1_000_000_000_000:.1f}T"
+    elif value >= 1_000_000_000:
+        return f"${value/1_000_000_000:.1f}B"
+    elif value >= 1_000_000:
+        return f"${value/1_000_000:.1f}M"
+    return f"${value:,.0f}"
+
+
 def analyze_earnings(ticker: str, name: str, quarter: str,
-                     transcript: str, sec_filing: str) -> str:
+                     transcript: str, sec_filing: str,
+                     market_cap: str = "") -> str:
+    mktcap_str = f"MARKET CAP: {market_cap}\n" if market_cap else ""
     content = f"""COMPANY: {name} ({ticker})
 QUARTER: {quarter}
-
+{mktcap_str}
 === FACTSET EARNINGS CALL TRANSCRIPT ===
 {transcript[:22_000] if transcript else "[Transcript not yet available — analyzing SEC filing only]"}
 
@@ -525,6 +589,7 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
   .body {{ padding: 24px 32px; }}
   .company-block {{ border-left: 3px solid #c0932a; margin: 24px 0; padding: 0 0 0 16px; }}
   .company-block h2.ticker {{ margin: 0 0 4px; font-size: 17px; color: #1a1a2e; }}
+  .company-desc {{ margin: 0 0 12px; font-size: 13px; color: #666; font-style: italic; }}
   .takeaways {{ margin: 0; padding-left: 20px; }}
   .takeaways li {{ margin-bottom: 10px; font-size: 14px; line-height: 1.6; }}
   .takeaways li.ai-bullet {{ background: #f0f4ff; border-left: 3px solid #4a6fa5; padding: 8px 12px; margin-left: -12px; border-radius: 0 4px 4px 0; list-style: none; }}
@@ -597,13 +662,16 @@ def main():
         else:
             print(f"   ⚠️  No transcript yet — using SEC filing only")
 
-        sec_filing = get_sec_press_release(ticker)
+        sec_filing  = get_sec_press_release(ticker)
+        market_cap  = get_market_cap(ticker)
+        if market_cap:
+            print(f"   💰 Market cap: {market_cap}")
 
         if not transcript and not sec_filing:
             print(f"   ⚠️  No data for {ticker} — skipping.")
             continue
 
-        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing)
+        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing, market_cap)
 
         analyses.append(analysis)
         time.sleep(1)
