@@ -1,7 +1,6 @@
 """
 S&P 500 Earnings Monitor — FactSet Edition
-Fetches earnings calendar + transcripts from FactSet,
-SEC filings from EDGAR, analyzes via Claude, emails digest.
+Uses FactSet Events & Transcripts API (v2) + SEC EDGAR + Claude
 """
 
 import os
@@ -10,265 +9,322 @@ import time
 import smtplib
 import requests
 import anthropic
+import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-# ── Config (set via GitHub Secrets) ─────────────────────────────────────────
-ANTHROPIC_API_KEY   = os.environ["ANTHROPIC_API_KEY"]
-GMAIL_USER          = os.environ["GMAIL_USER"]
-GMAIL_APP_PASS      = os.environ["GMAIL_APP_PASS"]
-EMAIL_TO            = os.environ.get("EMAIL_TO", GMAIL_USER)
-FACTSET_USERNAME    = os.environ["FACTSET_USERNAME"]   # e.g. COREMAC-XXXXXX
-FACTSET_API_KEY     = os.environ["FACTSET_API_KEY"]
+# ── Config ───────────────────────────────────────────────────────────────────
+ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
+GMAIL_USER        = os.environ["GMAIL_USER"]
+GMAIL_APP_PASS    = os.environ["GMAIL_APP_PASS"]
+EMAIL_TO          = os.environ.get("EMAIL_TO", GMAIL_USER)
+FACTSET_USERNAME  = os.environ["FACTSET_USERNAME"]
+FACTSET_API_KEY   = os.environ["FACTSET_API_KEY"]
 
-client   = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-FS_AUTH  = (FACTSET_USERNAME, FACTSET_API_KEY)
-FS_BASE  = "https://api.factset.com"
+client  = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+FS_AUTH = (FACTSET_USERNAME, FACTSET_API_KEY)
+FS_BASE = "https://api.factset.com/content/events/v2"
+HEADERS = {"Content-Type": "application/json", "Accept": "application/json"}
 
-# ── FactSet: S&P 500 tickers ─────────────────────────────────────────────────
-def get_sp500_tickers() -> set[str]:
+# ── S&P 500 tickers (hardcoded — update quarterly) ───────────────────────────
+SP500 = {
+    "MMM","AOS","ABT","ABBV","ACN","ADBE","AMD","AES","AFL","A","APD","ABNB",
+    "AKAM","ALB","ARE","ALGN","ALLE","LNT","ALL","GOOGL","GOOG","MO","AMZN",
+    "AMCR","AEE","AAL","AEP","AXP","AIG","AMT","AWK","AMP","AME","AMGN","APH",
+    "ADI","ANSS","AON","APA","AAPL","AMAT","APTV","ACGL","ADM","ANET","AJG",
+    "AIZ","T","ATO","ADSK","ADP","AZO","AVB","AVY","AXON","BKR","BALL","BAC",
+    "BK","BBWI","BAX","BDX","BRK.B","BBY","BIO","TECH","BIIB","BLK","BX","BA",
+    "BSX","BMY","AVGO","BR","BRO","BG","CDNS","CZR","CPT","CPB","COF","CAH",
+    "KMX","CCL","CARR","CAT","CBOE","CBRE","CDW","CE","COR","CNC","CNP","CF",
+    "CRL","SCHW","CHTR","CVX","CMG","CB","CHD","CI","CINF","CTAS","CSCO","C",
+    "CFG","CLX","CME","CMS","KO","CTSH","CL","CMCSA","CMA","CAG","COP","ED",
+    "STZ","CEG","COO","CPRT","GLW","CTVA","CSGP","COST","CTRA","CCI","CSX",
+    "CMI","CVS","DHI","DHR","DRI","DVA","DAY","DE","DAL","XRAY","DVN","DXCM",
+    "FANG","DLR","DFS","DG","DLTR","D","DPZ","DOV","DOW","DTE","DUK","DD",
+    "EMN","ETN","EBAY","ECL","EIX","EW","EA","ELV","EMR","ENPH","ETR","EOG",
+    "EPAM","EQT","EFX","EQIX","EQR","ESS","EL","ETSY","EG","EVRG","ES","EXC",
+    "EXPE","EXPD","EXR","XOM","FFIV","FDS","FICO","FAST","FRT","FDX","FIS",
+    "FITB","FSLR","FE","FI","FLT","FMC","F","FTNT","FTV","FOXA","FOX","BEN",
+    "FCX","GRMN","IT","GE","GEHC","GEV","GEN","GNRC","GD","GIS","GM","GPC",
+    "GILD","GPN","GL","GS","HAL","HIG","HAS","HCA","DOC","HSIC","HSY","HES",
+    "HPE","HLT","HOLX","HD","HON","HRL","HST","HWM","HPQ","HUBB","HUM","HBAN",
+    "HII","IBM","IEX","IDXX","ITW","INCY","IR","PODD","INTC","ICE","IFF","IP",
+    "IPG","INTU","ISRG","IVZ","INVH","IQV","IRM","JBHT","JBL","JKHY","J",
+    "JNJ","JCI","JPM","JNPR","K","KVUE","KDP","KEY","KEYS","KMB","KIM","KMI",
+    "KLAC","KHC","KR","LHX","LH","LRCX","LW","LVS","LDOS","LEN","LLY","LIN",
+    "LYV","LKQ","LMT","L","LOW","LULU","LYB","MTB","MRO","MPC","MKTX","MAR",
+    "MMC","MLM","MAS","MA","MTCH","MKC","MCD","MCK","MDT","MRK","META","MET",
+    "MTD","MGM","MCHP","MU","MSFT","MAA","MRNA","MHK","MOH","TAP","MDLZ",
+    "MPWR","MNST","MCO","MS","MOS","MSI","MSCI","NDAQ","NTAP","NFLX","NEM",
+    "NWSA","NWS","NEE","NKE","NI","NDSN","NSC","NTRS","NOC","NCLH","NRG",
+    "NUE","NVDA","NVR","NXPI","ORLY","OXY","ODFL","OMC","ON","OKE","ORCL",
+    "OTIS","PCAR","PKG","PANW","PH","PAYX","PAYC","PYPL","PNR","PEP","PFE",
+    "PCG","PM","PSX","PNW","PNC","POOL","PPG","PPL","PFG","PG","PGR","PLD",
+    "PRU","PEG","PTC","PSA","PHM","QRVO","PWR","QCOM","DGX","RL","RJF","RTX",
+    "O","REG","REGN","RF","RSG","RMD","RVTY","ROK","ROL","ROP","ROST","RCL",
+    "SPGI","CRM","SBAC","SLB","STX","SRE","NOW","SHW","SPG","SWKS","SJM","SNA",
+    "SOLV","SO","LUV","SWK","SBUX","STT","STLD","STE","SYK","SYF","SNPS","SYY",
+    "TMUS","TROW","TTWO","TPR","TRGP","TGT","TEL","TDY","TFX","TER","TSLA",
+    "TXN","TXT","TMO","TJX","TSCO","TT","TDG","TRV","TRMB","TFC","TYL","TSN",
+    "USB","UBER","UDR","ULTA","UNP","UAL","UPS","URI","UNH","UHS","VLO","VTR",
+    "VRSN","VRSK","VZ","VRTX","VLTO","VFC","VTRS","VICI","V","VST","VMC","WRB",
+    "GWW","WAB","WBA","WMT","DIS","WBD","WM","WAT","WEC","WFC","WELL","WST",
+    "WDC","WY","WHR","WMB","WTW","WYNN","XEL","XYL","YUM","ZBRA","ZBH","ZTS"
+}
+
+# ── FactSet: Earnings calendar ────────────────────────────────────────────────
+def get_todays_earnings() -> list[dict]:
     """
-    Fetch current S&P 500 constituents via FactSet Concordance / Index API.
-    Falls back to a hardcoded list of major constituents if the API call fails.
+    Fetch today's S&P 500 earnings events from FactSet Calendar Events API.
+    POST /calendar/events
     """
-    url = f"{FS_BASE}/content/index-api/v1/constituents"
-    params = {"ids": "SP50", "as_of_date": date.today().isoformat()}
-    try:
-        resp = requests.get(url, auth=FS_AUTH, params=params, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        tickers = {item["requestId"].split("-")[0]
-                   for item in data.get("data", [])}
-        if tickers:
-            return tickers
-    except Exception as e:
-        print(f"   ⚠️  Could not fetch S&P 500 from FactSet: {e}")
+    today     = date.today()
+    start_str = f"{today.isoformat()}T00:00:00Z"
+    end_str   = f"{today.isoformat()}T23:59:59Z"
 
-    # Fallback: use FactSet's security endpoint with a known index id
-    try:
-        url2 = f"{FS_BASE}/content/factset-fundamentals/v2/company-reports/index-members"
-        resp2 = requests.post(
-            url2, auth=FS_AUTH, json={"index": "SP50"}, timeout=15
-        )
-        resp2.raise_for_status()
-        return {item["ticker"] for item in resp2.json().get("data", [])}
-    except Exception as e2:
-        print(f"   ⚠️  Fallback also failed: {e2}")
-        return set()
+    # Build list of FactSet-formatted tickers (TICKER-US)
+    symbols = [f"{t}-US" for t in SP500]
 
-
-# ── FactSet: Earnings calendar ───────────────────────────────────────────────
-def get_todays_earnings(sp500_tickers: set[str]) -> list[dict]:
-    """
-    Return S&P 500 companies reporting earnings today via FactSet
-    Events & Transcripts API — calendar endpoint.
-    """
-    today = date.today().isoformat()
-    url   = f"{FS_BASE}/content/events-and-transcripts/v1/events/earnings-releases"
-    params = {
-        "startDate": today,
-        "endDate":   today,
-        "categories": "EarningsAnnouncement",
-        "_paginationLimit": 100,
-    }
-    try:
-        resp = requests.get(url, auth=FS_AUTH, params=params, timeout=15)
-        resp.raise_for_status()
-        events = resp.json().get("data", [])
-    except Exception as e:
-        print(f"   ⚠️  Could not fetch earnings calendar: {e}")
-        return []
-
+    # FactSet limits symbols per request — batch into chunks of 100
     results = []
-    for event in events:
-        ticker = event.get("ticker", "")
-        # Normalize: FactSet tickers may include exchange suffix (e.g. AAPL-US)
-        base_ticker = ticker.split("-")[0]
-        if base_ticker in sp500_tickers:
-            results.append({
-                "symbol":  base_ticker,
-                "name":    event.get("companyName", base_ticker),
-                "eventId": event.get("eventId", ""),
-                "quarter": event.get("fiscalQuarter", ""),
-                "year":    event.get("fiscalYear", ""),
-            })
-    return results
-
-
-# ── FactSet: Earnings call transcript ────────────────────────────────────────
-def get_transcript(ticker: str, event_id: str = "") -> str:
-    """
-    Fetch the most recent earnings call transcript from FactSet
-    Events & Transcripts API. Returns full transcript text.
-    """
-    # If we have an event_id from the calendar, use it directly
-    if event_id:
-        url = f"{FS_BASE}/content/events-and-transcripts/v1/transcripts/{event_id}"
+    for i in range(0, len(symbols), 100):
+        chunk = symbols[i:i+100]
+        payload = {
+            "data": {
+                "dateTime": {"start": start_str, "end": end_str},
+                "universe": {"symbols": chunk, "type": "Tickers"},
+                "eventTypes": ["Earnings", "ConfirmedEarningsRelease", "SalesRevenueCall"]
+            }
+        }
         try:
-            resp = requests.get(url, auth=FS_AUTH, timeout=20)
+            resp = requests.post(
+                f"{FS_BASE}/calendar/events",
+                auth=FS_AUTH, headers=HEADERS,
+                json=payload, timeout=20
+            )
             resp.raise_for_status()
-            data = resp.json()
-            sections = data.get("data", {}).get("transcriptSections", [])
-            return "\n\n".join(
-                f"[{s.get('speakerName', '')} — {s.get('title', '')}]\n{s.get('transcriptText', '')}"
-                for s in sections
-            )[:30_000]
+            for item in resp.json().get("data", []):
+                ticker = item.get("identifier", "").replace("-US", "")
+                if ticker in SP500:
+                    results.append({
+                        "symbol":   ticker,
+                        "name":     item.get("entityName", ticker),
+                        "eventId":  item.get("eventId", ""),
+                        "reportId": item.get("reportId", ""),
+                        "quarter":  f"Q{item.get('fiscalPeriod','')} {item.get('fiscalYear','')}".strip(),
+                        "eventType": item.get("eventType", ""),
+                    })
         except Exception as e:
-            print(f"   ⚠️  Could not fetch transcript by event ID: {e}")
+            print(f"   ⚠️  Calendar API error (chunk {i//100}): {e}")
+        time.sleep(0.3)
 
-    # Fallback: search by ticker for the most recent transcript
-    url = f"{FS_BASE}/content/events-and-transcripts/v1/transcripts"
-    params = {
-        "ids":         f"{ticker}-US",
-        "startDate":   (date.today() - timedelta(days=7)).isoformat(),
-        "endDate":     date.today().isoformat(),
-        "eventType":   "earnings",
-        "_paginationLimit": 1,
-    }
-    try:
-        resp = requests.get(url, auth=FS_AUTH, params=params, timeout=20)
-        resp.raise_for_status()
-        items = resp.json().get("data", [])
-        if not items:
-            return ""
-        transcript_id = items[0].get("transcriptId", "")
-        if not transcript_id:
-            return ""
-        detail_url = f"{FS_BASE}/content/events-and-transcripts/v1/transcripts/{transcript_id}"
-        detail = requests.get(detail_url, auth=FS_AUTH, timeout=20).json()
-        sections = detail.get("data", {}).get("transcriptSections", [])
-        return "\n\n".join(
-            f"[{s.get('speakerName', '')} — {s.get('title', '')}]\n{s.get('transcriptText', '')}"
-            for s in sections
-        )[:30_000]
-    except Exception as e:
-        print(f"   ⚠️  Could not fetch transcript for {ticker}: {e}")
-        return ""
+    # Deduplicate by symbol
+    seen = set()
+    unique = []
+    for r in results:
+        if r["symbol"] not in seen:
+            seen.add(r["symbol"])
+            unique.append(r)
+    return unique
 
 
-# ── FactSet: Estimates vs Actuals ────────────────────────────────────────────
-def get_estimates(ticker: str) -> str:
+# ── FactSet: Get transcript reportId for a ticker ────────────────────────────
+def get_transcript_report_id(ticker: str, event_id: str = "") -> str:
     """
-    Fetch consensus estimates vs. actuals from FactSet Estimates API.
-    Returns a formatted summary string for Claude to interpret.
+    Find the most recent earnings transcript reportId for this ticker.
+    POST /transcripts  (search by IDs + date range)
     """
-    url = f"{FS_BASE}/content/factset-estimates/v2/surprise"
+    today     = date.today()
+    start     = (today - timedelta(days=5)).isoformat()
+    end       = today.isoformat()
+
     payload = {
-        "ids":       [f"{ticker}-US"],
-        "metrics":   ["EPS", "SALES"],
-        "periodType": "ANN",
-        "fiscalPeriodStart": "0",
-        "fiscalPeriodEnd":   "0",
-        "currency":  "USD",
+        "data": {
+            "ids":       [f"{ticker}-US"],
+            "startDate": start,
+            "endDate":   end,
+            "eventType": "Earnings",
+            "dateType":  "uploadDateTime",
+        },
+        "meta": {"pagination": {"limit": 1, "offset": 0}}
     }
     try:
-        resp = requests.post(url, auth=FS_AUTH, json=payload, timeout=15)
+        resp = requests.post(
+            f"{FS_BASE}/transcripts",
+            auth=FS_AUTH, headers=HEADERS,
+            json=payload, timeout=15
+        )
         resp.raise_for_status()
-        items = resp.json().get("data", [])
-        if not items:
-            return ""
-        lines = ["=== CONSENSUS ESTIMATES vs ACTUALS ==="]
-        for item in items:
-            metric   = item.get("metric", "")
-            actual   = item.get("actual", "N/A")
-            estimate = item.get("mean", "N/A")
-            surprise = item.get("surprisePercent", "N/A")
-            lines.append(f"{metric}: Actual={actual} | Consensus={estimate} | Surprise={surprise}%")
-        return "\n".join(lines)
+        data = resp.json().get("data", [])
+        # Response can be list of documentResult or transcriptById wrappers
+        for item in data:
+            # Direct document result
+            if item.get("transcriptResponseType") == "documentResult":
+                return item.get("reportId", "")
+            # Wrapped by requestId
+            if item.get("transcriptResponseType") == "transcriptById":
+                docs = item.get("documents", [])
+                if docs:
+                    return docs[0].get("reportId", "")
     except Exception as e:
-        print(f"   ⚠️  Could not fetch estimates for {ticker}: {e}")
+        print(f"   ⚠️  Transcript search error for {ticker}: {e}")
+    return ""
+
+
+# ── FactSet: Download transcript content ─────────────────────────────────────
+def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
+    """
+    Download transcript XML content via GET /transcripts/response-type
+    and extract plain text from the XML structure.
+    """
+    if not report_id:
+        return ""
+    params = {
+        "reportIds": report_id,
+        "format":    "ContentXML",
+    }
+    try:
+        resp = requests.get(
+            f"{FS_BASE}/transcripts/response-type",
+            auth=FS_AUTH, params=params, timeout=30
+        )
+        resp.raise_for_status()
+
+        # Response is XML — parse out speaker paragraphs
+        content_type = resp.headers.get("Content-Type", "")
+        if "xml" in content_type:
+            root = ET.fromstring(resp.text)
+            paragraphs = []
+            ns = {"cs": "http://www.factset.com/callstreet/xmllayout/v0.1"}
+            # Try with namespace
+            for section in root.iter():
+                if section.tag.endswith("section"):
+                    sec_name = section.get("name", "")
+                    for speaker in section:
+                        spk_id = speaker.get("id", "")
+                        for plist in speaker:
+                            for p in plist:
+                                if p.text:
+                                    paragraphs.append(p.text.strip())
+            if paragraphs:
+                return "\n\n".join(paragraphs)[:max_chars]
+
+        # If JSON (URL response), fetch the URL
+        try:
+            json_data = resp.json()
+            for item in json_data.get("data", []):
+                url = item.get("transcriptsUrl", "")
+                if url:
+                    txt_resp = requests.get(url, timeout=20)
+                    text = re.sub(r"<[^>]+>", " ", txt_resp.text)
+                    text = re.sub(r"\s{3,}", "\n\n", text)
+                    return text[:max_chars]
+        except Exception:
+            pass
+
+        # Raw text fallback
+        text = re.sub(r"<[^>]+>", " ", resp.text)
+        text = re.sub(r"\s{3,}", "\n\n", text)
+        return text[:max_chars]
+
+    except Exception as e:
+        print(f"   ⚠️  Transcript download error (reportId={report_id}): {e}")
         return ""
 
 
-# ── SEC EDGAR: Filing text ────────────────────────────────────────────────────
-def get_sec_filing_text(ticker: str, max_chars: int = 25_000) -> str:
-    """
-    Pull the most recent 10-Q or 10-K text from SEC EDGAR (free, no key needed).
-    Used as a supplement to the FactSet transcript for MD&A and guidance language.
-    """
+# ── SEC EDGAR: Earnings press release (8-K) ──────────────────────────────────
+def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
+    """Pull the most recent 8-K or 10-Q from SEC EDGAR as a supplement."""
     headers = {"User-Agent": "EarningsMonitor mikekantro@gmail.com"}
     try:
-        tickers_resp = requests.get(
+        tickers_data = requests.get(
             "https://www.sec.gov/files/company_tickers.json",
             headers=headers, timeout=15
-        )
-        tickers_data = tickers_resp.json()
+        ).json()
         cik = None
         for entry in tickers_data.values():
             if entry.get("ticker", "").upper() == ticker.upper():
                 cik = str(entry["cik_str"]).zfill(10)
                 break
         if not cik:
-            return f"[Could not resolve CIK for {ticker}]"
+            return ""
 
-        subs = requests.get(
+        subs     = requests.get(
             f"https://data.sec.gov/submissions/CIK{cik}.json",
             headers=headers, timeout=15
         ).json()
-        filings   = subs.get("filings", {}).get("recent", {})
-        forms     = filings.get("form", [])
-        acc_nums  = filings.get("accessionNumber", [])
-        docs      = filings.get("primaryDocument", [])
+        filings  = subs.get("filings", {}).get("recent", {})
+        forms    = filings.get("form", [])
+        acc_nums = filings.get("accessionNumber", [])
+        docs     = filings.get("primaryDocument", [])
+        dates    = filings.get("filingDate", [])
 
-        target = next((i for i, f in enumerate(forms) if f in ("10-Q", "10-K")), None)
+        cutoff = (date.today() - timedelta(days=5)).isoformat()
+        target = None
+        for i, (form, filed) in enumerate(zip(forms, dates)):
+            if form == "8-K" and filed >= cutoff:
+                target = i
+                break
         if target is None:
-            return f"[No 10-Q/10-K found for {ticker}]"
+            for i, form in enumerate(forms):
+                if form in ("10-Q", "10-K"):
+                    target = i
+                    break
+        if target is None:
+            return ""
 
         acc_no = acc_nums[target].replace("-", "")
-        doc    = docs[target]
-        url    = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no}/{doc}"
+        url    = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no}/{docs[target]}"
         text   = requests.get(url, headers=headers, timeout=20).text
         text   = re.sub(r"<[^>]+>", " ", text)
         text   = re.sub(r"\s{3,}", "\n\n", text)
         return text[:max_chars]
     except Exception as e:
-        return f"[SEC EDGAR error for {ticker}: {e}]"
+        print(f"   ⚠️  SEC EDGAR error for {ticker}: {e}")
+        return ""
 
 
 # ── Claude analysis ───────────────────────────────────────────────────────────
 SYSTEM_PROMPT = """You are a senior macro research analyst at a top-tier hedge fund.
-You have access to a company's earnings call transcript, SEC filing, and consensus estimates vs actuals.
+You have access to a company's earnings call transcript and SEC filings.
 
 Extract the 5 most important takeaways with emphasis on MACRO implications:
 signals about the broader economy, consumer behavior, credit conditions, supply chains,
 inflation, labor markets, interest rate sensitivity, geopolitical exposure, and sector-wide trends.
 
-Format your response as clean HTML for an email digest using this exact structure:
+Format your response as clean HTML using this exact structure:
 
 <div class="company-block">
   <h2 class="ticker">{TICKER} — {COMPANY_NAME} | {QUARTER}</h2>
   <ol class="takeaways">
-    <li><strong>Takeaway title</strong> — Explanation with macro context. What does this tell us about the broader economy? Cite specific numbers. (2-3 sentences)</li>
+    <li><strong>Takeaway title</strong> — Explanation with macro context. Cite specific numbers. (2-3 sentences)</li>
     [5 total]
   </ol>
-  <p class="macro-signal"><em>🌐 Macro Signal:</em> One crisp sentence: the single biggest macro implication from this report.</p>
+  <p class="macro-signal"><em>🌐 Macro Signal:</em> One crisp sentence: the single biggest macro implication.</p>
 </div>
 
 Rules:
-- Cite actual figures (EPS beats/misses, revenue growth rates, margin changes, guidance ranges)
-- Prioritize signals that cut across the whole sector or economy, not just this company
-- Note any language about consumer trade-downs, pricing power, hiring freezes, capex cuts, or demand softening
-- Flag any geographic exposure shifts (China, Europe, EM) and what they signal
-- Be direct and specific — no generic observations"""
+- Cite actual figures (EPS, revenue, margins, guidance)
+- Flag consumer trade-downs, pricing power, hiring trends, capex cuts, demand softening
+- Flag geographic shifts (China, Europe, EM) and what they signal
+- Be specific — no generic observations"""
 
 
 def analyze_earnings(ticker: str, name: str, quarter: str,
-                     transcript: str, filing: str, estimates: str) -> str:
+                     transcript: str, sec_filing: str) -> str:
     content = f"""COMPANY: {name} ({ticker})
 QUARTER: {quarter}
 
-{estimates}
+=== FACTSET EARNINGS CALL TRANSCRIPT ===
+{transcript[:22_000] if transcript else "[Transcript not yet available — analyzing SEC filing only]"}
 
-=== EARNINGS CALL TRANSCRIPT ===
-{transcript[:20_000]}
-
-=== SEC FILING EXCERPT (MD&A / Forward Guidance) ===
-{filing[:15_000]}
+=== SEC FILING (8-K / 10-Q) ===
+{sec_filing[:12_000] if sec_filing else "[Not available]"}
 """
     msg = client.messages.create(
-        model="claude-opus-4-5",
-        max_tokens=1500,
+        model="claude-sonnet-4-20250514",
+        max_tokens=1200,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": content}]
     )
@@ -298,11 +354,11 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
 <div class="wrapper">
   <div class="header">
     <h1>📊 Earnings Intelligence</h1>
-    <p>S&P 500 · {date} · Macro-Focused Digest · Powered by FactSet + Claude</p>
+    <p>S&P 500 · {date} · Macro-Focused Digest · FactSet + Claude</p>
   </div>
   <div class="body">{content}</div>
   <div class="footer">
-    Sources: FactSet Events &amp; Transcripts API, FactSet Estimates API, SEC EDGAR filings. Analyzed by Claude.
+    Sources: FactSet Events &amp; Transcripts API v2, SEC EDGAR. Analyzed by Claude.
   </div>
 </div>
 </body>
@@ -325,10 +381,7 @@ def send_email(subject: str, html_body: str):
 def main():
     print(f"🔍 Running earnings monitor for {date.today()}")
 
-    sp500   = get_sp500_tickers()
-    print(f"   Loaded {len(sp500)} S&P 500 tickers")
-
-    todays  = get_todays_earnings(sp500)
+    todays = get_todays_earnings()
     print(f"   Found {len(todays)} S&P 500 earnings today")
 
     if not todays:
@@ -339,22 +392,32 @@ def main():
     for company in todays:
         ticker   = company["symbol"]
         name     = company["name"]
-        q        = company.get("quarter", "")
-        yr       = company.get("year", "")
-        quarter  = f"Q{q} {yr}" if q and yr else f"Q{((date.today().month-1)//3)+1} {date.today().year}"
-        event_id = company.get("eventId", "")
+        quarter  = company.get("quarter") or f"Q{((date.today().month-1)//3)+1} {date.today().year}"
+        report_id = company.get("reportId", "")
 
         print(f"\n   Processing {ticker} ({name})...")
 
-        transcript = get_transcript(ticker, event_id)
-        estimates  = get_estimates(ticker)
-        filing     = get_sec_filing_text(ticker)
+        # Get transcript — try reportId from calendar first, then search
+        transcript = ""
+        if report_id:
+            transcript = get_transcript_text(report_id)
+        if not transcript:
+            found_id = get_transcript_report_id(ticker)
+            if found_id:
+                transcript = get_transcript_text(found_id)
 
-        if not transcript and filing.startswith("["):
+        if transcript:
+            print(f"   ✅ Got transcript ({len(transcript)} chars)")
+        else:
+            print(f"   ⚠️  No transcript yet — using SEC filing only")
+
+        sec_filing = get_sec_press_release(ticker)
+
+        if not transcript and not sec_filing:
             print(f"   ⚠️  No data for {ticker} — skipping.")
             continue
 
-        analysis = analyze_earnings(ticker, name, quarter, transcript, filing, estimates)
+        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing)
         analyses.append(analysis)
         time.sleep(1)
 
@@ -368,7 +431,7 @@ def main():
     )
     subject = f"📊 Earnings Intelligence — {len(analyses)} Reports | {date.today().strftime('%b %d')}"
     send_email(subject, full_html)
-
+    print(f"\n✅ Done — {len(analyses)} companies analyzed.")
 
 if __name__ == "__main__":
     main()
