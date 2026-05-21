@@ -104,7 +104,7 @@ def get_todays_earnings() -> list[dict]:
     POST /calendar/events
     """
     today     = date.today()
-    start_str = f"{today.isoformat()}T00:00:00Z"
+    start_str = f"{(today - timedelta(days=1)).isoformat()}T00:00:00Z"
     end_str   = f"{today.isoformat()}T23:59:59Z"
 
     # Build list of FactSet-formatted tickers (TICKER-US)
@@ -156,44 +156,92 @@ def get_todays_earnings() -> list[dict]:
 # ── FactSet: Get transcript reportId for a ticker ────────────────────────────
 def get_transcript_report_id(ticker: str, event_id: str = "") -> str:
     """
-    Find the most recent earnings transcript reportId for this ticker.
-    POST /transcripts  (search by IDs + date range)
+    Find the earnings CALL transcript reportId for this ticker.
+    Tries two approaches:
+    1. Search by eventId (most precise — pins to exact event)
+    2. Search by ticker + date range for any Earnings transcript
+    Returns the reportId of the best match (preferring CorrectedTranscript > RawTranscript).
     """
-    today     = date.today()
-    start     = (today - timedelta(days=5)).isoformat()
-    end       = today.isoformat()
+    today = date.today()
+    start = (today - timedelta(days=2)).isoformat()
+    end   = today.isoformat()
 
-    payload = {
-        "data": {
-            "ids":       [f"{ticker}-US"],
-            "startDate": start,
-            "endDate":   end,
-            "eventType": "Earnings",
-            "dateType":  "uploadDateTime",
-        },
-        "meta": {"pagination": {"limit": 1, "offset": 0}}
-    }
-    try:
-        resp = requests.post(
-            f"{FS_BASE}/transcripts",
-            auth=FS_AUTH, headers=HEADERS,
-            json=payload, timeout=15
-        )
-        resp.raise_for_status()
-        data = resp.json().get("data", [])
-        # Response can be list of documentResult or transcriptById wrappers
-        for item in data:
-            # Direct document result
-            if item.get("transcriptResponseType") == "documentResult":
-                return item.get("reportId", "")
-            # Wrapped by requestId
-            if item.get("transcriptResponseType") == "transcriptById":
-                docs = item.get("documents", [])
-                if docs:
-                    return docs[0].get("reportId", "")
-    except Exception as e:
-        print(f"   ⚠️  Transcript search error for {ticker}: {e}")
+    # Approach 1: search by eventId if we have it
+    if event_id:
+        payload = {
+            "data": {"eventIds": [event_id], "eventType": "Earnings"},
+            "meta": {"pagination": {"limit": 5, "offset": 0},
+                     "sort": ["-storyDateTime"]}
+        }
+        try:
+            resp = requests.post(
+                f"{FS_BASE}/transcripts",
+                auth=FS_AUTH, headers=HEADERS,
+                json=payload, timeout=15
+            )
+            resp.raise_for_status()
+            report_id = _best_report_id(resp.json().get("data", []))
+            if report_id:
+                print(f"   📋 Found transcript via eventId ({event_id}): reportId={report_id}")
+                return report_id
+        except Exception as e:
+            print(f"   ⚠️  Transcript search by eventId error: {e}")
+
+    # Approach 2: search by ticker + date range
+    for event_type in ["Earnings", "Guidance", "SalesRevenue"]:
+        payload = {
+            "data": {
+                "ids":       [f"{ticker}-US"],
+                "startDate": start,
+                "endDate":   end,
+                "eventType": event_type,
+                "dateType":  "uploadDateTime",
+            },
+            "meta": {"pagination": {"limit": 5, "offset": 0},
+                     "sort": ["-storyDateTime"]}
+        }
+        try:
+            resp = requests.post(
+                f"{FS_BASE}/transcripts",
+                auth=FS_AUTH, headers=HEADERS,
+                json=payload, timeout=15
+            )
+            resp.raise_for_status()
+            report_id = _best_report_id(resp.json().get("data", []))
+            if report_id:
+                print(f"   📋 Found transcript via ticker search ({event_type}): reportId={report_id}")
+                return report_id
+        except Exception as e:
+            print(f"   ⚠️  Transcript search error for {ticker} ({event_type}): {e}")
+
     return ""
+
+
+def _best_report_id(data: list) -> str:
+    """
+    From a list of transcript search results, return the reportId of the
+    best match — preferring CorrectedTranscript > RawTranscript > NearRealTime.
+    """
+    priority = {"Corrected": 0, "Raw": 1, "NearRealTime": 2}
+    best_id    = ""
+    best_score = 99
+
+    for item in data:
+        docs = []
+        if item.get("transcriptResponseType") == "documentResult":
+            docs = [item]
+        elif item.get("transcriptResponseType") == "transcriptById":
+            docs = item.get("documents", [])
+
+        for doc in docs:
+            t_type  = doc.get("transcriptType", "")
+            score   = priority.get(t_type, 5)
+            r_id    = doc.get("reportId", "")
+            if r_id and score < best_score:
+                best_score = score
+                best_id    = r_id
+
+    return best_id
 
 
 # ── FactSet: Download transcript content ─────────────────────────────────────
@@ -239,6 +287,10 @@ def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
 
         # If XML response — parse directly
         if "xml" in content_type or raw.strip().startswith("<"):
+            # Empty collection = transcript not posted yet
+            if raw.strip() in ("<TranscriptsCollection/>", "<TranscriptsCollection />"):
+                print(f"   ⏳ Transcript not yet available for reportId={report_id}")
+                return ""
             text = extract_text_from_xml(raw)
             if text and len(text) > 50:
                 return text[:max_chars]
@@ -247,6 +299,7 @@ def get_transcript_text(report_id: str, max_chars: int = 30_000) -> str:
             text = re.sub(r"\s{3,}", "\n\n", text).strip()
             if len(text) > 50:
                 return text[:max_chars]
+            return ""
 
         # If JSON — response contains a URL to the actual transcript
         try:
@@ -404,7 +457,52 @@ def get_sec_press_release(ticker: str, max_chars: int = 20_000) -> str:
         return ""
 
 
-# ── Claude analysis ───────────────────────────────────────────────────────────
+# ── Stock price reaction ──────────────────────────────────────────────────────
+def get_price_reaction(ticker: str) -> dict:
+    """
+    Fetch the stock's price reaction to earnings using Yahoo Finance.
+    Returns prev close, current/post-earnings price, and % change.
+    No API key needed.
+    """
+    try:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+        params = {
+            "interval": "1d",
+            "range":    "5d",
+        }
+        headers = {"User-Agent": "Mozilla/5.0"}
+        resp = requests.get(url, params=params, headers=headers, timeout=10)
+        resp.raise_for_status()
+        data   = resp.json()
+        result = data["chart"]["result"][0]
+        closes = result["indicators"]["quote"][0]["close"]
+        timestamps = result["timestamp"]
+
+        # Filter out None values
+        valid = [(t, c) for t, c in zip(timestamps, closes) if c is not None]
+        if len(valid) < 2:
+            return {}
+
+        prev_close    = valid[-2][1]
+        latest_close  = valid[-1][1]
+        pct_change    = ((latest_close - prev_close) / prev_close) * 100
+        direction     = "▲" if pct_change >= 0 else "▼"
+        color         = "#1a7a3a" if pct_change >= 0 else "#b91c1c"
+
+        return {
+            "prev_close":   round(prev_close, 2),
+            "latest_close": round(latest_close, 2),
+            "pct_change":   round(pct_change, 2),
+            "direction":    direction,
+            "color":        color,
+            "label":        f"{direction} {abs(pct_change):.1f}%  (${prev_close:.2f} → ${latest_close:.2f})",
+        }
+    except Exception as e:
+        print(f"   ⚠️  Price data error for {ticker}: {e}")
+        return {}
+
+
+
 SYSTEM_PROMPT = """You are a senior macro research analyst at a top-tier hedge fund.
 You have access to a company's earnings call transcript and SEC filings.
 
@@ -431,11 +529,20 @@ Rules:
 
 
 def analyze_earnings(ticker: str, name: str, quarter: str,
-                     transcript: str, sec_filing: str) -> str:
+                     transcript: str, sec_filing: str,
+                     price_reaction: dict) -> str:
+    price_str = ""
+    if price_reaction:
+        price_str = (
+            f"STOCK REACTION: {price_reaction['label']} "
+            f"(prev close ${price_reaction['prev_close']} → "
+            f"${price_reaction['latest_close']})\n\n"
+        )
+
     content = f"""COMPANY: {name} ({ticker})
 QUARTER: {quarter}
 
-=== FACTSET EARNINGS CALL TRANSCRIPT ===
+{price_str}=== FACTSET EARNINGS CALL TRANSCRIPT ===
 {transcript[:22_000] if transcript else "[Transcript not yet available — analyzing SEC filing only]"}
 
 === SEC FILING (8-K / 10-Q) ===
@@ -462,7 +569,8 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
   .header p {{ margin: 6px 0 0; font-size: 13px; color: #a89880; }}
   .body {{ padding: 24px 32px; }}
   .company-block {{ border-left: 3px solid #c0932a; margin: 24px 0; padding: 0 0 0 16px; }}
-  .company-block h2.ticker {{ margin: 0 0 12px; font-size: 17px; color: #1a1a2e; }}
+  .company-block h2.ticker {{ margin: 0 0 4px; font-size: 17px; color: #1a1a2e; }}
+  .price-badge {{ display: inline-block; font-size: 13px; font-weight: bold; padding: 3px 10px; border-radius: 12px; margin-bottom: 10px; color: white; }}
   .takeaways {{ margin: 0; padding-left: 20px; }}
   .takeaways li {{ margin-bottom: 10px; font-size: 14px; line-height: 1.6; }}
   .macro-signal {{ background: #f0ede4; border-radius: 4px; padding: 10px 14px; font-size: 13px; margin-top: 12px; }}
@@ -512,19 +620,20 @@ def main():
 
     analyses = []
     for company in todays:
-        ticker   = company["symbol"]
-        name     = company["name"]
-        quarter  = company.get("quarter") or f"Q{((date.today().month-1)//3)+1} {date.today().year}"
+        ticker    = company["symbol"]
+        name      = company["name"]
+        quarter   = company.get("quarter") or f"Q{((date.today().month-1)//3)+1} {date.today().year}"
         report_id = company.get("reportId", "")
+        event_id  = company.get("eventId", "")
 
         print(f"\n   Processing {ticker} ({name})...")
 
-        # Get transcript — try reportId from calendar first, then search
+        # Get transcript — try reportId from calendar first, then search by eventId/ticker
         transcript = ""
         if report_id:
             transcript = get_transcript_text(report_id)
         if not transcript:
-            found_id = get_transcript_report_id(ticker)
+            found_id = get_transcript_report_id(ticker, event_id)
             if found_id:
                 transcript = get_transcript_text(found_id)
 
@@ -533,13 +642,30 @@ def main():
         else:
             print(f"   ⚠️  No transcript yet — using SEC filing only")
 
-        sec_filing = get_sec_press_release(ticker)
+        sec_filing     = get_sec_press_release(ticker)
+        price_reaction = get_price_reaction(ticker)
+
+        if price_reaction:
+            print(f"   📈 Price reaction: {price_reaction['label']}")
+        else:
+            print(f"   ⚠️  No price data for {ticker}")
 
         if not transcript and not sec_filing:
             print(f"   ⚠️  No data for {ticker} — skipping.")
             continue
 
-        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing)
+        analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing, price_reaction)
+
+        # Inject price badge directly after the <h2> tag
+        if price_reaction:
+            badge = (
+                f'<span class="price-badge" style="background:{price_reaction["color"]}">'
+                f'{price_reaction["label"]}</span>'
+            )
+            analysis = analysis.replace(
+                '</h2>', f'</h2>\n  {badge}', 1
+            )
+
         analyses.append(analysis)
         time.sleep(1)
 
