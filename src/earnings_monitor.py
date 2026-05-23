@@ -537,7 +537,8 @@ def get_market_cap(ticker: str) -> str:
                 latest = sorted(shares_facts, key=lambda x: x.get("end", ""))[-1]
                 shares = latest.get("val", 0)
                 if shares > 0:
-                    return f"~{_format_market_cap(shares)}  shares outstanding"
+                    # Don't show shares as market cap — too misleading without price
+                    return ""
     except Exception:
         pass
 
@@ -973,7 +974,7 @@ def maybe_send_pmi_email(data: dict):
               f"{summary.get('breadth')}% breadth ({n} companies)")
 
 
-
+def send_email(subject: str, html_body: str):
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = GMAIL_USER
