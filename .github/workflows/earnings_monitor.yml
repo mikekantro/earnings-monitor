@@ -8,6 +8,9 @@ on:
     - cron: "0 1 * * 2-6"
   workflow_dispatch:  # allows manual trigger from GitHub Actions UI
 
+permissions:
+  contents: write
+
 jobs:
   run-earnings-monitor:
     runs-on: ubuntu-latest
@@ -34,3 +37,12 @@ jobs:
           FACTSET_USERNAME:   ${{ secrets.FACTSET_USERNAME }}
           FACTSET_API_KEY:    ${{ secrets.FACTSET_API_KEY }}
         run: python src/earnings_monitor.py
+
+      - name: Commit updated data files
+        if: always()
+        run: |
+          git config user.name  "earnings-monitor-bot"
+          git config user.email "actions@github.com"
+          git add pmi_scores.json ai_highlights.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Data update $(date -u +%F)"
+          git push

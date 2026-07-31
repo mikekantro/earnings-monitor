@@ -1,0 +1,356 @@
+{
+ "highlights": [
+  {
+   "ticker": "WY",
+   "company": "Weyerhaeuser Co.",
+   "category": "efficiency",
+   "headline": "Weyerhaeuser has multiple AI projects underway as part of $180M enterprise initiatives, beginning to see financial benefits.",
+   "quote": "We've got a lot of activity going on, on the AI front. We're starting \u2013 I mean, we're in the early stages of some of these things. We're starting to see a little bit of the money flow in from that.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "BEN",
+   "company": "Franklin Resources, Inc.",
+   "category": "revenue",
+   "headline": "Franklin Templeton's AI-powered intelligence hub with Microsoft drove 25% more client contacts and 11% sales uplift in distribution.",
+   "quote": "we have seen that in the territories, which it's pretty broadly rolled out now, a 25% increase in the number of clients that they're able to visit or contact and about a little over 11% uplift in sales",
+   "metric": "25% more client contacts, 11% sales uplift",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "LYV",
+   "company": "Live Nation Entertainment, Inc.",
+   "category": "efficiency",
+   "headline": "Live Nation uses AI to power Ticketmaster coding/development, event discovery, and fan experience in app",
+   "quote": "we're using AI to help power our coding and development at Ticketmaster, and then we're also looking to integrate it more in the direct fan experience",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "SYK",
+   "company": "Stryker Corp.",
+   "category": "product",
+   "headline": "Stryker's SmartCare business (Vocera + care.ai) embeds AI in hospital communications products sold to customers.",
+   "quote": "Capital demand also remains elevated, as evidenced by an increased backlog and strong orders as we exited the quarter, including ProCuity beds and our SmartCare business, which includes Vocera and care.ai.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "AVY",
+   "company": "Avery Dennison Corp.",
+   "category": "efficiency",
+   "headline": "Avery Dennison uses AI internally for efficiency, innovation acceleration, and solving customer problems to drive growth.",
+   "quote": "we're seeing that both as a driver for efficiency internally in productivity, a driver to help us accelerate innovation outcomes quicker, and then also to help us solve customer problems",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "VTR",
+   "company": "Ventas, Inc.",
+   "category": "efficiency",
+   "headline": "Ventas is positioning an AI-ready tech stack within its Ventas OI platform to improve execution of operating insights across its SHOP portfolio.",
+   "quote": "we are positioning our AI-ready tech stack to improve the execution of our insights.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "AOS",
+   "company": "A. O. Smith Corp.",
+   "category": "efficiency",
+   "headline": "A. O. Smith deploying AI tools across order management, warranty processing, and technical service for productivity and customer experience gains.",
+   "quote": "deploying AI tools across order management, warranty processing, technical service... we see the reality is having a meaningful impact on both things like customer experience and our productivity",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "LH",
+   "company": "Labcorp Holdings, Inc.",
+   "category": "revenue",
+   "headline": "Labcorp's AI-powered MyLabcorp app downloaded by millions, letting patients schedule, view results, and gain health insights via AI.",
+   "quote": "our recently launched AI-powered app, MyLabcorp has already begun to be downloaded by millions of consumers. The app allows patients to schedule appointments, to view their test results, and to gain deeper insights into their health using AI.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "NCLH",
+   "company": "Norwegian Cruise Line Holdings Ltd.",
+   "category": "efficiency",
+   "headline": "NCLH using AI-based initiatives among cost-saving efforts targeting $225M in annualized savings",
+   "quote": "we have lots of tests underway, whether it's AI-based, whether it's offshoring. So, no, I think there's plenty more we can do on that.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "LHX",
+   "company": "L3Harris Technologies, Inc.",
+   "category": "efficiency",
+   "headline": "L3Harris deploys AI in new GMLRS missile factory to improve manufacturing yields and reduce cost.",
+   "quote": "automated mixing, casting, curing, X-ray inspection cells, all with AI overlaid improving yields and reducing cost.",
+   "metric": "manufacturing times reduced by 50%, capacity more than doubled",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "FICO",
+   "company": "Fair Isaac Corp.",
+   "category": "product",
+   "headline": "FICO sells AI-powered decisioning platform to financial services enterprises, embedding AI for fraud, credit, and real-time decisions.",
+   "quote": "Customers are answering this challenge by integrating FICO Platform, the world's leading AI decisioning platform for the financial services industry, into their enterprise architecture",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com, Inc.",
+   "category": "product",
+   "headline": "Amazon sells AI services via AWS including Bedrock, SageMaker, AgentCore, Kiro, Quick, and Continuum with $25B+ AI revenue run rate.",
+   "quote": "Our AI revenue run rate climbed significantly quarter-over-quarter and is now also over $25 billion, growing triple-digit percentages year-over-year.",
+   "metric": "$25B+ AI revenue run rate, triple-digit % YoY growth",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "PSA",
+   "company": "Public Storage",
+   "category": "revenue",
+   "headline": "Public Storage's AI agent 'Ellie' has handled 90,000+ customer interactions, resolving needs using proprietary data and AI models.",
+   "quote": "Ellie, our AI-powered customer service agent, which has already handled more than 90,000 customer interactions in recent months and continues to improve with every conversation.",
+   "metric": "90,000+ customer interactions",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "META",
+   "company": "Meta Platforms, Inc.",
+   "category": "revenue",
+   "headline": "Meta uses LLMs to improve ad relevance and conversions on Facebook and Instagram, driving faster ad revenue growth",
+   "quote": "we're using LLMs to improve how our systems predict and rank the ads that we show...driving significant increases in relevance and conversions on both Facebook and Instagram",
+   "metric": "60% increase in daily Meta AI assistant interactions after Muse Spark integration",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CVX",
+   "company": "Chevron Corp.",
+   "category": "efficiency",
+   "headline": "Chevron mentions using AI alongside advanced chemicals and simulation technologies to improve Permian Basin production efficiency.",
+   "quote": "we've talked about AI and there's a lot of interesting things going on with AI. We maybe haven't talked as much about simulation technologies, but we're working on, both incremental and potentially novel, improvements to stimulation.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CL",
+   "company": "Colgate-Palmolive Co.",
+   "category": "efficiency",
+   "headline": "Colgate-Palmolive scaling promo AI tools globally to support revenue growth management and gross margin.",
+   "quote": "Our promo AI tools are being scaled around the world. We're seeing benefits from that.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "TROW",
+   "company": "T. Rowe Price Group, Inc.",
+   "category": "efficiency",
+   "headline": "T. Rowe Price has 130+ AI solutions deployed firm-wide with over 70% associate adoption, covering investment research, sales, and client workflows.",
+   "quote": "more than 130 AI solutions deployed across the firm and over 70% associate adoption.",
+   "metric": "130+ AI solutions, 70%+ associate adoption",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "AJG",
+   "company": "Arthur J. Gallagher & Co.",
+   "category": "efficiency",
+   "headline": "Gallagher Bassett uses AI and machine learning to improve claims service, outcomes, and operating efficiencies.",
+   "quote": "The team continues to broaden its capabilities and put data, AI, and machine learning to work in very practical ways to improve service, drive better claims outcomes and create further operating efficiencies.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "XEL",
+   "company": "Xcel Energy, Inc.",
+   "category": "efficiency",
+   "headline": "Xcel Energy deployed 50+ AI-enabled cameras in Colorado for wildfire situational awareness and early detection.",
+   "quote": "we have, over the course of the last year, installed over 50 AI-enabled cameras to help not only our situational awareness, but real response to the Offices of Management at the city and the county levels",
+   "metric": "50+ AI-enabled cameras",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "HII",
+   "company": "Huntington Ingalls Industries, Inc.",
+   "category": "product",
+   "headline": "HII partnered with Applied Intuition to develop and integrate AI capabilities for next-generation naval platforms in manned-unmanned teaming.",
+   "quote": "we recently announced our partnership with Applied Intuition to develop and integrate AI to find capabilities for next generation naval platforms in maritime manned unmanned teaming.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "WTW",
+   "company": "Willis Towers Watson Plc",
+   "category": "efficiency",
+   "headline": "WTW launches 'Propel' AI acceleration plan targeting $400M run-rate savings by 2028 via AI tools across broking, benefits, and enterprise functions",
+   "quote": "We expect to capture efficiencies and generate approximately $400 million in run rate savings through an investment of approximately $625 million",
+   "metric": "$400M run-rate savings, $350M net run-rate savings, ~30% adj. operating margin by 2028",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "ICE",
+   "company": "Intercontinental Exchange, Inc.",
+   "category": "product",
+   "headline": "ICE launched an MCP server delivering proprietary data into clients' AI workflows, with audit trail and governance for regulated markets.",
+   "quote": "Our newly expanded ICE MCP offering now offers ICE's proprietary data into our clients' AI workflows. And we didn't simply build an open data pipe. We built a client engagement channel that runs both ways.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "TYL",
+   "company": "Tyler Technologies, Inc.",
+   "category": "product",
+   "headline": "Tyler Technologies embeds AI features in its government software products, gating them to cloud-only deployments to drive migrations.",
+   "quote": "AI functionality that will be solely available in our cloud release.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "MSFT",
+   "company": "Microsoft Corp.",
+   "category": "product",
+   "headline": "Microsoft embeds AI across its product stack\u2014Copilot, GitHub, Dynamics, Security\u2014with 30M+ paid M365 Copilot seats",
+   "quote": "we now have over 30 million paid Microsoft 365 Copilot seats, with net seat adds more than doubling quarter-over-quarter.",
+   "metric": "30M+ paid Microsoft 365 Copilot seats; seat adds more than doubled QoQ",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CHD",
+   "company": "Church & Dwight Co., Inc.",
+   "category": "efficiency",
+   "headline": "Church & Dwight pulling forward AI initiatives to scale faster and improve speed and agility",
+   "quote": "we've also started to spend money behind AI. And there's some initiatives we have in place where, we're going to pull some of those forward as an example so that we can scale faster.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "AAPL",
+   "company": "Apple, Inc.",
+   "category": "product",
+   "headline": "Apple embeds AI (Apple Intelligence, Siri AI, Live Translation) across iPhone, Mac, iPad, and AirPods product lines.",
+   "quote": "We were tremendously excited to unveil the all-new Siri AI, a completely reimagined version of Siri that is profoundly capable, deeply personal, and integrated seamlessly across our platforms.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "INVH",
+   "company": "Invitation Homes, Inc.",
+   "category": "revenue",
+   "headline": "Invitation Homes launching new CRM platform and digital shopping enhancements to improve lead conversion rates.",
+   "quote": "we are able to convert a lot of these people. We're seeing better conversion rates year over year. And I think that's in large part due to two things. One, our teams are, I think, better equipped with technology that we're providing. We're launching right now and have launched in a couple of our markets a new customer relationship management platform.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "TT",
+   "company": "Trane Technologies Plc",
+   "category": "product",
+   "headline": "Trane Technologies embeds agentic AI in building systems to predict, act and optimize energy use in real-time.",
+   "quote": "Our smart systems, integrated controls and agentic AI allow buildings to predict, act and optimize in real-time for industry leading efficiency and resiliency.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "BAX",
+   "company": "Baxter International, Inc.",
+   "category": "efficiency",
+   "headline": "Baxter prioritizes using AI internally to work smarter, move faster and operate more efficiently.",
+   "quote": "we continue to prioritize using AI internally to work smarter, move faster and operate more efficiently",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "BMY",
+   "company": "Bristol Myers Squibb Co.",
+   "category": "efficiency",
+   "headline": "BMS embeds AI across research and enterprise ops, partnering with Anthropic and NVIDIA to speed drug discovery",
+   "quote": "BMS has embedded AI across its research and enterprise operations, and demand for compute has grown alongside the scale and maturity of our AI capabilities.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "YUM",
+   "company": "Yum! Brands, Inc.",
+   "category": "efficiency",
+   "headline": "Yum! Brands deploys AI across operations: Voice AI in 900+ Taco Bell restaurants, 400+ AI agents, and AI-powered menu innovation database.",
+   "quote": "every corporate employee has access to AI productivity tools, with daily usage increasing more than 50% year-over-year. Teams have built more than 400 specialized AI agents to solve everyday business challenges.",
+   "metric": "50% YoY increase in daily AI productivity tool usage; 400+ AI agents built",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "PTC",
+   "company": "PTC, Inc.",
+   "category": "product",
+   "headline": "PTC embedded AI in products like Creo AI, Onshape Labs, and ServiceMax AI; largest AI deal near seven figures in Q3.",
+   "quote": "ServiceMax AI can reduce technician preparation time by 50% and deliver 4% net productivity improvement across the service workforce.",
+   "metric": "50% reduction in technician preparation time; 4% net productivity improvement",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CPT",
+   "company": "Camden Property Trust",
+   "category": "efficiency",
+   "headline": "Camden using AI across operations to improve renewals, cut insurance/workers comp/utility costs, with monthly senior VP reviews of AI initiatives",
+   "quote": "if we can use AI to increase our renewal percentages, that is one of the most dramatic changes that can absolutely flow through the bottom line",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "MRNA",
+   "company": "Moderna, Inc.",
+   "category": "efficiency",
+   "headline": "Moderna using AI to improve neoantigen selection algorithm for individualized cancer vaccine program",
+   "quote": "we do have an ongoing program to try and improve this algorithm. In fact, we're using artificial intelligence to try develop the next algorithm.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "EIX",
+   "company": "Edison International",
+   "category": "efficiency",
+   "headline": "SCE deploying AI tools to improve productivity in high-volume repeatable work such as 100,000 annual project designs.",
+   "quote": "our planning organizations produce on the order of 100,000 project designs each year, and we are deploying tools to",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "DXCM",
+   "company": "DexCom, Inc.",
+   "category": "product",
+   "headline": "Dexcom's redesigned Stelo app includes AI-driven insights and enhanced food-logging for CGM users",
+   "quote": "this new interface offers a more consumer-friendly feel, new AI-driven insights, and enhanced food-logging capabilities",
+   "metric": null,
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "MA",
+   "company": "Mastercard, Inc.",
+   "category": "product",
+   "headline": "Mastercard launches AI-powered Merchant Trust Services and Agent Pay to reduce fraud and enable agentic/machine-to-machine payments.",
+   "quote": "Mastercard's Merchant Trust Services is a new suite of AI-powered capabilities to help identify fraudulent merchants.",
+   "metric": "$172 million in fraud prevented by Threat Intelligence in first three quarters",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CI",
+   "company": "The Cigna Group",
+   "category": "efficiency",
+   "headline": "Cigna uses AI in Pharmacy Forward program to cut therapy start time in half and reduce clinician documentation time by 50%",
+   "quote": "Our targeted use of AI is expected to cut time for therapy in half on average. And for clinicians, it enables them to deliver more connected, informed support, reducing their documentation time by up to 50%",
+   "metric": "50% reduction in clinician documentation time; therapy start time cut in half; 20% more customers reached; $2,000/year medical cost reduction; 42% reduction in avoidable inpatient stays",
+   "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CMG",
+   "company": "Chipotle Mexican Grill, Inc.",
+   "category": "efficiency",
+   "headline": "Chipotle pilots AI-based demand forecasting in Cook to Needs tool to optimize food preparation staffing",
+   "quote": "It also automates a cumbersome daily task by eliminating data entry and automatically incorporating AI-based demand forecasts.",
+   "metric": null,
+   "event_date": "2026-07-31"
+  }
+ ],
+ "updated": "2026-07-31T12:59:05"
+}

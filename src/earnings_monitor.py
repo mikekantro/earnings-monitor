@@ -14,6 +14,8 @@ import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from ai_highlight import get_ai_highlight
+from ai_watch_digest import ai_watch_block, add_ai_highlights
 
 # ── Config ───────────────────────────────────────────────────────────────────
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -1002,6 +1004,7 @@ def main():
 
     analyses         = []
     pmi_scores_today = []
+    ai_hits          = []
     for company in todays:
         ticker    = company["symbol"]
         name      = company["name"]
@@ -1012,13 +1015,17 @@ def main():
         print(f"\n   Processing {ticker} ({name})...")
 
         # Get transcript — try reportId from calendar first, then search by eventId/ticker
-        transcript = ""
+        transcript_full = ""
         if report_id:
-            transcript = get_transcript_text(report_id)
-        if not transcript:
+            transcript_full = get_transcript_text(report_id, max_chars=300_000)
+        if not transcript_full:
             found_id = get_transcript_report_id(ticker, event_id)
             if found_id:
-                transcript = get_transcript_text(found_id)
+                transcript_full = get_transcript_text(found_id, max_chars=300_000)
+
+        # AI Watch needs the whole call (the Q&A is where the AI story lives);
+        # analyze/score keep the original 30k slice so PMI stays comparable.
+        transcript = transcript_full[:30_000]
 
         if transcript:
             print(f"   ✅ Got transcript ({len(transcript)} chars)")
@@ -1041,6 +1048,14 @@ def main():
         pmi_score = score_earnings(ticker, name, analysis, transcript, sec_filing)
         if pmi_score:
             pmi_scores_today.append(pmi_score)
+
+        # AI Watch — grounded, verbatim-verified AI-use snippet (or nothing)
+        if transcript_full:
+            hit = get_ai_highlight(ticker, name, transcript_full)
+            if hit:
+                hit["event_date"] = date.today().isoformat()
+                ai_hits.append(hit)
+                print(f"   AI Watch: {hit['category']} - {hit['headline'][:60]}")
 
         time.sleep(1)
 
@@ -1066,11 +1081,14 @@ def main():
   </p>
 </div>"""
 
+    ai_html = ai_watch_block(ai_hits, len(analyses))
+
     full_html = EMAIL_TEMPLATE.format(
         date=date.today().strftime("%B %d, %Y"),
-        content="\n".join(analyses) + pmi_snapshot
+        content="\n".join(analyses) + ai_html + pmi_snapshot
     )
     subject = f"📊 Earnings Intelligence — {len(analyses)} Reports | {date.today().strftime('%b %d')}"
+    add_ai_highlights(ai_hits)   # save panel FIRST — email failure must not lose data
     send_email(subject, full_html)
     print(f"\n✅ Done — {len(analyses)} companies analyzed.")
 
