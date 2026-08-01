@@ -350,7 +350,142 @@
    "quote": "It also automates a cumbersome daily task by eliminating data entry and automatically incorporating AI-based demand forecasts.",
    "metric": null,
    "event_date": "2026-07-31"
+  },
+  {
+   "ticker": "CVX",
+   "company": "Chevron Corp.",
+   "category": "efficiency",
+   "headline": "Chevron uses AI in Permian Basin operations to improve productivity and unlock additional well locations.",
+   "quote": "We've talked about AI, and there's a lot of interesting things going on with AI.",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "CHD",
+   "company": "Church & Dwight Co., Inc.",
+   "category": "efficiency",
+   "headline": "Church & Dwight pulling forward AI initiatives to scale faster and gain competitive speed advantage",
+   "quote": "we've also started to spend money behind AI. And there's some initiatives we have in place where we're going to pull some of those forward, as an example, so that we can scale faster.",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "MRNA",
+   "company": "Moderna, Inc.",
+   "category": "efficiency",
+   "headline": "Moderna using AI to improve neoantigen selection algorithm for individualized cancer vaccine programs",
+   "quote": "we do have an ongoing program to try and improve this algorithm. In fact, we're using artificial intelligence to try develop the next algorithm.",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "EIX",
+   "company": "Edison International",
+   "category": "efficiency",
+   "headline": "SCE deploying AI tools in planning/design operations, targeting productivity gains on ~100,000 project designs per year.",
+   "quote": "our planning organizations produce on the order of 100,000 project designs each year, and we are deploying tools to",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "DXCM",
+   "company": "DexCom, Inc.",
+   "category": "product",
+   "headline": "Dexcom launches redesigned Stelo app with AI-driven insights for CGM users",
+   "quote": "this new interface offers a more consumer-friendly feel, new AI-driven insights, and enhanced food-logging capabilities",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "BEN",
+   "company": "Franklin Resources, Inc.",
+   "category": "revenue",
+   "headline": "Franklin Templeton's AI-powered Intelligence Hub with Microsoft drove 25% more client visits and 11% uplift in sales for distribution teams.",
+   "quote": "we have seen that in the territories, which it's pretty broadly rolled out now, a 25% increase in the number of clients that they're able to visit or contact and about a little over 11% uplift in sales",
+   "metric": "25% more client contacts, 11% sales uplift",
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "CL",
+   "company": "Colgate-Palmolive Co.",
+   "category": "efficiency",
+   "headline": "Colgate uses AI across workforce training, agentic process redesign, data analytics, and marketing content generation to drive productivity.",
+   "quote": "We've trained and upskilled a significant part of our workforce. I think at the VP level, we're at about 70% in advanced artificial intelligence training.",
+   "metric": "70% of VPs trained in advanced AI",
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "TROW",
+   "company": "T. Rowe Price Group, Inc.",
+   "category": "efficiency",
+   "headline": "T. Rowe Price has 130+ AI solutions deployed firm-wide with 70%+ associate adoption, covering investment research, portfolio insights, and sales workflows.",
+   "quote": "more than 130 AI solutions deployed across the firm and over 70% associate adoption",
+   "metric": "130+ AI solutions, 70%+ associate adoption",
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "AJG",
+   "company": "Arthur J. Gallagher & Co.",
+   "category": "efficiency",
+   "headline": "Gallagher Bassett uses AI and machine learning to improve claims service, outcomes, and operating efficiencies",
+   "quote": "The team continues to broaden its capabilities and put data, AI, and machine learning to work in very practical ways to improve service, drive better claims outcomes and create further operating efficiencies.",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "SYK",
+   "company": "Stryker Corp.",
+   "category": "product",
+   "headline": "Stryker's SmartCare business (Vocera + care.ai) sells AI-enabled hospital communication products with strong order growth.",
+   "quote": "Capital demand also remains elevated, as evidenced by an increased backlog and strong orders as we exited the quarter, including ProCuity beds and our SmartCare business, which includes Vocera and care.ai.",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com, Inc.",
+   "category": "product",
+   "headline": "Amazon embeds AI across AWS products including Bedrock, AgentCore, Kiro, Quick, and Continuum, with AI revenue run rate over $25B.",
+   "quote": "Our AI revenue run rate climbed significantly quarter-over-quarter and is now also over $25 billion, growing triple-digit percentages year-over-year.",
+   "metric": "$25B AI revenue run rate, triple-digit % YoY growth",
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "LYV",
+   "company": "Live Nation Entertainment, Inc.",
+   "category": "efficiency",
+   "headline": "Live Nation uses AI to power Ticketmaster coding/development, long-tail event discovery, and direct fan experience in app.",
+   "quote": "we're using AI to help power our coding and development at Ticketmaster, and then we're also looking to integrate it more in the direct fan experience",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "CPT",
+   "company": "Camden Property Trust",
+   "category": "efficiency",
+   "headline": "Camden uses AI across operations\u2014renewals, insurance, workers' comp, utilities\u2014via a leadership/crowd/lab framework",
+   "quote": "if we can use AI to increase our renewal percentages, that is one of the most dramatic changes that can absolutely flow through the bottom line",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "WY",
+   "company": "Weyerhaeuser Co.",
+   "category": "efficiency",
+   "headline": "Weyerhaeuser reports multiple AI projects underway as part of $180M enterprise initiatives, beginning to see financial benefit.",
+   "quote": "We've got a lot of activity going on, on the AI front. We're starting \u2013 I mean, we're in the early stages of some of these things, we're starting to see a little bit of the money flow in from that.",
+   "metric": null,
+   "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "AAPL",
+   "company": "Apple, Inc.",
+   "category": "product",
+   "headline": "Apple embeds AI (Siri AI, Apple Intelligence) across iPhone, Mac, iPad and AirPods products for end users",
+   "quote": "We were tremendously excited to unveil the all-new Siri AI, a completely reimagined version of Siri that is profoundly capable, deeply personal, and integrated seamlessly across our platforms.",
+   "metric": null,
+   "event_date": "2026-08-01"
   }
  ],
- "updated": "2026-07-31T12:59:05"
+ "updated": "2026-08-01T04:34:27"
 }
