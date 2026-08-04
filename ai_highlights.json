@@ -485,7 +485,25 @@
    "quote": "We were tremendously excited to unveil the all-new Siri AI, a completely reimagined version of Siri that is profoundly capable, deeply personal, and integrated seamlessly across our platforms.",
    "metric": null,
    "event_date": "2026-08-01"
+  },
+  {
+   "ticker": "TSN",
+   "company": "Tyson Foods, Inc.",
+   "category": "efficiency",
+   "headline": "Tyson Foods has tested agentic AI tools across commercial functions and plans to expand their use.",
+   "quote": "We've done work with and tested a number of products using agentic AI. And that's looking good and we'll expand that as we move forward.",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "MAR",
+   "company": "Marriott International, Inc.",
+   "category": "revenue",
+   "headline": "Marriott launched Ask Bonvoy, an AI-powered conversational search on marriott.com and Bonvoy app, to enhance customer experience and drive engagement.",
+   "quote": "we began our phased rollout of Ask Bonvoy, our AI-powered conversational search experience on marriott.com and the Marriott Bonvoy app",
+   "metric": null,
+   "event_date": "2026-08-04"
   }
  ],
- "updated": "2026-08-01T04:34:27"
+ "updated": "2026-08-04T04:03:47"
 }
