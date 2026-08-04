@@ -1088,13 +1088,15 @@ def main():
         content="\n".join(analyses) + ai_html + pmi_snapshot
     )
     subject = f"📊 Earnings Intelligence — {len(analyses)} Reports | {date.today().strftime('%b %d')}"
-    add_ai_highlights(ai_hits)   # save panel FIRST — email failure must not lose data
+    # Save ALL data FIRST — email failure must never lose data
+    add_ai_highlights(ai_hits)
+    pmi_data = add_pmi_scores(pmi_scores_today) if pmi_scores_today else None
+
     send_email(subject, full_html)
     print(f"\n✅ Done — {len(analyses)} companies analyzed.")
 
     # Save PMI scores and maybe send PMI summary email
-    if pmi_scores_today:
-        pmi_data = add_pmi_scores(pmi_scores_today)
+    if pmi_data:
         maybe_send_pmi_email(pmi_data)
 
 if __name__ == "__main__":
