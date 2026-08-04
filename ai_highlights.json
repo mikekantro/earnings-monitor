@@ -503,7 +503,142 @@
    "quote": "we began our phased rollout of Ask Bonvoy, our AI-powered conversational search experience on marriott.com and the Marriott Bonvoy app",
    "metric": null,
    "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "KIM",
+   "company": "Kimco Realty Corp.",
+   "category": "efficiency",
+   "headline": "Kimco Realty reports 5x ROI on AI initiatives; 80%+ weekly AI utilization across workforce with AI workflows in asset management, leasing, underwriting, and legal.",
+   "quote": "year-to-date, we've yielded approximately 5x return on the amount of money that we've spent and invested in our AI initiatives. So 5x in terms of expense savings",
+   "metric": "5x return on AI investment spend year-to-date",
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "BR",
+   "company": "Broadridge Financial Solutions, Inc.",
+   "category": "product",
+   "headline": "Broadridge embeds AI in products (BondGPT, trading algorithms, custom policy voting engine) and reports $25M AI productivity gains expected in FY27.",
+   "quote": "we're beginning to see real AI driven productivity gains, including 25 million in fiscal 27. And we're just getting started.",
+   "metric": "$25M AI-driven productivity gains in FY27",
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "WAT",
+   "company": "Waters Corp.",
+   "category": "product",
+   "headline": "Waters partners with IMU Biosciences to support AI-enabled precision medicine and immune profiling using flow cytometry.",
+   "quote": "Our recently announced strategic partnership with IMU Biosciences is an early proof point of our important role supporting next generation immune profiling and AI-enabled precision medicine in clinical diagnostic applications.",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "FANG",
+   "company": "Diamondback Energy, Inc.",
+   "category": "efficiency",
+   "headline": "Diamondback using AI and automation for artificial lift optimization and downtime management in early-stage deployment.",
+   "quote": "We're tackling it first on artificial lift and using the AI and the automation to help manage that optimization on a day to day process, which is going really, really well for us.",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "IDXX",
+   "company": "IDEXX Laboratories, Inc.",
+   "category": "product",
+   "headline": "IDEXX inVue Dx analyzer uses AI-powered cytology results; DR50 Plus combines AI-powered imaging quality for veterinary customers.",
+   "quote": "veterinarians highlighting the integrated slide-free workflow, the diagnostic confidence of objective AI-powered results and the productivity gains of having cytology answers while the patient is in the clinic",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "FIS",
+   "company": "Fidelity National Information Services, Inc.",
+   "category": "efficiency",
+   "headline": "FIS reports AI driving 1.5-2x engineering throughput, 70% fewer manual tickets, and 4,000+ copilot users internally",
+   "quote": "On engineering, our teams are seeing 1.5 times to 2 times throughput and 30% fewer defects. On servicing, we've launched five agentic programs with manual tickets down 70% and triage time down nearly 75%.",
+   "metric": "1.5x-2x engineering throughput; 30% fewer defects; 70% fewer manual tickets; triage time down ~75%",
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "CAT",
+   "company": "Caterpillar, Inc.",
+   "category": "product",
+   "headline": "Caterpillar acquired Skycatch, which pairs spatial data capture with AI capabilities sold to mining customers.",
+   "quote": "SkyCatch's technology captures high-frequency, high-precision, large-scale spatial data and pairs it with a suite of AI capabilities. That allows customers to identify, measure and interact with the data",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "APTV",
+   "company": "Aptiv Plc",
+   "category": "product",
+   "headline": "Aptiv embeds AI/ML-based computer vision and sensor fusion in automotive and robotics products it sells to customers.",
+   "quote": "the industry's first occupant detection system that utilizes AI/ML-based computer vision software and is powered entirely by an in-cabin camera",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "DD",
+   "company": "DuPont de Nemours, Inc.",
+   "category": "revenue",
+   "headline": "DuPont uses AI to accelerate sales pipeline, winning ~150 opportunities at ~30% win rate above historical benchmarks.",
+   "quote": "we are rapidly scaling sales pace, using AI to accelerate our impact. Here we are moving from process deployment to operating discipline and the early demand generation momentum is encouraging.",
+   "metric": "150 opportunities won, ~30% win rate",
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "HSIC",
+   "company": "Henry Schein, Inc.",
+   "category": "product",
+   "headline": "Henry Schein embeds AI tools in Henry Schein One dental software for clinical workflows, collections, and patient engagement.",
+   "quote": "we are now broadly embedding AI tools in our software in which our customers are recognizing meaningful benefits. The recent launch of our next generation AI clinical workflow has been met with strong market reception",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "ROK",
+   "company": "Rockwell Automation, Inc.",
+   "category": "efficiency",
+   "headline": "Rockwell's Singapore facility recognized by World Economic Forum for AI-enabled manufacturing leadership.",
+   "quote": "Those principles are on full display at our Singapore manufacturing facility, which was recently named to World Economic Forum White House for its leadership in digital and AI-enabled manufacturing.",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "RVTY",
+   "company": "Revvity, Inc.",
+   "category": "product",
+   "headline": "Revvity embeds AI (Signals AI, Xynthetica, Anthropic MCP connector) in its Signals software platform sold to customers.",
+   "quote": "we also recently launched Signals AI which embeds leading LLM capabilities throughout our signals platform, allowing users to leverage AI capabilities within the core platform itself",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "ZBRA",
+   "company": "Zebra Technologies Corp.",
+   "category": "product",
+   "headline": "Zebra embeds AI in mobile computers, wearables, and a frontline AI suite sold to customers in retail, T&L, manufacturing, and healthcare.",
+   "quote": "Our AI software solutions and recently launched portfolio of AI optimized Mobile Computers has positioned us well with industry leading companies who recognize Zebra's ability to bring increased productivity",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "LDOS",
+   "company": "Leidos Holdings, Inc.",
+   "category": "product",
+   "headline": "Leidos positioning itself as preferred provider of secure cloud AI and sovereign AI for intelligence community and Dept. of War",
+   "quote": "positioning Leidos to be the preferred provider of secure cloud AI, sovereign AI for the intelligence community to include the Department of War",
+   "metric": null,
+   "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "MCD",
+   "company": "McDonald's Corp.",
+   "category": "efficiency",
+   "headline": "McDonald's plans to leverage AI using a global data lake once all major markets' data is pooled.",
+   "quote": "with all our data soon to be pooled in a global data lake, we'll also be well positioned to capitalize on the new opportunities afforded by artificial intelligence.",
+   "metric": null,
+   "event_date": "2026-08-04"
   }
  ],
- "updated": "2026-08-04T04:03:47"
+ "updated": "2026-08-04T14:45:19"
 }
