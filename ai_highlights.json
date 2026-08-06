@@ -638,7 +638,268 @@
    "quote": "with all our data soon to be pooled in a global data lake, we'll also be well positioned to capitalize on the new opportunities afforded by artificial intelligence.",
    "metric": null,
    "event_date": "2026-08-04"
+  },
+  {
+   "ticker": "MTCH",
+   "company": "Match Group, Inc.",
+   "category": "efficiency",
+   "headline": "Match Group uses AI to accelerate product development cycles, compressing multi-month processes to weeks at Tinder.",
+   "quote": "AI helped this team move from idea to final product in just a few weeks, compressing what would typically be a multi-month development process.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "ANET",
+   "company": "Arista Networks, Inc.",
+   "category": "product",
+   "headline": "Arista sells AI networking products (Etherlink switches, EOS innovations) for AI training fabrics to 100+ customers.",
+   "quote": "Our AI fabrics momentum with Etherlink switches now exceeds 100 cumulative customers from the initial four to five customers I spoke of in 2024.",
+   "metric": "$3.6B AI revenue target in 2026",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "AMGN",
+   "company": "Amgen, Inc.",
+   "category": "efficiency",
+   "headline": "Amgen uses AI across drug discovery, development, manufacturing and access; established a frontier AI lab with agentic workflows.",
+   "quote": "we recently established a frontier AI laboratory that combines advanced models with proprietary data and scientific capabilities unique to Amgen. Bringing agentic workflows to discovery research powerfully augments the insights and ideas of our brilliant research scientists.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "EMR",
+   "company": "Emerson Electric Co.",
+   "category": "product",
+   "headline": "Emerson appoints Chief Technology and AI Officer to lead AI-enabled automation strategy and help customers achieve autonomous operations.",
+   "quote": "This appointment reinforces Emerson's strategy to lead an AI-enabled automation, advancing the full technology stack, and helping customers achieve autonomous operations at scale.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "RL",
+   "company": "Ralph Lauren Corp.",
+   "category": "efficiency",
+   "headline": "Ralph Lauren investing in new AI capabilities as part of long-term strategic priorities alongside brand activations.",
+   "quote": "our cost savings used to fuel investments in our long-term strategic priorities, from our rolling thunder of brand activations to new AI capabilities and expanding our key city ecosystems.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "PAYC",
+   "company": "Paycom Software, Inc.",
+   "category": "product",
+   "headline": "Paycom's AI solution IWant automates tasks within its HR platform, serving as first interaction for new users.",
+   "quote": "Our award winning AI solution, IWant continues to accelerate speed-to-value for our clients by providing them with system intelligence that automates events and tasks within the system.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "NWSA",
+   "company": "News Corp.",
+   "category": "revenue",
+   "headline": "Realtor.com uses AI-inspired product innovation to drive leads and consumer engagement growth",
+   "quote": "The emphasis on high-quality leads, combined with AI-inspired product innovation and assiduous assistance for buyers, sellers and realtors, have transformed the business's fortunes",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "MSI",
+   "company": "Motorola Solutions, Inc.",
+   "category": "product",
+   "headline": "Motorola Solutions embeds AI Assist capabilities across command center, CAD, records, and video products sold to public safety agencies.",
+   "quote": "100% of our VESTA emergency call handling solutions in Q2 were at the assist tier, which is effectively the tier of our solution that includes all the AI capabilities.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "EXPE",
+   "company": "Expedia Group, Inc.",
+   "category": "revenue",
+   "headline": "Expedia uses AI-powered personalization, conversational search, and agentic tools to drive record attach rates and operating efficiency",
+   "quote": "AI is unlocking new ways to make these experiences simpler and more personalized. Last quarter, we launched new and updated conversational experiences, introducing natural language search on the Vrbo homepage",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "PSX",
+   "company": "Phillips 66",
+   "category": "efficiency",
+   "headline": "Phillips 66 uses AI at front-line operations and to analyze data, uncovering cost-reduction opportunities across its refining assets.",
+   "quote": "we're embracing AI out at the front-line level. We're doing a lot of things that are AI-enabled. So it's really enhanced how we respond to the market and how we do things.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "DVN",
+   "company": "Devon Energy Corp.",
+   "category": "efficiency",
+   "headline": "Devon Energy uses closed-loop AI to autonomously optimize 1,000 wells in real time, improving production and targeting lower corporate decline rate.",
+   "quote": "With our AI-enabled system now autonomously optimizing 1,000 wells real time, 24 hours a day, the ability to immediately respond to constantly changing well conditions keeps the production on the efficient frontier",
+   "metric": "1,000 wells optimized autonomously in real time",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "NI",
+   "company": "NiSource, Inc.",
+   "category": "efficiency",
+   "headline": "NiSource uses AI-powered analytics and Project Apollo to accelerate decision-making and improve storm response operations.",
+   "quote": "enabling employees to interact with enterprise data through AI-powered experiences that accelerate decision making beyond traditional reports and dashboards.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "AIZ",
+   "company": "Assurant, Inc.",
+   "category": "efficiency",
+   "headline": "Assurant invests in AI to improve decision-making, speed, and customer/client support across its businesses.",
+   "quote": "investments, including within data, automation, and AI. These capabilities are helping us operate with greater speed and precision, improve decision-making, and strengthen the support we deliver for clients and consumers.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices, Inc.",
+   "category": "product",
+   "headline": "AMD launched ROCm.ai, an AI-assisted development platform using coding agents to help developers build and optimize code for Instinct GPUs.",
+   "quote": "RoCm.ai lets developers use today's leading coding agents, including Claude, Codex and Cursor to create, port and optimize code for Instinct",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "BIO",
+   "company": "Bio-Rad Laboratories, Inc.",
+   "category": "efficiency",
+   "headline": "Bio-Rad uses agentic AI internally to accelerate software development, completing 12 months of work in 6 weeks.",
+   "quote": "agentic AI enabled our product development teams to complete 12 months of software development in just 6 weeks",
+   "metric": "12 months of software development in 6 weeks",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "EBAY",
+   "company": "eBay, Inc.",
+   "category": "revenue",
+   "headline": "eBay uses AI for card scanning, vehicle verification, and selling tools to drive buyer/seller engagement and GMV growth.",
+   "quote": "our AI-powered card-scanning experience exited beta and now has surpassed 80 million cumulative scans, making it easier for collectors to identify cards, understand pricing, and list or shop with confidence.",
+   "metric": "80 million cumulative scans",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "MCK",
+   "company": "McKesson Corp.",
+   "category": "efficiency",
+   "headline": "McKesson uses AI to accelerate software development, reducing multi-week tasks to a single business day.",
+   "quote": "our team designed, developed, tested, and deployed a production-ready external data connection in a single business day, work that historically would have taken several weeks or even months.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "ZBH",
+   "company": "Zimmer Biomet Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Zimmer Biomet is aggressively implementing AI initiatives to address its operating expenses cost base for long-term margin improvement.",
+   "quote": "to drive long-term margin improvement, we're aggressively implementing AI, artificial intelligence initiatives, to address our operating expenses cost base.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "CDW",
+   "company": "CDW Corp.",
+   "category": "product",
+   "headline": "CDW offers AI 360 framework to help customers govern and scale AI deployments across infrastructure, security, and data.",
+   "quote": "Through our AI 360 framework, we designed a solution that is helping the state move from isolated AI projects to a cohesive operating model that integrates strategy, governance, infrastructure, security, data and application development.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "CVS",
+   "company": "CVS Health Corp.",
+   "category": "efficiency",
+   "headline": "CVS launched AI-enabled Claims Assist Manager cutting processing time 20%, and uses AI to analyze 1B+ clinical records",
+   "quote": "We've recently launched a new AI-enabled Claims Assist Manager, which will reduce our processing time by over 20% and accelerate payment for providers on hundreds of millions of claims every year.",
+   "metric": "20% reduction in claims processing time",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "J",
+   "company": "Jacobs Solutions, Inc.",
+   "category": "product",
+   "headline": "Jacobs deploys data center digital twin tool on AI data center projects to de-risk commissioning and accelerate revenue.",
+   "quote": "deploy our data center digital twin to simulate critical assets, hoping to de-risk commissioning and reduce time to first revenue by accelerating the deployment of AI workloads.",
+   "metric": "11% of adjusted net revenue from direct AI buildout",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "SOLV",
+   "company": "Solventum Corp.",
+   "category": "product",
+   "headline": "Solventum's HIS segment features AI-driven autonomous coding in its revenue cycle management product offerings.",
+   "quote": "innovation remains focused on revenue cycle management, including new AI-driven autonomous coding and our international expansion efforts",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "CRL",
+   "company": "Charles River Laboratories International, Inc.",
+   "category": "efficiency",
+   "headline": "Charles River uses AI-enabled digital pathology workflows to cut study turnaround times and increase pathologist efficiency",
+   "quote": "an enhanced digital pathology solution that delivers AI-enabled end-to-end workflows designed to improve study turnaround times and increase pathologists efficiency",
+   "metric": "cut at least one week from standard pathology timelines",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "COR",
+   "company": "Cencora, Inc.",
+   "category": "efficiency",
+   "headline": "Cencora uses AI for demand forecasting to improve product availability and planning across its distribution network.",
+   "quote": "Our teams are using AI to better anticipate product needs across our network and identify key factors driving changes in demand.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "DIS",
+   "company": "The Walt Disney Co.",
+   "category": "efficiency",
+   "headline": "Disney uses AI in pre- and post-production to help storytellers work faster and personalize content at scale.",
+   "quote": "AI lets us work faster and smarter, particularly in areas of pre- and post-production. Our teams can personalize content and experiences for fans around the world at scale.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "IRM",
+   "company": "Iron Mountain, Inc.",
+   "category": "product",
+   "headline": "Iron Mountain sells AI-powered DXP agentic platform; DXP uses AI agents to classify content, enrich metadata, and apply governance rules for customers.",
+   "quote": "DXP will digitize and process 500,000 inbound items annually using AI agents to classify content, enrich metadata, and apply the appropriate governance rules.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "GPN",
+   "company": "Global Payments, Inc.",
+   "category": "product",
+   "headline": "Global Payments embeds AI in Genius POS (voice ordering, reporting), Revenue Boost, and auth optimization, adding 50bps approval rate lift.",
+   "quote": "Our Revenue Boost solution, which was already generating $2 billion in annual approval uplift, is now delivering an additional 50-basis-point increase in approval rates through AI-powered intelligent decisioning.",
+   "metric": "50 bps additional approval rate increase",
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "AXON",
+   "company": "Axon Enterprise, Inc.",
+   "category": "product",
+   "headline": "Axon embeds AI across its public safety platform including 911 AI assistance, real-time operations, and AI Era Plans sold to customers.",
+   "quote": "AI in real-time operations can turn these signals into understanding. And then, the means to act. Taser devices, drones, communication, training.",
+   "metric": null,
+   "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "DOC",
+   "company": "Healthpeak Properties, Inc.",
+   "category": "efficiency",
+   "headline": "Healthpeak is rolling out an 'agentic operating platform' as part of its modernized operating model.",
+   "quote": "Now we're in the process of rolling out our agentic operating platform. This modern version of Healthpeak is an on-the-ground operator who generates superior results with our people and platform.",
+   "metric": null,
+   "event_date": "2026-08-06"
   }
  ],
- "updated": "2026-08-04T14:45:19"
+ "updated": "2026-08-06T04:26:40"
 }
