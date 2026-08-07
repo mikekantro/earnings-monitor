@@ -899,7 +899,205 @@
    "quote": "Now we're in the process of rolling out our agentic operating platform. This modern version of Healthpeak is an on-the-ground operator who generates superior results with our people and platform.",
    "metric": null,
    "event_date": "2026-08-06"
+  },
+  {
+   "ticker": "BDX",
+   "company": "Becton, Dickinson & Co.",
+   "category": "efficiency",
+   "headline": "BD deploying standardized digital platform to run AI across its end-to-end supply chain for productivity gains.",
+   "quote": "We've also begun investing in the deployment of a standardized digital platform designed to run AI across BD's end-to-end supply chain.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "MSI",
+   "company": "Motorola Solutions, Inc.",
+   "category": "product",
+   "headline": "Motorola Solutions embeds AI Assist capabilities in command center, video, and emergency call handling products sold to public safety agencies.",
+   "quote": "100% of our VESTA emergency call handling solutions in Q2 were at the assist tier, which is effectively the tier of our solution that includes all the AI capabilities.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "ABNB",
+   "company": "Airbnb, Inc.",
+   "category": "revenue",
+   "headline": "Airbnb uses AI across search, listings, checkout, and host tools to convert more traffic into bookings",
+   "quote": "AI is accelerating this work across search, sign-up, checkout, and payments. And by reducing friction across the guest journey, we are converting more traffic into bookings and that's become one of the biggest drivers of our growth.",
+   "metric": "customer support costs per booking declined ~16% YoY; 45% of AI assistant issues resolved without human agent; concept-to-launch time reduced by 60%; features shipped up ~80% YoY",
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "GEN",
+   "company": "Gen Digital, Inc.",
+   "category": "product",
+   "headline": "Gen Digital embeds AI in Norton/Avast products for scam detection, agent security, and financial scanning for customers",
+   "quote": "our proprietary scam protection engine blocked over half a billion scam attacks, more than 100 every second, including deepfakes and voice clones.",
+   "metric": "500M+ scam attacks blocked per quarter",
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "ALL",
+   "company": "The Allstate Corp.",
+   "category": "efficiency",
+   "headline": "Allstate building ALLIE agentic AI ecosystem to improve customer value, lower costs, and increase growth",
+   "quote": "this platform is enabling us to build ALLIE, which will leverage agentic AI to improve customer value, lower cost, and increase growth.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "RL",
+   "company": "Ralph Lauren Corp.",
+   "category": "efficiency",
+   "headline": "Ralph Lauren uses AI to improve digital commerce UX, expand brand discoverability on LLMs, and enhance creativity/productivity.",
+   "quote": "we improved user experiences on our digital commerce sites and expanded brand discoverability across key LLMs. We are also participating in select AI tests to understand evolving consumer behavior on these newer platforms.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "ETSY",
+   "company": "Etsy, Inc.",
+   "category": "revenue",
+   "headline": "Etsy uses machine learning for search personalization, ad relevance, and buyer profiles to drive GMS and take rate growth.",
+   "quote": "Etsy Ads, where we're using machine learning to enhance relevance and improve seller budget pacing.",
+   "metric": "12.5% year-over-year app GMS growth; take rate up 130 bps year-over-year",
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "EXPE",
+   "company": "Expedia Group, Inc.",
+   "category": "revenue",
+   "headline": "Expedia uses AI for personalized travel experiences, natural language search, and record attach rates on Expedia brand.",
+   "quote": "AI is unlocking new ways to make these experiences simpler and more personalized. Last quarter, we launched new and updated conversational experiences, introducing natural language search on the Vrbo homepage",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "XRAY",
+   "company": "Dentsply Sirona, Inc.",
+   "category": "efficiency",
+   "headline": "Dentsply Sirona embedding AI with lean operating principles to eliminate routine work and accelerate decision-making.",
+   "quote": "embedding lean operating principles and AI to eliminate routine work and accelerate decision-making, so our teams can spend more time serving customers and bring innovation to market faster.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "TAP",
+   "company": "Molson Coors Beverage Co.",
+   "category": "revenue",
+   "headline": "Molson Coors deployed an AI-generated social media campaign for Keystone Light Apple that drove consumer buzz and demand.",
+   "quote": "We deployed an AI-generated social media campaign that generated buzz and resonated with the consumer seeking flavor at an enticing price point.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "EBAY",
+   "company": "eBay, Inc.",
+   "category": "revenue",
+   "headline": "eBay uses AI-powered card-scanning, selling tools, and vehicle verification to drive buyer/seller engagement and GMV growth",
+   "quote": "our AI-powered card-scanning experience exited beta and now has surpassed 80 million cumulative scans, making it easier for collectors to identify cards, understand pricing, and list or shop with confidence",
+   "metric": "80 million cumulative scans",
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "MCK",
+   "company": "McKesson Corp.",
+   "category": "efficiency",
+   "headline": "McKesson uses AI to accelerate software development, cutting weeks-long tasks to a single business day.",
+   "quote": "our team designed, developed, tested, and deployed a production-ready external data connection in a single business day, work that historically would have taken several weeks or even months.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "RMD",
+   "company": "ResMed, Inc.",
+   "category": "product",
+   "headline": "ResMed's GenAI-powered digital sleep coach in myAir app has received 1.5M+ inquiries and reduced customer service contacts.",
+   "quote": "our new GenAI-powered digital sleep coach that's in the myAir app has seen more than 1.5 million inquiries to-date. This incredible technology helps patients find support wherever and whenever they need it",
+   "metric": "1.5 million inquiries to-date",
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "OXY",
+   "company": "Occidental Petroleum Corp.",
+   "category": "efficiency",
+   "headline": "Occidental integrates AI alongside CO2, power, and water technologies to improve operational results and drive cost savings.",
+   "quote": "we seek to integrate advancing technologies and partnerships around our key areas of CO2, power, water and AI to further improve our results.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "MET",
+   "company": "MetLife, Inc.",
+   "category": "efficiency",
+   "headline": "MetLife cites AI-driven productivity gains as contributing to meeting its 12.1% direct expense ratio target.",
+   "quote": "we remain on target through rigorous expense management and productivity gains from AI and other technologies.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "NWSA",
+   "company": "News Corp.",
+   "category": "revenue",
+   "headline": "Realtor.com uses AI-inspired product innovation to drive consumer engagement and revenue growth",
+   "quote": "The emphasis on high-quality leads, combined with AI-inspired product innovation and assiduous assistance for buyers, sellers and realtors, have transformed the business's fortunes",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "SOLV",
+   "company": "Solventum Corp.",
+   "category": "product",
+   "headline": "Solventum's HIS segment offers AI-driven autonomous coding for revenue cycle management.",
+   "quote": "in HIS, innovation remains focused on revenue cycle management, including new AI-driven autonomous coding and our international expansion efforts.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "RSG",
+   "company": "Republic Services, Inc.",
+   "category": "efficiency",
+   "headline": "Republic Services deploying AI for pricing optimization, route efficiency, and call center enhancement across its operations.",
+   "quote": "We're actively deploying AI based predictive technology that supports optimized pricing decisions across markets with varying customer and competitive dynamics.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "MCHP",
+   "company": "Microchip Technology, Inc.",
+   "category": "product",
+   "headline": "Microchip acquired Halo to advance AI-on-the-edge products, accelerating roadmap by ~5 years; also sells PCIe switches, retimers, and other components into AI data centers.",
+   "quote": "In the area of AI on the edge, it advances our road maps by about five years.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "STE",
+   "company": "STERIS Plc (Ireland)",
+   "category": "product",
+   "headline": "STERIS collaborating with PeritasAI on robotics and AI for sterile processing departments, described as early-stage development.",
+   "quote": "We're very excited about the technology. I do think there's a world in the future where there's some AI or robotic assist that's meaningful in the SPD.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "PAYC",
+   "company": "Paycom Software, Inc.",
+   "category": "product",
+   "headline": "Paycom's AI solution IWant automates tasks within its HR platform, serving as many clients' first system interaction.",
+   "quote": "Our award winning AI solution, IWant continues to accelerate speed-to-value for our clients by providing them with system intelligence that automates events and tasks within the system.",
+   "metric": null,
+   "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "AXON",
+   "company": "Axon Enterprise, Inc.",
+   "category": "product",
+   "headline": "Axon embeds AI across its public safety platform including 911 AI assistance, real-time operations, and Axon Assistant on body cameras.",
+   "quote": "When Axon deploys AI, we perceive the world through the largest connected network of sensors in public safety. Millions of eyes and ears already in the field already running and built for this moment.",
+   "metric": null,
+   "event_date": "2026-08-07"
   }
  ],
- "updated": "2026-08-06T04:26:40"
+ "updated": "2026-08-07T04:10:20"
 }
