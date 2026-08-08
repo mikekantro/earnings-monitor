@@ -1097,7 +1097,79 @@
    "quote": "When Axon deploys AI, we perceive the world through the largest connected network of sensors in public safety. Millions of eyes and ears already in the field already running and built for this moment.",
    "metric": null,
    "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "AIG",
+   "company": "American International Group, Inc.",
+   "category": "efficiency",
+   "headline": "AIG scaling Underwriting by AIG Assist and Claims by AIG Assist to speed submissions, quotes, and broker insights",
+   "quote": "Where deployed, our underwriters are reviewing more submissions and generating quotes significantly faster, improving their productivity.",
+   "metric": null,
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "TTWO",
+   "company": "Take-Two Interactive Software, Inc.",
+   "category": "efficiency",
+   "headline": "Take-Two uses AI/ML internally for both innovation and efficiency across creative and development workflows.",
+   "quote": "we have projects that sort of fall into both the basic research and the applied research buckets here to see on the basic research side, the art of the possible, on the applied research side, how we can innovate more and how we can create additional efficiencies",
+   "metric": null,
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "MCHP",
+   "company": "Microchip Technology, Inc.",
+   "category": "product",
+   "headline": "Microchip acquires Hailo to embed AI-at-the-edge capabilities into its product roadmap, advancing it by ~5 years.",
+   "quote": "In the area of AI on the edge, it advances our road maps by about five years.",
+   "metric": null,
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "RMD",
+   "company": "ResMed, Inc.",
+   "category": "product",
+   "headline": "ResMed's GenAI-powered digital sleep coach in myAir app has received over 1.5 million inquiries and reduced customer service inquiries.",
+   "quote": "our new GenAI-powered digital sleep coach that's in the myAir app has seen more than 1.5 million inquiries to-date. This incredible technology helps patients find support wherever and whenever they need it",
+   "metric": "1.5 million inquiries to-date",
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "XRAY",
+   "company": "Dentsply Sirona, Inc.",
+   "category": "efficiency",
+   "headline": "Dentsply Sirona embedding AI and lean principles internally to eliminate routine work and accelerate decision-making.",
+   "quote": "embedding lean operating principles and AI to eliminate routine work and accelerate decision-making, so our teams can spend more time serving customers and bring innovation to market faster.",
+   "metric": null,
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "GEN",
+   "company": "Gen Digital, Inc.",
+   "category": "product",
+   "headline": "Gen Digital embeds AI in consumer products: scam protection blocking 0.5B attacks/quarter, Norton Neo browser, and agent security for 25M customers.",
+   "quote": "applying AI to detect and defeat emerging threats, and putting AI native products directly in our customers' hands. This quarter, our proprietary scam protection, Engine, blocked over 0.5 billion scam attacks",
+   "metric": "0.5 billion scam attacks blocked per quarter",
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "RSG",
+   "company": "Republic Services, Inc.",
+   "category": "efficiency",
+   "headline": "Republic Services deploying AI-based predictive pricing, AI routing algorithms, and digital call center tools to improve margins and operations.",
+   "quote": "We're actively deploying AI based predictive technology that supports optimized pricing decisions across markets with varying customer and competitive dynamics.",
+   "metric": null,
+   "event_date": "2026-08-08"
+  },
+  {
+   "ticker": "ABNB",
+   "company": "Airbnb, Inc.",
+   "category": "revenue",
+   "headline": "Airbnb uses AI across search, listing highlights, review highlights, and checkout to convert more traffic into bookings.",
+   "quote": "AI is accelerating this work across search, sign-up, checkout, and payments. And by reducing friction across the guest journey, we are converting more traffic into bookings and that's become one of the biggest drivers of our growth.",
+   "metric": "customer support costs per booking declined ~16% YoY; 45% of AI assistant issues resolved without human agent; features shipped up ~80% YoY; concept-to-launch time reduced up to 60%",
+   "event_date": "2026-08-08"
   }
  ],
- "updated": "2026-08-07T13:41:29"
+ "updated": "2026-08-08T02:57:50"
 }
