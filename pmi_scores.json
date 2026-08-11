@@ -14638,6 +14638,21 @@
       "ticker": "ABNB",
       "name": "Airbnb, Inc.",
       "date": "2026-08-08"
+    },
+    {
+      "new_orders": 82,
+      "output": 80,
+      "employment": 58,
+      "prices": 78,
+      "supply_chains": 72,
+      "demand_breadth": 70,
+      "composite": 77,
+      "sector": "Real Estate",
+      "confidence": 3,
+      "key_signal": "SPG's leasing pipeline up 26% YoY with new deal rents at $78/sqft vs $60-65 in-place rents signals a structurally tight A-mall supply environment with substantial embedded rent growth ahead, contradicting broader retail demand pessimism.",
+      "ticker": "SPG",
+      "name": "Simon Property Group, Inc.",
+      "date": "2026-08-11"
     }
   ]
 }
