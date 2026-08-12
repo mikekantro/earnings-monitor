@@ -14653,6 +14653,36 @@
       "ticker": "SPG",
       "name": "Simon Property Group, Inc.",
       "date": "2026-08-11"
+    },
+    {
+      "new_orders": 68,
+      "output": 70,
+      "employment": 52,
+      "prices": 60,
+      "supply_chains": 58,
+      "demand_breadth": 55,
+      "composite": 64,
+      "sector": "Healthcare",
+      "confidence": 3,
+      "key_signal": "Cardinal Health's 14% full-year revenue growth to $254B and 30% operating income growth signal that healthcare distribution demand remains a durable macro anchor, with specialty pharma and GLP-1 volumes driving broad-based volume expansion despite tariff headwinds.",
+      "ticker": "CAH",
+      "name": "Cardinal Health, Inc.",
+      "date": "2026-08-12"
+    },
+    {
+      "new_orders": 82,
+      "output": 80,
+      "employment": 55,
+      "prices": 88,
+      "supply_chains": 75,
+      "demand_breadth": 72,
+      "composite": 79,
+      "sector": "Real Estate",
+      "confidence": 3,
+      "key_signal": "Simon Property Group's new lease rents up 17% YoY with tenant concessions down 12% YoY, combined with a 26% larger leasing pipeline, signals exceptional landlord pricing power and sustained NOI growth through 2027-2028 in a structurally supply-constrained retail real estate market.",
+      "ticker": "SPG",
+      "name": "Simon Property Group, Inc.",
+      "date": "2026-08-12"
     }
   ]
 }
