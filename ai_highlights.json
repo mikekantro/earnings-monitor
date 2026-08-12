@@ -1187,7 +1187,16 @@
    "quote": "we're seeing real efficiencies and insights from our, if you think about it, we have, I don't know, 29,000, 30,000 different leases, so many different REAs, so many different documents",
    "metric": null,
    "event_date": "2026-08-12"
+  },
+  {
+   "ticker": "TRMB",
+   "company": "Trimble, Inc.",
+   "category": "product",
+   "headline": "Trimble embeds AI across construction software products, including AI takeoff, contract risk intelligence, agentic platform, and Arc Agent for logistics.",
+   "quote": "Early customer data shows time savings of up to 60% on manual takeoffs, allowing contractors to expand bid volume and accuracy without adding head count.",
+   "metric": "60% time savings on manual takeoffs",
+   "event_date": "2026-08-12"
   }
  ],
- "updated": "2026-08-12T03:19:07"
+ "updated": "2026-08-12T13:20:14"
 }

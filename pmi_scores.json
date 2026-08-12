@@ -14683,6 +14683,21 @@
       "ticker": "SPG",
       "name": "Simon Property Group, Inc.",
       "date": "2026-08-12"
+    },
+    {
+      "new_orders": 72,
+      "output": 75,
+      "employment": 58,
+      "prices": 70,
+      "supply_chains": 62,
+      "demand_breadth": 68,
+      "composite": 70,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Trimble's 10% organic revenue growth beating guidance highs, record $2.5B ARR, and broad infrastructure demand across data centers, energy, and utilities signals the U.S. construction and engineering technology cycle remains robustly expansionary.",
+      "ticker": "TRMB",
+      "name": "Trimble, Inc.",
+      "date": "2026-08-12"
     }
   ]
 }
