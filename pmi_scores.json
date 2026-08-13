@@ -14698,6 +14698,51 @@
       "ticker": "TRMB",
       "name": "Trimble, Inc.",
       "date": "2026-08-12"
+    },
+    {
+      "new_orders": 58,
+      "output": 62,
+      "employment": 50,
+      "prices": 55,
+      "supply_chains": 42,
+      "demand_breadth": 54,
+      "composite": 56,
+      "sector": "Materials",
+      "confidence": 2,
+      "key_signal": "Volume inflection to modestly positive growth is encouraging, but a $500M working capital drag from geopolitical-driven input cost inflation and elevated 3.5x leverage signal lingering balance sheet stress that tempers the recovery narrative.",
+      "ticker": "AMCR",
+      "name": "Amcor Plc",
+      "date": "2026-08-13"
+    },
+    {
+      "new_orders": 92,
+      "output": 88,
+      "employment": 58,
+      "prices": 38,
+      "supply_chains": 62,
+      "demand_breadth": 85,
+      "composite": 79,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Cisco's Q4 product orders surged 35% YoY with AI infrastructure orders reaching $9.3B for FY2026 (~4.5x FY2025), confirming AI capex is now a broad-based, multi-year secular tailwind for enterprise and hyperscale networking spend, though gross margin compression of 210bps signals a structural hardware mix headwind as the buildout intensifies.",
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "date": "2026-08-13"
+    },
+    {
+      "new_orders": 76,
+      "output": 78,
+      "employment": 58,
+      "prices": 74,
+      "supply_chains": 62,
+      "demand_breadth": 68,
+      "composite": 73,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Broad-based construction end market strength driving 10% organic revenue growth with AECO ARR up 14% signals a durable infrastructure capex cycle extending through at least 2027.",
+      "ticker": "TRMB",
+      "name": "Trimble, Inc.",
+      "date": "2026-08-13"
     }
   ]
 }

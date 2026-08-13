@@ -1196,7 +1196,25 @@
    "quote": "Early customer data shows time savings of up to 60% on manual takeoffs, allowing contractors to expand bid volume and accuracy without adding head count.",
    "metric": "60% time savings on manual takeoffs",
    "event_date": "2026-08-12"
+  },
+  {
+   "ticker": "CSCO",
+   "company": "Cisco Systems, Inc.",
+   "category": "product",
+   "headline": "Cisco sells AI infrastructure (networking, optics, security) to hyperscalers and enterprises; $9.3B in FY2026 AI orders.",
+   "quote": "We took $4 billion in orders in Q4, bringing the total for FY 2026 to $9.3 billion, approximately 4.5 times our fiscal year 2025 total.",
+   "metric": "$9.3B in AI infrastructure orders in FY2026; projected $7.5B AI infrastructure revenue in FY2027",
+   "event_date": "2026-08-13"
+  },
+  {
+   "ticker": "TRMB",
+   "company": "Trimble, Inc.",
+   "category": "product",
+   "headline": "Trimble embeds AI in construction/field software products, delivering up to 60% time savings on manual takeoffs and agentic workflows for customers.",
+   "quote": "we extended AI takeoff capabilities to automate the tedious manual task of measuring a project's blueprints... Early customer data shows time savings of up to 60% on manual takeoffs",
+   "metric": "60% time savings on manual takeoffs",
+   "event_date": "2026-08-13"
   }
  ],
- "updated": "2026-08-12T13:20:14"
+ "updated": "2026-08-13T03:24:01"
 }
