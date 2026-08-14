@@ -14743,6 +14743,51 @@
       "ticker": "TRMB",
       "name": "Trimble, Inc.",
       "date": "2026-08-13"
+    },
+    {
+      "new_orders": 92,
+      "output": 93,
+      "employment": 82,
+      "prices": 85,
+      "supply_chains": 75,
+      "demand_breadth": 78,
+      "composite": 88,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Applied Materials posted record Q3 revenue of $9.1B (+25% YoY) with Q4 guidance of $10.25B (+51% YoY), driven by unprecedented 8-quarter customer visibility and AI-fueled semiconductor capex commitments extending to 2030, signaling a durable multi-year capital equipment supercycle rather than a cyclical upturn.",
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "date": "2026-08-14"
+    },
+    {
+      "new_orders": 72,
+      "output": 78,
+      "employment": 58,
+      "prices": 80,
+      "supply_chains": 62,
+      "demand_breadth": 75,
+      "composite": 73,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Tapestry's simultaneous AUR and unit volume growth at Coach, combined with 11 million new Gen Z customers transacting at above-average price points, signals durable aspirational luxury demand that contradicts broader consumer spending stress narratives.",
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "date": "2026-08-14"
+    },
+    {
+      "new_orders": 92,
+      "output": 88,
+      "employment": 60,
+      "prices": 42,
+      "supply_chains": 65,
+      "demand_breadth": 87,
+      "composite": 79,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Cisco's Q4 product orders surging 35% YoY with hyperscale AI infrastructure orders up triple-digits and FY2027 revenue guided ~15% higher signals a durable, broad-based networking supercycle driven by AI infrastructure capex that is reshaping enterprise and hyperscaler spending at scale.",
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "date": "2026-08-14"
     }
   ]
 }
