@@ -14788,6 +14788,21 @@
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
       "date": "2026-08-14"
+    },
+    {
+      "new_orders": 92,
+      "output": 95,
+      "employment": 82,
+      "prices": 88,
+      "supply_chains": 75,
+      "demand_breadth": 78,
+      "composite": 89,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Applied Materials reported the highest quarter-on-quarter revenue growth in company history with Q4 guidance implying 51% YoY growth, driven by an AI-fueled semiconductor capex supercycle with customers providing unprecedented 8-quarter rolling forecasts extending to 2030.",
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "date": "2026-08-15"
     }
   ]
 }

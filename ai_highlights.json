@@ -1241,7 +1241,16 @@
    "quote": "the rise of agentic AI is expanding the threat landscape, driving demand for our Security and Observability solutions to help monitor agent behavior and mitigate evolving threats",
    "metric": "$9.3 billion in AI infrastructure orders in FY2026, ~4.5x FY2025 total",
    "event_date": "2026-08-14"
+  },
+  {
+   "ticker": "AMAT",
+   "company": "Applied Materials, Inc.",
+   "category": "efficiency",
+   "headline": "Applied Materials uses AI internally in R&D, services, operations, and supply chain to boost productivity and scale revenue faster than headcount.",
+   "quote": "In operations, supply chain and our corporate functions, AI is helping us ramp faster, drive meaningful improvements in productivity, and scale our revenue significantly faster than our head count.",
+   "metric": null,
+   "event_date": "2026-08-15"
   }
  ],
- "updated": "2026-08-14T03:21:18"
+ "updated": "2026-08-15T02:08:06"
 }
