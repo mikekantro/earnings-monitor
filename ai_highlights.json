@@ -1250,7 +1250,16 @@
    "quote": "In operations, supply chain and our corporate functions, AI is helping us ramp faster, drive meaningful improvements in productivity, and scale our revenue significantly faster than our head count.",
    "metric": null,
    "event_date": "2026-08-15"
+  },
+  {
+   "ticker": "HD",
+   "company": "The Home Depot, Inc.",
+   "category": "revenue",
+   "headline": "Home Depot's AI-powered Material List Builder helps Pros build material lists and purchase more, driving wallet share gains.",
+   "quote": "we're also seeing Pros build material lists and purchase more with the use of our AI-powered Material List Builder.",
+   "metric": null,
+   "event_date": "2026-08-19"
   }
  ],
- "updated": "2026-08-15T02:08:06"
+ "updated": "2026-08-19T02:12:50"
 }

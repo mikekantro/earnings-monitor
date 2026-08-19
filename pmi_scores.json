@@ -14803,6 +14803,36 @@
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
       "date": "2026-08-15"
+    },
+    {
+      "new_orders": 92,
+      "output": 91,
+      "employment": 62,
+      "prices": 85,
+      "supply_chains": 60,
+      "demand_breadth": 85,
+      "composite": 85,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Keysight's orders surging 56% YoY with wireline demand outpacing supply capacity signals a multi-year structural CapEx acceleration in AI infrastructure that is broad-based across hyperscalers, defense, and communications \u2014 a leading indicator of sustained capital investment across the technology ecosystem.",
+      "ticker": "KEYS",
+      "name": "Keysight Technologies, Inc.",
+      "date": "2026-08-19"
+    },
+    {
+      "new_orders": 58,
+      "output": 63,
+      "employment": 55,
+      "prices": 54,
+      "supply_chains": 65,
+      "demand_breadth": 57,
+      "composite": 59,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Pro segment outperformance and sequentially accelerating US comps (+0.5% May to +2.2% July) signal resilient repair-and-remodel demand despite persistent housing affordability headwinds, but tariff cost creep fully offsets refund benefits over the full year limiting margin expansion.",
+      "ticker": "HD",
+      "name": "The Home Depot, Inc.",
+      "date": "2026-08-19"
     }
   ]
 }
