@@ -53,6 +53,8 @@
       AI &times; Employment<span class="m">hypothesis on watch</span></button>
     <button class="tab" role="tab" id="t-refunds" aria-selected="false" data-pane="refunds">
       Tariff Refunds<span class="m">who's keeping the money</span></button>
+    <button class="tab" role="tab" id="t-portfolio" aria-selected="false" data-pane="portfolio">
+      Portfolio Screen<span class="m">screen your book, in-browser</span></button>
   </nav>
 </div>
 <div class="stage">
@@ -61,6 +63,7 @@
   <iframe class="pane" id="p-ai" title="AI adopters" data-src="ai-adopters/"></iframe>
   <iframe class="pane" id="p-refunds" title="Tariff refund watch" data-src="refund-watch/"></iframe>
   <iframe class="pane" id="p-emp" title="AI and employment tracker" data-src="ai-employment/"></iframe>
+  <iframe class="pane" id="p-portfolio" title="Portfolio screen" data-src="portfolio/"></iframe>
 </div>
 <script>
 const tabs=[...document.querySelectorAll('.tab')];
@@ -75,7 +78,7 @@ function activate(name,push){
 }
 tabs.forEach(t=>t.addEventListener('click',()=>activate(t.dataset.pane,true)));
 const h=location.hash.replace('#','');
-if(['pmi','ai','refunds','emp'].includes(h))activate(h,false);
+if(['pmi','ai','refunds','emp','portfolio'].includes(h))activate(h,false);
 // keyboard: arrow keys between tabs
 document.querySelector('.tabs').addEventListener('keydown',e=>{
   if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;

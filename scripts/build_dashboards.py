@@ -92,6 +92,10 @@ for x in a2h_raw:
 a1 = {x["ticker"]: x for x in a1h}
 a2 = {x["ticker"]: x for x in a2h}
 R = load(f"{ROOT}/refund_highlights.json")["highlights"]
+try:
+    spy = {c["ticker"] for c in load(f"{ROOT}/sp500_constituents_spy.json")}
+except Exception:
+    spy = set()
 print(f"data: pmi {len(raw)}->{len(q2)} | ai Q1 {len(a1h)} Q2 {len(a2h)} | refunds {len(R)}")
 
 # ---------------- scorecard ----------------
@@ -354,6 +358,42 @@ s = sub1(s, r"\u00b7 [A-Z][a-z]+ \d+, 2026</caption>", f"\u00b7 {today_short}</c
 open(p, "w").write(s)
 print(f"employment: persistent {d_per:+.2f} p={p_per:.3f} (n={len(g_per)} v {len(g_nev)}) mde={mde:.2f}")
 
+# ---------------- portfolio screen ----------------
+p = f"{SITE}/portfolio/index.html"
+s = open(p).read()
+Rmap = {x["ticker"]: x for x in R}
+uni_all = set(q1s) | set(best)
+C = {}
+for t in sorted(uni_all):
+    r2, r1 = best.get(t), q1s.get(t)
+    name = (a2.get(t) or a1.get(t) or Rmap.get(t) or {}).get("company") or ""
+    if name == t: name = ""
+    e = {"n": name, "s": (r2 or r1 or {}).get("sector",""), "x": 1 if ("spy" in dir() and t in spy) else 0,
+         "p1": (r1 or {}).get("composite"), "p2": (r2 or {}).get("composite"),
+         "k": ((r2 or {}).get("key_signal") or "")[:230] or None}
+    try:
+        e["x"] = 1 if t in spy else 0
+    except NameError:
+        e["x"] = 0
+    e["d"] = (e["p2"]-e["p1"]) if (e["p1"] is not None and e["p2"] is not None) else None
+    x = a2.get(t)
+    if x: e["ai"] = {"c": x["category"], "m": x.get("metric") or "", "h": x["headline"], "q": x["quote"],
+                     "mc": 1 if x.get("margin_claim") else 0, "mm": x.get("margin_metric") or "",
+                     "mz": x.get("margin_quote") or "", "nw": 0 if t in a1 else 1}
+    f = Rmap.get(t)
+    if f:
+        g = "undecided" if f["disposition"] in ("undecided","na") else f["disposition"]
+        e["rf"] = {"g": g, "a": f.get("amount") or "", "m": mm(f.get("amount")), "h": f["headline"],
+                   "q": f.get("quote_receiving") or ""}
+    e["coh"] = "persistent" if (t in a1 and t in a2) else ("new" if t in a2 else ("quiet" if t in a1 else "never"))
+    C[t] = {k: v for k, v in e.items() if v not in (None,"",0) or k in ("x",)}
+DBP = {"c": C, "m": {"n": len(C), "idx": SC["comp2"], "date": today,
+                     "ed": fmt(d_per), "ep": f"{p_per:.3f}"}}
+a = s.index("const DB="); bnd = s.index(";\n", a)
+s = s[:a] + "const DB=" + json.dumps(DBP, separators=(",",":")) + s[bnd:]
+open(p, "w").write(s)
+print(f"portfolio: {len(C)} companies in payload")
+
 # ---------------- hub date ----------------
 p = f"{SITE}/index.html"
 s = open(p).read()
@@ -361,7 +401,7 @@ s = sub1(s, r"data as of [A-Z][a-z]+ \d+, 2026", f"data as of {today_short}", "h
 open(p, "w").write(s)
 
 # ---------------- self-check ----------------
-for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment"]:
+for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio"]:
     t = open(f"{SITE}/{page}/index.html").read()
     if today.split(",")[0].split()[1] not in t and today_short.split()[1] not in t:
         die(f"{page}: today's date missing after build")
