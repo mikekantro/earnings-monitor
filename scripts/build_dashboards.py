@@ -83,6 +83,7 @@ for r in raw:
 q2 = list(best.values())
 
 a1h = load(f"{ROOT}/ai_highlights_q1.json")["highlights"]
+if len(a1h) != 505: die(f"Q1 sweep wrong file: {len(a1h)} entries, expected 505")
 a2h_raw = load(f"{ROOT}/ai_highlights_q2.json")["highlights"]
 seen = set(); a2h = []
 for x in a2h_raw:
