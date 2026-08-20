@@ -1504,6 +1504,18 @@
    "quote_receiving": "excludes the benefit from tariff refunds that we received in the second quarter and expect to receive in the third quarter",
    "quote_customers": "",
    "event_date": "2026-08-19"
+  },
+  {
+   "ticker": "WMT",
+   "company": "WMT",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Walmart received tariff refunds in Q2, boosting operating income by ~750 bps; company deploying proceeds into price investment.",
+   "quote_receiving": "This includes the benefit from the receipt of tariff refunds in the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-08-20"
   }
  ]
 }
