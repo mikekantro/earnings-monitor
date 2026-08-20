@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earnings Intelligence — Kantrowitz Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0F1E2E;--paper:#F2F4F6;--rule:#22384A;--muted:#7E9AB2}
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;
+       display:flex;flex-direction:column}
+  .top{color:#E7EDF3;padding:18px 24px 0}
+  .brand{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;max-width:1200px;margin:0 auto;width:100%}
+  h1{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:clamp(20px,2.6vw,27px);
+     margin:0;letter-spacing:-.01em;color:#FBFDFF}
+  .tag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.13em;
+       text-transform:uppercase;color:var(--muted)}
+  .tabs{display:flex;gap:8px;max-width:1200px;margin:14px auto 0;width:100%;overflow-x:auto;
+        -webkit-overflow-scrolling:touch}
+  .tab{appearance:none;font:inherit;font-size:14.5px;font-weight:500;cursor:pointer;
+       white-space:nowrap;padding:12px 20px;border-radius:9px 9px 0 0;
+       background:rgba(255,255,255,.07);border:1px solid #33506A;border-bottom:0;
+       color:#DCE7F0;margin-bottom:0}
+  .tab:hover{background:rgba(255,255,255,.14);color:#FFFFFF}
+  .tab[aria-selected="true"]{background:#F2F4F6;border-color:#F2F4F6;color:var(--ink);
+       font-weight:600;box-shadow:0 -2px 0 #8FD8CE inset}
+  .tab .m{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:400;color:inherit;
+          opacity:.7;display:block;letter-spacing:.06em;margin-top:2px}
+  .stage{flex:1;background:var(--paper);min-height:0}
+  .pane{width:100%;height:100%;border:0;display:none}
+  .pane.active{display:block}
+  :focus-visible{outline:2px solid #8FD8CE;outline-offset:-2px}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">
+    <h1>Earnings Intelligence</h1>
+    <span class="tag">S&amp;P 1500 · scored from every earnings call · data as of Aug 20, 2026</span>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Dashboards">
+    <button class="tab" role="tab" id="t-pmi" aria-selected="true" data-pane="pmi">
+      Earnings PMI<span class="m">Q2 vs Q1 scorecard</span></button>
+    <button class="tab" role="tab" id="t-ai" aria-selected="false" data-pane="ai">
+      AI Watch<span class="m">two seasons, in their own words</span></button>
+    <button class="tab" role="tab" id="t-emp" aria-selected="false" data-pane="emp">
+      AI &times; Employment<span class="m">hypothesis on watch</span></button>
+    <button class="tab" role="tab" id="t-refunds" aria-selected="false" data-pane="refunds">
+      Tariff Refunds<span class="m">who's keeping the money</span></button>
+  </nav>
+</div>
+<div class="stage">
+  <iframe class="pane active" id="p-pmi" title="Earnings PMI scorecard"
+    src="pmi-scorecard/"></iframe>
+  <iframe class="pane" id="p-ai" title="AI adopters" data-src="ai-adopters/"></iframe>
+  <iframe class="pane" id="p-refunds" title="Tariff refund watch" data-src="refund-watch/"></iframe>
+  <iframe class="pane" id="p-emp" title="AI and employment tracker" data-src="ai-employment/"></iframe>
+</div>
+<script>
+const tabs=[...document.querySelectorAll('.tab')];
+function activate(name,push){
+  tabs.forEach(t=>t.setAttribute('aria-selected',String(t.dataset.pane===name)));
+  document.querySelectorAll('.pane').forEach(p=>{
+    const on=p.id==='p-'+name;
+    p.classList.toggle('active',on);
+    if(on&&!p.src&&p.dataset.src)p.src=p.dataset.src;   // lazy-load on first open
+  });
+  if(push)history.replaceState(null,'','#'+name);
+}
+tabs.forEach(t=>t.addEventListener('click',()=>activate(t.dataset.pane,true)));
+const h=location.hash.replace('#','');
+if(['pmi','ai','refunds','emp'].includes(h))activate(h,false);
+// keyboard: arrow keys between tabs
+document.querySelector('.tabs').addEventListener('keydown',e=>{
+  if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;
+  const i=tabs.findIndex(t=>t.getAttribute('aria-selected')==='true');
+  const n=tabs[(i+(e.key==='ArrowRight'?1:tabs.length-1))%tabs.length];
+  n.focus();activate(n.dataset.pane,true);
+});
+</script>
+</body>
+</html>
