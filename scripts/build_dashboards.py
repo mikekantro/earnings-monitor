@@ -82,7 +82,7 @@ for r in raw:
         best[t] = r
 q2 = list(best.values())
 
-a1h = load(f"{ROOT}/ai_highlights.json")["highlights"]
+a1h = load(f"{ROOT}/ai_highlights_q1.json")["highlights"]
 a2h_raw = load(f"{ROOT}/ai_highlights_q2.json")["highlights"]
 seen = set(); a2h = []
 for x in a2h_raw:
