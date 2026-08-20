@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T17:35:23.650183",
+ "generated": "2026-08-20T22:55:25.851595",
  "window": [
   "2026-07-15",
   "2026-08-20"
@@ -4876,6 +4876,18 @@
    "quote": "what's happening with outsourcing broad based is that AI is replacing a need for having to outsource at all. And as we're able to bring that outsource total down, we're bringing down 100% dollars",
    "metric": null,
    "event_date": "2026-07-20"
+  },
+  {
+   "ticker": "INGR",
+   "company": "Ingredion, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Ingredion launched Ask Ingredion, an AI-powered formulation platform to help customers solve ingredient and formulation challenges faster.",
+   "quote": "we launched Ask Ingredion, our AI-powered formulation platform designed to help customers identify ingredients and solve formulation challenges that help them bring new products to market faster.",
+   "metric": null,
+   "event_date": "2026-08-04"
   }
  ]
 }
