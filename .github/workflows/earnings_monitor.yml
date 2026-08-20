@@ -45,4 +45,5 @@ jobs:
           git config user.email "actions@github.com"
           git add pmi_scores.json ai_highlights.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Data update $(date -u +%F)"
+          git pull --rebase origin main
           git push
