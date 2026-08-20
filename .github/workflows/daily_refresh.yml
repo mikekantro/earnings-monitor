@@ -1,0 +1,66 @@
+name: Daily Research Refresh
+
+on:
+  schedule:
+    # 21:30 UTC (5:30 PM ET) Mon–Fri — after same-day morning transcripts post
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests anthropic numpy
+
+      - name: Refund sweep (resumed — only new reporters)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
+        run: python scripts/refund_watch_run.py --start 2026-07-15 --scores pmi_scores.json --resume
+
+      - name: AI sweep (resumed — only new reporters)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
+        run: python scripts/ai_watch_run.py --start 2026-07-15 --scores pmi_scores.json --out ai_highlights_q2.json --model claude-haiku-4-5-20251001 --resume
+
+      - name: Rebuild dashboards
+        run: python scripts/build_dashboards.py
+
+      - name: Commit data + pages
+        run: |
+          git config user.name  "earnings-monitor-bot"
+          git config user.email "actions@github.com"
+          git add ai_highlights_q2.json refund_highlights.json \
+                  ai_highlights_q2.json.done refund_highlights.json.done \
+                  docs/research 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Daily research refresh $(date -u +%F)"
+          git pull --rebase origin main
+          git push
+
+      - name: Deploy to website (FTP)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server:   ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: docs/research/
+          server-dir: public_html/research/
