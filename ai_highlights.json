@@ -1259,7 +1259,43 @@
    "quote": "we're also seeing Pros build material lists and purchase more with the use of our AI-powered Material List Builder.",
    "metric": null,
    "event_date": "2026-08-19"
+  },
+  {
+   "ticker": "TGT",
+   "company": "Target Corp.",
+   "category": "revenue",
+   "headline": "Target partners with OpenAI and Google Gemini for agentic commerce; AI-sourced digital traffic growing 3.5x industry rate",
+   "quote": "Target's digital traffic sourced from external AI platforms is growing more than 3.5 times the industry as compared to a year ago.",
+   "metric": "3.5x industry traffic growth from external AI platforms",
+   "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "EL",
+   "company": "The Estee Lauder Companies, Inc.",
+   "category": "efficiency",
+   "headline": "Est\u00e9e Lauder uses AI for consumer insights, personalization, ad campaigns, and enterprise service delivery productivity.",
+   "quote": "harnessing AI for real-time personalization for many of our performance campaigns. And we expanded our collaboration with Meta, leveraging the AI-powered tool built for advertising, conversational commerce, and agentic messaging",
+   "metric": null,
+   "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "JKHY",
+   "company": "Jack Henry & Associates, Inc.",
+   "category": "efficiency",
+   "headline": "Jack Henry deploys 50+ internal AI agents and 100+ AI tools, doubling engineering productivity and cutting reporting from days to hours.",
+   "quote": "Engineering teams are doubling productivity through AI-assisted development workflows, operations teams are reducing recurring reporting processes from days to hours",
+   "metric": "doubling productivity; reporting reduced from days to hours; 890 documented use cases; 50+ AI agents; 100+ AI tools",
+   "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "LOW",
+   "company": "Lowe's Companies, Inc.",
+   "category": "revenue",
+   "headline": "Lowe's AI agent Mylow drives 3x conversion rate vs. non-users; has handled 25M+ customer and associate questions",
+   "quote": "the conversion rate for online customers who use Mylow is triple that of customers who do not use the tool, reinforcing that a well-designed agentic AI experience can be a clear driver in the purchasing decision.",
+   "metric": "3x conversion rate; 25 million questions handled",
+   "event_date": "2026-08-20"
   }
  ],
- "updated": "2026-08-19T12:55:20"
+ "updated": "2026-08-20T02:16:00"
 }
