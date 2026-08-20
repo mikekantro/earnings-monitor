@@ -63,7 +63,7 @@ jobs:
           DEPLOY_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
           sudo apt-get install -y -qq lftp >/dev/null
-          printf 'machine %s\nlogin %s\npassword %s\n' "$DEPLOY_SERVER" "$DEPLOY_USERNAME" "$DEPLOY_PASSWORD" > ~/.netrc
-          chmod 600 ~/.netrc
-          timeout 300 lftp -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; open sftp://$DEPLOY_SERVER; mirror -R --only-newer --verbose docs/research doc_root/research; bye" \
-            || { echo '::error::SFTP deploy failed or timed out after 5 minutes'; exit 1; }
+          timeout 300 lftp -u "$DEPLOY_USERNAME","$DEPLOY_PASSWORD" \
+            -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; set sftp:connect-program 'ssh -a -x -o StrictHostKeyChecking=no'; mirror -R --only-newer --verbose docs/research doc_root/research; bye" \
+            "sftp://$DEPLOY_SERVER" \
+            || { echo '::error::SFTP deploy failed — see error above'; exit 1; }
