@@ -1,0 +1,738 @@
+[
+  {
+    "symbol": "WINA",
+    "name": "Winmark Corp.",
+    "eventId": "1203811423",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-15"
+  },
+  {
+    "symbol": "CBSH",
+    "name": "Commerce Bancshares, Inc. (Missouri)",
+    "eventId": "1203778584",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-16"
+  },
+  {
+    "symbol": "FFIN",
+    "name": "First Financial Bankshares, Inc.",
+    "eventId": "1203815542",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-16"
+  },
+  {
+    "symbol": "WABC",
+    "name": "Westamerica Bancorporation",
+    "eventId": "1203814729",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-16"
+  },
+  {
+    "symbol": "MCRI",
+    "name": "Monarch Casino & Resort, Inc.",
+    "eventId": "1203801119",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-20"
+  },
+  {
+    "symbol": "MLI",
+    "name": "Mueller Industries, Inc.",
+    "eventId": "1203819446",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-21"
+  },
+  {
+    "symbol": "WBS",
+    "name": "Webster Financial Corp.",
+    "eventId": "1203724141",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-21"
+  },
+  {
+    "symbol": "AVB",
+    "name": "AvalonBay Communities, Inc.",
+    "eventId": "1203806528",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-22"
+  },
+  {
+    "symbol": "CHCO",
+    "name": "City Holding Co.",
+    "eventId": "1203819501",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-22"
+  },
+  {
+    "symbol": "EQR",
+    "name": "Equity Residential",
+    "eventId": "1203807999",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-22"
+  },
+  {
+    "symbol": "FBNC",
+    "name": "First Bancorp (North Carolina)",
+    "eventId": "1203821618",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-22"
+  },
+  {
+    "symbol": "IRDM",
+    "name": "Iridium Communications, Inc.",
+    "eventId": "1203823250",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-22"
+  },
+  {
+    "symbol": "TR",
+    "name": "Tootsie Roll Industries, Inc.",
+    "eventId": "1203822739",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-22"
+  },
+  {
+    "symbol": "BANF",
+    "name": "BancFirst Corp. (Oklahoma)",
+    "eventId": "1203815523",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-23"
+  },
+  {
+    "symbol": "FCFS",
+    "name": "FirstCash Holdings, Inc.",
+    "eventId": "1203405504",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-23"
+  },
+  {
+    "symbol": "MRTN",
+    "name": "Marten Transport Ltd.",
+    "eventId": "1203812826",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-23"
+  },
+  {
+    "symbol": "NVR",
+    "name": "NVR, Inc.",
+    "eventId": "1203804127",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-23"
+  },
+  {
+    "symbol": "TMP",
+    "name": "Tompkins Financial Corp.",
+    "eventId": "1203947642",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-24"
+  },
+  {
+    "symbol": "LKFN",
+    "name": "Lakeland Financial Corp. (Indiana)",
+    "eventId": "1204403991",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-27"
+  },
+  {
+    "symbol": "PRK",
+    "name": "Park National Corp.",
+    "eventId": "1203827070",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-27"
+  },
+  {
+    "symbol": "UHT",
+    "name": "Universal Health Realty Income Trust",
+    "eventId": "1203827131",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-27"
+  },
+  {
+    "symbol": "CZR",
+    "name": "Caesars Entertainment, Inc.",
+    "eventId": "1203785567",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-28"
+  },
+  {
+    "symbol": "MBIN",
+    "name": "Merchants Bancorp (Indiana)",
+    "eventId": "1203827089",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-28"
+  },
+  {
+    "symbol": "QRVO",
+    "name": "Qorvo, Inc.",
+    "eventId": "1203812023",
+    "reportId": null,
+    "quarter": "Q1 2026",
+    "date": "2026-07-28"
+  },
+  {
+    "symbol": "TWO",
+    "name": "Two Harbors Investment Corp.",
+    "eventId": "1203811549",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-28"
+  },
+  {
+    "symbol": "CFFN",
+    "name": "Capitol Federal Financial, Inc.",
+    "eventId": "1203783455",
+    "reportId": null,
+    "quarter": "Q3 2026",
+    "date": "2026-07-29"
+  },
+  {
+    "symbol": "MORN",
+    "name": "Morningstar, Inc.",
+    "eventId": "1203783919",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-29"
+  },
+  {
+    "symbol": "LXP",
+    "name": "LXP Industrial Trust",
+    "eventId": "1203810034",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-29"
+  },
+  {
+    "symbol": "DFH",
+    "name": "Dream Finders Homes, Inc.",
+    "eventId": "1203834551",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-30"
+  },
+  {
+    "symbol": "GHC",
+    "name": "Graham Holdings Co.",
+    "eventId": "1203831755",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-30"
+  },
+  {
+    "symbol": "HTLD",
+    "name": "Heartland Express, Inc.",
+    "eventId": "1203823538",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-30"
+  },
+  {
+    "symbol": "MSEX",
+    "name": "Middlesex Water Co.",
+    "eventId": "1203815638",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-30"
+  },
+  {
+    "symbol": "PEN",
+    "name": "Penumbra, Inc.",
+    "eventId": "1203785630",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-30"
+  },
+  {
+    "symbol": "NPK",
+    "name": "National Presto Industries, Inc.",
+    "eventId": "1203825352",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-31"
+  },
+  {
+    "symbol": "TXNM",
+    "name": "TXNM Energy, Inc.",
+    "eventId": "1203837200",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-07-31"
+  },
+  {
+    "symbol": "ITGR",
+    "name": "Integer Holdings Corp.",
+    "eventId": "1203780162",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-03"
+  },
+  {
+    "symbol": "L",
+    "name": "Loews Corp.",
+    "eventId": "1203811434",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-03"
+  },
+  {
+    "symbol": "AGNT",
+    "name": "AGNT, Inc.",
+    "eventId": "1204389199",
+    "reportId": "3508864",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "AFG",
+    "name": "American Financial Group, Inc.",
+    "eventId": "1203809991",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "AMGN",
+    "name": "Amgen, Inc.",
+    "eventId": "1204379565",
+    "reportId": "3505078",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "ALGT",
+    "name": "Allegiant Travel Co.",
+    "eventId": "1204395425",
+    "reportId": "3511448",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "AIZ",
+    "name": "Assurant, Inc.",
+    "eventId": "1203802360",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "BL",
+    "name": "BlackLine, Inc.",
+    "eventId": "1204397815",
+    "reportId": "3512523",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "BIO",
+    "name": "Bio-Rad Laboratories, Inc.",
+    "eventId": "1204400897",
+    "reportId": "3513858",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "BKNG",
+    "name": "Booking Holdings, Inc.",
+    "eventId": "1204377284",
+    "reportId": "3503849",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "AZTA",
+    "name": "Azenta, Inc.",
+    "eventId": "1203821619",
+    "reportId": null,
+    "quarter": "Q3 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "AROC",
+    "name": "Archrock, Inc.",
+    "eventId": "1203828634",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "CC",
+    "name": "The Chemours Co.",
+    "eventId": "1203829606",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "DEI",
+    "name": "Douglas Emmett, Inc.",
+    "eventId": "1203780366",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "DVA",
+    "name": "DaVita, Inc.",
+    "eventId": "1204397850",
+    "reportId": "3512546",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "EVTC",
+    "name": "EVERTEC, Inc.",
+    "eventId": "1204397760",
+    "reportId": "3512482",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "ECG",
+    "name": "Everus Construction Group, Inc.",
+    "eventId": "1203832738",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "EXPD",
+    "name": "Expeditors International of Washington, Inc.",
+    "eventId": "1203690593",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "EOG",
+    "name": "EOG Resources, Inc.",
+    "eventId": "1203777637",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "DVN",
+    "name": "Devon Energy Corp.",
+    "eventId": "1203778981",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "DOC",
+    "name": "Healthpeak Properties, Inc.",
+    "eventId": "1203780341",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "EQH",
+    "name": "Equitable Holdings, Inc.",
+    "eventId": "1203799133",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "FBIN",
+    "name": "Fortune Brands Innovations, Inc.",
+    "eventId": "1204382856",
+    "reportId": "3506665",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences, Inc.",
+    "eventId": "1204397874",
+    "reportId": "3512566",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "IFF",
+    "name": "International Flavors & Fragrances, Inc.",
+    "eventId": "1203804133",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "GXO",
+    "name": "GXO Logistics, Inc.",
+    "eventId": "1203814449",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "HL",
+    "name": "Hecla Mining Co.",
+    "eventId": "1203822253",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "KTOS",
+    "name": "Kratos Defense & Security Solutions, Inc.",
+    "eventId": "1204400957",
+    "reportId": "3513891",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "IOSP",
+    "name": "Innospec, Inc.",
+    "eventId": "1203787184",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "JBGS",
+    "name": "JBG SMITH Properties",
+    "eventId": "1203803133",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "IPAR",
+    "name": "Interparfums, Inc.",
+    "eventId": "1203822497",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "KAI",
+    "name": "Kadant Inc.",
+    "eventId": "1203823552",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "MAT",
+    "name": "Mattel, Inc.",
+    "eventId": "1204375498",
+    "reportId": "3503118",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "LUMN",
+    "name": "Lumen Technologies, Inc. (Louisiana)",
+    "eventId": "1204388603",
+    "reportId": "3508532",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "LMAT",
+    "name": "LeMaitre Vascular, Inc.",
+    "eventId": "1204389126",
+    "reportId": "3508817",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "MAC",
+    "name": "Macerich Co.",
+    "eventId": "1204390188",
+    "reportId": "3509191",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "LRN",
+    "name": "Stride, Inc.",
+    "eventId": "1204397790",
+    "reportId": "3512506",
+    "quarter": "Q4 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "LSCC",
+    "name": "Lattice Semiconductor Corp.",
+    "eventId": "1204400739",
+    "reportId": "3513748",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "MBC",
+    "name": "MasterBrand, Inc.",
+    "eventId": "1204377567",
+    "reportId": "3503987",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "MOS",
+    "name": "The Mosaic Co.",
+    "eventId": "1203811537",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "MTCH",
+    "name": "Match Group, Inc.",
+    "eventId": "1204389095",
+    "reportId": "3508792",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "OGS",
+    "name": "ONE Gas, Inc.",
+    "eventId": "1203525041",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "PCTY",
+    "name": "Paylocity Holding Corp.",
+    "eventId": "1204389031",
+    "reportId": "3508755",
+    "quarter": "Q4 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "PSKY",
+    "name": "Paramount Skydance Corp.",
+    "eventId": "1204397822",
+    "reportId": "3512526",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "PRU",
+    "name": "Prudential Financial, Inc.",
+    "eventId": "1203786880",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "PARR",
+    "name": "Par Pacific Holdings, Inc.",
+    "eventId": "1203809693",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "PRIM",
+    "name": "Primoris Services Corp.",
+    "eventId": "1203819872",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "PLMR",
+    "name": "Palomar Holdings, Inc.",
+    "eventId": "1203827066",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "QLYS",
+    "name": "Qualys, Inc.",
+    "eventId": "1204397415",
+    "reportId": "3512285",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "SKT",
+    "name": "Tanger, Inc.",
+    "eventId": "1203767374",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "SKY",
+    "name": "Champion Homes, Inc.",
+    "eventId": "1203811522",
+    "reportId": null,
+    "quarter": "Q1 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "TALO",
+    "name": "Talos Energy, Inc.",
+    "eventId": "1203811608",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "TMDX",
+    "name": "TransMedics Group, Inc.",
+    "eventId": "1204397781",
+    "reportId": "3512499",
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "VSAT",
+    "name": "ViaSat, Inc.",
+    "eventId": "1204408208",
+    "reportId": "3516987",
+    "quarter": "Q1 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "VOYA",
+    "name": "Voya Financial, Inc.",
+    "eventId": "1203787111",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "WTRG",
+    "name": "Essential Utilities, Inc.",
+    "eventId": "1203810050",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  },
+  {
+    "symbol": "VTOL",
+    "name": "Bristow Group, Inc.",
+    "eventId": "1203829643",
+    "reportId": null,
+    "quarter": "Q2 2026",
+    "date": "2026-08-04"
+  }
+]
