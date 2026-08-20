@@ -56,11 +56,22 @@ Return STRICT JSON, no prose, with exactly these keys:
               <=30 words, appearing in the transcript. "" if none.
   metric    : any quantified AI figure the company stated ("3x conversion", "$60M savings",
               "200 bps"), else null
+  margin_claim : boolean -- true ONLY if the company explicitly connects its AI use to
+              improvement in ITS OWN margins or profitability (gross/operating margin,
+              operating income, cost-of-goods, profitability). Talk of AI "efficiency"
+              alone is NOT a margin claim; the company must state the margin/profit link.
+  margin_quote : VERBATIM span (<=30 words, appearing in the transcript) stating that
+              margin/profitability link. "" if margin_claim is false.
+  margin_metric: the quantified margin impact if stated ("260 bps gross margin expansion",
+              "$40M to operating income"), else null. Only fill from explicit statements.
 
 Rules:
 - If you cannot find a verbatim supporting quote in the transcript, return uses_ai=false,
   category="none", empty strings, metric null.
 - Copy the quote exactly; do not paraphrase inside it; do not stitch passages together.
+- margin_claim requires the SAME standard: an explicit verbatim margin_quote or it is false.
+  "AI drives efficiency" = margin_claim false. "AI automation added 100 bps to operating
+  margin" = margin_claim true with margin_metric.
 - A retailer/bank/consumer company running an AI assistant for its own customers is
   "revenue" (or "efficiency"), NOT "product" and NOT "vendor".
 - If the company BOTH sells AI to others AND uses AI in its own operations or customer
@@ -143,7 +154,12 @@ def get_ai_highlight(ticker: str, company: str, transcript: str, debug: bool = F
         if debug: print(f"  [debug {ticker}] quote NOT verified: {data.get('quote','')[:80]!r}")
         return None
 
+    mq = (data.get("margin_quote") or "").strip()
+    mclaim = bool(data.get("margin_claim")) and bool(mq)
     return {"ticker": ticker, "company": company, "category": data["category"],
+            "margin_claim": mclaim,
+            "margin_quote": mq if mclaim else "",
+            "margin_metric": (data.get("margin_metric") if mclaim else None),
             "headline": data.get("headline", "").strip(),
             "quote": data.get("quote", "").strip(), "metric": data.get("metric")}
 
