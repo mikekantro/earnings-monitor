@@ -163,7 +163,9 @@ for src, season, pmi in ((a1h, "Q1", q1s), (a2h, "Q2", best)):
         rows.append({"t": t, "n": x["company"], "c": x["category"], "S": season,
                      "p": pp.get("composite"), "s": pp.get("sector","—"), "x": 0,
                      "m": x.get("metric") or "", "h": x["headline"], "q": x["quote"],
-                     "new": 1 if (season=="Q2" and t not in t1) else 0})
+                     "new": 1 if (season=="Q2" and t not in t1) else 0,
+                     "mc": 1 if x.get("margin_claim") else 0,
+                     "mm": x.get("margin_metric") or "", "mz": x.get("margin_quote") or ""})
 try:
     spy = {c["ticker"] for c in load(f"{ROOT}/sp500_constituents_spy.json")}
     for r in rows: r["x"] = 1 if r["t"] in spy else 0
@@ -207,8 +209,35 @@ s = sub1(s, r'<td class="v">\d+<small>the cohort to watch</small></td>',
          f'<td class="v">{AP["upg"]}<small>the cohort to watch</small></td>', "ai-tbl-upg")
 s = sub1(s, r"\(\d+ of 505\)", f"({AP['q1_in']} of 505)", "ai-505")
 s = sub1(s, r"Q2 window: July 15 – [A-Z][a-z]+ \d+, 2026", f"Q2 window: July 15 – {today}", "ai-date")
+
+# ---- margin section (marker-delimited) ----
+mc = [x for x in a2h if x.get("margin_claim")]
+mqx = [x for x in mc if x.get("margin_metric")]
+def _mkind(m): return "target" if re.search(r"target|by 20\d\d", m or "", re.I) else "realized"
+realized = [x for x in mqx if _mkind(x["margin_metric"])=="realized"]
+eff_mc = sum(1 for x in mc if x["category"]=="efficiency")
+def _esc(x): return (x or "").replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+def _swap(html, tag, inner):
+    a = html.index(f"<!--{tag}-->") + len(tag) + 7
+    b = html.index(f"<!--/{tag}-->")
+    return html[:a] + inner + html[b:]
+s = _swap(s, "MPROSE",
+    f"Of {len(a2h)} adopters, {len(mc)} make the connection on the record, {len(mqx)} attach a number "
+    f"&mdash; and of those, only {len(realized)} describe realized results rather than future targets.")
+s = _swap(s, "MSTATS", f'''
+<span><b>{len(mc)}</b>adopters state the AI&rarr;margin link ({round(100*len(mc)/len(a2h))}% of {len(a2h)})</span>
+<span><b>{len(mqx)}</b>attach a number</span>
+<span><b>{len(realized)}</b>quantified &amp; realized &mdash; not a target</span>
+<span><b>{eff_mc} / {len(mc)}</b>are efficiency claimants</span>
+''')
+mrows = "\n".join(
+    f'<tr><td><b>{x["ticker"]}</b> <span style="color:var(--muted)">{_esc(x["company"])}</span></td>'
+    f'<td class="mv">{_esc(x["margin_metric"])}</td>'
+    f'<td><span class="mtag {_mkind(x["margin_metric"])}">{_mkind(x["margin_metric"]).upper()}</span></td></tr>'
+    for x in sorted(mqx, key=lambda x:(_mkind(x["margin_metric"])!="realized", x["ticker"])))
+s = _swap(s, "MTBL", "\n" + mrows + "\n")
 open(p, "w").write(s)
-print(f"ai page: {AP} pers={pers}")
+print(f"ai page: {AP} pers={pers} | margin: {len(mc)} claim / {len(mqx)} quant / {len(realized)} realized")
 
 # ---------------- refund page ----------------
 for x in R:
