@@ -195,8 +195,8 @@ s = sub1(s, r"Of the \d+ Q1 adopters that have reported Q2, <b>\d+% repeated the
 s = sub1(s, r"efficiency stayed efficiency \(\d+ companies\), product stayed product \(\d+\)",
          f"efficiency stayed efficiency ({AP['eff']} companies), product stayed product ({AP['prd']})", "ai-sticky")
 s = sub1(s, r"\d+ went quiet entirely\.", f"{AP['quiet']} went quiet entirely.", "ai-quiet-prose")
-s = sub1(s, r"Of <b>\d+ Q1 revenue claimants</b> reporting Q2,\s*only <b>\d+ still describe AI driving revenue</b> — and just <b>\d+ back it with a number</b>",
-         f"Of <b>{AP['rev1']} Q1 revenue claimants</b> reporting Q2,\nonly <b>{AP['rev_still']} still describe AI driving revenue</b> — and just <b>{AP['rev_met']} back it with a number</b>", "ai-funnel-prose")
+s = sub1(s, r"Of <b>\d+ Q1 revenue claimants</b> reporting Q2,\s*only <b>\d+ still describe AI driving revenue</b>, and just <b>\d+ back it with a number</b>",
+         f"Of <b>{AP['rev1']} Q1 revenue claimants</b> reporting Q2,\nonly <b>{AP['rev_still']} still describe AI driving revenue</b>, and just <b>{AP['rev_met']} back it with a number</b>", "ai-funnel-prose")
 s = sub1(s, r'<td class="v">\d+ / \d+<small>\d+% persistence</small></td>',
          f'<td class="v">{AP["rep"]} / {AP["q1_in"]}<small>{pers}% persistence</small></td>', "ai-tbl-pers")
 s = sub1(s, r'<tr><td>Went quiet</td><td class="v">\d+<small>\d+%</small></td></tr>',
@@ -222,12 +222,12 @@ def _swap(html, tag, inner):
     b = html.index(f"<!--/{tag}-->")
     return html[:a] + inner + html[b:]
 s = _swap(s, "MPROSE",
-    f"Of {len(a2h)} adopters, {len(mc)} make the connection on the record, {len(mqx)} attach a number "
-    f"&mdash; and of those, only {len(realized)} describe realized results rather than future targets.")
+    f"Of {len(a2h)} adopters, {len(mc)} make the connection on the record, {len(mqx)} attach a number, "
+    f"and of those only {len(realized)} describe realized results rather than future targets.")
 s = _swap(s, "MSTATS", f'''
 <span><b>{len(mc)}</b>adopters state the AI&rarr;margin link ({round(100*len(mc)/len(a2h))}% of {len(a2h)})</span>
 <span><b>{len(mqx)}</b>attach a number</span>
-<span><b>{len(realized)}</b>quantified &amp; realized &mdash; not a target</span>
+<span><b>{len(realized)}</b>quantified &amp; realized, not a target</span>
 <span><b>{eff_mc} / {len(mc)}</b>are efficiency claimants</span>
 ''')
 mrows = "\n".join(
@@ -347,9 +347,10 @@ s = sub1(s, r'(First-time claimants</td><td class="v">)[\u2212+][\d.]+(<small>n=
          lambda m: m.group(1)+fmt(d_new)+m.group(2)+str(len(g_new))+m.group(3)+f"{p_new:.2f}", "emp-tbl-new")
 s = sub1(s, r'(Never claimed AI</td><td class="v">)\+[\d.]+ raw(<small>n=)\d+',
          lambda m: m.group(1)+f"+{g_nev.mean():.2f} raw"+m.group(2)+str(len(g_nev)), "emp-tbl-nev")
-s = sub1(s, r'[\d.]+ pts<small>observed [\d.]+ \u2014 Q3 supplies the power',
-         f"{mde:.2f} pts<small>observed {abs(d_per):.2f} \u2014 Q3 supplies the power", "emp-mde")
+s = sub1(s, r'[\d.]+ pts<small>observed [\d.]+; Q3 supplies the power',
+         f"{mde:.2f} pts<small>observed {abs(d_per):.2f}; Q3 supplies the power", "emp-mde")
 s = sub1(s, r"<b>Data as of [A-Z][a-z]+ \d+, 2026\.</b>", f"<b>Data as of {today}.</b>", "emp-date")
+s = sub1(s, r"\u00b7 [A-Z][a-z]+ \d+, 2026</caption>", f"\u00b7 {today_short}</caption>", "emp-caption")
 open(p, "w").write(s)
 print(f"employment: persistent {d_per:+.2f} p={p_per:.3f} (n={len(g_per)} v {len(g_nev)}) mde={mde:.2f}")
 

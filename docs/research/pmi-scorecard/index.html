@@ -3,30 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Earnings PMI Scorecard — Q2 vs Q1 2026</title>
+<title>Earnings PMI Scorecard | Q2 vs Q1 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Titillium+Web:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{--ink:#0F1E2E;--paper:#F2F4F6;--card:#fff;--rule:#D8DEE4;--muted:#64748B;
-        --up:#0F766E;--dn:#B45309;--shadow:0 1px 2px rgba(15,30,46,.06),0 4px 14px rgba(15,30,46,.04)}
+  :root{--ink:#223E4C;--paper:#F6F7F8;--card:#fff;--rule:#DBE0E4;--muted:#5C6B76;
+        --up:#3E7A99;--dn:#C24F1F;--shadow:0 1px 2px rgba(15,30,46,.06),0 4px 14px rgba(15,30,46,.04)}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.5}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Titillium Web",system-ui,sans-serif;font-size:15px;line-height:1.5}
   .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
   .mono{font-family:"IBM Plex Mono",monospace}
 
-  .masthead{background:var(--ink);color:#E7EDF3;padding:44px 0 40px}
-  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7E9AB2;margin:0 0 18px}
-  .thesis{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:clamp(30px,4.4vw,50px);
-          line-height:1.13;letter-spacing:-.01em;margin:0;max-width:22ch;color:#FBFDFF}
-  .thesis .up{font-style:italic;color:#8FD8CE}
-  .thesis .dn{font-style:italic;color:#F0B47E}
-  .mrow{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:"IBM Plex Mono",monospace;font-size:12px;color:#A9BFD0}
-  .mrow b{display:block;font-size:22px;color:#FBFDFF;font-weight:500;margin-bottom:2px}
+  .masthead{background:var(--ink);color:#EAF0F3;padding:44px 0 40px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8AA2B0;margin:0 0 18px}
+  .thesis{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:clamp(30px,4.4vw,50px);
+          line-height:1.13;letter-spacing:-.01em;margin:0;max-width:22ch;color:#FFFFFF}
+  .thesis .up{font-style:italic;color:#9EC7DA}
+  .thesis .dn{font-style:italic;color:#E89B6B}
+  .mrow{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:"IBM Plex Mono",monospace;font-size:12px;color:#B7C9D3}
+  .mrow b{display:block;font-size:22px;color:#FFFFFF;font-weight:500;margin-bottom:2px}
 
   section{padding:36px 0 8px}
-  .sh{font-family:"Instrument Serif",Georgia,serif;font-size:clamp(21px,2.4vw,27px);margin:0 0 6px;letter-spacing:-.01em}
-  .sp{margin:0 0 20px;color:#475569;font-size:14px;max-width:78ch}
+  .sh{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(21px,2.4vw,27px);margin:0 0 6px;letter-spacing:-.01em}
+  .sp{margin:0 0 20px;color:#4A5A64;font-size:14px;max-width:78ch}
   .sp b{color:var(--ink)}
 
   /* scorecard */
@@ -36,12 +36,12 @@
   .stbl th{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400;text-align:right;padding:10px 12px;border-bottom:1px solid var(--rule);background:#FAFBFC}
   .stbl th:first-child{text-align:left}
   .stbl td{padding:9px 12px;border-bottom:1px solid #EDF0F3;text-align:right;font-family:"IBM Plex Mono",monospace;font-size:13px}
-  .stbl td:first-child{text-align:left;font-family:"IBM Plex Sans",sans-serif;font-weight:500}
+  .stbl td:first-child{text-align:left;font-family:"Titillium Web",sans-serif;font-weight:500}
   .stbl tr:last-child td{border-bottom:0}
   .stbl tr.hero td{background:#F4FBF9;font-weight:500}
   .pos{color:var(--up);font-weight:500}.neg{color:var(--dn);font-weight:500}
 
-  /* diverging sector bars — the signature */
+  /* diverging sector bars */
   .divg{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:18px 20px;box-shadow:var(--shadow)}
   .drow{display:grid;grid-template-columns:150px 1fr 52px;gap:10px;align-items:center;padding:5px 0}
   .dname{font-size:12.5px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -62,7 +62,7 @@
   .mhead{display:flex;align-items:baseline;gap:10px;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);margin-bottom:5px}
   .mhead .tk{font-size:14px;font-weight:500;color:var(--ink)}
   .mhead .delta{margin-left:auto;font-weight:500}
-  .mquote{margin:0;font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.45;color:#12293C}
+  .mquote{margin:0;font-family:"Source Serif 4",Georgia,serif;font-style:italic;font-size:15.5px;line-height:1.45;color:#223E4C}
   .colh{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
 
   /* mega strip */
@@ -82,7 +82,7 @@
   .ctbl td{padding:8px 10px;border-bottom:1px solid #EDF0F3;vertical-align:top}
   .ctbl td.num{text-align:right;font-family:"IBM Plex Mono",monospace;white-space:nowrap}
   .ctbl .tk{font-family:"IBM Plex Mono",monospace;font-weight:500}
-  .ctbl .sig{color:#475569;font-size:12px;line-height:1.45;max-width:52ch}
+  .ctbl .sig{color:#4A5A64;font-size:12px;line-height:1.45;max-width:52ch}
   .ctbl .sec{color:var(--muted);font-size:11.5px;white-space:nowrap}
   .more{margin:14px 0 0;text-align:center}
   .more button{font:inherit;font-size:13px;padding:9px 18px;border:1px solid var(--rule);background:var(--card);border-radius:999px;cursor:pointer}
@@ -90,13 +90,15 @@
   footer{border-top:1px solid var(--rule);margin-top:44px;padding:26px 0 60px;color:var(--muted);font-size:12.5px}
   footer p{margin:0 0 9px;max-width:84ch}footer b{color:var(--ink)}
   :focus-visible{outline:2px solid #2563EB;outline-offset:2px}
+
+/* brand */ .thesis,.fh,.vh,.sh,h1,h2{font-weight:600} .thesis em,.fh em,.vh em,.sh em,h1 em,h2 em,.thesis i,h2 i{font-style:normal}
 </style>
 </head>
 <body>
 
 <header class="masthead"><div class="wrap">
   <p class="eyebrow">Earnings-derived PMI · S&amp;P 1500 · Q2 vs Q1 2026</p>
-  <h1 class="thesis">The industrial economy is <span class="up">accelerating</span>. The consumer has <span class="dn">stalled</span>.</h1>
+  <h1 class="thesis">Industrial momentum is <span class="up">building</span>; consumer readings have <span class="dn">stalled</span>.</h1>
   <div class="mrow">
     <span><b>63.1</b>Q2 composite (Q1: 61.6)</span>
     <span><b>89%</b>companies above 50</span>
@@ -109,14 +111,14 @@
 
 <section>
   <h2 class="sh">The scorecard</h2>
-  <p class="sp">Every figure compares the <b>same 905 companies</b> against their own first quarter — an ISM-style
+  <p class="sp">Every figure compares the <b>same 905 companies</b> against their own first quarter: an ISM-style
      diffusion index scored from each company's earnings call, where 50 divides expansion from contraction.
      Q2 is accelerating modestly and broadly: every sub-index improved, led by output.</p>
   <div class="grid2">
     <table class="stbl"><thead><tr><th>Sub-index</th><th>Q2</th><th>Q1</th><th>Δ</th></tr></thead>
       <tbody id="scorebody"></tbody></table>
     <div class="divg">
-      <p class="colh" style="margin-bottom:4px">Sector change, Q2 vs Q1 — same companies</p>
+      <p class="colh" style="margin-bottom:4px">Sector change, Q2 vs Q1 (same companies)</p>
       <div id="divg"></div>
       <p class="dfoot">Composite points vs the same companies' Q1 scores. The spread between Industrials and
          Consumer Staples is the quarter's defining feature.</p>
@@ -127,7 +129,7 @@
 <section>
   <h2 class="sh">Who moved, in their own words</h2>
   <p class="sp">The largest same-company swings, each with the signal line from its Q2 call. The decliners are
-     thematically coherent — housing-adjacent and consumer names — while the improvers cluster around backlogs
+     thematically coherent (housing-adjacent and consumer names), while the improvers cluster around backlogs
      and the data-center build-out.</p>
   <div class="mcols">
     <div><p class="colh" style="color:var(--dn)">Largest declines</p><div id="mvdn"></div></div>
@@ -170,41 +172,41 @@
   <p class="sp">This is an ISM-style diffusion index derived from earnings calls rather than purchasing-manager
      surveys. Each company's quarterly call is read in full context and scored on six sub-indices under a
      <b>fixed rubric applied identically to every company in both quarters</b>. Each sub-index runs 0&ndash;100,
-     where <b>50 divides expansion from contraction</b> &mdash; a 62 is not &ldquo;better&rdquo; than a 58 by four
+     where <b>50 divides expansion from contraction</b>; a 62 is not &ldquo;better&rdquo; than a 58 by four
      grades; both say conditions are improving, one more emphatically.</p>
   <div class="grid2">
     <table class="stbl"><thead><tr><th>Sub-index</th><th>Weight</th><th style="text-align:left;padding-left:14px">What it reads from the call</th></tr></thead>
       <tbody>
-        <tr><td>New orders</td><td>30%</td><td style="text-align:left;font-family:'IBM Plex Sans';font-size:12.5px;color:#475569;padding-left:14px">Bookings, backlog, pipeline, demand commentary</td></tr>
-        <tr><td>Output</td><td>25%</td><td style="text-align:left;font-family:'IBM Plex Sans';font-size:12.5px;color:#475569;padding-left:14px">Revenue delivery, production, utilization</td></tr>
-        <tr><td>Employment</td><td>15%</td><td style="text-align:left;font-family:'IBM Plex Sans';font-size:12.5px;color:#475569;padding-left:14px">Hiring, headcount, labor availability and cost</td></tr>
-        <tr><td>Prices</td><td>15%</td><td style="text-align:left;font-family:'IBM Plex Sans';font-size:12.5px;color:#475569;padding-left:14px">Pricing power, realized price, input costs</td></tr>
-        <tr><td>Supply chains</td><td>10%</td><td style="text-align:left;font-family:'IBM Plex Sans';font-size:12.5px;color:#475569;padding-left:14px">Lead times, logistics, inventory, tariffs</td></tr>
-        <tr><td>Demand breadth</td><td>5%</td><td style="text-align:left;font-family:'IBM Plex Sans';font-size:12.5px;color:#475569;padding-left:14px">How widespread demand is across segments and geographies</td></tr>
+        <tr><td>New orders</td><td>30%</td><td style="text-align:left;font-family:'Titillium Web';font-size:12.5px;color:#4A5A64;padding-left:14px">Bookings, backlog, pipeline, demand commentary</td></tr>
+        <tr><td>Output</td><td>25%</td><td style="text-align:left;font-family:'Titillium Web';font-size:12.5px;color:#4A5A64;padding-left:14px">Revenue delivery, production, utilization</td></tr>
+        <tr><td>Employment</td><td>15%</td><td style="text-align:left;font-family:'Titillium Web';font-size:12.5px;color:#4A5A64;padding-left:14px">Hiring, headcount, labor availability and cost</td></tr>
+        <tr><td>Prices</td><td>15%</td><td style="text-align:left;font-family:'Titillium Web';font-size:12.5px;color:#4A5A64;padding-left:14px">Pricing power, realized price, input costs</td></tr>
+        <tr><td>Supply chains</td><td>10%</td><td style="text-align:left;font-family:'Titillium Web';font-size:12.5px;color:#4A5A64;padding-left:14px">Lead times, logistics, inventory, tariffs</td></tr>
+        <tr><td>Demand breadth</td><td>5%</td><td style="text-align:left;font-family:'Titillium Web';font-size:12.5px;color:#4A5A64;padding-left:14px">How widespread demand is across segments and geographies</td></tr>
       </tbody></table>
     <div>
       <p class="sp" style="margin-bottom:12px"><b>Reading the numbers.</b> The composite is the weighted average of the six.
          Two interpretation notes that differ from the ISM you may be used to: <b>prices contribute to the composite here</b>
-         (in ISM they are reported separately), so firming prices lift the headline &mdash; read the prices row on its own when
+         (in ISM they are reported separately), so firming prices lift the headline; read the prices row on its own when
          thinking about inflation. And a sub-index above 50 means <i>rising</i>, not <i>good</i>: prices at 61 means pricing is
          firming, which cuts differently for margins than for the consumer.</p>
       <p class="sp" style="margin-bottom:12px"><b>Consistency over completeness.</b> Every company is scored from the same
-         fixed-length transcript window &mdash; prepared remarks and the opening of Q&amp;A &mdash; applied uniformly, so
+         fixed-length transcript window (prepared remarks and the opening of Q&amp;A) applied uniformly, so
          scores are comparable across companies and across quarters. The trade-off is accepted deliberately: a consistent
          partial read beats an inconsistent full one for index construction.</p>
       <p class="sp" style="margin-bottom:0"><b>Quarter-over-quarter discipline.</b> All Q2-vs-Q1 figures on this page compare
-         only the 905 companies scored in <i>both</i> seasons, against their own Q1 scores &mdash; changes in who has
+         only the 905 companies scored in <i>both</i> seasons, against their own Q1 scores; changes in who has
          reported so far cannot masquerade as changes in conditions. Sector bars require at least 10 matched companies.</p>
     </div>
   </div>
 </section>
 
 <footer><div class="wrap">
-  <p><b>Source &amp; scoring.</b> FactSet earnings-call transcripts, scored by Claude (Anthropic) under a fixed rubric
-     &mdash; see &ldquo;How the scores are built&rdquo; above. Key-signal excerpts are drawn from each company's own call.</p>
-  <p><b>Coverage.</b> Q2: 915 companies scored through August 20, 2026; late reporters — retailers in particular, and NVDA —
+  <p><b>Source &amp; scoring.</b> FactSet earnings-call transcripts, scored by Claude (Anthropic) under a fixed rubric;
+     see &ldquo;How the scores are built&rdquo; above. Key-signal excerpts are drawn from each company's own call.</p>
+  <p><b>Coverage.</b> Q2: 915 companies scored through August 20, 2026; late reporters, retailers in particular and NVDA,
      will move these figures. Q1: 1,432 companies, full season.</p>
-  <p><b>Limits.</b> The index measures the story management told, calibrated consistently — not audited results. It is
+  <p><b>Limits.</b> The index measures the story management told, calibrated consistently, not audited results. It is
      descriptive, not predictive. Not investment advice.</p>
 </div></footer>
 
