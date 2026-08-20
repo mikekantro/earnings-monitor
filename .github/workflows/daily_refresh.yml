@@ -56,11 +56,14 @@ jobs:
           git pull --rebase origin main
           git push
 
-      - name: Deploy to website (FTP)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server:   ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: docs/research/
-          server-dir: public_html/research/
+      - name: Deploy to website (SFTP)
+        env:
+          DEPLOY_SERVER:   ${{ secrets.FTP_SERVER }}
+          DEPLOY_USERNAME: ${{ secrets.FTP_USERNAME }}
+          DEPLOY_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          sudo apt-get install -y -qq lftp >/dev/null
+          lftp -e "set sftp:auto-confirm yes; \
+                   open -u \"$DEPLOY_USERNAME\",\"$DEPLOY_PASSWORD\" sftp://$DEPLOY_SERVER; \
+                   mirror -R --only-newer --verbose docs/research doc_root/research; \
+                   bye"
