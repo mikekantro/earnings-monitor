@@ -60,8 +60,10 @@ Return STRICT JSON, no prose, with exactly these keys:
               improvement in ITS OWN margins or profitability (gross/operating margin,
               operating income, cost-of-goods, profitability). Talk of AI "efficiency"
               alone is NOT a margin claim; the company must state the margin/profit link.
-  margin_quote : VERBATIM span (<=30 words, appearing in the transcript) stating that
-              margin/profitability link. "" if margin_claim is false.
+  margin_quote : VERBATIM text stating that margin/profitability link. Prefer one
+              continuous span (<=30 words). If the AI driver and the margin outcome sit in
+              nearby sentences, you may join AT MOST TWO verbatim fragments from the same
+              passage with " ... " — each fragment copied exactly. "" if margin_claim false.
   margin_metric: the quantified margin impact if stated ("260 bps gross margin expansion",
               "$40M to operating income"), else null. Only fill from explicit statements.
 
@@ -155,7 +157,14 @@ def get_ai_highlight(ticker: str, company: str, transcript: str, debug: bool = F
         return None
 
     mq = (data.get("margin_quote") or "").strip()
-    mclaim = bool(data.get("margin_claim")) and bool(mq)
+    def _verify_margin(q, t):
+        frags = [f.strip() for f in re.split(r"\.\.\.|\u2026", q) if f.strip()]
+        if not frags or len(frags) > 2:
+            return False
+        return all(_verify_quote(f, t) for f in frags)
+    mclaim = bool(data.get("margin_claim")) and bool(mq) and _verify_margin(mq, transcript)
+    if data.get("margin_claim") and not mclaim and debug:
+        print(f"  [debug {ticker}] margin_claim dropped: quote failed verbatim check: {mq[:60]!r}")
     return {"ticker": ticker, "company": company, "category": data["category"],
             "margin_claim": mclaim,
             "margin_quote": mq if mclaim else "",
