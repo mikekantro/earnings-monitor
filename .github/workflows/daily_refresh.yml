@@ -60,10 +60,13 @@ jobs:
         env:
           DEPLOY_SERVER:   ${{ secrets.FTP_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.FTP_USERNAME }}
-          DEPLOY_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
           sudo apt-get install -y -qq lftp >/dev/null
-          timeout 300 lftp -u "$DEPLOY_USERNAME","$DEPLOY_PASSWORD" \
-            -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; set sftp:connect-program 'ssh -a -x -o StrictHostKeyChecking=no'; mirror -R --only-newer --verbose docs/research doc_root/research; bye" \
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          timeout 300 lftp -u "$DEPLOY_USERNAME", \
+            -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; set sftp:connect-program 'ssh -a -x -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no -o BatchMode=yes'; mirror -R --only-newer --verbose docs/research doc_root/research; bye" \
             "sftp://$DEPLOY_SERVER" \
             || { echo '::error::SFTP deploy failed — see error above'; exit 1; }
