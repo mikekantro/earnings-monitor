@@ -56,22 +56,15 @@ jobs:
           git pull --rebase origin main
           git push
 
-      - name: Deploy to website (SFTP)
+      - name: Deploy to website (pull trigger)
         env:
-          DEPLOY_SERVER:   ${{ secrets.FTP_SERVER }}
-          DEPLOY_USERNAME: ${{ secrets.FTP_USERNAME }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         run: |
-          sudo apt-get install -y -qq lftp >/dev/null
-          mkdir -p ~/.ssh && chmod 700 ~/.ssh
-          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keygen -y -f ~/.ssh/deploy_key >/dev/null
-          echo "CHECK 1 OK: private key parses"
-          printf 'pwd\nbye\n' | sftp -i "$HOME/.ssh/deploy_key" -o BatchMode=yes -o StrictHostKeyChecking=no -o IdentitiesOnly=yes "$DEPLOY_USERNAME@$DEPLOY_SERVER"
-          echo "CHECK 2 OK: SFTP auth works"
-          timeout 300 lftp -u "$DEPLOY_USERNAME", \
-            -e "set sftp:auto-confirm yes; set net:timeout 20; set net:max-retries 2; set sftp:connect-program 'ssh -a -x -i $HOME/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o BatchMode=yes'; mirror -R --only-newer --verbose docs/research doc_root/research; bye" \
-            "sftp://$DEPLOY_SERVER" \
-            || { echo '::error::mirror failed after auth succeeded — path issue'; exit 1; }
-          echo "CHECK 3 OK: mirror complete"
+          sleep 10
+          curl -fsS --max-time 120 \
+            -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
+            -H "X-Deploy-Token: ${DEPLOY_TOKEN}" \
+            -d "sha=$(git rev-parse HEAD)" \
+            "https://www.whatsnextformarkets.com/research-sync.php" \
+            | tee deploy_result.json
+          python3 -c "import json;d=json.load(open('deploy_result.json'));assert d['ok'],d;print('DEPLOY OK:',len(d['files']),'files')"
