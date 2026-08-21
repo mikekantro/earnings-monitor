@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-20T23:52:43.785604",
+ "generated": "2026-08-21T12:14:34.128586",
  "window": [
   "2026-07-15",
-  "2026-08-20"
+  "2026-08-21"
  ],
  "highlights": [
   {
@@ -1514,6 +1514,42 @@
    "amount": null,
    "headline": "Walmart received tariff refunds in Q2, boosting operating income by ~750 bps; company deploying proceeds into price investment.",
    "quote_receiving": "This includes the benefit from the receipt of tariff refunds in the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "DE",
+   "company": "Deere & Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$382 million",
+   "headline": "Deere recognized $110M in Q3 IEEPA tariff refunds; total fiscal 2026 refunds stand at $382M with no further refunds expected.",
+   "quote_receiving": "We recognized $110 million of incremental refunds in Q3, slightly above expectations, due to the timing of the Phase 2 IEEPA refund approvals.",
+   "quote_customers": "",
+   "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "NDSN",
+   "company": "Nordson Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Nordson pursuing tariff recoveries for selected tariffs but says overall tariff and recovery impact is not material to results.",
+   "quote_receiving": "where we have potential, we are pursuing recoveries for selected tariffs like everybody else",
+   "quote_customers": "",
+   "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "ROST",
+   "company": "Ross Stores, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$253 million",
+   "headline": "Ross Stores received $253 million (~$0.60 EPS) in tariff refunds in H1 2026, contributing 405 basis points to Q2 gross margin.",
+   "quote_receiving": "both the second quarter and first six months results in 2026 include $253 million or approximately $0.60 in earnings per share of tariff refunds.",
    "quote_customers": "",
    "event_date": "2026-08-20"
   }
