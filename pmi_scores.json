@@ -14938,6 +14938,66 @@
       "ticker": "LOW",
       "name": "Lowe's Companies, Inc.",
       "date": "2026-08-20"
+    },
+    {
+      "new_orders": 62,
+      "output": 63,
+      "employment": 50,
+      "prices": 65,
+      "supply_chains": 58,
+      "demand_breadth": 55,
+      "composite": 61,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Construction & Forestry surging 18% YoY driven by data center and infrastructure buildout with backlogs extending into FY2027, offsetting agricultural cycle trough and signaling durable structural demand in one of Deere's key growth segments.",
+      "ticker": "DE",
+      "name": "Deere & Co.",
+      "date": "2026-08-21"
+    },
+    {
+      "new_orders": 82,
+      "output": 80,
+      "employment": 58,
+      "prices": 72,
+      "supply_chains": 70,
+      "demand_breadth": 68,
+      "composite": 75,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Companywide backlog surged 35% YoY with all segments contributing, extending order visibility into 2027 and signaling sustained broad-based industrial and semiconductor capital equipment demand.",
+      "ticker": "NDSN",
+      "name": "Nordson Corp.",
+      "date": "2026-08-21"
+    },
+    {
+      "new_orders": 62,
+      "output": 65,
+      "employment": 52,
+      "prices": 60,
+      "supply_chains": 58,
+      "demand_breadth": 63,
+      "composite": 62,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Walmart is capturing defensive consumer spending through aggressive price investment (11,000+ rollbacks) and gaining market share across grocery, dollar, and drug formats, signaling a broad consumer trade-down toward value channels amid ongoing household budget stress.",
+      "ticker": "WMT",
+      "name": "Walmart, Inc.",
+      "date": "2026-08-21"
+    },
+    {
+      "new_orders": 72,
+      "output": 78,
+      "employment": 58,
+      "prices": 65,
+      "supply_chains": 62,
+      "demand_breadth": 74,
+      "composite": 70,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Back-to-back double-digit comparable store sales growth driven by traffic gains across all income demographics signals broad consumer trade-down to value channels, a leading macro indicator of sustained cost-of-living stress.",
+      "ticker": "ROST",
+      "name": "Ross Stores, Inc.",
+      "date": "2026-08-21"
     }
   ]
 }
