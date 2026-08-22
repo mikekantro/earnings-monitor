@@ -14998,6 +14998,21 @@
       "ticker": "ROST",
       "name": "Ross Stores, Inc.",
       "date": "2026-08-21"
+    },
+    {
+      "new_orders": 78,
+      "output": 82,
+      "employment": 58,
+      "prices": 72,
+      "supply_chains": 68,
+      "demand_breadth": 75,
+      "composite": 76,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Double-digit comparable store sales growth driven by transaction volume across all income cohorts signals a broad, structural consumer trade-down into off-price retail that extends well beyond typical recessionary demographics.",
+      "ticker": "ROST",
+      "name": "Ross Stores, Inc.",
+      "date": "2026-08-22"
     }
   ]
 }
