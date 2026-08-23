@@ -1,11 +1,11 @@
 name: Daily Research Refresh
-
 on:
   schedule:
-    # 21:30 UTC (5:30 PM ET) Mon–Fri — after same-day morning transcripts post
+    # 10:00 UTC (6:00 AM ET) Mon–Fri — prior evening's reporters
+    - cron: "0 10 * * 1-5"
+    # 21:30 UTC (5:30 PM ET) Mon–Fri — same-day morning transcripts
     - cron: "30 21 * * 1-5"
   workflow_dispatch:
-
 permissions:
   contents: write
 
