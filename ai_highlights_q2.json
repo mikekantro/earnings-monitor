@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-25T21:51:04.356536",
+ "generated": "2026-08-26T10:30:05.651430",
  "window": [
   "2026-07-15",
-  "2026-08-25"
+  "2026-08-26"
  ],
  "highlights": [
   {
@@ -4924,6 +4924,18 @@
    "quote": "the customers and members who use Sparky for shopping spend 40% more per order than others who don't",
    "metric": "40% more spend per order; users up 70% YoY",
    "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "INTU",
+   "company": "Intuit, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Intuit embeds AI agents in QuickBooks and Accountant Suite; customers get paid 4 days faster and cut manual work 30%",
+   "quote": "Millions of customers are using our AI-native experiences, getting paid four days faster and reducing manual work by 30%.",
+   "metric": "4 days faster payments; 30% reduction in manual work; 75%+ of Intuit Enterprise Suite customers use AI agents monthly",
+   "event_date": "2026-08-25"
   }
  ]
 }
