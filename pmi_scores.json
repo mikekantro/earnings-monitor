@@ -15013,6 +15013,21 @@
       "ticker": "ROST",
       "name": "Ross Stores, Inc.",
       "date": "2026-08-22"
+    },
+    {
+      "new_orders": 58,
+      "output": 62,
+      "employment": 50,
+      "prices": 42,
+      "supply_chains": 60,
+      "demand_breadth": 52,
+      "composite": 55,
+      "sector": "Technology",
+      "confidence": 2,
+      "key_signal": "Consumer trading down from TurboTax to lower-cost providers signals meaningful household budget stress, while SMB loan volume surging 54% YoY points to persistent cash flow pressure among small businesses in a high-rate environment.",
+      "ticker": "INTU",
+      "name": "Intuit, Inc.",
+      "date": "2026-08-26"
     }
   ]
 }
