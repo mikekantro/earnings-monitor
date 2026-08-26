@@ -15028,6 +15028,21 @@
       "ticker": "INTU",
       "name": "Intuit, Inc.",
       "date": "2026-08-26"
+    },
+    {
+      "new_orders": 58,
+      "output": 62,
+      "employment": 52,
+      "prices": 52,
+      "supply_chains": 60,
+      "demand_breadth": 48,
+      "composite": 57,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Green coffee commodity disinflation is flowing through consumer food prices in real time, with Smucker actively passing lower costs to consumers via trade investment and flagging further price reductions if deflation persists \u2014 a meaningful signal of goods disinflation in staples categories.",
+      "ticker": "SJM",
+      "name": "The J. M. Smucker Co.",
+      "date": "2026-08-26"
     }
   ]
 }
