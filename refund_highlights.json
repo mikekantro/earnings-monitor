@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-26T10:29:59.730192",
+ "generated": "2026-08-27T00:55:33.447103",
  "window": [
   "2026-07-15",
-  "2026-08-26"
+  "2026-08-27"
  ],
  "highlights": [
   {
@@ -1552,6 +1552,18 @@
    "quote_receiving": "both the second quarter and first six months results in 2026 include $253 million or approximately $0.60 in earnings per share of tariff refunds.",
    "quote_customers": "",
    "event_date": "2026-08-20"
+  },
+  {
+   "ticker": "SJM",
+   "company": "The J. M. Smucker Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$0.84 per share benefit (Q1); $0.60 net benefit for full year)",
+   "headline": "Smucker received $0.84/share tariff refund in fiscal Q1; reinvesting portion in SG&A/marketing and using balance to pay down debt.",
+   "quote_receiving": "we did receive an $0.84 benefit from tariff refunds in our first quarter",
+   "quote_customers": "",
+   "event_date": "2026-08-26"
   }
  ]
 }
