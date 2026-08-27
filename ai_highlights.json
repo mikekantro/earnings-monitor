@@ -1385,7 +1385,34 @@
    "quote": "Millions of customers are using our AI-native experiences, getting paid four days faster and reducing manual work by 30%.",
    "metric": "30% reduction in manual work; customers paid 4 days faster; 75%+ of Intuit Enterprise Suite customers use AI agents monthly",
    "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "ULTA",
+   "company": "Ulta Beauty, Inc.",
+   "category": "revenue",
+   "headline": "Ulta Beauty's AI shopping agent 'Ulta AI' and Google Gemini partnership drive site traffic and improved conversion",
+   "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
+   "metric": null,
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "DG",
+   "company": "Dollar General Corp.",
+   "category": "efficiency",
+   "headline": "Dollar General building Agentic AI operating systems to optimize enterprise workflows and improve productivity.",
+   "quote": "we are building Agentic operating systems for the enterprise, focused on reshaping and optimizing our workflows to improve productivity throughout the organization.",
+   "metric": null,
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "BBY",
+   "company": "Best Buy Co., Inc.",
+   "category": "revenue",
+   "headline": "Best Buy launches 'Ask Blue' conversational AI shopping assistant and integrates commerce with ChatGPT for in-chat purchases.",
+   "quote": "Customers can now discover products, receive recommendations and complete purchases for Best Buy directly within ChatGPT.",
+   "metric": null,
+   "event_date": "2026-08-27"
   }
  ],
- "updated": "2026-08-27T10:50:21"
+ "updated": "2026-08-27T22:10:24"
 }
