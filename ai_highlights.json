@@ -1340,7 +1340,52 @@
    "quote": "over 75% of Intuit Enterprise Suite customers use our AI agents every month to keep their books current, automate transaction work, and flows faster",
    "metric": "75%+ of Enterprise Suite customers use AI agents monthly; manual work reduced 30%",
    "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "CRM",
+   "company": "Salesforce, Inc.",
+   "category": "product",
+   "headline": "Salesforce launches Agentforce AI platform and Claudeforce with Anthropic; Agentforce ARR hits $1.5B with 70% quarterly account growth",
+   "quote": "the head of all of our operating units have been using Claudeforce to run their businesses inside Salesforce this quarter. It's one of the reasons why we're getting such great performance.",
+   "metric": "$1.5B Agentforce ARR; accounts with agents in production grew 70% quarter-over-quarter",
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "category": "product",
+   "headline": "HP embeds AI in products including AI PCs, Precise Print, HP Nio AI-companion, and ZGX Fury edge AI workstation.",
+   "quote": "Precise Print helps customers reduce paper usage by up to 38% and ink consumption up to 47%.",
+   "metric": "38% paper reduction, 47% ink reduction (Precise Print); AI PC portfolio expected to be 50% of shipment mix by end of fiscal year",
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "SNPS",
+   "company": "Synopsys, Inc.",
+   "category": "product",
+   "headline": "Synopsys embeds agentic AI in EDA tools, delivering up to 50x faster chip verification and 40% debug cycle reduction",
+   "quote": "we showcased the fully autonomous, long-running design verification agent that can orchestrate the entire chip verification cycle and deliver up to 50x faster time to validated RTL",
+   "metric": "50x faster time to validated RTL; 40% reduction in debug cycle time",
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "category": "product",
+   "headline": "Agilent embeds AI-assisted intelligence features in new GC instruments and partners on AI-driven drug discovery workflows",
+   "quote": "Customers are excited about the productivity and GC Assist intelligence features on the systems, which started to ship in July.",
+   "metric": null,
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "INTU",
+   "company": "Intuit, Inc.",
+   "category": "product",
+   "headline": "Intuit embeds AI agents in QuickBooks and Accountant Suite; millions of customers use AI-native experiences to reduce manual work by 30%.",
+   "quote": "Millions of customers are using our AI-native experiences, getting paid four days faster and reducing manual work by 30%.",
+   "metric": "30% reduction in manual work; customers paid 4 days faster; 75%+ of Intuit Enterprise Suite customers use AI agents monthly",
+   "event_date": "2026-08-27"
   }
  ],
- "updated": "2026-08-26T13:00:59"
+ "updated": "2026-08-27T10:50:21"
 }
