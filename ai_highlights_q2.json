@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T00:55:37.528901",
+ "generated": "2026-08-27T20:08:21.530735",
  "window": [
   "2026-07-15",
   "2026-08-27"
@@ -4936,6 +4936,54 @@
    "quote": "Millions of customers are using our AI-native experiences, getting paid four days faster and reducing manual work by 30%.",
    "metric": "4 days faster payments; 30% reduction in manual work; 75%+ of Intuit Enterprise Suite customers use AI agents monthly",
    "event_date": "2026-08-25"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Agilent embeds AI-driven 'GC Assist' intelligence in new GC instruments and partners with biotech firm using AI for drug discovery on its platforms.",
+   "quote": "Customers are excited about the productivity and GC Assist intelligence features on the systems, which started to ship in July.",
+   "metric": null,
+   "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "CRM",
+   "company": "Salesforce, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Salesforce launches Claudeforce (with Anthropic) and sells Agentforce AI agents; ARR hits $1.5B with 70% account growth.",
+   "quote": "Agentforce ARR, it hit $1.5 billion. Our ARR for AI and data is about to cross $4 billion. And the number of accounts with agents in production grew 70% over last quarter.",
+   "metric": "Agentforce ARR $1.5B; AI and data ARR ~$4B; accounts with agents in production up 70% quarter-over-quarter",
+   "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "HP embeds AI in printers, PCs, and industrial devices sold to customers, including AI-powered Precise Print and Nio AI-companion.",
+   "quote": "In Print, we're already delivering tangible customer value with AI. In June, we expanded our flagship AI-powered print experience, Precise Print to more than 150 countries.",
+   "metric": "Precise Print reduces paper usage by up to 38% and ink consumption up to 47%",
+   "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "SNPS",
+   "company": "Synopsys, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Synopsys embeds agentic AI in EDA tools, delivering up to 50x faster chip verification and 40% debug cycle reduction for customers.",
+   "quote": "we showcased the fully autonomous, long-running design verification agent that can orchestrate the entire chip verification cycle and deliver up to 50x faster time to validated RTL",
+   "metric": "50x faster time to validated RTL; 40% reduction in debug cycle time; 30+ active customer engagements",
+   "event_date": "2026-08-26"
   }
  ]
 }

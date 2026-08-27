@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T00:55:33.447103",
+ "generated": "2026-08-27T20:07:42.895654",
  "window": [
   "2026-07-15",
   "2026-08-27"
@@ -1562,6 +1562,42 @@
    "amount": "$0.84 per share benefit (Q1); $0.60 net benefit for full year)",
    "headline": "Smucker received $0.84/share tariff refund in fiscal Q1; reinvesting portion in SG&A/marketing and using balance to pay down debt.",
    "quote_receiving": "we did receive an $0.84 benefit from tariff refunds in our first quarter",
+   "quote_customers": "",
+   "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$20 million",
+   "headline": "Agilent received $20M net tariff refunds in Q3, boosting operating margin by ~110 bps and EPS by $0.06.",
+   "quote_receiving": "Including the net benefit from tariff refunds of $20 million, our operating margin was 28.3%.",
+   "quote_customers": "",
+   "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "BBWI",
+   "company": "Bath & Body Works, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$80 million",
+   "headline": "Bath & Body Works received ~$80M in tariff refunds in Q2 2026, contributing ~530 bps to merchandise margin.",
+   "quote_receiving": "adjusted earnings per diluted share included the benefit from approximately $80 million of tariff refunds received in the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$0.11 per share",
+   "headline": "HP received tariff refunds in Q3; $0.11 EPS benefit, results above guidance even excluding this amount.",
+   "quote_receiving": "our net earnings per share at $0.83 grew 11% and includes $0.11 related to tariff refunds",
    "quote_customers": "",
    "event_date": "2026-08-26"
   }
