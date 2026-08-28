@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-27T20:08:21.530735",
+ "generated": "2026-08-28T05:31:38.866587",
  "window": [
   "2026-07-15",
-  "2026-08-27"
+  "2026-08-28"
  ],
  "highlights": [
   {
@@ -4984,6 +4984,42 @@
    "quote": "we showcased the fully autonomous, long-running design verification agent that can orchestrate the entire chip verification cycle and deliver up to 50x faster time to validated RTL",
    "metric": "50x faster time to validated RTL; 40% reduction in debug cycle time; 30+ active customer engagements",
    "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "BBY",
+   "company": "Best Buy Co., Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Best Buy launches 'Ask Blue' conversational AI shopping assistant and completes commerce integration with ChatGPT for in-chat purchases.",
+   "quote": "Customers can now discover products, receive recommendations and complete purchases for Best Buy directly within ChatGPT.",
+   "metric": null,
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "DG",
+   "company": "Dollar General Corp.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Dollar General building Agentic AI operating systems to optimize workflows and improve enterprise productivity.",
+   "quote": "we are building Agentic operating systems for the enterprise, focused on reshaping and optimizing our workflows to improve productivity throughout the organization.",
+   "metric": null,
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "ULTA",
+   "company": "Ulta Beauty, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Ulta Beauty uses AI shopping agent, AI-powered inventory tools, and Google Gemini partnership to drive site traffic and conversion.",
+   "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high-performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
+   "metric": null,
+   "event_date": "2026-08-27"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-27T20:07:42.895654",
+ "generated": "2026-08-28T05:31:12.613566",
  "window": [
   "2026-07-15",
-  "2026-08-27"
+  "2026-08-28"
  ],
  "highlights": [
   {
@@ -1600,6 +1600,42 @@
    "quote_receiving": "our net earnings per share at $0.83 grew 11% and includes $0.11 related to tariff refunds",
    "quote_customers": "",
    "event_date": "2026-08-26"
+  },
+  {
+   "ticker": "BBY",
+   "company": "Best Buy Co., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$34 million",
+   "headline": "Best Buy received $34M in IEEPA tariff refunds in Q2 FY2027, boosting gross profit rate; similar refunds expected in Q3.",
+   "quote_receiving": "a higher gross profit rate that included a $34 million benefit from tariff refunds",
+   "quote_customers": "",
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "DG",
+   "company": "Dollar General Corp.",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Dollar General received tariff refund payments in Q2, reinvesting substantial portion in lower prices, promotions, and customer-facing initiatives.",
+   "quote_receiving": "we also received tariff refund payments during the quarter and reinvested a substantial portion, primarily to further enhance the overall value proposition for our customers",
+   "quote_customers": "we delivered additional savings through both targeted promotional activities, particularly around the important summer holidays and lower everyday prices",
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "DLTR",
+   "company": "Dollar Tree, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$383 million",
+   "headline": "Dollar Tree received ~$383M in tariff refunds and is reinvesting proceeds in pricing, marketing, store operations, and store conditions.",
+   "quote_receiving": "We received approximately $383 million, giving us a meaningful opportunity to reinvest in the business and further strengthen our value proposition for our customers.",
+   "quote_customers": "",
+   "event_date": "2026-08-27"
   }
  ]
 }
