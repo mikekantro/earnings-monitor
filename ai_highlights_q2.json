@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T05:31:38.866587",
+ "generated": "2026-08-28T21:03:55.496380",
  "window": [
   "2026-07-15",
   "2026-08-28"
@@ -5018,6 +5018,18 @@
    "margin_metric": null,
    "headline": "Ulta Beauty uses AI shopping agent, AI-powered inventory tools, and Google Gemini partnership to drive site traffic and conversion.",
    "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high-performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
+   "metric": null,
+   "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "ADSK",
+   "company": "Autodesk, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Autodesk embeds AI across design, make, and operate workflows via a common AI platform combining proprietary and third-party models.",
+   "quote": "We combine probabilistic AI with deterministic engineering, grounding intelligence in the realities of the physical world. We complement those advantages with a common AI platform that can leverage the right model for the right task",
    "metric": null,
    "event_date": "2026-08-27"
   }
