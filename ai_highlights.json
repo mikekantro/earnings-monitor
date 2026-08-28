@@ -1475,7 +1475,16 @@
    "quote": "we expanded our flagship AI-powered print experience, Precise Print to more than 150 countries. By intelligently removing unnecessary web content before printing, Precise Print helps customers reduce paper usage by up to 38%",
    "metric": "50% of PC shipment mix expected to be AI PCs by end of fiscal year; Precise Print reduces paper usage up to 38% and ink up to 47%",
    "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "ADSK",
+   "company": "Autodesk, Inc.",
+   "category": "product",
+   "headline": "Autodesk embeds AI across design/make/operate platform, including neural CAD models and agentic AI workflows for customers.",
+   "quote": "We combine probabilistic AI with deterministic engineering, grounding intelligence in the realities of the physical world. We complement those advantages with a common AI platform",
+   "metric": null,
+   "event_date": "2026-08-28"
   }
  ],
- "updated": "2026-08-28T12:30:12"
+ "updated": "2026-08-28T22:05:06"
 }
