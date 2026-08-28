@@ -1412,7 +1412,70 @@
    "quote": "Customers can now discover products, receive recommendations and complete purchases for Best Buy directly within ChatGPT.",
    "metric": null,
    "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "ULTA",
+   "company": "Ulta Beauty, Inc.",
+   "category": "revenue",
+   "headline": "Ulta Beauty uses AI shopping agent, Google Gemini partnership, and AI-powered sourcing to drive site traffic and conversion",
+   "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high-performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
+   "metric": null,
+   "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "CRM",
+   "company": "Salesforce, Inc.",
+   "category": "product",
+   "headline": "Salesforce launches Agentforce AI platform with $1.5B ARR and Claudeforce product with Anthropic",
+   "quote": "the head of all of our operating units have been using Claudeforce to run their businesses inside Salesforce this quarter. It's one of the reasons why we're getting such great performance.",
+   "metric": "$1.5B Agentforce ARR; AI and data ARR approaching $4B; agentic platform use surged 6x",
+   "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "category": "product",
+   "headline": "Agilent embeds 'GC Assist' intelligence features in new flagship GC instruments shipped to customers.",
+   "quote": "Customers are excited about the productivity and GC Assist intelligence features on the systems, which started to ship in July.",
+   "metric": null,
+   "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "SNPS",
+   "company": "Synopsys, Inc.",
+   "category": "product",
+   "headline": "Synopsys embeds agentic AI in EDA tools, delivering up to 50x faster chip verification and 40% debug cycle reduction",
+   "quote": "we showcased the fully autonomous, long-running design verification agent that can orchestrate the entire chip verification cycle and deliver up to 50x faster time to validated RTL",
+   "metric": "50x faster time to validated RTL; 40% reduction in debug cycle time; 20% additional coverage improvement",
+   "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "BBY",
+   "company": "Best Buy Co., Inc.",
+   "category": "revenue",
+   "headline": "Best Buy launches 'Ask Blue' conversational AI shopping assistant and integrates commerce with ChatGPT for in-chat purchases.",
+   "quote": "Customers can now discover products, receive recommendations and complete purchases for Best Buy directly within ChatGPT.",
+   "metric": null,
+   "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "DG",
+   "company": "Dollar General Corp.",
+   "category": "efficiency",
+   "headline": "Dollar General building Agentic AI operating systems to reshape workflows and improve enterprise productivity.",
+   "quote": "we are building Agentic operating systems for the enterprise, focused on reshaping and optimizing our workflows to improve productivity throughout the organization.",
+   "metric": null,
+   "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "category": "product",
+   "headline": "HP embeds AI in products including Precise Print, HP Nio AI-companion, ZGX Fury, and AI PC portfolio sold to customers.",
+   "quote": "we expanded our flagship AI-powered print experience, Precise Print to more than 150 countries. By intelligently removing unnecessary web content before printing, Precise Print helps customers reduce paper usage by up to 38%",
+   "metric": "50% of PC shipment mix expected to be AI PCs by end of fiscal year; Precise Print reduces paper usage up to 38% and ink up to 47%",
+   "event_date": "2026-08-28"
   }
  ],
- "updated": "2026-08-27T22:10:24"
+ "updated": "2026-08-28T12:30:12"
 }
