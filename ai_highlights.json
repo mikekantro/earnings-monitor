@@ -1484,7 +1484,25 @@
    "quote": "We combine probabilistic AI with deterministic engineering, grounding intelligence in the realities of the physical world. We complement those advantages with a common AI platform",
    "metric": null,
    "event_date": "2026-08-28"
+  },
+  {
+   "ticker": "ADSK",
+   "company": "Autodesk, Inc.",
+   "category": "product",
+   "headline": "Autodesk embeds AI across design/make/operate platform, including neural CAD model and agentic AI for customer workflows.",
+   "quote": "We combine probabilistic AI with deterministic engineering, grounding intelligence in the realities of the physical world. We complement those advantages with a common AI platform",
+   "metric": null,
+   "event_date": "2026-08-29"
+  },
+  {
+   "ticker": "ULTA",
+   "company": "Ulta Beauty, Inc.",
+   "category": "revenue",
+   "headline": "Ulta Beauty's on-site AI shopping agent and Google Gemini partnership drive site traffic and improved conversion",
+   "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high-performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
+   "metric": null,
+   "event_date": "2026-08-29"
   }
  ],
- "updated": "2026-08-28T22:05:06"
+ "updated": "2026-08-29T07:32:52"
 }

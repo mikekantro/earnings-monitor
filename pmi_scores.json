@@ -15403,6 +15403,36 @@
       "ticker": "HPQ",
       "name": "HP, Inc.",
       "date": "2026-08-28"
+    },
+    {
+      "new_orders": 68,
+      "output": 72,
+      "employment": 52,
+      "prices": 65,
+      "supply_chains": 62,
+      "demand_breadth": 63,
+      "composite": 66,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Autodesk's 16% revenue growth beat with raised full-year guidance signals durable enterprise software demand in AEC and manufacturing, with construction and emerging markets (India, Middle East) acting as the primary macro growth engines even as Western Europe remains soft.",
+      "ticker": "ADSK",
+      "name": "Autodesk, Inc.",
+      "date": "2026-08-29"
+    },
+    {
+      "new_orders": 62,
+      "output": 65,
+      "employment": 52,
+      "prices": 60,
+      "supply_chains": 58,
+      "demand_breadth": 57,
+      "composite": 62,
+      "sector": "Consumer Discretionary",
+      "confidence": 2,
+      "key_signal": "Ulta Beauty delivered 8.9% net sales growth and raised full-year guidance, but comp growth was driven entirely by ticket mix (premiumization) rather than traffic, signaling consumer stress and volume pressure in the underlying beauty market.",
+      "ticker": "ULTA",
+      "name": "Ulta Beauty, Inc.",
+      "date": "2026-08-29"
     }
   ]
 }
