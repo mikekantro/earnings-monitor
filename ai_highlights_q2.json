@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T14:28:30.665781",
+ "generated": "2026-09-01T23:26:30.549582",
  "window": [
   "2026-07-15",
   "2026-09-01"
@@ -5032,6 +5032,18 @@
    "quote": "We combine probabilistic AI with deterministic engineering, grounding intelligence in the realities of the physical world. We complement those advantages with a common AI platform that can leverage the right model for the right task",
    "metric": null,
    "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Medtronic embeds AI in surgical and spine products: AiBLE ecosystem, Touch Surgery, CathWorks AI-FFR platform sold to hospital customers.",
+   "quote": "Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
+   "metric": "CathWorks contributing nearly 300 basis points of organic growth",
+   "event_date": "2026-09-01"
   }
  ]
 }

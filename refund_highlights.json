@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T14:28:29.467429",
+ "generated": "2026-09-01T23:26:23.652995",
  "window": [
   "2026-07-15",
   "2026-09-01"
@@ -1636,6 +1636,18 @@
    "quote_receiving": "We received approximately $383 million, giving us a meaningful opportunity to reinvest in the business and further strengthen our value proposition for our customers.",
    "quote_customers": "",
    "event_date": "2026-08-27"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Medtronic says tariffs paid were largely offset by related refunds, resulting in only a slight gross margin headwind in Q1.",
+   "quote_receiving": "the tariff-related impact was a slight headwind as tariffs paid were largely offset by related refunds",
+   "quote_customers": "",
+   "event_date": "2026-09-01"
   }
  ]
 }
