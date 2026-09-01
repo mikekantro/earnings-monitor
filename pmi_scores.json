@@ -15433,6 +15433,21 @@
       "ticker": "ULTA",
       "name": "Ulta Beauty, Inc.",
       "date": "2026-08-29"
+    },
+    {
+      "new_orders": 72,
+      "output": 76,
+      "employment": 55,
+      "prices": 65,
+      "supply_chains": 60,
+      "demand_breadth": 68,
+      "composite": 69,
+      "sector": "Healthcare",
+      "confidence": 3,
+      "key_signal": "Medtronic's ~7% underlying organic growth (ex-53rd week) is the strongest in nearly eight years, driven by broad-based procedure volume expansion across CRM, CST, Surgical, and CAS, signaling durable healthcare demand and structural market share gains in cardiac ablation and surgical robotics.",
+      "ticker": "MDT",
+      "name": "Medtronic Plc",
+      "date": "2026-09-01"
     }
   ]
 }

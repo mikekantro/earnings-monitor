@@ -1502,7 +1502,16 @@
    "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high-performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
    "metric": null,
    "event_date": "2026-08-29"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "category": "product",
+   "headline": "Medtronic embeds AI in surgical and spine products: AiBLE ecosystem, Touch Surgery (1,500+ ORs), CathWorks FFR platform",
+   "quote": "Today, Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
+   "metric": "CathWorks contributing nearly 300 basis points of organic growth",
+   "event_date": "2026-09-01"
   }
  ],
- "updated": "2026-08-29T07:32:52"
+ "updated": "2026-09-01T16:20:06"
 }
