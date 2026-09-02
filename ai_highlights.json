@@ -1511,7 +1511,25 @@
    "quote": "Today, Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
    "metric": "CathWorks contributing nearly 300 basis points of organic growth",
    "event_date": "2026-09-01"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "category": "product",
+   "headline": "Medtronic embeds AI in surgical and spine products: AiBLE ecosystem, Touch Surgery (1,500+ ORs), and CathWorks FFR platform.",
+   "quote": "Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
+   "metric": "~300 bps organic growth contribution from CathWorks AI platform",
+   "event_date": "2026-09-02"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "category": "product",
+   "headline": "Palo Alto Networks embeds AI in security products; Prisma AIRS surpasses $100M ARR in four quarters of availability.",
+   "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
+   "metric": "$100M ARR (Prisma AIRS, within 4 quarters)",
+   "event_date": "2026-09-02"
   }
  ],
- "updated": "2026-09-01T16:20:06"
+ "updated": "2026-09-02T16:17:49"
 }

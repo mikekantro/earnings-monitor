@@ -15448,6 +15448,36 @@
       "ticker": "MDT",
       "name": "Medtronic Plc",
       "date": "2026-09-01"
+    },
+    {
+      "new_orders": 72,
+      "output": 74,
+      "employment": 55,
+      "prices": 60,
+      "supply_chains": 52,
+      "demand_breadth": 65,
+      "composite": 67,
+      "sector": "Healthcare",
+      "confidence": 2,
+      "key_signal": "Medtronic's Cardiac Ablation Solutions surging 88% globally signals a structural, demographically driven wave of demand for catheter-based cardiac procedures that should benefit the broader MedTech sector and hospital capital spending for years ahead.",
+      "ticker": "MDT",
+      "name": "Medtronic Plc",
+      "date": "2026-09-02"
+    },
+    {
+      "new_orders": 88,
+      "output": 87,
+      "prices": 82,
+      "employment": 60,
+      "supply_chains": 65,
+      "demand_breadth": 75,
+      "composite": 82,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "RPO surpassing $20B (up 34% YoY) combined with NGS ARR accelerating 63% to $9.1B signals durable, multi-year enterprise security demand consolidation around platform vendors, with AI infrastructure buildout structurally expanding the cybersecurity TAM.",
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "date": "2026-09-02"
     }
   ]
 }
