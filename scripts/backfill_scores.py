@@ -64,6 +64,17 @@ def main():
     have = {s["ticker"] for s in data.get("scores", [])}
     print(f"already scored this season: {len(have)}")
 
+    # full S&P 1500 universe: Q1 season file union current scores union hardcoded list
+    universe = set(em.SP500)
+    for f in ("pmi_scores_q1_2026.json",):
+        try:
+            universe |= {s["ticker"] for s in json.load(open(f))["scores"]}
+        except Exception as e:
+            print(f"universe file {f}: {e}")
+    universe |= have
+    em.SP500 = universe   # get_events_range and its in-filter use this
+    print(f"universe for calendar query: {len(universe)}")
+
     events = get_events_range(args.start, args.end)
     todo = [e for e in events if e["symbol"] not in have]
     print(f"calendar events in window: {len(events)} | missing from scores: {len(todo)}")
