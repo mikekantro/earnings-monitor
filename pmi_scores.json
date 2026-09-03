@@ -15553,6 +15553,21 @@
       "ticker": "CPB",
       "name": "The Campbell's Co.",
       "date": "2026-09-03"
+    },
+    {
+      "new_orders": 72,
+      "output": 78,
+      "employment": 60,
+      "prices": 82,
+      "supply_chains": 65,
+      "demand_breadth": 63,
+      "composite": 73,
+      "sector": "Energy",
+      "confidence": 3,
+      "key_signal": "Historically extreme refining margins driven by Middle East disruption, Chinese export halts, and Russian capacity attrition are more than offsetting a ~10% upstream production loss, signaling structurally elevated energy inflation that is likely to persist given global spare refining capacity at multi-decade lows.",
+      "ticker": "XOM",
+      "name": "ExxonMobil Holdings Corp.",
+      "date": "2026-09-03"
     }
   ]
 }
