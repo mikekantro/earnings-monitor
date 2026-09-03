@@ -15538,6 +15538,21 @@
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
       "date": "2026-09-03"
+    },
+    {
+      "new_orders": 38,
+      "output": 42,
+      "employment": 35,
+      "prices": 45,
+      "supply_chains": 33,
+      "demand_breadth": 44,
+      "composite": 40,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Campbell's faces a severely compressed near-term earnings profile with 5-6% broad-based input cost inflation, double-digit logistics inflation, negative price realization in Q1, and high-single-digit organic sales declines in Snacks, signaling persistent cost pressures and consumer softness in packaged food heading into calendar 2027.",
+      "ticker": "CPB",
+      "name": "The Campbell's Co.",
+      "date": "2026-09-03"
     }
   ]
 }
