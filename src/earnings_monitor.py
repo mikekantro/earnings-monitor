@@ -107,7 +107,7 @@ def get_todays_earnings() -> list[dict]:
     POST /calendar/events
     """
     today     = date.today()
-    start_str = f"{(today - timedelta(days=1)).isoformat()}T00:00:00Z"
+    start_str = f"{(today - timedelta(days=4)).isoformat()}T00:00:00Z"
     end_str   = f"{today.isoformat()}T23:59:59Z"
 
     # Build list of FactSet-formatted tickers (TICKER-US)
@@ -166,7 +166,7 @@ def get_transcript_report_id(ticker: str, event_id: str = "") -> str:
     Returns the reportId of the best match (preferring CorrectedTranscript > RawTranscript).
     """
     today = date.today()
-    start = (today - timedelta(days=2)).isoformat()
+    start = (today - timedelta(days=5)).isoformat()
     end   = today.isoformat()
 
     # Approach 1: search by eventId if we have it
