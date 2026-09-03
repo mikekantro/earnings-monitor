@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-02T23:26:55.174842",
+ "generated": "2026-09-03T14:04:31.349873",
  "window": [
   "2026-07-15",
-  "2026-09-02"
+  "2026-09-03"
  ],
  "highlights": [
   {
@@ -5043,6 +5043,42 @@
    "headline": "Medtronic embeds AI in surgical and spine products: AiBLE ecosystem, Touch Surgery, CathWorks AI-FFR platform sold to hospital customers.",
    "quote": "Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
    "metric": "CathWorks contributing nearly 300 basis points of organic growth",
+   "event_date": "2026-09-01"
+  },
+  {
+   "ticker": "HPE",
+   "company": "Hewlett Packard Enterprise Co.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "HPE sells AI infrastructure, networking, storage, and private cloud AI platforms to enterprise and hyperscale customers.",
+   "quote": "Our private cloud AI platform allows customers to manage enterprise AI applications and AI agents while keeping control of data, governance, security, and operations.",
+   "metric": null,
+   "event_date": "2026-09-02"
+  },
+  {
+   "ticker": "NTAP",
+   "company": "NetApp, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "NetApp sells AI-ready storage infrastructure and won ~350 AI/data lake deals in Q1, with customers moving from PoC to production AI workloads.",
+   "quote": "In Q1, we won approximately 350 AI and data lake modernization deals, up significantly from a year ago. Importantly, deal sizes are increasing as customers move from proof-of-concept to production.",
+   "metric": "350 AI and data lake modernization deals in Q1",
+   "event_date": "2026-09-02"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Palo Alto Networks embeds AI in security products including Prisma AIRS and Frontier AI Defense Service, surpassing $100M ARR",
+   "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
+   "metric": "$100M ARR for Prisma AIRS within 4 quarters of GA",
    "event_date": "2026-09-01"
   }
  ]
