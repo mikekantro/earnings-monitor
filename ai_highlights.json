@@ -1529,7 +1529,25 @@
    "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
    "metric": "$100M ARR (Prisma AIRS, within 4 quarters)",
    "event_date": "2026-09-02"
+  },
+  {
+   "ticker": "NTAP",
+   "company": "NetApp, Inc.",
+   "category": "product",
+   "headline": "NetApp sells AI-ready data infrastructure and storage products enabling customer AI workloads; won ~350 AI deals in Q1.",
+   "quote": "In Q1, we won approximately 350 AI and data lake modernization deals, up significantly from a year ago.",
+   "metric": "350 AI and data lake modernization deals in Q1",
+   "event_date": "2026-09-03"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "category": "product",
+   "headline": "Palo Alto Networks embeds AI in security products; Prisma AIRS surpasses $100M ARR in four quarters of availability.",
+   "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
+   "metric": "$100M ARR in 4 quarters (Prisma AIRS)",
+   "event_date": "2026-09-03"
   }
  ],
- "updated": "2026-09-02T16:17:49"
+ "updated": "2026-09-03T05:22:49"
 }

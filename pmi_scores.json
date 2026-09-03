@@ -15478,6 +15478,66 @@
       "ticker": "PANW",
       "name": "Palo Alto Networks, Inc.",
       "date": "2026-09-02"
+    },
+    {
+      "new_orders": 88,
+      "output": 90,
+      "employment": 58,
+      "prices": 72,
+      "supply_chains": 60,
+      "demand_breadth": 78,
+      "composite": 81,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "NetApp's 30% YoY revenue surge to a record $2.03B driven by 350 AI/data lake deals and 47% all-flash array growth signals a durable structural upcycle in enterprise data infrastructure capex, not a transient pull-forward.",
+      "ticker": "NTAP",
+      "name": "NetApp, Inc.",
+      "date": "2026-09-03"
+    },
+    {
+      "new_orders": 88,
+      "output": 87,
+      "employment": 60,
+      "prices": 78,
+      "supply_chains": 70,
+      "demand_breadth": 72,
+      "composite": 81,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "RPO surpassing $21B (+34% YoY) and NGS ARR of $9.1B (+63% YoY) signal accelerating enterprise security consolidation around platform vendors, with demand being treated as non-discretionary infrastructure spend even in a scrutinized IT budget environment.",
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "date": "2026-09-03"
+    },
+    {
+      "new_orders": 92,
+      "output": 88,
+      "employment": 58,
+      "prices": 82,
+      "supply_chains": 38,
+      "demand_breadth": 78,
+      "composite": 80,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "HPE booked record quarterly orders up 42% YoY with a record backlog, confirming AI infrastructure demand is broadening beyond hyperscalers into enterprise and sovereign customers, but supply constraints \u2014 not demand \u2014 are now the primary limiter of revenue conversion, signaling a sustained multi-quarter capex supercycle for IT infrastructure.",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise Co.",
+      "date": "2026-09-03"
+    },
+    {
+      "new_orders": 97,
+      "output": 96,
+      "employment": 62,
+      "prices": 72,
+      "supply_chains": 68,
+      "demand_breadth": 63,
+      "composite": 87,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Broadcom's AI semiconductor revenue is on a supply-secured trajectory to $58B in FY2026, $115B in FY2027, and $230B in FY2028, driven by binding multi-year hyperscaler XPU contracts that signal a structural acceleration in AI infrastructure capex far exceeding current consensus estimates.",
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "date": "2026-09-03"
     }
   ]
 }
