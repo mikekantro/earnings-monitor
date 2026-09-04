@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-04T00:04:06.997902",
+ "generated": "2026-09-04T13:57:17.613468",
  "window": [
   "2026-07-15",
-  "2026-09-03"
+  "2026-09-04"
  ],
  "highlights": [
   {
@@ -7012,6 +7012,18 @@
    "quote": "We shipped 24% more code in the second quarter than we did in the first quarter on lower engineering head count with initial metrics suggesting delivery quality is holding steady.",
    "metric": "24% more code shipped Q2 vs Q1 on lower engineering headcount; majority of new/updated code now AI-authored",
    "event_date": "2026-08-07"
+  },
+  {
+   "ticker": "PDFS",
+   "company": "PDF Solutions, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "PDF Solutions positions secureWISE as a cornerstone for AI agent-driven collaboration across the semiconductor supply chain.",
+   "quote": "In the future, more of that collaboration will be AI agent-driven, secureWISE is well-positioned to be a cornerstone of an agentic collaboration across the industry.",
+   "metric": null,
+   "event_date": "2026-08-06"
   }
  ]
 }
