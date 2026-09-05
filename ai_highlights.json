@@ -1583,7 +1583,43 @@
    "quote": "Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
    "metric": "~300 bps organic growth contribution from CathWorks AI platform",
    "event_date": "2026-09-04"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "category": "product",
+   "headline": "Medtronic embeds AI in surgical and spine products: Touch Surgery in 1,500+ ORs; AiBLE ecosystem; CathWorks AI FFR platform.",
+   "quote": "Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
+   "metric": "300 basis points organic growth contribution from CathWorks AI FFR platform",
+   "event_date": "2026-09-05"
+  },
+  {
+   "ticker": "NTAP",
+   "company": "NetApp, Inc.",
+   "category": "product",
+   "headline": "NetApp sells AI-ready data infrastructure and storage solutions to customers running GPU-intensive AI pipelines and workloads.",
+   "quote": "In Q1, we won approximately 350 AI and data lake modernization deals, up significantly from a year ago. Importantly, deal sizes are increasing as customers move from proof-of-concept to production.",
+   "metric": "350 AI and data lake modernization deals in Q1",
+   "event_date": "2026-09-05"
+  },
+  {
+   "ticker": "LULU",
+   "company": "lululemon athletica, Inc.",
+   "category": "efficiency",
+   "headline": "lululemon deploying AI-powered systems and automation as part of cost management and efficiency initiatives",
+   "quote": "efficiencies across our supply chain and non-merchandise procurement and implementation of new technologies, including AI-powered systems and automation.",
+   "metric": null,
+   "event_date": "2026-09-05"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "category": "product",
+   "headline": "Palo Alto Networks embeds AI in security products; Prisma AIRS surpasses $100M ARR in four quarters of availability.",
+   "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
+   "metric": "$100M ARR (Prisma AIRS, within 4 quarters)",
+   "event_date": "2026-09-05"
   }
  ],
- "updated": "2026-09-04T16:06:12"
+ "updated": "2026-09-05T05:07:17"
 }
