@@ -1619,7 +1619,16 @@
    "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
    "metric": "$100M ARR (Prisma AIRS, within 4 quarters)",
    "event_date": "2026-09-05"
+  },
+  {
+   "ticker": "LULU",
+   "company": "lululemon athletica, Inc.",
+   "category": "efficiency",
+   "headline": "lululemon deploying AI-powered systems and automation as part of cost and efficiency initiatives",
+   "quote": "efficiencies across our supply chain and non-merchandise procurement and implementation of new technologies, including AI-powered systems and automation.",
+   "metric": null,
+   "event_date": "2026-09-07"
   }
  ],
- "updated": "2026-09-05T05:07:17"
+ "updated": "2026-09-07T17:36:52"
 }
