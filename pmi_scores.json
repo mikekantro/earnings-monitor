@@ -21493,6 +21493,21 @@
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise Co.",
       "date": "2026-09-07"
+    },
+    {
+      "new_orders": 28,
+      "output": 22,
+      "employment": 38,
+      "prices": 35,
+      "supply_chains": 45,
+      "demand_breadth": 25,
+      "composite": 30,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "North America comparable sales declined 12% with women's leggings down ~20%, signaling a deep brand relevance crisis in lululemon's core market that goes beyond cyclical consumer weakness.",
+      "ticker": "LULU",
+      "name": "lululemon athletica, Inc.",
+      "date": "2026-09-08"
     }
   ]
 }
