@@ -21508,6 +21508,21 @@
       "ticker": "LULU",
       "name": "lululemon athletica, Inc.",
       "date": "2026-09-08"
+    },
+    {
+      "new_orders": 62,
+      "output": 65,
+      "employment": 50,
+      "prices": 58,
+      "supply_chains": 52,
+      "demand_breadth": 60,
+      "composite": 61,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Costco's 9.9% YoY net sales growth with 5.4% ex-gas/FX comps and positive traffic confirms resilient consumer spending in a value-seeking environment, though the heavy reliance on gas price inflation and modest 2.5% traffic gains suggest underlying demand momentum is solid but not accelerating.",
+      "ticker": "COST",
+      "name": "Costco Wholesale Corp.",
+      "date": "2026-09-09"
     }
   ]
 }
