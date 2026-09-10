@@ -21523,6 +21523,36 @@
       "ticker": "COST",
       "name": "Costco Wholesale Corp.",
       "date": "2026-09-09"
+    },
+    {
+      "new_orders": 52,
+      "output": 45,
+      "employment": 55,
+      "prices": 58,
+      "supply_chains": 48,
+      "demand_breadth": 54,
+      "composite": 51,
+      "sector": "Healthcare",
+      "confidence": 2,
+      "key_signal": "CooperVision's flat revenue reflects a deliberate US channel destocking rather than demand weakness, with underlying consumption growing mid-single digits, but the distortion will persist through Q4 FY2026 before clearing into FY2027.",
+      "ticker": "COO",
+      "name": "The Cooper Cos., Inc.",
+      "date": "2026-09-10"
+    },
+    {
+      "new_orders": 62,
+      "output": 65,
+      "employment": 52,
+      "prices": 60,
+      "supply_chains": 55,
+      "demand_breadth": 63,
+      "composite": 62,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Costco's +2.3% US traffic growth and resilient non-food discretionary comps (home furnishings, sporting goods, jewelry) signal that the value-seeking consumer remains engaged, though ex-gas basket growth of only +2.8% points to modest real spending momentum rather than broad-based acceleration.",
+      "ticker": "COST",
+      "name": "Costco Wholesale Corp.",
+      "date": "2026-09-10"
     }
   ]
 }
