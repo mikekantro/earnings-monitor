@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-09T23:23:57.039930",
+ "generated": "2026-09-10T14:01:13.832039",
  "window": [
   "2026-07-15",
-  "2026-09-09"
+  "2026-09-10"
  ],
  "highlights": [
   {
@@ -2296,6 +2296,18 @@
    "quote_receiving": "a 170-basis point or $8.2 million benefit from refunds of IEEPA tariffs expensed in 2026",
    "quote_customers": "",
    "event_date": "2026-08-13"
+  },
+  {
+   "ticker": "COO",
+   "company": "The Cooper Cos., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "approximately $0.03 EPS",
+   "headline": "Cooper Cos. received tariff refunds adding ~$0.03 to non-GAAP EPS in Q3; lower refunds expected in Q4.",
+   "quote_receiving": "Non-GAAP EPS increased 4% to $1.15, including approximately $0.03 from tariff refunds",
+   "quote_customers": "",
+   "event_date": "2026-09-09"
   }
  ]
 }
