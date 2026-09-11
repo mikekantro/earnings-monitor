@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T14:00:10.443186",
+ "generated": "2026-09-11T23:24:48.783243",
  "window": [
   "2026-07-15",
   "2026-09-11"
@@ -2308,6 +2308,18 @@
    "quote_receiving": "Non-GAAP EPS increased 4% to $1.15, including approximately $0.03 from tariff refunds",
    "quote_customers": "",
    "event_date": "2026-09-09"
+  },
+  {
+   "ticker": "KR",
+   "company": "The Kroger Co.",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Kroger received modest tariff refunds in Q2, fully reinvested back into customer value; neutral impact to gross margin.",
+   "quote_receiving": "We did receive tariff refunds in the quarter, but they were not a meaningful driver of results and they were fully reinvested back in value.",
+   "quote_customers": "if we get tariffs, we'll spend it. If we don't get tariffs, we won't spend it. So overall, it was a neutral impact to gross margin because we reinvested that money back.",
+   "event_date": "2026-09-11"
   }
  ]
 }
