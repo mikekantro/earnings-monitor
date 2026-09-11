@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-10T23:17:39.341368",
+ "generated": "2026-09-11T14:00:39.703444",
  "window": [
   "2026-07-15",
-  "2026-09-10"
+  "2026-09-11"
  ],
  "highlights": [
   {
@@ -7036,6 +7036,42 @@
    "quote": "we're investing in expanded sales coverage, increased customer marketing programs and enhanced commercial execution capabilities, including AI-driven targeting and analytics tools",
    "metric": null,
    "event_date": "2026-09-09"
+  },
+  {
+   "ticker": "ADBE",
+   "company": "Adobe Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Adobe embeds AI across Acrobat, Firefly, Creative Cloud and Experience Platform, with AI-first ARR exceeding $650M and growing 150%+ YoY.",
+   "quote": "AI-first ending ARR now exceeding $650 million and growing more than 150% year-over-year.",
+   "metric": "$650M AI-first ARR, growing >150% YoY",
+   "event_date": "2026-09-10"
+  },
+  {
+   "ticker": "CPRT",
+   "company": "Copart, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Copart uses AI to create buyer demand by connecting buyers to matching vehicles and to lower costs through automation.",
+   "quote": "I think even more important is using AI to create more demand for the vehicles that we're selling. The ability for a buyer to find that vehicle and to find a vehicle that matches their desired purchase is becoming more and more important every single day.",
+   "metric": null,
+   "event_date": "2026-09-10"
+  },
+  {
+   "ticker": "ORCL",
+   "company": "Oracle Corp.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Oracle embeds AI agents in Fusion and NetSuite apps sold to customers; 150M+ AI uses per quarter with 2,300+ agents in production.",
+   "quote": "Customers used our embedded AI capabilities more than 150 million times during the quarter, with usage growing 42% sequentially. Our AI agents executed more than 3.5 million times in production during the quarter",
+   "metric": "150M+ AI uses per quarter; 3.5M agent executions; 2,300+ agents in production; 900B tokens consumed; 42% sequential usage growth",
+   "event_date": "2026-09-10"
   }
  ]
 }
