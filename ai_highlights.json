@@ -1646,7 +1646,43 @@
    "quote": "we're investing in expanded sales coverage, increased customer marketing programs and enhanced commercial execution capabilities, including AI-driven targeting and analytics tools.",
    "metric": null,
    "event_date": "2026-09-10"
+  },
+  {
+   "ticker": "CPRT",
+   "company": "Copart, Inc.",
+   "category": "revenue",
+   "headline": "Copart uses AI to connect buyers to vehicles, drive demand, and eliminate errors in its auction marketplace.",
+   "quote": "using AI to create more demand for the vehicles that we're selling, the ability for a buyer to find that vehicle and to find a vehicle that matches their desired purchase is becoming more and more important every single day",
+   "metric": null,
+   "event_date": "2026-09-11"
+  },
+  {
+   "ticker": "ORCL",
+   "company": "Oracle Corp.",
+   "category": "product",
+   "headline": "Oracle embeds AI agents in Fusion and NetSuite apps; customers used AI capabilities 150M times in Q1, with 2,300+ agents in production.",
+   "quote": "Customers used our embedded AI capabilities more than 150 million times during the quarter, with usage growing 42% sequentially.",
+   "metric": "150M AI uses per quarter; 2,300+ AI agents in production; 900 billion tokens consumed in Fusion; AI agent executions >3.5M, nearly doubling QoQ",
+   "event_date": "2026-09-11"
+  },
+  {
+   "ticker": "COO",
+   "company": "The Cooper Cos., Inc.",
+   "category": "efficiency",
+   "headline": "CooperVision deploying AI-driven targeting and analytics tools to strengthen commercial execution globally",
+   "quote": "we're investing in expanded sales coverage, increased customer marketing programs and enhanced commercial execution capabilities, including AI-driven targeting and analytics tools",
+   "metric": null,
+   "event_date": "2026-09-11"
+  },
+  {
+   "ticker": "ADBE",
+   "company": "Adobe Inc.",
+   "category": "product",
+   "headline": "Adobe embeds AI across Acrobat, Firefly, and Creative Cloud; AI-first ARR exceeds $650M, growing 150%+ YoY",
+   "quote": "AI-first ending ARR now exceeding $650 million and growing more than 150% year-over-year.",
+   "metric": "$650M AI-first ARR, >150% YoY growth",
+   "event_date": "2026-09-11"
   }
  ],
- "updated": "2026-09-10T16:07:05"
+ "updated": "2026-09-11T05:28:51"
 }
