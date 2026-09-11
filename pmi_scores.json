@@ -21628,6 +21628,21 @@
       "ticker": "COST",
       "name": "Costco Wholesale Corp.",
       "date": "2026-09-11"
+    },
+    {
+      "new_orders": 38,
+      "output": 42,
+      "employment": 52,
+      "prices": 48,
+      "supply_chains": 50,
+      "demand_breadth": 40,
+      "composite": 42,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Kroger slashed full-year identical sales guidance to 0.2%\u20130.8% from 1%\u20132%, signaling broad-based U.S. consumer stress driven by SNAP cuts, fuel prices above $4, and softening confidence that is accelerating grocery volume deceleration across the sector.",
+      "ticker": "KR",
+      "name": "The Kroger Co.",
+      "date": "2026-09-11"
     }
   ]
 }
