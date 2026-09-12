@@ -1682,7 +1682,43 @@
    "quote": "AI-first ending ARR now exceeding $650 million and growing more than 150% year-over-year.",
    "metric": "$650M AI-first ARR, >150% YoY growth",
    "event_date": "2026-09-11"
+  },
+  {
+   "ticker": "CPRT",
+   "company": "Copart, Inc.",
+   "category": "revenue",
+   "headline": "Copart using AI to connect buyers to vehicles and drive auction demand, while also reducing costs via automation",
+   "quote": "even more important is using AI to create more demand for the vehicles that we're selling. The ability for a buyer to find that vehicle and to find a vehicle that matches their desired purchase is becoming more and more important",
+   "metric": null,
+   "event_date": "2026-09-12"
+  },
+  {
+   "ticker": "ORCL",
+   "company": "Oracle Corp.",
+   "category": "product",
+   "headline": "Oracle embeds AI agents in Fusion and NetSuite apps; customers used AI capabilities 150M times in Q1, with 3.5M agent executions.",
+   "quote": "Customers used our embedded AI capabilities more than 150 million times during the quarter, with usage growing 42% sequentially. Our AI agents executed more than 3.5 million times in production during the quarter",
+   "metric": "150M AI capability uses; 3.5M agent executions; 900B tokens consumed; 2,300 agents in production",
+   "event_date": "2026-09-12"
+  },
+  {
+   "ticker": "ADBE",
+   "company": "Adobe Inc.",
+   "category": "product",
+   "headline": "Adobe embeds AI across Acrobat, Firefly, and Creative Cloud; AI-first ARR exceeds $650M, growing 150%+ YoY.",
+   "quote": "AI-first ending ARR now exceeding $650 million and growing more than 150% year-over-year.",
+   "metric": "$650M AI-first ARR, >150% YoY growth",
+   "event_date": "2026-09-12"
+  },
+  {
+   "ticker": "COO",
+   "company": "The Cooper Cos., Inc.",
+   "category": "efficiency",
+   "headline": "CooperVision deploying AI-driven targeting and analytics tools to enhance commercial execution and customer engagement.",
+   "quote": "enhanced commercial execution capabilities, including AI-driven targeting and analytics tools.",
+   "metric": null,
+   "event_date": "2026-09-12"
   }
  ],
- "updated": "2026-09-11T16:12:39"
+ "updated": "2026-09-12T05:17:50"
 }
