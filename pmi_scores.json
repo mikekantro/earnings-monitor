@@ -21718,6 +21718,66 @@
       "ticker": "COO",
       "name": "The Cooper Cos., Inc.",
       "date": "2026-09-12"
+    },
+    {
+      "new_orders": 38,
+      "output": 42,
+      "employment": 52,
+      "prices": 48,
+      "supply_chains": 45,
+      "demand_breadth": 40,
+      "composite": 42,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Kroger sharply cut full-year identical sales guidance to 0.2%\u20130.8% (from 1%\u20132%), signaling that even the essential-goods grocery sector is experiencing meaningful consumer demand deterioration driven by SNAP reductions, high fuel prices, and softening consumer confidence.",
+      "ticker": "KR",
+      "name": "The Kroger Co.",
+      "date": "2026-09-15"
+    },
+    {
+      "new_orders": 58,
+      "output": 52,
+      "employment": 48,
+      "prices": 65,
+      "supply_chains": 60,
+      "demand_breadth": 62,
+      "composite": 57,
+      "sector": "Industrials",
+      "confidence": 2,
+      "key_signal": "Record total loss frequency (23.3%) and accelerating collision severity (+8.8% YoY) represent a structural tailwind for Copart's volume pipeline, while domestic unit weakness from a single customer loss masks intact underlying market share.",
+      "ticker": "CPRT",
+      "name": "Copart, Inc.",
+      "date": "2026-09-15"
+    },
+    {
+      "new_orders": 92,
+      "output": 88,
+      "employment": 58,
+      "prices": 82,
+      "supply_chains": 72,
+      "demand_breadth": 75,
+      "composite": 84,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Oracle's RPO grew $26B in a single quarter with $30B+ in new AI contracts signed, signaling multi-year structural enterprise AI demand that will sustain double-digit revenue growth through FY2028.",
+      "ticker": "ORCL",
+      "name": "Oracle Corp.",
+      "date": "2026-09-15"
+    },
+    {
+      "new_orders": 58,
+      "output": 72,
+      "employment": 52,
+      "prices": 68,
+      "supply_chains": 62,
+      "demand_breadth": 60,
+      "composite": 64,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Adobe's AI-first ARR exceeding $650M and growing 150%+ YoY demonstrates that enterprise and consumer software demand remains durable with AI acting as a tangible revenue growth accelerant, though RPO growth decelerating to 8% vs. 12-13% revenue growth signals emerging caution in forward enterprise contract commitments.",
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "date": "2026-09-15"
     }
   ]
 }
