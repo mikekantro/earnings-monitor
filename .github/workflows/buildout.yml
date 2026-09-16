@@ -1,0 +1,50 @@
+name: Buildout Sweep
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Space-separated tickers for a CALIBRATION run (leave empty for full sweep)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests anthropic
+      - name: Run sweep
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.tickers }}" ]; then
+            echo "=== CALIBRATION RUN ==="
+            python3 scripts/buildout_run.py --tickers ${{ inputs.tickers }} \
+              --start 2026-07-15 --scores pmi_scores.json \
+              --out /tmp/buildout_calib.json \
+              --model claude-haiku-4-5-20251001 --debug
+            echo "=== CALIBRATION RESULTS (copy this block to Claude) ==="
+            cat /tmp/buildout_calib.json
+          else
+            echo "=== FULL SWEEP ==="
+            python3 scripts/buildout_run.py \
+              --start 2026-07-15 --scores pmi_scores.json \
+              --out buildout_highlights.json \
+              --model claude-haiku-4-5-20251001 --resume
+          fi
+      - name: Commit results (full sweep only)
+        if: ${{ inputs.tickers == '' }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add buildout_highlights.json buildout_highlights.json.done
+          git diff --cached --quiet || git commit -m "Buildout sweep"
+          git pull --rebase origin main
+          git push

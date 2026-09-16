@@ -394,14 +394,100 @@ s = s[:a] + "const DB=" + json.dumps(DBP, separators=(",",":")) + s[bnd:]
 open(p, "w").write(s)
 print(f"portfolio: {len(C)} companies in payload")
 
+# ---------------- pricing power ----------------
+p = f"{SITE}/pricing/index.html"
+s = open(p).read()
+def _pswap(html, tag, inner):
+    a = html.index(f"<!--{tag}-->") + len(tag) + 7
+    bnd = html.index(f"<!--/{tag}-->")
+    return html[:a] + "\n" + inner + "\n" + html[bnd:]
+P2 = [r for r in best.values() if r.get("prices") is not None]
+ppairs = [(r, q1s[r["ticker"]]) for r in P2 if r["ticker"] in q1s and q1s[r["ticker"]].get("prices") is not None]
+prow = [{"t": r["ticker"], "s": r.get("sector",""),
+         "p1": (q1s.get(r["ticker"]) or {}).get("prices"), "p2": r["prices"],
+         "d": (r["prices"]-q1s[r["ticker"]]["prices"]) if (r["ticker"] in q1s and q1s[r["ticker"]].get("prices") is not None) else None}
+        for r in P2]
+psec = defaultdict(list); plvl = defaultdict(list)
+for r, p1r in ppairs:
+    psec[r.get("sector","—")].append(r["prices"]-p1r["prices"])
+    plvl[r.get("sector","—")].append(r["prices"])
+srows = sorted([(sx, round(float(np.mean(plvl[sx])),1), round(float(np.mean(v)),1), len(v))
+                for sx, v in psec.items() if len(v) >= 10], key=lambda x: -x[2])
+def _pesc(x): return (x or "").replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+sec_html = "\n".join(
+    f'<tr><td>{_pesc(sx)}</td><td class="num">{l}</td>'
+    f'<td class="num {"pos" if d>0 else ("neg" if d<0 else "")}">{"+" if d>0 else ""}{d}</td>'
+    f'<td><span class="bar {"up" if d>=0 else "dn"}" style="width:{min(120,abs(d)*28)}px"></span></td>'
+    f'<td class="num">{n}</td></tr>' for sx, l, d, n in srows)
+pmov = sorted([(r["ticker"], p1r["prices"], r["prices"], r["prices"]-p1r["prices"], r.get("sector",""),
+                (r.get("key_signal") or "")) for r, p1r in ppairs], key=lambda x: x[3])
+def _mrow(m):
+    t, a, bb, d, sx, k = m
+    return (f'<div class="row"><div class="hd"><span class="tk">{t}</span>'
+            f'<span class="mvv {"pos" if d>0 else "neg"}">{a} &rarr; {bb} ({"+" if d>0 else ""}{d})</span>'
+            f'<span class="sec-lb">{_pesc(sx)}</span></div><p class="sig">{_pesc(k[:170])}</p></div>')
+s = _pswap(s, "PSEC", sec_html)
+s = _pswap(s, "PGAIN", "\n".join(_mrow(m) for m in pmov[:-7:-1]))
+s = _pswap(s, "PLOSE", "\n".join(_mrow(m) for m in pmov[:6]))
+pavg1 = float(np.mean([p1r["prices"] for _, p1r in ppairs]))
+pavg2 = float(np.mean([r["prices"] for r, _ in ppairs]))
+pdif = 100*sum(1 for r in P2 if r["prices"]>50)/len(P2)
+s = _pswap(s, "PSTATS", f'''<span><b>{pavg2:.1f}</b>prices index, Q2 (same companies: {pavg1:.1f} in Q1)</span>
+<span><b>{pavg2-pavg1:+.1f}</b>change vs Q1, matched sample</span>
+<span><b>{pdif:.0f}%</b>of companies above 50</span>
+<span><b>{len(P2)}</b>companies scored</span>''')
+a = s.index("const PROWS="); bnd = s.index(";\n", a)
+s = s[:a] + "const PROWS=" + json.dumps(prow, separators=(",",":")) + s[bnd:]
+s = sub1(s, r"Data as of [A-Z][a-z]+ \d+, 2026", f"Data as of {today}", "pricing-date")
+open(p, "w").write(s)
+print(f"pricing: {len(prow)} rows, index {pavg2:.1f} ({pavg2-pavg1:+.1f})")
+
+# ---------------- what-changed strip ----------------
+import os
+SNAP = f"{ROOT}/docs/research/prev_state.json"
+cur_state = {"date": today,
+             "pmi": sorted(best.keys()),
+             "ai": sorted(a2.keys()),
+             "margin": sorted(x["ticker"] for x in a2h if x.get("margin_claim")),
+             "refn": len(R), "reftot": round(sum(mm(x.get("amount")) or 0 for x in R)),
+             "lead": srows[0][0] if srows else "", "pidx": round(pavg2,1)}
+lines = []
+if os.path.exists(SNAP):
+    prev = load(SNAP)
+    new_pmi = [t for t in cur_state["pmi"] if t not in set(prev.get("pmi", []))]
+    new_ai  = [t for t in cur_state["ai"] if t not in set(prev.get("ai", []))]
+    new_mg  = [t for t in cur_state["margin"] if t not in set(prev.get("margin", []))]
+    d_ref   = cur_state["refn"] - prev.get("refn", cur_state["refn"])
+    d_tot   = cur_state["reftot"] - prev.get("reftot", cur_state["reftot"])
+    if new_pmi:
+        ex = ", ".join(new_pmi[:4]) + (" and others" if len(new_pmi) > 4 else "")
+        lines.append(f"{len(new_pmi)} new reporter{'s' if len(new_pmi)!=1 else ''} scored ({ex}).")
+    if new_ai:
+        lines.append(f"{len(new_ai)} new verified AI disclosure{'s' if len(new_ai)!=1 else ''}" +
+                     (f", including a margin claim from {new_mg[0]}" if new_mg else "") + ".")
+    elif new_mg:
+        lines.append(f"New AI margin claim on record: {', '.join(new_mg[:3])}.")
+    if d_ref > 0:
+        lines.append(f"{d_ref} new tariff-refund disclosure{'s' if d_ref!=1 else ''}" +
+                     (f" (+${d_tot}M)" if d_tot > 0 else "") + ".")
+    if not lines:
+        lines.append("No new reporters or disclosures this refresh; scores and quotes re-verified.")
+    lines.append(f"Prices index {cur_state['pidx']}; {cur_state['lead']} leads sector pricing momentum.")
+else:
+    lines.append(f"Coverage baseline: {len(cur_state['pmi'])} companies scored, {len(cur_state['ai'])} verified AI disclosures, {cur_state['refn']} refund entries.")
+open(SNAP, "w").write(json.dumps(cur_state))
+wchg_html = f'<b>What changed &middot; {today_short}</b> ' + " ".join(lines)
+
 # ---------------- hub date ----------------
 p = f"{SITE}/index.html"
 s = open(p).read()
 s = sub1(s, r"data as of [A-Z][a-z]+ \d+, 2026", f"data as of {today_short}", "hub-date")
+wa = s.index("<!--WCHG-->") + 11; wb = s.index("<!--/WCHG-->")
+s = s[:wa] + wchg_html + s[wb:]
 open(p, "w").write(s)
 
 # ---------------- self-check ----------------
-for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio"]:
+for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing"]:
     t = open(f"{SITE}/{page}/index.html").read()
     if today.split(",")[0].split()[1] not in t and today_short.split()[1] not in t:
         die(f"{page}: today's date missing after build")

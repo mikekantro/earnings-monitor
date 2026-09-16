@@ -45,6 +45,9 @@
 h1 .firm{display:block;font-family:"Titillium Web",sans-serif;font-weight:700;font-size:12px;
 letter-spacing:.12em;text-transform:uppercase;color:#8AA2B0;margin-bottom:3px}
 h1 .firm::after{content:"";display:inline-block;width:2px;height:11px;background:#C24F1F;margin-left:9px;vertical-align:-1px}
+
+.wchg{max-width:1100px;margin:10px auto 0;padding:0 24px;font-size:12.5px;color:#4A5A64;line-height:1.55}
+.wchg b{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#C24F1F;margin-right:8px}
 </style>
 </head>
 <body>
@@ -56,6 +59,8 @@ h1 .firm::after{content:"";display:inline-block;width:2px;height:11px;background
   <nav class="tabs" role="tablist" aria-label="Dashboards">
     <button class="tab" role="tab" id="t-pmi" aria-selected="true" data-pane="pmi">
       Earnings PMI<span class="m">Q2 vs Q1 scorecard</span></button>
+    <button class="tab" role="tab" id="t-pricing" aria-selected="false" data-pane="pricing">
+      Pricing Power<span class="m">corporate inflation gauge</span></button>
     <button class="tab" role="tab" id="t-ai" aria-selected="false" data-pane="ai">
       AI Watch<span class="m">two seasons, in their own words</span></button>
     <button class="tab" role="tab" id="t-emp" aria-selected="false" data-pane="emp">
@@ -66,9 +71,11 @@ h1 .firm::after{content:"";display:inline-block;width:2px;height:11px;background
       Portfolio Screen<span class="m">screen your book, in-browser</span></button>
   </nav>
 </div>
+<div class="wchg"><!--WCHG--><b>What changed &middot; Sep 16, 2026</b> Coverage baseline: 1322 companies scored, 589 verified AI disclosures, 193 refund entries.<!--/WCHG--></div>
 <div class="stage">
   <iframe class="pane active" id="p-pmi" title="Earnings PMI scorecard"
     src="pmi-scorecard/"></iframe>
+  <iframe class="pane" id="p-pricing" title="Pricing power" data-src="pricing/"></iframe>
   <iframe class="pane" id="p-ai" title="AI adopters" data-src="ai-adopters/"></iframe>
   <iframe class="pane" id="p-refunds" title="Tariff refund watch" data-src="refund-watch/"></iframe>
   <iframe class="pane" id="p-emp" title="AI and employment tracker" data-src="ai-employment/"></iframe>
@@ -87,7 +94,7 @@ function activate(name,push){
 }
 tabs.forEach(t=>t.addEventListener('click',()=>activate(t.dataset.pane,true)));
 const h=location.hash.replace('#','');
-if(['pmi','ai','refunds','emp','portfolio'].includes(h))activate(h,false);
+if(['pmi','pricing','ai','refunds','emp','portfolio'].includes(h))activate(h,false);
 // keyboard: arrow keys between tabs
 document.querySelector('.tabs').addEventListener('keydown',e=>{
   if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;
