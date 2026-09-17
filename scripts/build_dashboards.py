@@ -362,6 +362,13 @@ print(f"employment: persistent {d_per:+.2f} p={p_per:.3f} (n={len(g_per)} v {len
 p = f"{SITE}/portfolio/index.html"
 s = open(p).read()
 Rmap = {x["ticker"]: x for x in R}
+try:
+    _boh = load(f"{ROOT}/buildout_highlights.json")["highlights"]
+    _bomap = {}
+    for _x in _boh:
+        _bomap.setdefault(_x["ticker"], _x)
+except Exception:
+    _bomap = {}
 uni_all = set(q1s) | set(best)
 C = {}
 for t in sorted(uni_all):
@@ -386,6 +393,8 @@ for t in sorted(uni_all):
         e["rf"] = {"g": g, "a": f.get("amount") or "", "m": mm(f.get("amount")), "h": f["headline"],
                    "q": f.get("quote_receiving") or ""}
     e["coh"] = "persistent" if (t in a1 and t in a2) else ("new" if t in a2 else ("quiet" if t in a1 else "never"))
+    _bx = _bomap.get(t)
+    if _bx: e["bo"] = {"ch": _bx["channel"], "q": _bx["quote"], "m": _bx.get("metric") or ""}
     C[t] = {k: v for k, v in e.items() if v not in (None,"",0) or k in ("x",)}
 DBP = {"c": C, "m": {"n": len(C), "idx": SC["comp2"], "date": today,
                      "ed": fmt(d_per), "ep": f"{p_per:.3f}"}}
