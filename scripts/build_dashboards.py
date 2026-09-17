@@ -190,6 +190,12 @@ a = s.index("const ROWS="); d = s.index(";\n", s.index(";const UNI="))
 s = (s[:a] + "const ROWS="+json.dumps(rows,separators=(",",":"))
      + ";const SEC="+json.dumps(sec,separators=(",",":"))
      + ";const UNI={Q1:1432,Q2:"+str(AP["uni"])+"}" + s[d:])
+try:
+    _bo_t = sorted({x["ticker"] for x in load(f"{ROOT}/buildout_highlights.json")["highlights"]})
+except Exception:
+    _bo_t = []
+ba = s.index("const BOSET="); bb = s.index(";", ba)
+s = s[:ba] + "const BOSET=" + json.dumps(_bo_t) + s[bb:]
 s = sub1(s, r"<b>\d+%</b>of Q2 reporters cite AI use \(Q1: 35%\)", f"<b>{AP['rate2']}%</b>of Q2 reporters cite AI use (Q1: 35%)", "ai-rate")
 s = sub1(s, r"<b>\d+</b>Q2 adopters of \d+ reported", f"<b>{AP['n2']}</b>Q2 adopters of {AP['uni']} reported", "ai-n")
 s = sub1(s, r"<b>\d+</b>first-time claimants", f"<b>{AP['new']}</b>first-time claimants", "ai-new")
