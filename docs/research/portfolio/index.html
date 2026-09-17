@@ -172,7 +172,9 @@ function dossier(r){
   let ai = r.ai
     ? `<p><span class="tag ${r.ai.c}">${r.ai.c}</span>${r.ai.nw?' <span class="tag none">new in Q2</span>':''}${r.ai.m?` <span class="mono" style="font-size:11px">${esc(r.ai.m)}</span>`:''}</p><p>${esc(r.ai.h)}</p><blockquote>&ldquo;${esc(r.ai.q)}&rdquo;</blockquote>`+
       (r.ai.mc?`<p><b>Margin claim, on the record:</b></p><blockquote>&ldquo;${esc(r.ai.mz)}&rdquo;${r.ai.mm?` <span class="mono">(${esc(r.ai.mm)})</span>`:''}</blockquote>`:'')
-    : '<p class="abs">No verified AI-use disclosure on the Q2 call. Absence of verifiable disclosure, not evidence of absence of use.</p>';
+    : (r.bo
+      ? '<p class="abs">No verified AI-<i>use</i> disclosure on the Q2 call. This company sits on the other side of the trade: it is tracked as an AI-infrastructure seller in the Build-Out cohort (card below).</p>'
+      : '<p class="abs">No verified AI-use disclosure on the Q2 call. Absence of verifiable disclosure, not evidence of absence of use.</p>');
   let rf = r.rf
     ? `<p><span class="tag ${r.rf.g}">${r.rf.g.replace(/_/g,' ')}</span>${r.rf.a?` <span class="mono">${esc(r.rf.a)}</span>`:''}</p><p>${esc(r.rf.h)}</p><blockquote>&ldquo;${esc(r.rf.q)}&rdquo;</blockquote>`
     : '<p class="abs">No tariff-refund disclosure found in the Q2 window.</p>';
