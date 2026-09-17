@@ -1,0 +1,24 @@
+name: Deploy on Push
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/research/**"
+      - "deploy_manifest.json"
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Trigger site pull
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          sleep 8
+          curl -fsS --max-time 120 \
+            -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
+            -H "X-Deploy-Token: ${DEPLOY_TOKEN}" \
+            -d "sha=${GITHUB_SHA}" \
+            "https://www.whatsnextformarkets.com/research-sync.php" \
+            | tee result.json
+          python3 -c "import json;d=json.load(open('result.json'));assert d['ok'],d;print('DEPLOY OK:',d['manifest'],'files')"
