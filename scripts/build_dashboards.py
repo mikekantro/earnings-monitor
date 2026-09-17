@@ -446,6 +446,18 @@ def _mrow(m):
             f'<span class="mvv {"pos" if d>0 else "neg"}">{a} &rarr; {bb} ({"+" if d>0 else ""}{d})</span>'
             f'<span class="sec-lb">{_pesc(sx)}</span></div><p class="sig">{_pesc(k[:170])}</p></div>')
 s = _pswap(s, "PSEC", sec_html)
+negs = [(sx, d) for sx, l, d, n in srows if d < 0]
+lowlv = min(srows, key=lambda x: x[1])
+if not negs:
+    _pdn = "This refresh, every measured sector is holding or gaining pricing power versus Q1"
+elif len(negs) == 1:
+    _pdn = f"This refresh, {negs[0][0]} is the only sector losing ground versus Q1 ({negs[0][1]:+.1f})"
+else:
+    worst = min(negs, key=lambda x: x[1])
+    _pdn = (f"This refresh, {len(negs)} of {len(srows)} sectors are losing ground versus Q1, led by "
+            f"{worst[0]} at {worst[1]:+.1f}")
+_pdn += f", while the weakest absolute pricing level sits in {lowlv[0]} ({lowlv[1]:.1f})."
+s = _pswap(s, "PDN", _pdn)
 s = _pswap(s, "PGAIN", "\n".join(_mrow(m) for m in pmov[:-7:-1]))
 s = _pswap(s, "PLOSE", "\n".join(_mrow(m) for m in pmov[:6]))
 pavg1 = float(np.mean([p1r["prices"] for _, p1r in ppairs]))
