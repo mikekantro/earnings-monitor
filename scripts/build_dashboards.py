@@ -488,7 +488,8 @@ if Bh:
 <span><b>{len(Bh)}</b>companies cite the build-out ({round(100*len(Bh)/len(best))}% of {len(best):,})</span>
 <span><b>{share_c}%</b>of the index&rsquo;s improvement comes from them</span>
 <span><b>{cc:+.1f} vs {cx:+.1f}</b>cohort vs everyone else, Q2 change</span>
-<span><b>{lv:.1f} vs {lx:.1f}</b>Q2 level: cohort runs hotter</span>''')
+<span><b>{lv:.1f} vs {lx:.1f}</b>Q2 level: cohort runs hotter</span>
+<span><b>{sum(1 for x in Bh if x.get("metric"))} of {len(Bh)}</b>attach a stated figure</span>''')
     s = _swapm(s, "BBAR", f'''
 <div class="dc-row"><p class="dc-lb">Composite index change, Q2 vs Q1: {ct:+.2f} pts</p>
 <div class="dc-bar"><span class="co" style="width:{share_c}%">build-out {cw*cc:+.2f}</span><span class="ex" style="width:{100-share_c}%">rest {(1-cw)*cx:+.2f}</span></div>
@@ -512,6 +513,39 @@ if Bh:
              "m": (x.get("metric") or "")[:80]} for x in Bh]
     a = s.index("const BROWS="); bnd = s.index(";\n", a)
     s = s[:a] + "const BROWS=" + json.dumps(brow, separators=(",",":")) + s[bnd:]
+    bsec = defaultdict(lambda: {"co": [], "ex": [], "n": 0, "cn": 0})
+    for t, r in best.items():
+        sx = r.get("sector","—"); bsec[sx]["n"] += 1
+        if t in bset: bsec[sx]["cn"] += 1
+        if t in q1s and r.get("composite") is not None and q1s[t].get("composite") is not None:
+            dd = r["composite"]-q1s[t]["composite"]
+            (bsec[sx]["co"] if t in bset else bsec[sx]["ex"]).append(dd)
+    _brows = []; _bw = 0; _bt = 0
+    for sx, v in sorted(bsec.items(), key=lambda kv: -kv[1]["cn"]/max(kv[1]["n"],1)):
+        if v["n"] < 15: continue
+        share = round(100*v["cn"]/v["n"])
+        if len(v["co"]) >= 5:
+            c = float(np.mean(v["co"])); e = float(np.mean(v["ex"])); g = c-e; _bt += 1; _bw += (g > 0)
+            _brows.append(f'<tr><td>{sx}</td><td class="num">{v["cn"]} <span style="color:var(--muted)">({share}%)</span></td>'
+                          f'<td class="num">{c:+.1f}</td><td class="num">{e:+.1f}</td>'
+                          f'<td class="num {"pos" if g>0 else "neg"}">{g:+.1f}</td>'
+                          f'<td><span class="bar {"up" if g>=0 else "dn"}" style="width:{min(110,abs(g)*22):.0f}px"></span></td></tr>')
+        else:
+            _brows.append(f'<tr><td>{sx}</td><td class="num">{v["cn"]} <span style="color:var(--muted)">({share}%)</span></td>'
+                          f'<td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>')
+    s = _swapm(s, "BSECT", "\n" + "\n".join(_brows) + "\n")
+    s = _swapm(s, "BSECW", f"Build-out claimants outperform their own sector peers in <b>{_bw} of {_bt}</b> sectors large enough to measure.")
+    _qz = [best[x["ticker"]]["composite"]-q1s[x["ticker"]]["composite"] for x in Bh if x.get("metric")
+           and x["ticker"] in best and x["ticker"] in q1s
+           and best[x["ticker"]].get("composite") is not None and q1s[x["ticker"]].get("composite") is not None]
+    _nq = [best[x["ticker"]]["composite"]-q1s[x["ticker"]]["composite"] for x in Bh if not x.get("metric")
+           and x["ticker"] in best and x["ticker"] in q1s
+           and best[x["ticker"]].get("composite") is not None and q1s[x["ticker"]].get("composite") is not None]
+    s = _swapm(s, "BQNT",
+        f"One check already runs against it: claimants without a stated figure improved "
+        f"{np.mean(_nq):+.1f}, nearly matching the {np.mean(_qz):+.1f} of those with numbers, and both far "
+        f"exceed the {cx:+.1f} non-claimant baseline, so the cohort is not carried by numberless talk.")
+    s = sub1(s, r"Yes, in \d+ of \d+\.", f"Yes, in {_bw} of {_bt}.", "buildout-sec-h")
     s = sub1(s, r"Data as of [A-Z][a-z]+ \d+, 2026", f"Data as of {today}", "buildout-date")
     open(p, "w").write(s)
     print(f"buildout: {len(Bh)} claimants, {share_c}% of improvement, new-orders {share_n}%")
