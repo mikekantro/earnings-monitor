@@ -21778,6 +21778,21 @@
       "ticker": "ADBE",
       "name": "Adobe Inc.",
       "date": "2026-09-15"
+    },
+    {
+      "new_orders": 38,
+      "output": 45,
+      "employment": 42,
+      "prices": 32,
+      "supply_chains": 44,
+      "demand_breadth": 35,
+      "composite": 39,
+      "sector": "Real Estate",
+      "confidence": 3,
+      "key_signal": "With 50% of walk-in visitors unable to qualify for a mortgage as rates hit 7% and Q4 new orders guidance implies a significant YoY decline, affordability-driven demand destruction in entry-level housing is accelerating and signals broad consumer balance sheet stress.",
+      "ticker": "LEN",
+      "name": "Lennar Corp.",
+      "date": "2026-09-17"
     }
   ]
 }
