@@ -63,6 +63,8 @@ h1 .firm::after{content:"";display:inline-block;width:2px;height:11px;background
       Pricing Power<span class="m">corporate inflation gauge</span></button>
     <button class="tab" role="tab" id="t-ai" aria-selected="false" data-pane="ai">
       AI Watch<span class="m">two seasons, in their own words</span></button>
+    <button class="tab" role="tab" id="t-buildout" aria-selected="false" data-pane="buildout">
+      AI Build-Out<span class="m">how much is AI? decomposed</span></button>
     <button class="tab" role="tab" id="t-emp" aria-selected="false" data-pane="emp">
       AI &times; Employment<span class="m">hypothesis on watch</span></button>
     <button class="tab" role="tab" id="t-refunds" aria-selected="false" data-pane="refunds">
@@ -77,6 +79,7 @@ h1 .firm::after{content:"";display:inline-block;width:2px;height:11px;background
     src="pmi-scorecard/"></iframe>
   <iframe class="pane" id="p-pricing" title="Pricing power" data-src="pricing/"></iframe>
   <iframe class="pane" id="p-ai" title="AI adopters" data-src="ai-adopters/"></iframe>
+  <iframe class="pane" id="p-buildout" title="AI build-out decomposition" data-src="buildout/"></iframe>
   <iframe class="pane" id="p-refunds" title="Tariff refund watch" data-src="refund-watch/"></iframe>
   <iframe class="pane" id="p-emp" title="AI and employment tracker" data-src="ai-employment/"></iframe>
   <iframe class="pane" id="p-portfolio" title="Portfolio screen" data-src="portfolio/"></iframe>
@@ -94,7 +97,7 @@ function activate(name,push){
 }
 tabs.forEach(t=>t.addEventListener('click',()=>activate(t.dataset.pane,true)));
 const h=location.hash.replace('#','');
-if(['pmi','pricing','ai','refunds','emp','portfolio'].includes(h))activate(h,false);
+if(['pmi','pricing','ai','buildout','refunds','emp','portfolio'].includes(h))activate(h,false);
 // keyboard: arrow keys between tabs
 document.querySelector('.tabs').addEventListener('keydown',e=>{
   if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;

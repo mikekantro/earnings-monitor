@@ -34,6 +34,16 @@ jobs:
           FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
         run: python scripts/refund_watch_run.py --start 2026-07-15 --scores pmi_scores.json --resume
 
+      - name: Buildout sweep (resume)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
+        run: |
+          python3 scripts/buildout_run.py --start 2026-07-15 --scores pmi_scores.json \
+            --out buildout_highlights.json --model claude-haiku-4-5-20251001 --resume
+
       - name: AI sweep (resumed — only new reporters)
         continue-on-error: true
         env:
@@ -49,7 +59,7 @@ jobs:
         run: |
           git config user.name  "earnings-monitor-bot"
           git config user.email "actions@github.com"
-          git add ai_highlights_q2.json refund_highlights.json \
+          git add ai_highlights_q2.json refund_highlights.json \ buildout_highlights.json buildout_highlights.json.done
                   ai_highlights_q2.json.done refund_highlights.json.done \
                   docs/research 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Daily research refresh $(date -u +%F)"

@@ -397,6 +397,10 @@ print(f"portfolio: {len(C)} companies in payload")
 # ---------------- pricing power ----------------
 p = f"{SITE}/pricing/index.html"
 s = open(p).read()
+def _swapm(html, tag, inner):
+    a = html.index(f"<!--{tag}-->") + len(tag) + 7
+    bnd = html.index(f"<!--/{tag}-->")
+    return html[:a] + inner + html[bnd:]
 def _pswap(html, tag, inner):
     a = html.index(f"<!--{tag}-->") + len(tag) + 7
     bnd = html.index(f"<!--/{tag}-->")
@@ -441,6 +445,61 @@ s = s[:a] + "const PROWS=" + json.dumps(prow, separators=(",",":")) + s[bnd:]
 s = sub1(s, r"Data as of [A-Z][a-z]+ \d+, 2026", f"Data as of {today}", "pricing-date")
 open(p, "w").write(s)
 print(f"pricing: {len(prow)} rows, index {pavg2:.1f} ({pavg2-pavg1:+.1f})")
+
+# ---------------- buildout decomposition ----------------
+try:
+    Bh = load(f"{ROOT}/buildout_highlights.json")["highlights"]
+    _bs = set(); Bh = [x for x in Bh if not (x["ticker"] in _bs or _bs.add(x["ticker"]))]
+except Exception as e:
+    Bh = None
+    print(f"buildout: data unavailable ({e}); page left as-is")
+if Bh:
+    p = f"{SITE}/buildout/index.html"
+    s = open(p).read()
+    bset = {x["ticker"] for x in Bh}
+    def _bde(field):
+        pairs = [(t, best[t][field]-q1s[t][field]) for t in best
+                 if t in q1s and best[t].get(field) is not None and q1s[t].get(field) is not None]
+        co = [d for t, d in pairs if t in bset]; ex = [d for t, d in pairs if t not in bset]
+        tot = float(np.mean([d for _, d in pairs])); wc = len(co)/len(pairs)
+        return tot, float(np.mean(co)), float(np.mean(ex)), wc, len(co), len(ex)
+    ct, cc, cx, cw, cn, xn = _bde("composite")
+    nt, nc, nx, nw, _, _ = _bde("new_orders")
+    share_c = max(1, min(99, round(100*cw*cc/ct))) if ct > 0 else 50
+    share_n = max(1, min(99, round(100*nw*nc/nt))) if nt > 0 else 50
+    lv  = float(np.mean([best[t]["composite"] for t in bset if t in best and best[t].get("composite") is not None]))
+    lx  = float(np.mean([best[t]["composite"] for t in best if t not in bset and best[t].get("composite") is not None]))
+    s = _swapm(s, "BSTATS", f'''
+<span><b>{len(Bh)}</b>companies cite the build-out ({round(100*len(Bh)/len(best))}% of {len(best):,})</span>
+<span><b>{share_c}%</b>of the index&rsquo;s improvement comes from them</span>
+<span><b>{cc:+.1f} vs {cx:+.1f}</b>cohort vs everyone else, Q2 change</span>
+<span><b>{lv:.1f} vs {lx:.1f}</b>Q2 level: cohort runs hotter</span>''')
+    s = _swapm(s, "BBAR", f'''
+<div class="dc-row"><p class="dc-lb">Composite index change, Q2 vs Q1: {ct:+.2f} pts</p>
+<div class="dc-bar"><span class="co" style="width:{share_c}%">build-out {cw*cc:+.2f}</span><span class="ex" style="width:{100-share_c}%">rest {(1-cw)*cx:+.2f}</span></div>
+<p class="dc-cap">{cn} claimants ({round(100*cw)}% of the matched sample) improved {cc:+.2f} on average; the other {xn} companies improved {cx:+.2f}.</p></div>
+<div class="dc-row" style="margin-bottom:0"><p class="dc-lb">New-orders sub-index change: {nt:+.2f} pts</p>
+<div class="dc-bar"><span class="co" style="width:{share_n}%">build-out {nw*nc:+.2f}</span><span class="ex" style="width:{100-share_n}%">rest {(1-nw)*nx:+.2f}</span></div>
+<p class="dc-cap">{share_n}% of the new-orders improvement traces to the build-out cohort.</p></div>''')
+    chd = defaultdict(list)
+    for x in Bh:
+        t = x["ticker"]
+        if t in best and t in q1s and best[t].get("composite") is not None and q1s[t].get("composite") is not None:
+            chd[x["channel"]].append(best[t]["composite"]-q1s[t]["composite"])
+    s = _swapm(s, "BCHAN", "\n".join(
+        f'<tr><td>{c.replace("_"," ")}</td><td class="num">{len(v)}</td>'
+        f'<td class="num {"pos" if np.mean(v)>0 else "neg"}">{np.mean(v):+.1f}</td></tr>'
+        for c, v in sorted(chd.items(), key=lambda kv: -len(kv[1]))))
+    brow = [{"t": x["ticker"], "ch": x["channel"], "s": best.get(x["ticker"],{}).get("sector",""),
+             "p2": best.get(x["ticker"],{}).get("composite"),
+             "d": (best[x["ticker"]]["composite"]-q1s[x["ticker"]]["composite"])
+                  if (x["ticker"] in best and x["ticker"] in q1s and best[x["ticker"]].get("composite") is not None and q1s[x["ticker"]].get("composite") is not None) else None,
+             "m": (x.get("metric") or "")[:80]} for x in Bh]
+    a = s.index("const BROWS="); bnd = s.index(";\n", a)
+    s = s[:a] + "const BROWS=" + json.dumps(brow, separators=(",",":")) + s[bnd:]
+    s = sub1(s, r"Data as of [A-Z][a-z]+ \d+, 2026", f"Data as of {today}", "buildout-date")
+    open(p, "w").write(s)
+    print(f"buildout: {len(Bh)} claimants, {share_c}% of improvement, new-orders {share_n}%")
 
 # ---------------- what-changed strip ----------------
 import os
@@ -487,7 +546,7 @@ s = s[:wa] + wchg_html + s[wb:]
 open(p, "w").write(s)
 
 # ---------------- self-check ----------------
-for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing"]:
+for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout"]:
     t = open(f"{SITE}/{page}/index.html").read()
     if today.split(",")[0].split()[1] not in t and today_short.split()[1] not in t:
         die(f"{page}: today's date missing after build")
