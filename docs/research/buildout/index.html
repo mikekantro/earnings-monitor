@@ -51,6 +51,9 @@ table.all{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--
 .rules p{margin:0 0 9px;font-size:13px;color:#3E4C57;line-height:1.6;max-width:96ch}
 .rules b{color:var(--ink)}
 footer{border-top:1px solid var(--rule);margin-top:26px;padding:20px 0 54px;color:var(--muted);font-size:12.5px}
+
+.bar{display:inline-block;height:9px;border-radius:2px;vertical-align:middle}
+.bar.up{background:var(--slate)}.bar.dn{background:var(--orange)}
 </style></head><body>
 
 <header class="masthead"><div class="wrap">
@@ -79,6 +82,29 @@ orders, where backlogs live, the concentration is starker.</p>
 <div class="dc-row" style="margin-bottom:0"><p class="dc-lb">New-orders sub-index change: +0.99 pts</p>
 <div class="dc-bar"><span class="co" style="width:64%">build-out +0.63</span><span class="ex" style="width:36%">rest +0.35</span></div>
 <p class="dc-cap">64% of the new-orders improvement traces to the build-out cohort.</p></div><!--/BBAR--></div>
+
+
+<h2 class="sh">Does it survive a sector cut? Yes, in 7 of 9.</h2>
+<p class="note">The natural objection is that this just re-measures sector mix. So compare claimants to their
+own sector peers: <span id="bsecw"><!--BSECW-->Build-out claimants outperform their own sector peers in <b>7 of 9</b> sectors large enough to measure.<!--/BSECW--></span> Utilities is the quiet epicenter,
+with the highest claimant share and non-claimants outright declining. The exceptions are shown, not hidden:
+Energy&rsquo;s conventional names outran its build-out cohort this quarter.</p>
+<table class="ch"><thead><tr><th>Sector</th><th class="num">Claimants (share)</th>
+<th class="num">Cohort &Delta;</th><th class="num">Rest of sector &Delta;</th>
+<th class="num">Gap</th><th>&nbsp;</th></tr></thead>
+<tbody><!--BSECT-->
+<tr><td>Utilities</td><td class="num">34 <span style="color:var(--muted)">(63%)</span></td><td class="num">+1.2</td><td class="num">-1.9</td><td class="num pos">+3.1</td><td><span class="bar up" style="width:69px"></span></td></tr>
+<tr><td>Technology</td><td class="num">86 <span style="color:var(--muted)">(47%)</span></td><td class="num">+3.8</td><td class="num">+0.4</td><td class="num pos">+3.4</td><td><span class="bar up" style="width:75px"></span></td></tr>
+<tr><td>Industrials</td><td class="num">93 <span style="color:var(--muted)">(43%)</span></td><td class="num">+3.4</td><td class="num">+2.4</td><td class="num pos">+1.0</td><td><span class="bar up" style="width:21px"></span></td></tr>
+<tr><td>Materials</td><td class="num">30 <span style="color:var(--muted)">(41%)</span></td><td class="num">+0.8</td><td class="num">+1.0</td><td class="num neg">-0.1</td><td><span class="bar dn" style="width:3px"></span></td></tr>
+<tr><td>Energy</td><td class="num">20 <span style="color:var(--muted)">(30%)</span></td><td class="num">-0.3</td><td class="num">+4.0</td><td class="num neg">-4.3</td><td><span class="bar dn" style="width:96px"></span></td></tr>
+<tr><td>Real Estate</td><td class="num">15 <span style="color:var(--muted)">(16%)</span></td><td class="num">+2.1</td><td class="num">+2.0</td><td class="num pos">+0.1</td><td><span class="bar up" style="width:2px"></span></td></tr>
+<tr><td>Communication Services</td><td class="num">7 <span style="color:var(--muted)">(15%)</span></td><td class="num">+2.0</td><td class="num">-2.6</td><td class="num pos">+4.6</td><td><span class="bar up" style="width:102px"></span></td></tr>
+<tr><td>Financials</td><td class="num">22 <span style="color:var(--muted)">(10%)</span></td><td class="num">+1.4</td><td class="num">+0.7</td><td class="num pos">+0.7</td><td><span class="bar up" style="width:16px"></span></td></tr>
+<tr><td>Consumer Discretionary</td><td class="num">9 <span style="color:var(--muted)">(6%)</span></td><td class="num">+1.9</td><td class="num">-0.9</td><td class="num pos">+2.8</td><td><span class="bar up" style="width:61px"></span></td></tr>
+<tr><td>Healthcare</td><td class="num">2 <span style="color:var(--muted)">(1%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<tr><td>Consumer Staples</td><td class="num">0 <span style="color:var(--muted)">(0%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<!--/BSECT--></tbody></table>
 
 <h2 class="sh">Where the demand lands: channels</h2>
 <p class="note">Channels are model-assigned from each company&rsquo;s own description. Equipment and components is
