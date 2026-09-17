@@ -186,7 +186,7 @@ function dossier(r){
     ? `<p><span class="tag bo">${esc(r.bo.ch.replace(/_/g,' '))}</span>${r.bo.m?` <span class="mono" style="font-size:11px">${esc(r.bo.m)}</span>`:''}</p><blockquote>&ldquo;${esc(r.bo.q)}&rdquo;</blockquote>`
     : '<p class="abs">Does not cite AI-infrastructure demand as a business driver on the Q2 call.</p>';
   return `<div class="dcard"><h4>Earnings PMI</h4>${pmi}</div>
-  <div class="dcard"><h4>AI Watch</h4>${ai}</div>
+  <div class="dcard"><h4>AI Adoption</h4>${ai}</div>
   <div class="dcard"><h4>Tariff Refund Watch</h4>${rf}</div>
   <div class="dcard"><h4>AI Build-Out exposure</h4>${bo}</div>
   <div class="dcard"><h4>AI &times; Employment panel</h4><p>${cohTxt[r.coh]||cohTxt.never}</p></div>`;
