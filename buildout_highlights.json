@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-16T21:10:56.673578",
+ "generated": "2026-09-18T14:26:59.696936",
  "window": [
   "2026-07-15",
-  "2026-09-16"
+  "2026-09-18"
  ],
  "highlights": [
   {
@@ -3184,6 +3184,36 @@
    "direction": "accelerating",
    "headline": "Zions Bancorporation cites AI data-center construction activity as a driver of demand among its commercial banking customers, including electrical contractors and transmission-line contractors supporting the buildout.",
    "event_date": "2026-09-15"
+  },
+  {
+   "ticker": "CMS",
+   "company": "CMS Energy Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "On the data center front, we have made meaningful progress and have taken an additional step reaching an agreement under our large load tariff... we will incorporate the load growth associated with the agreement into our integrated resource plan or IRP, which we'll file in September.",
+   "metric": "load growth to be incorporated into IRP; earlier reference to \"one of the most constructive frameworks in the country for data center growth\"",
+   "direction": "accelerating",
+   "headline": "CMS Energy cites data-center load agreement and large load tariff as driver of Michigan utility growth incorporated into integrated resource plan filing.",
+   "event_date": "2026-07-28"
+  },
+  {
+   "ticker": "NXT",
+   "company": "Nextpower, Inc.",
+   "channel": "equipment_components",
+   "quote": "Global electricity demand continues to grow, driven by electrification, artificial intelligence, data centers, industrial expansion, and the need for more resilient energy infrastructure. We believe Nextpower is uniquely positioned to help meet these evolving needs through our expanded portfolio of technologies",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Nextpower cites AI data-center demand as a driver of global electricity demand that its solar tracking and energy infrastructure technologies are positioned to address.",
+   "event_date": "2026-08-18"
+  },
+  {
+   "ticker": "XYL",
+   "company": "Xylem, Inc.",
+   "channel": "equipment_components",
+   "quote": "the AI ecosystem build-out is increasing the strategic importance of water across a broader set of end markets ... We're already supporting data centers through wins with hyperscalers, HVAC OEMs and infrastructure partners. And this year's revenue is expected to increase by approximately 200%.",
+   "metric": "revenue expected to increase by approximately 200%",
+   "direction": "accelerating",
+   "headline": "Xylem cites AI-infrastructure data-center demand as driver of Applied Water segment revenue, expecting 200% growth this year.",
+   "event_date": "2026-07-28"
   }
  ]
 }
