@@ -61,10 +61,7 @@ jobs:
         run: |
           git config user.name  "earnings-monitor-bot"
           git config user.email "actions@github.com"
-                  git add ai_highlights_q2.json 
-            ai_highlights_q2.json.done refund_highlights.json refund_highlights.json.done buildout_highlights.json 
-            buildout_highlights.json.done docs/research 2>/dev/null || true
-          
+          git add -A 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Daily research refresh $(date -u +%F)"
           git pull --rebase origin main
           git push
