@@ -21793,6 +21793,21 @@
       "ticker": "LEN",
       "name": "Lennar Corp.",
       "date": "2026-09-17"
+    },
+    {
+      "new_orders": 42,
+      "output": 48,
+      "employment": 38,
+      "prices": 32,
+      "supply_chains": 45,
+      "demand_breadth": 38,
+      "composite": 41,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "With 30-year mortgage rates at 7% and ~50% of community visitors unable to qualify for a mortgage, Lennar's results signal structural demand suppression in rate-sensitive housing that is compounding across consumer discretionary sectors via energy-driven inflation and eroding affordability.",
+      "ticker": "LEN",
+      "name": "Lennar Corp.",
+      "date": "2026-09-18"
     }
   ]
 }
