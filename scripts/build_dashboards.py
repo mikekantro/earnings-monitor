@@ -458,14 +458,93 @@ else:
             f"{worst[0]} at {worst[1]:+.1f}")
 _pdn += f", while the weakest absolute pricing level sits in {lowlv[0]} ({lowlv[1]:.1f})."
 s = _pswap(s, "PDN", _pdn)
+_bset = set(_bomap.keys())
+_pp = [(t, best[t]["prices"]-q1s[t]["prices"]) for t in best
+       if t in q1s and best[t].get("prices") is not None and q1s[t].get("prices") is not None]
+_pc = [d for t, d in _pp if t in _bset]; _px = [d for t, d in _pp if t not in _bset]
+_pt = float(np.mean([d for _, d in _pp])); _pw = len(_pc)/len(_pp)
+_psh = max(1, min(99, round(100*_pw*np.mean(_pc)/_pt))) if _pt > 0 else 50
+_plv = float(np.mean([best[t]["prices"] for t in best if t in _bset and best[t].get("prices") is not None]))
+_plx = float(np.mean([best[t]["prices"] for t in best if t not in _bset and best[t].get("prices") is not None]))
+_pal = float(np.mean([best[t]["prices"] for t in best if best[t].get("prices") is not None]))
+_epi = {}
+for _t2 in _bset:
+    _x2 = _bomap[_t2]
+    if _t2 in best and best[_t2].get("prices") is not None:
+        _epi.setdefault(_x2["channel"], []).append(
+            (best[_t2]["prices"], (best[_t2]["prices"]-q1s[_t2]["prices"]) if _t2 in q1s and q1s[_t2].get("prices") is not None else None))
+_ec = max((c for c in _epi if len(_epi[c]) >= 8), key=lambda c: np.mean([a for a, _ in _epi[c]]), default=None)
+_ecs = ""
+if _ec:
+    _el = np.mean([a for a, _ in _epi[_ec]])
+    _ed = np.mean([d for _, d in _epi[_ec] if d is not None])
+    _ecs = f"{_ec.replace('_',' ').title()} is the inflation epicenter ({_el:.1f}, {_ed:+.1f}); "
+_chrows = ""
+for _c3 in sorted(_epi, key=lambda c: -np.mean([a for a, _ in _epi[c]])):
+    if len(_epi[_c3]) >= 5:
+        _l3 = np.mean([a for a, _ in _epi[_c3]])
+        _ds = [d for _, d in _epi[_c3] if d is not None]
+        _d3 = np.mean(_ds) if _ds else 0.0
+        _chrows += (f'<tr><td>{_c3.replace("_"," ")}</td><td class="num">{len(_epi[_c3])}</td>'
+                    f'<td class="num">{_l3:.1f}</td><td class="num {"pos" if _d3>0 else "neg"}">{_d3:+.1f}</td></tr>\n')
+s = _pswap(s, "PBO", f'''
+<div style="margin:0 0 18px"><p class="dc-lb">Prices sub-index change, Q2 vs Q1: {_pt:+.2f} pts</p>
+<div class="dc-bar"><span class="co" style="width:{_psh}%">build-out {_pw*np.mean(_pc):+.2f}</span><span class="ex" style="width:{100-_psh}%">rest {(1-_pw)*np.mean(_px):+.2f}</span></div>
+<p class="dc-cap">Build-out claimants&rsquo; pricing rose {np.mean(_pc):+.1f} versus {np.mean(_px):+.1f} for everyone else; weighted by cohort size, they account for {_psh}% of the index&rsquo;s rise.</p></div>
+<p class="dc-lb" style="margin-top:14px">Levels: index {_pal:.1f} &middot; build-out cohort {_plv:.1f} &middot; ex-build-out {_plx:.1f}</p>
+<p class="dc-cap" style="margin-top:2px">{_ecs}stripping the build-out chain, the corporate prices gauge reads {_plx:.1f}.</p>
+<table class="sec" style="margin-top:14px"><thead><tr><th>Channel</th><th class="num">n</th><th class="num">Prices level</th><th class="num">&Delta; vs Q1</th></tr></thead><tbody>
+{_chrows}</tbody></table>
+<p class="dc-cap" style="margin-top:8px">Where the chain&rsquo;s inflation lives, channel by channel, refreshed with each build.</p>''')
+
+_spyset = spy if spy else set()
+_bg = [best[t]["prices"] for t in best if t in _spyset and best[t].get("prices") is not None]
+_sm = [best[t]["prices"] for t in best if t not in _spyset and best[t].get("prices") is not None]
+_bgd = [best[t]["prices"]-q1s[t]["prices"] for t in best if t in _spyset and t in q1s
+        and best[t].get("prices") is not None and q1s[t].get("prices") is not None]
+_smd = [best[t]["prices"]-q1s[t]["prices"] for t in best if t not in _spyset and t in q1s
+        and best[t].get("prices") is not None and q1s[t].get("prices") is not None]
+try:
+    _w = {c["ticker"]: c["weight"] for c in load(f"{ROOT}/sp500_constituents_spy.json")}
+    _cwp = [(best[t]["prices"], _w[t]) for t in best if t in _w and best[t].get("prices") is not None]
+    _cw = sum(p*w for p, w in _cwp)/sum(w for _, w in _cwp)
+except Exception:
+    _cw = float(np.mean(_bg)) if _bg else 0
+_ret = {x["ticker"] for x in R if x.get("disposition") == "retain"}
+_oth = {x["ticker"] for x in R if x.get("disposition") != "retain"}
+def _pl(S):
+    lv = [best[t]["prices"] for t in S if t in best and best[t].get("prices") is not None]
+    dd = [best[t]["prices"]-q1s[t]["prices"] for t in S if t in best and t in q1s
+          and best[t].get("prices") is not None and q1s[t].get("prices") is not None]
+    return len(lv), (float(np.mean(lv)) if lv else 0), (float(np.mean(dd)) if dd else 0)
+_non = {t for t in best if t not in _ret and t not in _oth}
+_r1 = _pl(_ret); _r2 = _pl(_oth); _r3 = _pl(_non)
+def _tr(lbl, r):
+    cl = "pos" if r[2] > 0 else "neg"
+    return (f'<tr><td>{lbl}</td><td class="num">{r[0]}</td><td class="num">{r[1]:.1f}</td>'
+            f'<td class="num {cl}">{r[2]:+.1f}</td></tr>')
+s = _pswap(s, "PWHO", f'''
+<p class="dc-lb">The size gradient, prices level</p>
+<p style="margin:4px 0 14px;font-family:\'IBM Plex Mono\',monospace;font-size:13px">
+full S&amp;P 1500 equal-weight <b>{_pal:.1f}</b> &nbsp;&rarr;&nbsp; S&amp;P 500 equal-weight <b>{np.mean(_bg):.1f}</b> (&Delta; {np.mean(_bgd):+.1f})
+&nbsp;&rarr;&nbsp; S&amp;P 500 cap-weighted <b>{_cw:.1f}</b> &nbsp;&middot;&nbsp; mid/small <b>{np.mean(_sm):.1f}</b> (&Delta; {np.mean(_smd):+.1f})</p>
+<p class="dc-lb">The tariff tell, prices level and change</p>
+<table class="sec" style="margin-top:6px"><thead><tr><th>Cohort</th><th class="num">n</th><th class="num">Prices level</th><th class="num">&Delta; vs Q1</th></tr></thead><tbody>
+{_tr("refund retainers", _r1)}
+{_tr("passed into price", _r2)}
+{_tr("no refund disclosed", _r3)}
+</tbody></table>''')
 s = _pswap(s, "PGAIN", "\n".join(_mrow(m) for m in pmov[:-7:-1]))
 s = _pswap(s, "PLOSE", "\n".join(_mrow(m) for m in pmov[:6]))
 pavg1 = float(np.mean([p1r["prices"] for _, p1r in ppairs]))
 pavg2 = float(np.mean([r["prices"] for r, _ in ppairs]))
 pdif = 100*sum(1 for r in P2 if r["prices"]>50)/len(P2)
+_allp = [best[t]["prices"] for t in best if best[t].get("prices") is not None]
+_bru = round(100*sum(1 for x in _allp if x >= 55)/len(_allp))
+_brd = round(100*sum(1 for x in _allp if x <= 45)/len(_allp))
 s = _pswap(s, "PSTATS", f'''<span><b>{pavg2:.1f}</b>prices index, Q2 (same companies: {pavg1:.1f} in Q1)</span>
 <span><b>{pavg2-pavg1:+.1f}</b>change vs Q1, matched sample</span>
-<span><b>{pdif:.0f}%</b>of companies above 50</span>
+<span><b>{_bru}% / {_brd}%</b>raising vs conceding price</span>
 <span><b>{len(P2)}</b>companies scored</span>''')
 a = s.index("const PROWS="); bnd = s.index(";\n", a)
 s = s[:a] + "const PROWS=" + json.dumps(prow, separators=(",",":")) + s[bnd:]
