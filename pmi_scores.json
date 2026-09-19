@@ -21808,6 +21808,21 @@
       "ticker": "LEN",
       "name": "Lennar Corp.",
       "date": "2026-09-18"
+    },
+    {
+      "new_orders": 42,
+      "output": 52,
+      "employment": 38,
+      "prices": 35,
+      "supply_chains": 45,
+      "demand_breadth": 38,
+      "composite": 43,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "With 30-year mortgage rates at 7% and nearly 50% of community visitors unable to qualify for a mortgage, the affordability crisis is intensifying, signaling broad contractionary pressure across housing-related demand, consumer discretionary spending, and mortgage origination volumes.",
+      "ticker": "LEN",
+      "name": "Lennar Corp.",
+      "date": "2026-09-19"
     }
   ]
 }
