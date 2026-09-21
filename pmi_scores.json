@@ -21823,6 +21823,21 @@
       "ticker": "LEN",
       "name": "Lennar Corp.",
       "date": "2026-09-19"
+    },
+    {
+      "new_orders": 38,
+      "output": 48,
+      "employment": 38,
+      "prices": 35,
+      "supply_chains": 42,
+      "demand_breadth": 36,
+      "composite": 40,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "New orders of 20,879 missed guidance and fell sharply year-over-year as 7% mortgage rates push nearly 50% of showroom visitors out of qualification, signaling genuine demand destruction in the entry-level housing market.",
+      "ticker": "LEN",
+      "name": "Lennar Corp.",
+      "date": "2026-09-21"
     }
   ]
 }
