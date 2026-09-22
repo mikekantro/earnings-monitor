@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T14:52:23.504493",
+ "generated": "2026-09-22T23:40:53.254393",
  "window": [
   "2026-07-15",
   "2026-09-22"
@@ -2320,6 +2320,18 @@
    "quote_receiving": "We did receive tariff refunds in the quarter, but they were not a meaningful driver of results and they were fully reinvested back in value.",
    "quote_customers": "if we get tariffs, we'll spend it. If we don't get tariffs, we won't spend it. So overall, it was a neutral impact to gross margin because we reinvested that money back.",
    "event_date": "2026-09-11"
+  },
+  {
+   "ticker": "AZO",
+   "company": "AutoZone, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$96 million",
+   "headline": "AutoZone received $96 million in IEEPA tariff refunds in Q4 FY2026, boosting EPS by $4.43 and gross margin by ~76 basis points.",
+   "quote_receiving": "we saw a $96 million or $4.43 a share benefit from the refunds of IEEPA tariffs",
+   "quote_customers": "",
+   "event_date": "2026-09-22"
   }
  ]
 }
