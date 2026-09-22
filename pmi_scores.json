@@ -21838,6 +21838,21 @@
       "ticker": "LEN",
       "name": "Lennar Corp.",
       "date": "2026-09-21"
+    },
+    {
+      "new_orders": 54,
+      "output": 55,
+      "employment": 52,
+      "prices": 52,
+      "supply_chains": 55,
+      "demand_breadth": 47,
+      "composite": 53,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "DIY traffic declines amid mid-single-digit parts inflation signal ongoing stress among lower-income consumers, while commercial (DIFM) growth of 8.6% reflects a structural shift toward professional installer demand that partially offsets consumer weakness.",
+      "ticker": "AZO",
+      "name": "AutoZone, Inc.",
+      "date": "2026-09-22"
     }
   ]
 }
