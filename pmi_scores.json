@@ -21853,6 +21853,36 @@
       "ticker": "AZO",
       "name": "AutoZone, Inc.",
       "date": "2026-09-22"
+    },
+    {
+      "new_orders": 52,
+      "output": 55,
+      "employment": 52,
+      "prices": 58,
+      "supply_chains": 56,
+      "demand_breadth": 48,
+      "composite": 54,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "DIY traffic declines and consumer trade-down signal persistent real volume contraction among lower-income households, while commercial (DIFM) outperformance (+8.6%) confirms that financially stressed consumers are deferring DIY repairs but not forgoing professional maintenance entirely.",
+      "ticker": "AZO",
+      "name": "AutoZone, Inc.",
+      "date": "2026-09-23"
+    },
+    {
+      "new_orders": 35,
+      "output": 38,
+      "employment": 42,
+      "prices": 40,
+      "supply_chains": 45,
+      "demand_breadth": 36,
+      "composite": 38,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "General Mills signals structural consumer demand deterioration with FY2027 EPS guidance implying a dramatic earnings reset, as inflation-fatigued middle-income consumers shift to promotional buying, compressing volumes and mix across both human and pet food categories.",
+      "ticker": "GIS",
+      "name": "General Mills, Inc.",
+      "date": "2026-09-23"
     }
   ]
 }
