@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T15:00:50.323570",
+ "generated": "2026-09-23T23:49:22.952440",
  "window": [
   "2026-07-15",
   "2026-09-23"
@@ -7083,6 +7083,18 @@
    "headline": "General Mills tracking agentic/AI commerce, estimates 40% of consumers used AI tool for food purchase in past month; targets discoverability on AI shopping lists.",
    "quote": "we know just in this last month alone that 40% of consumers used an AI tool to make a purchase in food",
    "metric": "40% of consumers used an AI tool to make a food purchase in the past month; agentic commerce estimated at ~20% of food sales by 2030",
+   "event_date": "2026-09-23"
+  },
+  {
+   "ticker": "PAYX",
+   "company": "Paychex, Inc.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "higher PEO direct insurance costs and continued investments in our go-to-market expansion and strategic priorities were largely offset by lower acquisition-related costs and continued AI efficiencies. Operating margins for the quarter increased 280 basis points to 38%",
+   "margin_metric": "280 basis points operating margin expansion; 130 basis points adjusted operating margin expansion",
+   "headline": "Paychex's WISE AI engine increased automated payroll processing by ~20% and prevented ~90% of payroll errors in pilot across 50,000 businesses.",
+   "quote": "WISE agentic payroll continues to enhance operational efficiency, increasing automated payroll processing by nearly 20% from January through August, while also maintaining high service quality and accuracy rates.",
+   "metric": "~20% increase in automated payroll processing; ~90% of payroll errors prevented",
    "event_date": "2026-09-23"
   }
  ]
