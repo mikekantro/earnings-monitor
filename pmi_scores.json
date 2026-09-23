@@ -21883,6 +21883,36 @@
       "ticker": "GIS",
       "name": "General Mills, Inc.",
       "date": "2026-09-23"
+    },
+    {
+      "new_orders": 72,
+      "output": 76,
+      "employment": 60,
+      "prices": 65,
+      "supply_chains": 63,
+      "demand_breadth": 55,
+      "composite": 69,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Cintas crossed $3B in quarterly revenue for the first time with 8.9% organic growth driven predominantly by volume \u2014 new customer additions and no-programmer conversions \u2014 rather than pricing, signaling genuine B2B services demand expansion.",
+      "ticker": "CTAS",
+      "name": "Cintas Corp.",
+      "date": "2026-09-23"
+    },
+    {
+      "new_orders": 62,
+      "output": 65,
+      "employment": 52,
+      "prices": 68,
+      "supply_chains": 60,
+      "demand_breadth": 52,
+      "composite": 62,
+      "sector": "Technology",
+      "confidence": 2,
+      "key_signal": "Paychex's explicit assumption of 'flat employment levels' in guidance signals SMB labor market stagnation with no hiring tailwind, while accelerating PEO demand driven by healthcare cost inflation reveals cost-pressured small businesses shifting to outsourced HR structures.",
+      "ticker": "PAYX",
+      "name": "Paychex, Inc.",
+      "date": "2026-09-23"
     }
   ]
 }
