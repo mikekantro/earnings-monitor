@@ -1763,7 +1763,25 @@
    "quote": "WISE agentic payroll continues to enhance operational efficiency, increasing automated payroll processing by nearly 20% from January through August",
    "metric": "~20% increase in automated payroll processing; ~90% of payroll errors prevented",
    "event_date": "2026-09-23"
+  },
+  {
+   "ticker": "PAYX",
+   "company": "Paychex, Inc.",
+   "category": "efficiency",
+   "headline": "Paychex's WISE AI engine increased automated payroll processing ~20% and prevented ~90% of payroll errors in pilot",
+   "quote": "WISE agentic payroll continues to enhance operational efficiency, increasing automated payroll processing by nearly 20% from January through August, while also maintaining high service quality and accuracy rates.",
+   "metric": "~20% increase in automated payroll processing; ~90% of payroll errors prevented",
+   "event_date": "2026-09-24"
+  },
+  {
+   "ticker": "GIS",
+   "company": "General Mills, Inc.",
+   "category": "revenue",
+   "headline": "General Mills is preparing for agentic AI commerce, estimating it will represent ~20% of food sales by 2030, focusing on product discoverability.",
+   "quote": "our early estimates are that agentic commerce will be about 20% of food sales by 2030. And so, it's really about making sure that we are staying ahead on the basics.",
+   "metric": "20% of food sales by 2030 (agentic commerce estimate)",
+   "event_date": "2026-09-24"
   }
  ],
- "updated": "2026-09-23T16:30:31"
+ "updated": "2026-09-24T05:41:16"
 }
