@@ -163,6 +163,53 @@ for _sx4, _v4 in sorted(_ps.items(), key=lambda kv: -np.mean(kv[1]["c2"])):
                  f'<td class="num {"pos" if _d4>0 else "neg"}">{_d4:+.1f}</td><td class="num">{np.mean(_v4["no"]):.1f}</td>'
                  f'<td><span class="sbar {"up" if _d4>=0 else "dn"}" style="width:{min(110,abs(_d4)*28):.0f}px"></span></td></tr>\n')
 s = _swapm(s, "PMISEC", _psr)
+try:
+    _im = load(f"{ROOT}/industry_map.json"); _im.pop("__v", None)
+except Exception:
+    _im = {}
+if _im:
+    _pi = defaultdict(lambda: {"c2": [], "d": [], "no": [], "sec": defaultdict(int)})
+    for _t5, _r5 in best.items():
+        _ix5 = _im.get(_t5)
+        if not _ix5 or _r5.get("composite") is None: continue
+        _pi[_ix5]["c2"].append(_r5["composite"])
+        _pi[_ix5]["sec"][_r5.get("sector","—")] += 1
+        if _t5 in q1s and q1s[_t5].get("composite") is not None:
+            _pi[_ix5]["d"].append(_r5["composite"]-q1s[_t5]["composite"])
+        if _r5.get("new_orders") is not None:
+            _pi[_ix5]["no"].append(_r5["new_orders"])
+    _pir = ""
+    _pil = [(ix, max(v["sec"], key=v["sec"].get), len(v["c2"]), float(np.mean(v["c2"])),
+             float(np.mean(v["d"])) if v["d"] else 0.0, float(np.mean(v["no"])) if v["no"] else 0.0)
+            for ix, v in _pi.items() if len(v["c2"]) >= 8]
+    _pil.sort(key=lambda x: -x[3])
+    for _ix5, _sx5, _n5, _c5, _d5, _no5 in _pil:
+        _pir += (f'<tr><td>{_ix5}</td><td style="font-size:11px;color:var(--muted)">{_sx5}</td><td class="num">{_n5}</td>'
+                 f'<td class="num"><b>{_c5:.1f}</b></td><td class="num {"pos" if _d5>0 else "neg"}">{_d5:+.1f}</td>'
+                 f'<td class="num">{_no5:.1f}</td></tr>\n')
+    s = _swapm(s, "PMIIND", _pir)
+else:
+    print("industry map absent; industry table left as-is")
+_pe = defaultdict(lambda: {"e": [], "d": []})
+for _t6, _r6 in best.items():
+    _sx6 = _r6.get("sector","—")
+    if _r6.get("employment") is not None:
+        _pe[_sx6]["e"].append(_r6["employment"])
+        if _t6 in q1s and q1s[_t6].get("employment") is not None:
+            _pe[_sx6]["d"].append(_r6["employment"]-q1s[_t6]["employment"])
+_per = ""
+for _sx6, _v6 in sorted(_pe.items(), key=lambda kv: -np.mean(kv[1]["e"])):
+    if len(_v6["e"]) >= 15:
+        _d6 = float(np.mean(_v6["d"])) if _v6["d"] else 0.0
+        _per += (f'<tr><td>{_sx6}</td><td class="num">{len(_v6["e"])}</td><td class="num"><b>{np.mean(_v6["e"]):.1f}</b></td>'
+                 f'<td class="num {"pos" if _d6>0 else "neg"}">{_d6:+.1f}</td>'
+                 f'<td><span class="sbar {"up" if _d6>=0 else "dn"}" style="width:{min(110,abs(_d6)*28):.0f}px"></span></td></tr>\n')
+s = _swapm(s, "PMIEMP", _per)
+_oall = [best[t]["output"] for t in best if best[t].get("output") is not None]
+_eall = [best[t]["employment"] for t in best if best[t].get("employment") is not None]
+s = _swapm(s, "PMIEG", (f"Output language reads {np.mean(_oall):.1f} while employment language reads "
+    f"{np.mean(_eall):.1f}: the survey&rsquo;s widest sub-index gap, and the aggregate version of the "
+    f"pattern the AI &times; Employment panel tracks company by company."))
 open(p, "w").write(s)
 print(f"scorecard: {SC}")
 
