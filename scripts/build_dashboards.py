@@ -43,6 +43,11 @@ def sub1(s, pattern, repl, label, flags=0):
     if n != 1: die(f"anchor missed ({label}): /{pattern[:60]}/")
     return out
 
+def _swapm(html, tag, inner):
+    a = html.index(f"<!--{tag}-->") + len(tag) + 7
+    bnd = html.index(f"<!--/{tag}-->")
+    return html[:a] + inner + html[bnd:]
+
 def swap_payload(s, start_token, repl, end=";"):
     a = s.index(start_token)
     b = s.index(end, a + len(start_token))
@@ -141,6 +146,23 @@ s = sub1(s, r"<b>same \d+ companies</b>", f"<b>same {SC['n']} companies</b>", "s
 s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} companies scored in <i>both</i> seasons", "sc-both")
 s = sub1(s, r"All \d+ Q2-scored companies", f"All {SC['q2n']} Q2-scored companies", "sc-all")
 s = sub1(s, r"Q2: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q2: {SC['q2n']} companies scored through {today}", "sc-date")
+_ps = defaultdict(lambda: {"c2": [], "d": [], "no": []})
+for _t4, _r4 in best.items():
+    _sx4 = _r4.get("sector","—")
+    if _r4.get("composite") is not None:
+        _ps[_sx4]["c2"].append(_r4["composite"])
+        if _t4 in q1s and q1s[_t4].get("composite") is not None:
+            _ps[_sx4]["d"].append(_r4["composite"]-q1s[_t4]["composite"])
+        if _r4.get("new_orders") is not None:
+            _ps[_sx4]["no"].append(_r4["new_orders"])
+_psr = ""
+for _sx4, _v4 in sorted(_ps.items(), key=lambda kv: -np.mean(kv[1]["c2"])):
+    if len(_v4["c2"]) >= 15:
+        _d4 = float(np.mean(_v4["d"])) if _v4["d"] else 0.0
+        _psr += (f'<tr><td>{_sx4}</td><td class="num">{len(_v4["c2"])}</td><td class="num"><b>{np.mean(_v4["c2"]):.1f}</b></td>'
+                 f'<td class="num {"pos" if _d4>0 else "neg"}">{_d4:+.1f}</td><td class="num">{np.mean(_v4["no"]):.1f}</td>'
+                 f'<td><span class="sbar {"up" if _d4>=0 else "dn"}" style="width:{min(110,abs(_d4)*28):.0f}px"></span></td></tr>\n')
+s = _swapm(s, "PMISEC", _psr)
 open(p, "w").write(s)
 print(f"scorecard: {SC}")
 
@@ -412,10 +434,6 @@ print(f"portfolio: {len(C)} companies in payload")
 # ---------------- pricing power ----------------
 p = f"{SITE}/pricing/index.html"
 s = open(p).read()
-def _swapm(html, tag, inner):
-    a = html.index(f"<!--{tag}-->") + len(tag) + 7
-    bnd = html.index(f"<!--/{tag}-->")
-    return html[:a] + inner + html[bnd:]
 def _pswap(html, tag, inner):
     a = html.index(f"<!--{tag}-->") + len(tag) + 7
     bnd = html.index(f"<!--/{tag}-->")
