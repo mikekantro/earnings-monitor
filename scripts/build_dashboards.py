@@ -669,6 +669,38 @@ if Bh:
         else:
             _brows.append(f'<tr><td>{sx}</td><td class="num">{v["cn"]} <span style="color:var(--muted)">({share}%)</span></td>'
                           f'<td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>')
+    def _bscat():
+        _p9=[(t9, r9["composite"], r9["employment"], t9 in bset) for t9, r9 in best.items()
+             if r9.get("composite") is not None and r9.get("employment") is not None]
+        W,H,L,Bm,T,R=720,440,52,46,18,14
+        x0,x1,y0,y1=18,95,25,85
+        X=lambda v: L+(v-x0)/(x1-x0)*(W-L-R)
+        Y=lambda v: H-Bm-(v-y0)/(y1-y0)*(H-Bm-T)
+        o=[f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Composite vs employment scatter">']
+        for v in range(20,100,10):
+            o.append(f'<line x1="{X(v):.0f}" y1="{T}" x2="{X(v):.0f}" y2="{H-Bm}" stroke="#EEF1F3" stroke-width="1"/>')
+            o.append(f'<text x="{X(v):.0f}" y="{H-Bm+16}" font-size="10" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace">{v}</text>')
+        for v in range(30,90,10):
+            o.append(f'<line x1="{L}" y1="{Y(v):.0f}" x2="{W-R}" y2="{Y(v):.0f}" stroke="#EEF1F3" stroke-width="1"/>')
+            o.append(f'<text x="{L-8}" y="{Y(v):.0f}" font-size="10" fill="#5C6B76" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono,monospace">{v}</text>')
+        o.append(f'<line x1="{X(50):.0f}" y1="{T}" x2="{X(50):.0f}" y2="{H-Bm}" stroke="#B7C9D3" stroke-width="1.2" stroke-dasharray="4 3"/>')
+        o.append(f'<line x1="{L}" y1="{Y(50):.0f}" x2="{W-R}" y2="{Y(50):.0f}" stroke="#B7C9D3" stroke-width="1.2" stroke-dasharray="4 3"/>')
+        for _,x,y,bb in _p9:
+            if not bb: o.append(f'<circle cx="{X(x):.0f}" cy="{Y(y):.0f}" r="2.4" fill="#8AA2B0" fill-opacity="0.45"/>')
+        for _,x,y,bb in _p9:
+            if bb: o.append(f'<circle cx="{X(x):.0f}" cy="{Y(y):.0f}" r="3" fill="#C24F1F" fill-opacity="0.8"/>')
+        _co=[(x,y) for _,x,y,bb in _p9 if bb]; _ex=[(x,y) for _,x,y,bb in _p9 if not bb]
+        for grp,col,lbl in [(_ex,"#3E4C57","all others"),(_co,"#C24F1F","build-out cohort")]:
+            mx,my=float(np.mean([p[0] for p in grp])),float(np.mean([p[1] for p in grp]))
+            o.append(f'<circle cx="{X(mx):.0f}" cy="{Y(my):.0f}" r="7" fill="none" stroke="{col}" stroke-width="2.4"/>')
+            o.append(f'<text x="{X(mx)+11:.0f}" y="{Y(my)-8:.0f}" font-size="11" font-weight="600" fill="{col}" font-family="Titillium Web,sans-serif">{lbl} mean ({mx:.0f}, {my:.0f})</text>')
+        o.append(f'<text x="{(L+W-R)/2:.0f}" y="{H-8}" font-size="11" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace">composite score</text>')
+        o.append(f'<text x="14" y="{(T+H-Bm)/2:.0f}" font-size="11" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace" transform="rotate(-90 14 {(T+H-Bm)/2:.0f})">employment score</text>')
+        o.append(f'<circle cx="{W-190}" cy="{T+10}" r="3" fill="#C24F1F"/><text x="{W-182}" y="{T+14}" font-size="11" fill="#3E4C57" font-family="Titillium Web,sans-serif">build-out claimants</text>')
+        o.append(f'<circle cx="{W-190}" cy="{T+28}" r="2.4" fill="#8AA2B0"/><text x="{W-182}" y="{T+32}" font-size="11" fill="#3E4C57" font-family="Titillium Web,sans-serif">everyone else</text>')
+        o.append('</svg>')
+        return "".join(o)
+    s = _swapm(s, "BSCAT", _bscat())
     s = _swapm(s, "BSECT", "\n" + "\n".join(_brows) + "\n")
     s = _swapm(s, "BSECW", f"Build-out claimants outperform their own sector peers in <b>{_bw} of {_bt}</b> sectors large enough to measure.")
     _qz = [best[x["ticker"]]["composite"]-q1s[x["ticker"]]["composite"] for x in Bh if x.get("metric")
