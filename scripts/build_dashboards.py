@@ -146,23 +146,23 @@ s = sub1(s, r"<b>same \d+ companies</b>", f"<b>same {SC['n']} companies</b>", "s
 s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} companies scored in <i>both</i> seasons", "sc-both")
 s = sub1(s, r"All \d+ Q2-scored companies", f"All {SC['q2n']} Q2-scored companies", "sc-all")
 s = sub1(s, r"Q2: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q2: {SC['q2n']} companies scored through {today}", "sc-date")
-_ps = defaultdict(lambda: {"c2": [], "d": [], "no": []})
-for _t4, _r4 in best.items():
-    _sx4 = _r4.get("sector","—")
-    if _r4.get("composite") is not None:
-        _ps[_sx4]["c2"].append(_r4["composite"])
-        if _t4 in q1s and q1s[_t4].get("composite") is not None:
-            _ps[_sx4]["d"].append(_r4["composite"]-q1s[_t4]["composite"])
-        if _r4.get("new_orders") is not None:
-            _ps[_sx4]["no"].append(_r4["new_orders"])
-_psr = ""
-for _sx4, _v4 in sorted(_ps.items(), key=lambda kv: -np.mean(kv[1]["c2"])):
-    if len(_v4["c2"]) >= 15:
-        _d4 = float(np.mean(_v4["d"])) if _v4["d"] else 0.0
-        _psr += (f'<tr><td>{_sx4}</td><td class="num">{len(_v4["c2"])}</td><td class="num"><b>{np.mean(_v4["c2"]):.1f}</b></td>'
-                 f'<td class="num {"pos" if _d4>0 else "neg"}">{_d4:+.1f}</td><td class="num">{np.mean(_v4["no"]):.1f}</td>'
-                 f'<td><span class="sbar {"up" if _d4>=0 else "dn"}" style="width:{min(110,abs(_d4)*28):.0f}px"></span></td></tr>\n')
-s = _swapm(s, "PMISEC", _psr)
+_sfields = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
+_sd = {}
+for _f7 in _sfields:
+    _s7 = defaultdict(lambda: {"l": [], "d": []})
+    for _t7, _r7 in best.items():
+        if _r7.get(_f7) is None: continue
+        _sx7 = _r7.get("sector","—")
+        _s7[_sx7]["l"].append(_r7[_f7])
+        if _t7 in q1s and q1s[_t7].get(_f7) is not None:
+            _s7[_sx7]["d"].append(_r7[_f7]-q1s[_t7][_f7])
+    _rw7 = [[_sx7, len(_v7["l"]), round(float(np.mean(_v7["l"])),1),
+             round(float(np.mean(_v7["d"])),1) if _v7["d"] else 0.0]
+            for _sx7, _v7 in _s7.items() if len(_v7["l"]) >= 15]
+    _rw7.sort(key=lambda x: -x[2])
+    _sd[_f7] = _rw7
+_a7 = s.index("const SECDATA="); _b7 = s.index(";", _a7)
+s = s[:_a7] + "const SECDATA=" + json.dumps(_sd, separators=(",",":")) + s[_b7:]
 try:
     _im = load(f"{ROOT}/industry_map.json"); _im.pop("__v", None)
 except Exception:
@@ -190,21 +190,7 @@ if _im:
     s = _swapm(s, "PMIIND", _pir)
 else:
     print("industry map absent; industry table left as-is")
-_pe = defaultdict(lambda: {"e": [], "d": []})
-for _t6, _r6 in best.items():
-    _sx6 = _r6.get("sector","—")
-    if _r6.get("employment") is not None:
-        _pe[_sx6]["e"].append(_r6["employment"])
-        if _t6 in q1s and q1s[_t6].get("employment") is not None:
-            _pe[_sx6]["d"].append(_r6["employment"]-q1s[_t6]["employment"])
-_per = ""
-for _sx6, _v6 in sorted(_pe.items(), key=lambda kv: -np.mean(kv[1]["e"])):
-    if len(_v6["e"]) >= 15:
-        _d6 = float(np.mean(_v6["d"])) if _v6["d"] else 0.0
-        _per += (f'<tr><td>{_sx6}</td><td class="num">{len(_v6["e"])}</td><td class="num"><b>{np.mean(_v6["e"]):.1f}</b></td>'
-                 f'<td class="num {"pos" if _d6>0 else "neg"}">{_d6:+.1f}</td>'
-                 f'<td><span class="sbar {"up" if _d6>=0 else "dn"}" style="width:{min(110,abs(_d6)*28):.0f}px"></span></td></tr>\n')
-s = _swapm(s, "PMIEMP", _per)
+
 _oall = [best[t]["output"] for t in best if best[t].get("output") is not None]
 _eall = [best[t]["employment"] for t in best if best[t].get("employment") is not None]
 s = _swapm(s, "PMIEG", (f"Output language reads {np.mean(_oall):.1f} while employment language reads "
