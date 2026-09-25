@@ -1,0 +1,42 @@
+name: History Backfill 2025
+on:
+  workflow_dispatch:
+    inputs:
+      quarter:
+        description: "2025 quarter to score"
+        required: true
+        type: choice
+        options: ["2025Q1", "2025Q2", "2025Q3", "2025Q4"]
+permissions:
+  contents: write
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests anthropic
+      - name: Score quarter
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
+          GMAIL_USER:        ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS:    ${{ secrets.GMAIL_APP_PASS }}
+          EMAIL_TO:          ${{ secrets.EMAIL_TO }}
+        run: |
+          python3 scripts/backfill_history.py --quarter "${{ inputs.quarter }}"
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A pmi_scores_2025*.json .batch_2025*.json 2>/dev/null || true
+          git add pmi_scores_2025q1.json pmi_scores_2025q2.json pmi_scores_2025q3.json pmi_scores_2025q4.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "History: ${{ inputs.quarter }} scored"
+          git pull --rebase origin main
+          git push
