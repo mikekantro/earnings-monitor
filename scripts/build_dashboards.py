@@ -167,29 +167,23 @@ try:
     _im = load(f"{ROOT}/industry_map.json"); _im.pop("__v", None)
 except Exception:
     _im = {}
-if _im:
-    _pi = defaultdict(lambda: {"c2": [], "d": [], "no": [], "sec": defaultdict(int)})
-    for _t5, _r5 in best.items():
-        _ix5 = _im.get(_t5)
-        if not _ix5 or _r5.get("composite") is None: continue
-        _pi[_ix5]["c2"].append(_r5["composite"])
-        _pi[_ix5]["sec"][_r5.get("sector","—")] += 1
-        if _t5 in q1s and q1s[_t5].get("composite") is not None:
-            _pi[_ix5]["d"].append(_r5["composite"]-q1s[_t5]["composite"])
-        if _r5.get("new_orders") is not None:
-            _pi[_ix5]["no"].append(_r5["new_orders"])
-    _pir = ""
-    _pil = [(ix, max(v["sec"], key=v["sec"].get), len(v["c2"]), float(np.mean(v["c2"])),
-             float(np.mean(v["d"])) if v["d"] else 0.0, float(np.mean(v["no"])) if v["no"] else 0.0)
-            for ix, v in _pi.items() if len(v["c2"]) >= 8]
-    _pil.sort(key=lambda x: -x[3])
-    for _ix5, _sx5, _n5, _c5, _d5, _no5 in _pil:
-        _pir += (f'<tr><td>{_ix5}</td><td style="font-size:11px;color:var(--muted)">{_sx5}</td><td class="num">{_n5}</td>'
-                 f'<td class="num"><b>{_c5:.1f}</b></td><td class="num {"pos" if _d5>0 else "neg"}">{_d5:+.1f}</td>'
-                 f'<td class="num">{_no5:.1f}</td></tr>\n')
-    s = _swapm(s, "PMIIND", _pir)
-else:
-    print("industry map absent; industry table left as-is")
+_idd = {}
+for _f8 in _sfields:
+    _i8 = defaultdict(lambda: {"l": [], "d": [], "sec": defaultdict(int)})
+    for _t8, _r8 in best.items():
+        _ix8 = _im.get(_t8)
+        if not _ix8 or _r8.get(_f8) is None: continue
+        _i8[_ix8]["l"].append(_r8[_f8]); _i8[_ix8]["sec"][_r8.get("sector","—")] += 1
+        if _t8 in q1s and q1s[_t8].get(_f8) is not None:
+            _i8[_ix8]["d"].append(_r8[_f8]-q1s[_t8][_f8])
+    _rw8 = [[_ix8, max(_v8["sec"], key=_v8["sec"].get), len(_v8["l"]),
+             round(float(np.mean(_v8["l"])),1),
+             round(float(np.mean(_v8["d"])),1) if _v8["d"] else 0.0]
+            for _ix8, _v8 in _i8.items() if len(_v8["l"]) >= 8]
+    _rw8.sort(key=lambda x: -x[3])
+    _idd[_f8] = _rw8
+_a8 = s.index("const INDDATA="); _b8 = s.index(";", _a8)
+s = s[:_a8] + "const INDDATA=" + json.dumps(_idd, separators=(",",":")) + s[_b8:]
 
 _oall = [best[t]["output"] for t in best if best[t].get("output") is not None]
 _eall = [best[t]["employment"] for t in best if best[t].get("employment") is not None]
