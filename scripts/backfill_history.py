@@ -110,20 +110,25 @@ def main():
             tx = ""
         if not tx:
             continue
-        meta[t] = {"name": ev["name"], "date": ev.get("date") or start}
-        reqs.append({"custom_id": t, "params": {
+        cid = t.replace(".", "-").replace("/", "-")
+        meta[cid] = {"ticker": t, "name": ev["name"], "date": ev.get("date") or start}
+        reqs.append({"custom_id": cid, "params": {
             "model": MODEL, "max_tokens": 400,
             "system": em.PMI_SCORE_PROMPT,
             "messages": [{"role": "user", "content": content_for(ev["name"], t, tx)}]}})
         if i % 50 == 0:
-            print(f"  transcripts: {i}/{len(events)} fetched, {len(reqs)} usable")
+            print(f"  transcripts: {i}/{len(events)} fetched, {len(reqs)} usable", flush=True)
         time.sleep(0.25)
     if not reqs:
         print("nothing to score"); return
-    batch = client.messages.batches.create(requests=reqs)
+    try:
+        batch = client.messages.batches.create(requests=reqs)
+    except Exception as e:
+        print(f"BATCH CREATE FAILED: {type(e).__name__}: {e}", flush=True)
+        raise
     st = {"batch_id": batch.id, "meta": meta}
     json.dump(st, open(state_path, "w"))
-    print(f"batch submitted: {batch.id} ({len(reqs)} requests)")
+    print(f"batch submitted: {batch.id} ({len(reqs)} requests)", flush=True)
     finish(client, st, out_path, state_path, q)
 
 
@@ -131,7 +136,7 @@ def finish(client, st, out_path, state_path, q):
     bid = st["batch_id"]; meta = st["meta"]
     while True:
         b = client.messages.batches.retrieve(bid)
-        print(f"batch {b.processing_status}: {b.request_counts}")
+        print(f"batch {b.processing_status}: {b.request_counts}", flush=True)
         if b.processing_status == "ended":
             break
         time.sleep(60)
@@ -141,7 +146,8 @@ def finish(client, st, out_path, state_path, q):
     import re as _re
     ok = err = 0
     for res in client.messages.batches.results(bid):
-        t = res.custom_id
+        cid = res.custom_id
+        t = meta.get(cid, {}).get("ticker", cid)
         if res.result.type != "succeeded":
             err += 1; continue
         raw = res.result.message.content[0].text.strip()
@@ -151,8 +157,8 @@ def finish(client, st, out_path, state_path, q):
         except Exception:
             err += 1; continue
         sc["ticker"] = t
-        sc["name"] = meta.get(t, {}).get("name", t)
-        sc["date"] = meta.get(t, {}).get("date", "")
+        sc["name"] = meta.get(cid, {}).get("name", t)
+        sc["date"] = meta.get(cid, {}).get("date", "")
         have[t] = sc; ok += 1
     json.dump({"quarter": q, "generated": date.today().isoformat(),
                "scores": sorted(have.values(), key=lambda r: r["ticker"])},
