@@ -1808,7 +1808,34 @@
    "quote": "our early estimates are that agentic commerce will be about 20% of food sales by 2030. And so, it's really about making sure that we are staying ahead on the basics.",
    "metric": "40% of consumers used an AI tool to make a purchase in food (last month); agentic commerce estimated at 20% of food sales by 2030",
    "event_date": "2026-09-25"
+  },
+  {
+   "ticker": "PAYX",
+   "company": "Paychex, Inc.",
+   "category": "efficiency",
+   "headline": "Paychex's WISE AI engine automated payroll processing up ~20%, prevented ~90% of payroll errors in pilot across 50,000 businesses",
+   "quote": "WISE agentic payroll continues to enhance operational efficiency, increasing automated payroll processing by nearly 20% from January through August",
+   "metric": "~20% increase in automated payroll processing; ~90% of payroll errors prevented",
+   "event_date": "2026-09-26"
+  },
+  {
+   "ticker": "COST",
+   "company": "Costco Wholesale Corp.",
+   "category": "revenue",
+   "headline": "Costco reports triple-digit growth in site traffic from AI search for second consecutive quarter, with AI search showing highest conversion rate of all site traffic.",
+   "quote": "Traffic to our site from AI search grew triple digits for the second consecutive quarter and continues to show the highest conversion rate of all site traffic.",
+   "metric": "triple-digit growth in AI search traffic (2 consecutive quarters)",
+   "event_date": "2026-09-26"
+  },
+  {
+   "ticker": "GIS",
+   "company": "General Mills, Inc.",
+   "category": "revenue",
+   "headline": "General Mills tracking agentic AI commerce, estimates 20% of food sales via AI agents by 2030; focuses on product discoverability.",
+   "quote": "our early estimates are that agentic commerce will be about 20% of food sales by 2030. And so, it's really about making sure that we are staying ahead on the basics.",
+   "metric": "40% of consumers used an AI tool to make a purchase in food (last month); agentic commerce estimated at 20% of food sales by 2030",
+   "event_date": "2026-09-26"
   }
  ],
- "updated": "2026-09-25T16:57:09"
+ "updated": "2026-09-26T05:44:59"
 }
