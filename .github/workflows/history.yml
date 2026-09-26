@@ -35,8 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add -A pmi_scores_2025*.json .batch_2025*.json 2>/dev/null || true
-          git add pmi_scores_2025q1.json pmi_scores_2025q2.json pmi_scores_2025q3.json pmi_scores_2025q4.json 2>/dev/null || true
+          git add -A
           git diff --cached --quiet || git commit -m "History: ${{ inputs.quarter }} scored"
           git pull --rebase origin main
           git push
