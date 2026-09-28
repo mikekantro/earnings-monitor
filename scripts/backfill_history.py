@@ -69,6 +69,7 @@ def content_for(name, ticker, transcript):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--quarter", required=True, choices=sorted(WINDOWS))
+    ap.add_argument("--attach", default="", help="msgbatch_ id from a prior run's log; harvest instead of resubmitting")
     args = ap.parse_args()
     q = args.quarter
     start, end = WINDOWS[q]
@@ -91,6 +92,19 @@ def main():
         print(f"already scored for {q}: {len(have)}")
 
     client = anthropic.Anthropic()
+
+    if args.attach:
+        # rebuild meta from a free calendar pass; cid transform mirrors submit
+        meta = {}
+        for ev in get_events_range(start, end):
+            t = ev["symbol"]
+            cid = t.replace(".", "-").replace("/", "-")
+            meta[cid] = {"ticker": t, "name": ev["name"], "date": ev.get("date") or start}
+        st = {"batch_id": args.attach, "meta": meta}
+        json.dump(st, open(state_path, "w"))
+        print(f"attached to {args.attach} with {len(meta)} event metadata entries", flush=True)
+        finish(client, st, out_path, state_path, q)
+        return
 
     # phase 2 first: an in-flight batch takes priority
     if os.path.exists(state_path):
@@ -150,7 +164,10 @@ def finish(client, st, out_path, state_path, q):
         t = meta.get(cid, {}).get("ticker", cid)
         if res.result.type != "succeeded":
             err += 1; continue
-        raw = res.result.message.content[0].text.strip()
+        blocks = getattr(res.result.message, "content", None) or []
+        if not blocks or not getattr(blocks[0], "text", "").strip():
+            err += 1; continue
+        raw = blocks[0].text.strip()
         raw = _re.sub(r"```json|```", "", raw).strip()
         try:
             sc = json.loads(raw)
