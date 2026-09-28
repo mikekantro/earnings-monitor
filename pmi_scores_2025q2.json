@@ -1623,21 +1623,6 @@
    "date": "2025-08-05"
   },
   {
-   "new_orders": 44,
-   "output": 48,
-   "employment": 50,
-   "prices": 58,
-   "supply_chains": 48,
-   "demand_breadth": 45,
-   "composite": 48,
-   "sector": "Industrials",
-   "confidence": 2,
-   "key_signal": "Apogee delivered record adjusted EPS and margin expansion despite persistent revenue headwinds from weak nonresidential construction demand, but macro uncertainty from new tariffs clouds the fiscal 2026 outlook.",
-   "ticker": "APOG",
-   "name": "APOG",
-   "date": ""
-  },
-  {
    "new_orders": 82,
    "output": 88,
    "employment": 55,
@@ -3169,21 +3154,6 @@
   },
   {
    "new_orders": 68,
-   "output": 45,
-   "employment": 50,
-   "prices": 58,
-   "supply_chains": 62,
-   "demand_breadth": 62,
-   "composite": 58,
-   "sector": "Real Estate",
-   "confidence": 2,
-   "key_signal": "BXMT's $1.6B in new originations (highest in two years) and $2B already closed or in closing for Q2 signals a meaningful recovery in commercial real estate lending activity, though distributable earnings of $0.17/share vs. $0.47 dividend highlights ongoing income pressure from impaired loans.",
-   "ticker": "BXMT",
-   "name": "Blackstone Mortgage Trust, Inc.",
-   "date": "2025-07-30"
-  },
-  {
-   "new_orders": 68,
    "output": 62,
    "employment": 50,
    "prices": 63,
@@ -3601,21 +3571,6 @@
    "ticker": "CCK",
    "name": "Crown Holdings, Inc.",
    "date": "2025-07-22"
-  },
-  {
-   "new_orders": 78,
-   "output": 82,
-   "employment": 58,
-   "prices": 80,
-   "supply_chains": 65,
-   "demand_breadth": 62,
-   "composite": 76,
-   "sector": "Consumer Discretionary",
-   "confidence": 2,
-   "key_signal": "Carnival achieved record revenues for the eighth consecutive quarter with yields beating guidance by 200bps, EBITDA up 26% YoY, and advanced booking positions at historically high prices, signaling robust consumer demand for leisure travel despite macro volatility.",
-   "ticker": "CCL",
-   "name": "CCL",
-   "date": ""
   },
   {
    "new_orders": 65,
@@ -4111,21 +4066,6 @@
    "ticker": "CLX",
    "name": "The Clorox Co.",
    "date": "2025-07-31"
-  },
-  {
-   "new_orders": 58,
-   "output": 52,
-   "employment": 50,
-   "prices": 62,
-   "supply_chains": 55,
-   "demand_breadth": 54,
-   "composite": 56,
-   "sector": "Materials",
-   "confidence": 2,
-   "key_signal": "CMC sees Q2 FY2025 as a trough with sequential margin recovery underway, driven by infrastructure demand strength and improved pricing power even as scrap costs declined, though economic uncertainty and high interest rates continue to suppress non-residential construction activity.",
-   "ticker": "CMC",
-   "name": "CMC",
-   "date": ""
   },
   {
    "new_orders": 58,
@@ -4905,21 +4845,6 @@
    "key_signal": "Cirrus Logic beat revenue guidance with 9% year-over-year growth driven by strong smartphone unit volumes and new product ramps, signaling continued healthy demand in the premium smartphone supply chain.",
    "ticker": "CRUS",
    "name": "Cirrus Logic, Inc.",
-   "date": "2025-08-05"
-  },
-  {
-   "new_orders": 62,
-   "output": 68,
-   "employment": 55,
-   "prices": 63,
-   "supply_chains": 55,
-   "demand_breadth": 52,
-   "composite": 63,
-   "sector": "Healthcare",
-   "confidence": 2,
-   "key_signal": "CorVel posted 12% quarterly revenue growth and 38% EPS growth YoY, signaling strong expansionary momentum in workers' compensation and healthcare cost containment services driven by AI investment and secular demand tailwinds.",
-   "ticker": "CRVL",
-   "name": "CorVel Corp.",
    "date": "2025-08-05"
   },
   {
@@ -8148,21 +8073,6 @@
    "date": "2025-07-25"
   },
   {
-   "new_orders": 62,
-   "output": 60,
-   "employment": 45,
-   "prices": 65,
-   "supply_chains": 55,
-   "demand_breadth": 48,
-   "composite": 58,
-   "sector": "Industrials",
-   "confidence": 2,
-   "key_signal": "Greenbrier raised full-year gross and operating margin guidance despite lowering delivery and revenue guidance, signaling strong pricing power and cost discipline even as tariff-driven input cost pressures and facility rationalization weigh on near-term output volumes.",
-   "ticker": "GBX",
-   "name": "GBX",
-   "date": ""
-  },
-  {
    "new_orders": 92,
    "output": 78,
    "employment": 55,
@@ -8986,21 +8896,6 @@
    "ticker": "HCI",
    "name": "HCI Group, Inc.",
    "date": "2025-08-07"
-  },
-  {
-   "new_orders": 62,
-   "output": 65,
-   "employment": 55,
-   "prices": 58,
-   "supply_chains": 60,
-   "demand_breadth": 48,
-   "composite": 61,
-   "sector": "Healthcare",
-   "confidence": 2,
-   "key_signal": "HCSG posted its best revenue and cash flow results in five years with 5.7% YoY revenue growth driven by new client wins and improved collections, signaling genuine recovery momentum in the long-term care services sector.",
-   "ticker": "HCSG",
-   "name": "Healthcare Services Group, Inc.",
-   "date": "2025-07-23"
   },
   {
    "new_orders": 58,
@@ -11898,21 +11793,6 @@
    "date": "2025-07-31"
   },
   {
-   "new_orders": 32,
-   "output": 45,
-   "employment": 42,
-   "prices": 52,
-   "supply_chains": 38,
-   "demand_breadth": 35,
-   "composite": 40,
-   "sector": "Consumer Discretionary",
-   "confidence": 2,
-   "key_signal": "MasterBrand faces broad-based volume declines across all channels with repair & remodel and new construction markets both softening mid-single digits, driven by tariff-related consumer confidence headwinds and choppy demand patterns.",
-   "ticker": "MBC",
-   "name": "MasterBrand, Inc.",
-   "date": "2025-08-06"
-  },
-  {
    "new_orders": 78,
    "output": 80,
    "employment": 65,
@@ -12108,21 +11988,6 @@
    "date": "2025-07-30"
   },
   {
-   "new_orders": 62,
-   "output": 72,
-   "employment": 52,
-   "prices": 58,
-   "supply_chains": 65,
-   "demand_breadth": 45,
-   "composite": 63,
-   "sector": "Energy",
-   "confidence": 2,
-   "key_signal": "Magnolia raised full-year 2025 production growth guidance to ~10% while maintaining capital spending flat, signaling exceptional capital efficiency and organic volume growth momentum in the Giddings field.",
-   "ticker": "MGY",
-   "name": "Magnolia Oil & Gas Corp.",
-   "date": "2025-07-31"
-  },
-  {
    "new_orders": 38,
    "output": 45,
    "employment": 42,
@@ -12211,21 +12076,6 @@
    "ticker": "MKTX",
    "name": "MarketAxess Holdings, Inc.",
    "date": "2025-08-06"
-  },
-  {
-   "new_orders": 62,
-   "output": 65,
-   "employment": 52,
-   "prices": 55,
-   "supply_chains": 52,
-   "demand_breadth": 55,
-   "composite": 60,
-   "sector": "Consumer Discretionary",
-   "confidence": 2,
-   "key_signal": "MillerKnoll significantly exceeded Q4 expectations with strong forward momentum including 11% year-over-year growth in Design Days booked appointments and aggressive retail expansion plans of 10-15 new stores in fiscal 2026, signaling improving demand in contract furniture and resilient consumer spending on premium home/office furnishings.",
-   "ticker": "MLKN",
-   "name": "MillerKnoll, Inc.",
-   "date": "2025-09-23"
   },
   {
    "new_orders": 68,
@@ -12513,21 +12363,6 @@
    "date": "2025-07-31"
   },
   {
-   "new_orders": 58,
-   "output": 62,
-   "employment": 52,
-   "prices": 55,
-   "supply_chains": 53,
-   "demand_breadth": 50,
-   "composite": 57,
-   "sector": "Financials",
-   "confidence": 2,
-   "key_signal": "Marsh McLennan delivered solid 9% revenue growth and 4% underlying growth despite macro headwinds, but management flagged rising uncertainty from trade policy and tariffs as potential drags on client investment and business confidence going forward.",
-   "ticker": "MRSH",
-   "name": "Marsh & McLennan Cos., Inc.",
-   "date": "2025-07-17"
-  },
-  {
    "new_orders": 62,
    "output": 68,
    "employment": 52,
@@ -12691,21 +12526,6 @@
    "ticker": "MTH",
    "name": "Meritage Homes Corp.",
    "date": "2025-07-24"
-  },
-  {
-   "new_orders": 42,
-   "output": 45,
-   "employment": 48,
-   "prices": 55,
-   "supply_chains": 52,
-   "demand_breadth": 40,
-   "composite": 45,
-   "sector": "Consumer Discretionary",
-   "confidence": 2,
-   "key_signal": "Visitation declined 7% with uncommitted lift ticket demand below expectations, signaling softening discretionary consumer spending despite season pass revenue stability.",
-   "ticker": "MTN",
-   "name": "MTN",
-   "date": ""
   },
   {
    "new_orders": 72,
@@ -13336,21 +13156,6 @@
    "ticker": "NRG",
    "name": "NRG Energy, Inc.",
    "date": "2025-08-06"
-  },
-  {
-   "new_orders": 55,
-   "output": 54,
-   "employment": 58,
-   "prices": 55,
-   "supply_chains": 60,
-   "demand_breadth": 48,
-   "composite": 55,
-   "sector": "Industrials",
-   "confidence": 2,
-   "key_signal": "Norfolk Southern delivered 8% adjusted EPS growth and meaningful labor productivity savings despite $35M in storm costs, signaling resilient industrial rail demand but with tariff-driven volume uncertainty creating near-term headwinds.",
-   "ticker": "NSC",
-   "name": "Norfolk Southern Corp.",
-   "date": "2025-07-29"
   },
   {
    "new_orders": 52,
@@ -13999,21 +13804,6 @@
   },
   {
    "new_orders": 68,
-   "output": 67,
-   "employment": 52,
-   "prices": 58,
-   "supply_chains": 55,
-   "demand_breadth": 63,
-   "composite": 64,
-   "sector": "Industrials",
-   "confidence": 2,
-   "key_signal": "OPENLANE's dealer-to-dealer marketplace volumes grew 15% YoY for the second consecutive quarter of double-digit growth, with broad-based gains across US, Canada, and Europe, signaling strong structural demand momentum in digital wholesale automotive markets.",
-   "ticker": "OPLN",
-   "name": "OPENLANE, Inc.",
-   "date": "2025-08-06"
-  },
-  {
-   "new_orders": 68,
    "output": 72,
    "employment": 52,
    "prices": 65,
@@ -14358,21 +14148,6 @@
    "date": "2025-08-06"
   },
   {
-   "new_orders": 62,
-   "output": 65,
-   "employment": 58,
-   "prices": 63,
-   "supply_chains": 60,
-   "demand_breadth": 52,
-   "composite": 62,
-   "sector": "Technology",
-   "confidence": 2,
-   "key_signal": "Paychex delivered 10% Q4 revenue growth and raised Paycor integration cost synergy targets to $90M for FY2026, signaling solid momentum in HCM demand and disciplined execution despite integration-related sales disruption.",
-   "ticker": "PAYX",
-   "name": "PAYX",
-   "date": ""
-  },
-  {
    "new_orders": 58,
    "output": 65,
    "employment": 50,
@@ -14491,21 +14266,6 @@
    "ticker": "PCTY",
    "name": "Paylocity Holding Corp.",
    "date": "2025-08-05"
-  },
-  {
-   "new_orders": 68,
-   "output": 65,
-   "employment": 55,
-   "prices": 62,
-   "supply_chains": 58,
-   "demand_breadth": 60,
-   "composite": 64,
-   "sector": "Technology",
-   "confidence": 2,
-   "key_signal": "PDF Solutions reaffirmed 21-23% full-year revenue growth guidance despite macro uncertainty from tariffs, supported by strong Q1 bookings, enterprise deal wins, and eProbe shipment momentum.",
-   "ticker": "PDFS",
-   "name": "PDF Solutions, Inc.",
-   "date": "2025-08-07"
   },
   {
    "new_orders": 52,
@@ -17463,21 +17223,6 @@
    "date": "2025-08-07"
   },
   {
-   "new_orders": 38,
-   "output": 52,
-   "employment": 48,
-   "prices": 55,
-   "supply_chains": 45,
-   "demand_breadth": 42,
-   "composite": 46,
-   "sector": "Healthcare",
-   "confidence": 2,
-   "key_signal": "Sarepta cut full-year revenue guidance to $2.3-$2.6B due to a patient fatality with ELEVIDYS, administrative bottlenecks extending infusion timelines, and site capacity imbalances, despite 70% year-over-year revenue growth in Q1.",
-   "ticker": "SRPT",
-   "name": "Sarepta Therapeutics, Inc.",
-   "date": "2025-08-06"
-  },
-  {
    "new_orders": 52,
    "output": 58,
    "employment": 48,
@@ -17506,21 +17251,6 @@
    "ticker": "ST",
    "name": "Sensata Technologies Holding Plc",
    "date": "2025-07-29"
-  },
-  {
-   "new_orders": 38,
-   "output": 22,
-   "employment": 42,
-   "prices": 45,
-   "supply_chains": 35,
-   "demand_breadth": 40,
-   "composite": 37,
-   "sector": "Healthcare",
-   "confidence": 2,
-   "key_signal": "China channel inventory destocking collapsed reported revenue to $389K vs $38.5M a year ago, though management claims underlying in-market procedure demand is stable, with revenue normalization expected in Q3 2025.",
-   "ticker": "STAA",
-   "name": "STAAR Surgical Co.",
-   "date": "2025-08-06"
   },
   {
    "new_orders": 62,
@@ -17686,21 +17416,6 @@
    "ticker": "STX",
    "name": "Seagate Technology Holdings Plc",
    "date": "2025-07-29"
-  },
-  {
-   "new_orders": 42,
-   "output": 48,
-   "employment": 47,
-   "prices": 45,
-   "supply_chains": 44,
-   "demand_breadth": 40,
-   "composite": 44,
-   "sector": "Consumer Staples",
-   "confidence": 2,
-   "key_signal": "Constellation Brands sharply cut its Beer segment growth outlook from 7-9% to 0-3% for FY2026 and 2-4% thereafter, citing persistent socioeconomic headwinds pressuring Hispanic consumer demand and incremental tariff impacts on aluminum and imported wine brands.",
-   "ticker": "STZ",
-   "name": "STZ",
-   "date": ""
   },
   {
    "new_orders": 72,
@@ -18753,21 +18468,6 @@
    "date": "2025-07-22"
   },
   {
-   "new_orders": 72,
-   "output": 60,
-   "employment": 52,
-   "prices": 63,
-   "supply_chains": 58,
-   "demand_breadth": 62,
-   "composite": 64,
-   "sector": "Utilities",
-   "confidence": 2,
-   "key_signal": "TNMP's 22% system peak surge and 70MW data center load addition in Q1, with another 150MW expected by year-end, signals robust electricity demand growth driven by commercial and data center expansion in Texas.",
-   "ticker": "TXNM",
-   "name": "TXNM Energy, Inc.",
-   "date": "2025-08-01"
-  },
-  {
    "new_orders": 68,
    "output": 72,
    "employment": 60,
@@ -19021,21 +18721,6 @@
    "ticker": "UMBF",
    "name": "UMB Financial Corp.",
    "date": "2025-07-30"
-  },
-  {
-   "new_orders": 58,
-   "output": 63,
-   "employment": 50,
-   "prices": 57,
-   "supply_chains": 55,
-   "demand_breadth": 48,
-   "composite": 57,
-   "sector": "Consumer Staples",
-   "confidence": 2,
-   "key_signal": "UNFI delivered above-industry sales growth with highest adjusted EBITDA margin in two years and accelerating free cash flow, though a significant cybersecurity incident and the loss of the Key Food contract introduce meaningful near-term operational and revenue risks.",
-   "ticker": "UNFI",
-   "name": "UNFI",
-   "date": ""
   },
   {
    "new_orders": 32,
@@ -20131,21 +19816,6 @@
    "ticker": "WFRD",
    "name": "Weatherford International plc",
    "date": "2025-07-23"
-  },
-  {
-   "new_orders": 30,
-   "output": 32,
-   "employment": 42,
-   "prices": 35,
-   "supply_chains": 40,
-   "demand_breadth": 33,
-   "composite": 33,
-   "sector": "Consumer Discretionary",
-   "confidence": 2,
-   "key_signal": "RV retail sales declined over 8% for three consecutive months as macroeconomic uncertainty and high borrowing costs suppress consumer demand, driving Winnebago to cut production, reduce field inventory, and defer margin recovery to fiscal 2026.",
-   "ticker": "WGO",
-   "name": "WGO",
-   "date": ""
   },
   {
    "new_orders": 72,
