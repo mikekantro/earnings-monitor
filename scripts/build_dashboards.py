@@ -146,6 +146,56 @@ s = sub1(s, r"<b>same \d+ companies</b>", f"<b>same {SC['n']} companies</b>", "s
 s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} companies scored in <i>both</i> seasons", "sc-both")
 s = sub1(s, r"All \d+ Q2-scored companies", f"All {SC['q2n']} Q2-scored companies", "sc-all")
 s = sub1(s, r"Q2: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q2: {SC['q2n']} companies scored through {today}", "sc-date")
+def _hist_chart():
+    _SE=[("Q1 2025","pmi_scores_2025q1.json"),("Q2 2025","pmi_scores_2025q2.json"),
+         ("Q3 2025","pmi_scores_2025q3.json"),("Q4 2025","pmi_scores_2025q4.json"),
+         ("Q1 2026","pmi_scores_q1_2026.json"),("Q2 2026",None)]
+    _FL=[("composite","#223E4C",3.2),("new_orders","#3E7A99",1.8),("prices","#C24F1F",1.8),("employment","#8AA2B0",1.8)]
+    rows=[]
+    import os as _os
+    for lbl,f in _SE:
+        if f is None:
+            S=list(best.values())
+        elif _os.path.exists(f"{ROOT}/{f}"):
+            _lt={}
+            for r in load(f"{ROOT}/{f}")["scores"]:
+                t=r["ticker"]
+                if t not in _lt or r.get("date","")>_lt[t].get("date",""): _lt[t]=r
+            S=list(_lt.values())
+        else:
+            continue
+        row={"label":lbl}
+        for fd,_,_ in _FL:
+            v=[r[fd] for r in S if r.get(fd) is not None]
+            row[fd]=round(float(np.mean(v)),1) if v else None
+        rows.append(row)
+    if len(rows)<2: return ""
+    W,H,L,Bm,T,R=720,300,52,42,16,120
+    ys=[r[f] for r in rows for f,_,_ in _FL if r.get(f) is not None]
+    y0,y1=min(ys)-2,max(ys)+2
+    n=len(rows)
+    X=lambda i: L+(i/(max(n-1,1)))*(W-L-R)
+    Y=lambda v: H-Bm-(v-y0)/(y1-y0)*(H-Bm-T)
+    o=[f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Index through time">']
+    for v in range(int(y0)+1,int(y1)+1):
+        if v%2==0:
+            o.append(f'<line x1="{L}" y1="{Y(v):.0f}" x2="{W-R}" y2="{Y(v):.0f}" stroke="#EEF1F3"/>')
+            o.append(f'<text x="{L-8}" y="{Y(v):.0f}" font-size="10" fill="#5C6B76" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono,monospace">{v}</text>')
+    for i,r in enumerate(rows):
+        o.append(f'<text x="{X(i):.0f}" y="{H-Bm+16}" font-size="10" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace">{r["label"]}</text>')
+    for fd,col,wd in _FL:
+        pts=[(X(i),Y(r[fd])) for i,r in enumerate(rows) if r.get(fd) is not None]
+        if len(pts)<2: continue
+        d="M"+" L".join(f"{x:.0f} {y:.0f}" for x,y in pts)
+        o.append(f'<path d="{d}" fill="none" stroke="{col}" stroke-width="{wd}"/>')
+        for x,y in pts: o.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{wd+0.8:.1f}" fill="{col}"/>')
+        lx,ly=pts[-1]
+        nm=dict(composite="Composite",new_orders="New orders",prices="Prices",employment="Employment")[fd]
+        o.append(f'<text x="{lx+9:.0f}" y="{ly+3:.0f}" font-size="11" font-weight="600" fill="{col}" font-family="Titillium Web,sans-serif">{nm} {rows[-1][fd]:.1f}</text>')
+    o.append("</svg>")
+    return "".join(o)
+_hc=_hist_chart()
+if _hc: s = _swapm(s, "HCHART", _hc)
 _sfields = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
 _sd = {}
 for _f7 in _sfields:
