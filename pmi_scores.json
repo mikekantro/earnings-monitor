@@ -22168,6 +22168,36 @@
       "ticker": "GIS",
       "name": "General Mills, Inc.",
       "date": "2026-09-26"
+    },
+    {
+      "new_orders": 58,
+      "output": 57,
+      "employment": 60,
+      "prices": 55,
+      "supply_chains": 52,
+      "demand_breadth": 48,
+      "composite": 57,
+      "sector": "Consumer Discretionary",
+      "confidence": 2,
+      "key_signal": "Darden's 5.1% total sales growth with reaffirmed FY2027 EPS guidance signals resilient casual dining demand, though Olive Garden's muted 1% comp growth reflects ongoing consumer sensitivity to discretionary spending occasions.",
+      "ticker": "DRI",
+      "name": "Darden Restaurants, Inc.",
+      "date": "2026-09-28"
+    },
+    {
+      "new_orders": 72,
+      "output": 74,
+      "employment": 55,
+      "prices": 63,
+      "supply_chains": 58,
+      "demand_breadth": 68,
+      "composite": 68,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Costco's 11.2% YoY net sales growth and accelerating capex to $7.5B signals a structural trade-down tailwind benefiting value retailers as consumers concentrate discretionary spending under household budget pressure.",
+      "ticker": "COST",
+      "name": "Costco Wholesale Corp.",
+      "date": "2026-09-28"
     }
   ]
 }

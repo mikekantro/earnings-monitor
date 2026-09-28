@@ -1835,7 +1835,16 @@
    "quote": "our early estimates are that agentic commerce will be about 20% of food sales by 2030. And so, it's really about making sure that we are staying ahead on the basics.",
    "metric": "40% of consumers used an AI tool to make a purchase in food (last month); agentic commerce estimated at 20% of food sales by 2030",
    "event_date": "2026-09-26"
+  },
+  {
+   "ticker": "COST",
+   "company": "Costco Wholesale Corp.",
+   "category": "revenue",
+   "headline": "Costco reports triple-digit growth in site traffic from AI search for second consecutive quarter, with highest conversion rate of all traffic sources.",
+   "quote": "Traffic to our site from AI search grew triple digits for the second consecutive quarter and continues to show the highest conversion rate of all site traffic.",
+   "metric": "triple-digit growth in AI search traffic (two consecutive quarters); 10% of costco.com orders include a personalized item",
+   "event_date": "2026-09-28"
   }
  ],
- "updated": "2026-09-26T05:44:59"
+ "updated": "2026-09-28T19:28:10"
 }
