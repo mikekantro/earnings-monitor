@@ -22213,6 +22213,36 @@
       "ticker": "COST",
       "name": "Costco Wholesale Corp.",
       "date": "2026-09-29"
+    },
+    {
+      "new_orders": 82,
+      "output": 80,
+      "employment": 55,
+      "prices": 78,
+      "supply_chains": 65,
+      "demand_breadth": 72,
+      "composite": 76,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Record customer deposits of $7.6B (+7% YoY) against flat capacity growth, with 2027 already half-booked at record occupancy and prices signals durable, compounding pricing power and exceptionally strong forward consumer demand for experiential travel.",
+      "ticker": "CCL",
+      "name": "Carnival Corp. Ltd.",
+      "date": "2026-09-29"
+    },
+    {
+      "new_orders": 68,
+      "output": 72,
+      "employment": 42,
+      "prices": 58,
+      "supply_chains": 62,
+      "demand_breadth": 52,
+      "composite": 63,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Used vehicle unit comps surging 13% YoY driven by deliberate price competitiveness signals strong price-elastic consumer demand recovery in the used auto market, with 81% EPS growth reflecting significant operating leverage.",
+      "ticker": "KMX",
+      "name": "CarMax, Inc.",
+      "date": "2026-09-29"
     }
   ]
 }
