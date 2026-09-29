@@ -1844,7 +1844,16 @@
    "quote": "Traffic to our site from AI search grew triple digits for the second consecutive quarter and continues to show the highest conversion rate of all site traffic.",
    "metric": "triple-digit growth in AI search traffic (two consecutive quarters); 10% of costco.com orders include a personalized item",
    "event_date": "2026-09-28"
+  },
+  {
+   "ticker": "COST",
+   "company": "Costco Wholesale Corp.",
+   "category": "revenue",
+   "headline": "Costco reports triple-digit growth in site traffic from AI search, with AI search showing highest conversion rate of all site traffic.",
+   "quote": "Traffic to our site from AI search grew triple digits for the second consecutive quarter and continues to show the highest conversion rate of all site traffic.",
+   "metric": "triple-digit growth in AI search traffic (second consecutive quarter); highest conversion rate of all site traffic",
+   "event_date": "2026-09-29"
   }
  ],
- "updated": "2026-09-28T19:28:10"
+ "updated": "2026-09-29T06:24:47"
 }

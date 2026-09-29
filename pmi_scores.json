@@ -22198,6 +22198,21 @@
       "ticker": "COST",
       "name": "Costco Wholesale Corp.",
       "date": "2026-09-28"
+    },
+    {
+      "new_orders": 72,
+      "output": 74,
+      "employment": 55,
+      "prices": 62,
+      "supply_chains": 60,
+      "demand_breadth": 68,
+      "composite": 68,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Costco's 9.4% comp sales growth with record gas volumes and accelerating digital penetration signals that value-seeking consumer behavior is intensifying and consolidating wallet share at large-format discount retailers across income cohorts.",
+      "ticker": "COST",
+      "name": "Costco Wholesale Corp.",
+      "date": "2026-09-29"
     }
   ]
 }
