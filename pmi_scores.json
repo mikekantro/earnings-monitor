@@ -22243,6 +22243,51 @@
       "ticker": "KMX",
       "name": "CarMax, Inc.",
       "date": "2026-09-29"
+    },
+    {
+      "new_orders": 42,
+      "output": 38,
+      "employment": 48,
+      "prices": 52,
+      "supply_chains": 50,
+      "demand_breadth": 44,
+      "composite": 44,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Conagra's dividend cut and operating margin collapse to -14.4% signal a highly leveraged branded food company in structural distress, with new CEO prioritizing margin restoration via price increases and portfolio simplification over volume growth.",
+      "ticker": "CAG",
+      "name": "Conagra Brands, Inc.",
+      "date": "2026-09-30"
+    },
+    {
+      "new_orders": 82,
+      "output": 78,
+      "employment": 55,
+      "prices": 74,
+      "supply_chains": 68,
+      "demand_breadth": 72,
+      "composite": 75,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Record customer deposits of $7.6B (up 7% YoY on flat capacity) with 2027 already half-booked at record occupancy and pricing signals durable consumer demand for experiential travel well into the future.",
+      "ticker": "CCL",
+      "name": "Carnival Corp. Ltd.",
+      "date": "2026-09-30"
+    },
+    {
+      "new_orders": 72,
+      "output": 76,
+      "employment": 55,
+      "prices": 58,
+      "supply_chains": 62,
+      "demand_breadth": 52,
+      "composite": 68,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Used vehicle unit comps surging 13% YoY with 81% EPS growth signals a sharp cyclical recovery in consumer demand for used autos, driven by deliberate price competitiveness and structural regulatory tailwinds favoring CarMax's no-haggle model.",
+      "ticker": "KMX",
+      "name": "CarMax, Inc.",
+      "date": "2026-09-30"
     }
   ]
 }
