@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T00:38:13.037528",
+ "generated": "2026-09-30T16:24:57.907533",
  "window": [
   "2026-07-15",
   "2026-09-30"
@@ -7096,6 +7096,30 @@
    "quote": "WISE agentic payroll continues to enhance operational efficiency, increasing automated payroll processing by nearly 20% from January through August, while also maintaining high service quality and accuracy rates.",
    "metric": "~20% increase in automated payroll processing; ~90% of payroll errors prevented",
    "event_date": "2026-09-23"
+  },
+  {
+   "ticker": "CCL",
+   "company": "Carnival Corp. Ltd.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Carnival uses AI across commercial systems to aid decision-making, personalize guest experiences, automate shoreside ops, and find vessel efficiencies.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
+   "metric": null,
+   "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "KMX",
+   "company": "CarMax, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "CarMax scaled AI voice technology to 100% of inbound calls, using agentic AI to resolve inquiries and support sales conversion.",
+   "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
+   "metric": null,
+   "event_date": "2026-09-29"
   }
  ]
 }
