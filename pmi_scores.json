@@ -22288,6 +22288,36 @@
       "ticker": "KMX",
       "name": "CarMax, Inc.",
       "date": "2026-09-30"
+    },
+    {
+      "new_orders": 78,
+      "output": 72,
+      "employment": 52,
+      "prices": 65,
+      "supply_chains": 62,
+      "demand_breadth": 70,
+      "composite": 70,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Record Q4 ASV growth of 7% organically to $2.56B, with AI-related solutions comprising a double-digit share of new bookings and clients using AI growing ASV twice as fast as the rest of the base, signals durable and accelerating institutional data spend despite macro uncertainty.",
+      "ticker": "FDS",
+      "name": "FactSet Research Systems, Inc.",
+      "date": "2026-09-30"
+    },
+    {
+      "new_orders": 88,
+      "output": 92,
+      "employment": 62,
+      "prices": 70,
+      "supply_chains": 60,
+      "demand_breadth": 82,
+      "composite": 82,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Jabil's Intelligent Infrastructure segment surged 56% YoY in Q4 and is guided up 63% YoY in Q1 FY2027, with $8.5B+ of incremental revenue expected in FY2027, signaling hyperscaler AI capex remains in full expansion mode with no demand destruction visible.",
+      "ticker": "JBL",
+      "name": "Jabil, Inc.",
+      "date": "2026-09-30"
     }
   ]
 }
