@@ -11,6 +11,9 @@ Writes: ai_highlights_<quarter>.json   {"quarter": ..., "highlights": [...]}
 """
 import argparse, json, os, sys, time
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+from datetime import date
+import requests                # noqa: E402
+import anthropic               # noqa: E402
 import anthropic
 import earnings_monitor as em  # noqa: E402
 import ai_highlight as ah      # noqa: E402
@@ -24,8 +27,33 @@ WINDOWS = {
     "2025Q3": ("2025-10-05", "2025-12-24"), "2025Q4": ("2026-01-05", "2026-03-25"),
 }
 
-def get_events_range(start, end):
-    return em.get_earnings_events(start, end)
+def get_events_range(start_iso, end_iso):
+    symbols = [f"{t}-US" for t in em.SP500]
+    results = []
+    for i in range(0, len(symbols), 100):
+        chunk = symbols[i:i + 100]
+        payload = {"data": {
+            "dateTime": {"start": f"{start_iso}T00:00:00Z", "end": f"{end_iso}T23:59:59Z"},
+            "universe": {"symbols": chunk, "type": "Tickers"},
+            "eventTypes": ["Earnings", "ConfirmedEarningsRelease", "SalesRevenueCall"]}}
+        try:
+            resp = requests.post(f"{em.FS_BASE}/calendar/events", auth=em.FS_AUTH,
+                                 headers=em.HEADERS, json=payload, timeout=20)
+            resp.raise_for_status()
+            for item in resp.json().get("data", []):
+                t = item.get("identifier", "").replace("-US", "")
+                if t in em.SP500:
+                    results.append({"symbol": t, "name": item.get("entityName", t),
+                                    "eventId": item.get("eventId", ""),
+                                    "date": (item.get("eventDateTime") or "")[:10]})
+        except Exception as e:
+            print(f"calendar chunk {i//100}: {e}")
+        time.sleep(0.3)
+    seen, uniq = set(), []
+    for r in results:
+        if r["symbol"] not in seen:
+            seen.add(r["symbol"]); uniq.append(r)
+    return uniq
 
 def gather(q, start, end):
     events = get_events_range(start, end)
