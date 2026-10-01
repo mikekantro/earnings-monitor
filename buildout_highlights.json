@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-30T16:24:45.953956",
+ "generated": "2026-10-01T00:39:29.027450",
  "window": [
   "2026-07-15",
-  "2026-09-30"
+  "2026-10-01"
  ],
  "highlights": [
   {
@@ -3214,6 +3214,16 @@
    "direction": "accelerating",
    "headline": "Xylem cites AI-infrastructure data-center demand as driver of Applied Water segment revenue, expecting 200% growth this year.",
    "event_date": "2026-07-28"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand\u2014compute, power, cooling, and networking\u2014as driver of 60% year-over-year growth in AI-related revenue and expansion of large hyperscaler customer base.",
+   "event_date": "2026-09-30"
   }
  ]
 }

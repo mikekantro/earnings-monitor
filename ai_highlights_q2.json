@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-30T16:24:57.907533",
+ "generated": "2026-10-01T00:39:40.564141",
  "window": [
   "2026-07-15",
-  "2026-09-30"
+  "2026-10-01"
  ],
  "highlights": [
   {
@@ -7120,6 +7120,18 @@
    "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
    "metric": null,
    "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "FDS",
+   "company": "FactSet Research Systems, Inc.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "boosting workforce productivity with the help of AI to improve operating leverage and drive future margin expansion ... We expect these to scale in FY 2027 and further enhance our operating leverage.",
+   "margin_metric": null,
+   "headline": "FactSet uses AI coding assistants and agents internally, cutting data pipeline processing times by 75% and resolving 30%+ of client requests autonomously.",
+   "quote": "agent-assisted engineering, cut processing times in this area by more than 75%, halved the onboarding effort and more than doubled delivery speed",
+   "metric": "Processing times cut >75%; client assist agent resolves >30% of user-initiated requests without human interaction; token use for coding assistants grew 80% QoQ with spend at half that pace",
+   "event_date": "2026-09-30"
   }
  ]
 }
