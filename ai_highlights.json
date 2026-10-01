@@ -1889,7 +1889,34 @@
    "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
    "metric": null,
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "CCL",
+   "company": "Carnival Corp. Ltd.",
+   "category": "efficiency",
+   "headline": "Carnival uses AI in commercial systems for better decisions, personalized guest experiences, shoreside automation, and vessel efficiency.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside",
+   "metric": null,
+   "event_date": "2026-10-01"
+  },
+  {
+   "ticker": "FDS",
+   "company": "FactSet Research Systems, Inc.",
+   "category": "efficiency",
+   "headline": "FactSet uses AI coding assistants and agents internally, cutting data processing times 75%+ and resolving 30%+ of client requests without human interaction.",
+   "quote": "agent-assisted engineering, cut processing times in this area by more than 75%, halved the onboarding effort and more than doubled delivery speed",
+   "metric": "30% of user-initiated requests resolved without human interaction; processing times cut >75%",
+   "event_date": "2026-10-01"
+  },
+  {
+   "ticker": "KMX",
+   "company": "CarMax, Inc.",
+   "category": "revenue",
+   "headline": "CarMax scaled AI voice technology to 100% of inbound calls, using agentic AI to resolve inquiries and support sales conversion.",
+   "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
+   "metric": null,
+   "event_date": "2026-10-01"
   }
  ],
- "updated": "2026-09-30T17:51:49"
+ "updated": "2026-10-01T06:44:57"
 }
