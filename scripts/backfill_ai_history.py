@@ -63,7 +63,7 @@ def gather(q, start, end):
     for i, ev in enumerate(events):
         t = ev["symbol"]
         try:
-            rid = em.get_transcript_report_id(ev)
+            rid = em.get_transcript_report_id(t, ev.get("eventId", ""))
             tx = em.get_transcript_text(rid) if rid else ""
         except Exception:
             tx = ""
