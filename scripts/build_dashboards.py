@@ -147,11 +147,13 @@ s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} 
 s = sub1(s, r"All \d+ Q2-scored companies", f"All {SC['q2n']} Q2-scored companies", "sc-all")
 s = sub1(s, r"Q2: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q2: {SC['q2n']} companies scored through {today}", "sc-date")
 def _hist_data():
-    _SE=[("Q1 2024","pmi_scores_2024q1.json"),("Q2 2024","pmi_scores_2024q2.json"),
-         ("Q3 2024","pmi_scores_2024q3.json"),("Q4 2024","pmi_scores_2024q4.json"),
-         ("Q1 2025","pmi_scores_2025q1.json"),("Q2 2025","pmi_scores_2025q2.json"),
-         ("Q3 2025","pmi_scores_2025q3.json"),("Q4 2025","pmi_scores_2025q4.json"),
-         ("Q1 2026","pmi_scores_q1_2026.json"),("Q2 2026",None)]
+    _SE=[("Q1'23","pmi_scores_2023q1.json"),("Q2'23","pmi_scores_2023q2.json"),
+         ("Q3'23","pmi_scores_2023q3.json"),("Q4'23","pmi_scores_2023q4.json"),
+         ("Q1'24","pmi_scores_2024q1.json"),("Q2'24","pmi_scores_2024q2.json"),
+         ("Q3'24","pmi_scores_2024q3.json"),("Q4'24","pmi_scores_2024q4.json"),
+         ("Q1'25","pmi_scores_2025q1.json"),("Q2'25","pmi_scores_2025q2.json"),
+         ("Q3'25","pmi_scores_2025q3.json"),("Q4'25","pmi_scores_2025q4.json"),
+         ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26",None)]
     _FL=["composite","new_orders","prices","employment"]
     import os as _os
     def _rows(sector=None):
