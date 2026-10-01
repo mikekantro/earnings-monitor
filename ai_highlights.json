@@ -1916,7 +1916,16 @@
    "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
    "metric": null,
    "event_date": "2026-10-01"
+  },
+  {
+   "ticker": "ACN",
+   "company": "Accenture Plc",
+   "category": "product",
+   "headline": "Accenture embeds AI into client services across customer experience, supply chain, finance, and enterprise-wide transformations.",
+   "quote": "we're using conversational AI, including voice and chat agents, to handle live interactions, resolving queries faster, and provide a more personalized experience",
+   "metric": null,
+   "event_date": "2026-10-01"
   }
  ],
- "updated": "2026-10-01T06:44:57"
+ "updated": "2026-10-01T18:19:37"
 }
