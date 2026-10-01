@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T00:39:29.027450",
+ "generated": "2026-10-01T17:01:44.118423",
  "window": [
   "2026-07-15",
   "2026-10-01"
@@ -3223,6 +3223,16 @@
    "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
    "direction": "accelerating",
    "headline": "Jabil cites accelerating AI-infrastructure demand\u2014compute, power, cooling, and networking\u2014as driver of 60% year-over-year growth in AI-related revenue and expansion of large hyperscaler customer base.",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "MU",
+   "company": "Micron Technology, Inc.",
+   "channel": "data_center_construction",
+   "quote": "the principal constraint in the industry is on cleanroom space because we \u2013 the strong growth of AI and this demand vector has come on relatively recently in terms of the timeline that it takes to build these cleanrooms... the majority of the construction CapEx increase for fiscal 2027 versus our prior plans is for cleanrooms that will come online in late 2028 and beyond",
+   "metric": "majority of construction CapEx increase for fiscal 2027 directed to cleanrooms coming online late 2028 and beyond",
+   "direction": "accelerating",
+   "headline": "Micron cites AI infrastructure demand driving accelerated data-center cleanroom construction CapEx through 2028.",
    "event_date": "2026-09-30"
   }
  ]
