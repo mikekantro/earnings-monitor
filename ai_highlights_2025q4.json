@@ -7,443 +7,296 @@
    "event_date": "2026-02-25",
    "category": "efficiency",
    "headline": "Agilent applying targeted AI initiatives to enhance customer insights, automate routine work, and compress manufacturing cycle times.",
-   "quote": "applying targeted artificial intelligence initiatives with clear ROI to enhance customer insights, automate routine work, and compress manufacturing cycle times",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "quote": "applying targeted artificial intelligence initiatives with clear ROI to enhance customer insights, automate routine work, and compress manufacturing cycle times.",
+   "metric": null
   },
   {
    "ticker": "AAPL",
    "company": "Apple, Inc.",
    "event_date": "2026-01-29",
    "category": "product",
-   "headline": "Apple embeds Apple Intelligence AI features across iPhone, Mac, iPad and services, with majority of enabled iPhone users actively using them.",
-   "quote": "we were excited to see that the majority of users on enabled iPhones are actively leveraging the power of Apple Intelligence.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Apple Intelligence AI features active on majority of enabled iPhones; includes writing tools, visual intelligence, live translation in 15 languages.",
+   "quote": "the majority of users on enabled iPhones are actively leveraging the power of Apple Intelligence. Since the launch of Apple Intelligence, we've introduced dozens of features",
+   "metric": null
   },
   {
    "ticker": "ABNB",
    "company": "Airbnb, Inc.",
    "event_date": "2026-02-12",
    "category": "efficiency",
-   "headline": "Airbnb's custom AI agent resolves a third of customer support issues without a live specialist, live across North America.",
+   "headline": "Airbnb AI agent resolves one-third of customer support issues without a live specialist, live across North America.",
    "quote": "We built a custom AI agent trained on millions of our support interactions. It's already resolving a third of the support issues without needing a live specialist, and resolution times are significantly faster.",
-   "metric": "1/3 of support issues resolved without live specialist",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "1/3 of support issues resolved by AI without live specialist"
   },
   {
    "ticker": "ACGL",
    "company": "Arch Capital Group Ltd.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "Arch Capital views AI as an efficiency opportunity, noting specialty lines complexity limits disruption risk vs. personal/SME lines.",
+   "headline": "Arch Capital views AI as an efficiency opportunity, not a threat, noting specialty complexity slows disruption vs. personal lines.",
    "quote": "We think of AI as more of an opportunity for efficiency rather than a threat. But ultimately, the beneficiary of AI will be the consumers, as most of the savings and efficiency will be passed on to the insurer.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ACN",
    "company": "Accenture Plc",
    "event_date": "2026-03-19",
    "category": "efficiency",
-   "headline": "Accenture uses AI tools internally to boost productivity; some projects seeing 50% faster delivery",
-   "quote": "Those models are accelerating software work across the board, new development to upgrades. And some projects are already seeing delivery move 50% faster.",
-   "metric": "50% faster delivery on some projects",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Accenture makes AI tool use a formal part of employee performance evaluation, trains 192,000 staff on agentic AI",
+   "quote": "we have made the use of the AI tools and contributions to helping Accenture become the most AI-enabled company in the world now a formal part of our performance evaluation",
+   "metric": null
   },
   {
    "ticker": "ADBE",
    "company": "Adobe Inc.",
    "event_date": "2026-03-12",
    "category": "product",
-   "headline": "Adobe embeds AI across Firefly, Acrobat AI Assistant, Creative Cloud, and enterprise GenStudio/AEP products sold to customers.",
+   "headline": "Adobe embeds AI across Firefly, Acrobat AI Assistant, and GenStudio; AI-first offerings ARR tripled YoY",
    "quote": "Our new AI-first offerings ending ARR more than tripled year-over-year, reflecting progress against this opportunity with individuals and enterprises alike.",
-   "metric": "ARR from AI-first applications more than tripled year-over-year; Firefly ending ARR exceeded $250M",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "ARR for AI-first offerings tripled YoY; generative credit consumption grew 45% QoQ; video generative actions grew 8x YoY"
   },
   {
    "ticker": "ADP",
    "company": "Automatic Data Processing, Inc.",
    "event_date": "2026-01-28",
    "category": "product",
-   "headline": "ADP embeds AI agents in its HCM platforms to automate payroll, HR, analytics and tax workflows for clients",
+   "headline": "ADP embeds AI agents (ADP Assist) in its HCM platforms for payroll, HR, analytics and tax workflows",
    "quote": "We continue to scale the usage and capabilities of our client-facing AI, including the launch of new ADP Assist payroll, HR, analytics and tax agents that apply advanced intelligence to real workforce challenges.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ADSK",
    "company": "Autodesk, Inc.",
    "event_date": "2026-02-26",
    "category": "product",
-   "headline": "Autodesk embeds AI in its design/make products, with Sketch AutoConstrain delivering 3.8M constraints at ~65% acceptance rate.",
-   "quote": "We have continued to see success with our AI powered Sketch AutoConstrain in Fusion. Since its launch last year, the AI model has delivered over 3.8 million constraints, up from 2.6 million last quarter.",
-   "metric": "3.8 million constraints delivered; ~65% acceptance rate",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Autodesk plans to roll out AI capabilities using frontier and proprietary 3D design models for customers.",
+   "quote": "Autodesk will roll-out powerful AI capabilities built on a combination of frontier models and our proprietary models that understand 3D design and make.",
+   "metric": null
   },
   {
    "ticker": "AIG",
    "company": "American International Group, Inc.",
    "event_date": "2026-02-11",
    "category": "efficiency",
-   "headline": "AIG deploys GenAI 'Underwriting by AIG Assist' across seven lines; Lexington submit-to-bind ratio up 35%",
+   "headline": "AIG uses GenAI tool 'Underwriting by AIG Assist' across commercial lines, lifting submit-to-bind ratio 35% in Lexington Middle Market Property.",
    "quote": "by deploying Underwriting by AIG Assist in Lexington, we've delivered significant productivity gains. For example, for Lexington Middle Market Property, our submit-to-bind ratio increased 35%.",
-   "metric": "35% increase in submit-to-bind ratio; 26% increase in submission count at Lexington",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "35% increase in submit-to-bind ratio; 26% increase in submission count year-over-year"
   },
   {
    "ticker": "AIZ",
    "company": "Assurant, Inc.",
    "event_date": "2026-02-11",
    "category": "efficiency",
-   "headline": "Assurant uses AI and robotics in trade-in/reverse logistics facilities to assess device quality and process trade-ins faster.",
+   "headline": "Assurant uses robotics and AI at logistics facilities to assess device quality and process trade-ins faster, boosting average selling prices.",
    "quote": "Our trade-in and reverse logistics business has benefited from the use of robotics and AI to assess mobile device quality and process trade-ins with greater speed and consistency.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "AJG",
-   "company": "Arthur J. Gallagher & Co.",
-   "event_date": "2026-01-29",
-   "category": "efficiency",
-   "headline": "Gallagher deploys 'Gallagher Drive' digital sales tool to all AssuredPartners producers within two weeks of acquisition close.",
-   "quote": "Within two weeks, our cutting-edge Gallagher Drive program, which is the digital experience that our clients \u2013 our producers can use with our clients, was on the desk of every single salesperson at AP.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "AKAM",
-   "company": "Akamai Technologies, Inc.",
-   "event_date": "2026-02-19",
-   "category": "vendor",
-   "headline": "Akamai launched AI Inference Cloud with NVIDIA Blackwell GPUs, signed $200M 4-year deal with major US tech company for AI inference workloads.",
-   "quote": "we recently signed a four year $200 million commitment for our Cloud Infrastructure Services with a major US tech company at the forefront of the AI revolution",
-   "metric": "$200M 4-year commitment; CIS revenue up 45% YoY; $250M CapEx for AI Inference Cloud",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ALB",
    "company": "Albemarle Corp.",
    "event_date": "2026-02-12",
    "category": "efficiency",
-   "headline": "Albemarle targets further cost/productivity gains by embedding AI across its organization.",
+   "headline": "Albemarle targets cost/productivity improvements by embedding technology and AI across its organization.",
    "quote": "We see further opportunities for cost and productivity improvements as we simplify our processes and continue to embed technology and AI across our organization.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ALGN",
    "company": "Align Technology, Inc.",
    "event_date": "2026-02-04",
-   "category": "efficiency",
-   "headline": "Align Technology uses AI-driven treatment planning tools to reduce cycle times and help doctors convert patients more efficiently.",
+   "category": "product",
+   "headline": "Align Technology uses AI-driven treatment planning tools in ClinCheck Live to reduce cycle times and help doctors convert patients.",
    "quote": "leverages AI-driven planning tools and integrated digital workflows to reduce cycle times, enhance chairside experience, and help doctors convert patients more efficiently",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "initial doctor-ready plans in about 15 minutes"
   },
   {
    "ticker": "ALLE",
    "company": "Allegion Plc",
    "event_date": "2026-02-17",
    "category": "product",
-   "headline": "Allegion integrates AI into Interflex software offerings to help customers access reports and data.",
+   "headline": "Allegion integrating AI into Interflex software offerings to help customers access reports and data.",
    "quote": "We're finding ways to get AI into the software offerings just to help our customers get all the reports and data that they need.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "AMAT",
    "company": "Applied Materials, Inc.",
    "event_date": "2026-02-12",
    "category": "efficiency",
-   "headline": "Applied Materials uses AI-powered AIx software across 30,000+ connected chambers, cutting response times 30%; AI-enabled robotics automate distribution centers.",
+   "headline": "Applied Materials uses AI-powered AIx software across 30,000+ chambers and AI-enabled robotics in distribution centers to boost productivity.",
    "quote": "we have more than 30,000 chambers connected to AIx servers using AI-powered monitoring, diagnostics and analytics. Across these connected tools, we are seeing 30% faster response times",
-   "metric": "30% faster response times",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "30% faster response times"
   },
   {
    "ticker": "AMGN",
    "company": "Amgen, Inc.",
    "event_date": "2026-02-03",
    "category": "efficiency",
-   "headline": "Amgen leverages AI across value chain to accelerate drug discovery, manufacturing optimization, and customer engagement.",
+   "headline": "Amgen leverages AI across value chain to accelerate drug discovery, development, manufacturing, and customer engagement.",
    "quote": "We're leveraging AI across the value chain to accelerate therapeutic discovery and late-stage development, optimize manufacturing and improve customer engagement, allowing us to drive productivity at speed and scale.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "AMP",
    "company": "Ameriprise Financial, Inc.",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "Ameriprise uses AI and automation to help advisors find client insights, reduce tasks, and improve underwriting efficiency.",
+   "headline": "Ameriprise uses AI and automation to help advisors find client insights and reduce time-consuming tasks; also in underwriting.",
    "quote": "we're also innovating with AI and automation to help advisors identify meaningful client insights and growth opportunities, while reducing time consuming tasks.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "AMT",
    "company": "American Tower Corp.",
    "event_date": "2026-02-24",
    "category": "efficiency",
-   "headline": "American Tower investing in AI for process automation, predictive maintenance, power management, and workflow optimization in tower business.",
+   "headline": "American Tower investing in AI for process automation, predictive maintenance, power management, and workflow optimization.",
    "quote": "we're investing in AI to accelerate efficiency gains even further. While we're still in the early stages of AI adoption, we expect AI use cases to target process automation, predictive maintenance, power and utility management, and workflow optimization.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "AMZN",
    "company": "Amazon.com, Inc.",
    "event_date": "2026-02-05",
-   "category": "revenue",
-   "headline": "Amazon's AI shopping assistant Rufus used by 300M+ customers; features include price tracking and Auto Buy across Amazon and other stores.",
-   "quote": "Last year, more than 300 million customers used Rufus. In addition, customers use Lens, our AI powered visual search tool to find products with a phone's camera, a screenshot or a barcode and they did it 45% more year-over-year.",
-   "metric": "300M+ customers used Rufus; AI visual search Lens usage up 45% YoY",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "Amazon sells AI services via AWS including Bedrock, Trainium chips, Nova models, and agentic tools to enterprise customers.",
+   "quote": "Bedrock is now a multi-billion dollar annualized run rate business, and customer spend grew 60% quarter-over-quarter.",
+   "metric": "60% quarter-over-quarter customer spend growth on Bedrock; $10B+ annualized run rate for chips business"
   },
   {
    "ticker": "ANET",
    "company": "Arista Networks, Inc.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "Arista embeds AI in its AVA/EOS networking platform to deliver proactive, predictive, and agentic network operations for customers.",
-   "quote": "our AI for networking strategy based on AVA, Autonomous Virtual Assist, curates the data for higher-level functions... we instrument our customers' networks to deliver proactive, predictive and prescriptive features for enhanced security, observability and agentic AI operations.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Arista embeds AI in its AVA platform and CloudVision stack for autonomous network operations sold to customers.",
+   "quote": "Our AI for networking strategy based on AVA, Autonomous Virtual Assist, curates the data for higher-level functions... to deliver proactive, predictive and prescriptive features for enhanced security, observability and agentic AI operations.",
+   "metric": "$3.25 billion in AI networking revenue projected for 2026"
   },
   {
    "ticker": "AON",
    "company": "Aon Plc",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Aon deployed AI tools including Broker Copilot and Claims Copilot via its ABS platform to drive efficiency and client service.",
+   "headline": "Aon deployed AI tools including Broker Copilot and Claims Copilot via its ABS platform to drive capability and efficiency.",
    "quote": "ABS provides the foundation to deliver innovative solutions and deploy AI where it drives real value across our business. We expanded our risk analyzers, launched Aon Broker Copilot, and more recently launched Claims Copilot.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "APTV",
    "company": "Aptiv Plc",
    "event_date": "2026-02-02",
    "category": "product",
-   "headline": "Aptiv launches AI-powered software solutions and AI-powered cobots for robotics/ADAS across automotive and non-auto markets.",
-   "quote": "next generation sensing and AI-powered software solutions that deliver market leading performance at a competitive cost for applications across a broad range of end markets",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Aptiv sells AI-powered software solutions and co-develops AI-powered cobots for warehouse/industrial automation customers.",
+   "quote": "Robust.AI to co-develop AI-powered cobots, accelerating innovation in warehouse industrial automation.",
+   "metric": null
   },
   {
    "ticker": "AVY",
    "company": "Avery Dennison Corp.",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "Avery Dennison expanding AI use for operational productivity, fixed cost innovation, service quality, and faster innovation cycles.",
-   "quote": "we are also expanding our digital capabilities, use of automation and leveraging AI to enable additional operational productivity and fixed cost innovation, strengthen our service and quality, shorten our innovation cycles",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Avery Dennison leveraging AI for operational productivity, fixed cost innovation, service quality, and shorter innovation cycles.",
+   "quote": "leveraging AI to enable additional operational productivity and fixed cost innovation, strengthen our service and quality, shorten our innovation cycles and provide more data-driven solutions",
+   "metric": null
   },
   {
    "ticker": "AXON",
    "company": "Axon Enterprise, Inc.",
    "event_date": "2026-02-24",
    "category": "product",
-   "headline": "Axon's AI Era Plan generated ~$750M in bookings in its first full year; 500+ agencies live with Axon Assistant generating 200K+ monthly messages.",
-   "quote": "we already have more than 500 public safety areas \u2013 I'm sorry, public safety agencies live with Axon Assistant, generating more than 200,000 monthly messages.",
-   "metric": "$750M in AI Era Plan bookings in first full year",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Axon's AI Era Plan generated ~$750M in bookings in its first full year, driving new product bookings to over $1B.",
+   "quote": "in our first full year of selling the AI Era Plan, it accounted for approximately $750 million worth of bookings, or about 10% of the overall bookings total.",
+   "metric": "$750M bookings from AI Era Plan (first full year)"
   },
   {
    "ticker": "AXP",
    "company": "American Express Co.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "AmEx deploys GenAI/Agentic tools to nearly all colleagues; new data platform cuts key marketing and fraud process times by 90%.",
-   "quote": "we're rolling out our new third-generation data and analytics platform, which will enable greater personalization and marketing, improve servicing experiences, augment our industry-leading fraud capabilities, and enable new GenAI and Agentic use cases",
-   "metric": "90% reduction in time for key processes in marketing and fraud",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "BAC",
-   "company": "Bank of America Corp.",
-   "event_date": "2026-01-14",
-   "category": "efficiency",
-   "headline": "Bank of America uses AI and digitalization to offset rising wages and hold headcount flat while growing client volumes.",
-   "quote": "productivity improvements from AI and digitalization continued to help offset higher wages, benefits, and technology investments.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Amex deploys GenAI/Agentic tools to nearly all colleagues; new data platform cuts marketing and fraud process times by 90%",
+   "quote": "The new platform, which is built on the public cloud, is already reducing the time for key processes in marketing and fraud by 90%",
+   "metric": "90% reduction in time for key processes in marketing and fraud"
   },
   {
    "ticker": "BBY",
    "company": "Best Buy Co., Inc.",
    "event_date": "2026-03-03",
    "category": "revenue",
-   "headline": "Best Buy partners with OpenAI and Google to enable AI-powered product discovery and direct purchase through ChatGPT and Gemini.",
-   "quote": "We're partnering with OpenAI to give our customers a new way to explore and discover our products. We're among the early retailers to make it easier for our product catalog to be displayed on ChatGPT",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Best Buy partners with OpenAI, Google, and Wizard to enable AI-powered product discovery and checkout for customers.",
+   "quote": "we're partnering with OpenAI to give our customers a new way to explore and discover our products. We're among the early retailers to make it easier for our product catalog to be displayed on ChatGPT",
+   "metric": null
   },
   {
    "ticker": "BDX",
    "company": "Becton, Dickinson & Co.",
    "event_date": "2026-02-09",
    "category": "product",
-   "headline": "BD highlights AI-driven advanced patient monitoring within its ~$5B Connected Care business as a key growth platform.",
+   "headline": "BD describes its ~$5B Connected Care business as featuring AI-driven advanced patient monitoring and connected medication management.",
    "quote": "our nearly $5 billion Connected Care business with AI-driven advanced patient monitoring and connected medication management",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "BEN",
    "company": "Franklin Templeton, Inc.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Franklin Templeton launches Intelligence Hub, an AI-driven distribution platform on Microsoft Azure to modernize sales and client experience.",
-   "quote": "we announced the launch of Intelligence Hub, a modular AI-driven distribution platform powered by Microsoft Azure building on the advanced financial AI initiatives announced in April 2024",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Franklin Templeton launches Intelligence Hub, an AI-driven distribution platform built on Microsoft Azure to improve sales effectiveness and client experience.",
+   "quote": "we announced the launch of Intelligence Hub, a modular AI-driven distribution platform powered by Microsoft Azure building on the advanced financial AI initiatives announced in April 2024.",
+   "metric": null
   },
   {
    "ticker": "BIO",
    "company": "Bio-Rad Laboratories, Inc.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "Bio-Rad plans to incorporate artificial intelligence into future instrument platforms as part of 2026 product roadmap.",
+   "headline": "Bio-Rad plans to incorporate artificial intelligence into its future instrument platforms as part of 2026 product launches.",
    "quote": "incorporate artificial intelligence into our future platforms. Our sharpened focus on R&D accelerates the innovation engine for Bio-Rad",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "BLK",
    "company": "BlackRock, Inc.",
    "event_date": "2026-01-15",
    "category": "efficiency",
-   "headline": "BlackRock's systematic equity platform uses AI and big data for 20 years to generate alpha signals for portfolio managers.",
+   "headline": "BlackRock's systematic investments platform has used data and AI for 20 years to drive alpha signals for portfolio managers.",
    "quote": "Our systematic investments have been using data and AI for 20 years. We've invested in this business, and today, its IP delivers alpha to clients and helps portfolio managers across BlackRock to invest better.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "BMY",
    "company": "Bristol Myers Squibb Co.",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "Bristol Myers Squibb expanding AI use to operate leaner, move faster, and reinvest in growth as part of cost savings program.",
-   "quote": "we will continue to expand the use of AI to help us move faster, operate leaner, and reinvest strategically in growth.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "BMS expanding AI use to move faster, operate leaner, and reinvest in growth as part of cost savings initiative",
+   "quote": "we delivered on our cost savings initiative in 2025 and will continue to expand the use of AI to help us move faster, operate leaner, and reinvest strategically in growth.",
+   "metric": null
   },
   {
    "ticker": "BR",
    "company": "Broadridge Financial Solutions, Inc.",
    "event_date": "2026-02-03",
-   "category": "revenue",
-   "headline": "Broadridge deploys AI-native custom policy engine for institutional proxy voting, enabling new revenue from clients like JPMorgan and Wells Fargo.",
-   "quote": "we are also rolling out our AI-native custom policy engine and vote implementation capabilities for institutional investors like JPMorgan and Wells Fargo, who are seeking to reduce their reliance on proxy advisors. This is a powerful example of how our AI capabilities are enabling new revenue.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "BX",
-   "company": "Blackstone, Inc.",
-   "event_date": "2026-01-29",
-   "category": "efficiency",
-   "headline": "Blackstone uses AI for software engineering (2x productivity), cyber monitoring, legal compliance, and portfolio data summarization.",
-   "quote": "at the Blackstone level, it's been with our software engineers. That's where we've seen the biggest impact Day 1 in terms of making our folks twice as efficient when they're coding.",
-   "metric": "2x efficiency for software engineers",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "Broadridge rolling out AI-native custom proxy policy engine for institutional investors like JPMorgan and Wells Fargo to generate new revenue",
+   "quote": "We are also rolling out our AI-native custom policy engine and vote implementation capabilities for institutional investors like JPMorgan and Wells Fargo, who are seeking to reduce their reliance on proxy advisors.",
+   "metric": null
   },
   {
    "ticker": "C",
    "company": "Citigroup, Inc.",
    "event_date": "2026-01-14",
    "category": "efficiency",
-   "headline": "Citi deploys AI across 50+ complex internal processes; 84-country colleague adoption exceeds 21M interactions at 70%+ rate.",
+   "headline": "Citi uses AI across 50+ major processes including KYC and loan underwriting; 21M colleague interactions in 84 countries",
    "quote": "Colleagues in 84 countries have now interacted with our proprietary tools over 21 million times, and we continue to see adoption increase. It's now above 70%.",
-   "metric": "21 million interactions, 70%+ adoption rate",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "21 million interactions, 70%+ adoption"
   },
   {
    "ticker": "CARR",
    "company": "Carrier Global Corp.",
    "event_date": "2026-02-05",
    "category": "product",
-   "headline": "Carrier uses AI-driven algorithms in Lynx platform to predict reefer failures for shipping container customers.",
+   "headline": "Carrier embeds AI-driven reefer health algorithms in Lynx container platform to predict failures for shipping customers.",
    "quote": "By combining advanced AI-driven reefer health algorithms in our Lynx applications with enhanced ship connectivity, we enable shipping customers to avoid manual checks on refrigerated units and to predict and avoid failures before they occur.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "CAT",
@@ -451,1019 +304,710 @@
    "event_date": "2026-01-29",
    "category": "product",
    "headline": "Caterpillar launched Cat AI Assistant at CES 2026 to help customers buy, maintain, manage and operate equipment.",
-   "quote": "the launch of our new Cat AI Assistant, which will allow customers to more easily buy, maintain, manage and operate their equipment.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "quote": "We made exciting announcements, including the launch of our new Cat AI Assistant, which will allow customers to more easily buy, maintain, manage and operate their equipment.",
+   "metric": null
   },
   {
    "ticker": "CB",
    "company": "Chubb Ltd.",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "Chubb targets ~150bps combined ratio improvement via AI, data analytics, and digital transformation across 9-10 discrete projects",
-   "quote": "our technical team around technology, data, AI, analytics and our operations. And we work it with those who are fully dedicated, along with the disciplines and the business leaders, to transformation",
-   "metric": "150 basis points combined ratio improvement over 3-4 years",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Chubb targets ~150bps combined ratio improvement via AI, analytics, and digital transformation across 9-10 discrete projects.",
+   "quote": "we're focused, in particular, on 9 or 10 very discrete projects that all the businesses are lined up on, the business leaders, our technical team around technology, data, AI, analytics and our operations.",
+   "metric": "150 basis points combined ratio improvement over 3-4 years"
   },
   {
    "ticker": "CBRE",
    "company": "CBRE Group, Inc.",
    "event_date": "2026-02-12",
    "category": "efficiency",
-   "headline": "CBRE uses AI to improve data delivery to brokers and drive operational efficiency, citing disciplined trade-off analysis vs. offshoring.",
-   "quote": "We think we've turned the corner on that with the use of AI. We're pretty encouraged in some tools we've built.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "CBRE uses AI for internal efficiency gains and to build knowledge advantage from its real estate data assets.",
+   "quote": "We are using AI today in two areas. The first is efficiency. We're deploying AI where its economic value clearly exceeds the economic value of traditional efficiency levers like offshoring.",
+   "metric": null
   },
   {
    "ticker": "CDNS",
    "company": "Cadence Design Systems, Inc.",
    "event_date": "2026-02-17",
-   "category": "product",
-   "headline": "Cadence sells AI-powered EDA tools (ChipStack, Cerebrus, Allegro X AI) delivering up to 10x productivity gains for chip design customers",
-   "quote": "we launched ChipStack AI Super Agent, the world's first agentic AI solution for automating chip design and verification... provides up to 10x productivity improvement for various tasks",
-   "metric": "10x productivity improvement",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "efficiency",
+   "headline": "Cadence applies AI internally to improve efficiency across engineering, go-to-market, and operations.",
+   "quote": "we are increasingly applying AI internally to improve efficiency across engineering, go-to-market and operations.",
+   "metric": null
   },
   {
    "ticker": "CDW",
    "company": "CDW Corp.",
    "event_date": "2026-02-04",
    "category": "product",
-   "headline": "CDW delivers AI solutions for enterprise and SMB customers, including generative AI virtual agents and accelerated compute deployments.",
-   "quote": "a modern IT service management platform that utilizes a generative AI virtual agent as the first line of support. The generative agent instantly resolves common questions, triaging tickets",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "CDW sells AI solutions to customers including agentic AI engagements, Gen AI virtual agents, and enterprise accelerated compute deployments.",
+   "quote": "Professional and managed services top line increased double digits, driven by hybrid infrastructure engagements targeting expense savings and budget optimization, implementation of AI-powered customer care and customer experience solutions and agentic AI engagements.",
+   "metric": null
   },
   {
    "ticker": "CHTR",
    "company": "Charter Communications, Inc.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Charter uses AI tools to reduce service transactions and improve customer/employee experience across sales, call centers, field ops, and network.",
-   "quote": "we continue to invest in technology, including AI, to increase customer satisfaction through self-service where customers want and enhancing our employee service capabilities, that's across sales, call center services, field operations, and the network itself.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Charter uses customer- and employee-focused AI tools to lower service transactions and drive EBITDA efficiency.",
+   "quote": "our efficiency programs, including early benefits from customer and employee focused AI tools, will continue to provide a tailwind for many years to come",
+   "metric": null
   },
   {
    "ticker": "CI",
    "company": "The Cigna Group",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "Cigna Healthcare expanded AI-powered digital tools for provider matching, cost tracking, and virtual assistant chat to improve customer experience.",
-   "quote": "We expanded our suite of AI powered digital tools to improve and personalize customer experiences. These include a provider matching tool to help customers find in-network providers based on their specific needs",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Cigna Healthcare expanded AI-powered digital tools including provider matching and real-time cost tracking, reducing call volumes.",
+   "quote": "We expanded our suite of AI powered digital tools to improve and personalize customer experiences. These include a provider matching tool to help customers find in-network providers",
+   "metric": null
   },
   {
    "ticker": "CINF",
    "company": "Cincinnati Financial Corp.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "Cincinnati Financial built a GenAI chatbot for commercial underwriters and an AI Center of Excellence to drive productivity gains.",
+   "headline": "Cincinnati Financial uses Generative AI chatbot and AI Center of Excellence to boost underwriter productivity and scalability.",
    "quote": "Using Generative AI, we created a proprietary chatbot that our commercial lines underwriters use to obtain reference information and find answers that assist with underwriting decisions.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "CL",
    "company": "Colgate-Palmolive Co.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Colgate-Palmolive investing in AI-driven innovation, revenue growth management, and supply chain predictive analytics as part of 2030 strategy.",
-   "quote": "accelerate investments in scaled capabilities, digital, data, analytics and AI, including our efforts in revenue growth management and AI-driven innovation to generate faster growth, higher return on investment, efficiency and productivity",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Colgate investing in AI for revenue growth management, AI-driven innovation, supply chain predictive analytics, and productivity.",
+   "quote": "continuing to double down on and accelerate investments in scaled capabilities, digital, data, analytics and AI, including our efforts in revenue growth management and AI-driven innovation to generate faster growth, higher return on investment, efficiency and productivity",
+   "metric": null
   },
   {
    "ticker": "CMCSA",
    "company": "Comcast Corp.",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "Comcast deploys AI across its network, achieving 20% reduction in trouble calls and 35% reduction in repair minutes.",
+   "headline": "Comcast deploys AI across its network to optimize customer experience, achieving 20% reduction in trouble calls.",
    "quote": "We are already seeing benefits from greater automation and the deployment of AI across the network to optimize the end-to-end customer experience.",
-   "metric": "20% reduction in trouble calls, 35% reduction in repair minutes",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "20% reduction in trouble calls, 35% reduction in repair minutes"
   },
   {
    "ticker": "CME",
    "company": "CME Group, Inc.",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "CME Group monitors how customers use AI in trading algorithms; adjusts data policies accordingly.",
-   "quote": "We are very much talking with our customers about how they are using AI to enhance a lot of their trading algorithms. But they still need that core source data, and we do and have been adjusting our policies accordingly",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "CME Group monitors how customers use AI in trading algorithms; adjusting data policies as AI develops.",
+   "quote": "We are very much talking with our customers about how they are using AI to enhance a lot of their trading algorithms. But they still need that core source data",
+   "metric": null
   },
   {
    "ticker": "CMG",
    "company": "Chipotle Mexican Grill, Inc.",
    "event_date": "2026-02-03",
    "category": "revenue",
-   "headline": "Chipotle plans to relaunch rewards program using AI to power more personalized user experiences and drive sales.",
-   "quote": "we are in process of relaunching our rewards program this spring to widen the funnel and leverage our data and AI to power more personalized and impactful user experiences.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Chipotle relaunching rewards program using AI to power personalized user experiences for 21M+ members",
+   "quote": "we are in process of relaunching our rewards program this spring to widen the funnel and leverage our data and AI to power more personalized and impactful user experiences",
+   "metric": null
   },
   {
    "ticker": "CNC",
    "company": "Centene Corp.",
    "event_date": "2026-02-06",
    "category": "efficiency",
-   "headline": "Centene uses AI for prior auth approvals, call center ops, member navigation, fraud detection via 75 claim-scoring algorithms",
+   "headline": "Centene uses AI for prior auth, call centers, member engagement, and fraud detection via 75 scoring algorithms.",
    "quote": "we currently score our claims data against 75 different algorithms, designed to triangulate potential fraud. Alerts are triggered and sent to a group of cross-functional experts for immediate review and intervention.",
-   "metric": "75 algorithms",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "75 fraud-detection algorithms"
   },
   {
    "ticker": "COF",
    "company": "Capital One Financial Corp.",
    "event_date": "2026-01-22",
    "category": "efficiency",
-   "headline": "Capital One building AI solutions across its businesses; acquired Brex, which has deployed in-house AI agents for expense management and audit.",
+   "headline": "Capital One building AI solutions across its businesses on modern tech stack built to support AI; Brex acquisition adds in-house AI agents for expense management.",
    "quote": "Our tech stack was built from the outset, working backwards from the AI revolution, and we are now building AI solutions across our businesses.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "COO",
    "company": "The Cooper Cos., Inc.",
    "event_date": "2026-03-05",
    "category": "efficiency",
-   "headline": "CooperCompanies uses AI-enabled tools to automate work and streamline marketing, planning, forecasting, and support functions.",
+   "headline": "CooperCompanies applies AI-enabled tools to streamline marketing, planning, forecasting and support functions.",
    "quote": "we're increasingly applying AI-enabled tools to streamline areas such as marketing, planning, forecasting and support functions",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "COST",
    "company": "Costco Wholesale Corp.",
    "event_date": "2026-03-05",
    "category": "revenue",
-   "headline": "Costco's personalized AI-driven product recommendation carousels drove over $470M in e-commerce sales in Q2 2026.",
-   "quote": "our personalized product recommendation carousels drove over $470 million of e-commerce sales",
-   "metric": "$470M e-commerce sales from personalized recommendation carousels",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Costco working with leading AI companies to ensure its values surface when members use AI shopping tools.",
+   "quote": "We're working closely with the leading AI companies to ensure our values will be visible to existing and potential future Costco members as they engage with these tools.",
+   "metric": null
   },
   {
    "ticker": "CPRT",
    "company": "Copart, Inc.",
    "event_date": "2026-02-19",
    "category": "efficiency",
-   "headline": "Copart deploys AI across engineering, analytics, document processing, driver dispatch, and a total loss decision tool for insurers.",
-   "quote": "Artificial intelligence is turbocharging their productivity day to day. We have also deployed artificial intelligence in business analytics, document processing, our call for release processes, driver dispatch and so on",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Copart deploys AI across engineering, analytics, document processing, driver dispatch, and total loss decision tools to boost productivity.",
+   "quote": "Artificial intelligence is turbocharging their productivity day to day. We have also deployed artificial intelligence in business analytics, document processing, our call for release processes, driver dispatch",
+   "metric": null
   },
   {
    "ticker": "CRL",
    "company": "Charles River Laboratories International, Inc.",
    "event_date": "2026-02-18",
    "category": "efficiency",
-   "headline": "Charles River uses machine learning and AI for virtual control groups in safety assessment studies as part of its NAMs capabilities.",
+   "headline": "Charles River uses machine learning to develop virtual control groups for safety assessment studies.",
    "quote": "our development of virtual control groups for safety assessment studies that utilize machine learning and other techniques",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "CRM",
-   "company": "Salesforce, Inc.",
-   "event_date": "2026-02-25",
-   "category": "revenue",
-   "headline": "Salesforce's Agentforce platform drives 29,000 deals in 15 months; customers report 200bps lift in direct bookings and 400bps higher guest satisfaction via AI agents.",
-   "quote": "agents have participated in a quarter of a million consumer engagements during that period of time, so just in a really, really short period of time a quarter of a million engagements.",
-   "metric": "200 bps increase in direct bookings from AI voice agents; 400 bps increase in guest satisfaction scores",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "CSCO",
    "company": "Cisco Systems, Inc.",
    "event_date": "2026-02-11",
    "category": "efficiency",
-   "headline": "Cisco deploys AI across product development, customer support, sales, security, and supply chain, citing highest-ever customer satisfaction scores.",
-   "quote": "over 90% of customer experience support cases are touched by AI and automation, enabling us to resolve a greater proportion of complex cases within one day, and contributing to our highest ever customer satisfaction scores.",
-   "metric": "90% of customer experience support cases touched by AI",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Cisco deploys AI coding assistance to majority of product developers; over 90% of customer support cases touched by AI",
+   "quote": "the majority of our product developers are using AI coding assistance and working alongside agents, which help us innovate faster across our portfolio",
+   "metric": "90%+ of customer experience support cases"
   },
   {
    "ticker": "CSGP",
    "company": "CoStar Group, Inc.",
    "event_date": "2026-02-24",
-   "category": "revenue",
-   "headline": "CoStar launched Homes AI, an AI-powered home search assistant that drives 7x more leads and 4x more searches vs. non-AI users",
-   "quote": "Site visitors that hit the AI mode are on the site for 16 minutes, 50 seconds as opposed to 4 minutes, 24 seconds for nonusers. AI users do nearly 4 times as many searches, favorite 7 times as many properties",
-   "metric": "7x more email leads, 4x more searches, 16min 50sec session vs 4min 24sec for non-AI users",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "CoStar uses AI to extract lease terms for its Rent Benchmark product and generative AI for virtual staging in Matterport.",
+   "quote": "CoStar Rent Benchmark uses AI to extract starting rents, TI allowances, rent concessions, escalations and more from the actual legal leasing document.",
+   "metric": null
   },
   {
    "ticker": "CTSH",
    "company": "Cognizant Technology Solutions Corp.",
    "event_date": "2026-02-04",
-   "category": "product",
-   "headline": "Cognizant deploys AI builder strategy with 4,000+ AI engagements; 30%+ of developer effort is AI-assisted/agentic across client work",
-   "quote": "we now have over 4,000 AI engagements across all three vectors, and over 30% of our developer effort in software development cycles is AI-assisted and agentic.",
-   "metric": "4,000+ AI engagements; 30%+ of developer effort AI-assisted/agentic",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "efficiency",
+   "headline": "Cognizant reports 30%+ of developer effort is AI-assisted/agentic, with 4,000+ AI engagements across its operations",
+   "quote": "over 30% of our developer effort in software development cycles is AI-assisted and agentic.",
+   "metric": "30% of developer effort AI-assisted/agentic; 4,000+ AI engagements"
   },
   {
    "ticker": "CVX",
    "company": "Chevron Corp.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Chevron uses AI in supply chain negotiations to cut costs as part of $3B-$4B structural cost reduction program.",
-   "quote": "our supply chain team is set up a little bit differently, and they've really been using AI in a neat way to glean more intelligence around how to approach certain negotiations",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Chevron's supply chain team uses AI to improve intelligence around vendor negotiations as part of cost reduction program.",
+   "quote": "our supply chain team is set up a little bit differently, and they've really been using AI in a neat way to glean more intelligence around how to approach certain negotiations.",
+   "metric": null
   },
   {
    "ticker": "DD",
    "company": "DuPont de Nemours, Inc.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "DuPont deploying AI in labs, operations, and commercial workflows to accelerate product development and cut costs.",
+   "headline": "DuPont deploying AI in labs, operations, and commercial workflows to improve productivity and customer experience",
    "quote": "we are also actively deploying digital capabilities and AI to accelerate our progress. Within innovation, we are making investments in our labs to enable streamlined workflows and accelerate our product development cycle times.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "DE",
-   "company": "Deere & Co.",
-   "event_date": "2026-02-19",
-   "category": "product",
-   "headline": "Deere embeds AI-related precision tech in construction equipment and acquired Tenna for AI-driven fleet management insights.",
-   "quote": "there's a huge demand to support the required infrastructure for AI investments. To get all this work done, the industry must boost productivity significantly, with machines doing more work with precision",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "DG",
    "company": "Dollar General Corp.",
    "event_date": "2026-03-12",
    "category": "efficiency",
-   "headline": "Dollar General building an AI operating system to improve productivity, decision automation, and reduce SG&A per unit of work.",
+   "headline": "Dollar General is building an AI operating system to improve productivity, decision automation, and reduce SG&A per unit of work.",
    "quote": "we are building an AI operating system for the enterprise, focused on reshaping our workflows to improve productivity and enablement.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "DGX",
    "company": "Quest Diagnostics, Inc.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "Quest Diagnostics virtual AI agent reduced routine logistics calls by up to 50%; new AI logistics tool to cut courier times.",
+   "headline": "Quest Diagnostics virtual AI agent cut routine logistics calls by up to 50%; new AI logistics tool to reduce courier times.",
    "quote": "our virtual AI agent has reduced routine logistics calls by up to 50%, and we expect a new AI logistics tool will help us reduce courier transportation times as we roll it out this year.",
-   "metric": "up to 50% reduction in routine logistics calls",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "up to 50% reduction in routine logistics calls"
   },
   {
    "ticker": "DIS",
    "company": "The Walt Disney Co.",
    "event_date": "2026-02-02",
    "category": "revenue",
-   "headline": "Disney plans to deploy Sora-generated short-form content on Disney+ via OpenAI licensing deal to boost subscriber engagement.",
+   "headline": "Disney plans to introduce Sora-generated AI content on Disney+ and let subscribers create short-form videos via OpenAI licensing deal.",
    "quote": "we will have the ability to use those videos, those Sora-created videos, in a curated form on Disney+",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "DLR",
    "company": "Digital Realty Trust, Inc.",
    "event_date": "2026-02-05",
    "category": "product",
-   "headline": "Digital Realty offers Private AI Exchange platform enabling enterprises to connect compute, data and models across clouds for AI inference workflows.",
-   "quote": "early but encouraging customer adoption of our Private AI Exchange platform, a growing set of AI-driven networking use cases that enable enterprises to connect the compute data and models privately and dynamically across clouds, campuses and partners.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Digital Realty offers Private AI Exchange platform enabling enterprise AI inference workflows across clouds and partners",
+   "quote": "we saw early but encouraging customer adoption of our Private AI Exchange platform, a growing set of AI-driven networking use cases that enable enterprises to connect the compute data and models privately and dynamically across clouds, campuses and partners.",
+   "metric": null
   },
   {
    "ticker": "DOC",
    "company": "Healthpeak Properties, Inc.",
    "event_date": "2026-02-03",
    "category": "efficiency",
-   "headline": "Healthpeak accelerating corporate automation and enterprise innovation, hiring ex-Palantir leader to streamline internal workflows.",
-   "quote": "We're excited to welcome Omkar Joshi as our new Head of Enterprise Innovation, to lead us through this next chapter of our growth. Omkar previously held leadership roles in both healthcare and real estate at Palantir.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Healthpeak accelerates corporate automation to streamline internal workflows, hiring ex-Palantir leader as Head of Enterprise Innovation.",
+   "quote": "A component of the strategy is the acceleration of corporate automation, which will streamline our internal workflows and deliver a best-in-class experience to our clients.",
+   "metric": null
   },
   {
    "ticker": "DOW",
    "company": "Dow, Inc.",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "Dow plans to leverage automation and AI to streamline end-to-end work processes, cut costs and improve efficiency as part of Transform to Outperform program.",
+   "headline": "Dow plans to leverage automation and AI to streamline work processes, reduce costs, and improve efficiency across the organization.",
    "quote": "streamlining all of our end-to-end work processes by leveraging the power of automation and AI, which we expect will result in lower cost and improved efficiency across the entire organization",
-   "metric": "$2 billion near-term EBITDA improvement targeted (two-thirds from productivity)",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "DVN",
    "company": "Devon Energy Corp.",
    "event_date": "2026-02-18",
    "category": "efficiency",
-   "headline": "Devon Energy scaling AI-enabled artificial lift optimization and analytics to cut LOE and capital costs.",
+   "headline": "Devon Energy accelerating AI-enabled artificial lift optimization and advanced analytics beyond pilot programs to cut costs and boost production.",
    "quote": "we are accelerating the implementation of AI-enabled artificial lift optimization and advanced analytics, well beyond the pilot programs that we've mentioned on prior calls.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "DXCM",
    "company": "DexCom, Inc.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "DexCom plans to integrate AI insights into CGM software to drive higher customer utilization and enhance customer experience.",
-   "quote": "as we make the software updates, we start adding more AI insights to the technology. The idea is can we drive utilization even higher?",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "DexCom plans to integrate AI into customer experience and add AI insights to CGM technology to drive engagement and utilization.",
+   "quote": "we further integrate AI into this customer experience in the near future",
+   "metric": null
   },
   {
    "ticker": "EBAY",
    "company": "eBay, Inc.",
    "event_date": "2026-02-18",
    "category": "revenue",
-   "headline": "eBay's fully AI-native Magical Listing experience cut listing time 25%+ and raised new listing creation rate by 50%+",
-   "quote": "we have seen a more than one-quarter decrease in average listing time and greater than 50% increase in new listing creation rate, double-digit percentage increases in sold items and GMV per lister",
-   "metric": ">25% decrease in listing time, >50% increase in new listing creation rate, double-digit % increase in GMV per lister",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "eBay deploys AI-native listing agents and AI card-scanning to drive seller activity and buyer engagement on its marketplace",
+   "quote": "any smartphone camera can act as an AI agent that guides you on which photos to take for your specific product to increase the likelihood of a sale",
+   "metric": "15 million cards scanned since November beta launch"
   },
   {
    "ticker": "ECL",
    "company": "Ecolab, Inc.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "Ecolab deploys agentic AI applications under One Ecolab program, contributing to $100M+ in SG&A savings as of year-end 2025.",
+   "headline": "Ecolab deploying agentic AI applications to drive $100M+ SG&A savings, targeting $325M by 2027",
    "quote": "deploying a number of agentic AI applications as one of the most advanced companies",
-   "metric": "$100M SG&A savings (with target raised to $325M by 2027)",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "$100M+ SG&A savings delivered; target raised to $325M by 2027"
   },
   {
    "ticker": "EFX",
    "company": "Equifax, Inc.",
    "event_date": "2026-02-04",
-   "category": "efficiency",
-   "headline": "Equifax deploys AI across engineering, operations, and call centers; targets $75M annual savings from AI initiative",
-   "quote": "Over the next three years, we expect to drive towards $75 million of annual cost savings from our E3 AI operations initiative.",
-   "metric": "$75M annual cost savings (3-year target)",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "Equifax launched 100% of new models and scores powered by EFX.AI; also uses AI internally for operational efficiencies.",
+   "quote": "In 2025, we launched 100% of our new models and scores powered by EFX.AI. These new AI models and scores drive strong incremental lift versus traditional non-AI models and scores",
+   "metric": "400+ AI patents secured or pending; 40 new AI patents added in 2025"
   },
   {
    "ticker": "EL",
    "company": "The Est (R)e Lauder Companies, Inc.",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "Est\u00e9e Lauder selects Accenture to deploy AI across organization as part of enterprise business services transformation.",
+   "headline": "Est\u00e9e Lauder partners with Accenture to accelerate AI deployment across the organization as part of new Enterprise Business Services.",
    "quote": "selecting Accenture to transform how we deliver shared services globally as we accelerate the deployment of AI throughout the organization",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ELV",
    "company": "Elevance Health, Inc.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "Elevance Health investing in AI-enabled and digital capabilities to simplify member experience and reduce operating costs.",
+   "headline": "Elevance Health investing in AI-enabled and digital capabilities to simplify member experience and manage costs.",
    "quote": "investing to scale Carelon, embed AI-enabled and digital capabilities, and simplify the member experience",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "EMR",
    "company": "Emerson Electric Co.",
    "event_date": "2026-02-03",
    "category": "product",
-   "headline": "Emerson's Nigel AI advances from AI assistant to AI author for test engineering workflows, cutting hours-long processes to minutes.",
-   "quote": "These upgrades deliver step change in performance by moving Nigel AI from an AI assistant to an AI author, accelerating code development to make engineering workflows more efficient",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Emerson embeds Nigel AI in NI test platform, moving from AI assistant to AI author to accelerate customer engineering workflows.",
+   "quote": "Nigel provides intelligent workflows with AI-driven test design and orchestration to accelerate troubleshooting, optimize lab performance, and enhance decision-making.",
+   "metric": null
   },
   {
    "ticker": "ENPH",
    "company": "Enphase Energy, Inc.",
    "event_date": "2026-02-03",
    "category": "product",
-   "headline": "Enphase piloted an AI assistant in its app in Q4 2025 and plans to roll out AI assistants for customers and installers in Q1 2026.",
+   "headline": "Enphase piloted an AI assistant in its app for customers and plans another for installers to manage fleets and identify upgrade opportunities.",
    "quote": "We piloted an AI assistant in the Enphase App in Q4, and planned to roll it out in Q1 to help customers manage their systems intuitively.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "EOG",
    "company": "EOG Resources, Inc.",
    "event_date": "2026-02-25",
    "category": "efficiency",
-   "headline": "EOG uses proprietary machine learning-based production optimizer to improve base production uptime and lower LOE costs.",
+   "headline": "EOG uses machine learning-based production optimizer to improve base production runtime and lower LOE costs.",
    "quote": "our proprietary production optimizer program which leverages machine learning to optimize base production, delivering better run time and lower cost across the portfolio",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "EPAM",
    "company": "EPAM Systems, Inc.",
    "event_date": "2026-02-19",
    "category": "product",
-   "headline": "EPAM generated $105M+ in Q4 AI-native revenues and targets $600M+ for 2026, embedding AI in client solutions.",
+   "headline": "EPAM delivers $105M+ in Q4 AI-native revenues; targets $600M+ in 2026 from AI-native services sold to clients",
    "quote": "in Q4, we generated more than $105 million in pure AI-native revenues, where we continue to see solid momentum and strong sequential growth.",
-   "metric": "$105M Q4 AI-native revenue; $600M+ target for 2026",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "EQIX",
-   "company": "Equinix, Inc.",
-   "event_date": "2026-02-11",
-   "category": "efficiency",
-   "headline": "Equinix developing AI predictive tools to identify opportunities to reduce or defer MRR churn",
-   "quote": "our teams remain highly focused on reducing MRR churn, which includes the development of AI predictive tools to help identify opportunities to eliminate or defer any MRR churn.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "$105M Q4 AI-native revenues; >$600M projected 2026"
   },
   {
    "ticker": "ES",
    "company": "Eversource Energy",
    "event_date": "2026-02-13",
    "category": "efficiency",
-   "headline": "Eversource deploying AI for safety, line inspections, system planning, customer service, and regulatory proceedings to reduce costs.",
-   "quote": "we're also looking at how we thoughtfully and responsibly use artificial intelligence, which is helping us reimagine how we work, from safety to line inspections, to system planning to customer service",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "ETN",
-   "company": "Eaton Corp. Plc",
-   "event_date": "2026-02-03",
-   "category": "revenue",
-   "headline": "Eaton cites AI-driven data center demand as key growth driver, with AI loads expanding its addressable market per megawatt.",
-   "quote": "as you think about what's happening with AI, our solutions start with the white space products centered around the chip, moving to the gray space where we traditionally won",
-   "metric": "$3.4M per megawatt addressable market post-Boyd acquisition (up from $2.9M)",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Eversource using AI for safety, line inspections, system planning, customer service, and regulatory proceedings to reduce costs.",
+   "quote": "helping us reimagine how we work, from safety to line inspections, to system planning to customer service, and even leveraging AI in how we prepare and respond to regulatory proceedings",
+   "metric": null
   },
   {
    "ticker": "ETSY",
    "company": "Etsy, Inc.",
    "event_date": "2026-02-19",
    "category": "revenue",
-   "headline": "Etsy uses ML-driven AI matching and personalization to boost discovery, app engagement, and owned marketing conversion",
-   "quote": "we're really leveraging the capabilities, new capabilities of AI and the advancement in LLMs to really do things that were very, very \u2013 much harder to do in the past. Really deeply understand our inventory",
-   "metric": "app homepage clicks per visit up 14% YoY; push/email clicks up 25%; agentic traffic 15x YoY",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Etsy uses AI/ML for buyer-item matching and agentic shopping partnerships (ChatGPT, Copilot, Google) driving higher-value orders",
+   "quote": "agentic traffic to Etsy in Q4 was about 15 times what it was last year, underscoring just how rapidly this channel is emerging.",
+   "metric": "15x agentic traffic growth year-over-year in Q4"
   },
   {
    "ticker": "EXPE",
    "company": "Expedia Group, Inc.",
    "event_date": "2026-02-12",
    "category": "efficiency",
-   "headline": "Expedia uses AI internally to speed product development, inventory onboarding, ad targeting, and traveler self-service.",
-   "quote": "we're deploying AI internally to give our team superpowers and make our offerings to travelers and partners even more competitive. This is already delivering tangible benefits.",
-   "metric": "70% faster property onboarding",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Expedia deploys AI internally to speed product development, inventory onboarding, and traveler service resolution.",
+   "quote": "Our product and tech teams are using AI to design and build products, improving quality while shortening cycle time. Our supply teams are leveraging AI to speed up inventory onboarding",
+   "metric": null
   },
   {
    "ticker": "EXR",
    "company": "Extra Space Storage, Inc.",
    "event_date": "2026-02-20",
    "category": "efficiency",
-   "headline": "Extra Space Storage uses AI/ML in pricing models, marketing spend, software development, and call center operations, with internal platform team vetting new use cases.",
+   "headline": "Extra Space Storage uses AI/ML in pricing models, marketing spend, software development, and call center operations, with more use cases planned.",
    "quote": "we've had machine learning in our pricing models as I referenced earlier for years and years and years, also being used into help with marketing spend, software development, certain areas of the call center.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "FAST",
-   "company": "Fastenal Co.",
-   "event_date": "2026-01-20",
-   "category": "efficiency",
-   "headline": "Fastenal uses data-driven pricing tools and analytics to manage tariffs, pricing decisions, and SG&A efficiency.",
-   "quote": "We also continued to use data-driven pricing tools to identify opportunities for tailored increases, ensuring we maintained customer loyalty and minimized volume attrition.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "FDX",
    "company": "FedEx Corp.",
    "event_date": "2026-03-19",
-   "category": "product",
-   "headline": "FedEx launches FedEx Returns+, an AI-powered digital tracking and returns offering for shippers.",
-   "quote": "we announced FedEx Returns+, a market-leading AI-powered digital tracking and returns offering for our customers.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "efficiency",
+   "headline": "FedEx uses AI/ML tools for dimensional pricing, robotic unloading, and real-time trailer prioritization to improve operational efficiency.",
+   "quote": "we also enhanced our dimensional pricing models both in package and express freight, supported by machine learning tools that improve accuracy.",
+   "metric": null
   },
   {
    "ticker": "FE",
    "company": "FirstEnergy Corp.",
    "event_date": "2026-02-18",
    "category": "efficiency",
-   "headline": "FirstEnergy plans to deploy AI alongside technology and continuous improvement to offset planned O&M cost increases.",
+   "headline": "FirstEnergy plans to deploy AI alongside technology and continuous improvement initiatives to offset planned O&M cost increases.",
    "quote": "Operating expenses will continue to be a focus of the management team as we look to deploy technology, artificial intelligence and continuous improvement initiatives to further help offset planned increases.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "FFIV",
    "company": "F5, Inc.",
    "event_date": "2026-01-27",
    "category": "product",
-   "headline": "F5 embeds AI capabilities in products for AI data delivery, runtime security (AI Guardrails), and AI factory load balancing sold to enterprise customers.",
+   "headline": "F5 embeds AI security and load-balancing capabilities in products sold to enterprise customers for AI workloads.",
    "quote": "F5 safeguards AI applications, APIs and models from abuse, data leaks and attacks like prompt injection. We ensure visibility, control and trust.",
-   "metric": "nearly as many AI customers in Q1 FY2026 as in all of FY2025",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "FIS",
    "company": "Fidelity National Information Services, Inc.",
    "event_date": "2026-02-24",
    "category": "product",
-   "headline": "FIS embeds AI across banking products including agentic commerce, fraud prevention, Smart Basket, and regulatory decisioning via Droit acquisition.",
-   "quote": "We built and rolled out next-gen cloud-based solutions like Money Movement Hub... Smart Basket, a real-time AI-powered solution that analyzes shopping behavior to automatically apply optimal payment methods, personalized rewards, and targeted promotions at checkout.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "FIS launched AI transaction platform for agentic commerce and AI-powered fraud/risk management products sold to banks",
+   "quote": "the industry's first AI transaction platform supporting agentic commerce, enabling AI agents to make, negotiate and pay for purchases using pre-approved payment methods, keeping banks central to those flows",
+   "metric": null
   },
   {
    "ticker": "FITB",
    "company": "Fifth Third Bancorp",
    "event_date": "2026-01-20",
    "category": "product",
-   "headline": "Fifth Third's Newline launched a Model Context Protocol server to enable AI agents secure access to its API, a first among US banks.",
+   "headline": "Fifth Third's Newline platform launched a Model Context Protocol server to enable AI agents secure access to its API, a first among US banks.",
    "quote": "Newline's product team also finished the year strong, launching a Model Context Protocol server to enable secure, standardized access to our API and documentation to AI agents.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "FTNT",
    "company": "Fortinet, Inc.",
    "event_date": "2026-02-05",
    "category": "product",
-   "headline": "Fortinet offers 20+ AI-powered security solutions and FortiAI for SecOps, with AI-driven SecOps billing up 22% full year.",
-   "quote": "our strong performance was driven by more than 20 AI-powered solution as customer consolidate multiple security vendor onto Fortinet's platform",
-   "metric": "22% full-year AI-driven SecOps billing growth",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Fortinet offers 20+ AI-powered security solutions; AI-driven SecOps billing grew 22% full-year with ARR up 21%.",
+   "quote": "Our strong performance was driven by more than 20 AI-powered solution as customer consolidate multiple security vendor onto Fortinet's platform.",
+   "metric": "22% full-year billing growth, ARR up 21%"
   },
   {
    "ticker": "FTV",
    "company": "Fortive Corp.",
    "event_date": "2026-02-04",
    "category": "product",
-   "headline": "Fortive embeds agentic and GenAI-powered enhancements in enterprise software products, driving customer demand and growth.",
-   "quote": "what we're seeing is a strong pull from customers for us to deploy agentic and GenAI-powered enhancement, which drives even better customer experience and deepening integration into our customer workflows",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Fortive embeds agentic and GenAI-powered enhancements in its enterprise software products to deepen customer workflow integration.",
+   "quote": "we're seeing is a strong pull from customers for us to deploy agentic and GenAI-powered enhancement, which drives even better customer experience and deepening integration into our customer workflows.",
+   "metric": null
   },
   {
    "ticker": "GE",
    "company": "GE Aerospace",
    "event_date": "2026-01-22",
    "category": "efficiency",
-   "headline": "GE Aerospace lists AI investments as a driver of higher corporate costs in 2026 guidance.",
-   "quote": "Corporate costs and eliminations are up year-over-year to $1.2 billion to $1.3 billion from lower interest income, AI investments, and higher eliminations from internal PAT growth.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "GE Aerospace lists AI investments as a cost item in 2026 corporate guidance, indicating internal AI spending.",
+   "quote": "Corporate costs and eliminations are up year-over-year to $1.2 billion to $1.3 billion from lower interest income, AI investments, and higher eliminations",
+   "metric": null
   },
   {
    "ticker": "GEHC",
    "company": "GE Healthcare Technologies, Inc.",
    "event_date": "2026-02-04",
    "category": "product",
-   "headline": "GE HealthCare embeds AI in imaging equipment and digital health offerings sold to hospital customers.",
-   "quote": "AI-enabled imaging equipment and radiopharmaceutical production to system-wide Patient Monitoring solutions and services.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "GEN",
-   "company": "Gen Digital, Inc.",
-   "event_date": "2026-02-05",
-   "category": "revenue",
-   "headline": "Gen Digital deploys AI lifecycle agent and product recommender to drive customer engagement, upsell conversion, and personalization across its portfolio.",
-   "quote": "Our AI lifecycle agent is orchestrating customer lifecycle communication, engagement, and personalization across the portfolio.",
-   "metric": "Norton cross-sell penetration exceeding 26%; membership conversion nearing 45%",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "GE HealthCare embeds AI in imaging equipment and digital tools sold to healthcare customers",
+   "quote": "This collaboration crosses every aspect of our enterprise, from AI-enabled imaging equipment and radiopharmaceutical production to system-wide Patient Monitoring solutions and services.",
+   "metric": null
   },
   {
    "ticker": "GEV",
    "company": "GE Vernova, Inc.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "GE Vernova investing in AI, robotics and automation to drive productivity in engineering, back office, and operations.",
+   "headline": "GE Vernova deploying AI in engineering and back-office functions, with returns expected to grow in 2027-2028.",
    "quote": "AI is starting to gain momentum in our engineering organizations and back office functions.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "GM",
    "company": "General Motors Co.",
    "event_date": "2026-01-27",
    "category": "efficiency",
-   "headline": "GM uses AI, machine learning, and robotics in manufacturing to improve safety, quality, and speed, including a predictive weld quality model.",
+   "headline": "GM uses AI and machine learning in manufacturing plants to improve weld quality, safety, and speed, including 2,500 robots at Orion Assembly.",
    "quote": "AI, machine learning, and robotics are also driving safety, quality and speed in our manufacturing plants so we can get great products and technologies into the hands of customers faster.",
-   "metric": "20% savings in material and tooling costs (from virtual simulation tools); 2,500 robots and cobots at Orion Assembly",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "GOOGL",
    "company": "Alphabet, Inc.",
    "event_date": "2026-02-04",
    "category": "revenue",
-   "headline": "Alphabet uses Gemini AI in Search, Ads, and YouTube to drive user engagement and advertiser revenue growth.",
-   "quote": "We've been deploying Gemini models to improve query understanding at a rate of almost a launch per month for the last two years. These improvements drive better query matching, ranking and quality, making search ads even more effective.",
-   "metric": "Search revenues grew 17%; AI Mode daily queries per user doubled since launch",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Alphabet uses Gemini AI in Search (AI Mode, AI Overviews) driving record Search usage and revenue growth of 17%",
+   "quote": "Search saw more usage in Q4 than ever before as AI continues to drive an expansionary moment.",
+   "metric": "Search revenue +17% YoY; daily AI Mode queries per user doubled since launch"
+  },
+  {
+   "ticker": "GPN",
+   "company": "Global Payments, Inc.",
+   "event_date": "2026-02-18",
+   "category": "efficiency",
+   "headline": "Global Payments uses AI-enabled dev tools and sales platform to boost productivity and seller performance",
+   "quote": "we are investing in the adoption of our new AI enabled development tools and enhanced product operating model, allowing for increased productivity and quicker speed to market for new functionality.",
+   "metric": null
   },
   {
    "ticker": "GRMN",
    "company": "Garmin Ltd.",
    "event_date": "2026-02-18",
    "category": "product",
-   "headline": "Garmin adds AI-powered nutrition tracking to Connect+ service and an AI assistant to its next-gen auto domain controller.",
-   "quote": "we announced exciting enhancements to our premium Connect+ service with nutrition tracking and insights powered by AI-based active intelligence to help users achieve nutrition goals.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Garmin embeds AI in Connect+ nutrition tracking service and next-gen auto OEM domain controller AI assistant.",
+   "quote": "nutrition tracking and insights powered by AI-based active intelligence to help users achieve nutrition goals",
+   "metric": null
   },
   {
    "ticker": "GS",
    "company": "The Goldman Sachs Group, Inc.",
    "event_date": "2026-01-15",
    "category": "efficiency",
-   "headline": "Goldman Sachs launches 'One Goldman Sachs 3.0' operating model powered by AI to reengineer internal processes for efficiency",
+   "headline": "Goldman Sachs launched 'One Goldman Sachs 3.0' operating model propelled by AI, targeting six work streams for process reengineering.",
    "quote": "we announced the launch of One Goldman Sachs 3.0, our new operating model propelled by AI. We are excited to embark on this effort, starting with six work streams we identified as ripe for disruption.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "GWW",
    "company": "W.W. Grainger, Inc.",
    "event_date": "2026-02-03",
    "category": "efficiency",
-   "headline": "Grainger uses AI/ML across marketing optimization, seller effectiveness, and productivity in both business segments.",
+   "headline": "Grainger uses ML to optimize marketing spend at SKU level and AI to improve seller effectiveness and insights platform",
    "quote": "we are leveraging our know-how in machine learning to optimize investment at the SKU level based on our knowledge of relative pricing, product availability, and customer lifetime value.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "HAL",
-   "company": "Halliburton Co.",
-   "event_date": "2026-01-21",
-   "category": "product",
-   "headline": "Halliburton reports 18% customer adoption increase for AI-driven ZEUS IQ, Sensori, and Auto Frac completion technologies.",
-   "quote": "customer adoption of ZEUS IQ, Sensori and auto frac increased by 18%, which tells me it is working.",
-   "metric": "18% adoption increase",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "HAS",
    "company": "Hasbro, Inc.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "Hasbro deploying AI across financial planning, supply chain, design, and productivity workflows, expecting to free 1M+ hours of lower-value work",
+   "headline": "Hasbro deploys AI across finance, supply chain, and design; expects to free 1M+ hours of lower-value work annually",
    "quote": "Over the next year, we anticipate these workflows will free up more than 1 million hours of lower-value work. And we're reinvesting that capacity into innovation, creativity, and serving fans.",
-   "metric": "1 million hours freed, 80% reduction in concept-to-prototype time",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "1 million hours freed; 80% reduction in concept-to-prototype time"
   },
   {
    "ticker": "HCA",
    "company": "HCA Healthcare, Inc.",
    "event_date": "2026-01-27",
    "category": "efficiency",
-   "headline": "HCA Healthcare uses AI and automation as part of $400M resiliency program targeting labor, supply, and operating cost efficiencies.",
-   "quote": "We are leveraging three primary capabilities in driving our financial resiliency program. First, internal and external benchmarking and advanced analytics. Second, digital transformation with AI and automation.",
-   "metric": "$400M",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "HCA Healthcare uses AI and automation as part of $400M resiliency/cost-savings program for 2026.",
+   "quote": "digital transformation with AI and automation. And third, expanding and leveraging our shared service platforms.",
+   "metric": "$400M"
   },
   {
    "ticker": "HD",
    "company": "The Home Depot, Inc.",
    "event_date": "2026-02-24",
    "category": "revenue",
-   "headline": "Home Depot deploying AI-powered project list builder and blueprint takeoff tools for Pro customers to drive engagement and sales.",
+   "headline": "Home Depot uses AI-powered blueprint takeoffs and project list builders to drive Pro customer engagement and sales conversion.",
    "quote": "we're introducing a number of project management and list builders for our Pros, including things like an AI takeoff scheme, letting Pros build projects just typing in the type of project they're working on",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "HIG",
    "company": "The Hartford Insurance Group, Inc.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Hartford uses AI to accelerate medical record summarization in claims, enhance underwriting precision, and deploy Amazon call center AI for customer interactions.",
-   "quote": "AI is accelerating medical record summarization; in underwriting, where it is providing more consistent, data-rich insights with greater precision; and in operations, where the deployment of Amazon's call center technology is enhancing customer interactions",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Hartford uses AI for claims medical record summarization, underwriting insights, and Amazon call center technology in operations",
+   "quote": "AI is accelerating medical record summarization; in underwriting, where it is providing more consistent, data-rich insights with greater precision; and in operations, where the deployment of Amazon's call center technology",
+   "metric": null
   },
   {
    "ticker": "HLT",
    "company": "Hilton Worldwide Holdings, Inc.",
    "event_date": "2026-02-11",
    "category": "efficiency",
-   "headline": "Hilton deploying AI across 40+ use cases including hotel openings, distribution, customer experience, and cost reduction",
-   "quote": "we're doing a whole bunch of stuff. We have, I don't know, 40 use cases plus and growing in all of those buckets around AI, working with a bunch of great partners",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Hilton says its modern tech stack gives it competitive advantage in adopting AI across the organization.",
+   "quote": "we're spending a huge amount of time on AI throughout our whole organization. And one of the things that I believe gives us a meaningful competitive advantage is that we have a modern tech stack.",
+   "metric": null
+  },
+  {
+   "ticker": "HON",
+   "company": "Honeywell International, Inc.",
+   "event_date": "2026-01-29",
+   "category": "product",
+   "headline": "Quantinuum integrates quantum computer Helios with NVIDIA AI supercomputing to create hybrid quantum-AI architecture sold commercially.",
+   "quote": "This collaboration between Quantinuum and NVIDIA is creating a future where AI becomes more expansive through quantum computing and quantum computing becomes more powerful through AI.",
+   "metric": null
   },
   {
    "ticker": "HPE",
    "company": "Hewlett Packard Enterprise Co.",
    "event_date": "2026-03-09",
-   "category": "efficiency",
-   "headline": "HPE deploys generative AI internally targeting 90% reduction in engineer search time and 30% faster quote cycles",
-   "quote": "we are using generative AI to surface technical insights targeting a 90% reduction in search time for engineers and enabling faster, higher quality service resolution",
-   "metric": "90% reduction in search time; 30% faster quote cycles",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "HPE sells AI infrastructure (servers, networking, storage) and embeds AIOps in networking products sold to customers.",
+   "quote": "customers are adopting our self-driving AIOps networking strategy and solutions",
+   "metric": "$1.7B\u2013$1.9B cumulative networks-for-AI orders targeted by end of fiscal 2026"
   },
   {
    "ticker": "HPQ",
    "company": "HP, Inc.",
    "event_date": "2026-02-24",
    "category": "efficiency",
-   "headline": "HP uses AI agents in supply chain and channel partner experience, targeting ~$1B gross annualized run rate savings by end of FY2028.",
-   "quote": "we are working to integrate AI into our channel partner experience through a digital teammate that will answer questions, act on queries, provide integrated workflows, and proactively guide next steps.",
-   "metric": "$1B gross annualized run rate savings by end of FY2028",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "HP uses a company-wide AI-enabled program to lower logistics costs and accelerate productivity offsets.",
+   "quote": "lowering logistics costs with agile end-to-end planning processes as part of the company-wide AI-enabled program. And we've accelerated company-wide productivity efforts as part of this program",
+   "metric": null
   },
   {
    "ticker": "HSIC",
    "company": "Henry Schein, Inc.",
    "event_date": "2026-02-24",
    "category": "product",
-   "headline": "Henry Schein integrating AWS generative AI into dental practice software, including voice notes, AI imaging, and charting tools",
-   "quote": "We made meaningful progress on AI initiatives through our new partnership with Amazon Web Services, integrating its Generative AI technology into Dentrix Ascend, Dentrix and Dentally.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "HUM",
-   "company": "Humana Inc.",
-   "event_date": "2026-02-11",
-   "category": "efficiency",
-   "headline": "Humana cites technology, automation, and outsourcing as drivers of operating cost ratio improvement in 2026 transformation efforts.",
-   "quote": "leveraging technology and automation. For example, our work with partners to outsource components of some corporate functions is progressing as planned and delivering improved capabilities and cost efficiencies.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Henry Schein partners with AWS to integrate generative and agentic AI into Henry Schein One dental software platform.",
+   "quote": "we also have now a very strong partnership with Amazon Web Services for both generative and agentic AI integration with Henry Schein One.",
+   "metric": null
   },
   {
    "ticker": "IBM",
    "company": "International Business Machines Corp.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "IBM's AI-based Project Bob dev system gives 20,000+ IBMers average 45% productivity gains",
+   "headline": "IBM's Project Bob AI development system used by 20,000+ employees delivers average 45% productivity gains",
    "quote": "We have more than 20,000 IBMers that are using Project Bob, reporting productivity gains averaging 45%, a powerful Client Zero use case.",
-   "metric": "45% productivity gains; $4.5B annual run-rate savings (AI contributing)",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "45% productivity gains; $4.5B annual run rate savings"
   },
   {
    "ticker": "ICE",
    "company": "Intercontinental Exchange, Inc.",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "ICE deploying ICE Aurora AI agents in mortgage technology to automate manual workflows, reduce cost per loan, and boost productivity.",
-   "quote": "Applying our ICE Aurora platform and agents to workflow automation remains the most effective lever, moving manual stare-and-compare tasks to exception-based workflows where people focus only on what needs human judgment.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "ICE investing in AI tools for internal productivity and installing AI infrastructure (GPUs, storage, network equipment) in 2026 CapEx.",
+   "quote": "developing new artificial intelligence tools that will drive future productivity and innovation.",
+   "metric": null
   },
   {
    "ticker": "IDXX",
    "company": "IDEXX Laboratories, Inc.",
    "event_date": "2026-02-02",
    "category": "product",
-   "headline": "IDEXX embeds AI-powered analysis in inVue Dx for point-of-care cytology and AI-powered viewer in radiography system",
+   "headline": "IDEXX embeds AI-powered analysis in inVue Dx for automated fine-needle aspirate cytology and radiography viewer.",
    "quote": "By automating key steps and applying AI-powered analysis, inVue Dx allows technicians to prepare a sample and receive results within minutes while the patient is still in the clinic",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "IFF",
    "company": "International Flavors & Fragrances, Inc.",
    "event_date": "2026-02-12",
    "category": "efficiency",
-   "headline": "IFF uses AI-enabled operational excellence and biotechnology/AI capabilities to fund reinvestment and improve margins.",
+   "headline": "IFF uses AI-enabled operational excellence and biotechnology/AI capabilities to support R&D and productivity initiatives.",
    "quote": "advancing our AI-enabled operational excellence to fund reinvestment and improve margins",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "INTU",
    "company": "Intuit, Inc.",
    "event_date": "2026-02-26",
    "category": "revenue",
-   "headline": "Intuit uses AI agents and HI platform across TurboTax, QuickBooks, and Credit Karma to drive customer growth and revenue expansion",
+   "headline": "Intuit's AI agents used by 3M+ customers; accounting agent categorized 237M transactions in January alone, driving ARPC growth",
    "quote": "Over 3 million customers have leveraged agents to do the work for them, with all-time repeat engagement of more than 85%.",
-   "metric": "17% Q2 revenue growth; 237M transactions categorized by accounting agent in January; 80%+ of TurboTax customers used AI-powered automated data entry",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "237M transactions categorized in January; 3M+ customers using AI agents; 85% repeat engagement"
   },
   {
    "ticker": "IQV",
    "company": "IQVIA Holdings, Inc.",
    "event_date": "2026-02-05",
    "category": "product",
-   "headline": "IQVIA has deployed 150+ AI agents across 30+ use cases in clinical and commercial workflows, and sells AI-enabled analytics solutions to pharma clients.",
-   "quote": "our agents have been training on our data assets for over a year now, and to date, we've deployed over 150 agents covering over 30 use cases across the business, clinical and commercial.",
-   "metric": "150 agents, 30+ use cases",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "IQVIA embeds AI-driven planning, analytics, and agentic solutions into clinical and commercial services sold to pharma clients.",
+   "quote": "we announced a partnership with NVIDIA, with whom we have been working for over a year to build agents into our workflows, both in clinical and commercial.",
+   "metric": null
   },
   {
    "ticker": "IRM",
    "company": "Iron Mountain, Inc.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "Iron Mountain's DXP platform uses AI to extract metadata from 500M+ images/files for financial services customer",
+   "headline": "Iron Mountain's DXP platform uses AI to extract metadata from 500M+ images/files for customers, winning new contracts.",
    "quote": "The solution incorporates DXP's AI capabilities to extract metadata from over 500 million images and digital files to improve the quality and accuracy of the customer's database",
-   "metric": "500 million images and digital files",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "IT",
    "company": "Gartner, Inc.",
    "event_date": "2026-02-03",
    "category": "revenue",
-   "headline": "Gartner uses AI-powered AskGartner tool to surface relevant insights for clients, driving higher renewal rates",
+   "headline": "Gartner's AI-powered AskGartner tool drove substantially higher renewal rates among licensed users who engaged with it.",
    "quote": "Licensed users who used AskGartner had substantially higher renewal rates than those who did not even with the same levels of engagement.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "J",
    "company": "Jacobs Solutions, Inc.",
    "event_date": "2026-02-03",
-   "category": "efficiency",
-   "headline": "Jacobs uses AI/ML platforms including predictive analytics tool Acuity and digital twinning across all end markets to drive productivity and project delivery.",
-   "quote": "we're using some strong, predictive analytics, it's a platform called Acuity, in order to really get out in front of field-level issues that are coming up in real-time. And that's been a real game changer for us.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "Jacobs offers AI advisory services and is acquiring PA Consulting for its AI advisory competencies to sell to clients.",
+   "quote": "We see PA's core competencies in digital consulting, innovation and AI advisory as a force multiplier for Jacobs and a key accelerant in our strategy to redefine the asset lifecycle.",
+   "metric": null
   },
   {
    "ticker": "JCI",
    "company": "Johnson Controls International Plc",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "Johnson Controls uses AI in workflows to drive step-change productivity gains for frontline sales and operations teams.",
+   "headline": "Johnson Controls using AI in internal workflows to amplify productivity, enabling work in hours vs. days for sales and operations teams.",
    "quote": "as we bring AI into these workflows, we see the potential for another meaningful step-change, one that simply wouldn't be achievable without AI.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "JKHY",
@@ -1472,370 +1016,277 @@
    "category": "efficiency",
    "headline": "Jack Henry uses AI in back-office operations and product development to control headcount costs and improve processes.",
    "quote": "we at Jack Henry have been spending a lot of time in using AI, both in the back office and in our product set. All of our new platform products do contain some form of AI.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "KEY",
    "company": "KeyCorp",
    "event_date": "2026-01-20",
    "category": "efficiency",
-   "headline": "KeyCorp investing in AI for call centers, internal operations, and loan underwriting/processing to cut costs and improve client experience.",
+   "headline": "KeyCorp investing in AI for call centers, internal operations, and loan underwriting to cut costs and improve client experience.",
    "quote": "We've done it in certain areas like our call centers and certain areas like internal things, but there's opportunities to really rethink our entire business, for example, loan underwriting and processing.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
-   "ticker": "KHC",
-   "company": "The Kraft Heinz Co.",
-   "event_date": "2026-02-11",
-   "category": "efficiency",
-   "headline": "Kraft Heinz CEO says AI is changing everything and the company needs to be on the forefront of deploying it against brands and customers.",
-   "quote": "AI is changing everything. And we need to be on the forefront of the way we think about technology and deploying it against our brands and with our customers.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "ticker": "KEYS",
+   "company": "Keysight Technologies, Inc.",
+   "event_date": "2026-02-23",
+   "category": "product",
+   "headline": "Keysight sells AI-embedded RaySim AI RAN product that emulates real-world networks to train AI models for network functions.",
+   "quote": "we registered multiple wins for our newly launched RaySim AI RAN offering, which makes possible the emulation of real-world network environments to train AI models for network functions.",
+   "metric": null
   },
   {
    "ticker": "KLAC",
    "company": "KLA Corp.",
    "event_date": "2026-01-29",
-   "category": "efficiency",
-   "headline": "KLA applies AI-driven analytics in its systems to deliver actionable insights that streamline chip manufacturing and accelerate time to yield.",
+   "category": "product",
+   "headline": "KLA embeds AI-driven analytics in its process control systems to deliver actionable insights and accelerate chip manufacturing yield.",
    "quote": "our systems are also applying AI-driven analytics to deliver actionable insights that streamline chip manufacturing and accelerate innovation and time to yield for next-generation AI applications.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "KR",
    "company": "The Kroger Co.",
    "event_date": "2026-03-05",
-   "category": "revenue",
-   "headline": "Kroger deploying agentic AI shopping assistant to help customers discover items, build baskets, plan meals, and stay within budgets",
-   "quote": "we're introducing agentic AI shopping for our customers, which will help them discover items, build baskets, plan meals, and stay within budgets, all in a personalized way.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "efficiency",
+   "headline": "Kroger uses AI for competitive pricing, shrink reduction, faster fulfillment, and associate productivity tools.",
+   "quote": "We're already seeing results from more competitive pricing, improved shrink, to faster fulfillment and tools that help our associates work more efficiently.",
+   "metric": null
   },
   {
    "ticker": "LDOS",
    "company": "Leidos Holdings, Inc.",
    "event_date": "2026-02-17",
    "category": "efficiency",
-   "headline": "Leidos uses AI to accelerate grid engineering execution in commercial energy and drive enterprise-wide cost reduction via transformation initiative.",
-   "quote": "increased use of AI to accelerate grid engineering execution within commercial energy",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Leidos deploying AI internally to drive workplace efficiency and cost reduction via Enterprise Transformation initiative",
+   "quote": "I'm charging Will with driving significant outcomes in workplace efficiency through business process reengineering unlocked via the power of technology, particularly AI.",
+   "metric": null
   },
   {
    "ticker": "LEN",
    "company": "Lennar Corp.",
    "event_date": "2026-03-13",
    "category": "efficiency",
-   "headline": "Lennar uses AI-assisted performance analysis and digital agents to improve sales response times and engagement quality.",
+   "headline": "Lennar uses AI-assisted performance analysis and digital agents to improve sales response times and lead quality",
    "quote": "we improved our quality scores by 7%, reflecting our continued investment in coaching and AI-assisted performance analysis.",
-   "metric": "7% improvement in quality scores; 71% improvement in response time year-over-year",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "7% quality score improvement; 71% faster response time year-over-year"
   },
   {
    "ticker": "LH",
    "company": "Labcorp Holdings, Inc.",
    "event_date": "2026-02-17",
    "category": "efficiency",
-   "headline": "Labcorp deployed AI in pathology, cytology, microbiology, appointment scheduling, results reporting, and a physician test-finder tool.",
+   "headline": "Labcorp uses AI in pathology, cytology, microbiology, appointment scheduling, results reporting, and physician test-finding.",
    "quote": "AI-powered solutions simplified appointment scheduling and results reporting for consumers. Our AI test finder experience for physicians helps them find the right lab test in seconds",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "LHX",
    "company": "L3Harris Technologies, Inc.",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "L3Harris mentions adopting AI as part of its ongoing company transformation and operating system evolution.",
+   "headline": "L3Harris cites AI adoption as part of its ongoing operational transformation and company evolution.",
    "quote": "we are strengthening our foundation for long-term performance, by transforming our company, evolving our operating system, and adopting AI.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "LKQ",
    "company": "LKQ Corp.",
    "event_date": "2026-02-19",
    "category": "efficiency",
-   "headline": "LKQ uses AI with a partner to improve real-time, SKU-level pricing decisions in North America.",
-   "quote": "we can navigate through that using some of the AI technology that we've been implementing with one of our partners to just help us react quicker to that.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "LKQ uses AI-powered pricing technology to react in real-time to competitor pricing at SKU and location level.",
+   "quote": "we've leveraged a, like I said, a partner to help us get more real-time, more reactive. Looking at a SKU down to a regional level, maybe even a shop level, understanding the demand.",
+   "metric": null
   },
   {
    "ticker": "LLY",
    "company": "Eli Lilly & Co.",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "Eli Lilly uses AI for drug discovery, including a new supercomputer and NVIDIA co-innovation AI lab collaboration.",
+   "headline": "Lilly uses AI and a new NVIDIA co-innovation lab to accelerate drug discovery and development.",
    "quote": "we recently announced a new collaboration with NVIDIA to open a co-innovation AI lab. This project will combine Lilly's scientific expertise with NVIDIA's leading technology to accelerate drug discovery.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "LMT",
    "company": "Lockheed Martin Corp.",
    "event_date": "2026-01-29",
    "category": "product",
-   "headline": "Lockheed Martin uses AI in autonomous Black Hawk helicopter and AEGIS Weapon System battlefield updates",
-   "quote": "we pioneered over-the-air updates to the AEGIS Weapon System for real-time battlefield advantages using AI",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Lockheed Martin embeds AI in autonomous Black Hawk helicopter and AEGIS Weapon System updates for military customers.",
+   "quote": "This AI-enabled unmanned helicopter technology will enable critical missions such as contested logistics, air evacuation and even wildfire fighting without putting pilots and air crews at risk.",
+   "metric": null
   },
   {
    "ticker": "LOW",
    "company": "Lowe's Companies, Inc.",
    "event_date": "2026-02-25",
    "category": "efficiency",
-   "headline": "Lowe's deploys AI-enabled tools for Pro sales companions, shelf replenishment, and merchant productivity.",
-   "quote": "with the recent rollout of our new AI-enabled Pro companion, we're giving our Pro sales team even more opportunities for success.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Lowe's deploys AI-enabled Pro companion to help sales associates prepare for customer conversations and serve complex orders.",
+   "quote": "with the recent rollout of our new AI-enabled Pro companion, we're giving our Pro sales team even more opportunities for success. This new capability helps sales associates quickly prepare for conversations with Pros",
+   "metric": null
   },
   {
    "ticker": "LRCX",
    "company": "Lam Research Corp.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "Lam Research uses AI-driven equipment intelligence and Dextro cobots for predictive/automated maintenance in customer fabs",
-   "quote": "we see Lam's equipment intelligence solutions and Dextro cobots leading the way to the autonomous fab, with predictive and automated maintenance and precise global fleet matching",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Lam Research uses equipment intelligence solutions and Dextro cobots to enable autonomous fab operations and predictive maintenance.",
+   "quote": "we see Lam's equipment intelligence solutions and Dextro cobots leading the way to the autonomous fab, with predictive and automated maintenance and precise global fleet matching.",
+   "metric": null
   },
   {
    "ticker": "LULU",
    "company": "lululemon athletica, Inc.",
    "event_date": "2026-03-17",
    "category": "efficiency",
-   "headline": "lululemon targeting cost savings through automation and AI as part of enterprise enablement action plan",
-   "quote": "Key workstreams are increasing efficiencies across inventory management, supply chain and non-merchandise procurement, and reducing complexity while capitalizing on automation and AI opportunities.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "lululemon targeting cost savings by capitalizing on automation and AI opportunities in inventory, supply chain, and procurement",
+   "quote": "reducing complexity while capitalizing on automation and AI opportunities",
+   "metric": null
   },
   {
    "ticker": "MA",
    "company": "Mastercard, Inc.",
    "event_date": "2026-01-29",
-   "category": "efficiency",
-   "headline": "Mastercard uses AI and analytics to help clients activate cardholders, drive top-of-wallet behavior, and increase approval rates.",
-   "quote": "By using our advanced analytics and AI capabilities, we help clients activate their cardholders, drive top-of-wallet behavior and increase approval rates",
-   "metric": "270 bps increase in digital commerce approval rates over five years",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "Mastercard uses AI capabilities to help clients activate cardholders, drive top-of-wallet behavior, and increase approval rates",
+   "quote": "By using our advanced analytics and AI capabilities, we help clients activate their cardholders, drive top-of-wallet behavior and increase approval rates; and it works.",
+   "metric": "270 bps approval rate increase in digital commerce over 5 years"
   },
   {
    "ticker": "MAR",
    "company": "Marriott International, Inc.",
    "event_date": "2026-02-10",
    "category": "revenue",
-   "headline": "Marriott deploying natural language AI search on marriott.com and Bonvoy app; partnering with Google AI Mode and OpenAI Ad Pilot to drive direct bookings",
-   "quote": "we plan to start deploying natural language search on marriott.com and on the Bonvoy mobile app. We're also optimizing our content for generative AI technologies",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Marriott plans to deploy natural language AI search on marriott.com and Bonvoy app to strengthen direct bookings",
+   "quote": "In the first half of this year, we plan to start deploying natural language search on marriott.com and on the Bonvoy mobile app.",
+   "metric": null
   },
   {
    "ticker": "MCD",
    "company": "McDonald's Corp.",
    "event_date": "2026-02-11",
    "category": "efficiency",
-   "headline": "McDonald's deploys AI-enabled tools for voice ordering and shift management to improve restaurant operations for crew and customers.",
+   "headline": "McDonald's deploying AI-enabled tools for voice ordering and shift management to improve restaurant operations.",
    "quote": "using these tests to learn quickly and apply those learnings to capabilities like voice ordering, shift management tools, and other AI-enabled tools and digital enhancements that help make running great restaurants easier",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "MCK",
    "company": "McKesson Corp.",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "McKesson uses AI/automation to boost employee productivity in annual verification season and resolve 75% of DSCSA customer inquiries autonomously.",
-   "quote": "we launched an AI chat tool in November to specifically handle customer inquiries related to the Drug Supply Chain Security Act... prevented 75% of inquiries from being escalated",
-   "metric": "75% of DSCSA inquiries deflected; each FTE supporting 120 more patients year-over-year",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "McKesson uses AI chat tool to handle DSCSA inquiries, preventing 75% of escalations and improving first contact resolution.",
+   "quote": "we launched an AI chat tool in November to specifically handle customer inquiries related to the Drug Supply Chain Security Act. By enabling natural language answers to complex DSCSA data questions, we prevented 75% of inquiries from being escalated",
+   "metric": "75% of inquiries prevented from escalation"
   },
   {
    "ticker": "MCO",
    "company": "Moody's Corp.",
    "event_date": "2026-02-18",
    "category": "product",
-   "headline": "Moody's embeds AI agents and GenAI tools in banking, KYC, insurance and lending workflows sold to customers.",
-   "quote": "Customers who have purchased or upgraded into at least one standalone GenAI or agentic solution are retained at a rate of 97% and are growing at roughly twice the rate of the rest of the customer base.",
-   "metric": "97% retention rate for GenAI/agentic solution customers; ~67% average uplift on AI-enabled lending suite renewals",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Moody's Analytics sells AI-enabled workflow agents and data products; two-thirds of eligible renewals converted to AI lending suite with 67% average uplift.",
+   "quote": "Roughly two-thirds of eligible renewals converted to our AI-enabled lending suite in 2025 with an average uplift of about 67%.",
+   "metric": "67% average uplift on AI-enabled lending suite renewals; 97% retention for GenAI/agentic solution customers"
   },
   {
    "ticker": "MDT",
    "company": "Medtronic Plc",
    "event_date": "2026-02-17",
    "category": "product",
-   "headline": "Medtronic's Stealth AXiS spinal system and Touch Surgery ecosystem embed AI-powered planning, navigation, and analytics into surgical products.",
-   "quote": "Stealth AXiS is a new transformative platform that unifies AI-powered planning, robotics, and navigation into one seamless system, elevated by the entire AiBLE ecosystem.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Medtronic embeds AI in Touch Surgery ecosystem and Stealth AXiS spinal platform sold to hospital customers.",
+   "quote": "Hugo is especially compelling when paired with our Touch Surgery digital ecosystem, an AI-powered data, connectivity and analytics technology that is unique to Medtronic.",
+   "metric": "1,000+ Touch Surgery systems globally; installations up 20%+ sequentially"
   },
   {
    "ticker": "MET",
    "company": "MetLife, Inc.",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "MetLife credits AI tools and emerging technology with helping lower direct expense ratio to 11.7%, ahead of target.",
-   "quote": "we continue to benefit from our efficiency mindset in driving down our cost curve with our direct expense ratio falling to 11.7% for the year, which is well ahead of target. This includes seeing the benefits from the adoption of AI tools and other emerging technology broadly across our company",
-   "metric": "direct expense ratio of 11.7% (target was 11.8%)",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "MetLife credits AI tools with helping lower direct expense ratio to 11.7% in 2025, ahead of its five-year target schedule.",
+   "quote": "we've seen the opportunities to reengineer processes while also injecting AI tools to enhance the speed and accuracy of our delivery, all of which improves the lives of our customers and our employees.",
+   "metric": "direct expense ratio lowered to 11.7% (ahead of 11.3% five-year target)"
   },
   {
    "ticker": "META",
    "company": "Meta Platforms, Inc.",
    "event_date": "2026-01-28",
    "category": "revenue",
-   "headline": "Meta uses AI across ads ranking, recommendation systems, and creative tools, driving measurable conversion and engagement lifts",
-   "quote": "The GEM and sequence learning improvements together drove a 3.5% lift in ad clicks on Facebook and a more than 1% gain in conversions on Instagram in Q4.",
-   "metric": "3.5% lift in ad clicks on Facebook; >1% gain in conversions on Instagram; 30% increase in output per engineer; 24% increase in incremental conversions",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Meta uses AI-driven ad performance and recommendation systems to drive revenue growth across its apps and ads business.",
+   "quote": "Our business also performed very well thanks to record-breaking holiday demand and AI-driven performance gains.",
+   "metric": null
   },
   {
    "ticker": "MGM",
    "company": "MGM Resorts International",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "MGM Resorts used AI for digital concierge and guest engagement, driving 1M chats and faster check-ins",
-   "quote": "we saw 1 million chats through our digital concierge last year, as we utilized AI to both transform guest engagement and accelerate productivity",
-   "metric": "18% increase in digital check-ins; check-in speed improved from 6.5 minutes to 1.5 minutes",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "MGM uses AI-powered digital concierge to transform guest engagement and accelerate productivity, logging 1M chats in 2025.",
+   "quote": "we utilized AI to both transform guest engagement and accelerate productivity",
+   "metric": "1 million chats through digital concierge in 2025"
   },
   {
    "ticker": "MMM",
    "company": "3M Co.",
    "event_date": "2026-01-20",
    "category": "efficiency",
-   "headline": "3M uses AI-enabled models to optimize manufacturing changeovers and improve quality, targeting cost of poor quality below 4%.",
+   "headline": "3M uses AI-enabled models to optimize manufacturing changeovers and reduce cost of poor quality.",
    "quote": "We're leveraging Kaizen events, visual inspection systems, automation solutions, and AI-enabled models to optimize changeovers to improve quality",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "MRNA",
    "company": "Moderna, Inc.",
    "event_date": "2026-02-13",
    "category": "efficiency",
-   "headline": "Moderna says AI tool adoption has touched every part of its business, expecting further productivity gains in 2026.",
-   "quote": "the adoption of AI tools has touched every part of our business and we expect further productivity improvement in 2026.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Moderna says AI tools adopted across every part of its business, expecting further productivity gains in 2026.",
+   "quote": "As part of our cost efficiency program, the adoption of AI tools has touched every part of our business and we expect further productivity improvement in 2026.",
+   "metric": null
   },
   {
    "ticker": "MS",
    "company": "Morgan Stanley",
    "event_date": "2026-01-15",
-   "category": "revenue",
-   "headline": "Morgan Stanley uses AI tool 'LeadIQ' to connect financial advisors with advice-seeking clients, driving Wealth Management revenue.",
-   "quote": "LeadIQ, for example, which is helping us introduce our advisors to our clients who are interested in advice, that's happening using AI.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "efficiency",
+   "headline": "Morgan Stanley embeds AI tools across enterprise to drive efficiency and effectiveness in business units and infrastructure.",
+   "quote": "Our growth plans embed the increasing adoption of AI tools throughout the enterprise and inside our client base. With each passing quarter, our confidence continues to increase in the potential for both the efficiency, and the effectiveness of AI-related technologies across the business units, and infrastructure.",
+   "metric": null
   },
   {
    "ticker": "MSCI",
    "company": "MSCI, Inc.",
    "event_date": "2026-01-28",
-   "category": "efficiency",
-   "headline": "MSCI uses AI agents across ~120-140 internal projects including ESG controversy analysis, private asset data processing, and custom index creation.",
-   "quote": "we use AI extensively in applying to understanding controversies for example on ESG ratings. We've been using AI very, very deeply in the gathering of tremendous amount of data in the private markets",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "MSCI uses AI to enhance GeoSpatial Asset Intelligence, custom indices, risk insights, ESG controversies, and private asset data processing.",
+   "quote": "Physical risk is just one area where we have been leveraging AI to enhance our capabilities with tools such as GeoSpatial Asset Intelligence.",
+   "metric": null
   },
   {
    "ticker": "MSFT",
    "company": "Microsoft Corp.",
    "event_date": "2026-01-28",
    "category": "revenue",
-   "headline": "Microsoft 365 Copilot reaches 15M paid seats, up 160% YoY; daily active users up 10x YoY",
-   "quote": "it was a record quarter for Microsoft 365 Copilot seat adds, up over 160% year-over-year. We saw accelerating seat growth quarter-over-quarter and now have 15 million paid Microsoft 365 Copilot seats",
-   "metric": "15M paid M365 Copilot seats; seat adds up 160% YoY; daily active users up 10x YoY",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Microsoft Copilot daily users grew nearly 3x YoY; Copilot checkout enables purchases via PayPal, Shopify, Stripe",
+   "quote": "Daily users of our Copilot app increased nearly 3x year-over-year. And with Copilot checkout, we have partnered with PayPal, Shopify and Stripe, so customers can make purchases directly within the app.",
+   "metric": "3x YoY daily user growth for Copilot app"
   },
   {
    "ticker": "MSI",
    "company": "Motorola Solutions, Inc.",
    "event_date": "2026-02-11",
    "category": "product",
-   "headline": "Motorola Solutions launched AI-powered Assist Suites for 911 dispatchers and first responders at $99/user/month",
-   "quote": "we launched our first two public safety AI Assist Suites for 911 dispatchers and first responders, designed specifically to address the unique challenges of each role",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Motorola Solutions launched AI-powered Assist Suites for 911 dispatchers and first responders, reducing police report time from 1hr to 15min.",
+   "quote": "When we take a police report that used to take an hour to write and drop it to 15 minutes with Narrative Assist, or reduce the redaction time of mobile video footage from 35 hours down to 1 hour",
+   "metric": "Police report writing time reduced from 1 hour to 15 minutes; video redaction from 35 hours to 1 hour"
   },
   {
    "ticker": "MTCH",
    "company": "Match Group, Inc.",
    "event_date": "2026-02-03",
    "category": "product",
-   "headline": "Match Group deploys AI-driven recommendation algorithms and AI features like Convo Starters to improve matching and user outcomes on Tinder and Hinge.",
-   "quote": "we've been testing new AI-driven recommendation algorithms, which affect the order of profiles shown to women",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Match Group deploys AI-driven recommendation algorithms on Tinder and AI Convo Starters on Hinge to improve user matching and engagement.",
+   "quote": "we've been testing new AI-driven recommendation algorithms, which affect the order of profiles shown to women.",
+   "metric": null
   },
   {
    "ticker": "NDAQ",
@@ -1843,35 +1294,26 @@
    "event_date": "2026-01-29",
    "category": "product",
    "headline": "Nasdaq launched Agentic AI Workforce for Verafin clients, including agentic sanctions analyst and enhanced due diligence analyst workers.",
-   "quote": "our Financial Crime Management Technology business pioneered innovative approaches to fight crime and introduced our new Agentic AI Workforce, a suite of agentic workers that automate key client workflows.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "quote": "introduced our new Agentic AI Workforce, a suite of agentic workers that automate key client workflows",
+   "metric": null
   },
   {
    "ticker": "NDSN",
    "company": "Nordson Corp.",
    "event_date": "2026-02-19",
    "category": "revenue",
-   "headline": "Nordson's ATS segment cites AI computing demand driving growth in semiconductor dispense applications",
-   "quote": "driven by AI computing power needs of our customers, we see tremendous amount of investment going on in this business and that is reflective of the revenue performance as well as the order entry",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Nordson's dispense business sees strong revenue growth driven by customer AI computing power demand in semiconductor manufacturing.",
+   "quote": "driven by AI computing power needs of our customers, we see tremendous amount of investment going on in this business and that is reflective of the revenue performance as well as the order entry.",
+   "metric": null
   },
   {
    "ticker": "NEE",
    "company": "NextEra Energy, Inc.",
    "event_date": "2026-01-27",
    "category": "efficiency",
-   "headline": "NextEra Energy launches enterprise-wide AI transformation called REWIRE with Google Cloud to build AI-first products for field operations and grid reliability.",
-   "quote": "we are spending a considerable amount of time accelerating our use of artificial intelligence, and in fact, I expect our team to leverage AI better than anyone in America.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "NextEra Energy launching enterprise-wide AI transformation called REWIRE with Google Cloud, targeting AI-first field operations and grid reliability products.",
+   "quote": "Google Cloud is helping us drive and accelerate our own enterprise-wide AI transformation called REWIRE. And REWIRE will also help us identify and ultimately build AI first products",
+   "metric": null
   },
   {
    "ticker": "NI",
@@ -1879,239 +1321,152 @@
    "event_date": "2026-02-11",
    "category": "efficiency",
    "headline": "NiSource uses AI, analytics, and work management intelligence system to improve productivity in supply chain and reliability functions.",
-   "quote": "leveraging AI, analytics, and our work management intelligence system, which improved productivity as they expanded into supply chain and reliability functions",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "quote": "Operational performance was further strengthened by leveraging AI, analytics, and our work management intelligence system, which improved productivity as they expanded into supply chain and reliability functions.",
+   "metric": null
   },
   {
    "ticker": "NOW",
    "company": "ServiceNow, Inc.",
    "event_date": "2026-01-28",
    "category": "product",
-   "headline": "ServiceNow's Now Assist AI surpassed $600M ACV; AI agents deployed across IT, HR, CRM workflows driving measurable customer ROI",
-   "quote": "Now Assist continues to outperform all expectations, surpassing $600 million in ACV and tracking well towards our $1 billion-plus target for 2026.",
-   "metric": "$600M+ ACV for Now Assist; Now Assist NNACV more than doubled year-over-year in Q4",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "ServiceNow's Now Assist AI product surpassed $600M ACV with NNACV more than doubling year-over-year in Q4.",
+   "quote": "Now Assist NNACV outperformed expectations in Q4 and surpassed $600 million in ACV. In Q4, Now Assist NNACV more than doubled year-over-year.",
+   "metric": "$600M ACV, 2x YoY NNACV growth"
   },
   {
    "ticker": "NTAP",
    "company": "NetApp, Inc.",
    "event_date": "2026-02-26",
    "category": "product",
-   "headline": "NetApp launched AFX storage system and AI Data Engine (AIDE) to help customers prepare and manage data for AI workloads.",
-   "quote": "The AI Data Engine helps to improve time to value in AI projects by simplifying workflows with integrated data discovery, curation, policy-driven guardrails, and real-time vectorization for GenAI.",
-   "metric": "300 customers selected NetApp for AI data preparation in Q3",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "NetApp sells AI-ready storage products (AFX, AI Data Engine) to ~300 customers for AI workloads in Q3.",
+   "quote": "approximately 300 customers selected NetApp to help prepare their data for AI and to be the storage foundation for their AI innovations.",
+   "metric": "300 customers in Q3"
   },
   {
    "ticker": "NTRS",
    "company": "Northern Trust Corp.",
    "event_date": "2026-01-22",
    "category": "efficiency",
-   "headline": "Northern Trust deploying AI-driven automation across high-volume operations, targeting 10% higher productivity savings in 2026.",
+   "headline": "Northern Trust uses AI platform NT Byron to automate high-volume tasks like document digitization, driving 4%+ expense-base productivity savings.",
    "quote": "Our accelerated deployment of AI across high-volume activities, such as digitizing documents and automating manual tasks, is driving efficiency gains, while improving quality and consistency across key workflows.",
-   "metric": "4% of expense base in productivity savings; 2026 target raised 10%",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "NVDA",
-   "company": "NVIDIA Corp.",
-   "event_date": "2026-02-25",
-   "category": "efficiency",
-   "headline": "NVIDIA engineers internally deploy OpenAI GPT-5.3-Codex (built on Grace Blackwell) for long-running tasks and research.",
-   "quote": "5.3-Codex is deployed broadly inside NVIDIA, our engineers love it.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "NWSA",
-   "company": "News Corp.",
-   "event_date": "2026-02-05",
-   "category": "revenue",
-   "headline": "News Corp uses AI partnerships (OpenAI, Bloomberg) to enhance editorial and real estate products while licensing premium content to AI firms.",
-   "quote": "we have a partnership with OpenAI, whose expertise will enhance our editorial business and real estate products, while our editorial will enhance OpenAI products.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "4% of expense base in productivity savings"
   },
   {
    "ticker": "NXPI",
    "company": "NXP Semiconductors NV",
    "event_date": "2026-02-03",
    "category": "product",
-   "headline": "NXP combines i.MX processors with Kinara NPU to deliver edge AI platforms for physical AI applications",
-   "quote": "by combining the industry-leading i.MX family of industrial application processors with the recently acquired Kinara NPU, we can deliver complete and scalable AI platforms that accelerate deployment at the edge",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "NXP embeds AI platforms at the edge by combining i.MX processors with acquired Kinara NPU for industrial/IoT customers",
+   "quote": "By combining the industry-leading i.MX family of industrial application processors with the recently acquired Kinara NPU, we can deliver complete and scalable AI platforms that accelerate deployment at the edge.",
+   "metric": null
   },
   {
    "ticker": "O",
    "company": "Realty Income Corp.",
    "event_date": "2026-02-24",
    "category": "efficiency",
-   "headline": "Realty Income uses proprietary AI/machine learning tools since 2019 for portfolio analytics and is expanding AI adoption across business functions.",
-   "quote": "We were one of the first adopters of AI, AI-type tools going back to 2019. And we've created proprietary machine learning tools that actually is part and parcel of every element of our business",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Realty Income uses proprietary AI/machine learning tools across business operations, including predictive analytics for portfolio risk management.",
+   "quote": "We've created proprietary machine learning tools that actually is part and parcel of every element of our business that we do today.",
+   "metric": null
   },
   {
    "ticker": "OMC",
    "company": "Omnicom Group, Inc.",
    "event_date": "2026-02-18",
    "category": "efficiency",
-   "headline": "Omnicom deploying AI and automation across operations to drive $1.5B in synergies, including $240M real estate and $260M G&A savings.",
+   "headline": "Omnicom deploying automation and AI across operations to improve client service and drive synergies",
    "quote": "across every area of our business, we are evaluating and deploying automation and AI to improve how we service our clients and run our operations.",
-   "metric": "$1.5B annual run rate synergies over 30 months",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ORCL",
    "company": "Oracle Corp.",
    "event_date": "2026-03-10",
-   "category": "product",
-   "headline": "Oracle embeds 1,000+ AI agents into its SaaS applications and uses AI coding tools to build new products faster with smaller teams.",
+   "category": "efficiency",
+   "headline": "Oracle uses AI coding tools internally to enable smaller engineering teams to build new SaaS products and agents faster.",
    "quote": "The use of AI coding tools inside Oracle is enabling smaller engineering teams to deliver more complete solutions to our customers more quickly.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "OTIS",
    "company": "Otis Worldwide Corp.",
    "event_date": "2026-01-28",
    "category": "product",
-   "headline": "Otis unveiled AI Inspection Robot and AI Agent tools; approaching 1.1M connected units using AI for predictive maintenance and productivity.",
+   "headline": "Otis embeds AI in service tools and connected units, including AI Inspection Robot and AI Agent for safety and diagnostics",
    "quote": "new AI tools, including the Otis AI Inspection Robot and the Otis AI Agent to enhance safety, diagnostics, and real-time collaboration",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "OXY",
    "company": "Occidental Petroleum Corp.",
    "event_date": "2026-02-19",
    "category": "efficiency",
-   "headline": "OXY uses advanced AI and remote monitoring in Remote Operations Command Centers to improve safety, reliability, and operational efficiency.",
-   "quote": "we launched our Remote Operations Command Center in the Gulf of America, which complements our Rockies and Permian Remote Operations Command Centers. These utilize advanced AI and remote monitoring, and have further enhanced our safety, reliability and operational efficiency.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "OXY uses AI in Remote Operations Command Centers across Gulf of America, Rockies, and Permian to improve safety and efficiency.",
+   "quote": "These utilize advanced AI and remote monitoring, and have further enhanced our safety, reliability and operational efficiency.",
+   "metric": null
   },
   {
    "ticker": "PANW",
    "company": "Palo Alto Networks, Inc.",
    "event_date": "2026-02-17",
    "category": "product",
-   "headline": "Palo Alto Networks embeds AI across security platforms including XSIAM AI SOC, Prisma AIRS, and AgentiX autonomous agents",
-   "quote": "we're enabling our customers to build a workforce of autonomous AI agents. But the key differentiator and what makes this real breakthrough is where these agents can operate.",
-   "metric": "200 XSIAM customers using AgentiX; Prisma AIRS customer count tripled Q1 to Q2 to over 100",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Palo Alto Networks embeds AI in security products including XSIAM AI SOC platform and Prisma AIRS, scaling to 100+ customers.",
+   "quote": "in AI security, Prisma AIRS launched just a few quarters ago and already rapidly scaling with over 100 customers ending in Q2",
+   "metric": "XSIAM surpassed $0.5 billion ARR; Prisma AIRS over 100 customers"
   },
   {
    "ticker": "PAYC",
    "company": "Paycom Software, Inc.",
    "event_date": "2026-02-11",
    "category": "product",
-   "headline": "Paycom's AI product IWant drives 400%+ ROI for clients; usage up 80% in January vs Q4 2024.",
-   "quote": "organizations using IWant experience an ROI of over 400%, driven by productivity gains at every level.",
-   "metric": "400% ROI, 80% usage increase in January vs Q4",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Paycom's AI product IWant delivers 400%+ ROI for clients, saving managers up to 600 hours/year per Forrester analysis.",
+   "quote": "Our most advanced AI solution, IWant, is designed to accelerate the speed to value by allowing anyone to become an expert in the system without any training.",
+   "metric": "400%+ ROI for clients using IWant per Forrester"
   },
   {
    "ticker": "PAYX",
    "company": "Paychex, Inc.",
    "event_date": "2026-03-25",
    "category": "efficiency",
-   "headline": "Paychex scaling AI voice/email agents for payroll processing and agentic tools across entire sales and service teams to drive productivity",
-   "quote": "we are scaling the use of our voice, and email agents for payroll processing, enabling service teams to focus on proactive, higher value advisory support.",
-   "metric": "500+ AI-powered capabilities and agents",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Paychex deployed 500+ AI capabilities including voice/email agents and agentic sales tools across its entire sales team to boost productivity and revenue.",
+   "quote": "We also expanded our agentic AI sales, and service tools to the entire sales team with a goal to drive revenue growth, and efficiency.",
+   "metric": "500+ AI-powered capabilities and agents"
   },
   {
    "ticker": "PCAR",
    "company": "PACCAR, Inc.",
    "event_date": "2026-01-27",
    "category": "efficiency",
-   "headline": "PACCAR Parts uses agentic AI tools to identify maintenance needs and optimize parts mix across distribution centers and dealers.",
-   "quote": "we've got great AI agentic tools to help identify that and not only get that mix shift in our distribution centers, but also out with the dealers",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "PACCAR uses agentic AI in Parts business to identify maintenance needs, optimize distribution center mix, and increase vehicle uptime.",
+   "quote": "We've got great AI agentic tools to help identify that and not only get that mix shift in our distribution centers, but also out with the dealers.",
+   "metric": null
   },
   {
    "ticker": "PFE",
    "company": "Pfizer Inc.",
    "event_date": "2026-02-03",
    "category": "efficiency",
-   "headline": "Pfizer scaling AI across R&D, manufacturing, and commercial operations; expanding to 1,200+ GPUs for R&D applications.",
-   "quote": "we are scaling artificial intelligence across R&D, manufacturing, commercial and patient engagement to improve productivity and accelerate innovation.",
-   "metric": "1,200+ GPUs",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "PFG",
-   "company": "Principal Financial Group, Inc.",
-   "event_date": "2026-02-10",
-   "category": "efficiency",
-   "headline": "Principal Financial Group uses AI and emerging technologies to deepen customer engagement and improve customer experience.",
-   "quote": "leveraging data and emerging technologies, including AI, to deepen engagement and improve customer experience",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Pfizer scaling AI across R&D, manufacturing, and commercial ops; expanding to 1,200+ GPUs for R&D-driven AI applications.",
+   "quote": "we are expanding to more than 1,200 GPUs, largely driven by R&D application of AI. In R&D, we are embedding AI across discovery, development, regulatory and medical to increase productivity",
+   "metric": "1,200+ GPUs"
   },
   {
    "ticker": "PG",
    "company": "Procter & Gamble Co.",
    "event_date": "2026-01-22",
    "category": "efficiency",
-   "headline": "P&G uses AI and GenAI to discover consumer insights, accelerate molecular innovation, and automate supply chain and media creation",
+   "headline": "P&G uses AI and GenAI to discover consumer insights, build brand ideas, and enable AI-driven molecular discovery for product innovation.",
    "quote": "AI and GenAI capability help our teams to discover consumer-relevant insights at every step of the consumer path to purchase, grounded in a unifying brand idea.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "PNC",
    "company": "The PNC Financial Services Group, Inc.",
    "event_date": "2026-01-16",
    "category": "efficiency",
-   "headline": "PNC uses agentic AI for coding and automation, targeting $1.4B addressable spend with 40 bps operating leverage by 2030",
-   "quote": "when we look at AI between 2025 and 2030, we see another 40 points of operating leverage. We have 171 different opportunities outlined and $1.4 billion of total addressable spend",
-   "metric": "40 bps operating leverage, 171 opportunities, $1.4B addressable spend",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "PNC uses agentic AI for coding and automation, targeting 40 points of operating leverage from AI between 2025 and 2030.",
+   "quote": "When we look at AI between 2025 and 2030, we see another 40 points of operating leverage. We have 171 different opportunities outlined and $1.4 billion of total addressable spend",
+   "metric": "40 points of operating leverage, 171 AI opportunities, $1.4B total addressable spend"
   },
   {
    "ticker": "PNR",
@@ -2120,82 +1475,61 @@
    "category": "efficiency",
    "headline": "Pentair appoints leader for strategy, digital, AI and innovation; plans to invest in AI-driven solutions in 2026.",
    "quote": "Adrian will lead our efforts in strategy, digital, AI and innovation for Pentair, helping to ensure that we stay at the forefront of technological change",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "PNW",
    "company": "Pinnacle West Capital Corp.",
    "event_date": "2026-02-25",
    "category": "revenue",
-   "headline": "Pinnacle West deployed an AI-powered high bill analyzer to help customers understand billing and reduce energy costs.",
+   "headline": "Pinnacle West deployed an AI-powered high bill analyzer to help customers understand billing and find energy savings.",
    "quote": "we developed and deployed an AI powered high bill analyzer to help customers better understand their billing and energy usage and efficiently address ways they can save on their energy bill",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "PODD",
    "company": "Insulet Corp.",
    "event_date": "2026-02-18",
    "category": "efficiency",
-   "headline": "Insulet uses AI to enhance customer service efficiency and reduce cost to serve via its cloud-based data ecosystem.",
+   "headline": "Insulet uses AI with its cloud-based data ecosystem to improve customer service efficiency and reduce cost to serve.",
    "quote": "with the help of AI, we are increasingly tapping into our unique cloud-based data ecosystem to enhance customer service efficiency and satisfaction, reducing our cost to serve while strengthening retention.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "POOL",
    "company": "Pool Corp.",
    "event_date": "2026-02-19",
-   "category": "product",
-   "headline": "Pool Corp launched POOL360 Unlocked with new AI features to expand customer access and improve experience across its network.",
+   "category": "revenue",
+   "headline": "Pool Corp launched AI features in POOL360 Unlocked platform, boosting digital sales to record 15% of full-year revenue.",
    "quote": "The launch of POOL360 Unlocked and new artificial intelligence features expanded customer access to our product and improved their experience across our network.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "PPG",
    "company": "PPG Industries, Inc.",
    "event_date": "2026-01-28",
-   "category": "product",
-   "headline": "PPG launched first AI-formulated refinish clearcoat and optimized 50 existing products using internally developed AI formulation tools.",
+   "category": "efficiency",
+   "headline": "PPG uses internally developed AI to reformulate coatings, launching 50+ optimized products and one fully AI-developed refinish clearcoat.",
    "quote": "we've launched another 50 products already where they were existing products in the marketplace that we've used AI to optimize, both from a product performance standpoint and a cost to PPG standpoint",
-   "metric": "50 products optimized using AI",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "50 products optimized using AI"
   },
   {
    "ticker": "PPL",
    "company": "PPL Corp.",
    "event_date": "2026-02-20",
    "category": "efficiency",
-   "headline": "PPL Corp developing agentic AI digital customer service agent and sees AI as driver of efficiency across customer service, grid ops, and back-office",
-   "quote": "We also see AI as an incremental, but meaningful driver of efficiency across customer service, grid operations and back-office functions.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "PPL Corp developing agentic AI digital customer service agent and sees AI as driver of efficiency in customer service, grid ops, and back-office.",
+   "quote": "We are developing several digital solutions to improve customer service, including an agentic AI digital customer service agent and a recently released customer app at PPL Electric Utilities.",
+   "metric": null
   },
   {
    "ticker": "PSA",
    "company": "Public Storage",
    "event_date": "2026-02-13",
    "category": "revenue",
-   "headline": "Public Storage infusing AI into customer journeys and revenue management platform to optimize conversion, pricing, and cost.",
-   "quote": "we're infusing AI to optimize conversion and cost",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Public Storage infusing AI into omnichannel platform to optimize conversion, cost, and customer journeys",
+   "quote": "we're infusing AI to optimize conversion and cost.",
+   "metric": null
   },
   {
    "ticker": "PSX",
@@ -2204,514 +1538,385 @@
    "category": "efficiency",
    "headline": "Phillips 66 uses machine learning to optimize turnaround planning, reducing duration and cost",
    "quote": "we've been using things like machine learning. We reduced the spend on turnarounds in our forecast, I believe mid-year substantially.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "PTC",
    "company": "PTC, Inc.",
    "event_date": "2026-02-04",
    "category": "product",
-   "headline": "PTC is embedding AI into its Windchill and Codebeamer products, with releases targeting parts rationalization, requirements quality, and test case development.",
-   "quote": "we introduced Codebeamer AI focused on improving requirements quality, accelerating test case development and supporting compliance before products move into production.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "PTC embeds AI across its CAD, PLM, ALM, SLM products, including Codebeamer AI and Windchill AI Parts Rationalization.",
+   "quote": "we released Windchill AI Parts Rationalization, new AI functionality embedded in Windchill to help customers accelerate development and manage costs by identifying duplicate parts",
+   "metric": null
   },
   {
    "ticker": "PYPL",
    "company": "PayPal Holdings, Inc.",
    "event_date": "2026-02-03",
    "category": "revenue",
-   "headline": "PayPal enables AI agent-based shopping via Store Sync, live on Perplexity and Microsoft Copilot to drive purchases.",
+   "headline": "PayPal enabling AI agent-powered shopping via Store Sync, live on Perplexity and Microsoft Copilot for agentic commerce.",
    "quote": "We went live with agentic purchasing through Perplexity ahead of Thanksgiving, and we are now also live on Microsoft Copilot.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
+  },
+  {
+   "ticker": "QCOM",
+   "company": "QUALCOMM, Inc.",
+   "event_date": "2026-02-04",
+   "category": "product",
+   "headline": "Qualcomm embeds AI in chips sold for smartphones, PCs, autos, IoT, and robotics platforms.",
+   "quote": "IQ10 is designed to accelerate commercialization of household, industrial and humanoid robots. It combines heterogeneous edge compute, safety grade SoCs and end-to-end AI.",
+   "metric": null
   },
   {
    "ticker": "RCL",
    "company": "Royal Caribbean Group",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "Royal Caribbean uses AI across commercial and operational areas including personalization, supply chain forecasting, and energy management.",
+   "headline": "Royal Caribbean embeds AI across commercial and operational areas including personalization, supply chain forecasting, energy management, and marine operations.",
    "quote": "We are also using AI to improve efficiency and execution from supply chain forecasting to energy management and marine operations.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "RF",
    "company": "Regions Financial Corp.",
    "event_date": "2026-01-16",
    "category": "efficiency",
-   "headline": "Regions Financial investing in data governance and real-time data to expand use of traditional and generative AI across the company.",
-   "quote": "These investments strengthen security, enhance the customer experience, support growth, and expand the use of both traditional and generative AI across the company.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Regions Financial investing in data capabilities to expand use of traditional and generative AI across the company.",
+   "quote": "expand the use of both traditional and generative AI across the company.",
+   "metric": null
   },
   {
    "ticker": "RJF",
    "company": "Raymond James Financial, Inc.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "Raymond James launched proprietary AI operations agent 'Rai' to help financial advisors save time and improve efficiency.",
+   "headline": "Raymond James launched proprietary AI operations agent 'Rai' to automate processes and give advisors more time for client relationships.",
    "quote": "our newly launched proprietary digital AI operations agent named Rai, which builds on our service-focused long-term AI strategy",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "RL",
    "company": "Ralph Lauren Corp.",
    "event_date": "2026-02-05",
    "category": "revenue",
-   "headline": "Ralph Lauren's AI-powered shopping assistant 'Ask Ralph' drives personalized experiences and first-party data; AI-powered store windows featured in holiday campaigns.",
+   "headline": "Ralph Lauren's AI shopping assistant 'Ask Ralph' drives personalized experiences; styling discovery accounts for 50%+ of engagement",
    "quote": "Ask Ralph, the AI-powered digital shopping assistant we launched in September, is providing us with powerful insights as AI drives accelerated shifts in consumer behavior.",
-   "metric": "styling and outfit discovery accounting for more than 50% of total engagement",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "styling and outfit discovery accounting for more than 50% of our total engagement"
   },
   {
    "ticker": "RMD",
    "company": "ResMed, Inc.",
    "event_date": "2026-01-29",
    "category": "product",
-   "headline": "ResMed launched Comfort Match, its first FDA-cleared AI-enabled medical device, an AI comfort setting recommender within its myAir patient app.",
-   "quote": "we view AI as a resource that will amplify and personalize care. Last quarter, I talked about our limited beta launch of Comfort Match, an AI-enabled comfort setting recommender within the myAir software platform. This is Resmed's first FDA-cleared AI-enabled medical device.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "ResMed launched Comfort Match, its first FDA-cleared AI-enabled medical device, an AI sleep coach within its myAir platform.",
+   "quote": "Comfort Match, an AI-enabled comfort setting recommender within the myAir software platform. This is Resmed's first FDA-cleared AI-enabled medical device.",
+   "metric": null
   },
   {
    "ticker": "ROK",
    "company": "Rockwell Automation, Inc.",
    "event_date": "2026-02-05",
-   "category": "product",
-   "headline": "Rockwell delivered an AI-enabled troubleshooting agent for Thermo Fisher to accelerate issue resolution and reduce downtime.",
-   "quote": "Thermo Fisher selected Rockwell to deliver an AI-enabled troubleshooting agent to accelerate issue resolution and reduce downtime, a great proof point of how our AI strategy is delivering real customer value.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "efficiency",
+   "headline": "Rockwell uses broad AI adoption internally for productivity gains in commercial spend, direct materials, and supply chain efficiency.",
+   "quote": "broad adoption of AI providing additional opportunities. We are well positioned to expand margins as the year progresses.",
+   "metric": null
   },
   {
    "ticker": "ROP",
    "company": "Roper Technologies, Inc.",
    "event_date": "2026-01-27",
    "category": "product",
-   "headline": "Roper embeds AI in portfolio software products including freight matching, legal, and creative workflow tools sold to customers.",
-   "quote": "DAT is advancing its AI-first operating model with concrete use cases across carrier onboarding, fraud detection, and freight matching automation.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Roper hired AI accelerator team leads to embed AI into its vertical software products for customers",
+   "quote": "AI can move from productivity to on-stack embedded automation that improves outcomes for our customers and is highly monetizable.",
+   "metric": null
   },
   {
    "ticker": "RSG",
    "company": "Republic Services, Inc.",
    "event_date": "2026-02-17",
    "category": "efficiency",
-   "headline": "Republic Services deploying AI for route optimization, pricing analytics, and customer call management to drive cost savings",
+   "headline": "Republic Services deploys AI for routing optimization, pricing analytics, and call center automation targeting nine-figure cost savings.",
    "quote": "one minute across our system a year of routing \u2013 of efficiency on our routing side is worth $4 million to $5 million. So, you can see how that can accrue.",
-   "metric": "$4M-$5M per minute of annual routing efficiency gained",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "nine figures (cost improvements)"
   },
   {
    "ticker": "RTX",
    "company": "RTX Corporation",
    "event_date": "2026-01-27",
    "category": "efficiency",
-   "headline": "RTX deploys proprietary AI and data analytics tools across factories to monitor KPIs, reduce bottlenecks, and track equipment health.",
-   "quote": "we're also continuing to deploy our proprietary data analytics and AI tools across our factories to monitor daily key performance indicators, identify bottlenecks to reduce work and process and track equipment, health and performance",
-   "metric": "45% reduction in aged inventory at Lansing facility; 35% reduction in circuit card production cycle times at Andover",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "RTX deploys proprietary AI and data analytics tools across factories to monitor KPIs, cut bottlenecks, reduce cycle times, and improve output.",
+   "quote": "We're also continuing to deploy our proprietary data analytics and AI tools across our factories to monitor daily key performance indicators, identify bottlenecks to reduce work and process and track equipment, health and performance",
+   "metric": "45% reduction in aged inventory at Lansing MI; 35% reduction in circuit card production cycle times at Andover MA"
   },
   {
    "ticker": "RVTY",
    "company": "Revvity, Inc.",
    "event_date": "2026-02-02",
    "category": "product",
-   "headline": "Revvity launches Signals Xynthetica, an AI Models-as-a-Service platform embedded in its Signals One software sold to pharma/biotech customers.",
+   "headline": "Revvity launches Signals Xynthetica, an AI Models-as-a-Service platform embedded in its pharma R&D software sold to customers.",
    "quote": "we are providing a platform where bench scientists will be able to seamlessly leverage industry-leading AI and ML models that are both publicly and privately available, directly within their existing workflows.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "SBUX",
    "company": "Starbucks Corp.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "Starbucks deployed AI-powered Green Dot Assist tool across North American coffeehouses to support partners with real-time operational knowledge.",
+   "headline": "Starbucks fully scaled AI-powered Green Dot Assist tool across North American coffeehouses to support store partners",
    "quote": "This new AI-powered knowledge search tool provides a real time resource to look up beverage builds, troubleshoot operational issues, and adjust deployment plans.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "SCHW",
    "company": "The Charles Schwab Corp.",
    "event_date": "2026-01-21",
    "category": "efficiency",
-   "headline": "Schwab deploys AI across 220+ use cases to help professionals serve clients more efficiently and reduce costs.",
+   "headline": "Schwab deploys AI across 220+ use cases to help professionals serve clients more efficiently and plans further AI expansion in 2026.",
    "quote": "With more than 220 use cases, we're leveraging artificial intelligence to help our professionals serve clients more efficiently.",
-   "metric": "220 use cases",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "220+ use cases"
   },
   {
    "ticker": "SLB",
    "company": "SLB Ltd.",
    "event_date": "2026-01-23",
    "category": "product",
-   "headline": "SLB launched Tela agentic-AI assistant and AI-powered production optimization platform with ADNOC; Lumi has 50+ customers",
-   "quote": "launching Tela, an agentic-AI assistant, purpose-built to transform the upstream energy sector and forming a partnership with ADNOC to launch an AI-powered production system optimization platform",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "SLB launched Tela, an agentic-AI assistant for upstream energy, and an AI-powered production optimization platform with ADNOC.",
+   "quote": "launching Tela, an agentic-AI assistant, purpose-built to transform the upstream energy sector and forming a partnership with ADNOC to launch an AI-powered production system optimization platform.",
+   "metric": null
   },
   {
    "ticker": "SNPS",
    "company": "Synopsys, Inc.",
    "event_date": "2026-02-25",
    "category": "product",
-   "headline": "Synopsys embeds AI across EDA stack delivering up to 5x faster formal testbench generation and advancing AgentEngineer autonomy",
+   "headline": "Synopsys embeds AI in EDA products (Synopsys.ai), delivering up to 70% faster workflow assistance and 5x faster testbench generation for customers.",
    "quote": "Major semi and hyperscale customers using Synopsys.ai have seen up to 50% faster knowledge assistance, up to 70% faster workflow assistance, and up to 5x faster formal testbench generation.",
-   "metric": "up to 5x faster formal testbench generation; up to 70% faster workflow assistance",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "up to 70% faster workflow assistance, up to 5x faster formal testbench generation"
   },
   {
    "ticker": "SO",
    "company": "The Southern Co.",
    "event_date": "2026-02-19",
    "category": "efficiency",
-   "headline": "Southern Company deployed AI tools to pre-position crews and accelerate outage restoration during extreme weather events.",
-   "quote": "recently deployed AI tools that help our leaders pre-position crews to be ready to safely and quickly respond and self-healing networks that allow transmission and distribution lines to isolate outages and reroute power",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "SOLV",
-   "company": "Solventum Corp.",
-   "event_date": "2026-02-26",
-   "category": "product",
-   "headline": "Solventum uses AI-driven autonomous coding in its Health Information Systems business, leveraging proprietary algorithms and vast data sets.",
-   "quote": "we truly do believe that we're differentially capable of using AI because...we have vast number of proprietary...algorithms and rules that we have around reimbursement coding, actually close to a million plus",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Southern Company deploys AI tools to pre-position crews and accelerate restoration during extreme weather events.",
+   "quote": "recently deployed AI tools that help our leaders pre-position crews to be ready to safely and quickly respond and self-healing networks that allow transmission and distribution lines to isolate outages",
+   "metric": null
   },
   {
    "ticker": "SPGI",
    "company": "S&P Global, Inc.",
    "event_date": "2026-02-10",
-   "category": "efficiency",
-   "headline": "S&P Global uses AI/automation to cut costs, with >50% of data workflows automated and 10%+ of apps eliminated in 2025.",
-   "quote": "we reduced manual data processing meaningfully, with more than half of our total data workflows now processed via automation tools. We also eliminated more than 10% of applications in use",
-   "metric": "20% run-rate expense reduction target by end of 2027",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "category": "product",
+   "headline": "S&P Global launched new AI products and features in every division in 2025, including AI functionality in iLEVEL and energy research via Microsoft Copilot.",
+   "quote": "We launched new AI products and features in every division, many of which were on display at our Investor Day.",
+   "metric": null
   },
   {
    "ticker": "STT",
    "company": "State Street Corp.",
    "event_date": "2026-01-16",
    "category": "efficiency",
-   "headline": "State Street embedding AI-enabled capabilities and agentics to drive operating model transformation and productivity savings.",
-   "quote": "we do have some savings embedded in that. That will occur at an accelerating rate as we hit the second half of 2026 and into 2027.",
-   "metric": "$500M productivity savings in 2025",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "State Street deploying AI-enabled capabilities and agentics to improve efficiency and transform operating model",
+   "quote": "For our next-gen transformation initiatives, underpinned by our growing AI-enabled capabilities and associated agentics, we are building a stronger foundation and new platforms that aim to even further improve efficiency",
+   "metric": null
   },
   {
    "ticker": "SYF",
    "company": "Synchrony Financial",
    "event_date": "2026-01-27",
    "category": "revenue",
-   "headline": "Synchrony uses AI search capability called Joy Hunt in its Marketplace to drive customer engagement and sales.",
-   "quote": "we have enriched the experiences we deliver while empowering our customers with more dynamic access and choice through the combination of Synchrony's Marketplace, which features our AI search capability called Joy Hunt",
-   "metric": "18% increase in total visits and 17% more in sales in 2025",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Synchrony uses AI search tool 'Joy Hunt' in its Marketplace app, contributing to 18% more visits and 17% more sales in 2025.",
+   "quote": "Synchrony's Marketplace, which features our AI search capability called Joy Hunt in Synchrony's website-native app. Together, the enhancements we've made across these channels contributed to an 18% increase in total visits and 17% more in sales in 2025.",
+   "metric": "18% increase in total visits, 17% more in sales"
+  },
+  {
+   "ticker": "SYK",
+   "company": "Stryker Corp.",
+   "event_date": "2026-01-29",
+   "category": "product",
+   "headline": "Stryker combines Vocera and care.ai into new SmartCare business unit within Medical division",
+   "quote": "The new SmartCare business unit within medical combines Vocera and care.ai",
+   "metric": null
   },
   {
    "ticker": "T",
    "company": "AT&T, Inc.",
    "event_date": "2026-01-28",
    "category": "efficiency",
-   "headline": "AT&T plans to accelerate efficiency gains by leveraging AI, targeting $4B additional annual cost savings by end of 2028.",
+   "headline": "AT&T plans to accelerate cost efficiency gains by leveraging AI alongside digital transactions and operating leverage.",
    "quote": "we plan to accelerate efficiency gains across the company by leveraging AI, moving more customer transactions to digital and achieving greater operating leverage",
-   "metric": "$4B additional annual cost savings by end of 2028",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "TECH",
-   "company": "Bio-Techne Corp.",
-   "event_date": "2026-02-04",
-   "category": "efficiency",
-   "headline": "Bio-Techne views AI as an enabler for both its customers and its own operations, expecting complexity trends to favor its portfolio.",
-   "quote": "we do believe that AI is a great enabler, not only for our customers, also for us obviously.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "TER",
    "company": "Teradyne, Inc.",
    "event_date": "2026-02-03",
    "category": "product",
-   "headline": "Teradyne embeds AI capabilities into AMR robotics products and ramps AI-driven e-commerce automation application worldwide.",
+   "headline": "Teradyne embeds AI capabilities in AMR robotics products and serves AI data center test market, with 60%+ of Q4 revenue AI-driven.",
    "quote": "we have embedded AI capabilities into our AMR products. Most importantly, we have begun to ramp an important worldwide, AI-driven application in e-commerce.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "60%+ of Q4 2025 revenue AI-driven; 70%+ expected in Q1 2026"
   },
   {
    "ticker": "TFC",
    "company": "Truist Financial Corp.",
    "event_date": "2026-01-21",
    "category": "efficiency",
-   "headline": "Truist's AI-powered Truist Assist mobile experience drove a 97% increase in digital chat engagement in 2025.",
-   "quote": "expanding capabilities within our AI-powered Truist Assist mobile experience. The launch of Ask Truist Assist, our universal search capability, now delivers client quick intuitive access from any screen. This drove a 97% increase in digital chat engagement in 2025",
-   "metric": "97% increase in digital chat engagement",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Truist's AI-powered Truist Assist mobile feature drove 97% increase in digital chat engagement in 2025.",
+   "quote": "expanding capabilities within our AI-powered Truist Assist mobile experience... This drove a 97% increase in digital chat engagement in 2025 and is helping us improve efficiency and strengthen client connectivity",
+   "metric": "97% increase in digital chat engagement"
   },
   {
    "ticker": "TMO",
    "company": "Thermo Fisher Scientific, Inc.",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "Thermo Fisher partnered with OpenAI to use AI to improve productivity and embed AI in products/services.",
-   "quote": "we also announced a strategic collaboration with OpenAI, aimed at increasing our use of artificial intelligence at the company. This will improve productivity across our operations",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Thermo Fisher integrates AI into its PPI Business System to improve operations, customer service, and internal processes.",
+   "quote": "we're also increasingly using artificial intelligence into PPI, which will further enhance its impact across the organization. The combination is helping us improve how we serve customers, streamline internal processes",
+   "metric": null
   },
   {
    "ticker": "TRMB",
    "company": "Trimble, Inc.",
    "event_date": "2026-02-10",
    "category": "product",
-   "headline": "Trimble deploys AI agents in construction software for submittals, MEP estimating, and in-app assistants, generating millions in incremental ARR.",
+   "headline": "Trimble embeds AI agents in construction software, driving 50%+ productivity gains and millions in incremental ARR.",
    "quote": "we've deployed AI to identify and count electrical components directly from construction drawings, replacing a manual takeoff process. This feature already has thousands of monthly active users and delivers over a 50% productivity gain, and is generating millions of dollars of incremental ARR.",
-   "metric": "50% productivity gain; millions of dollars incremental ARR; case deflection rates up to 20%",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "50%+ productivity gain; millions of dollars incremental ARR; case deflection rates up to 20%"
   },
   {
    "ticker": "TROW",
    "company": "T. Rowe Price Group, Inc.",
    "event_date": "2026-02-04",
    "category": "efficiency",
-   "headline": "T. Rowe Price advanced AI use across the firm to amplify investment professionals' capabilities and improve client service speed and personalization.",
-   "quote": "We advanced our use of artificial intelligence across the firm, amplifying our investment professionals' capabilities without replacing their judgment, improving the speed and personalization of client service",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "T. Rowe Price advanced AI use to amplify investment professionals' capabilities and improve speed and personalization of client service.",
+   "quote": "amplifying our investment professionals' capabilities without replacing their judgment, improving the speed and personalization of client service, and adopting new technologies with disciplined governance",
+   "metric": null
   },
   {
    "ticker": "TRV",
    "company": "The Travelers Cos., Inc.",
    "event_date": "2026-01-21",
    "category": "efficiency",
-   "headline": "Travelers uses generative AI across claims, underwriting, and engineering; claim call center population down by a third.",
+   "headline": "Travelers deploys agentic AI, generative AI voice agents, and Anthropic partnership to cut claims costs and boost engineering productivity.",
    "quote": "our claim call center population is down by a third. And this year, we'll be consolidating four claim call centers down to two.",
-   "metric": "claim call center population down by a third; 4 centers consolidating to 2",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "claim call center population down by a third; 20,000 colleagues use AI tools regularly; $1.5B invested in AI and technology"
   },
   {
    "ticker": "TSCO",
    "company": "Tractor Supply Co.",
    "event_date": "2026-01-29",
    "category": "efficiency",
-   "headline": "Tractor Supply expanded AI use across the enterprise, including with OpenAI, to improve forecasting, inventory flow, and team member productivity.",
+   "headline": "Tractor Supply expanded AI use across the enterprise with OpenAI, improving forecasting, inventory flow, and team member productivity.",
    "quote": "we expanded our use of AI across the enterprise, including expanding our relationship with OpenAI. The capabilities are improving forecasting, inventory flow and team member productivity",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "TSLA",
    "company": "Tesla, Inc.",
    "event_date": "2026-01-28",
    "category": "revenue",
-   "headline": "Tesla running unsupervised paid Robotaxi rides in Austin with FSD AI, expanding to dozens of cities by year-end",
-   "quote": "we actually don't \u2013 we don't even have a chase car or anything like that, so these are just cars with no people in them and no one's following the car in Austin",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Tesla deploying AI-powered Full Self-Driving as paid robotaxi service in Austin with no safety monitor or chase car",
+   "quote": "we're able to do our first rides with no safety monitor in the car in Austin. These were paid rides, so these were just sort of randomly selected paid rides with no safety monitor.",
+   "metric": "1.1 million paid FSD customers globally"
   },
   {
    "ticker": "TTWO",
    "company": "Take-Two Interactive Software, Inc.",
    "event_date": "2026-02-03",
    "category": "efficiency",
-   "headline": "Take-Two has hundreds of generative AI pilots and implementations across studios to drive efficiencies and reduce costs.",
+   "headline": "Take-Two is running hundreds of AI pilots and implementations across its studios to drive efficiencies and reduce costs.",
    "quote": "we're actively embracing generative AI. We have hundreds of pilots and implementations across our company, including with our studios. And we are seeing opportunities to drive efficiencies, reduce costs",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "TYL",
    "company": "Tyler Technologies, Inc.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "Tyler Technologies deploys AI Resident Assistant in 6 states and is rolling out agentic AI in permitting and supervision platforms.",
+   "headline": "Tyler Technologies deploys AI Resident Assistant in 6 states and is piloting agentic AI in permitting and supervision platforms.",
    "quote": "the Tyler Resident AI Assistant has gone live in six states \u2013 Alabama, Hawaii, Indiana, Mississippi, Nebraska, and South Carolina \u2013 strengthening our broader resident engagement portfolio",
-   "metric": "17,000 residents using the assistant each month, generating nearly 50,000 questions",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "17,000 residents using the assistant each month, generating nearly 50,000 questions"
   },
   {
    "ticker": "UDR",
    "company": "UDR, Inc.",
    "event_date": "2026-02-10",
    "category": "efficiency",
-   "headline": "UDR is piloting AI initiatives across pricing, customer experience, and enterprise effectiveness to drive incremental NOI growth.",
+   "headline": "UDR is piloting AI initiatives across customer experience, pricing, and enterprise effectiveness to drive incremental NOI growth.",
    "quote": "we are currently piloting AI initiatives. There are dozens of incremental AI-related ideas on our list to explore and execute on",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "UHS",
    "company": "Universal Health Services, Inc.",
    "event_date": "2026-02-26",
    "category": "efficiency",
-   "headline": "UHS deployed agentic AI for post-discharge care, and AI-based tools in revenue cycle for coding and claims appeals.",
+   "headline": "UHS deployed agentic AI for post-discharge care and AI-based solutions to improve revenue cycle documentation and claims appeals.",
    "quote": "we fully rolled out agentic AI to improve post-discharge care and reduce readmissions... we enhanced our acute care revenue cycle operations by deploying AI-based solutions to improve documentation and streamline our claims appeals process.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "ULTA",
    "company": "Ulta Beauty, Inc.",
    "event_date": "2026-03-12",
    "category": "efficiency",
-   "headline": "Ulta Beauty uses AI for conversational guest services, automated marketing engine, and AI-powered order management system.",
-   "quote": "testing new conversational AI capabilities for our guest services team, which streamlined and increased resolution, efficiency and quality, as well as the implementation of an AI-powered order management system",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Ulta Beauty uses AI in marketing automation, guest services conversational AI, and AI-powered order management system.",
+   "quote": "investment in AI and automation, like the testing new conversational AI capabilities for our guest services team, which streamlined and increased resolution, efficiency and quality, as well as the implementation of an AI-powered order management system",
+   "metric": null
   },
   {
    "ticker": "UNH",
    "company": "UnitedHealth Group, Inc.",
    "event_date": "2026-01-27",
    "category": "efficiency",
-   "headline": "UnitedHealth expects ~$1B in AI-enabled operating cost reductions in 2026; over 80% of member calls leverage AI tools.",
+   "headline": "UHG expects ~$1B in AI-enabled operating cost reductions in 2026; 80%+ of member calls use AI tools",
    "quote": "We anticipate operating cost reductions of nearly $1 billion in 2026, many AI-enabled, and importantly resulting in higher customer experience and satisfaction at a lower cost.",
-   "metric": "~$1B operating cost reductions in 2026, many AI-enabled; 80%+ of member calls use AI tools",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "~$1B operating cost reductions in 2026, 80%+ of member calls using AI tools"
+  },
+  {
+   "ticker": "UPS",
+   "company": "United Parcel Service, Inc.",
+   "event_date": "2026-01-27",
+   "category": "efficiency",
+   "headline": "UPS used AI and next-gen brokerage to process nearly 90% of cross-border transactions digitally, with 300%+ increase in daily customs entries.",
+   "quote": "We leveraged artificial intelligence and our next-gen brokerage capabilities to process nearly 90% of all cross-border transactions digitally",
+   "metric": "~90% of cross-border transactions processed digitally; >300% increase in daily customs entries"
   },
   {
    "ticker": "USB",
    "company": "U.S. Bancorp",
    "event_date": "2026-01-20",
    "category": "efficiency",
-   "headline": "U.S. Bancorp cites AI as a driver of productivity gains in large expense pools, supporting expense management and operating leverage.",
+   "headline": "U.S. Bancorp cites AI as a driver of productivity gains in large expense pools to support operating leverage.",
    "quote": "You add to it the AI boost we are seeing in big expense pools. So, we are very confident about expense management.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "VLTO",
    "company": "Veralto Corp.",
    "event_date": "2026-02-04",
    "category": "product",
-   "headline": "Veralto launched an AI-enabled packaging print solution in PQI segment to streamline design and reduce costly reprints.",
+   "headline": "Veralto launched an AI-enabled packaging print solution in its PQI segment to streamline design and reduce costly reprints.",
    "quote": "we launched a new AI-enabled solution to help streamline and error-proof packaging print during the design phase. This helps brands accelerate go-to-market and reduce costly reprints and product recalls.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "VRSK",
    "company": "Verisk Analytics, Inc.",
    "event_date": "2026-02-18",
    "category": "product",
-   "headline": "Verisk embeds AI in insurance claims estimating products (XactXpert, XactAI, XactGen) adopted by 7 of top 10 homeowners insurers.",
+   "headline": "Verisk embeds AI in insurance claims products XactXpert, XactAI, and XactGen, adopted by 7 of top 10 homeowners insurers.",
    "quote": "we currently have more than 35 AI-powered projects and solutions for both internal and external purposes in use today, and we have plans to introduce many more throughout 2026.",
-   "metric": "35+ AI-powered projects and solutions in use",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "35+ AI-powered projects and solutions in use; XactXpert adopted by 7 of top 10 homeowners insurers"
   },
   {
    "ticker": "VZ",
    "company": "Verizon Communications, Inc.",
    "event_date": "2026-01-30",
    "category": "efficiency",
-   "headline": "Verizon plans to deploy AI at scale to optimize operations, personalize customer interactions, reduce churn, and reshape customer experience.",
+   "headline": "Verizon plans to deploy AI at scale to optimize operations, personalize customer interactions, and reduce churn.",
    "quote": "we are determined to be an AI-first company deploying AI at scale. We will use AI to optimize our operations and fundamentally reshape the customer experience.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
-  },
-  {
-   "ticker": "WM",
-   "company": "Waste Management, Inc.",
-   "event_date": "2026-01-29",
-   "category": "efficiency",
-   "headline": "WM uses connected truck platform and route automation tools to reduce labor costs and improve fleet utilization.",
-   "quote": "our connected truck platform, which gives leaders real-time visibility into sequencing, downtime and efficiency to help reduce labor dependency while improving service reliability",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "WMT",
@@ -2719,47 +1924,35 @@
    "event_date": "2026-02-19",
    "category": "revenue",
    "headline": "Walmart's AI shopping assistant Sparky drives 35% higher average order value vs. non-Sparky customers",
-   "quote": "customers who use Sparky have an average order value that's about 35% higher than non-Sparky customers",
-   "metric": "35% higher average order value",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "quote": "the customers who use Sparky have an average order value that's about 35% higher than non-Sparky customers",
+   "metric": "35% higher average order value for Sparky users"
   },
   {
    "ticker": "WRB",
    "company": "W.R. Berkley Corp.",
    "event_date": "2026-01-26",
    "category": "efficiency",
-   "headline": "W.R. Berkley deploying AI on underwriting intake to increase efficiency and prioritize business; expects benefits to scale from 2027.",
-   "quote": "on the intake side where we are able to utilize certain technologies, and they are enabling us to increase our efficiency dramatically. So we are able to get to more business, and we are able to effectively prioritize.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "W.R. Berkley investing in AI and tech tools across its organization, expecting productivity benefits to materialize from 2027 onward.",
+   "quote": "we are well on our way to be utilizing many of these tools throughout our organization",
+   "metric": null
   },
   {
    "ticker": "WTW",
    "company": "Willis Towers Watson Plc",
    "event_date": "2026-02-03",
    "category": "efficiency",
-   "headline": "WTW uses AI and automation via its WE DO enterprise delivery org to drive efficiency, margin expansion, and client service improvements.",
+   "headline": "WTW uses AI and automation via its WE DO platform to drive margin expansion and operational efficiency",
    "quote": "WE DO-enabled AI and automation are central to enhancing our efficiency across the company, maintaining operational discipline and creating lasting cost savings.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "XEL",
    "company": "Xcel Energy, Inc.",
    "event_date": "2026-02-05",
    "category": "efficiency",
-   "headline": "Xcel Energy installed over 250 Pano AI cameras for wildfire risk monitoring and is exploring AI advancements with GE Vernova.",
+   "headline": "Xcel Energy installed over 250 Pano AI cameras for wildfire monitoring and plans AI collaboration with GE Vernova.",
    "quote": "we installed over 250 Pano AI cameras in weather stations",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "XOM",
@@ -2767,11 +1960,8 @@
    "event_date": "2026-01-30",
    "category": "efficiency",
    "headline": "ExxonMobil deploying enterprise-wide data platform to accelerate AI adoption and improve decision-making across operations",
-   "quote": "It will enable us to learn and act faster and better leverage our scale, accelerate the adoption of artificial intelligence, and integrate new solutions.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "quote": "accelerate the adoption of artificial intelligence, and integrate new solutions. It's already delivering results with much more to come.",
+   "metric": null
   },
   {
    "ticker": "XRAY",
@@ -2780,58 +1970,43 @@
    "category": "efficiency",
    "headline": "Dentsply Sirona establishes Transformation Office to lead enterprise AI strategy and lean operating principles.",
    "quote": "This team will also lead our enterprise AI strategy and lean operating principles, fundamentally improving how we work.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   },
   {
    "ticker": "YUM",
    "company": "Yum! Brands, Inc.",
    "event_date": "2026-02-04",
    "category": "revenue",
-   "headline": "Yum! Brands uses AI-driven personalized marketing and intelligent drive-thru/kiosk tech to boost digital sales, now ~60% of mix.",
+   "headline": "Yum! Brands uses AI-driven personalized marketing via Byte platform, with digital sales up 20% YoY and digital mix near 60%.",
    "quote": "Investments in the Byte by Yum! platform, our loyalty ecosystem and AI-driven personalized marketing, all underpin this incredible top line momentum.",
-   "metric": "Digital sales grew 20% year-over-year; digital mix approached 60%",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": "Digital sales +20% YoY; digital mix approaching 60%"
   },
   {
    "ticker": "ZBH",
    "company": "Zimmer Biomet Holdings, Inc.",
    "event_date": "2026-02-10",
    "category": "product",
-   "headline": "Zimmer Biomet developing mB\u00f4s, a semi and fully autonomous AI-driven orthopedic robotic system acquired via Monogram acquisition.",
-   "quote": "the mB\u00f4s, semi and fully autonomous AI-driven orthopedic robotic system that we acquired via the Monogram acquisition",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Zimmer Biomet plans 2027 launch of mB\u00f4s, a semi and fully autonomous AI-driven orthopedic robotic system acquired via Monogram.",
+   "quote": "the mB\u00f4s, semi and fully autonomous AI-driven orthopedic robotic system that we acquired via the Monogram acquisition.",
+   "metric": null
   },
   {
    "ticker": "ZBRA",
    "company": "Zebra Technologies Corp.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "Zebra launched Frontline AI Suite with AI Enablers, AI Blueprints, and Zebra Companion agents for front-line workers.",
-   "quote": "Our recently launched Frontline AI Suite comprised of three components. AI Enablers are foundational to our offering, consisting of tools and APIs that empower partners and customers to build enhanced applications for mobile devices.",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "headline": "Zebra Technologies embeds AI in front-line solutions sold to customers, including AI agents and AI-powered store operations.",
+   "quote": "we advanced our market leadership with the introduction of our AI solutions for the front line, sharpened our focus on automation by exiting our robotics business to prioritize areas where we see better growth opportunities, including RFID, machine vision, and AI-powered solutions.",
+   "metric": null
   },
   {
    "ticker": "ZTS",
    "company": "Zoetis, Inc.",
    "event_date": "2026-02-12",
    "category": "product",
-   "headline": "Zoetis launched AI-enabled diagnostics products including AI Masses image analysis tool for veterinary practices in 2025.",
+   "headline": "Zoetis launched AI Masses diagnostic tool in 2025, expanding its AI-enabled veterinary diagnostics portfolio.",
    "quote": "we expanded our diagnostics portfolio with the launch of Vetscan OptiCell, bringing faster, simpler in-clinic hematology to veterinary practices and AI Masses, broadening the Vetscan images menu",
-   "metric": null,
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null
+   "metric": null
   }
  ]
 }
