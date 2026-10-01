@@ -69,16 +69,18 @@ def gather(q, start, end):
             tx = ""
         if not tx:
             continue
-        if not ah.AI_TERMS.search(tx):
-            continue  # live sweep's pre-filter: no AI language, no request
+        window = ah._ai_window(tx)
+        if window is None:
+            continue  # live sweep: no AI term, no API call
         kept += 1
         cid = t.replace(".", "-").replace("/", "-")
-        meta[cid] = {"ticker": t, "name": ev["name"], "date": ev.get("date") or start}
+        meta[cid] = {"ticker": t, "name": ev["name"], "date": ev.get("date") or start,
+                     "rid": rid, "eventId": ev.get("eventId", "")}
         reqs.append({"custom_id": cid, "params": {
             "model": ah.MODEL, "max_tokens": 400,
             "system": ah.SYSTEM,
             "messages": [{"role": "user", "content":
-                ah.USER_TMPL.format(company=ev["name"], ticker=t, transcript=tx[:180000])}],
+                ah.USER_TMPL.format(company=ev["name"], ticker=t, transcript=window)}],
         }})
         if i % 50 == 0:
             print(f"  transcripts: {i}/{len(events)} fetched, {len(reqs)} AI-relevant", flush=True)
@@ -108,19 +110,26 @@ def finish(client, st, out_path, state_path, q):
             d = json.loads(raw)
         except Exception:
             err += 1; continue
-        if not d.get("uses_ai"):
+        if not d.get("uses_ai") or d.get("category") not in ("revenue", "efficiency", "product"):
             continue
+        # live-sweep fidelity: quote must verify verbatim against the transcript
+        m9 = meta.get(cid, {})
+        tx9 = ""
+        try:
+            rid9 = m9.get("rid") or em.get_transcript_report_id(t, m9.get("eventId", ""))
+            tx9 = em.get_transcript_text(rid9) if rid9 else ""
+        except Exception:
+            tx9 = ""
+        if not tx9 or not ah._verify_quote(d.get("quote", ""), tx9):
+            err += 1; continue
         hits.append({
             "ticker": t,
-            "company": meta.get(cid, {}).get("name", t),
-            "event_date": meta.get(cid, {}).get("date", ""),
-            "category": d.get("category", "mention_only"),
-            "headline": d.get("headline", ""),
-            "quote": d.get("quote", ""),
+            "company": m9.get("name", t),
+            "event_date": m9.get("date", ""),
+            "category": d["category"],
+            "headline": d.get("headline", "").strip(),
+            "quote": d.get("quote", "").strip(),
             "metric": d.get("metric"),
-            "margin_claim": bool(d.get("margin_claim")),
-            "margin_quote": d.get("margin_quote", ""),
-            "margin_metric": d.get("margin_metric"),
         })
     out = {"quarter": q, "highlights": sorted(hits, key=lambda r: r["ticker"])}
     json.dump(out, open(out_path, "w"), indent=1)
