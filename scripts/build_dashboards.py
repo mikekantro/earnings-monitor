@@ -80,6 +80,18 @@ today_short = datetime.date.today().strftime("%b %-d, %Y")
 q1_all = load(f"{ROOT}/pmi_scores_q1_2026.json")["scores"]
 q1s = {r["ticker"]: r for r in q1_all}
 raw = load(f"{ROOT}/pmi_scores.json")["scores"]
+# Season-rollover guard (Oct 2026): when the live file has reset for a new
+# quarter, the displayed season comes from the archived file until the full
+# Q3 rollover design ships. The live file's early-season records are ignored
+# here (they are too few to chart) but keep accumulating for the real rollover.
+if len({r["ticker"] for r in raw}) < 300:
+    try:
+        _arch = load(f"{ROOT}/pmi_scores_q2_2026.json")["scores"]
+        print(f"season rollover guard: live file has {len(raw)} records; "
+              f"displaying archived Q2 2026 ({len(_arch)} records)")
+        raw = _arch
+    except Exception as e:
+        print(f"rollover guard: archive unavailable ({e}); building from live file")
 best = {}
 for r in raw:
     t = r["ticker"]
