@@ -291,6 +291,51 @@ try:
     _bo_t = sorted({x["ticker"] for x in load(f"{ROOT}/buildout_highlights.json")["highlights"]})
 except Exception:
     _bo_t = []
+def _adata():
+    _PAIRS=[("Q1'23","ai_highlights_2023q1.json","pmi_scores_2023q1.json"),
+            ("Q2'23","ai_highlights_2023q2.json","pmi_scores_2023q2.json"),
+            ("Q3'23","ai_highlights_2023q3.json","pmi_scores_2023q3.json"),
+            ("Q4'23","ai_highlights_2023q4.json","pmi_scores_2023q4.json"),
+            ("Q1'24","ai_highlights_2024q1.json","pmi_scores_2024q1.json"),
+            ("Q2'24","ai_highlights_2024q2.json","pmi_scores_2024q2.json"),
+            ("Q3'24","ai_highlights_2024q3.json","pmi_scores_2024q3.json"),
+            ("Q4'24","ai_highlights_2024q4.json","pmi_scores_2024q4.json"),
+            ("Q1'25","ai_highlights_2025q1.json","pmi_scores_2025q1.json"),
+            ("Q2'25","ai_highlights_2025q2.json","pmi_scores_2025q2.json"),
+            ("Q3'25","ai_highlights_2025q3.json","pmi_scores_2025q3.json"),
+            ("Q4'25","ai_highlights_2025q4.json","pmi_scores_2025q4.json"),
+            ("Q1'26","ai_highlights_q1.json","pmi_scores_q1_2026.json"),
+            ("Q2'26","ai_highlights_q2.json","pmi_scores_q2_2026.json")]
+    import os as _os
+    out={}
+    for _lbl, _af, _pf in _PAIRS:
+        if not (_os.path.exists(f"{ROOT}/{_af}") and _os.path.exists(f"{ROOT}/{_pf}")): continue
+        _u={}
+        for _r in load(f"{ROOT}/{_pf}")["scores"]:
+            _t=_r["ticker"]
+            if _t not in _u or _r.get("date","")>_u[_t].get("date",""): _u[_t]=_r
+        _hl=load(f"{ROOT}/{_af}")["highlights"]
+        _ad={_h["ticker"] for _h in _hl}
+        _cm={}
+        for _h in _hl: _cm.setdefault(_h["ticker"], _h.get("category","efficiency"))
+        def _row(_l9, _mem):
+            _hit=_ad & _mem; _m=len(_mem)
+            _c={"efficiency":0,"product":0,"revenue":0}
+            for _t9 in _hit:
+                _k=_cm.get(_t9,"efficiency")
+                _c[_k if _k in _c else "efficiency"]+=1
+            return {"l":_l9,"rate":round(100*len(_hit)/max(_m,1),1),"a":len(_hit),"u":_m,
+                    "eff":round(100*_c["efficiency"]/max(_m,1),1),
+                    "prd":round(100*_c["product"]/max(_m,1),1),
+                    "rev":round(100*_c["revenue"]/max(_m,1),1)}
+        out.setdefault("All",[]).append(_row(_lbl, set(_u)))
+        for _sx in sorted({_r.get("sector") for _r in _u.values() if _r.get("sector")}):
+            _su={_t for _t,_r in _u.items() if _r.get("sector")==_sx}
+            if len(_su)<10: continue
+            out.setdefault(_sx,[]).append(_row(_lbl, _su))
+    return out
+_a7 = s.index("const ADATA="); _b7 = s.index(";", _a7)
+s = s[:_a7] + "const ADATA=" + json.dumps(_adata(), separators=(",",":")) + s[_b7:]
 ba = s.index("const BOSET="); bb = s.index(";", ba)
 s = s[:ba] + "const BOSET=" + json.dumps(_bo_t) + s[bb:]
 s = sub1(s, r"<b>\d+%</b>of Q2 reporters cite AI use \(Q1: 35%\)", f"<b>{AP['rate2']}%</b>of Q2 reporters cite AI use (Q1: 35%)", "ai-rate")
