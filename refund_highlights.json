@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-01T17:01:38.608600",
+ "generated": "2026-10-02T00:58:17.807147",
  "window": [
   "2026-07-15",
-  "2026-10-01"
+  "2026-10-02"
  ],
  "highlights": [
   {
@@ -2332,6 +2332,18 @@
    "quote_receiving": "we saw a $96 million or $4.43 a share benefit from the refunds of IEEPA tariffs",
    "quote_customers": "",
    "event_date": "2026-09-22"
+  },
+  {
+   "ticker": "MKC",
+   "company": "McCormick & Co., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "35 basis points",
+   "headline": "McCormick received tariff refunds worth ~35 basis points of gross margin in fiscal 2026.",
+   "quote_receiving": "if you take tariff refunds out, which is about 35 basis points, it's still a significant gross margin expansion year-over-year",
+   "quote_customers": "",
+   "event_date": "2026-10-01"
   }
  ]
 }

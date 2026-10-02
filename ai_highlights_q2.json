@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-01T17:01:50.131286",
+ "generated": "2026-10-02T00:58:35.257041",
  "window": [
   "2026-07-15",
-  "2026-10-01"
+  "2026-10-02"
  ],
  "highlights": [
   {
@@ -7132,6 +7132,18 @@
    "quote": "agent-assisted engineering, cut processing times in this area by more than 75%, halved the onboarding effort and more than doubled delivery speed",
    "metric": "Processing times cut >75%; client assist agent resolves >30% of user-initiated requests without human interaction; token use for coding assistants grew 80% QoQ with spend at half that pace",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "ACN",
+   "company": "Accenture Plc",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Accenture embeds AI into client transformations across customer experience, supply chain, finance, and industry core value chains.",
+   "quote": "we are able to embed advanced AI earlier into large-scale reinventions. Our proprietary assets and platforms, ecosystem relationships, and our ability to deliver the work through Consulting, Managed Services",
+   "metric": null,
+   "event_date": "2026-10-01"
   }
  ]
 }
