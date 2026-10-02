@@ -1925,7 +1925,43 @@
    "quote": "we're using conversational AI, including voice and chat agents, to handle live interactions, resolving queries faster, and provide a more personalized experience",
    "metric": null,
    "event_date": "2026-10-01"
+  },
+  {
+   "ticker": "FDS",
+   "company": "FactSet Research Systems, Inc.",
+   "category": "efficiency",
+   "headline": "FactSet uses AI coding assistants and agents internally, cutting processing times 75%+ and resolving 30% of client requests without human interaction.",
+   "quote": "agent-assisted engineering, cut processing times in this area by more than 75%, halved the onboarding effort and more than doubled delivery speed",
+   "metric": "30% of user-initiated requests resolved without human interaction; processing times cut >75%",
+   "event_date": "2026-10-02"
+  },
+  {
+   "ticker": "CCL",
+   "company": "Carnival Corp. Ltd.",
+   "category": "efficiency",
+   "headline": "Carnival uses AI across commercial systems to improve decisions, personalize guest experiences, automate shoreside ops, and find vessel efficiencies.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside",
+   "metric": null,
+   "event_date": "2026-10-02"
+  },
+  {
+   "ticker": "ACN",
+   "company": "Accenture Plc",
+   "category": "product",
+   "headline": "Accenture embeds AI into client services across customer experience, supply chain, finance, and enterprise reinventions.",
+   "quote": "we're using conversational AI, including voice and chat agents, to handle live interactions, resolving queries faster, and provide a more personalized experience",
+   "metric": null,
+   "event_date": "2026-10-02"
+  },
+  {
+   "ticker": "KMX",
+   "company": "CarMax, Inc.",
+   "category": "revenue",
+   "headline": "CarMax scaled AI voice technology to 100% of inbound calls to resolve inquiries and support sales conversion.",
+   "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
+   "metric": null,
+   "event_date": "2026-10-02"
   }
  ],
- "updated": "2026-10-01T18:19:37"
+ "updated": "2026-10-02T06:31:30"
 }
