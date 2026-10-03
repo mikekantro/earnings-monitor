@@ -1961,7 +1961,43 @@
    "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
    "metric": null,
    "event_date": "2026-10-02"
+  },
+  {
+   "ticker": "FDS",
+   "company": "FactSet Research Systems, Inc.",
+   "category": "efficiency",
+   "headline": "FactSet uses AI coding assistants and agents to cut costs, reduce headcount, and speed data pipeline processing by 75%+",
+   "quote": "agent-assisted engineering, cut processing times in this area by more than 75%, halved the onboarding effort and more than doubled delivery speed",
+   "metric": "processing times cut by more than 75%; token use for coding assistants grew 80% QoQ with spend growing at only half that pace",
+   "event_date": "2026-10-03"
+  },
+  {
+   "ticker": "KMX",
+   "company": "CarMax, Inc.",
+   "category": "revenue",
+   "headline": "CarMax scaled AI voice technology to 100% of inbound calls to resolve inquiries and support sales conversion.",
+   "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
+   "metric": null,
+   "event_date": "2026-10-03"
+  },
+  {
+   "ticker": "ACN",
+   "company": "Accenture Plc",
+   "category": "product",
+   "headline": "Accenture embeds AI into client services across customer experience, supply chain, finance, and enterprise-wide transformations.",
+   "quote": "we're using conversational AI, including voice and chat agents, to handle live interactions, resolving queries faster, and provide a more personalized experience",
+   "metric": null,
+   "event_date": "2026-10-03"
+  },
+  {
+   "ticker": "CCL",
+   "company": "Carnival Corp. Ltd.",
+   "category": "efficiency",
+   "headline": "Carnival using AI in commercial systems for better decisions, personalized guest experiences, shoreside automation, and vessel efficiency.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside",
+   "metric": null,
+   "event_date": "2026-10-03"
   }
  ],
- "updated": "2026-10-02T17:45:28"
+ "updated": "2026-10-03T05:59:05"
 }
