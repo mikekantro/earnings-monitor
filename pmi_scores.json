@@ -390,6 +390,51 @@
       "ticker": "CCL",
       "name": "Carnival Corp. Ltd.",
       "date": "2026-10-03"
+    },
+    {
+      "new_orders": 50,
+      "output": 50,
+      "employment": 50,
+      "prices": 50,
+      "supply_chains": 50,
+      "demand_breadth": 50,
+      "composite": 50,
+      "sector": "Consumer Staples",
+      "confidence": 1,
+      "key_signal": "No valid Q2 FY2026 earnings data available \u2014 the provided transcript is a 2022 Annual Stockholder Meeting with no current financial metrics, guidance, or macro-relevant disclosures.",
+      "ticker": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "date": "2026-10-06"
+    },
+    {
+      "new_orders": 38,
+      "output": 42,
+      "employment": 30,
+      "prices": 35,
+      "supply_chains": 33,
+      "demand_breadth": 40,
+      "composite": 37,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Structural overcapacity forcing permanent plant closure and 4% global headcount reduction signals a meaningful demand contraction in the frozen potato/QSR foodservice channel that reflects persistent low-income consumer stress and broad food-away-from-home weakness.",
+      "ticker": "LW",
+      "name": "Lamb Weston Holdings, Inc.",
+      "date": "2026-10-06"
+    },
+    {
+      "new_orders": 32,
+      "output": 35,
+      "employment": 38,
+      "prices": 48,
+      "supply_chains": 45,
+      "demand_breadth": 28,
+      "composite": 36,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "NIKE guided FY2027 revenue to decline high-single digits with Greater China down 26% and a $2.5B restructuring program signaling a multi-year reset, not a cyclical trough.",
+      "ticker": "NKE",
+      "name": "NIKE, Inc.",
+      "date": "2026-10-06"
     }
   ]
 }
