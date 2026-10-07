@@ -435,6 +435,21 @@
       "ticker": "NKE",
       "name": "NIKE, Inc.",
       "date": "2026-10-06"
+    },
+    {
+      "new_orders": 62,
+      "output": 58,
+      "employment": 52,
+      "prices": 60,
+      "supply_chains": 63,
+      "demand_breadth": 55,
+      "composite": 59,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "North America's seventh consecutive quarter of volume growth (+7% YoY) driven by over-indexing to chicken-focused QSRs signals share gains amid flat aggregate restaurant traffic, while accelerating industry capacity rationalization in Europe is creating a supply-side inflection that should restore pricing power over the next 12-18 months.",
+      "ticker": "LW",
+      "name": "Lamb Weston Holdings, Inc.",
+      "date": "2026-10-07"
     }
   ]
 }
