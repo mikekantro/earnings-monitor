@@ -450,6 +450,21 @@
       "ticker": "LW",
       "name": "Lamb Weston Holdings, Inc.",
       "date": "2026-10-07"
+    },
+    {
+      "new_orders": 52,
+      "output": 58,
+      "employment": 48,
+      "prices": 52,
+      "supply_chains": 55,
+      "demand_breadth": 45,
+      "composite": 53,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Headline shipment strength is largely a distributor inventory rebuild rather than genuine consumer demand recovery, making Q3 depletion data the critical test of whether underlying demand trends are durable.",
+      "ticker": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "date": "2026-10-07"
     }
   ]
 }
