@@ -76,6 +76,15 @@ SP500 = {
     "WDC","WY","WHR","WMB","WTW","WYNN","XEL","XYL","YUM","ZBRA","ZBH","ZTS"
 }
 
+# ── Authoritative universe (Oct 2026): committed S&P 1500 roster file. ────────
+# The hardcoded S&P 500 set above remains only as a last-resort fallback.
+try:
+    with open(os.path.join(os.path.dirname(__file__), "..", "sp1500_universe.json")) as _uf:
+        SP500 = {r["ticker"] for r in json.load(_uf)}
+    print(f"   universe: {len(SP500)} tickers from sp1500_universe.json")
+except Exception as _ue:
+    print(f"   ⚠️  sp1500_universe.json unavailable ({_ue}); using hardcoded S&P 500 fallback")
+
 # ── FactSet: Live S&P 500 constituents via Benchmarks API ────────────────────
 def get_sp500_tickers_live() -> set[str]:
     """
