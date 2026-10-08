@@ -84,11 +84,36 @@ raw = load(f"{ROOT}/pmi_scores.json")["scores"]
 # quarter, the displayed season comes from the archived file until the full
 # Q3 rollover design ships. The live file's early-season records are ignored
 # here (they are too few to chart) but keep accumulating for the real rollover.
-if len({r["ticker"] for r in raw}) < 300:
+QTRK_HTML = ""
+_lu9 = {}
+for _r9 in raw:
+    _t9 = _r9["ticker"]
+    if _t9 not in _lu9 or _r9.get("date","") > _lu9[_t9].get("date",""): _lu9[_t9] = _r9
+if len(_lu9) < 300:
+    _n9 = len(_lu9)
+    if _n9 > 0:
+        _c9 = [x["composite"] for x in _lu9.values() if x.get("composite") is not None]
+        _o9 = [x["new_orders"] for x in _lu9.values() if x.get("new_orders") is not None]
+        _e9 = [x["employment"] for x in _lu9.values() if x.get("employment") is not None]
+        _avg9 = f"{sum(_c9)/len(_c9):.1f}" if _c9 else "&ndash;"
+        _avo9 = f"{sum(_o9)/len(_o9):.1f}" if _o9 else "&ndash;"
+        _ave9 = f"{sum(_e9)/len(_e9):.1f}" if _e9 else "&ndash;"
+        QTRK_HTML = (
+            '<div style="border-left:4px solid #C24F1F;background:#FBF4EF;'
+            'padding:12px 16px;margin:0 0 20px">'
+            '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
+            'color:#223E4C">Q3 2026 season under way</span>'
+            '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;'
+            f'color:#3E4C57"> &middot; {_n9} of ~1,380 companies in &middot; early read: '
+            f'composite {_avg9}, new orders {_avo9}, employment {_ave9}</span>'
+            '<div class="note" style="margin:6px 0 0">Too few reporters yet to re-rank '
+            'sectors, so everything below still shows the completed Q2 2026 season. '
+            'The dashboard flips to live Q3 automatically once 300 companies have '
+            'reported, around late October.</div></div>')
     try:
         _arch = load(f"{ROOT}/pmi_scores_q2_2026.json")["scores"]
-        print(f"season rollover guard: live file has {len(raw)} records; "
-              f"displaying archived Q2 2026 ({len(_arch)} records)")
+        print(f"season rollover guard: live file has {len(raw)} records "
+              f"({len(_lu9)} companies); displaying archived Q2 2026 ({len(_arch)} records)")
         raw = _arch
     except Exception as e:
         print(f"rollover guard: archive unavailable ({e}); building from live file")
@@ -147,6 +172,7 @@ tbl = [{"t": r["ticker"], "s": r.get("sector","—"),
 
 p = f"{SITE}/pmi-scorecard/index.html"
 s = open(p).read()
+s = _swapm(s, "QTRK", QTRK_HTML)
 a = s.index("const S="); end = s.index("const esc", a)
 s = (s[:a] + "const S="+json.dumps(score)+",SEC="+json.dumps(sectors)
      + ",MV="+json.dumps(movers)+",MEGA="+json.dumps(mega)
