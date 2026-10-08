@@ -59,6 +59,12 @@ def main():
                 tickers[r["ticker"]] = (r.get("name", r["ticker"]), r.get("sector", ""))
         except Exception as e:
             print(f"{f}: {e}")
+    # S&P 1500 roster: index adds get mapped before they ever score (Oct 2026)
+    try:
+        for r in json.load(open("sp1500_universe.json")):
+            tickers.setdefault(r["ticker"], (r.get("name", r["ticker"]), ""))
+    except Exception as e:
+        print(f"sp1500_universe.json: {e}")
     have = {}
     if os.path.exists(OUT):
         prior = json.load(open(OUT))
