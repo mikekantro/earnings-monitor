@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-08T17:23:53.822063",
+ "generated": "2026-10-09T01:18:42.367908",
  "window": [
   "2026-07-15",
-  "2026-10-08"
+  "2026-10-09"
  ],
  "highlights": [
   {
@@ -3234,6 +3234,26 @@
    "direction": "accelerating",
    "headline": "Micron cites AI infrastructure demand driving accelerated data-center cleanroom construction CapEx through 2028.",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "PENG",
+   "company": "Penguin Solutions, Inc.",
+   "channel": "equipment_components",
+   "quote": "Non-hyperscale AI Infrastructure business grew 99% in the fourth quarter and represented 66% of segment net sales, while growing 72% for the year and reinforcing its position as the segment's primary growth driver.",
+   "metric": "Non-hyperscale AI Infrastructure grew 99% Q4 YoY, 72% full year; 66% of Advanced Computing segment",
+   "direction": "accelerating",
+   "headline": "Penguin Solutions cites accelerating non-hyperscale AI infrastructure demand as primary growth driver for Advanced Computing segment.",
+   "event_date": "2026-10-06"
+  },
+  {
+   "ticker": "WS",
+   "company": "Worthington Steel, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Data center construction continues to support demand, but broader construction activity remains more sensitive to interest rates and consumer confidence.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "Worthington Steel cites data center construction as a demand support for its construction market segment.",
+   "event_date": "2026-10-07"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-08T17:23:54.856501",
+ "generated": "2026-10-09T01:18:56.816923",
  "window": [
   "2026-07-15",
-  "2026-10-08"
+  "2026-10-09"
  ],
  "highlights": [
   {
@@ -7144,6 +7144,42 @@
    "quote": "we are able to embed advanced AI earlier into large-scale reinventions. Our proprietary assets and platforms, ecosystem relationships, and our ability to deliver the work through Consulting, Managed Services",
    "metric": null,
    "event_date": "2026-10-01"
+  },
+  {
+   "ticker": "PENG",
+   "company": "Penguin Solutions, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Penguin Solutions sells AI Factory Platform including ClusterWareAI OS with agentic AI capabilities for automating AI factory operations.",
+   "quote": "We also continued to advance ClusterWareAI with new agentic AI capabilities that automate AI factory operations, remediation and infrastructure monitoring.",
+   "metric": null,
+   "event_date": "2026-10-06"
+  },
+  {
+   "ticker": "PEP",
+   "company": "PepsiCo, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "PepsiCo references AI use for productivity and execution improvements in its DSD beverage system.",
+   "quote": "any AI that you've been using for productivity that could illustrate an acceleration of that execution and potentially convert into savings",
+   "metric": null,
+   "event_date": "2026-10-08"
+  },
+  {
+   "ticker": "WS",
+   "company": "Worthington Steel, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Worthington Steel uses AI to improve inventory decisions across its MRO network, reducing unnecessary purchases and cutting costs.",
+   "quote": "applying AI to improve inventory decisions across our maintenance, repair, and operations network. Our buyers now have better visibility across the enterprise while AI helps evaluate demand patterns, identify duplicate purchasing opportunities",
+   "metric": null,
+   "event_date": "2026-10-07"
   }
  ]
 }

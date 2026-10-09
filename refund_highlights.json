@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-08T17:23:52.822527",
+ "generated": "2026-10-09T01:18:27.707526",
  "window": [
   "2026-07-15",
-  "2026-10-08"
+  "2026-10-09"
  ],
  "highlights": [
   {
@@ -2344,6 +2344,18 @@
    "quote_receiving": "if you take tariff refunds out, which is about 35 basis points, it's still a significant gross margin expansion year-over-year",
    "quote_customers": "",
    "event_date": "2026-10-01"
+  },
+  {
+   "ticker": "PEP",
+   "company": "PepsiCo, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "na",
+   "amount": null,
+   "headline": "Analyst notes tariff refund going away as cost headwind for PepsiCo North America Beverages; company does not detail receipt or use.",
+   "quote_receiving": "aluminum costs are up, diesel, the tariff refund goes away, and there certainly is a case for pricing there",
+   "quote_customers": "",
+   "event_date": "2026-10-08"
   }
  ]
 }
