@@ -2051,7 +2051,43 @@
    "quote": "we built on that foundation by applying AI to improve inventory decisions across our maintenance, repair, and operations network. Our buyers now have better visibility across the enterprise while AI helps evaluate demand patterns",
    "metric": null,
    "event_date": "2026-10-08"
+  },
+  {
+   "ticker": "PEP",
+   "company": "PepsiCo, Inc.",
+   "category": "efficiency",
+   "headline": "PepsiCo mentions using AI for productivity in DSD/execution operations, alongside automation and digitalization.",
+   "quote": "your ability to obviously check the coolers and any AI that you've been using for productivity that could illustrate an acceleration of that execution",
+   "metric": null,
+   "event_date": "2026-10-09"
+  },
+  {
+   "ticker": "WS",
+   "company": "Worthington Steel, Inc.",
+   "category": "efficiency",
+   "headline": "Worthington Steel applies AI to MRO inventory decisions, helping buyers identify duplicate purchases and optimize transfers between facilities.",
+   "quote": "AI helps evaluate demand patterns, identify duplicate purchasing opportunities, recommend transfers between facilities, and support inventory-level decisions.",
+   "metric": null,
+   "event_date": "2026-10-09"
+  },
+  {
+   "ticker": "PENG",
+   "company": "Penguin Solutions, Inc.",
+   "category": "product",
+   "headline": "Penguin Solutions sells AI Factory Platform including ClusterWareAI OS with agentic AI capabilities for automating AI factory operations.",
+   "quote": "We also continued to advance ClusterWareAI with new agentic AI capabilities that automate AI factory operations, remediation and infrastructure monitoring.",
+   "metric": null,
+   "event_date": "2026-10-09"
+  },
+  {
+   "ticker": "LW",
+   "company": "Lamb Weston Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Lamb Weston identifies opportunities to deploy AI to enhance its operating performance.",
+   "quote": "We have also identified opportunities to further deploy AI to enhance our operating performance.",
+   "metric": null,
+   "event_date": "2026-10-09"
   }
  ],
- "updated": "2026-10-08T18:43:52"
+ "updated": "2026-10-09T07:02:13"
 }
