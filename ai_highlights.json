@@ -2087,7 +2087,52 @@
    "quote": "We have also identified opportunities to further deploy AI to enhance our operating performance.",
    "metric": null,
    "event_date": "2026-10-09"
+  },
+  {
+   "ticker": "LW",
+   "company": "Lamb Weston Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Lamb Weston identifies opportunities to deploy AI to enhance operating performance.",
+   "quote": "We have also identified opportunities to further deploy AI to enhance our operating performance.",
+   "metric": null,
+   "event_date": "2026-10-10"
+  },
+  {
+   "ticker": "PEP",
+   "company": "PepsiCo, Inc.",
+   "category": "efficiency",
+   "headline": "PepsiCo references using AI for productivity to improve execution in its DSD beverage system.",
+   "quote": "your ability to obviously check the coolers and any AI that you've been using for productivity that could illustrate an acceleration of that execution",
+   "metric": null,
+   "event_date": "2026-10-10"
+  },
+  {
+   "ticker": "WS",
+   "company": "Worthington Steel, Inc.",
+   "category": "efficiency",
+   "headline": "Worthington Steel deploys AI to improve MRO inventory decisions, evaluating demand patterns and recommending transfers between facilities.",
+   "quote": "AI helps evaluate demand patterns, identify duplicate purchasing opportunities, recommend transfers between facilities, and support inventory-level decisions.",
+   "metric": null,
+   "event_date": "2026-10-10"
+  },
+  {
+   "ticker": "PENG",
+   "company": "Penguin Solutions, Inc.",
+   "category": "product",
+   "headline": "Penguin Solutions sells AI Factory Platform including ClusterWareAI OS with agentic AI capabilities for automated operations and monitoring.",
+   "quote": "We also continued to advance ClusterWareAI with new agentic AI capabilities that automate AI factory operations, remediation and infrastructure monitoring.",
+   "metric": null,
+   "event_date": "2026-10-10"
+  },
+  {
+   "ticker": "DAL",
+   "company": "Delta Air Lines, Inc.",
+   "category": "revenue",
+   "headline": "Delta built 'Delta Concierge,' its own agentic AI solution for top customers, fully operational today",
+   "quote": "we built Delta Concierge that we announced a year-and-a-half ago, and it's fully up and running today, which is our agentic solution to taking care of our best customers.",
+   "metric": null,
+   "event_date": "2026-10-10"
   }
  ],
- "updated": "2026-10-09T07:02:13"
+ "updated": "2026-10-10T06:37:09"
 }
