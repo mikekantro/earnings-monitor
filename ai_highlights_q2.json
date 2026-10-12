@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-10T01:03:30.883282",
+ "generated": "2026-10-12T19:48:17.576893",
  "window": [
   "2026-07-15",
-  "2026-10-10"
+  "2026-10-12"
  ],
  "highlights": [
   {
@@ -7180,6 +7180,18 @@
    "quote": "applying AI to improve inventory decisions across our maintenance, repair, and operations network. Our buyers now have better visibility across the enterprise while AI helps evaluate demand patterns, identify duplicate purchasing opportunities",
    "metric": null,
    "event_date": "2026-10-07"
+  },
+  {
+   "ticker": "DAL",
+   "company": "Delta Air Lines, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Delta built and deployed 'Delta Concierge,' an agentic AI solution for its best customers, now fully operational.",
+   "quote": "we built Delta Concierge that we announced a year-and-a-half ago, and it's fully up and running today, which is our agentic solution to taking care of our best customers.",
+   "metric": null,
+   "event_date": "2026-10-09"
   }
  ]
 }
