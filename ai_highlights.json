@@ -2141,7 +2141,61 @@
    "quote": "we built Delta Concierge that we announced a year-and-a-half ago, and it's fully up and running today, which is our agentic solution to taking care of our best customers.",
    "metric": null,
    "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "UNH",
+   "company": "UnitedHealth Group, Inc.",
+   "category": "efficiency",
+   "headline": "UnitedHealth uses AI for chart summarization, appeal research, and Medicare plan recommendations, cutting chart review time by 33%",
+   "quote": "We have expanded AI-enabled chart summarization to more than 40% of our employed clinicians, reducing chart review time by 33%.",
+   "metric": "33% reduction in chart review time; 26% shorter appeal cycle times",
+   "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "WFC",
+   "company": "Wells Fargo & Co.",
+   "category": "efficiency",
+   "headline": "Wells Fargo uses AI internally to write code, boost branch capacity, launch marketing campaigns, close cyber vulnerabilities, and simplify risk management.",
+   "quote": "Internally, we're using it to write code faster. Over the past year, this has gone from being a tool to assist programmers to now being able to use autonomous agents when appropriate; to increase capacity and revenue from our branches, to launch marketing campaigns faster",
+   "metric": null,
+   "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "FBK",
+   "company": "FB Financial Corp.",
+   "category": "efficiency",
+   "headline": "FB Financial executives discuss AI as a tool for improving bank operational efficiency and deposit market competitiveness.",
+   "quote": "I think most of your \u2013 a lot of your primary applications of AI are going to be in that area for banks.",
+   "metric": null,
+   "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "C",
+   "company": "Citigroup, Inc.",
+   "category": "efficiency",
+   "headline": "Citigroup deploying AI firm-wide across four lenses: growth, efficiency, employee capability, and cyber defense.",
+   "quote": "we deploy AI to improve the performance of our firm",
+   "metric": null,
+   "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "JPM",
+   "company": "JPMorgan Chase & Co.",
+   "category": "efficiency",
+   "headline": "JPMorgan uses AI agents internally and is piloting a Smart Cash AI solution with clients, while building tools to protect customers from rogue agents.",
+   "quote": "Internally we use agents to do good things here, and we're going to continue to do that and we do -- we'll use it for customers, but our focus will always be do a great job for customers.",
+   "metric": null,
+   "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "ACI",
+   "company": "Albertsons Cos., Inc.",
+   "category": "efficiency",
+   "headline": "Albertsons deploying four AI 'big bets': merch intelligence, store labor, demand forecasting to cut costs and improve execution.",
+   "quote": "Our merch intelligence big bet is literally about enabling faster, smarter decision making on category decisions, whether it be assortment all the way through to price and promotion.",
+   "metric": null,
+   "event_date": "2026-10-13"
   }
  ],
- "updated": "2026-10-13T07:14:44"
+ "updated": "2026-10-13T19:10:39"
 }
