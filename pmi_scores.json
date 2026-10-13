@@ -840,6 +840,21 @@
       "ticker": "APOG",
       "name": "Apogee Enterprises, Inc.",
       "date": "2026-10-10"
+    },
+    {
+      "new_orders": 78,
+      "output": 74,
+      "employment": 62,
+      "prices": 80,
+      "supply_chains": 55,
+      "demand_breadth": 68,
+      "composite": 73,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Delta absorbed a $6B (~60% YoY) fuel cost surge while maintaining ~$4.5B full-year pre-tax profit and $2.5B free cash flow, demonstrating extraordinary pricing power and structural demand durability unprecedented in prior airline cycles.",
+      "ticker": "DAL",
+      "name": "Delta Air Lines, Inc.",
+      "date": "2026-10-13"
     }
   ]
 }

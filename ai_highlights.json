@@ -2132,7 +2132,16 @@
    "quote": "we built Delta Concierge that we announced a year-and-a-half ago, and it's fully up and running today, which is our agentic solution to taking care of our best customers.",
    "metric": null,
    "event_date": "2026-10-10"
+  },
+  {
+   "ticker": "DAL",
+   "company": "Delta Air Lines, Inc.",
+   "category": "revenue",
+   "headline": "Delta launched 'Delta Concierge,' an agentic AI solution for its best customers, now fully operational.",
+   "quote": "we built Delta Concierge that we announced a year-and-a-half ago, and it's fully up and running today, which is our agentic solution to taking care of our best customers.",
+   "metric": null,
+   "event_date": "2026-10-13"
   }
  ],
- "updated": "2026-10-10T06:37:09"
+ "updated": "2026-10-13T07:14:44"
 }
