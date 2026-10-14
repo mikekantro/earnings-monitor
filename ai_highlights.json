@@ -2249,7 +2249,43 @@
    "quote": "we're approaching AI through four lenses. How it can help us grow? How we can deploy it to operate more efficiently? How we can teach our people to use these new capabilities? And how we can strengthen our defenses",
    "metric": null,
    "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "MS",
+   "company": "Morgan Stanley",
+   "category": "efficiency",
+   "headline": "Morgan Stanley deploys AI tools to support infrastructure, business growth and people across its technology stack.",
+   "quote": "We continue to invest across our technology stack, embracing AI tools to support our infrastructure, business growth and people.",
+   "metric": null,
+   "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "STT",
+   "company": "State Street Corp.",
+   "category": "efficiency",
+   "headline": "State Street uses AI to simplify processes, accelerate execution, strengthen resilience and allocate resources more effectively.",
+   "quote": "A.I. is helping us simplify processes, improve and accelerate execution and technology development, strengthen resilience and allocate resources more effectively across the franchise.",
+   "metric": null,
+   "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "BAC",
+   "company": "Bank of America Corp.",
+   "category": "efficiency",
+   "headline": "Bank of America uses AI and automation to reduce headcount by ~3,500 YoY and improve productivity across operations",
+   "quote": "our head count was down nearly 3,500 from a year ago as we automate processes and simplify work across the company. This means we don't need to hire quite as many people to refill roles.",
+   "metric": "-3,500 headcount YoY",
+   "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "BLK",
+   "company": "BlackRock, Inc.",
+   "category": "efficiency",
+   "headline": "BlackRock says AI is amplifying the value of its Aladdin platform, accelerating analytics innovation for investment professionals.",
+   "quote": "AI is amplifying the value of Aladdin as we accelerate innovation and create better analytics.",
+   "metric": null,
+   "event_date": "2026-10-14"
   }
  ],
- "updated": "2026-10-14T05:43:15"
+ "updated": "2026-10-14T17:00:57"
 }
