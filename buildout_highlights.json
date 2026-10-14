@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T00:26:02.428237",
+ "generated": "2026-10-14T15:07:51.858619",
  "window": [
   "2026-07-15",
   "2026-10-14"
@@ -3254,6 +3254,16 @@
    "direction": "steady",
    "headline": "Worthington Steel cites data center construction as a demand support for its construction market segment.",
    "event_date": "2026-10-07"
+  },
+  {
+   "ticker": "GS",
+   "company": "The Goldman Sachs Group, Inc.",
+   "channel": "services_other",
+   "quote": "An ongoing theme has been the growth in AI infrastructure investment. Recent studies estimate that the US data center buildout could require north of $10 trillion of investment through 2032... demand for compute significantly exceeds supply at the moment, creating opportunities to help develop financing structures to meet that capacity shortfall. Our differentiated financing, distribution, and investing capabilities position us to play a meaningful role in the mobilization of capital and supporting client activity.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Goldman Sachs cites AI infrastructure investment and data center buildout as creating financing opportunities that leverage its capital mobilization capabilities.",
+   "event_date": "2026-10-13"
   }
  ]
 }
