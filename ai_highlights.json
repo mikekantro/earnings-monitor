@@ -2285,7 +2285,106 @@
    "quote": "AI is amplifying the value of Aladdin as we accelerate innovation and create better analytics.",
    "metric": null,
    "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "WFC",
+   "company": "Wells Fargo & Co.",
+   "category": "efficiency",
+   "headline": "Wells Fargo uses AI internally to write code faster, run autonomous agents, launch marketing campaigns, close cyber vulnerabilities, and improve risk management.",
+   "quote": "Internally, we're using it to write code faster. Over the past year, this has gone from being a tool to assist programmers to now being able to use autonomous agents when appropriate",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "ACI",
+   "company": "Albertsons Cos., Inc.",
+   "category": "efficiency",
+   "headline": "Albertsons deploys four AI 'big bets': merch intelligence, store labor, demand forecasting to cut costs and improve operations.",
+   "quote": "Our merch intelligence big bet is literally about enabling faster, smarter decision making on category decisions, whether it be assortment all the way through to price and promotion.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "AZZ",
+   "company": "AZZ, Inc.",
+   "category": "efficiency",
+   "headline": "AZZ uses AI integrated into enterprise platforms to streamline software development, operational workflows, and data-driven decisions.",
+   "quote": "By integrating AI into our enterprise platforms, we are streamlining software development and operational workflows, while accelerating better data-driven decisions.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "C",
+   "company": "Citigroup, Inc.",
+   "category": "efficiency",
+   "headline": "Citi deploys AI firm-wide across growth, efficiency, employee upskilling, and cyber defense lenses",
+   "quote": "we're approaching AI through four lenses. How it can help us grow? How we can deploy it to operate more efficiently? How we can teach our people to use these new capabilities? And how we can strengthen our defenses",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "BLK",
+   "company": "BlackRock, Inc.",
+   "category": "efficiency",
+   "headline": "BlackRock says AI is amplifying the value of its Aladdin platform, accelerating innovation and creating better analytics.",
+   "quote": "AI is amplifying the value of Aladdin as we accelerate innovation and create better analytics.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "JPM",
+   "company": "JPMorgan Chase & Co.",
+   "category": "efficiency",
+   "headline": "JPMorgan uses AI agents internally and is building tools to protect customers from rogue agents; Smart Cash solution live in pilot.",
+   "quote": "internally we use agents to do good things here, and we're going to continue to do that. And we'll use it for customers, but our focus will always be do a great job for customers.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "UNH",
+   "company": "UnitedHealth Group, Inc.",
+   "category": "efficiency",
+   "headline": "UnitedHealth uses AI for chart summarization, appeal research, and Medicare plan recommendations, cutting chart review time 33%",
+   "quote": "We have expanded AI-enabled chart summarization to more than 40% of our employed clinicians, reducing chart review time by 33%.",
+   "metric": "33% reduction in chart review time; 26% shorter appeal cycle times",
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "STT",
+   "company": "State Street Corp.",
+   "category": "efficiency",
+   "headline": "State Street uses AI to simplify processes, accelerate execution, strengthen resilience, and allocate resources more effectively.",
+   "quote": "AI is helping us simplify processes, improve and accelerate execution and technology development, strengthen resilience, and allocate resources more effectively across the franchise.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "MS",
+   "company": "Morgan Stanley",
+   "category": "efficiency",
+   "headline": "Morgan Stanley embracing AI tools to support infrastructure, business growth and people across technology stack",
+   "quote": "We continue to invest across our technology stack, embracing AI tools to support our infrastructure, business growth and people.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "BAC",
+   "company": "Bank of America Corp.",
+   "category": "efficiency",
+   "headline": "Bank of America uses AI tools to automate processes, reduce headcount needs, and improve banker productivity across business units.",
+   "quote": "Erica, Zelle and AI-enabled tools are helping clients and helping employees to complete more activity faster and more consistently.",
+   "metric": null,
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "FBK",
+   "company": "FB Financial Corp.",
+   "category": "efficiency",
+   "headline": "FB Financial expects AI primary applications for banks will be in operational efficiency, not deposit-rate disruption.",
+   "quote": "I think most of your \u2013 a lot of your primary applications of AI are going to be in that area for banks.",
+   "metric": null,
+   "event_date": "2026-10-15"
   }
  ],
- "updated": "2026-10-14T17:00:57"
+ "updated": "2026-10-15T05:34:15"
 }
