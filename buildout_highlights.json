@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:00:26.077011",
+ "generated": "2026-10-15T23:44:17.384871",
  "window": [
   "2026-07-15",
   "2026-10-15"
@@ -3274,6 +3274,16 @@
    "direction": "accelerating",
    "headline": "AZZ Inc. cites data-center and utility-scale power demand as drivers of construction and industrial segment growth.",
    "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "CMC",
+   "company": "Commercial Metals Co.",
+   "channel": "equipment_components",
+   "quote": "as the market and our customers pursue larger and more complex projects in energy, industrial reshoring, data center, and institutional sectors, CMC's scale, capabilities, and network are increasingly making CMC a preferred partner.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Commercial Metals cites data-center projects as a driver of demand for its steel and construction products.",
+   "event_date": "2026-10-15"
   }
  ]
 }
