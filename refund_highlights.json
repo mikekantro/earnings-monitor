@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:07:27.612477",
+ "generated": "2026-10-14T23:59:37.845729",
  "window": [
   "2026-07-15",
   "2026-10-14"
@@ -2356,6 +2356,18 @@
    "quote_receiving": "aluminum costs are up, diesel, the tariff refund goes away, and there certainly is a case for pricing there",
    "quote_customers": "",
    "event_date": "2026-10-08"
+  },
+  {
+   "ticker": "FAST",
+   "company": "Fastenal Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "10 basis points (approximately)",
+   "headline": "Fastenal received IEEPA tariff refunds worth ~10 bps of gross margin in Q3; does not expect material recurrence in Q4.",
+   "quote_receiving": "roughly half of that was tariff refunds, very immaterial. But we don't see that coming through in any material level in Q4.",
+   "quote_customers": "",
+   "event_date": "2026-10-14"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:07:51.858619",
+ "generated": "2026-10-14T23:59:51.927756",
  "window": [
   "2026-07-15",
   "2026-10-14"
@@ -3264,6 +3264,16 @@
    "direction": "accelerating",
    "headline": "Goldman Sachs cites AI infrastructure investment and data center buildout as creating financing opportunities that leverage its capital mobilization capabilities.",
    "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "AZZ",
+   "company": "AZZ, Inc.",
+   "channel": "equipment_components",
+   "quote": "Sales related to construction grew 15.5%, driven by manufacturing projects, including semiconductor and large data centers, while industrial sales increased by 39.6% on strong utility scale power demand.",
+   "metric": "construction sales +15.5%, industrial sales +39.6%",
+   "direction": "accelerating",
+   "headline": "AZZ Inc. cites data-center and utility-scale power demand as drivers of construction and industrial segment growth.",
+   "event_date": "2026-10-14"
   }
  ]
 }

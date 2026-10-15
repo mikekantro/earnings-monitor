@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:08:15.152724",
+ "generated": "2026-10-15T00:00:04.100295",
  "window": [
   "2026-07-15",
   "2026-10-14"
@@ -7240,6 +7240,30 @@
    "quote": "Internally, we're using it to write code faster. Over the past year, this has gone from being a tool to assist programmers to now being able to use autonomous agents when appropriate to increase capacity and revenue from our branches",
    "metric": null,
    "event_date": "2026-10-13"
+  },
+  {
+   "ticker": "AZZ",
+   "company": "AZZ, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "AZZ uses AI in enterprise platforms to streamline software development, operational workflows, and data-driven decisions.",
+   "quote": "We are leveraging AI to proprietary digital tools to enhance productivity, improve operational efficiency, and scale our businesses more effectively.",
+   "metric": null,
+   "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "BAC",
+   "company": "Bank of America Corp.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Bank of America uses AI and automation to reduce headcount and improve productivity; also deploys AI tools in wealth management and banking.",
+   "quote": "our head count was down nearly 3,500 from a year ago as we automate processes and simplify work across the company. This means we don't need to hire quite as many people to refill roles.",
+   "metric": "headcount down ~3,500 year-over-year",
+   "event_date": "2026-10-14"
   }
  ]
 }
