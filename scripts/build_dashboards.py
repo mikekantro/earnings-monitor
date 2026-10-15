@@ -172,7 +172,6 @@ tbl = [{"t": r["ticker"], "s": r.get("sector","—"),
 
 p = f"{SITE}/pmi-scorecard/index.html"
 s = open(p).read()
-s = _swapm(s, "QTRK", QTRK_HTML)
 a = s.index("const S="); end = s.index("const esc", a)
 s = (s[:a] + "const S="+json.dumps(score)+",SEC="+json.dumps(sectors)
      + ",MV="+json.dumps(movers)+",MEGA="+json.dumps(mega)
@@ -882,6 +881,15 @@ s = s[:wa] + wchg_html + s[wb:]
 open(p, "w").write(s)
 
 # ---------------- self-check ----------------
+for _pg9 in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout"]:
+    _pp9 = f"{SITE}/{_pg9}/index.html"
+    _t9 = open(_pp9).read()
+    _t9 = re.sub(r"\n?<!--QTRK-->.*?<!--/QTRK-->\n?", "\n", _t9, flags=re.S)
+    _k9 = _t9.index("</h1>") + len("</h1>")
+    _blk9 = ("\n<!--QTRK-->" + QTRK_HTML + "<!--/QTRK-->\n") if QTRK_HTML else "\n<!--QTRK--><!--/QTRK-->\n"
+    _t9 = _t9[:_k9] + _blk9 + _t9[_k9:]
+    open(_pp9, "w").write(_t9)
+
 for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout"]:
     t = open(f"{SITE}/{page}/index.html").read()
     if today.split(",")[0].split()[1] not in t and today_short.split()[1] not in t:
