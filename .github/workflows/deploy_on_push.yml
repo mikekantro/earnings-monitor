@@ -5,11 +5,15 @@ on:
     paths:
       - "docs/research/**"
       - "deploy_manifest.json"
+permissions:
+  contents: read
+  id-token: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
       - name: Trigger site pull
         env:
           DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
@@ -22,3 +26,23 @@ jobs:
             "https://www.whatsnextformarkets.com/research-sync.php" \
             | tee result.json
           python3 -c "import json;d=json.load(open('result.json'));assert d['ok'],d;print('DEPLOY OK:',d['manifest'],'files')"
+
+      - name: Configure AWS credentials
+        if: ${{ !cancelled() }}
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.STRAT_WEB_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Publish to Strategy Portal (S3)
+        if: ${{ !cancelled() }}
+        shell: bash
+        run: |
+          for f in $(jq -r '.[]' deploy_manifest.json); do
+            args=(--content-type "text/html; charset=utf-8" --cache-control "max-age=60" --only-show-errors)
+            aws s3 cp "docs/research/$f" "s3://strat-portal-web/site/insights/earnings-intelligence/$f" "${args[@]}"
+            aws s3 cp "docs/research/$f" "s3://strat-portal-web/sandbox/insights/earnings-intelligence/$f" "${args[@]}" \
+              || echo "::warning::sandbox copy skipped for $f"
+            echo "published $f"
+          done
+

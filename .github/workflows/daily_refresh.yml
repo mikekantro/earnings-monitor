@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   refresh:
@@ -64,6 +65,7 @@ jobs:
         run: python scripts/build_dashboards.py
 
       - name: Commit data + pages
+        id: commitpush
         run: |
           git config user.name  "earnings-monitor-bot"
           git config user.email "actions@github.com"
@@ -84,3 +86,23 @@ jobs:
             "https://www.whatsnextformarkets.com/research-sync.php" \
             | tee deploy_result.json
           python3 -c "import json;d=json.load(open('deploy_result.json'));assert d['ok'],d;print('DEPLOY OK:',len(d['files']),'files')"
+
+      - name: Configure AWS credentials
+        if: ${{ !cancelled() && steps.commitpush.outcome == 'success' }}
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.STRAT_WEB_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Publish to Strategy Portal (S3)
+        if: ${{ !cancelled() && steps.commitpush.outcome == 'success' }}
+        shell: bash
+        run: |
+          for f in $(jq -r '.[]' deploy_manifest.json); do
+            args=(--content-type "text/html; charset=utf-8" --cache-control "max-age=60" --only-show-errors)
+            aws s3 cp "docs/research/$f" "s3://strat-portal-web/site/insights/earnings-intelligence/$f" "${args[@]}"
+            aws s3 cp "docs/research/$f" "s3://strat-portal-web/sandbox/insights/earnings-intelligence/$f" "${args[@]}" \
+              || echo "::warning::sandbox copy skipped for $f"
+            echo "published $f"
+          done
+
