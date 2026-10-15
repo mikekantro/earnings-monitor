@@ -54,6 +54,12 @@ jobs:
           FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
         run: python scripts/ai_watch_run.py --start 2026-07-15 --scores pmi_scores.json --out ai_highlights_q2.json --model claude-haiku-4-5-20251001 --resume
 
+      - name: Industry map (self-heal; no-op when fully mapped)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/industry_map.py
+
       - name: Rebuild dashboards
         run: python scripts/build_dashboards.py
 
