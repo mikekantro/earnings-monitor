@@ -2447,7 +2447,178 @@
    "quote": "Eliza is helping our teams reimagine how work gets done. In fact, over time, we see an opportunity to extend these AI capabilities to our clients",
    "metric": null,
    "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "UNH",
+   "company": "UnitedHealth Group, Inc.",
+   "category": "efficiency",
+   "headline": "UnitedHealth uses AI to cut chart review time 33%, shorten appeal cycles 26%, and power Medicare plan recommendations",
+   "quote": "We have expanded AI-enabled chart summarization to more than 40% of our employed clinicians, reducing chart review time by 33%.",
+   "metric": "33% reduction in chart review time; 26% shorter appeal cycle times",
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "MAN",
+   "company": "ManpowerGroup, Inc.",
+   "category": "efficiency",
+   "headline": "ManpowerGroup expands AI-enabled talent screening to 70% of revenue, improving fill rates and time to hire.",
+   "quote": "We continue to expand our AI-enabled talent screening capabilities, extending our scale across key markets, including Italy and the US in Q3, now reaching 70% of our revenue, improving fill rates, while accelerating time to hire",
+   "metric": "70% of revenue covered by AI-enabled talent screening",
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "BNY",
+   "company": "The Bank of New York Mellon Corp.",
+   "category": "efficiency",
+   "headline": "BNY deploys enterprise AI platform Eliza to reimagine internal workflows and boost operational productivity.",
+   "quote": "Eliza is helping our teams reimagine how work gets done. In fact, over time, we see an opportunity to extend these AI capabilities to our clients",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "FHN",
+   "company": "First Horizon Corp. (Tennessee)",
+   "category": "efficiency",
+   "headline": "First Horizon cites AI investments as a driver of increased occupancy and equipment expenses in Q3 2026.",
+   "quote": "occupancy and equipment increased due to internal technology projects and AI investments.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "MRSH",
+   "company": "Marsh & McLennan Cos., Inc.",
+   "category": "product",
+   "headline": "Marsh deploys AI-enabled products like Risk Companion and Broker WorkBench, cutting placement time from weeks to hours.",
+   "quote": "the time to process placements has reduced from two to four weeks to a couple of hours with WorkBench.",
+   "metric": "93% of wholesale trading in London now digital; placement time reduced from 2-4 weeks to a couple of hours",
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "STT",
+   "company": "State Street Corp.",
+   "category": "efficiency",
+   "headline": "State Street uses AI to simplify processes, accelerate execution, strengthen resilience, and allocate resources across the firm.",
+   "quote": "AI is helping us simplify processes, improve and accelerate execution and technology development, strengthen resilience, and allocate resources more effectively across the franchise.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "AZZ",
+   "company": "AZZ, Inc.",
+   "category": "efficiency",
+   "headline": "AZZ uses AI integrated into enterprise platforms to streamline software development, operational workflows, and data-driven decisions.",
+   "quote": "By integrating AI into our enterprise platforms, we are streamlining software development and operational workflows, while accelerating better data-driven decisions.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "IBKR",
+   "company": "Interactive Brokers Group, Inc.",
+   "category": "efficiency",
+   "headline": "IBKR deploying AI-assisted tools to client service team and using AI/ML in onboarding, compliance, and surveillance to scale operations.",
+   "quote": "AI continues to be adopted internally. We are implementing and rolling out AI-assisted tools to our client service team that can retrieve data across multiple internal systems",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "USB",
+   "company": "U.S. Bancorp",
+   "category": "efficiency",
+   "headline": "U.S. Bancorp says AI programs helped improve its efficiency ratio and return on average assets year over year.",
+   "quote": "productivity initiatives, including from our AI programs, helped improve our efficiency ratio and increased return on average assets year over year",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "WFC",
+   "company": "Wells Fargo & Co.",
+   "category": "efficiency",
+   "headline": "Wells Fargo uses AI internally to write code faster, run autonomous agents, launch marketing campaigns, close cyber vulnerabilities, and improve risk management.",
+   "quote": "Internally, we're using it to write code faster. Over the past year, this has gone from being a tool to assist programmers to now being able to use autonomous agents when appropriate",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "BLK",
+   "company": "BlackRock, Inc.",
+   "category": "efficiency",
+   "headline": "BlackRock says AI is amplifying the value of its Aladdin platform, accelerating innovation and creating better analytics.",
+   "quote": "AI is amplifying the value of Aladdin as we accelerate innovation and create better analytics.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "JPM",
+   "company": "JPMorgan Chase & Co.",
+   "category": "efficiency",
+   "headline": "JPMorgan uses AI agents internally and is piloting a Smart Cash agentic solution for clients; building tools to protect customers from rogue agents.",
+   "quote": "internally we use agents to do good things here, and we're going to continue to do that. And we'll use it for customers, but our focus will always be do a great job for customers.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "C",
+   "company": "Citigroup, Inc.",
+   "category": "efficiency",
+   "headline": "Citi deploying AI firm-wide across growth, efficiency, talent development, and cyber defense",
+   "quote": "we're approaching AI through four lenses. How it can help us grow? How we can deploy it to operate more efficiently? How we can teach our people to use these new capabilities? And how we can strengthen our defenses",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "ACI",
+   "company": "Albertsons Cos., Inc.",
+   "category": "efficiency",
+   "headline": "Albertsons deploying four AI 'big bets': merch intelligence, store labor, demand forecasting to cut costs and improve operations.",
+   "quote": "Our merch intelligence big bet is literally about enabling faster, smarter decision making on category decisions, whether it be assortment all the way through to price and promotion.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "PNC",
+   "company": "The PNC Financial Services Group, Inc.",
+   "category": "efficiency",
+   "headline": "PNC is building internal AI/agentic workforce infrastructure including GPU-equipped data centers, aiming to re-engineer operations and lower technology costs.",
+   "quote": "What comes next is the re-engineering of the company using AI harnesses, which would speed the development and ultimately lower the cost associated with technology development and maintenance",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "SCHW",
+   "company": "The Charles Schwab Corp.",
+   "category": "revenue",
+   "headline": "Schwab launches AI assistant 'Charley' for all retail clients and reports 25% developer productivity gain from internal AI use.",
+   "quote": "We just introduced Charley, our new AI-powered conversational assistant. It will be available to all clients in the coming months",
+   "metric": "25% developer productivity increase",
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "MS",
+   "company": "Morgan Stanley",
+   "category": "efficiency",
+   "headline": "Morgan Stanley embraces AI tools to support infrastructure, business growth and people across its technology stack.",
+   "quote": "We continue to invest across our technology stack, embracing AI tools to support our infrastructure, business growth and people.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "BAC",
+   "company": "Bank of America Corp.",
+   "category": "efficiency",
+   "headline": "Bank of America uses AI tools to automate processes, support employee productivity, and improve prospecting and onboarding in banking.",
+   "quote": "Even as we add head count in our sales forces, our head count was down nearly 3,500 from a year ago as we automate processes and simplify work across the company.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "FBK",
+   "company": "FB Financial Corp.",
+   "category": "efficiency",
+   "headline": "FB Financial management expects AI's primary banking application to be improving operational efficiency, not just deposit-rate competition.",
+   "quote": "I think most of your \u2013 a lot of your primary applications of AI are going to be in that area for banks.",
+   "metric": null,
+   "event_date": "2026-10-16"
   }
  ],
- "updated": "2026-10-15T16:52:13"
+ "updated": "2026-10-16T05:33:56"
 }
