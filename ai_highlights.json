@@ -2618,7 +2618,70 @@
    "quote": "I think most of your \u2013 a lot of your primary applications of AI are going to be in that area for banks.",
    "metric": null,
    "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "RF",
+   "company": "Regions Financial Corp.",
+   "category": "efficiency",
+   "headline": "Regions Financial monitors AI-driven deposit channel traffic and invests in AI-related cyber defense as part of ongoing operations.",
+   "quote": "we're able to monitor in terms of how AI is being used across different platforms so we can track activity and how it may impact our deposit base.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "SFNC",
+   "company": "Simmons First National Corp.",
+   "category": "efficiency",
+   "headline": "Simmons First investing in technology automation to improve back-office efficiency and free up banker time for higher-value work.",
+   "quote": "some of the automation and tooling that we're doing are enabling our bankers and our back office teams. Kind of think front, middle and back office, really making the job much more consistent, easier and freeing up time",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "MTB",
+   "company": "M&T Bank Corp.",
+   "category": "efficiency",
+   "headline": "M&T Bank uses AI to help employees make better decisions, reduce manual work, find information faster, and identify risks.",
+   "quote": "AI is helping employees make better decisions. Reduced manual work, find information faster and identify risks.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "CFG",
+   "company": "Citizens Financial Group, Inc. (Rhode Island)",
+   "category": "efficiency",
+   "headline": "Citizens Financial Group dedicates significant resources to leveraging AI as part of its Re-Imagine the Bank efficiency program.",
+   "quote": "We have significant resources, dedicated to leveraging AI and to driving a strong cybersecurity framework and capabilities.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "TRV",
+   "company": "The Travelers Cos., Inc.",
+   "category": "efficiency",
+   "headline": "Travelers uses AI to help claim professionals analyze large claim files and sharpen responses to attorney demands.",
+   "quote": "AI gives our claim professionals a faster, deeper command of claim files that can run hundreds of pages. It surfaces key facts and issues and helps shape arguments that make our people both more effective and more efficient.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "INDB",
+   "company": "Independent Bank Corp. (Massachusetts)",
+   "category": "efficiency",
+   "headline": "Independent Bank Corp. beta testing early AI applications for internal use only, building capability before customer-facing deployment.",
+   "quote": "We've started to beta test some early AI applications. The first use cases will be internally oriented and will not have any customer impact.",
+   "metric": null,
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "TFC",
+   "company": "Truist Financial Corp.",
+   "category": "efficiency",
+   "headline": "Truist plans investment in AI capabilities as part of technology modernization strategy.",
+   "quote": "modernizing our technology, including more AI capabilities, adding client facing talent, and building digital, and payments capabilities",
+   "metric": null,
+   "event_date": "2026-10-16"
   }
  ],
- "updated": "2026-10-16T05:33:56"
+ "updated": "2026-10-16T16:44:52"
 }
