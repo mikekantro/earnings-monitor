@@ -2906,7 +2906,133 @@
    "quote": "I think most of your \u2013 a lot of your primary applications of AI are going to be in that area for banks.",
    "metric": null,
    "event_date": "2026-10-17"
+  },
+  {
+   "ticker": "IBKR",
+   "company": "Interactive Brokers Group, Inc.",
+   "category": "efficiency",
+   "headline": "IBKR deploying AI-assisted tools to client service team and using AI/ML in onboarding, compliance, and surveillance to scale operations.",
+   "quote": "AI continues to be adopted internally. We are implementing and rolling out AI-assisted tools to our client service team that can retrieve data across multiple internal systems",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "INDB",
+   "company": "Independent Bank Corp. (Massachusetts)",
+   "category": "efficiency",
+   "headline": "Independent Bank Corp. beta testing early AI applications for internal use before broader deployment.",
+   "quote": "We've started to beta test some early AI applications. The first use cases will be internally oriented and will not have any customer impact.",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "MRSH",
+   "company": "Marsh & McLennan Cos., Inc.",
+   "category": "product",
+   "headline": "Marsh deploys AI-enabled products like Risk Companion and Broker WorkBench, cutting placement time from weeks to hours.",
+   "quote": "the time to process placements has reduced from two to four weeks to a couple of hours with WorkBench.",
+   "metric": "93% of wholesale trading in London now digital; placement time reduced from 2-4 weeks to hours",
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "BNY",
+   "company": "The Bank of New York Mellon Corp.",
+   "category": "efficiency",
+   "headline": "BNY deploys enterprise AI platform Eliza to reimagine internal workflows and boost team productivity across the company.",
+   "quote": "Eliza is helping our teams reimagine how work gets done. In fact, over time, we see an opportunity to extend these AI capabilities to our clients",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "PNC",
+   "company": "The PNC Financial Services Group, Inc.",
+   "category": "efficiency",
+   "headline": "PNC is building internal AI/agentic workforce infrastructure using in-house data centers with GPU chips to re-engineer operations and reduce costs.",
+   "quote": "the re-engineering of the company using AI harnesses, which would speed the development and ultimately lower the cost associated with technology development and maintenance",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "SCHW",
+   "company": "The Charles Schwab Corp.",
+   "category": "revenue",
+   "headline": "Schwab launches AI assistant 'Charley' for all retail clients and uses AI internally, boosting developer productivity 25%",
+   "quote": "We just introduced Charley, our new AI-powered conversational assistant. It will be available to all clients in the coming months",
+   "metric": "25% developer productivity increase",
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "CLF",
+   "company": "Cleveland-Cliffs, Inc.",
+   "category": "efficiency",
+   "headline": "Cleveland-Cliffs to deploy AI-enabled process controls at Middletown Works as part of $1B modernization project",
+   "quote": "The project includes a state-of-the-art blast furnace rebuild, advanced material handling infrastructure, artificial intelligence-enabled process controls, and a new cogeneration facility",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "CFG",
+   "company": "Citizens Financial Group, Inc. (Rhode Island)",
+   "category": "efficiency",
+   "headline": "Citizens Financial Group dedicates significant resources to leveraging AI as part of its Reimagine the Bank efficiency program.",
+   "quote": "We have significant resources dedicated to leveraging AI and to driving a strong cybersecurity framework and capabilities.",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "TFC",
+   "company": "Truist Financial Corp.",
+   "category": "efficiency",
+   "headline": "Truist plans investment in AI capabilities as part of technology modernization strategy.",
+   "quote": "we are focused in closing key gaps in strengthening our branch and ATM networks, modernizing our technology, including more AI capabilities",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "TRV",
+   "company": "The Travelers Cos., Inc.",
+   "category": "efficiency",
+   "headline": "Travelers uses AI to help claim professionals analyze files and sharpen responses to attorney demands in litigation.",
+   "quote": "AI gives our claim professionals a faster, deeper command of claim files that can run hundreds of pages. It surfaces key facts and issues and help shapes arguments.",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "MTB",
+   "company": "M&T Bank Corp.",
+   "category": "efficiency",
+   "headline": "M&T Bank uses AI to automate work, improve employee decisions, reduce manual tasks, and identify risks earlier across hundreds of use cases.",
+   "quote": "AI is helping employees make better decisions, reduce manual work, find information faster and identify risks earlier.",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "USB",
+   "company": "U.S. Bancorp",
+   "category": "efficiency",
+   "headline": "U.S. Bancorp cites AI programs as contributing to improved efficiency ratio and higher return on assets.",
+   "quote": "productivity initiatives, including from our AI programs, helped improve our efficiency ratio and increased return on average assets year over year",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "FITB",
+   "company": "Fifth Third Bancorp",
+   "category": "efficiency",
+   "headline": "Fifth Third sees AI as a longer-term lever to improve efficiency, requiring near-term investment in compute and infrastructure.",
+   "quote": "certainly there is going to be opportunity to leverage AI to get the company more efficient over time... Near-term investment in compute, compute capacity and infrastructure associated with deployment of AI.",
+   "metric": null,
+   "event_date": "2026-10-19"
+  },
+  {
+   "ticker": "MAN",
+   "company": "ManpowerGroup, Inc.",
+   "category": "efficiency",
+   "headline": "ManpowerGroup expands AI-enabled talent screening to 70% of revenue, improving fill rates and time to hire.",
+   "quote": "We continue to expand our AI-enabled talent screening capabilities, extending our scale across key markets, including Italy and the US in Q3, now reaching 70% of our revenue, improving fill rates, while accelerating time to hire",
+   "metric": "70% of revenue covered by AI-enabled talent screening",
+   "event_date": "2026-10-19"
   }
  ],
- "updated": "2026-10-17T05:34:21"
+ "updated": "2026-10-19T18:49:38"
 }
