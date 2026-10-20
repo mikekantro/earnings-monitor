@@ -3131,7 +3131,115 @@
    "quote": "AI gives our claim professionals a faster, deeper command of claim files that can run hundreds of pages. It services key facts and issues and help shapes arguments.",
    "metric": null,
    "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "ALLY",
+   "company": "Ally Financial, Inc.",
+   "category": "revenue",
+   "headline": "Ally Financial says it shows up favorably in AI search results, supporting competitive deposit customer growth.",
+   "quote": "right now when I look at how we show up through AI search, we actually show up in a pretty favorable way relative to to others in terms of how we show up on AI search.",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "GE",
+   "company": "GE Aerospace",
+   "category": "efficiency",
+   "headline": "GE Aerospace deployed AI tool at Celma MRO site to automate CFM56 technical record collection, cutting processing time ~25%.",
+   "quote": "the team developed an AI-enabled tool to automate collection of technical records required for each CFM56 shop visit. This helped decrease record processing time by around 25%.",
+   "metric": "25% reduction in record processing time",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "MMM",
+   "company": "3M Co.",
+   "category": "efficiency",
+   "headline": "3M invested in AI-enabled tools to improve salesforce effectiveness and internal productivity.",
+   "quote": "We've invested in salesforce effectiveness and AI-enabled tools. We've sharpened our focus on priority verticals where we can win and improved how we allocate R&D resources.",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "CBSH",
+   "company": "Commerce Bancshares, Inc. (Missouri)",
+   "category": "efficiency",
+   "headline": "Commerce Bancshares investing in AI for internal efficiency, fraud detection, and replacing legacy fraud-detection engines with cheaper AI solutions.",
+   "quote": "on the AI side, you know, both internally figuring out sort of how various areas of the bank can utilize AI tools to make their jobs easier and then looking for sort of those long-term business cases",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "EFX",
+   "company": "Equifax, Inc.",
+   "category": "efficiency",
+   "headline": "Equifax targets $150M AI productivity goal; AI tools driving margin expansion of 130 bps ex-FICO in Q3 2026",
+   "quote": "we continue to see strong execution by the operations and technology teams across Equifax towards our $150 million AI for FX productivity goal, which is delivering margin improvements across the business.",
+   "metric": "$150M AI productivity goal; 130 bps EBITDA margin improvement ex-FICO",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "KEY",
+   "company": "KeyCorp",
+   "category": "efficiency",
+   "headline": "KeyCorp deploying AI across four enterprise domains to simplify processes, boost productivity, and cut costs",
+   "quote": "we're deploying AI to automate high volume tasks, reduce fraud and enable faster issue resolution. In commercial originations, we're streamlining the credit and collateral processes",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "HAL",
+   "company": "Halliburton Co.",
+   "category": "efficiency",
+   "headline": "Halliburton goes live on SAP S/4 and plans to adopt AI at scale in back-office functions to drive cost reductions.",
+   "quote": "I expect this is the beginning of further simplifying our business processes, adopting AI at scale in our back office functions, and driving further cost reductions.",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "FNB",
+   "company": "F.N.B. Corp. (Pennsylvania)",
+   "category": "revenue",
+   "headline": "FNB deploying AI-enabled Insight 360 platform to drive household penetration and share-of-wallet growth",
+   "quote": "The AI-enabled customer aggregation and insight tool will provide our clients and bankers with the ability to optimize their broader banking relationship, all while consolidating their services with FNB",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "SYF",
+   "company": "Synchrony Financial",
+   "category": "revenue",
+   "headline": "Synchrony launched ChatGPT plugin letting consumers discover savings/offers in its marketplace and deployed OpenAI models internally.",
+   "quote": "We have launched our Synchrony's ChatGPT plugin, which allows consumers to discover savings and offers within the Synchrony marketplace directly within ChatGPT",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "GM",
+   "company": "General Motors Co.",
+   "category": "efficiency",
+   "headline": "GM is deploying AI across all functions\u2014design, manufacturing, and operations\u2014to drive fixed cost savings in 2027.",
+   "quote": "every single function is leveraging AI, how do we harness that savings from a fixed cost perspective.",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "MSCI",
+   "company": "MSCI, Inc.",
+   "category": "product",
+   "headline": "MSCI embeds AI in newer products sold to clients and acquired an AI-native private assets diligence platform",
+   "quote": "virtually all those newer products. Our power by artificial intelligence.",
+   "metric": null,
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "RTX",
+   "company": "RTX Corporation",
+   "category": "efficiency",
+   "headline": "RTX deploys AI-powered engine inspection software at MRO networks, reducing inspection time by over 30%",
+   "quote": "Pratt is integrating AI-powered engine inspection software to accelerate horoscope analytics. Already in use on legacy programs, this capability is being implemented across our MRO networks and has reduced overall inspection time by more than 30%",
+   "metric": "30%+ reduction in inspection time",
+   "event_date": "2026-10-20"
   }
  ],
- "updated": "2026-10-20T05:45:25"
+ "updated": "2026-10-20T17:03:43"
 }
