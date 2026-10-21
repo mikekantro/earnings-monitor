@@ -342,7 +342,7 @@ def stab(hs, pmi):
             "r": sp[s_]["revenue"], "e": sp[s_]["efficiency"], "p": sp[s_]["product"]}
            for s_, n in tot.items() if n >= MIN_SEC]
     out.sort(key=lambda x: -x["rate"]); return out
-sec = {"Q1": stab(a1h, q1s), "Q2": stab(a2h, best)}
+sec = {"Q1": stab(a1h, q1s), "Q2": stab([x for x in a2h if _inq3(x)], best)}  # live view: in-season records only
 
 p = f"{SITE}/ai-adopters/index.html"
 s = open(p).read()
