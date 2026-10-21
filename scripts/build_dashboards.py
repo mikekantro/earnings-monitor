@@ -399,6 +399,11 @@ _a7 = s.index("const ADATA="); _b7 = s.index(";", _a7)
 s = s[:_a7] + "const ADATA=" + json.dumps(_adata(), separators=(",",":")) + s[_b7:]
 ba = s.index("const BOSET="); bb = s.index(";", ba)
 s = s[:ba] + "const BOSET=" + json.dumps(_bo_t) + s[bb:]
+s = _swapm(s, "AITREND",
+    f"Q3 so far: {AP['rate2']}% of the {AP['uni']} reported companies describe deploying AI "
+    f"(Q2 full season: 45%), and {AP['m2']}% of those claims carry a stated figure "
+    f"(Q2: 29%). Early-season mix skews financial; these figures recompute at every refresh "
+    f"as transcripts post.")
 s = sub1(s, r"<b>\d+%</b>of Q3 reporters cite AI use \(Q2: 45%\)", f"<b>{AP['rate2']}%</b>of Q3 reporters cite AI use (Q2: 45%)", "ai-rate")
 s = sub1(s, r"<b>\d+</b>Q3 adopters of \d+ reported", f"<b>{AP['n2']}</b>Q3 adopters of {AP['uni']} reported", "ai-n")
 s = sub1(s, r"<b>\d+</b>first-time claimants", f"<b>{AP['new']}</b>first-time claimants", "ai-new")
