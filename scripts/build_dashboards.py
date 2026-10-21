@@ -810,17 +810,26 @@ if Bh:
     lx  = float(np.mean([best[t]["composite"] for t in best if t not in bset and best[t].get("composite") is not None]))
     s = _swapm(s, "BSTATS", f'''
 <span><b>{len(Bh)}</b>companies cite the build-out (2026 sweeps to date)</span>
-<span><b>{share_c}%</b>of the index&rsquo;s improvement comes from them</span>
+<span>{'<b>'+str(share_c)+'%</b>of the index&rsquo;s improvement comes from them' if ct > 0 else f'<b>{cc-cx:+.1f}</b>cohort premium so far this season (not yet positive)' if cc <= cx else f'<b>{cc-cx:+.1f}</b>cohort premium vs everyone else'}</span>
 <span><b>{cc:+.1f} vs {cx:+.1f}</b>cohort vs everyone else, Q3 change</span>
 <span><b>{lv:.1f} vs {lx:.1f}</b>Q3 level: cohort runs hotter</span>
 <span><b>{sum(1 for x in Bh if x.get("metric"))} of {len(Bh)}</b>attach a stated figure</span>''')
-    s = _swapm(s, "BBAR", f'''
+    if ct > 0:
+        _bbar = f'''
 <div class="dc-row"><p class="dc-lb">Composite index change, Q3 vs Q2: {ct:+.2f} pts</p>
 <div class="dc-bar"><span class="co" style="width:{share_c}%">build-out {cw*cc:+.2f}</span><span class="ex" style="width:{100-share_c}%">rest {(1-cw)*cx:+.2f}</span></div>
 <p class="dc-cap">{cn} claimants ({round(100*cw)}% of the matched sample) improved {cc:+.2f} on average; the other {xn} companies improved {cx:+.2f}.</p></div>
 <div class="dc-row" style="margin-bottom:0"><p class="dc-lb">New-orders sub-index change: {nt:+.2f} pts</p>
 <div class="dc-bar"><span class="co" style="width:{share_n}%">build-out {nw*nc:+.2f}</span><span class="ex" style="width:{100-share_n}%">rest {(1-nw)*nx:+.2f}</span></div>
-<p class="dc-cap">{share_n}% of the new-orders improvement traces to the build-out cohort.</p></div>''')
+<p class="dc-cap">{share_n}% of the new-orders improvement traces to the build-out cohort.</p></div>'''
+    else:
+        _bbar = f'''
+<div class="dc-row" style="margin-bottom:0"><p class="dc-lb">Early Q3: matched composite change {ct:+.2f} pts &mdash; a share-of-improvement split is undefined while the index is flat-to-down</p>
+<p class="dc-cap">So the straight comparison: the {cn} build-out claimants that have re-reported moved {cc:+.2f} on average,
+everyone else ({xn} companies) {cx:+.2f} &mdash; a cohort gap of {cc-cx:+.2f} points. In Q2&rsquo;s full season the cohort
+contributed roughly half the index&rsquo;s improvement; whether that premium reappears is the thing to watch as the
+panel fills. New-orders cut: cohort {nc:+.2f} vs {nx:+.2f}.</p></div>'''
+    s = _swapm(s, "BBAR", _bbar)
     chd = defaultdict(list)
     for x in Bh:
         t = x["ticker"]
