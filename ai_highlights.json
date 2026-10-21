@@ -3509,7 +3509,34 @@
    "quote": "We see opportunities for AI to strengthen commercial execution and innovation. For example, helping our teams identify opportunities earlier, improve sales funnel management and dramatically reduce R&D time lines.",
    "metric": null,
    "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "ONB",
+   "company": "Old National Bancorp",
+   "category": "efficiency",
+   "headline": "Old National investing in AI alongside technology and process improvements to drive record efficiency",
+   "quote": "we continued to invest in technology, AI, process improvements and talent. This balance supports strong core returns and durable shareholder value.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "ALK",
+   "company": "Alaska Air Group, Inc.",
+   "category": "efficiency",
+   "headline": "Alaska Air Group says AI is a focus area for investment as it builds internal AI capability and talent under new CTO.",
+   "quote": "lots going on in the outside world around technology and AI. And it it's definitely a place that we want to continue to focus, invest in, build up our AR capability and talent.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "LAD",
+   "company": "Lithia Motors, Inc.",
+   "category": "efficiency",
+   "headline": "Lithia Motors uses dynamic AI pricing for used vehicles and AI tools to reduce SG&A costs",
+   "quote": "Our work on dynamic AI pricing supports improved profitability. And used vehicles remain one of our highest return businesses",
+   "metric": null,
+   "event_date": "2026-10-21"
   }
  ],
- "updated": "2026-10-21T15:18:33"
+ "updated": "2026-10-21T17:01:58"
 }
