@@ -149,6 +149,8 @@ try:
 except Exception:
     spy = set()
 print(f"data: pmi {len(raw)}->{len(q2)} | ai Q1 {len(a1h)} Q2 {len(a2h)} | refunds {len(R)}")
+SEASON_START = "2026-10-01"   # Q3 2026; quote showcases display only records dated in-season
+def _inq3(x): return (x.get("event_date") or "") >= SEASON_START
 # group floors scale smoothly with season coverage (no threshold cliff)
 _NB = len(best)
 MIN_SEC = max(4, min(10, _NB // 30))    # sector tables / diverging bars
@@ -309,13 +311,14 @@ AP = dict(q1_in=len(q1_in), rep=len(rep), quiet=len(quiet), new=len(new_q2),
 pers = round(100*AP["rep"]/AP["q1_in"])
 t1 = set(a1)
 rows = []
-for src, season, pmi in ((a1h, "Q1", q1s), (a2h, "Q2", best)):
+for src, season, pmi in ((a2h, "Q3", best),):
     for x in src:
+        if not _inq3(x): continue
         t = x["ticker"]; pp = pmi.get(t, {})
         rows.append({"t": t, "n": x["company"], "c": x["category"], "S": season,
                      "p": pp.get("composite"), "s": pp.get("sector","—"), "x": 0,
                      "m": x.get("metric") or "", "h": x["headline"], "q": x["quote"],
-                     "new": 1 if (season=="Q2" and t not in t1) else 0,
+                     "new": 1 if t not in t1 else 0,
                      "mc": 1 if x.get("margin_claim") else 0,
                      "mm": x.get("margin_metric") or "", "mz": x.get("margin_quote") or ""})
 try:
@@ -449,7 +452,7 @@ R.sort(key=lambda x: (order[x["grp"]], -(x["amt_mm"] or 0), x["ticker"]))
 rrows = [{"t": x["ticker"], "n": x["company"], "g": x["grp"], "both": bool(x["to_customers"]),
           "a": x.get("amount") or "", "m": x["amt_mm"], "h": x["headline"],
           "q": x.get("quote_receiving") or "", "qc": x.get("quote_customers") or "",
-          "d": x.get("event_date") or ""} for x in R]
+          "d": x.get("event_date") or ""} for x in R if _inq3(x)]
 dd = defaultdict(float)
 for x in R:
     if x["amt_mm"]: dd[x["grp"]] += x["amt_mm"]
@@ -587,17 +590,17 @@ for t in sorted(uni_all):
         e["x"] = 0
     e["d"] = (e["p2"]-e["p1"]) if (e["p1"] is not None and e["p2"] is not None) else None
     x = a2.get(t)
-    if x: e["ai"] = {"c": x["category"], "m": x.get("metric") or "", "h": x["headline"], "q": x["quote"],
+    if x and _inq3(x): e["ai"] = {"c": x["category"], "m": x.get("metric") or "", "h": x["headline"], "q": x["quote"],
                      "mc": 1 if x.get("margin_claim") else 0, "mm": x.get("margin_metric") or "",
                      "mz": x.get("margin_quote") or "", "nw": 0 if t in a1 else 1}
     f = Rmap.get(t)
-    if f:
+    if f and _inq3(f):
         g = "undecided" if f["disposition"] in ("undecided","na") else f["disposition"]
         e["rf"] = {"g": g, "a": f.get("amount") or "", "m": mm(f.get("amount")), "h": f["headline"],
                    "q": f.get("quote_receiving") or ""}
     e["coh"] = "persistent" if (t in a1 and t in a2) else ("new" if t in a2 else ("quiet" if t in a1 else "never"))
     _bx = _bomap.get(t)
-    if _bx: e["bo"] = {"ch": _bx["channel"], "q": _bx["quote"], "m": _bx.get("metric") or ""}
+    if _bx and _inq3(_bx): e["bo"] = {"ch": _bx["channel"], "q": _bx["quote"], "m": _bx.get("metric") or ""}
     C[t] = {k: v for k, v in e.items() if v not in (None,"",0) or k in ("x",)}
 DBP = {"c": C, "m": {"n": len(C), "idx": SC["comp2"], "date": today,
                      "ed": fmt(d_per), "ep": f"{p_per:.3f}"}}
@@ -848,6 +851,19 @@ if Bh:
         o.append(f'<circle cx="{W-190}" cy="{T+28}" r="2.4" fill="#8AA2B0"/><text x="{W-182}" y="{T+32}" font-size="11" fill="#3E4C57" font-family="Titillium Web,sans-serif">everyone else</text>')
         o.append('</svg>')
         return "".join(o)
+    _qcs = sorted((x for x in Bh if _inq3(x) and x.get("quote")),
+                  key=lambda x: x.get("event_date",""), reverse=True)[:8]
+    if _qcs:
+        _qhtml = "\n".join(
+            f'<div class="ccard"><div class="hd"><span class="tk">{x["ticker"]}</span>'
+            f'<span class="chn">{x["channel"].replace("_"," ")}</span></div>'
+            + (f'<p class="mt">{x["metric"]}</p>' if x.get("metric") else "")
+            + f'<blockquote>&ldquo;{x["quote"]}&rdquo;</blockquote></div>'
+            for x in _qcs)
+    else:
+        _qhtml = ('<p class="note">No Q3 2026 build-out quotes yet; cards populate '
+                  'as transcripts post.</p>')
+    s = _swapm(s, "BCARDS", "\n" + _qhtml + "\n")
     s = _swapm(s, "BSCAT", _bscat())
     s = _swapm(s, "BSECT", "\n" + "\n".join(_brows) + "\n")
     s = _swapm(s, "BSECW", f"Build-out claimants outperform their own sector peers in <b>{_bw} of {_bt}</b> sectors large enough to measure.")
