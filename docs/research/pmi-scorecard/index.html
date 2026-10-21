@@ -106,6 +106,16 @@ table.psec{width:100%;border-collapse:collapse;font-size:13px;background:var(--c
 border-radius:999px;border:1px solid var(--rule);background:var(--card);color:var(--ink)}
 .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 </style>
+
+<style>
+.secnav{position:sticky;top:0;z-index:50;background:rgba(246,248,249,.96);backdrop-filter:blur(4px);
+  border-bottom:1px solid #E2E8EB;padding:7px 0;margin:0 0 6px}
+.secnav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.secnav a{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:#3E4C57;text-decoration:none;
+  padding:5px 10px;border-radius:14px;white-space:nowrap;border:1px solid transparent}
+.secnav a:hover{background:#E9EEF0}
+.secnav a.on{background:#223E4C;color:#fff}
+</style>
 </head>
 <body>
 
@@ -121,11 +131,13 @@ border-radius:999px;border:1px solid var(--rule);background:var(--card);color:va
     <span><b>101</b>same-company pairs</span>
   </div>
 </div></header>
+<nav class="secnav"><div class="wrap"><a href="#s-scorecard">Scorecard</a><a href="#s-through-time">Through time</a><a href="#s-sectors">Sectors</a><a href="#s-industries">Industries</a><a href="#s-movers">Movers</a><a href="#s-every-company">Every company</a></div></nav>
+
 
 <main class="wrap">
 
 <section>
-  <h2 class="sh">The scorecard</h2>
+  <h2 id="s-scorecard" class="sh">The scorecard</h2>
   <p class="sp">Every figure compares the <b>same 101 companies</b> against their own prior season (Q2 2026): an ISM-style
      diffusion index scored from each company's earnings call, where 50 divides expansion from contraction.
      Q3 2026 is in progress; the figures on this page recompute from reported companies at every refresh.</p>
@@ -142,14 +154,14 @@ border-radius:999px;border:1px solid var(--rule);background:var(--card);color:va
 
 <section>
   
-<h2 class="sh">The index through time</h2>
+<h2 id="s-through-time" class="sh">The index through time</h2>
 <p class="note">Equal-weight mean of every scored company, each earnings season, on the same rubric and model
 throughout. Select a sector or the whole index; 2025 quarters appear as the historical backfill completes. employment&rsquo;s persistent gap below
 the other sub-indices is the series&rsquo; defining feature.</p>
 <div class="chips" id="hchips"></div>
 <div class="decomp" style="padding:14px 16px" id="hchart"></div>
 
-<h2 class="sh">Sector scorecard</h2>
+<h2 id="s-sectors" class="sh">Sector scorecard</h2>
 <p class="note">Every sub-index, by sector. Select a component; the table re-ranks instantly.
 <span id="pmieg"><!--PMIEG-->Output language reads 65.6 while employment language reads 52.7: the survey&rsquo;s widest sub-index gap, and the aggregate version of the pattern the AI &times; Employment panel tracks company by company.<!--/PMIEG--></span></p>
 <div class="chips" id="chips"></div>
@@ -157,7 +169,7 @@ the other sub-indices is the series&rsquo; defining feature.</p>
 <th class="num">&Delta; vs Q2</th><th>&nbsp;</th></tr></thead>
 <tbody id="secbody"></tbody></table>
 
-<h2 class="sh">Industry scorecard</h2>
+<h2 id="s-industries" class="sh">Industry scorecard</h2>
 <p class="note">The same lenses at industry level. Select a component; the top of the composite view is the
 build-out chain, the bottom the consumer aisle.</p>
 <div class="chips" id="ichips"></div>
@@ -166,7 +178,7 @@ build-out chain, the bottom the consumer aisle.</p>
 <tbody id="indbody"></tbody></table>
 <p class="note"><!--INDN-->The 23 industries above cover 99 of the 123 companies reported so far; the remaining 24 sit in industries with fewer than 2 reports, which join the table as coverage grows.<!--/INDN--></p>
 
-<h2 class="sh">Who moved, in their own words</h2>
+<h2 id="s-movers" class="sh">Who moved, in their own words</h2>
   <p class="sp">The largest same-company swings, each with the signal line from its Q2 call. The decliners are
      thematically coherent (housing-adjacent and consumer names), while the improvers cluster around backlogs
      and the data-center build-out.</p>
@@ -183,7 +195,7 @@ build-out chain, the bottom the consumer aisle.</p>
 </section>
 
 <section>
-  <h2 class="sh">Every company</h2>
+  <h2 id="s-every-company" class="sh">Every company</h2>
   <p class="sp">All 123 Q3-scored companies with their quarter-over-quarter change and the key signal from the call.
      Search matches tickers, sectors, and the signal text itself.</p>
   <div class="controls">
@@ -368,6 +380,19 @@ document.getElementById("hchart").innerHTML=o;
 }
 hchips();hrender();
 
+</script>
+
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.secnav a'));
+  var tgts=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));}).filter(Boolean);
+  function spy(){
+    var y=window.scrollY+120, cur=null;
+    tgts.forEach(function(el,i){ if(el.offsetTop<=y) cur=i; });
+    links.forEach(function(a,i){ a.className = (i===cur)?'on':''; });
+  }
+  window.addEventListener('scroll',spy,{passive:true}); spy();
+})();
 </script>
 </body>
 </html>

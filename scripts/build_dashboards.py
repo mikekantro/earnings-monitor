@@ -923,7 +923,7 @@ panel fills. New-orders cut: cohort {nc:+.2f} vs {nx:+.2f}.</p></div>'''
         f"One check already runs against it: claimants without a stated figure improved "
         f"{np.mean(_nq):+.1f}, nearly matching the {np.mean(_qz):+.1f} of those with numbers, and both far "
         f"exceed the {cx:+.1f} non-claimant baseline, so the cohort is not carried by numberless talk.")
-    s = sub1(s, r"Yes, in \d+ of \d+\.", f"Yes, in {_bw} of {_bt}.", "buildout-sec-h")
+    s = sub1(s, r"(?:Yes, in \d+ of \d+\.|so far: \d+ of \d+ sectors?\.)", f"so far: {_bw} of {_bt} sectors.", "buildout-sec-h")
     s = sub1(s, r"Data as of [A-Z][a-z]+ \d+, 2026", f"Data as of {today}", "buildout-date")
     open(p, "w").write(s)
     print(f"buildout: {len(Bh)} claimants, {share_c}% of improvement, new-orders {share_n}%")
