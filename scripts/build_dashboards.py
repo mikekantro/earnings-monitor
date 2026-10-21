@@ -153,8 +153,8 @@ SEASON_START = "2026-10-01"   # Q3 2026; quote showcases display only records da
 def _inq3(x): return (x.get("event_date") or "") >= SEASON_START
 # group floors scale smoothly with season coverage (no threshold cliff)
 _NB = len(best)
-MIN_SEC = max(4, min(10, _NB // 30))    # sector tables / diverging bars
-MIN_CHIP = max(5, min(15, _NB // 25))   # interactive sector chips
+MIN_SEC = max(3, min(10, _NB // 30))    # sector tables / diverging bars
+MIN_CHIP = max(4, min(15, _NB // 25))   # interactive sector chips
 MIN_IND = max(2, min(8, _NB // 60))     # industry table
 
 # ---------------- scorecard ----------------
@@ -302,12 +302,14 @@ rev1 = [t for t in q1_in if a1[t]["category"]=="revenue"]
 rev_still = [t for t in rev1 if t in a2 and a2[t]["category"]=="revenue"]
 rev_met = [t for t in rev_still if a2[t].get("metric")]
 AP = dict(q1_in=len(q1_in), rep=len(rep), quiet=len(quiet), new=len(new_q2),
-          rate2=round(len([t for t in a2 if t in uni])/len(uni)*100), n2=len(a2h), uni=len(uni),
+          rate2=round(len([t for t in a2 if t in uni])/len(uni)*100),
+          n2=len([t for t in a2 if t in uni]), uni=len(uni),
           rev1=len(rev1), rev_still=len(rev_still), rev_met=len(rev_met),
           upg=len([t for t in q1_in if t in a2 and a1[t]["category"]=="efficiency" and a2[t]["category"]=="revenue"]),
           eff=sum(1 for t in rep if a1[t]["category"]=="efficiency" and a2[t]["category"]=="efficiency"),
           prd=sum(1 for t in rep if a1[t]["category"]=="product" and a2[t]["category"]=="product"),
-          m2=round(sum(1 for x in a2h if x.get("metric"))/len(a2h)*100))
+          m2=round(sum(1 for x in a2h if x["ticker"] in uni and x.get("metric"))
+                   / max(len([t for t in a2 if t in uni]), 1) * 100))
 pers = round(100*AP["rep"]/AP["q1_in"])
 t1 = set(a1)
 rows = []
@@ -647,10 +649,10 @@ lowlv = min(srows, key=lambda x: x[1])
 if not negs:
     _pdn = "This refresh, every measured sector is holding or gaining pricing power versus Q1"
 elif len(negs) == 1:
-    _pdn = f"This refresh, {negs[0][0]} is the only sector losing ground versus Q1 ({negs[0][1]:+.1f})"
+    _pdn = f"This refresh, {negs[0][0]} is the only sector losing ground versus Q2 ({negs[0][1]:+.1f})"
 else:
     worst = min(negs, key=lambda x: x[1])
-    _pdn = (f"This refresh, {len(negs)} of {len(srows)} sectors are losing ground versus Q1, led by "
+    _pdn = (f"This refresh, {len(negs)} of {len(srows)} sectors are losing ground versus Q2, led by "
             f"{worst[0]} at {worst[1]:+.1f}")
 _pdn += f", while the weakest absolute pricing level sits in {lowlv[0]} ({lowlv[1]:.1f})."
 s = _pswap(s, "PDN", _pdn)
@@ -684,12 +686,12 @@ for _c3 in sorted(_epi, key=lambda c: -np.mean([a for a, _ in _epi[c]])):
         _chrows += (f'<tr><td>{_c3.replace("_"," ")}</td><td class="num">{len(_epi[_c3])}</td>'
                     f'<td class="num">{_l3:.1f}</td><td class="num {"pos" if _d3>0 else "neg"}">{_d3:+.1f}</td></tr>\n')
 s = _pswap(s, "PBO", f'''
-<div style="margin:0 0 18px"><p class="dc-lb">Prices sub-index change, Q2 vs Q1: {_pt:+.2f} pts</p>
+<div style="margin:0 0 18px"><p class="dc-lb">Prices sub-index change, Q3 vs Q2: {_pt:+.2f} pts</p>
 <div class="dc-bar"><span class="co" style="width:{_psh}%">build-out {_pw*np.mean(_pc):+.2f}</span><span class="ex" style="width:{100-_psh}%">rest {(1-_pw)*np.mean(_px):+.2f}</span></div>
 <p class="dc-cap">Build-out claimants&rsquo; pricing rose {np.mean(_pc):+.1f} versus {np.mean(_px):+.1f} for everyone else; weighted by cohort size, they account for {_psh}% of the index&rsquo;s rise.</p></div>
 <p class="dc-lb" style="margin-top:14px">Levels: index {_pal:.1f} &middot; build-out cohort {_plv:.1f} &middot; ex-build-out {_plx:.1f}</p>
 <p class="dc-cap" style="margin-top:2px">{_ecs}stripping the build-out chain, the corporate prices gauge reads {_plx:.1f}.</p>
-<table class="sec" style="margin-top:14px"><thead><tr><th>Channel</th><th class="num">n</th><th class="num">Prices level</th><th class="num">&Delta; vs Q1</th></tr></thead><tbody>
+<table class="sec" style="margin-top:14px"><thead><tr><th>Channel</th><th class="num">n</th><th class="num">Prices level</th><th class="num">&Delta; vs Q2</th></tr></thead><tbody>
 {_chrows}</tbody></table>
 <p class="dc-cap" style="margin-top:8px">Where the chain&rsquo;s inflation lives, channel by channel, refreshed with each build.</p>''')
 
@@ -725,7 +727,7 @@ s = _pswap(s, "PWHO", f'''
 full S&amp;P 1500 equal-weight <b>{_pal:.1f}</b> &nbsp;&rarr;&nbsp; S&amp;P 500 equal-weight <b>{np.mean(_bg):.1f}</b> (&Delta; {np.mean(_bgd):+.1f})
 &nbsp;&rarr;&nbsp; S&amp;P 500 cap-weighted <b>{_cw:.1f}</b> &nbsp;&middot;&nbsp; mid/small <b>{np.mean(_sm):.1f}</b> (&Delta; {np.mean(_smd):+.1f})</p>
 <p class="dc-lb">The tariff tell, prices level and change</p>
-<table class="sec" style="margin-top:6px"><thead><tr><th>Cohort</th><th class="num">n</th><th class="num">Prices level</th><th class="num">&Delta; vs Q1</th></tr></thead><tbody>
+<table class="sec" style="margin-top:6px"><thead><tr><th>Cohort</th><th class="num">n</th><th class="num">Prices level</th><th class="num">&Delta; vs Q2</th></tr></thead><tbody>
 {_tr("refund retainers", _r1)}
 {_tr("passed into price", _r2)}
 {_tr("no refund disclosed", _r3)}
@@ -738,8 +740,8 @@ pdif = 100*sum(1 for r in P2 if r["prices"]>50)/len(P2)
 _allp = [best[t]["prices"] for t in best if best[t].get("prices") is not None]
 _bru = round(100*sum(1 for x in _allp if x >= 55)/len(_allp))
 _brd = round(100*sum(1 for x in _allp if x <= 45)/len(_allp))
-s = _pswap(s, "PSTATS", f'''<span><b>{pavg2:.1f}</b>prices index, Q2 (same companies: {pavg1:.1f} in Q1)</span>
-<span><b>{pavg2-pavg1:+.1f}</b>change vs Q1, matched sample</span>
+s = _pswap(s, "PSTATS", f'''<span><b>{pavg2:.1f}</b>prices index, Q3 (same companies: {pavg1:.1f} in Q2)</span>
+<span><b>{pavg2-pavg1:+.1f}</b>change vs Q2, matched sample</span>
 <span><b>{_bru}% / {_brd}%</b>raising vs conceding price</span>
 <span><b>{len(P2)}</b>companies scored</span>''')
 a = s.index("const PROWS="); bnd = s.index(";\n", a)
@@ -772,13 +774,13 @@ if Bh:
     lv  = float(np.mean([best[t]["composite"] for t in bset if t in best and best[t].get("composite") is not None]))
     lx  = float(np.mean([best[t]["composite"] for t in best if t not in bset and best[t].get("composite") is not None]))
     s = _swapm(s, "BSTATS", f'''
-<span><b>{len(Bh)}</b>companies cite the build-out ({round(100*len(Bh)/len(best))}% of {len(best):,})</span>
+<span><b>{len(Bh)}</b>companies cite the build-out (2026 sweeps to date)</span>
 <span><b>{share_c}%</b>of the index&rsquo;s improvement comes from them</span>
-<span><b>{cc:+.1f} vs {cx:+.1f}</b>cohort vs everyone else, Q2 change</span>
-<span><b>{lv:.1f} vs {lx:.1f}</b>Q2 level: cohort runs hotter</span>
+<span><b>{cc:+.1f} vs {cx:+.1f}</b>cohort vs everyone else, Q3 change</span>
+<span><b>{lv:.1f} vs {lx:.1f}</b>Q3 level: cohort runs hotter</span>
 <span><b>{sum(1 for x in Bh if x.get("metric"))} of {len(Bh)}</b>attach a stated figure</span>''')
     s = _swapm(s, "BBAR", f'''
-<div class="dc-row"><p class="dc-lb">Composite index change, Q2 vs Q1: {ct:+.2f} pts</p>
+<div class="dc-row"><p class="dc-lb">Composite index change, Q3 vs Q2: {ct:+.2f} pts</p>
 <div class="dc-bar"><span class="co" style="width:{share_c}%">build-out {cw*cc:+.2f}</span><span class="ex" style="width:{100-share_c}%">rest {(1-cw)*cx:+.2f}</span></div>
 <p class="dc-cap">{cn} claimants ({round(100*cw)}% of the matched sample) improved {cc:+.2f} on average; the other {xn} companies improved {cx:+.2f}.</p></div>
 <div class="dc-row" style="margin-bottom:0"><p class="dc-lb">New-orders sub-index change: {nt:+.2f} pts</p>
@@ -809,7 +811,7 @@ if Bh:
             (bsec[sx]["co"] if t in bset else bsec[sx]["ex"]).append(dd)
     _brows = []; _bw = 0; _bt = 0
     for sx, v in sorted(bsec.items(), key=lambda kv: -kv[1]["cn"]/max(kv[1]["n"],1)):
-        if v["n"] < 15: continue
+        if v["n"] < MIN_CHIP: continue
         share = round(100*v["cn"]/v["n"])
         if len(v["co"]) >= 5:
             c = float(np.mean(v["co"])); e = float(np.mean(v["ex"])); g = c-e; _bt += 1; _bw += (g > 0)

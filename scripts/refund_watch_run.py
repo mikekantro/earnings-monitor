@@ -107,8 +107,19 @@ def main():
                 hits = json.load(open(args.out)).get("highlights", [])
             except Exception:
                 hits = []
+        SEASON_START = "2026-10-01"
+        latest = {}
+        for h in hits:
+            t9 = h.get("ticker"); d9 = h.get("event_date") or ""
+            if t9 and d9 > latest.get(t9, ""): latest[t9] = d9
+        stale = {t for t in done if latest.get(t, "") and latest[t] < SEASON_START}
         before = len(tickers)
-        tickers = [t for t in tickers if t not in done]
+        tickers = [t for t in tickers if t not in done or t in stale]
+        if stale:
+            # drop the stale pre-season record for re-swept tickers so the new call replaces it
+            resweep = set(tickers) & stale
+            hits = [h for h in hits if not (h.get("ticker") in resweep)]
+            print(f"RESUME: {len(resweep)} pre-season records queued for re-sweep this season")
         print(f"RESUME: {len(done)} already processed, {len(hits)} prior hits kept, "
               f"{before-len(tickers)} skipped, {len(tickers)} to do")
     print(f"Sweeping {len(tickers)} companies for tariff-refund disclosures "

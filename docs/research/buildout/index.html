@@ -103,15 +103,23 @@ footer{border-top:1px solid var(--rule);margin-top:26px;padding:20px 0 54px;colo
 
 
 
+
+
+
+
+
+
+
+
 <p class="sub">Every S&amp;P 1500 earnings call was screened for one thing: does management cite AI-infrastructure
 demand (data centers, power, compute, networking, cooling) as a driver of its own results, in a verbatim,
 transcript-verified statement? That cohort and its arithmetic contribution to the index&rsquo;s improvement are
 below. This is attribution of disclosed exposure, a floor, not a ceiling, and not a causal estimate.</p>
 <div class="mstrip"><!--BSTATS-->
-<span><b>328</b>companies cite the build-out (288% of 114)</span>
+<span><b>328</b>companies cite the build-out (2026 sweeps to date)</span>
 <span><b>50%</b>of the index&rsquo;s improvement comes from them</span>
-<span><b>-3.4 vs -0.9</b>cohort vs everyone else, Q2 change</span>
-<span><b>64.6 vs 61.7</b>Q2 level: cohort runs hotter</span>
+<span><b>-3.4 vs -0.9</b>cohort vs everyone else, Q3 change</span>
+<span><b>64.6 vs 61.7</b>Q3 level: cohort runs hotter</span>
 <span><b>190 of 328</b>attach a stated figure</span><!--/BSTATS--></div>
 </div></header>
 
@@ -121,7 +129,7 @@ below. This is attribution of disclosed exposure, a floor, not a ceiling, and no
 contributed by build-out claimants and the part contributed by everyone else, weighted by cohort size. On new
 orders, where backlogs live, the concentration is starker.</p>
 <div class="decomp"><!--BBAR-->
-<div class="dc-row"><p class="dc-lb">Composite index change, Q2 vs Q1: -1.34 pts</p>
+<div class="dc-row"><p class="dc-lb">Composite index change, Q3 vs Q2: -1.34 pts</p>
 <div class="dc-bar"><span class="co" style="width:50%">build-out -0.61</span><span class="ex" style="width:50%">rest -0.73</span></div>
 <p class="dc-cap">17 claimants (18% of the matched sample) improved -3.35 on average; the other 76 companies improved -0.89.</p></div>
 <div class="dc-row" style="margin-bottom:0"><p class="dc-lb">New-orders sub-index change: -2.31 pts</p>
@@ -144,13 +152,20 @@ Energy&rsquo;s conventional names outran its build-out cohort this quarter.</p>
 <th class="num">Cohort &Delta;</th><th class="num">Rest of sector &Delta;</th>
 <th class="num">Gap</th><th>&nbsp;</th></tr></thead>
 <tbody><!--BSECT-->
+<tr><td>Technology</td><td class="num">4 <span style="color:var(--muted)">(57%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<tr><td>Materials</td><td class="num">4 <span style="color:var(--muted)">(57%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<tr><td>Industrials</td><td class="num">4 <span style="color:var(--muted)">(29%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<tr><td>Real Estate</td><td class="num">1 <span style="color:var(--muted)">(25%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
 <tr><td>Financials</td><td class="num">10 <span style="color:var(--muted)">(19%)</span></td><td class="num">-3.6</td><td class="num">-1.3</td><td class="num neg">-2.2</td><td><span class="bar dn" style="width:49px"></span></td></tr>
+<tr><td>Consumer Discretionary</td><td class="num">0 <span style="color:var(--muted)">(0%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<tr><td>Consumer Staples</td><td class="num">0 <span style="color:var(--muted)">(0%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
+<tr><td>Healthcare</td><td class="num">0 <span style="color:var(--muted)">(0%)</span></td><td class="num">&ndash;</td><td class="num">&ndash;</td><td class="num">&ndash;</td><td></td></tr>
 <!--/BSECT--></tbody></table>
 
 <h2 class="sh">Where the demand lands: channels</h2>
 <p class="note">Channels are model-assigned from each company&rsquo;s own description. Equipment and components is
 the largest lane; cooling is the one soft spot in the chain this quarter.</p>
-<table class="ch"><thead><tr><th>Channel</th><th class="num">Companies</th><th class="num">Avg Q2 change</th></tr></thead>
+<table class="ch"><thead><tr><th>Channel</th><th class="num">Companies</th><th class="num">Avg Q3 change</th></tr></thead>
 <tbody><!--BCHAN--><tr><td>equipment components</td><td class="num">8</td><td class="num neg">-2.0</td></tr>
 <tr><td>data center construction</td><td class="num">5</td><td class="num neg">-8.0</td></tr>
 <tr><td>power energy</td><td class="num">3</td><td class="num pos">+0.7</td></tr>
@@ -171,7 +186,7 @@ the transcript; where two nearby sentences are joined, the seam is shown.</p>
 <input class="srch" id="q" placeholder="filter by ticker, channel, or sector" oninput="draw()">
 <table class="all"><thead><tr>
 <th onclick="so='t';draw()">Ticker</th><th onclick="so='ch';draw()">Channel</th>
-<th class="num" onclick="so='p2';draw()">PMI Q2</th><th class="num" onclick="so='d';draw()">&Delta;</th>
+<th class="num" onclick="so='p2';draw()">PMI Q3</th><th class="num" onclick="so='d';draw()">&Delta;</th>
 <th onclick="so='m';draw()">Stated metric</th></tr></thead><tbody id="tb"></tbody></table>
 <p class="note" id="cnt"></p>
 
