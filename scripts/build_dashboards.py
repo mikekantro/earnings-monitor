@@ -78,6 +78,8 @@ today = datetime.date.today().strftime("%B %-d, %Y")
 today_short = datetime.date.today().strftime("%b %-d, %Y")
 
 q1_all = load(f"{ROOT}/pmi_scores_q2_2026.json")["scores"]  # prev season (Q3 flip)
+q1arch_all = load(f"{ROOT}/pmi_scores_q1_2026.json")["scores"]  # two seasons back
+q1arch = {r["ticker"]: r for r in q1arch_all}
 q1s = {r["ticker"]: r for r in q1_all}
 raw = load(f"{ROOT}/pmi_scores.json")["scores"]
 # Season-rollover guard (Oct 2026): when the live file has reset for a new
@@ -153,11 +155,14 @@ SUB = ["composite","new_orders","output","employment","prices","supply_chains","
 LAB = {"composite":"Composite","new_orders":"New orders","output":"Output","employment":"Employment",
        "prices":"Prices","supply_chains":"Supply chains","demand_breadth":"Demand breadth"}
 pairs = [(r, q1s[r["ticker"]]) for r in q2 if r["ticker"] in q1s]
+trip = [(r, q1s[r["ticker"]], q1arch[r["ticker"]]) for r in q2
+        if r["ticker"] in q1s and r["ticker"] in q1arch]
 score = []
 for k in SUB:
-    a = float(np.mean([m[0][k] for m in pairs if m[0].get(k) is not None]))
-    b = float(np.mean([m[1][k] for m in pairs if m[1].get(k) is not None]))
-    score.append({"k": LAB[k], "q2": round(a,1), "q1": round(b,1), "d": round(a-b,1)})
+    a = float(np.mean([m[0][k] for m in trip if m[0].get(k) is not None]))
+    b = float(np.mean([m[1][k] for m in trip if m[1].get(k) is not None]))
+    c = float(np.mean([m[2][k] for m in trip if m[2].get(k) is not None]))
+    score.append({"k": LAB[k], "q3": round(a,1), "q2": round(b,1), "q1": round(c,1), "d": round(a-b,1)})
 secagg = defaultdict(list)
 for r2, r1 in pairs: secagg[r2.get("sector","—")].append(r2["composite"]-r1["composite"])
 sectors = sorted([{"s": s, "n": len(v), "d": round(float(np.mean(v)),1)}
@@ -165,7 +170,7 @@ sectors = sorted([{"s": s, "n": len(v), "d": round(float(np.mean(v)),1)}
 darr = np.array([m[0]["composite"]-m[1]["composite"] for m in pairs])
 SC = {"n": len(pairs), "q2n": len(q2), "up": int((darr>0).sum()), "down": int((darr<0).sum()),
       "breadth": round(float(np.mean([m[0]["composite"]>50 for m in pairs]))*100),
-      "comp2": score[0]["q2"], "comp1": score[0]["q1"]}
+      "comp2": score[0]["q3"], "comp1": score[0]["q2"]}
 mv = sorted(pairs, key=lambda m: m[0]["composite"]-m[1]["composite"])
 def mrow(r2, r1): return {"t": r2["ticker"], "s": r2.get("sector",""), "q1": r1["composite"],
                           "q2": r2["composite"], "k": (r2.get("key_signal","") or "")[:260]}
