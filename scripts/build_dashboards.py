@@ -197,6 +197,9 @@ tbl = [{"t": r["ticker"], "s": r.get("sector","—"),
 p = f"{SITE}/pmi-scorecard/index.html"
 s = open(p).read()
 a = s.index("const S="); end = s.index("const esc", a)
+_megap = (f"{len(mega)} of the five largest companies have reported Q3 so far."
+          if mega else "None of the five largest companies (AAPL, MSFT, GOOGL, AMZN, META) has reported Q3 yet; they land from late October.")
+s = _swapm(s, "MEGAP", _megap)
 s = (s[:a] + "const S="+json.dumps(score)+",SEC="+json.dumps(sectors)
      + ",MV="+json.dumps(movers)+",MEGA="+json.dumps(mega)
      + ",ROWS="+json.dumps(tbl,separators=(",",":"))+";\n" + s[end:])
@@ -346,7 +349,7 @@ def stab(hs, pmi):
             "r": sp[s_]["revenue"], "e": sp[s_]["efficiency"], "p": sp[s_]["product"]}
            for s_, n in tot.items() if n >= MIN_SEC]
     out.sort(key=lambda x: -x["rate"]); return out
-sec = {"Q1": stab(a1h, q1s), "Q2": stab([x for x in a2h if _inq3(x)], best)}  # live view: in-season records only
+sec = {"Q1": stab(a1h, q1s), "Q3": stab([x for x in a2h if _inq3(x)], best)}  # live view: in-season records only
 
 p = f"{SITE}/ai-adopters/index.html"
 s = open(p).read()
