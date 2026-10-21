@@ -116,7 +116,7 @@ def get_todays_earnings() -> list[dict]:
     POST /calendar/events
     """
     today     = date.today()
-    start_str = f"{(today - timedelta(days=4)).isoformat()}T00:00:00Z"
+    start_str = f"{(today - timedelta(days=12)).isoformat()}T00:00:00Z"
     end_str   = f"{today.isoformat()}T23:59:59Z"
 
     # Build list of FactSet-formatted tickers (TICKER-US)
@@ -1006,6 +1006,13 @@ def main():
 
     todays = get_todays_earnings()
     print(f"   Found {len(todays)} S&P 500 earnings today")
+
+    _prior = load_pmi_scores()
+    _done = ({x["ticker"] for x in _prior.get("scores", [])}
+             if _prior.get("season") == _current_season() else set())
+    _nb = len(todays)
+    todays = [c for c in todays if c["symbol"] not in _done]
+    print(f"   {_nb - len(todays)} already scored this season; {len(todays)} to process")
 
     if not todays:
         print("   No S&P 500 earnings today — skipping email.")
