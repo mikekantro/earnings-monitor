@@ -3428,7 +3428,88 @@
    "quote": "We have launched our Synchrony ChatGPT plugin, which allows consumers to discover savings and offers within the Synchrony Marketplace directly within ChatGPT and browse promotional financing deals and everyday value from participating partners in a fast, conversational experience.",
    "metric": null,
    "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "OFG",
+   "company": "OFG Bancorp",
+   "category": "revenue",
+   "headline": "OFG Bancorp delivers AI-enabled smart banking insights to customers monthly, with 90%+ positive feedback",
+   "quote": "more than 1.5 million million.cost dmi's AI enabled smart banking insights have been delivered monthly to customers with more than 90% positive feedback",
+   "metric": "1.5 million AI-enabled smart banking insights delivered monthly; >90% positive feedback",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "CB",
+   "company": "Chubb Ltd.",
+   "category": "efficiency",
+   "headline": "Chubb attributes declining operating expense ratio to AI-driven digital transformation across underwriting, claims, finance, and sales globally.",
+   "quote": "employing foundational tactics in data and smart layer of technology, algorithmic, large language, and agentic-related. And we're on track in terms of the medium- and longer-term efficiencies",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "TMO",
+   "company": "Thermo Fisher Scientific, Inc.",
+   "category": "product",
+   "headline": "Thermo Fisher embeds AI in electron microscopes and deploys agentic AI clinical research assistant, cutting setup time ~90%",
+   "quote": "we've embedded AI enabled software on our Krios 5 and Glacios 3 cryo-electron microscopes... reducing manual step setup time by approximately 90%.",
+   "metric": "~90% reduction in manual step setup time",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "MCO",
+   "company": "Moody's Corp.",
+   "category": "product",
+   "headline": "Moody's Analytics sells AI-enabled solutions including an intelligent risk platform, driving ARR growth across insurance, KYC, and lending.",
+   "quote": "we continue to see some encouraging momentum across several growth areas that includes lending, insurance, KYC, private credit, and AI-enabled solutions.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "PEGA",
+   "company": "Pegasystems, Inc.",
+   "category": "product",
+   "headline": "Pegasystems embeds AI in Blueprint and Infinity platform to help enterprises design and run agentic workflows with governance.",
+   "quote": "Blueprint harnesses AI to solve a problem that no one else has, giving business and IT teams a way to reimagine their operating model together at AI speed.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "ELV",
+   "company": "Elevance Health, Inc.",
+   "category": "efficiency",
+   "headline": "Elevance Health uses AI-enabled analytics to identify inappropriate billing and utilization patterns earlier in Medicaid cost management.",
+   "quote": "AI-enabled analytics have helped us here identify potentially inappropriate billing and utilization patterns earlier.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "SF",
+   "company": "Stifel Financial Corp.",
+   "category": "efficiency",
+   "headline": "Stifel uses AI as productivity tool for advisors: meeting prep, follow-up, analysis, not to reduce headcount.",
+   "quote": "we're using AI as a tool to help off, it's a powerful tool for prep meeting, prep meeting, follow up analysis, discussions, there is a whole bunch of things.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "NTRS",
+   "company": "Northern Trust Corp.",
+   "category": "efficiency",
+   "headline": "Northern Trust uses AI agents and internal assistant Byron to save relationship managers 2-3 hours per client memo and double straight-through processing in alternative servicing.",
+   "quote": "Our Client Action Plan agents now save relationship managers 2 to 3 hours on every client memo, time they can redirect to clients.",
+   "metric": "2-3 hours saved per client memo; nearly doubled straight-through processing",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "DHR",
+   "company": "Danaher Corp.",
+   "category": "efficiency",
+   "headline": "Danaher deploying AI across enterprise to strengthen commercial execution, sales funnel management, and reduce R&D timelines.",
+   "quote": "We see opportunities for AI to strengthen commercial execution and innovation. For example, helping our teams identify opportunities earlier, improve sales funnel management and dramatically reduce R&D time lines.",
+   "metric": null,
+   "event_date": "2026-10-21"
   }
  ],
- "updated": "2026-10-21T06:00:32"
+ "updated": "2026-10-21T15:18:33"
 }
