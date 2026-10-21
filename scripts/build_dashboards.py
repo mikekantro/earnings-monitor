@@ -415,17 +415,13 @@ s = sub1(s, r"<b>\d+%</b>of Q3 reporters cite AI use \(Q2: 45%\)", f"<b>{AP['rat
 s = sub1(s, r"<b>\d+</b>Q3 adopters of \d+ reported", f"<b>{AP['n2']}</b>Q3 adopters of {AP['uni']} reported", "ai-n")
 s = sub1(s, r"<b>\d+</b>first-time claimants", f"<b>{AP['new']}</b>first-time claimants", "ai-new")
 s = sub1(s, r"<b>\d+%</b>back it with a number \(Q2: 29%\)", f"<b>{AP['m2']}%</b>back it with a number (Q2: 29%)", "ai-m")
-s = sub1(s, r"efficiency stayed efficiency \(\d+ companies\), product stayed product \(\d+\)",
-         f"efficiency stayed efficiency ({AP['eff']} companies), product stayed product ({AP['prd']})", "ai-sticky")
-s = sub1(s, r"\d+ went quiet entirely\.", f"{AP['quiet']} went quiet entirely.", "ai-quiet-prose")
-s = sub1(s, r'<td class="v">\d+ / \d+<small>\d+% persistence</small></td>',
-         f'<td class="v">{AP["rep"]} / {AP["q1_in"]}<small>{pers}% persistence</small></td>', "ai-tbl-pers")
-s = sub1(s, r'<tr><td>Went quiet</td><td class="v">\d+<small>\d+%</small></td></tr>',
-         f'<tr><td>Went quiet</td><td class="v">{AP["quiet"]}<small>{round(100*AP["quiet"]/AP["q1_in"])}%</small></td></tr>', "ai-tbl-quiet")
-s = sub1(s, r'<td class="v">\d+ / \d+<small>\d+ with a metric</small></td>',
-         f'<td class="v">{AP["rev_still"]} / {AP["rev1"]}<small>{AP["rev_met"]} with a metric</small></td>', "ai-tbl-funnel")
-s = sub1(s, r'<td class="v">\d+<small>the cohort to watch</small></td>',
-         f'<td class="v">{AP["upg"]}<small>the cohort to watch</small></td>', "ai-tbl-upg")
+s = _swapm(s, "PERSIST",
+    f"Of the {AP['q1_in']} companies that claimed AI use earlier in 2026 and have reported Q3, "
+    f"<b>{pers}% repeated the claim</b> on their Q3 call; {AP['quiet']} went quiet. "
+    f"Claims are sticky in kind (efficiency stayed efficiency for {AP['eff']}, product for {AP['prd']}; "
+    f"{AP['upg']} upgraded to a revenue claim). The revenue story remains the rarest: of {AP['rev1']} prior "
+    f"revenue claimants reporting Q3, {AP['rev_still']} still describe AI driving revenue and "
+    f"{AP['rev_met']} back it with a number. Recomputed at every refresh as Q3 transcripts post.")
 s = sub1(s, r"Sweep window: July 15 – [A-Z][a-z]+ \d+, 2026", f"Sweep window: July 15 – {today}", "ai-date")
 
 # ---- margin section (marker-delimited) ----
