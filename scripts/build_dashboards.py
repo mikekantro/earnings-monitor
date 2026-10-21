@@ -223,7 +223,7 @@ def _hist_data():
                 S=list(_lt.values())
             else: continue
             if sector: S=[r for r in S if r.get("sector")==sector]
-            if len(S)<10: continue
+            if len(S)<4: continue
             row={"l":lbl}
             for fd in _FL:
                 v=[r[fd] for r in S if r.get(fd) is not None]
@@ -379,7 +379,7 @@ def _adata():
         out.setdefault("All",[]).append(_row(_lbl, set(_u)))
         for _sx in sorted({_r.get("sector") for _r in _u.values() if _r.get("sector")}):
             _su={_t for _t,_r in _u.items() if _r.get("sector")==_sx}
-            if len(_su)<10: continue
+            if len(_su)<4: continue
             out.setdefault(_sx,[]).append(_row(_lbl, _su))
     return out
 _a7 = s.index("const ADATA="); _b7 = s.index(";", _a7)
