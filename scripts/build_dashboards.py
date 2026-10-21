@@ -91,7 +91,7 @@ _lu9 = {}
 for _r9 in raw:
     _t9 = _r9["ticker"]
     if _t9 not in _lu9 or _r9.get("date","") > _lu9[_t9].get("date",""): _lu9[_t9] = _r9
-if len(_lu9) < 100:
+if len(_lu9) < 20:
     _n9 = len(_lu9)
     if _n9 > 0:
         _c9 = [x["composite"] for x in _lu9.values() if x.get("composite") is not None]
@@ -119,14 +119,14 @@ if len(_lu9) < 100:
         raw = _arch
     except Exception as e:
         print(f"rollover guard: archive unavailable ({e}); building from live file")
-elif len(_lu9) < 300:
+else:
     QTRK_HTML = (
         '<div style="border-left:4px solid #8AA2B0;background:#F4F7F8;'
         'padding:10px 16px;margin:0 0 20px">'
         '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
-        'color:#223E4C">Early Q3 2026 season</span>'
+        'color:#223E4C">Q3 2026 season &middot; live</span>'
         '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:#3E4C57">'
-        f' &middot; live readings from {len(_lu9)} of ~1,380 companies; figures settle as reporters accumulate</span></div>')
+        f' &middot; {len(_lu9)} of ~1,380 companies reported; the dashboard updates as transcripts post</span></div>')
 best = {}
 for r in raw:
     t = r["ticker"]
@@ -149,11 +149,11 @@ try:
 except Exception:
     spy = set()
 print(f"data: pmi {len(raw)}->{len(q2)} | ai Q1 {len(a1h)} Q2 {len(a2h)} | refunds {len(R)}")
-# early-season group floors: smaller cuts while the season is thin, strict again at 300+
-_EARLY = len(best) < 300
-MIN_SEC = 4 if _EARLY else 10      # sector tables / diverging bars
-MIN_CHIP = 5 if _EARLY else 15     # interactive sector chips
-MIN_IND = 4 if _EARLY else 8       # industry table
+# group floors scale smoothly with season coverage (no threshold cliff)
+_NB = len(best)
+MIN_SEC = max(4, min(10, _NB // 30))    # sector tables / diverging bars
+MIN_CHIP = max(5, min(15, _NB // 25))   # interactive sector chips
+MIN_IND = max(4, min(8, _NB // 60))     # industry table
 
 # ---------------- scorecard ----------------
 SUB = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth"]
