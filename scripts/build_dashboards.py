@@ -563,6 +563,26 @@ s = sub1(s, r"<b>\d+ v \d+</b>panel companies, sector-neutral",
          f"<b>{len(g_per)} v {len(g_nev)}</b>panel companies, sector-neutral", "emp-n")
 s = sub1(s, r'(<div class="d">Q3 \u00b7 latest \([^)]*\)</div><div class="v">)[\u2212+]?[\d.a-z/]+ \u00b7 p=[\d.a-z/]+(</div>)',
          lambda m: m.group(1) + f"{fmt(d_per)} \u00b7 p={p_per:.3f}" + m.group(2), "emp-strip")
+_gap = f"{d_per:+.2f}"
+_sgn = "below" if d_per < 0 else "above"
+_nline = f"n={len(g_per)} v {len(g_nev)}"
+s = _swapm(s, "EMPLEAD",
+    f"The pre-registered question: do companies with a persistent AI claim hire more slowly than "
+    f"companies that never mention AI? The early Q3 panel currently shows persistent claimants "
+    f"{_gap} points {_sgn} never-claimants ({_nline}, p={p_per:.2f}).")
+s = _swapm(s, "EMPRES",
+    f"The completed Q1&rarr;Q2 panels put persistent claimants 0.6&ndash;0.8 points <b>below</b> "
+    f"never-claimants (p=0.03&ndash;0.08) across five prints and two extraction runs. The live Q3 cut "
+    f"currently reads <b>{_gap}</b> ({_nline}, p={p_per:.2f})"
+    + (" &mdash; a sign flip on a small early panel, exactly the instability the pre-registration "
+       "anticipated from an underpowered signal." if d_per > 0 else
+       ", consistent in direction with the prior seasons.")
+    + " First-time claimants track the baseline.")
+s = _swapm(s, "EMPCARD",
+    f"Live Q3 cut, recomputed each refresh: {_gap} at p={p_per:.2f} on {_nline}. "
+    + ("Sign currently flipped vs the Q1&ndash;Q2 prints; the panel is a fraction of its eventual size "
+       "and the pre-committed decision waits for the full season." if d_per > 0 else
+       "Direction consistent with the Q1&ndash;Q2 prints; the decision waits for the full-season panel."))
 s = sub1(s, r'latest \([A-Z][a-z]+ \d+\)', f'latest ({today_short.split(",")[0]})', "emp-strip-date")
 s = sub1(s, r'(Quantified AI efficiency, both seasons</td><td class="v">)[\u2212+]?[\d.a-z/]+(<small>n=)\d+( \u00b7 p=)[\d.a-z/]+',
          lambda m: m.group(1)+_fmt_d(d_met)+m.group(2)+str(len(g_met))+m.group(3)+_fmt_p(p_met), "emp-tbl-met")
