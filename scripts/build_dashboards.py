@@ -331,7 +331,7 @@ def stab(hs, pmi):
         s_ = pmi.get(x["ticker"], {}).get("sector","—"); ad[s_] += 1; sp[s_][x["category"]] += 1
     out = [{"s": s_, "n": n, "a": ad.get(s_,0), "rate": round(100*ad.get(s_,0)/n,1),
             "r": sp[s_]["revenue"], "e": sp[s_]["efficiency"], "p": sp[s_]["product"]}
-           for s_, n in tot.items() if n >= 10]
+           for s_, n in tot.items() if n >= MIN_SEC]
     out.sort(key=lambda x: -x["rate"]); return out
 sec = {"Q1": stab(a1h, q1s), "Q2": stab(a2h, best)}
 
@@ -508,7 +508,7 @@ for r in q2:
     p1r = q1s.get(r["ticker"])
     if p1r and r.get("employment") is not None and p1r.get("employment") is not None:
         dall[r.get("sector","—")].append(r["employment"]-p1r["employment"])
-dmed = {s_: float(np.median(v)) for s_, v in dall.items() if len(v) >= 5}
+dmed = {s_: float(np.median(v)) for s_, v in dall.items() if len(v) >= max(3, MIN_SEC - 1)}
 def snd(pred):
     out = []
     for t, r in best.items():
@@ -627,7 +627,7 @@ for r, p1r in ppairs:
     psec[r.get("sector","—")].append(r["prices"]-p1r["prices"])
     plvl[r.get("sector","—")].append(r["prices"])
 srows = sorted([(sx, round(float(np.mean(plvl[sx])),1), round(float(np.mean(v)),1), len(v))
-                for sx, v in psec.items() if len(v) >= 10], key=lambda x: -x[2])
+                for sx, v in psec.items() if len(v) >= MIN_SEC], key=lambda x: -x[2])
 def _pesc(x): return (x or "").replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
 sec_html = "\n".join(
     f'<tr><td>{_pesc(sx)}</td><td class="num">{l}</td>'
@@ -669,7 +669,7 @@ for _t2 in _bset:
     if _t2 in best and best[_t2].get("prices") is not None:
         _epi.setdefault(_x2["channel"], []).append(
             (best[_t2]["prices"], (best[_t2]["prices"]-q1s[_t2]["prices"]) if _t2 in q1s and q1s[_t2].get("prices") is not None else None))
-_ec = max((c for c in _epi if len(_epi[c]) >= 8), key=lambda c: np.mean([a for a, _ in _epi[c]]), default=None)
+_ec = max((c for c in _epi if len(_epi[c]) >= MIN_IND), key=lambda c: np.mean([a for a, _ in _epi[c]]), default=None)
 _ecs = ""
 if _ec:
     _el = np.mean([a for a, _ in _epi[_ec]])
