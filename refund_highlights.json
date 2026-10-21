@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T15:19:38.806295",
+ "generated": "2026-10-21T16:34:01.318169",
  "window": [
   "2026-07-15",
   "2026-10-21"
@@ -558,18 +558,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "GE",
-   "company": "GE Aerospace",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$100 million",
-   "headline": "GE Aerospace received $100 million tariff refund in Q2 2026, contributing to working capital improvement.",
-   "quote_receiving": "a little bit of help from tariffs, which we got $100 million of refund from tariffs in the quarter, but in the grand scheme of things, that's not extremely material.",
-   "quote_customers": "",
-   "event_date": "2026-07-16"
-  },
-  {
    "ticker": "GEHC",
    "company": "GE Healthcare Technologies, Inc.",
    "receiving": true,
@@ -592,18 +580,6 @@
    "quote_receiving": "the favorable impact of $9 million in tariff refunds, net of related surcharges",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "GM",
-   "company": "General Motors Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "na",
-   "amount": null,
-   "headline": "GM CFO notes IEEPA refund contributed to first-half outperformance above prior expectations.",
-   "quote_receiving": "I would say, is fairly consistent with what we expected going into the year, aside from the IEEPA refund and then a little bit of the outperformance.",
-   "quote_customers": "",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "GNRC",
@@ -796,18 +772,6 @@
    "quote_receiving": "the tariff refunds were like $10 million in 2Q",
    "quote_customers": "",
    "event_date": "2026-08-12"
-  },
-  {
-   "ticker": "ISRG",
-   "company": "Intuitive Surgical, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$36 million",
-   "headline": "Intuitive Surgical received $36 million pre-tax benefit from refund of previously paid IEEPA tariffs in Q2.",
-   "quote_receiving": "reflected a $36 million pre-tax benefit tied to the refund of previously paid IEEPA tariffs",
-   "quote_customers": "",
-   "event_date": "2026-07-16"
   },
   {
    "ticker": "JBTM",
@@ -2368,6 +2332,30 @@
    "quote_receiving": "roughly half of that was tariff refunds, very immaterial. But we don't see that coming through in any material level in Q4.",
    "quote_customers": "",
    "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "GM",
+   "company": "General Motors Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$600 million to $800 million",
+   "headline": "GM received ~60% of $500M IEEPA tariff refund credit plus similar amount from supply base, totaling $600M-$800M in 2026 cash flow.",
+   "quote_receiving": "We've seen some success in getting IEEPA refunds, both in terms of our own as well as the second order from our supply base. That's contributed to some of that benefit.",
+   "quote_customers": "",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "ISRG",
+   "company": "Intuitive Surgical, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$28 million",
+   "headline": "Intuitive Surgical received a one-time pre-tax tariff refund of $28 million, excluded from adjusted operating margin in Q3.",
+   "quote_receiving": "Non-GAAP operating margin was 42% of revenue, or 41%, excluding a one-time pre-tax tariff refund of $28 million.",
+   "quote_customers": "",
+   "event_date": "2026-10-20"
   }
  ]
 }

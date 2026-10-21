@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T15:19:40.098431",
+ "generated": "2026-10-21T16:35:17.580531",
  "window": [
   "2026-07-15",
   "2026-10-21"
@@ -14,16 +14,6 @@
    "direction": "accelerating",
    "headline": "Agilent Technologies cites AI infrastructure capital investment build-out in China as driver of semiconductor and spectroscopy equipment demand.",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "AA",
-   "company": "Alcoa Corp.",
-   "channel": "data_center_construction",
-   "quote": "closed smelter that sits next door to our operating Massena smelter, very close there to announcing a deal with a data center developer.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Alcoa is leasing closed smelter infrastructure (Massena East) to a data-center developer as part of its transformation asset monetization program.",
-   "event_date": "2026-09-10"
   },
   {
    "ticker": "AAON",
@@ -656,16 +646,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "CFG",
-   "company": "Citizens Financial Group, Inc. (Rhode Island)",
-   "channel": "equipment_components",
-   "quote": "digital infrastructure as one of the verticals... We did that in 2022 and now you see kind of the demand for compute and data centers and things. And so, we're right in the thick of it",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Citizens Financial Group cites AI-infrastructure demand for compute and data centers as a driver of commercial banking deal flow and investment banking activity.",
-   "event_date": "2026-09-14"
-  },
-  {
    "ticker": "CGNX",
    "company": "Cognex Corp.",
    "channel": "equipment_components",
@@ -734,16 +714,6 @@
    "direction": "accelerating",
    "headline": "Core Natural Resources cites data-center electricity demand as driver of elevated power-generation clearing prices supporting coal demand.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "CNS",
-   "company": "Cohen & Steers, Inc. (New York)",
-   "channel": "networking_compute",
-   "quote": "Global listed infrastructure strategy had its sixth straight quarter of inflows and is very active in the institutional channel, with both new allocations and takeaways. Interpreting these highlights, the macro is aligning better with our strategies. Real estate has begun a new return cycle. Global listed infrastructure is in the middle of a powerful capital investment cycle in AI and power",
-   "metric": "sixth straight quarter of inflows",
-   "direction": "accelerating",
-   "headline": "Cohen & Steers reports that its global listed infrastructure strategy is benefiting from a powerful capital investment cycle in AI and power, driving six consecutive quarters of inflows.",
-   "event_date": "2026-07-17"
   },
   {
    "ticker": "COHR",
@@ -1446,16 +1416,6 @@
    "event_date": "2026-09-08"
   },
   {
-   "ticker": "GPC",
-   "company": "Genuine Parts Company",
-   "channel": "data_center_construction",
-   "quote": "it's not a huge part of our business today. If you actually kind of decompose what goes into a data center, it's not your core traditional Motion product set. We obviously have opportunities and things like hose, fittings, some of the kind of specialty solutions offerings that we offer up. That being said, I think it's a big opportunity for us as we evolve.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Genuine Parts Company (Motion Industries) identifies data-center infrastructure as a medium-term growth opportunity for industrial distribution products such as hose, fittings, and specialty solutions, though not yet material to revenue.",
-   "event_date": "2026-09-15"
-  },
-  {
    "ticker": "GVA",
    "company": "Granite Construction, Inc.",
    "channel": "data_center_construction",
@@ -1866,16 +1826,6 @@
    "event_date": "2026-09-09"
   },
   {
-   "ticker": "MCO",
-   "company": "Moody's Corp.",
-   "channel": "equipment_components",
-   "quote": "Beacon Point DC is a very good example of the large data center transactions that we're rating across the US. That was a roughly $4 billion financing for a 350-megawatt hyperscale campus developed by Hut 8. And I think more importantly, it illustrates how AI is becoming one of the largest capital formation stories in the global economy.",
-   "metric": "Hyperscaler CapEx alone is expected to approach $800 billion in 2026",
-   "direction": "accelerating",
-   "headline": "Moody's cites AI data center and hyperscaler infrastructure financing as a major driver of its ratings business growth and issuance activity.",
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "MDU",
    "company": "MDU Resources Group, Inc.",
    "channel": "power_energy",
@@ -1924,26 +1874,6 @@
    "direction": "accelerating",
    "headline": "Monolithic Power Systems cites strong data-center power-management demand driving 45% Enterprise Data segment growth and new 800-volt data-center architecture sampling.",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "MRSH",
-   "company": "Marsh & McLennan Cos., Inc.",
-   "channel": "equipment_components",
-   "quote": "One example is our work with energy clients in the digital infrastructure ecosystem, where we are creating multi-billion dollar insurance solutions for counterparty credit exposures.",
-   "metric": "multi-billion dollar insurance solutions",
-   "direction": "accelerating",
-   "headline": "Marsh & McLennan cites digital infrastructure ecosystem as a growth driver for its insurance and risk advisory business.",
-   "event_date": "2026-07-21"
-  },
-  {
-   "ticker": "MS",
-   "company": "Morgan Stanley",
-   "channel": "equipment_components",
-   "quote": "we still think we're also early in middle innings and you've seen just enormous announcements, NVIDIA, Broadcom, Google ... that CapEx is still early. And it's pretty clear that the credit markets are going to innovate around that. We've been at the center of that. We've got really high market share.",
-   "metric": "over $1 trillion of equity",
-   "direction": "accelerating",
-   "headline": "Morgan Stanley cites early-innings AI infrastructure financing\u2014equity and credit markets for hyperscalers, chip makers, and neoclouds\u2014as a driver of its investment banking revenue and market share.",
-   "event_date": "2026-09-15"
   },
   {
    "ticker": "MSA",
@@ -2246,16 +2176,6 @@
    "event_date": "2026-07-28"
   },
   {
-   "ticker": "PLD",
-   "company": "Prologis, Inc.",
-   "channel": "data_center_construction",
-   "quote": "we would call it about 10% of our new leasing has been dedicated to some form of support for the data center buildout.",
-   "metric": "10% of new leasing",
-   "direction": "accelerating",
-   "headline": "Prologis cites data-center buildout support as driver of 10% of new logistics leasing demand.",
-   "event_date": "2026-09-15"
-  },
-  {
    "ticker": "PLUS",
    "company": "ePlus, Inc.",
    "channel": "equipment_components",
@@ -2274,16 +2194,6 @@
    "direction": "accelerating",
    "headline": "Plexus Corp. won a new program to manufacture battery energy storage systems for data-center customers, cited as part of robust industrial-sector growth.",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "PNC",
-   "company": "The PNC Financial Services Group, Inc.",
-   "channel": "equipment_components",
-   "quote": "we've been very selective around extremely well-structured credits that have the protection of a hyperscaler behind them and a high credit quality hyperscaler and a contract that we see as bulletproof ... in terms of AI infrastructure and data centers, where we've been very selective",
-   "metric": null,
-   "direction": "steady",
-   "headline": "PNC Financial Services selectively participates in AI infrastructure and data-center lending with hyperscaler protection, but not transformationally driving overall growth.",
-   "event_date": "2026-09-14"
   },
   {
    "ticker": "PNR",
@@ -2406,26 +2316,6 @@
    "event_date": "2026-09-15"
   },
   {
-   "ticker": "RF",
-   "company": "Regions Financial Corp.",
-   "channel": "power_energy",
-   "quote": "We have opportunities to support growth in data centers. We have opportunities to bank power and utility companies, and we're seeing some of that, any kind of infrastructure-related spending, many of our customers are benefiting from.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Regions Financial cites opportunities to bank power and utility companies supporting data-center growth and infrastructure spending.",
-   "event_date": "2026-09-15"
-  },
-  {
-   "ticker": "RLI",
-   "company": "RLI Corp.",
-   "channel": "equipment_components",
-   "quote": "the largest contractors continue to benefit from strong demand tied to data center construction, large public infrastructure, and health care",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "RLI Corp. cites data center construction demand benefiting largest contractors in its surety segment.",
-   "event_date": "2026-07-23"
-  },
-  {
    "ticker": "RMBS",
    "company": "Rambus, Inc.",
    "channel": "equipment_components",
@@ -2454,16 +2344,6 @@
    "direction": "accelerating",
    "headline": "Rockwell Automation cites data-center growth as a contributor to its organic revenue growth, representing 2 of 10 organic growth points in the most recent quarter.",
    "event_date": "2026-09-16"
-  },
-  {
-   "ticker": "RPM",
-   "company": "RPM International, Inc.",
-   "channel": "data_center_construction",
-   "quote": "Growth was strongest for roofing and wall systems for high-performance buildings such as data centers and infrastructure projects.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "RPM International cites data-center construction demand as a driver of Construction Products Group roofing and wall systems sales growth.",
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "RRC",
@@ -2986,16 +2866,6 @@
    "event_date": "2026-08-17"
   },
   {
-   "ticker": "VICR",
-   "company": "Vicor Corp.",
-   "channel": "equipment_components",
-   "quote": "AI data center, hyperscalers, and OEMs need Vertical Power Delivery to meet compute density requirements and AI data center performance. The market opportunity is growing rapidly.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Vicor cites AI data center hyperscaler demand for Vertical Power Delivery as a driver of its growing market opportunity and product development strategy.",
-   "event_date": "2026-07-21"
-  },
-  {
    "ticker": "VLTO",
    "company": "Veralto Corp.",
    "channel": "equipment_components",
@@ -3014,16 +2884,6 @@
    "direction": "accelerating",
    "headline": "Vulcan Materials cites data-center construction and associated power-infrastructure buildout as drivers of private-side aggregate demand, reflected in quoting and booking activity.",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "VMI",
-   "company": "Valmont Industries, Inc.",
-   "channel": "power_energy",
-   "quote": "Demand continues to be supported by investment in grid modernization, power demand, data centers and electrification.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Valmont Industries cites data-center and electrification demand as drivers of North America Utility business growth.",
-   "event_date": "2026-07-21"
   },
   {
    "ticker": "VRT",
@@ -3064,16 +2924,6 @@
    "direction": "accelerating",
    "headline": "Verizon cites AI-infrastructure demand for data-center dark fiber and edge-computing opportunities as a new growth vector.",
    "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "WAB",
-   "company": "Westinghouse Air Brake Technologies Corp.",
-   "channel": "power_energy",
-   "quote": "strong demand in the industrial applications. And some of that is particularly visible in the heat exchangers, which go into some of the demand for power generation",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Wabtec cites demand for heat exchangers serving power-generation applications as a driver of industrial Components business strength.",
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "WCC",
@@ -3176,16 +3026,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "ZION",
-   "company": "Zions Bancorporation NA",
-   "channel": "data_center_construction",
-   "quote": "I was on a call with a customer to a customer up in Logan, Utah, recently, is an electrical contractor. And it is a fabulous business. But they've got 4,000 employees. They got 80% of these electrical contractors in their business are doing data center work. ... transmission line contractors and all kinds of folks that are supporting this buildout.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Zions Bancorporation cites AI data-center construction activity as a driver of demand among its commercial banking customers, including electrical contractors and transmission-line contractors supporting the buildout.",
-   "event_date": "2026-09-15"
-  },
-  {
    "ticker": "CMS",
    "company": "CMS Energy Corp.",
    "channel": "hyperscaler_platform",
@@ -3214,26 +3054,6 @@
    "direction": "accelerating",
    "headline": "Xylem cites AI-infrastructure data-center demand as driver of Applied Water segment revenue, expecting 200% growth this year.",
    "event_date": "2026-07-28"
-  },
-  {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand\u2014compute, power, cooling, and networking\u2014as driver of 60% year-over-year growth in AI-related revenue and expansion of large hyperscaler customer base.",
-   "event_date": "2026-09-30"
-  },
-  {
-   "ticker": "MU",
-   "company": "Micron Technology, Inc.",
-   "channel": "data_center_construction",
-   "quote": "the principal constraint in the industry is on cleanroom space because we \u2013 the strong growth of AI and this demand vector has come on relatively recently in terms of the timeline that it takes to build these cleanrooms... the majority of the construction CapEx increase for fiscal 2027 versus our prior plans is for cleanrooms that will come online in late 2028 and beyond",
-   "metric": "majority of construction CapEx increase for fiscal 2027 directed to cleanrooms coming online late 2028 and beyond",
-   "direction": "accelerating",
-   "headline": "Micron cites AI infrastructure demand driving accelerated data-center cleanroom construction CapEx through 2028.",
-   "event_date": "2026-09-30"
   },
   {
    "ticker": "PENG",
@@ -3284,6 +3104,136 @@
    "direction": "accelerating",
    "headline": "Commercial Metals cites data-center projects as a driver of demand for its steel and construction products.",
    "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "AA",
+   "company": "Alcoa Corp.",
+   "channel": "data_center_construction",
+   "quote": "We reached a definitive agreement for the sale of a portion of the Massena East site with potential cash proceeds of up to $315 million ... the site could be up to 635 megawatts.",
+   "metric": "up to $315 million in cash proceeds; site capacity up to 635 megawatts",
+   "direction": "accelerating",
+   "headline": "Alcoa monetizes Massena East aluminum smelter site for data-center construction with phased cash proceeds and up to 635 megawatts of capacity.",
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "CFG",
+   "company": "Citizens Financial Group, Inc. (Rhode Island)",
+   "channel": "equipment_components",
+   "quote": "This whole AI ecosystem buildout is kind of full on, so it's very strong dynamic and that kind of cascades into a lot of the supply ecosystem that kind of gets those centers built ... the desire to get the compute power in place, the players aren't really batting an eyelash with it.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Citizens Financial Group cites AI-infrastructure buildout and compute-power demand as supporting loan demand in its commercial banking portfolio.",
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "CNS",
+   "company": "Cohen & Steers, Inc. (New York)",
+   "channel": "networking_compute",
+   "quote": "capital investment has reemerged at the forefront of the growth of AI, reindustrialization and supply chain trends, giving the asset class renewed and widespread appeal",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Cohen & Steers cites AI infrastructure investment as a driver of renewed appeal and growth in its listed infrastructure strategy.",
+   "event_date": "2026-10-16"
+  },
+  {
+   "ticker": "GPC",
+   "company": "Genuine Parts Company",
+   "channel": "equipment_components",
+   "quote": "We believe data center and AI infrastructure investment is also having a positive impact on the broader manufacturing economy.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Genuine Parts Company cites AI infrastructure investment as positive driver of broader manufacturing economy and Motion segment growth.",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscalers as primary driver of Intelligent Infrastructure segment growth, with AI revenue up 60% year-over-year.",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "MCO",
+   "company": "Moody's Corp.",
+   "channel": "equipment_components",
+   "quote": "financing activity tied to AI infrastructure remained very strong in the quarter ... issuance increased approximately fourfold from the third quarter of last year",
+   "metric": "issuance increased approximately fourfold",
+   "direction": "accelerating",
+   "headline": "Moody's Corp. cites AI-infrastructure financing demand as driver of strong ratings issuance and transaction revenue growth.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "MRSH",
+   "company": "Marsh & McLennan Cos., Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Digital infrastructure continues to be a growth driver for Marsh. More and more clients across broad sectors of the economy are asking for our help in risk, capital advisory, credit and consulting in the wake of extensive growth in digital infrastructure.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Marsh & McLennan cites digital infrastructure (data-center/hyperscaler buildout) as a growth driver for its risk advisory and consulting services.",
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "MS",
+   "company": "Morgan Stanley",
+   "channel": "hyperscaler_platform",
+   "quote": "hyperscaler CapEx is running as we speak at around $1 trillion a year, and our role as an advisor in all pieces of this will remain to be a critical differentiator. We're advising clients on the full ecosystem of their strategic and capital markets alternatives.",
+   "metric": "hyperscaler CapEx running at around $1 trillion a year",
+   "direction": "accelerating",
+   "headline": "Morgan Stanley cites $1 trillion annual hyperscaler AI infrastructure CapEx as driver of advisory and capital markets advisory revenue opportunity.",
+   "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "PLD",
+   "company": "Prologis, Inc.",
+   "channel": "data_center_construction",
+   "quote": "the rapidly growing segment of customers supporting the data center supply chain. This customer segment represented approximately 10% of our new leasing globally and 17% in the US this quarter ... Our current estimate is that these customers will require upwards of 150 million square feet of demand through the end of the decade for both the build-out and ongoing service of this new segment",
+   "metric": "150 million square feet of demand through end of decade; 17% of US leasing this quarter",
+   "direction": "accelerating",
+   "headline": "Prologis cites data-center supply-chain customer demand as driver of leasing activity and logistics real-estate requirements.",
+   "event_date": "2026-10-15"
+  },
+  {
+   "ticker": "RLI",
+   "company": "RLI Corp.",
+   "channel": "data_center_construction",
+   "quote": "There's a lot of talk of construction in the United States regarding the data centers. That's where a lot of the focus is. And there are a lot of large contractors in that space.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "RLI Corp. cites data-center construction activity as a market factor affecting surety segment competition and small-to-middle market contractor focus, but notes RLI is not a major participant in that segment.",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "RPM",
+   "company": "RPM International, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Through our Euclid Chemical, Tremco, Carboline and Stoneheart businesses, we are on target to serve over $100 million on an annualized basis of our products into the data centers that are being built around the world.",
+   "metric": "$100 million on an annualized basis",
+   "direction": "accelerating",
+   "headline": "RPM International cites $100M annualized data-center construction products revenue with anticipated growth ahead.",
+   "event_date": "2026-10-08"
+  },
+  {
+   "ticker": "VICR",
+   "company": "Vicor Corp.",
+   "channel": "equipment_components",
+   "quote": "Substantial capacity expansion will be necessary based on AI industry trends and customer enthusiasm for our 2nd Generation VPD.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Vicor cites AI infrastructure demand and hyperscaler enthusiasm for its 2nd Generation VPD power-delivery modules as driver of capacity expansion.",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "VMI",
+   "company": "Valmont Industries, Inc.",
+   "channel": "power_energy",
+   "quote": "North America Coatings sales grew 14%, supported by utility construction projects, including data centers.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Valmont Industries cites data-center construction as a driver of North America Coatings sales growth.",
+   "event_date": "2026-10-20"
   }
  ]
 }
