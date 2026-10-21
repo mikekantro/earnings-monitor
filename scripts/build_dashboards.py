@@ -77,7 +77,7 @@ def perm(a, b, n=30000):
 today = datetime.date.today().strftime("%B %-d, %Y")
 today_short = datetime.date.today().strftime("%b %-d, %Y")
 
-q1_all = load(f"{ROOT}/pmi_scores_q1_2026.json")["scores"]
+q1_all = load(f"{ROOT}/pmi_scores_q2_2026.json")["scores"]  # prev season (Q3 flip)
 q1s = {r["ticker"]: r for r in q1_all}
 raw = load(f"{ROOT}/pmi_scores.json")["scores"]
 # Season-rollover guard (Oct 2026): when the live file has reset for a new
@@ -89,7 +89,7 @@ _lu9 = {}
 for _r9 in raw:
     _t9 = _r9["ticker"]
     if _t9 not in _lu9 or _r9.get("date","") > _lu9[_t9].get("date",""): _lu9[_t9] = _r9
-if len(_lu9) < 300:
+if len(_lu9) < 100:
     _n9 = len(_lu9)
     if _n9 > 0:
         _c9 = [x["composite"] for x in _lu9.values() if x.get("composite") is not None]
@@ -117,6 +117,14 @@ if len(_lu9) < 300:
         raw = _arch
     except Exception as e:
         print(f"rollover guard: archive unavailable ({e}); building from live file")
+elif len(_lu9) < 300:
+    QTRK_HTML = (
+        '<div style="border-left:4px solid #8AA2B0;background:#F4F7F8;'
+        'padding:10px 16px;margin:0 0 20px">'
+        '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
+        'color:#223E4C">Early Q3 2026 season</span>'
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:#3E4C57">'
+        f' &middot; live readings from {len(_lu9)} of ~1,380 companies; figures settle as reporters accumulate</span></div>')
 best = {}
 for r in raw:
     t = r["ticker"]
@@ -176,13 +184,13 @@ a = s.index("const S="); end = s.index("const esc", a)
 s = (s[:a] + "const S="+json.dumps(score)+",SEC="+json.dumps(sectors)
      + ",MV="+json.dumps(movers)+",MEGA="+json.dumps(mega)
      + ",ROWS="+json.dumps(tbl,separators=(",",":"))+";\n" + s[end:])
-s = sub1(s, r"<b>[\d.]+</b>Q2 composite \(Q1: [\d.]+\)", f"<b>{SC['comp2']}</b>Q2 composite (Q1: {SC['comp1']})", "sc-comp")
+s = sub1(s, r"<b>[\d.]+</b>Q3 composite \(Q2: [\d.]+\)", f"<b>{SC['comp2']}</b>Q3 composite (Q2: {SC['comp1']})", "sc-comp")
 s = sub1(s, r"<b>\d+ / \d+</b>improving / declining", f"<b>{SC['up']} / {SC['down']}</b>improving / declining", "sc-updown")
 s = sub1(s, r"<b>\d+</b>same-company pairs", f"<b>{SC['n']}</b>same-company pairs", "sc-pairs")
 s = sub1(s, r"<b>same \d+ companies</b>", f"<b>same {SC['n']} companies</b>", "sc-same")
 s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} companies scored in <i>both</i> seasons", "sc-both")
-s = sub1(s, r"All \d+ Q2-scored companies", f"All {SC['q2n']} Q2-scored companies", "sc-all")
-s = sub1(s, r"Q2: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q2: {SC['q2n']} companies scored through {today}", "sc-date")
+s = sub1(s, r"All \d+ Q3-scored companies", f"All {SC['q2n']} Q3-scored companies", "sc-all")
+s = sub1(s, r"Q3: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q3: {SC['q2n']} companies scored through {today}", "sc-date")
 def _hist_data():
     _SE=[("Q1'23","pmi_scores_2023q1.json"),("Q2'23","pmi_scores_2023q2.json"),
          ("Q3'23","pmi_scores_2023q3.json"),("Q4'23","pmi_scores_2023q4.json"),
@@ -190,7 +198,7 @@ def _hist_data():
          ("Q3'24","pmi_scores_2024q3.json"),("Q4'24","pmi_scores_2024q4.json"),
          ("Q1'25","pmi_scores_2025q1.json"),("Q2'25","pmi_scores_2025q2.json"),
          ("Q3'25","pmi_scores_2025q3.json"),("Q4'25","pmi_scores_2025q4.json"),
-         ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26",None)]
+         ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26","pmi_scores_q2_2026.json"),("Q3'26",None)]
     _FL=["composite","new_orders","prices","employment"]
     import os as _os
     def _rows(sector=None):
@@ -330,15 +338,20 @@ def _adata():
             ("Q3'25","ai_highlights_2025q3.json","pmi_scores_2025q3.json"),
             ("Q4'25","ai_highlights_2025q4.json","pmi_scores_2025q4.json"),
             ("Q1'26","ai_highlights_q1.json","pmi_scores_q1_2026.json"),
-            ("Q2'26","ai_highlights_q2.json","pmi_scores_q2_2026.json")]
+            ("Q2'26","ai_highlights_q2.json","pmi_scores_q2_2026.json"),
+            ("Q3'26","ai_highlights_q3.json",None)]
     import os as _os
     out={}
     for _lbl, _af, _pf in _PAIRS:
-        if not (_os.path.exists(f"{ROOT}/{_af}") and _os.path.exists(f"{ROOT}/{_pf}")): continue
-        _u={}
-        for _r in load(f"{ROOT}/{_pf}")["scores"]:
-            _t=_r["ticker"]
-            if _t not in _u or _r.get("date","")>_u[_t].get("date",""): _u[_t]=_r
+        if not _os.path.exists(f"{ROOT}/{_af}"): continue
+        if _pf is None:
+            _u = dict(best)
+        else:
+            if not _os.path.exists(f"{ROOT}/{_pf}"): continue
+            _u={}
+            for _r in load(f"{ROOT}/{_pf}")["scores"]:
+                _t=_r["ticker"]
+                if _t not in _u or _r.get("date","")>_u[_t].get("date",""): _u[_t]=_r
         _hl=load(f"{ROOT}/{_af}")["highlights"]
         _ad={_h["ticker"] for _h in _hl}
         _cm={}
@@ -363,29 +376,22 @@ _a7 = s.index("const ADATA="); _b7 = s.index(";", _a7)
 s = s[:_a7] + "const ADATA=" + json.dumps(_adata(), separators=(",",":")) + s[_b7:]
 ba = s.index("const BOSET="); bb = s.index(";", ba)
 s = s[:ba] + "const BOSET=" + json.dumps(_bo_t) + s[bb:]
-s = sub1(s, r"<b>\d+%</b>of Q2 reporters cite AI use \(Q1: 35%\)", f"<b>{AP['rate2']}%</b>of Q2 reporters cite AI use (Q1: 35%)", "ai-rate")
-s = sub1(s, r"<b>\d+</b>Q2 adopters of \d+ reported", f"<b>{AP['n2']}</b>Q2 adopters of {AP['uni']} reported", "ai-n")
+s = sub1(s, r"<b>\d+%</b>of Q3 reporters cite AI use \(Q2: 45%\)", f"<b>{AP['rate2']}%</b>of Q3 reporters cite AI use (Q2: 45%)", "ai-rate")
+s = sub1(s, r"<b>\d+</b>Q3 adopters of \d+ reported", f"<b>{AP['n2']}</b>Q3 adopters of {AP['uni']} reported", "ai-n")
 s = sub1(s, r"<b>\d+</b>first-time claimants", f"<b>{AP['new']}</b>first-time claimants", "ai-new")
-s = sub1(s, r"<b>\d+%</b>back it with a number \(Q1: 25%\)", f"<b>{AP['m2']}%</b>back it with a number (Q1: 25%)", "ai-m")
-s = sub1(s, r"Of the \d+ Q1 adopters that have reported Q2, <b>\d+% repeated the AI claim</b>",
-         f"Of the {AP['q1_in']} Q1 adopters that have reported Q2, <b>{pers}% repeated the AI claim</b>", "ai-pers")
+s = sub1(s, r"<b>\d+%</b>back it with a number \(Q2: 29%\)", f"<b>{AP['m2']}%</b>back it with a number (Q2: 29%)", "ai-m")
 s = sub1(s, r"efficiency stayed efficiency \(\d+ companies\), product stayed product \(\d+\)",
          f"efficiency stayed efficiency ({AP['eff']} companies), product stayed product ({AP['prd']})", "ai-sticky")
 s = sub1(s, r"\d+ went quiet entirely\.", f"{AP['quiet']} went quiet entirely.", "ai-quiet-prose")
-s = sub1(s, r"Of <b>\d+ Q1 revenue claimants</b> reporting Q2,\s*only <b>\d+ still describe AI driving revenue</b>, and just <b>\d+ back it with a number</b>",
-         f"Of <b>{AP['rev1']} Q1 revenue claimants</b> reporting Q2,\nonly <b>{AP['rev_still']} still describe AI driving revenue</b>, and just <b>{AP['rev_met']} back it with a number</b>", "ai-funnel-prose")
 s = sub1(s, r'<td class="v">\d+ / \d+<small>\d+% persistence</small></td>',
          f'<td class="v">{AP["rep"]} / {AP["q1_in"]}<small>{pers}% persistence</small></td>', "ai-tbl-pers")
 s = sub1(s, r'<tr><td>Went quiet</td><td class="v">\d+<small>\d+%</small></td></tr>',
          f'<tr><td>Went quiet</td><td class="v">{AP["quiet"]}<small>{round(100*AP["quiet"]/AP["q1_in"])}%</small></td></tr>', "ai-tbl-quiet")
-s = sub1(s, r'<tr><td>First-time claimants in Q2</td><td class="v">\d+<small>said nothing in Q1</small></td></tr>',
-         f'<tr><td>First-time claimants in Q2</td><td class="v">{AP["new"]}<small>said nothing in Q1</small></td></tr>', "ai-tbl-new")
 s = sub1(s, r'<td class="v">\d+ / \d+<small>\d+ with a metric</small></td>',
          f'<td class="v">{AP["rev_still"]} / {AP["rev1"]}<small>{AP["rev_met"]} with a metric</small></td>', "ai-tbl-funnel")
 s = sub1(s, r'<td class="v">\d+<small>the cohort to watch</small></td>',
          f'<td class="v">{AP["upg"]}<small>the cohort to watch</small></td>', "ai-tbl-upg")
-s = sub1(s, r"\(\d+ of 505\)", f"({AP['q1_in']} of 505)", "ai-505")
-s = sub1(s, r"Q2 window: July 15 – [A-Z][a-z]+ \d+, 2026", f"Q2 window: July 15 – {today}", "ai-date")
+s = sub1(s, r"Sweep window: July 15 – [A-Z][a-z]+ \d+, 2026", f"Sweep window: July 15 – {today}", "ai-date")
 
 # ---- margin section (marker-delimited) ----
 mc = [x for x in a2h if x.get("margin_claim")]
@@ -439,7 +445,7 @@ p = f"{SITE}/refund-watch/index.html"
 s = open(p).read()
 a = s.index("const ROWS="); b = s.index("];", a) + 2
 s = s[:a] + "const ROWS=" + json.dumps(rrows, separators=(",",":")) + ";" + s[b:]
-s = sub1(s, r"\d+ companies disclosed them on Q2 calls", f"{RT['n']} companies disclosed them on Q2 calls", "rw-sub")
+s = sub1(s, r"\d+ companies disclosed them on Q2–Q3 calls", f"{RT['n']} companies disclosed them on Q2–Q3 calls", "rw-sub")
 s = sub1(s, r"<b>\d+</b>companies disclosing", f"<b>{RT['n']}</b>companies disclosing", "rw-n")
 s = sub1(s, r"<b>\$[\d.]+B\+</b>disclosed amounts \(\d+ cos\.\)", f"<b>${tot/1000:.1f}B+</b>disclosed amounts ({RT['n_amt']} cos.)", "rw-tot")
 s = sub1(s, r"<b>\d+</b>retaining", f"<b>{RT['retain_n']}</b>retaining", "rw-retn")
@@ -500,6 +506,12 @@ d_per, p_per = perm(g_per, g_nev)
 d_new, p_new = perm(g_new, g_nev)
 d_qui, p_qui = perm(g_qui, g_nev)
 d_met, p_met = perm(g_met, g_nev) if len(g_met) >= 8 else (float("nan"), float("nan"))
+def _fmt_p(p):  # sparse cohorts produce nan; render and re-match as n/a
+    return "n/a" if (p != p) else f"{p:.3f}"
+def _fmt_p2(p):
+    return "n/a" if (p != p) else f"{p:.2f}"
+def _fmt_d(d):
+    return "n/a" if (d != d) else fmt(d)
 sd = np.concatenate([g_per, g_nev]).std(ddof=1)
 mde = 2.8 * sd * np.sqrt(1/len(g_per) + 1/len(g_nev))
 MINUS = "\u2212"
@@ -511,19 +523,19 @@ s = sub1(s, r"<b>[\u2212+][\d.]+</b>pts, persistent claimants vs never-claimants
          f"<b>{fmt(d_per)}</b>pts, persistent claimants vs never-claimants (p={p_per:.3f})", "emp-head")
 s = sub1(s, r"<b>\d+ v \d+</b>panel companies, sector-neutral",
          f"<b>{len(g_per)} v {len(g_nev)}</b>panel companies, sector-neutral", "emp-n")
-s = sub1(s, r'(<div class="d">Q2 \u00b7 latest \([^)]*\)</div><div class="v">)[\u2212+][\d.]+ \u00b7 p=[\d.]+(</div>)',
+s = sub1(s, r'(<div class="d">Q3 \u00b7 latest \([^)]*\)</div><div class="v">)[\u2212+]?[\d.a-z/]+ \u00b7 p=[\d.a-z/]+(</div>)',
          lambda m: m.group(1) + f"{fmt(d_per)} \u00b7 p={p_per:.3f}" + m.group(2), "emp-strip")
 s = sub1(s, r'latest \([A-Z][a-z]+ \d+\)', f'latest ({today_short.split(",")[0]})', "emp-strip-date")
-s = sub1(s, r'(Quantified AI efficiency, both seasons</td><td class="v">)[\u2212+][\d.]+(<small>n=)\d+( \u00b7 p=)[\d.]+',
-         lambda m: m.group(1)+fmt(d_met)+m.group(2)+str(len(g_met))+m.group(3)+f"{p_met:.3f}", "emp-tbl-met")
-s = sub1(s, r'(Persistent AI claim \(both seasons\)</b>.*?<td class="v">)[\u2212+][\d.]+(<small>n=)\d+( \u00b7 p=)[\d.]+',
+s = sub1(s, r'(Quantified AI efficiency, both seasons</td><td class="v">)[\u2212+]?[\d.a-z/]+(<small>n=)\d+( \u00b7 p=)[\d.a-z/]+',
+         lambda m: m.group(1)+_fmt_d(d_met)+m.group(2)+str(len(g_met))+m.group(3)+_fmt_p(p_met), "emp-tbl-met")
+s = sub1(s, r'(Persistent AI claim \(both seasons\)</b>.*?<td class="v">)[\u2212+]?[\d.a-z/]+(<small>n=)\d+( \u00b7 p=)[\d.a-z/]+',
          lambda m: m.group(1)+fmt(d_per)+m.group(2)+str(len(g_per))+m.group(3)+f"{p_per:.3f}", "emp-tbl-per", flags=re.S)
-s = sub1(s, r'(Went quiet \(claimed Q1, silent Q2\)</td><td class="v">)[\u2212+][\d.]+(<small>n=)\d+( \u00b7 p=)[\d.]+',
-         lambda m: m.group(1)+fmt(d_qui)+m.group(2)+str(len(g_qui))+m.group(3)+f"{p_qui:.3f}", "emp-tbl-qui")
-s = sub1(s, r'(First-time claimants</td><td class="v">)[\u2212+][\d.]+(<small>n=)\d+( \u00b7 p=)[\d.]+',
-         lambda m: m.group(1)+fmt(d_new)+m.group(2)+str(len(g_new))+m.group(3)+f"{p_new:.2f}", "emp-tbl-new")
-s = sub1(s, r'(Never claimed AI</td><td class="v">)\+[\d.]+ raw(<small>n=)\d+',
-         lambda m: m.group(1)+f"+{g_nev.mean():.2f} raw"+m.group(2)+str(len(g_nev)), "emp-tbl-nev")
+s = sub1(s, r'(Went quiet \(claimed Q1, silent Q2\)</td><td class="v">)[\u2212+]?[\d.a-z/]+(<small>n=)\d+( \u00b7 p=)[\d.a-z/]+',
+         lambda m: m.group(1)+_fmt_d(d_qui)+m.group(2)+str(len(g_qui))+m.group(3)+_fmt_p(p_qui), "emp-tbl-qui")
+s = sub1(s, r'(First-time claimants</td><td class="v">)[\u2212+]?[\d.a-z/]+(<small>n=)\d+( \u00b7 p=)[\d.a-z/]+',
+         lambda m: m.group(1)+_fmt_d(d_new)+m.group(2)+str(len(g_new))+m.group(3)+_fmt_p2(p_new), "emp-tbl-new")
+s = sub1(s, r'(Never claimed AI</td><td class="v">)[-+\u2212\d.a-z/]+ raw(<small>n=)\d+',
+         lambda m: m.group(1)+("n/a raw" if len(g_nev)==0 else f"{g_nev.mean():+.2f} raw")+m.group(2)+str(len(g_nev)), "emp-tbl-nev")
 s = sub1(s, r'[\d.]+ pts<small>observed [\d.]+; Q3 supplies the power',
          f"{mde:.2f} pts<small>observed {abs(d_per):.2f}; Q3 supplies the power", "emp-mde")
 s = sub1(s, r"<b>Data as of [A-Z][a-z]+ \d+, 2026\.</b>", f"<b>Data as of {today}.</b>", "emp-date")
