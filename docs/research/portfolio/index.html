@@ -200,6 +200,6 @@ function srt(k){
   rows.sort((a,b)=>{const x=key(a),y=key(b);return (typeof x==='number')?y-x:String(x).localeCompare(String(y))});
   const tb=document.querySelector('.pt tbody');tb.innerHTML=rows.map((r,i)=>rowHTML(r,i)).join('');
 }
-document.getElementById('covline').textContent=`${DB.m.n} companies (Q1 and Q2 seasons, S&P 1500). Data as of ${DB.m.date}.`;
+document.getElementById('covline').textContent=`${DB.m.n} companies across the 2026 seasons (Q1–Q3, S&P 1500). Data as of ${DB.m.date}.`;
 </script>
 </body></html>
