@@ -357,7 +357,7 @@ def _adata():
             ("Q4'25","ai_highlights_2025q4.json","pmi_scores_2025q4.json"),
             ("Q1'26","ai_highlights_q1.json","pmi_scores_q1_2026.json"),
             ("Q2'26","ai_highlights_q2.json","pmi_scores_q2_2026.json"),
-            ("Q3'26","ai_highlights_q3.json",None)]
+            ("Q3'26","ai_highlights_q2.json",None)]  # cumulative sweep ∩ live Q3 universe
     import os as _os
     out={}
     for _lbl, _af, _pf in _PAIRS:
