@@ -149,6 +149,11 @@ try:
 except Exception:
     spy = set()
 print(f"data: pmi {len(raw)}->{len(q2)} | ai Q1 {len(a1h)} Q2 {len(a2h)} | refunds {len(R)}")
+# early-season group floors: smaller cuts while the season is thin, strict again at 300+
+_EARLY = len(best) < 300
+MIN_SEC = 4 if _EARLY else 10      # sector tables / diverging bars
+MIN_CHIP = 5 if _EARLY else 15     # interactive sector chips
+MIN_IND = 4 if _EARLY else 8       # industry table
 
 # ---------------- scorecard ----------------
 SUB = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth"]
@@ -166,7 +171,7 @@ for k in SUB:
 secagg = defaultdict(list)
 for r2, r1 in pairs: secagg[r2.get("sector","—")].append(r2["composite"]-r1["composite"])
 sectors = sorted([{"s": s, "n": len(v), "d": round(float(np.mean(v)),1)}
-                  for s, v in secagg.items() if len(v) >= 10], key=lambda x: -x["d"])
+                  for s, v in secagg.items() if len(v) >= MIN_SEC], key=lambda x: -x["d"])
 darr = np.array([m[0]["composite"]-m[1]["composite"] for m in pairs])
 SC = {"n": len(pairs), "q2n": len(q2), "up": int((darr>0).sum()), "down": int((darr<0).sum()),
       "breadth": round(float(np.mean([m[0]["composite"]>50 for m in pairs]))*100),
@@ -244,7 +249,7 @@ for _f7 in _sfields:
             _s7[_sx7]["d"].append(_r7[_f7]-q1s[_t7][_f7])
     _rw7 = [[_sx7, len(_v7["l"]), round(float(np.mean(_v7["l"])),1),
              round(float(np.mean(_v7["d"])),1) if _v7["d"] else 0.0]
-            for _sx7, _v7 in _s7.items() if len(_v7["l"]) >= 15]
+            for _sx7, _v7 in _s7.items() if len(_v7["l"]) >= MIN_CHIP]
     _rw7.sort(key=lambda x: -x[2])
     _sd[_f7] = _rw7
 _a7 = s.index("const SECDATA="); _b7 = s.index(";", _a7)
@@ -265,7 +270,7 @@ for _f8 in _sfields:
     _rw8 = [[_ix8, max(_v8["sec"], key=_v8["sec"].get), len(_v8["l"]),
              round(float(np.mean(_v8["l"])),1),
              round(float(np.mean(_v8["d"])),1) if _v8["d"] else 0.0]
-            for _ix8, _v8 in _i8.items() if len(_v8["l"]) >= 8]
+            for _ix8, _v8 in _i8.items() if len(_v8["l"]) >= MIN_IND]
     _rw8.sort(key=lambda x: -x[3])
     _idd[_f8] = _rw8
 _a8 = s.index("const INDDATA="); _b8 = s.index(";", _a8)
