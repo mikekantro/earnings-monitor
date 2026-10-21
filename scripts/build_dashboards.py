@@ -197,12 +197,12 @@ tbl = [{"t": r["ticker"], "s": r.get("sector","—"),
 p = f"{SITE}/pmi-scorecard/index.html"
 s = open(p).read()
 a = s.index("const S="); end = s.index("const esc", a)
-_megap = (f"{len(mega)} of the five largest companies have reported Q3 so far."
-          if mega else "None of the five largest companies (AAPL, MSFT, GOOGL, AMZN, META) has reported Q3 yet; they land from late October.")
-s = _swapm(s, "MEGAP", _megap)
 s = (s[:a] + "const S="+json.dumps(score)+",SEC="+json.dumps(sectors)
      + ",MV="+json.dumps(movers)+",MEGA="+json.dumps(mega)
      + ",ROWS="+json.dumps(tbl,separators=(",",":"))+";\n" + s[end:])
+_megap = (f"{len(mega)} of the five largest companies have reported Q3 so far."
+          if mega else "None of the five largest companies (AAPL, MSFT, GOOGL, AMZN, META) has reported Q3 yet; they land from late October.")
+s = _swapm(s, "MEGAP", _megap)
 if len(sectors) >= 2:
     _ld = sectors[0]; _lg = sectors[-1]
     _th = (f'{_ld["s"]} leads early Q3 (<span class="up">{_ld["d"]:+.1f}</span>); '
