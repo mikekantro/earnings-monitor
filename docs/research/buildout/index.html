@@ -152,6 +152,8 @@ the transcript; where two nearby sentences are joined, the seam is shown.</p>
 <th onclick="so='t';draw()">Ticker</th><th onclick="so='ch';draw()">Channel</th>
 <th class="num" onclick="so='p2';draw()">PMI Q3</th><th class="num" onclick="so='d';draw()">&Delta;</th>
 <th onclick="so='m';draw()">Stated metric</th></tr></thead><tbody id="tb"></tbody></table>
+<p style="text-align:center;margin:10px 0 0"><button id="showall" class="chip"
+ onclick="window.__showAll=!window.__showAll;draw()">Show all claimants</button></p>
 <p class="note" id="cnt"></p>
 
 <div class="rules">
@@ -182,6 +184,11 @@ function draw(){
   let r=BROWS.filter(x=>!f||x.t.toLowerCase().includes(f)||x.ch.toLowerCase().includes(f)||(x.s||'').toLowerCase().includes(f));
   const key={t:x=>x.t,ch:x=>x.ch,p2:x=>x.p2??-99,d:x=>x.d??-99,m:x=>x.m?0:1}[so];
   r.sort((a,b)=>{const x=key(a),y=key(b);return (typeof x==='number')?y-x:String(x).localeCompare(String(y))});
+  const LIM=50, full=r.length, cut=(!window.__showAll && !f && full>LIM);
+  if(cut) r=r.slice(0,LIM);
+  const btn=document.getElementById('showall');
+  if(btn){ btn.style.display = cut ? '' : (window.__showAll && !f && full>LIM ? '' : 'none');
+           btn.textContent = cut ? `Show all ${full} claimants` : 'Show top 50'; }
   document.getElementById('tb').innerHTML=r.map(x=>
     `<tr><td style="font-family:'IBM Plex Mono',monospace;font-weight:600">${x.t}</td>
      <td style="font-size:11px">${esc(x.ch.replace(/_/g,' '))}</td>
