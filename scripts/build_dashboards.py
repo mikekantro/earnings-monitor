@@ -86,6 +86,10 @@ raw = load(f"{ROOT}/pmi_scores.json")["scores"]
 # quarter, the displayed season comes from the archived file until the full
 # Q3 rollover design ships. The live file's early-season records are ignored
 # here (they are too few to chart) but keep accumulating for the real rollover.
+try:
+    UNIV_N = len({r["ticker"] for r in load(f"{ROOT}/sp1500_universe.json")})
+except Exception:
+    UNIV_N = 1506
 QTRK_HTML = ""
 _lu9 = {}
 for _r9 in raw:
@@ -106,7 +110,7 @@ if len(_lu9) < 20:
             '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
             'color:#223E4C">Q3 2026 season under way</span>'
             '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;'
-            f'color:#3E4C57"> &middot; {_n9} of ~1,380 companies in &middot; early read: '
+            f'color:#3E4C57"> &middot; {_n9} of the {UNIV_N:,}-company universe in &middot; early read: '
             f'composite {_avg9}, new orders {_avo9}, employment {_ave9}</span>'
             '<div class="note" style="margin:6px 0 0">Too few reporters yet to re-rank '
             'sectors, so everything below still shows the completed Q2 2026 season. '
@@ -126,7 +130,7 @@ else:
         '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
         'color:#223E4C">Q3 2026 season &middot; live</span>'
         '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:#3E4C57">'
-        f' &middot; {len(_lu9)} of ~1,380 companies reported; the dashboard updates as transcripts post</span></div>')
+        f' &middot; {len(_lu9)} of the {UNIV_N:,}-company S&P 1500 universe reported; the dashboard updates as transcripts post</span></div>')
 best = {}
 for r in raw:
     t = r["ticker"]
