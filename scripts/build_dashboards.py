@@ -937,7 +937,7 @@ open(p, "w").write(s)
 for _pg9 in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout"]:
     _pp9 = f"{SITE}/{_pg9}/index.html"
     _t9 = open(_pp9).read()
-    _t9 = re.sub(r"\n?<!--QTRK-->.*?<!--/QTRK-->\n?", "\n", _t9, flags=re.S)
+    _t9 = re.sub(r"\n*<!--QTRK-->.*?<!--/QTRK-->\n*", "\n", _t9, flags=re.S)
     _k9 = _t9.index("</h1>") + len("</h1>")
     _blk9 = ("\n<!--QTRK-->" + QTRK_HTML + "<!--/QTRK-->\n") if QTRK_HTML else "\n<!--QTRK--><!--/QTRK-->\n"
     _t9 = _t9[:_k9] + _blk9 + _t9[_k9:]
