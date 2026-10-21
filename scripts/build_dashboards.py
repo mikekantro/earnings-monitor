@@ -155,7 +155,7 @@ def _inq3(x): return (x.get("event_date") or "") >= SEASON_START
 _NB = len(best)
 MIN_SEC = max(4, min(10, _NB // 30))    # sector tables / diverging bars
 MIN_CHIP = max(5, min(15, _NB // 25))   # interactive sector chips
-MIN_IND = max(4, min(8, _NB // 60))     # industry table
+MIN_IND = max(2, min(8, _NB // 60))     # industry table
 
 # ---------------- scorecard ----------------
 SUB = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth"]
