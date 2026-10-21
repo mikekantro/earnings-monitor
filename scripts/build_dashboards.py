@@ -273,6 +273,14 @@ for _f8 in _sfields:
             for _ix8, _v8 in _i8.items() if len(_v8["l"]) >= MIN_IND]
     _rw8.sort(key=lambda x: -x[3])
     _idd[_f8] = _rw8
+_shown8 = sum(r[2] for r in _idd.get("composite", []))
+_tot8 = len(best)
+_hid8 = _tot8 - _shown8
+s = _swapm(s, "INDN",
+    f"The {len(_idd.get('composite', []))} industries above cover {_shown8} of the {_tot8} companies "
+    f"reported so far; the remaining {_hid8} sit in industries with fewer than {MIN_IND} reports, "
+    f"which join the table as coverage grows." if _hid8 > 0 else
+    f"All {_tot8} reported companies are represented in the industries above.")
 _a8 = s.index("const INDDATA="); _b8 = s.index(";", _a8)
 s = s[:_a8] + "const INDDATA=" + json.dumps(_idd, separators=(",",":")) + s[_b8:]
 
