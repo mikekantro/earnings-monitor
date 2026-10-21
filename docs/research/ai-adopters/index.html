@@ -145,6 +145,36 @@ AI-use statement, not necessarily that the deployment stopped; disclosure, not d
 computed only over Q1 adopters that have reported Q2 (470 of 505); late reporters will update these figures.</p>
 </div></section>
 <section class="msec"><div class="wrap">
+<h2 class="sh">Adoption through time</h2>
+<p class="note">Share of each season&rsquo;s scored universe whose earnings call describes the company
+deploying AI in its own business, on the live sweep&rsquo;s exact rubric, split by what the AI is for.
+Historical seasons appear as the sweep backfill completes. Select a sector or the whole index.</p>
+<div class="chips" id="achips"></div>
+<div class="decomp" style="padding:14px 16px" id="achart"></div>
+
+<h2 class="sh">Adoption by sector</h2>
+<p class="sp" id="secp">Share of each sector's reporters citing AI use, with the revenue / efficiency / product mix.
+Click a row to filter the list below. Switches with the season toggle.</p>
+<table class="stbl"><thead><tr><th>Sector</th><th>Adoption rate</th><th class="hidesm">Mix</th>
+<th class="hidesm">Rev / Eff / Prod</th></tr></thead><tbody id="stb"></tbody></table>
+</div></section>
+
+<div class="controls"><div class="wrap crow">
+<span class="seg" role="group" aria-label="Season">
+<button id="sQ2" aria-pressed="true">Q3 · live</button><button id="sQ1" aria-pressed="false">Q1 2026</button></span>
+<input id="q" type="search" placeholder="Search ticker, company, or what they said…" aria-label="Search">
+<button class="chip" data-cat="all" aria-pressed="true">All</button>
+<button class="chip" data-cat="revenue" aria-pressed="false"><i class="dot" style="background:var(--rev)"></i>Revenue</button>
+<button class="chip" data-cat="efficiency" aria-pressed="false"><i class="dot" style="background:var(--eff)"></i>Efficiency</button>
+<button class="chip" data-cat="product" aria-pressed="false"><i class="dot" style="background:var(--prd)"></i>Product</button>
+<select id="fsec" aria-label="Sector"><option value="">All sectors</option></select>
+<button class="chip" id="mOnly" aria-pressed="false">Has a metric</button>
+<button class="chip" id="nOnly" aria-pressed="false">New this season</button>
+<span class="count" id="count"></span>
+</div></div>
+
+<main class="wrap"><div class="list" id="list"></div></main>
+
 <h2 class="sh" style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(20px,2.4vw,26px);margin:0 0 8px;letter-spacing:-.01em">AI and margins: <em style="color:#3E7A99">the stated link is rare.</em></h2>
 <p style="margin:0 0 4px;color:#4A5A64;font-size:14px;max-width:86ch;line-height:1.6">Margins are a central focus
 this season, so we asked every AI disclosure a second question: does the company <i>explicitly connect its AI
@@ -183,36 +213,6 @@ statement shown in full.</p>
 </div></section>
 
 <section class="sect"><div class="wrap">
-<h2 class="sh">Adoption through time</h2>
-<p class="note">Share of each season&rsquo;s scored universe whose earnings call describes the company
-deploying AI in its own business, on the live sweep&rsquo;s exact rubric, split by what the AI is for.
-Historical seasons appear as the sweep backfill completes. Select a sector or the whole index.</p>
-<div class="chips" id="achips"></div>
-<div class="decomp" style="padding:14px 16px" id="achart"></div>
-
-<h2 class="sh">Adoption by sector</h2>
-<p class="sp" id="secp">Share of each sector's reporters citing AI use, with the revenue / efficiency / product mix.
-Click a row to filter the list below. Switches with the season toggle.</p>
-<table class="stbl"><thead><tr><th>Sector</th><th>Adoption rate</th><th class="hidesm">Mix</th>
-<th class="hidesm">Rev / Eff / Prod</th></tr></thead><tbody id="stb"></tbody></table>
-</div></section>
-
-<div class="controls"><div class="wrap crow">
-<span class="seg" role="group" aria-label="Season">
-<button id="sQ2" aria-pressed="true">Q3 · live</button><button id="sQ1" aria-pressed="false">Q1 2026</button></span>
-<input id="q" type="search" placeholder="Search ticker, company, or what they said…" aria-label="Search">
-<button class="chip" data-cat="all" aria-pressed="true">All</button>
-<button class="chip" data-cat="revenue" aria-pressed="false"><i class="dot" style="background:var(--rev)"></i>Revenue</button>
-<button class="chip" data-cat="efficiency" aria-pressed="false"><i class="dot" style="background:var(--eff)"></i>Efficiency</button>
-<button class="chip" data-cat="product" aria-pressed="false"><i class="dot" style="background:var(--prd)"></i>Product</button>
-<select id="fsec" aria-label="Sector"><option value="">All sectors</option></select>
-<button class="chip" id="mOnly" aria-pressed="false">Has a metric</button>
-<button class="chip" id="nOnly" aria-pressed="false">New this season</button>
-<span class="count" id="count"></span>
-</div></div>
-
-<main class="wrap"><div class="list" id="list"></div></main>
-
 <footer><div class="wrap">
 <p><b>Method.</b> Every S&amp;P 1500 earnings transcript is read end-to-end and screened for a description of the company
 <i>using</i> AI; each entry carries a verbatim quote programmatically verified against the transcript; no verifiable quote,
