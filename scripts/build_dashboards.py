@@ -196,6 +196,13 @@ a = s.index("const S="); end = s.index("const esc", a)
 s = (s[:a] + "const S="+json.dumps(score)+",SEC="+json.dumps(sectors)
      + ",MV="+json.dumps(movers)+",MEGA="+json.dumps(mega)
      + ",ROWS="+json.dumps(tbl,separators=(",",":"))+";\n" + s[end:])
+if len(sectors) >= 2:
+    _ld = sectors[0]; _lg = sectors[-1]
+    _th = (f'{_ld["s"]} leads early Q3 (<span class="up">{_ld["d"]:+.1f}</span>); '
+           f'{_lg["s"]} lags (<span class="dn">{_lg["d"]:+.1f}</span>).')
+else:
+    _th = "Q3 2026 season in progress; sector readings build as companies report."
+s = _swapm(s, "THESIS", _th)
 s = sub1(s, r"<b>[\d.]+</b>Q3 composite \(Q2: [\d.]+\)", f"<b>{SC['comp2']}</b>Q3 composite (Q2: {SC['comp1']})", "sc-comp")
 s = sub1(s, r"<b>\d+ / \d+</b>improving / declining", f"<b>{SC['up']} / {SC['down']}</b>improving / declining", "sc-updown")
 s = sub1(s, r"<b>\d+</b>same-company pairs", f"<b>{SC['n']}</b>same-company pairs", "sc-pairs")
