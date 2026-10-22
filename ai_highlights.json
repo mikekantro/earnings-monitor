@@ -3536,7 +3536,88 @@
    "quote": "Our work on dynamic AI pricing supports improved profitability. And used vehicles remain one of our highest return businesses",
    "metric": null,
    "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "KNX",
+   "company": "Knight-Swift Transportation Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Knight-Swift uses AI to assist recruiting teams with driver recruiting, onboarding, retention and training.",
+   "quote": "We deployed resources to assist our recruiting teams using AI to help with recruiting and onboarding retention training",
+   "metric": null,
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "CATY",
+   "company": "Cathay General Bancorp",
+   "category": "efficiency",
+   "headline": "Cathay General Bancorp uses AI-based platforms to improve lending team efficiency and loan review processes.",
+   "quote": "some of the AI based platforms that's available to us. We're already seeing some increases in what how the how the lending teams are either running their, their product or their, their book and their loan reviews",
+   "metric": null,
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "PG",
+   "company": "Procter & Gamble Co.",
+   "category": "efficiency",
+   "headline": "P&G uses AI tools to improve consumer insights, brand building, innovation, supply chain, and employee productivity.",
+   "quote": "We're using AI tools for deep consumer understanding and insights, brand building, innovation, modeling and discovery, supply chain and everyday work.",
+   "metric": null,
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "TSLA",
+   "company": "Tesla, Inc.",
+   "category": "revenue",
+   "headline": "Tesla's FSD AI drives demand; over 75% of North America deliveries included paid FSD subscription, 20% higher than Q2.",
+   "quote": "over 75% of deliveries in North America included a sign-up for paid FSD subscription at the time of delivery, which is approximately 20% higher than Q2",
+   "metric": "75% FSD attach rate in North America, ~20% higher than Q2; 1.7M paid FSD customers globally",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "META",
+   "company": "Meta Platforms, Inc.",
+   "category": "revenue",
+   "headline": "Meta's AI personal agent Muse drives commerce; 10M users set up in 6 weeks, top use case is shopping with avg $200+ purchase.",
+   "quote": "The most common use case for Muse is shopping, with more than a quarter of people who are using Muse engaging in this, with an average purchase size of over $200.",
+   "metric": "10M users in ~6 weeks; 25% DAU rate; avg purchase >$200; ad conversions up ~2% via generative retrieval",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "TCBI",
+   "company": "Texas Capital Bancshares, Inc.",
+   "category": "efficiency",
+   "headline": "Texas Capital restructuring tech leadership to accelerate AI deployment and improve operating model productivity.",
+   "quote": "optimizing process design to unlock the full operational benefits of AI. We reorganized technology leadership and team structure to prioritize product delivery and data infrastructure.",
+   "metric": null,
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "CCI",
+   "company": "Crown Castle, Inc.",
+   "category": "efficiency",
+   "headline": "Crown Castle training employees in cost-effective use of AI as part of business transformation program.",
+   "quote": "We are committed to investing in their continued development through additional training, individual development plans and training in the cost-effective use of AI.",
+   "metric": null,
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "WDFC",
+   "company": "WD-40 Co.",
+   "category": "efficiency",
+   "headline": "WD-40 expanded AI-enabled shared systems on its ERP platform to improve visibility, decision-making and collaboration across markets.",
+   "quote": "we expanded our ERP platform into two more direct markets and advanced adoption of shared AI-enabled systems. These investments improve visibility, decision making and collaboration across markets.",
+   "metric": null,
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "IBM",
+   "company": "International Business Machines Corp.",
+   "category": "product",
+   "headline": "IBM sells AI platforms (Watsonx, Orchestrate, Bob, HashiCorp Vault) to enterprise clients for agent orchestration, governance, and cost management.",
+   "quote": "Watsonx, including Bob and Orchestrate, support AI-driven software development and agent orchestration. HashiCorp and Apptio automate identity, access, and policy while optimizing cost and performance.",
+   "metric": "5 to 10 times lower cost (llm-d for running large AI models)",
+   "event_date": "2026-10-22"
   }
  ],
- "updated": "2026-10-21T17:01:58"
+ "updated": "2026-10-22T05:52:29"
 }
