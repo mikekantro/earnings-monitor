@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T00:04:34.850960",
+ "generated": "2026-10-22T15:16:36.356249",
  "window": [
   "2026-07-15",
   "2026-10-22"
@@ -804,16 +804,6 @@
    "direction": "accelerating",
    "headline": "Carlisle cites data-center construction as a higher-growth roofing market, noting increased demand for premium TPO and EBITDA roofing materials in that segment.",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "CSX",
-   "company": "CSX Corp.",
-   "channel": "power_energy",
-   "quote": "investment tied to power infrastructure and data center buildout is driving demand in domestic coal, frac sand and heavy equipment.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "CSX cites data center buildout and power infrastructure investment as drivers of increased coal, frac sand, and heavy equipment demand.",
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "CUZ",
@@ -1636,16 +1626,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "KMI",
-   "company": "Kinder Morgan, Inc.",
-   "channel": "power_energy",
-   "quote": "projects to serve more than 10 Bcf a day of natural gas demand in the power generation sector ... a lot of that's really around power is the primary driver of those incremental expansion projects",
-   "metric": "10 Bcf a day of natural gas demand in the power generation sector; $9.6 billion backlog; over $10 billion opportunity set",
-   "direction": "accelerating",
-   "headline": "Kinder Morgan cites AI-driven power demand and data-center gas load as a primary driver of incremental natural gas pipeline expansion projects and backlog growth.",
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "KMT",
    "company": "Kennametal, Inc.",
    "channel": "equipment_components",
@@ -1756,16 +1736,6 @@
    "event_date": "2026-08-26"
   },
   {
-   "ticker": "LRCX",
-   "company": "Lam Research Corp.",
-   "channel": "equipment_components",
-   "quote": "When you think about those two things, first thing about what's driving us, AI compute, right? We've gone from training to inference to agentic to eventually physical AI showing up. All of that needs the most leading-edge silicon that you can get. That's what's driving the investment in leading-edge foundry and DRAM.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Lam Research cites AI compute demand as driver of leading-edge foundry and DRAM equipment spending and its own revenue growth.",
-   "event_date": "2026-09-10"
-  },
-  {
    "ticker": "LSCC",
    "company": "Lattice Semiconductor Corp.",
    "channel": "equipment_components",
@@ -1824,16 +1794,6 @@
    "direction": "accelerating",
    "headline": "MDU Resources cites data center infrastructure demand as driver of electric utility load growth, with 1 gigawatt contracted and 240 megawatts currently serving AI facilities.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "META",
-   "company": "Meta Platforms, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "As AI usage in our products and businesses continues to ramp, we continue to invest aggressively in infrastructure to meet the demand. Yesterday, as part of our Meta Compute effort, we announced a new strategic venture with BlackRock to develop a new 1-gigawatt data center in El Paso, Texas.",
-   "metric": "1-gigawatt data center",
-   "direction": "accelerating",
-   "headline": "Meta cites AI usage ramping as driver of aggressive infrastructure investment, including new 1-gigawatt data-center venture with BlackRock.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "MKSI",
@@ -2726,16 +2686,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "TSLA",
-   "company": "Tesla, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "The energy business is also growing incredibly fast and I think will be crucial for the scale-up of artificial intelligence data centers.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Tesla cites its energy business as crucial for AI data-center scale-up, positioning itself as a beneficiary of hyperscaler infrastructure demand.",
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "TT",
    "company": "Trane Technologies Plc",
    "channel": "cooling_thermal",
@@ -2774,16 +2724,6 @@
    "direction": "accelerating",
    "headline": "TTM Technologies cites data-center and networking infrastructure demand driving accelerating revenue ramp in advanced multilayer PCB technology.",
    "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "TXN",
-   "company": "Texas Instruments Incorporated",
-   "channel": "hyperscaler_platform",
-   "quote": "we do continue to see strong demand in the data center market, Atif and I don't expect that to change in the foreseeable future ... as you have more power dedicated to data centers, as you have a larger number of them out there, we're going to benefit from that",
-   "metric": "Data center doubled year-on-year and grew around 20% sequentially",
-   "direction": "accelerating",
-   "headline": "Texas Instruments cites strong data center demand from hyperscaler infrastructure buildout as driver of doubling year-over-year growth in that end market.",
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "UCTT",
@@ -3219,11 +3159,51 @@
    "ticker": "JBL",
    "company": "Jabil, Inc.",
    "channel": "hyperscaler_platform",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... AI-related revenue was up 60% year-over-year, and we ended the year with four customers with AI-related revenue above $1 billion annually",
-   "metric": "AI-related revenue up 60% year-over-year; four $1B+ AI customers (up from one two years ago)",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... we're beginning to see our capacity investments drive growth.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
    "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscaler customers driving 60% growth in AI-related revenue and capacity ramps in fiscal 2026-2027.",
+   "headline": "Jabil cites accelerating AI infrastructure demand from hyperscalers as driver of Intelligent Infrastructure segment growth and capacity investments.",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "KMI",
+   "company": "Kinder Morgan, Inc.",
+   "channel": "power_energy",
+   "quote": "Large load interconnection requests across the Southeast now exceed 200 gigawatts, which could represent roughly 8 Bcf a day of natural gas demand if it all came to fruition and if it was all served by gas-fired generation. Southeast Connector is designed to meet that need by delivering approximately 2.6 Bcf a day of natural gas into the region.",
+   "metric": "200 gigawatts of load interconnection requests; 8 Bcf/day potential natural gas demand; 2.6 Bcf/day delivery capacity",
+   "direction": "accelerating",
+   "headline": "Kinder Morgan cites AI-driven power demand (200+ GW load requests in Southeast) as driver for Southeast Connector natural gas pipeline project.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "LRCX",
+   "company": "Lam Research Corp.",
+   "channel": "equipment_components",
+   "quote": "AI continues to drive unprecedented semiconductor demand and increasing device complexity ... Underpinning our outlook for WFE growth is the continued rapid adoption of AI by enterprises and consumers.",
+   "metric": "WFE in the mid $150 billion range for 2026; preliminary 2027 WFE outlook is more than $200 billion",
+   "direction": "accelerating",
+   "headline": "Lam Research cites AI-driven semiconductor demand and WFE growth exceeding $200 billion in 2027 as drivers of equipment sales.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "TSLA",
+   "company": "Tesla, Inc.",
+   "channel": "power_energy",
+   "quote": "the business is witnessing extreme demand from data centers, and we are doing our best to increase production",
+   "metric": "13.7 gigawatt hour of energy storage deployments in Q3; energy gross margins improved from 20.4% to 33.1%",
+   "direction": "accelerating",
+   "headline": "Tesla cites extreme data-center demand as driver of energy storage business growth and production expansion.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "TXN",
+   "company": "Texas Instruments Incorporated",
+   "channel": "data_center_construction",
+   "quote": "Data center was up about 95% year-on-year, and grew about 20% sequentially.",
+   "metric": "Data center revenue up 95% YoY, up 20% sequentially; ~13% of Q3 revenue",
+   "direction": "accelerating",
+   "headline": "Texas Instruments cites data-center demand as a major driver of sequential and year-over-year revenue growth, with data-center revenue up 95% YoY and 20% sequentially.",
+   "event_date": "2026-10-21"
   }
  ]
 }

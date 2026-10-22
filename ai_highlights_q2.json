@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T00:05:05.111116",
+ "generated": "2026-10-22T15:17:31.246748",
  "window": [
   "2026-07-15",
   "2026-10-22"
@@ -618,18 +618,6 @@
    "event_date": "2026-07-28"
   },
   {
-   "ticker": "CASH",
-   "company": "Pathward Financial, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Pathward says AI may accelerate its internal build-vs-buy decisions, leaning company further toward building technology in-house.",
-   "quote": "AI has the potential to actually even accelerate that to where we do more of that. So you're going to be in a situation where you're going to be evaluating the economics of buying it, building it",
-   "metric": null,
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "CAT",
    "company": "Caterpillar, Inc.",
    "category": "product",
@@ -1000,18 +988,6 @@
    "quote": "There are even applications around AI that COS will start to take on. So, I think you'll continue to see COS be a contributor to that margin profile as well.",
    "metric": null,
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "CSX",
-   "company": "CSX Corp.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "CSX CEO highlights AI as a tool to improve pricing analytics and price management capabilities.",
-   "quote": "This is an area where AI can really do some good with good price analytical tools. So, we can get a little better at that.",
-   "metric": null,
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "CTAS",
@@ -1890,18 +1866,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "IBM",
-   "company": "International Business Machines Corp.",
-   "category": "efficiency",
-   "margin_claim": true,
-   "margin_quote": "leveraging AI to improve software development productivity, increasing the effectiveness of our sales and marketing organization, and accelerating our supply chain. Together, these actions help enhance our margin and free cash flow commitments",
-   "margin_metric": null,
-   "headline": "IBM is leveraging AI to improve software development productivity, sales/marketing effectiveness, and supply chain to enhance margins and free cash flow.",
-   "quote": "leveraging AI to improve software development productivity, increasing the effectiveness of our sales and marketing organization, and accelerating our supply chain",
-   "metric": null,
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "ICE",
    "company": "Intercontinental Exchange, Inc.",
    "category": "product",
@@ -2116,18 +2080,6 @@
    "quote": "Every associate in the company has an enterprise license for two of the leading frontier models. Our analytics, technology, underwriting and claims teams are all using AI daily to improve the way we work, employing dozens of skills, bots and agentic tools.",
    "metric": null,
    "event_date": "2026-07-24"
-  },
-  {
-   "ticker": "KNX",
-   "company": "Knight-Swift Transportation Holdings, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Knight-Swift using AI tools to improve efficiency in driver recruiting, training, retaining, and rehiring",
-   "quote": "we are leveraging tools we haven't had in the past, AI tools, including others, to help us be more efficient in recruiting, in our training, retaining and rehiring.",
-   "metric": null,
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "KO",
@@ -2404,18 +2356,6 @@
    "quote": "we remain on target through rigorous expense management and productivity gains from AI and other technologies",
    "metric": null,
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "META",
-   "company": "Meta Platforms, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Meta uses LLMs in ad ranking and recommendation systems, driving significant increases in relevance and conversions on Facebook and Instagram.",
-   "quote": "we're using LLMs to improve how our systems predict and rank the ads that we show... driving significant increases in relevance and conversions on both Facebook and Instagram.",
-   "metric": "60% increase in the number of people interacting with the assistant each day",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "MIR",
@@ -2872,18 +2812,6 @@
    "quote": "Our team has built an internal AI agent to be utilized by employees following conversion to help quickly provide answers to customer inquiries.",
    "metric": null,
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "PG",
-   "company": "Procter & Gamble Co.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "P&G scaling AI-enabled tools for brand building, internal workflows, R&D molecular discovery, and supply chain automation.",
-   "quote": "Teams are using integrated data platforms, AI capabilities and programmatic shelf tools built on top of our fully-stocked data lake to work faster and deliver better outcomes.",
-   "metric": null,
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "PGR",
@@ -3366,18 +3294,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "SEIC",
-   "company": "SEI Investments Co.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "SEI embeds AI into workflows to automate routine processes, accelerate onboarding, and improve service scalability.",
-   "quote": "We're focused on embedding AI into workflows to improve service, automate routine processes, accelerate onboarding, enhance access to data, and help clients operate more efficiently.",
-   "metric": null,
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "SHEN",
    "company": "Shenandoah Telecommunications Co. (Virginia)",
    "category": "efficiency",
@@ -3748,18 +3664,6 @@
    "quote": "average gains of over 25% for our software engineers and data scientists, and an early experimentation more than 20% within our consumer support operations",
    "metric": ">25% productivity gain for software engineers/data scientists; >20% gain in consumer support",
    "event_date": "2026-07-28"
-  },
-  {
-   "ticker": "TSLA",
-   "company": "Tesla, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Tesla's FSD (AI-powered full self-driving) drives vehicle demand; 55% of N. America Q2 deliveries had FSD enabled at delivery.",
-   "quote": "one of the main reasons customers are coming and looking at the car is because of FSD. In Q2, we had, in North America, about 55% of our deliveries had FSD subscription at the time of delivery enabled.",
-   "metric": "55% of North America Q2 deliveries had FSD subscription enabled; ~1.5 million paid FSD customers globally",
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "TSN",
@@ -7026,42 +6930,6 @@
    "event_date": "2026-10-19"
   },
   {
-   "ticker": "CCL",
-   "company": "Carnival Corp. Ltd.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Carnival using AI across commercial systems to improve decisions, personalize guest experiences, automate shoreside ops, and find vessel efficiencies",
-   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
-   "metric": null,
-   "event_date": "2026-09-29"
-  },
-  {
-   "ticker": "FDS",
-   "company": "FactSet Research Systems, Inc.",
-   "category": "efficiency",
-   "margin_claim": true,
-   "margin_quote": "boosting workforce productivity with the help of AI to improve operating leverage and drive future margin expansion",
-   "margin_metric": null,
-   "headline": "FactSet uses AI coding assistants and agents internally, cutting data pipeline processing times 75%+ and resolving 30%+ of client requests without human interaction.",
-   "quote": "agent-assisted engineering, cut processing times in this area by more than 75%, halved the onboarding effort and more than doubled delivery speed",
-   "metric": "30% of user-initiated requests resolved without human interaction; processing times cut >75%; token use for coding assistants grew 80% QoQ with spend growing at half that pace",
-   "event_date": "2026-09-30"
-  },
-  {
-   "ticker": "KMX",
-   "company": "CarMax, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "CarMax scaled AI voice technology to 100% of inbound calls to resolve inquiries and support sales conversion.",
-   "quote": "We scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
-   "metric": null,
-   "event_date": "2026-09-29"
-  },
-  {
    "ticker": "LAD",
    "company": "Lithia Motors, Inc.",
    "category": "efficiency",
@@ -7082,6 +6950,126 @@
    "margin_metric": null,
    "headline": "Old National invested in AI alongside technology and process improvements while achieving record low efficiency ratio of 44.9%.",
    "quote": "We delivered record efficiency, while reducing adjusted expenses from the prior quarter, even as we continued to invest in technology, AI, process improvements and talent.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "CCL",
+   "company": "Carnival Corp. Ltd.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Carnival uses AI across commercial systems for better decisions, personalized guest experiences, shoreside automation, and vessel efficiency.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
+   "metric": null,
+   "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "FDS",
+   "company": "FactSet Research Systems, Inc.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "boosting workforce productivity with the help of AI to improve operating leverage and drive future margin expansion",
+   "margin_metric": null,
+   "headline": "FactSet uses AI coding assistants and agents to cut engineering costs, reduce headcount, and improve operating leverage",
+   "quote": "boosting workforce productivity with the help of AI to improve operating leverage and drive future margin expansion",
+   "metric": "agent-assisted engineering cut processing times by more than 75%, halved onboarding effort, doubled delivery speed; client assist agent resolves over 30% of user-initiated requests without human interaction",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "IBM",
+   "company": "International Business Machines Corp.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "IBM embeds AI across Watsonx, Confluent, HashiCorp, and Red Hat platforms sold to enterprise clients for AI orchestration and governance.",
+   "quote": "Watsonx, including Bob and Orchestrate, support AI-driven software development and agent orchestration. HashiCorp and Apptio automate identity, access, and policy while optimizing cost and performance.",
+   "metric": "5 to 10 times lower cost running large AI models via llm-d",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "KMX",
+   "company": "CarMax, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "CarMax scaled AI voice technology to 100% of inbound calls, enabling agentic AI tools to resolve inquiries and support sales conversion.",
+   "quote": "we scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
+   "metric": null,
+   "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "KNX",
+   "company": "Knight-Swift Transportation Holdings, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Knight-Swift uses AI to assist driver recruiting, onboarding, retention, and training processes.",
+   "quote": "we deployed resources to assist our recruiting teams using AI to help with recruiting, onboarding, retention, training",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "META",
+   "company": "Meta Platforms, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Meta's AI-powered Muse agent drives commerce, ad conversions, and engagement; AI recommendation systems lift revenue across Facebook, Instagram.",
+   "quote": "The most common use case for Muse is shopping, with more than a quarter of people who are using Muse engaging in this, with an average purchase size of over $200.",
+   "metric": "10M Muse users in 1.5 months; 25% DAU rate; ad conversions up ~2% (FB Feed), 1.7% (offsite), 9.6% (app ads); reels watch time up 1-4%; advertiser conversions up ~5%",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "PG",
+   "company": "Procter & Gamble Co.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "the amount of automation and digitization is helping us, as we talked for many times, as we execute Supply Chain 3.0. So there's operating leverage on the COGS side.",
+   "margin_metric": null,
+   "headline": "P&G cites automation and digitization via Supply Chain 3.0 as driving operating leverage on cost of goods.",
+   "quote": "the level of productivity we're generating is increasing, and the amount of automation and digitization is helping us, as we talked for many times, as we execute Supply Chain 3.0. So there's operating leverage on the COGS side.",
+   "metric": "250 basis points productivity improvement",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "SEIC",
+   "company": "SEI Investments Co.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "SEI says AI is accelerating client interest in partnering with SEI, driving more demand in its pipeline",
+   "quote": "AI has accelerated client interest in partnering with SEI. It is driving more demand, not less. And we can point to multiple specific examples in our pipeline where this is the case.",
+   "metric": null,
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "TSLA",
+   "company": "Tesla, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Tesla's FSD AI drives vehicle demand; over 75% of North America deliveries include paid FSD subscription, up ~20% vs Q2.",
+   "quote": "FSD continues to be the key driver for demand. In Q3, over 75% of deliveries in North America included a sign-up for paid FSD subscription at the time of delivery, which is approximately 20% higher than Q2.",
+   "metric": "75% FSD attach rate in North America, ~20% higher than Q2; 1.7M paid customers globally",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "WDFC",
+   "company": "WD-40 Co.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "WD-40 expanding AI-enabled shared systems via ERP platform to improve visibility, decision-making, and collaboration across markets.",
+   "quote": "we expanded our ERP platform into two more direct markets and advanced adoption of shared AI-enabled systems. These investments improve visibility, decision-making and collaboration across markets.",
    "metric": null,
    "event_date": "2026-10-21"
   }

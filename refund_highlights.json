@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T00:04:20.513362",
+ "generated": "2026-10-22T15:16:00.480799",
  "window": [
   "2026-07-15",
   "2026-10-22"
@@ -1012,18 +1012,6 @@
    "quote_receiving": "there's a little bit of IEEPA benefit in 2Q, but that'll carry forward into 3Q.",
    "quote_customers": "",
    "event_date": "2026-07-28"
-  },
-  {
-   "ticker": "PG",
-   "company": "Procter & Gamble Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "P&G received tariff refunds in Q4, partially offsetting higher energy, transportation, and material costs.",
-   "quote_receiving": "approximately $0.06 of higher costs driven by spike in energy, transportation and material costs, which were mostly offset by tariff refund receipts",
-   "quote_customers": "",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "PII",
@@ -2356,6 +2344,18 @@
    "quote_receiving": "the refunds were really taken up in Q2, so it doesn't affect Q3",
    "quote_customers": "",
    "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "PG",
+   "company": "Procter & Gamble Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$90 million",
+   "headline": "P&G received ~$90 million IEPA tariff refund in Q1, recognized as a P&L benefit for the quarter.",
+   "quote_receiving": "we had the second part of the IEPA tariff refund in quarter one of about $90 million",
+   "quote_customers": "",
+   "event_date": "2026-10-22"
   }
  ]
 }
