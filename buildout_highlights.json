@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-21T16:35:17.580531",
+ "generated": "2026-10-22T00:04:34.850960",
  "window": [
   "2026-07-15",
-  "2026-10-21"
+  "2026-10-22"
  ],
  "highlights": [
   {
@@ -674,16 +674,6 @@
    "direction": "accelerating",
    "headline": "CleanSpark cites AI-driven compute demand outpacing power supply as driver of its Sandersville lease and portfolio expansion.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "CME",
-   "company": "CME Group, Inc.",
-   "channel": "equipment_components",
-   "quote": "we are going to be the first daily benchmark tracking to spot hourly rental cost of NVIDIA H100 GPUs ... it allows customers to be able to manage their risk and price certainty and price curves around the input cost to managing their data center business",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "CME Group is launching compute futures tied to NVIDIA H100 GPU rental costs, citing data-center and AI-infrastructure demand as the driver for the new product.",
-   "event_date": "2026-07-22"
   },
   {
    "ticker": "CMI",
@@ -3146,16 +3136,6 @@
    "event_date": "2026-10-20"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscalers as primary driver of Intelligent Infrastructure segment growth, with AI revenue up 60% year-over-year.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "MCO",
    "company": "Moody's Corp.",
    "channel": "equipment_components",
@@ -3234,6 +3214,16 @@
    "direction": "accelerating",
    "headline": "Valmont Industries cites data-center construction as a driver of North America Coatings sales growth.",
    "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... AI-related revenue was up 60% year-over-year, and we ended the year with four customers with AI-related revenue above $1 billion annually",
+   "metric": "AI-related revenue up 60% year-over-year; four $1B+ AI customers (up from one two years ago)",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscaler customers driving 60% growth in AI-related revenue and capacity ramps in fiscal 2026-2027.",
+   "event_date": "2026-09-30"
   }
  ]
 }

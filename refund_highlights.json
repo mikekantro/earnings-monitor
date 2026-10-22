@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-21T16:34:01.318169",
+ "generated": "2026-10-22T00:04:20.513362",
  "window": [
   "2026-07-15",
-  "2026-10-21"
+  "2026-10-22"
  ],
  "highlights": [
   {
@@ -1266,18 +1266,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "TDY",
-   "company": "Teledyne Technologies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Teledyne received tariff refunds in Q2, boosting Digital Imaging segment margin, nearly offset by higher R&D and other accruals.",
-   "quote_receiving": "tariff refunds contributed to the strong margin the impact of refunds was nearly offset in dollar terms by the increase in R&D expense, inventory reserves and other accruals",
-   "quote_customers": "",
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "TEX",
    "company": "Terex Corp.",
    "receiving": true,
@@ -2356,6 +2344,18 @@
    "quote_receiving": "Non-GAAP operating margin was 42% of revenue, or 41%, excluding a one-time pre-tax tariff refund of $28 million.",
    "quote_customers": "",
    "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "TDY",
+   "company": "Teledyne Technologies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Teledyne says tariff refunds benefited Digital Imaging margins in Q2, not Q3.",
+   "quote_receiving": "the refunds were really taken up in Q2, so it doesn't affect Q3",
+   "quote_customers": "",
+   "event_date": "2026-10-21"
   }
  ]
 }
