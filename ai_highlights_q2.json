@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T15:03:21.018364",
+ "generated": "2026-10-23T23:54:34.052838",
  "window": [
   "2026-07-15",
   "2026-10-23"
@@ -7044,7 +7044,7 @@
    "margin_claim": false,
    "margin_quote": "",
    "margin_metric": null,
-   "headline": "Carnival uses AI in commercial systems for better decisions, personalized guest experiences, shoreside automation, and vessel efficiency.",
+   "headline": "Carnival uses AI across commercial systems to improve decisions, personalize guest experiences, automate shoreside ops, and find vessel efficiencies.",
    "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
    "metric": null,
    "event_date": "2026-09-29"
@@ -7052,13 +7052,13 @@
   {
    "ticker": "FDS",
    "company": "FactSet Research Systems, Inc.",
-   "category": "efficiency",
+   "category": "product",
    "margin_claim": true,
    "margin_quote": "boosting workforce productivity with the help of AI to improve operating leverage and drive future margin expansion",
    "margin_metric": null,
-   "headline": "FactSet uses AI coding assistants and agents to cut engineering costs, reduce headcount, and improve operating leverage",
-   "quote": "boosting workforce productivity with the help of AI to improve operating leverage and drive future margin expansion",
-   "metric": "agent-assisted engineering cut processing times by more than 75%; client assist agent resolves over 30% of user-initiated requests without human interaction; token use grew 80% QoQ while spend grew only half that pace",
+   "headline": "FactSet uses AI internally for productivity and sells AI products (AI for Banking, MCP, agents) driving double-digit share of new ASV",
+   "quote": "AI-related solutions made up a double-digit share of new ASV this quarter, exceeding fiscal 2025's total AI contribution, and we're seeing early evidence that it is complementing our existing product offerings.",
+   "metric": "double-digit share of new ASV from AI-related solutions",
    "event_date": "2026-09-30"
   },
   {
@@ -7068,7 +7068,7 @@
    "margin_claim": false,
    "margin_quote": "",
    "margin_metric": null,
-   "headline": "CarMax scaled AI voice technology to 100% of inbound calls, enabling agentic AI tools to support sales conversion.",
+   "headline": "CarMax scaled AI voice technology to 100% of inbound calls to resolve inquiries and support sales conversion.",
    "quote": "we scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
    "metric": null,
    "event_date": "2026-09-29"
