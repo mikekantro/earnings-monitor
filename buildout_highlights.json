@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-22T15:16:36.356249",
+ "generated": "2026-10-23T00:03:15.194849",
  "window": [
   "2026-07-15",
-  "2026-10-22"
+  "2026-10-23"
  ],
  "highlights": [
   {
@@ -3156,16 +3156,6 @@
    "event_date": "2026-10-20"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... we're beginning to see our capacity investments drive growth.",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI infrastructure demand from hyperscalers as driver of Intelligent Infrastructure segment growth and capacity investments.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "KMI",
    "company": "Kinder Morgan, Inc.",
    "channel": "power_energy",
@@ -3204,6 +3194,16 @@
    "direction": "accelerating",
    "headline": "Texas Instruments cites data-center demand as a major driver of sequential and year-over-year revenue growth, with data-center revenue up 95% YoY and 20% sequentially.",
    "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth, with AI revenue up 60% year-over-year and capacity coming online to support data center customer ramps.",
+   "event_date": "2026-09-30"
   }
  ]
 }
