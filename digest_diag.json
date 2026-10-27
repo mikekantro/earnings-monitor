@@ -6,9 +6,9 @@
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 126,
+ "unique": 30,
  "transcripts_probe": "200",
- "fallback_events": 126,
+ "fallback_events": 30,
  "targeted": {
   "chunks": [
    [
@@ -17,15 +17,7 @@
    ],
    [
     50,
-    50
-   ],
-   [
-    100,
-    50
-   ],
-   [
-    150,
-    45
+    47
    ]
   ],
   "sample": {
@@ -34,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'RUSHB-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8744876', 'primaryIds': ['00148D-E', 'RUSHA-US'], 'allIds': ['00148D-E', 'RUSHA-US'], 'reportId': '3501915', 'eventId': '1204366970', 'eventDate': '2026-07-29', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Rush Enterprises, Inc.(RUSHA-US), Q2 2026 Earnings Call, 29-July-2026 10:00 AM ET', 'storyDateTime': '2026-07-29T17:00:19Z', 'uploadDateTime': '2026-08-06T11:55:49Z', 'eventType': 'Earnings', 'categories': ['RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'SLAB-US', 'documents': []}"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8744876', 'primaryIds': ['00148D-E', 'RUSHA-US'], 'allIds': ['00148D-E', 'RUSHA-US'], 'reportId': '3501915', 'eventId': '1204366970', 'eventDate': '2026-07-29', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Rush Enterprises, Inc.(RUSHA-US), Q2 2026 Earnings Call, 29-July-2026 10:00 AM ET', 'storyDateTime': '2026-07-29T17:00:19Z', 'uploadDateTime': '2026-08-06T11:55:49Z', 'eventType': 'Earnings', 'categories': ['RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:RETAIL'], 'transcriptsUrl': 'https://api.fac",
-  "empty_doc_rows": 69
+  "empty_doc_rows": 69,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8818430', 'primaryIds': ['0035K2-E', 'JPM-US'], 'allIds': ['0035K2-E', 'JPM-US'], 'reportId': '3530836', 'eventId': '1204446630', 'eventDate': '2026-09-15', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: JPMorgan Chase & Co.(JPM-US), Barclays Global Financial Services Conference, 15-September-2026 2:45 PM ET', 'storyDateTime': '2026-09-15T23:15:10Z', 'uploadDateTime': '2026-09-17T21:51:11Z', 'eventType': 'ConferencePresentation', 'categories': ['LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:FNLSVC', 'IN:SECS', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factse"
  },
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 20,
- "to_process": 106,
+ "already_scored": 22,
+ "to_process": 8,
  "no_transcript": 0,
- "scored": 98
+ "scored": 8
 }
