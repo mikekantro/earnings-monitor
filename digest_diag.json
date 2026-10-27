@@ -6,17 +6,17 @@
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 169,
+ "unique": 170,
  "transcripts_probe": "200",
- "fallback_events": 169,
+ "fallback_events": 170,
  "errors": [
   "chunk 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/calendar/events",
   "chunk 1: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/calendar/events",
   "chunk 2: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/calendar/events",
   "chunk 3: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/calendar/events"
  ],
- "already_scored": 47,
- "to_process": 122,
+ "already_scored": 142,
+ "to_process": 28,
  "no_transcript": 0,
- "scored": 95
+ "scored": 28
 }

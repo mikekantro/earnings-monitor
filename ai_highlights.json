@@ -3617,7 +3617,106 @@
    "quote": "Watsonx, including Bob and Orchestrate, support AI-driven software development and agent orchestration. HashiCorp and Apptio automate identity, access, and policy while optimizing cost and performance.",
    "metric": "5 to 10 times lower cost (llm-d for running large AI models)",
    "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "NSC",
+   "company": "Norfolk Southern Corp.",
+   "category": "efficiency",
+   "headline": "Norfolk Southern uses machine learning and AI to enhance shipment visibility and adapt to changing network conditions for customers.",
+   "quote": "we're also enhancing shipment visibility by combining real-time network data, historical trends and machine learning and superintelligence to adapt to changing network conditions.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "CMCSA",
+   "company": "Comcast Corp.",
+   "category": "efficiency",
+   "headline": "Comcast using AI via Sierra and Cresta partnerships to cut customer service contacts 20% and eliminate 30M interactions YTD",
+   "quote": "AI is already embedded across our network to optimize performance and we're expanding its applications across customer experience through partnerships with Sierra and Cresta.",
+   "metric": "20% reduction in customer service contact rates; 30M service interactions eliminated YTD",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "HBAN",
+   "company": "Huntington Bancshares, Inc.",
+   "category": "product",
+   "headline": "Huntington embeds AI-powered savings goal functionality in its consumer banking app and launches agentic small business operating system.",
+   "quote": "we've built functionalities that meet our customers' critical needs, such as family and teen banking and AI-powered savings goal functionality.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "LMT",
+   "company": "Lockheed Martin Corp.",
+   "category": "product",
+   "headline": "Lockheed Martin deploys AI in command-and-control systems and battle management prototypes sold to defense customers.",
+   "quote": "using AI to recommend specific target engagements. The RMS team is building on that work in Guam where we developed an AI-enabled battle management prototype for the Guam Defense System.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "TSCO",
+   "company": "Tractor Supply Co.",
+   "category": "efficiency",
+   "headline": "Tractor Supply using technology to improve store-level productivity, including inventory recovery and task management.",
+   "quote": "using technology in order to know where to recover, which aisle should recover, and then how we fill things in the C.U.E. part of the business in both pet and feed.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "URI",
+   "company": "United Rentals, Inc.",
+   "category": "efficiency",
+   "headline": "United Rentals using AI tools for internal productivity, including shop operations and freeing up manager time.",
+   "quote": "there's certainly some productivity improvements in there. Some of them are less easily to input into a margin conversation, but just productivity of some of our human capital.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "DGX",
+   "company": "Quest Diagnostics, Inc.",
+   "category": "efficiency",
+   "headline": "Quest Diagnostics uses AI at Clifton, NJ lab to scan dialysis water for microbes, auto-releasing negative specimens to free up medical staff.",
+   "quote": "we also recently began to use AI at our Clifton, New Jersey lab to scan water for signs of microbes and other impurities as part of our dialysis water testing services.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ROP",
+   "company": "Roper Technologies, Inc.",
+   "category": "product",
+   "headline": "Roper's software subsidiaries have launched multiple AI agents and products embedded in vertical market software sold to customers.",
+   "quote": "Vertafore has developed and launched 12 workflow automation agents with many, many more in development. At Aderant, seven AI agents are now in early access to help law firms bill more accurately",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "BFH",
+   "company": "Bread Financial Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Bread Financial investing in AI to improve productivity, risk management, personalization, and customer experience.",
+   "quote": "the responsible use of AI to improve productivity, enhance risk management, enable greater personalization and simplify the customer experience",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "MSM",
+   "company": "MSC Industrial Direct Co., Inc.",
+   "category": "revenue",
+   "headline": "MSC Industrial adopts AI-first tech strategy, deploying AI for cross-sell/up-sell and inventory management.",
+   "quote": "We are already seeing benefits from our early implementation of AI solutions in the areas of cross-sell/up-sell and inventory management.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ALLE",
+   "company": "Allegion Plc",
+   "category": "efficiency",
+   "headline": "Allegion uses AI/LLM tools on its spec-writing dataset of 2.5M openings to improve responsiveness and efficiency for customers.",
+   "quote": "we're making some really well-thought-out and exciting investments internally on leverage of AI tools, and that sits across every function in the business",
+   "metric": null,
+   "event_date": "2026-10-27"
   }
  ],
- "updated": "2026-10-22T05:52:29"
+ "updated": "2026-10-27T13:14:27"
 }
