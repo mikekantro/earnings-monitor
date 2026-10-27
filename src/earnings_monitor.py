@@ -235,33 +235,35 @@ def get_todays_earnings() -> list[dict]:
             if _items and "sample" not in _tg_diag:
                 _it0 = _items[0]
                 _tg_diag["sample"] = {"keys": sorted(_it0.keys())[:30], "raw": str(_it0)[:700]}
-            if not _items and _i == 0:
-                # retry first chunk with primaryId False to scope the shape problem
-                try:
-                    _r2 = requests.post(f"{FS_BASE}/transcripts", auth=FS_AUTH, headers=HEADERS,
-                            json={"data": {"ids": _chunk, "primaryId": False,
-                                           "startDate": start_str[:10], "endDate": end_str[:10],
-                                           "dateType": "storyDateTime"},
-                                  "meta": {"pagination": {"limit": 1000, "offset": 0}}}, timeout=60)
-                    _tg_diag["retry_primaryid_false"] = [_r2.status_code, len(_r2.json().get("data", []))]
-                    if _r2.ok and _r2.json().get("data"):
-                        _items = _r2.json().get("data", [])
-                except Exception as _fe2:
-                    _tg_diag["retry_primaryid_false"] = f"{type(_fe2).__name__}: {_fe2}"
-            for _it in _items:
-                if (_it.get("eventType") or "") != "Earnings":
+            # ids responses wrap each ticker: {requestId, documents: [...]}
+            for _row in _items:
+                _docs = _row.get("documents") if ("documents" in _row) else [_row]
+                _rq = str(_row.get("requestId") or "").replace("-US", "").strip()
+                if not _docs:
+                    _tg_diag["empty_doc_rows"] = _tg_diag.get("empty_doc_rows", 0) + 1
                     continue
-                _pids = _it.get("primaryIds") or []
-                if not _pids: continue
-                _t = str(_pids[0]).split(",")[0].replace("-US", "").strip()
-                if _t not in SP500 or _t in _tg_seen: continue
-                _tg_seen.add(_t)
-                _hl = _it.get("headline") or ""
-                _nm = _hl.split("(")[0].split(":")[-1].strip() or _t
-                unique.append({"symbol": _t, "name": _nm,
-                               "eventId": str(_it.get("eventId") or ""),
-                               "reportId": str(_it.get("reportId") or ""),
-                               "quarter": "", "eventType": "Earnings"})
+                for _it in _docs:
+                    if "sample_doc" not in _tg_diag:
+                        _tg_diag["sample_doc"] = str(_it)[:700]
+                    _et = _it.get("eventType")
+                    if _et is not None and _et != "Earnings":
+                        continue
+                    # window guard: per-id docs may ignore the date filter
+                    _dt = str(_it.get("storyDateTime") or _it.get("eventDate") or "")[:10]
+                    if _dt and not (start_str[:10] <= _dt <= end_str[:10]):
+                        continue
+                    _pids = _it.get("primaryIds") or []
+                    _t = (str(_pids[0]).split(",")[0].replace("-US", "").strip()
+                          if _pids else _rq)
+                    if not _t or _t not in SP500 or _t in _tg_seen: continue
+                    _tg_seen.add(_t)
+                    _hl = _it.get("headline") or ""
+                    _nm = _hl.split("(")[0].split(":")[-1].strip() or _t
+                    unique.append({"symbol": _t, "name": _nm,
+                                   "eventId": str(_it.get("eventId") or ""),
+                                   "reportId": str(_it.get("reportId") or ""),
+                                   "quarter": "", "eventType": "Earnings"})
+                    break  # newest in-window earnings doc per ticker
             time.sleep(0.3)
         print(f"   targeted discovery: {len(unique)} total reporters in window")
 
