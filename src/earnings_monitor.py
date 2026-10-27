@@ -234,8 +234,7 @@ def get_todays_earnings() -> list[dict]:
             _tg_diag.setdefault("chunks", []).append([_i, len(_items)])
             if _items and "sample" not in _tg_diag:
                 _it0 = _items[0]
-                _tg_diag["sample"] = {k: _it0.get(k) for k in
-                    ("eventType", "primaryIds", "headline", "storyDateTime", "eventDate", "reportId")}
+                _tg_diag["sample"] = {"keys": sorted(_it0.keys())[:30], "raw": str(_it0)[:700]}
             if not _items and _i == 0:
                 # retry first chunk with primaryId False to scope the shape problem
                 try:
