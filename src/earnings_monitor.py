@@ -116,8 +116,10 @@ def get_todays_earnings() -> list[dict]:
     POST /calendar/events
     """
     today     = date.today()
-    start_str = f"{(today - timedelta(days=12)).isoformat()}T00:00:00Z"
-    end_str   = f"{today.isoformat()}T23:59:59Z"
+    _ws = os.environ.get("DIGEST_START") or (today - timedelta(days=12)).isoformat()
+    _we = os.environ.get("DIGEST_END") or today.isoformat()
+    start_str = f"{_ws}T00:00:00Z"
+    end_str   = f"{_we}T23:59:59Z"
 
     # Build list of FactSet-formatted tickers (TICKER-US)
     symbols = [f"{t}-US" for t in SP500]
@@ -169,7 +171,7 @@ def get_todays_earnings() -> list[dict]:
     if not unique and _derr:
         print("   Calendar unavailable — falling back to transcripts-feed discovery")
         _fb_seen = set()
-        for _off in range(0, 8000, 1000):
+        for _off in range(0, 20000, 1000):
             try:
                 _r = requests.post(f"{FS_BASE}/transcripts", auth=FS_AUTH, headers=HEADERS,
                         json={"data": {"startDate": start_str[:10], "endDate": end_str[:10],
@@ -761,7 +763,7 @@ SEC FILING EXCERPT:
 
 
 # ── PMI Storage (JSON file in repo) ──────────────────────────────────────────
-PMI_FILE = "pmi_scores.json"
+PMI_FILE = os.environ.get("SCORES_FILE", "pmi_scores.json")
 
 def load_pmi_scores() -> dict:
     """Load accumulated PMI scores from local JSON file."""
@@ -786,6 +788,8 @@ def save_pmi_scores(data: dict):
 
 def _current_season() -> str:
     """Return current earnings season label e.g. 'Q1 2026'."""
+    if os.environ.get("SEASON_LABEL"):
+        return os.environ["SEASON_LABEL"]
     m = date.today().month
     if m <= 3:   q = "Q4"
     elif m <= 6: q = "Q1"
@@ -1040,6 +1044,8 @@ def maybe_send_pmi_email(data: dict):
 
 
 def send_email(subject: str, html_body: str):
+    if os.environ.get("SKIP_EMAIL"):
+        print("   SKIP_EMAIL set - not sending"); return
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = GMAIL_USER
@@ -1081,7 +1087,7 @@ def main():
     for company in todays:
         ticker    = company["symbol"]
         name      = company["name"]
-        quarter   = company.get("quarter") or f"Q{((date.today().month-1)//3)+1} {date.today().year}"
+        quarter   = company.get("quarter") or os.environ.get("SEASON_LABEL") or f"Q{((date.today().month-1)//3)+1} {date.today().year}"
         report_id = company.get("reportId", "")
         event_id  = company.get("eventId", "")
 
@@ -1134,7 +1140,9 @@ def main():
             except Exception: pass
 
         # AI Watch — grounded, verbatim-verified AI-use snippet (or nothing)
-        if transcript_full:
+        # (skipped in backfill mode: event_date is stamped with today, so an old
+        #  season's quote would pass the live Q3-only filters)
+        if transcript_full and not os.environ.get("SEASON_LABEL"):
             hit = get_ai_highlight(ticker, name, transcript_full)
             if hit:
                 hit["event_date"] = date.today().isoformat()

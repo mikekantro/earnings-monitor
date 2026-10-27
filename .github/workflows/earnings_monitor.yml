@@ -7,6 +7,22 @@ on:
     # 9 PM ET (1 AM UTC next day) — catches after-hours reporters
     - cron: "0 1 * * 2-6"
   workflow_dispatch:  # allows manual trigger from GitHub Actions UI
+    inputs:
+      digest_start:
+        description: "Window start (YYYY-MM-DD); default = today-12d"
+        required: false
+      digest_end:
+        description: "Window end (YYYY-MM-DD); default = today"
+        required: false
+      scores_file:
+        description: "Scores file to write (default pmi_scores.json)"
+        required: false
+      season_label:
+        description: "Backfill season label, e.g. 'Q2 2026' (also mutes AI-quote collection)"
+        required: false
+      skip_email:
+        description: "Set to 1 to mute emails"
+        required: false
 
 permissions:
   contents: write
@@ -36,6 +52,11 @@ jobs:
           EMAIL_TO:           ${{ secrets.EMAIL_TO }}
           FACTSET_USERNAME:   ${{ secrets.FACTSET_USERNAME }}
           FACTSET_API_KEY:    ${{ secrets.FACTSET_API_KEY }}
+          DIGEST_START:       ${{ inputs.digest_start }}
+          DIGEST_END:         ${{ inputs.digest_end }}
+          SCORES_FILE:        ${{ inputs.scores_file }}
+          SEASON_LABEL:       ${{ inputs.season_label }}
+          SKIP_EMAIL:         ${{ inputs.skip_email }}
         run: python src/earnings_monitor.py
 
       - name: Commit updated data files
