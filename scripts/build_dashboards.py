@@ -157,8 +157,8 @@ SEASON_START = "2026-10-01"   # Q3 2026; quote showcases display only records da
 def _inq3(x): return (x.get("event_date") or "") >= SEASON_START
 # group floors scale smoothly with season coverage (no threshold cliff)
 _NB = len(best)
-MIN_SEC = max(3, min(10, _NB // 30))    # sector tables / diverging bars
-MIN_CHIP = max(4, min(15, _NB // 25))   # interactive sector chips
+MIN_SEC = max(3, min(5, _NB // 30))     # sector tables / diverging bars (cap 5: all 11 sectors show once sampled)
+MIN_CHIP = max(4, min(5, _NB // 25))    # interactive sector chips
 MIN_IND = max(2, min(8, _NB // 60))     # industry table
 
 # ---------------- scorecard ----------------
