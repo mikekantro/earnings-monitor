@@ -3716,7 +3716,178 @@
    "quote": "we're making some really well-thought-out and exciting investments internally on leverage of AI tools, and that sits across every function in the business",
    "metric": null,
    "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PYPL",
+   "company": "PayPal Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "PayPal AI chat agents resolved 24M+ customer contacts YTD across 190 countries; AI also cuts credit decision times nearly in half",
+   "quote": "our AI chat agents now support customer service across 190 countries and six languages and have resolved more than 24 million contacts year-to-date",
+   "metric": "24 million contacts resolved YTD; credit decision times cut nearly in half",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "WSO",
+   "company": "Watsco, Inc.",
+   "category": "efficiency",
+   "headline": "Watsco says transformational use of AI continues to evolve throughout the company across its technology initiatives.",
+   "quote": "the transformational use of AI continues to evolve throughout Watsco. I could spend the next few hours just on that subject.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "BRX",
+   "company": "Brixmor Property Group, Inc.",
+   "category": "efficiency",
+   "headline": "Brixmor uses technology and AI investments to streamline leasing process, reduce downtime and accelerate rent commencement.",
+   "quote": "the investments we've made in technology and AI are helping us streamline the leasing process, reduce downtime and accelerate rent commencement.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "LECO",
+   "company": "Lincoln Electric Holdings, Inc.",
+   "category": "product",
+   "headline": "Lincoln Electric launched XpertLINC, a physical AI solution embedded in welding robots to adapt to real-world conditions.",
+   "quote": "XpertLINC enables a welding robot to adapt on the fly to real world conditions like an experienced human welder would.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "BRO",
+   "company": "Brown & Brown, Inc.",
+   "category": "efficiency",
+   "headline": "Brown & Brown deployed Claude AI to 6,000+ teammates in 45 days, using AI across insurance placement, prospecting, claims analysis, and data extraction.",
+   "quote": "In just 45 days, we deployed Claude over 6,000 teammates with more than 90% actively using the platform. We're using AI throughout the insurance placement process across most of the company, including prospecting submissions, claims analysis, analytics, and data extraction",
+   "metric": "6,000+ teammates, 90%+ active usage rate",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "IQV",
+   "company": "IQVIA Holdings, Inc.",
+   "category": "product",
+   "headline": "IQVIA deploys 415 AI agents in clinical and commercial solutions, winning contracts by shortening trial timelines and enabling real-time market insights.",
+   "quote": "Our differentiated AI offerings are increasingly contributing to that momentum with continued adoption of our agentic solutions. In fact, IQVIA has now deployed 415 agents to-date.",
+   "metric": "415 AI agents deployed to-date",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ITRI",
+   "company": "Itron, Inc.",
+   "category": "product",
+   "headline": "Itron deploys AI in Resiliency Solutions for worker safety, storm response, wildfire detection, and digital construction management.",
+   "quote": "the worker safety module has an AI component to it which helps you to identify hazards out in the field in real-time. In the digital construction management space, AI allows you to populate the data",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "IVZ",
+   "company": "Invesco Ltd.",
+   "category": "efficiency",
+   "headline": "Invesco using AI to improve investment returns, client engagement, and operational efficiency across the organization.",
+   "quote": "One is to ensure that we can deliver high-quality investment returns...The second is likewise for client engagement. If we can strengthen client delivery, know our clients that much better, shorten cycles with them",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "CNC",
+   "company": "Centene Corp.",
+   "category": "efficiency",
+   "headline": "Centene deploying ROI-driven AI to improve employee productivity and support G&A cost reduction efforts.",
+   "quote": "we've made tremendous progress over the last couple of quarters from a data and context layer standpoint to start to implement ROI-driven AI in order to make our team members smarter and faster at the work they're doing to service members.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "TNL",
+   "company": "Travel + Leisure Co.",
+   "category": "efficiency",
+   "headline": "Travel + Leisure investing in AI alongside technology and new brands while growing EBITDA margins.",
+   "quote": "investing in brands, investing in new owner tours, investing in AI, investing in technology, yet maintaining our algorithm and growing margins",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "UPS",
+   "company": "United Parcel Service, Inc.",
+   "category": "product",
+   "headline": "UPS uses data and AI in UPS Capital's Secure Commerce solution to help customers reduce fraud and protect high-value shipments.",
+   "quote": "Through solutions like UPS Secure Commerce, we use data and AI to help customers reduce fraud, protect high-value shipments, and make smarter, more informed supply chain decisions.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "AMT",
+   "company": "American Tower Corp.",
+   "category": "efficiency",
+   "headline": "American Tower evaluating AI applications internally to improve decision-making, automate repetitive work, and boost team productivity.",
+   "quote": "Our focus is on opportunities that improve decision-making, automate repetitive work, and make our teams more effective while maintaining the appropriate controls and oversight.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "HLT",
+   "company": "Hilton Worldwide Holdings, Inc.",
+   "category": "revenue",
+   "headline": "Hilton working with AI agents (including Muz) to enable direct bookings and reduce OTA dependence",
+   "quote": "I am very excited by what I see is the muz and and a whole bunch of other, you know, other activities where we're in the middle of. I think it is really I've, I will see this probably for a long time.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "JCI",
+   "company": "Johnson Controls International Plc",
+   "category": "efficiency",
+   "headline": "Johnson Controls investing in digital and AI approaches as part of its proprietary business system to drive productivity and field operations execution.",
+   "quote": "investing in digital and AI approaches to continue to -- which is part of our proprietary business system, to continue to drive more productivity and better execution capabilities in our field operations.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "CVLT",
+   "company": "Commvault Systems, Inc.",
+   "category": "product",
+   "headline": "Commvault investing in AI recovery roadmap and joined Anthropic's Project Glasswing to expand use of frontier AI models.",
+   "quote": "we are proud to be part of Anthropic's Project Glasswing. This expands our use of frontier AI models to include Mythos.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "SPGI",
+   "company": "S&P Global, Inc.",
+   "category": "revenue",
+   "headline": "S&P Global AI data portal and adaptive retrieval agents drive customer spend 1.8x\u20133x faster than non-AI customers",
+   "quote": "In Market Intelligence, ACV growth is now 1.8 times the growth rate of non-AI customers. In Energy, it remains approximately three times.",
+   "metric": "1.8x ACV growth in Market Intelligence; ~3x in Energy vs. non-AI customers",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "RGEN",
+   "company": "Repligen Corp.",
+   "category": "efficiency",
+   "headline": "Repligen investing in AI pilots and employee training to drive internal productivity via modernized IT infrastructure.",
+   "quote": "Our team is focused on optimizing our data infrastructure as the foundation for more broad-based internal AI deployment. We have made considerable progress on these efforts, including AI pilots which are showing tangible results.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "HIG",
+   "company": "The Hartford Insurance Group, Inc.",
+   "category": "efficiency",
+   "headline": "Hartford embeds AI in underwriting, claims, and service; attributes 78% straight-through small business submissions partly to AI investments.",
+   "quote": "we expect that 78% with all the technology investments we're making, including AI, to continue to improve. And that just creates a better and better experience for our agents and brokers.",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "KO",
+   "company": "The Coca-Cola Co.",
+   "category": "revenue",
+   "headline": "Coca-Cola uses tech, data, and AI in marketing campaigns to drive consumer engagement through to transactions.",
+   "quote": "Parts of the tech, data, and AI that we used during the World Cup you are seeing on campaigns like Fanta Halloween, where you can see connected packaging really with great content going all the way down to a transaction",
+   "metric": null,
+   "event_date": "2026-10-27"
   }
  ],
- "updated": "2026-10-27T15:32:00"
+ "updated": "2026-10-27T16:02:20"
 }
