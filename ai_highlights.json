@@ -3887,7 +3887,43 @@
    "quote": "Parts of the tech, data, and AI that we used during the World Cup you are seeing on campaigns like Fanta Halloween, where you can see connected packaging really with great content going all the way down to a transaction",
    "metric": null,
    "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PSA",
+   "company": "Public Storage",
+   "category": "revenue",
+   "headline": "Public Storage's AI virtual agent Ellie has handled 300,000+ customer interactions; AI also used in deal underwriting.",
+   "quote": "Ellie has now handled more than 300,000 customer interactions and that capability continues to expand. It can improve the customer experience while allowing our teams to focus",
+   "metric": "300,000 customer interactions handled by Ellie",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PSMT",
+   "company": "PriceSmart, Inc.",
+   "category": "efficiency",
+   "headline": "PriceSmart plans to leverage machine learning and AI as part of its RELEX forecasting and replenishment system rollout.",
+   "quote": "We want to leverage machine learning and AI. At the end of the day, when companies go through process transformation and technology investments is really looking at processes",
+   "metric": null,
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "CINF",
+   "company": "Cincinnati Financial Corp.",
+   "category": "efficiency",
+   "headline": "Cincinnati Financial uses AI to cut quote delivery time by 30%+ and deploy 7 internal intelligent assistants for underwriting and claims",
+   "quote": "we are using these capabilities to process new business submissions received by email, enabling us to accelerate, quote delivery by more than 30% across our commercial lines and excess and surplus lines businesses.",
+   "metric": "30%+ faster quote delivery",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "RCL",
+   "company": "Royal Caribbean Group",
+   "category": "revenue",
+   "headline": "Royal Caribbean uses AI and technology platforms to identify high-value guests, deepen loyalty, and grow share of vacation wallet.",
+   "quote": "the technology platforms, whether it's with AI or digital and the connectivity we're bringing across our brands, we feel very confident that we're going to get a greater share of our guests and our customers vacation wallet",
+   "metric": null,
+   "event_date": "2026-10-27"
   }
  ],
- "updated": "2026-10-27T16:02:20"
+ "updated": "2026-10-27T17:50:19"
 }
