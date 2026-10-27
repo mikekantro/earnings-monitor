@@ -1064,6 +1064,7 @@ def main():
         pmi_score = score_earnings(ticker, name, analysis, transcript, sec_filing)
         if pmi_score:
             pmi_scores_today.append(pmi_score)
+            add_pmi_scores([pmi_score])   # save immediately: a timed-out run keeps its work
 
         # AI Watch — grounded, verbatim-verified AI-use snippet (or nothing)
         if transcript_full:

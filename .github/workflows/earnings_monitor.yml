@@ -14,7 +14,7 @@ permissions:
 jobs:
   run-earnings-monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name  "earnings-monitor-bot"
           git config user.email "actions@github.com"
-          git add pmi_scores.json ai_highlights.json 2>/dev/null || true
+          git add -A
           git diff --cached --quiet || git commit -m "Data update $(date -u +%F)"
           git pull --rebase origin main
           git push
