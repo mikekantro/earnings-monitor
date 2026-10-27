@@ -6,9 +6,9 @@
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 17,
+ "unique": 126,
  "transcripts_probe": "200",
- "fallback_events": 17,
+ "fallback_events": 126,
  "targeted": {
   "chunks": [
    [
@@ -34,16 +34,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'FIVN-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8810360', 'primaryIds': ['064TYD-E', 'FIVN-US'], 'allIds': ['064TYD-E', 'FIVN-US'], 'reportId': '3539433', 'eventId': '1204467249', 'eventDate': '2026-09-11', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Five9, Inc.(FIVN-US), Goldman Sachs Communacopia + Technology Conference, 11-September-2026 11:50 AM ET', 'storyDateTime': '2026-09-13T23:36:47Z', 'uploadDateTime': '2026-09-14T08:14:55Z', 'eventType': 'ConferencePresentation', 'categories': ['IN:COMPTC', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:EVT"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'RUSHB-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8744876', 'primaryIds': ['00148D-E', 'RUSHA-US'], 'allIds': ['00148D-E', 'RUSHA-US'], 'reportId': '3501915', 'eventId': '1204366970', 'eventDate': '2026-07-29', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Rush Enterprises, Inc.(RUSHA-US), Q2 2026 Earnings Call, 29-July-2026 10:00 AM ET', 'storyDateTime': '2026-07-29T17:00:19Z', 'uploadDateTime': '2026-08-06T11:55:49Z', 'eventType': 'Earnings', 'categories': ['RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8810360', 'primaryIds': ['064TYD-E', 'FIVN-US'], 'allIds': ['064TYD-E', 'FIVN-US'], 'reportId': '3539433', 'eventId': '1204467249', 'eventDate': '2026-09-11', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Five9, Inc.(FIVN-US), Goldman Sachs Communacopia + Technology Conference, 11-September-2026 11:50 AM ET', 'storyDateTime': '2026-09-13T23:36:47Z', 'uploadDateTime': '2026-09-14T08:14:55Z', 'eventType': 'ConferencePresentation', 'categories': ['IN:COMPTC', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https://api.factset.com/v2/tr",
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8744876', 'primaryIds': ['00148D-E', 'RUSHA-US'], 'allIds': ['00148D-E', 'RUSHA-US'], 'reportId': '3501915', 'eventId': '1204366970', 'eventDate': '2026-07-29', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Rush Enterprises, Inc.(RUSHA-US), Q2 2026 Earnings Call, 29-July-2026 10:00 AM ET', 'storyDateTime': '2026-07-29T17:00:19Z', 'uploadDateTime': '2026-08-06T11:55:49Z', 'eventType': 'Earnings', 'categories': ['RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:RETAIL'], 'transcriptsUrl': 'https://api.fac",
   "empty_doc_rows": 69
  },
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 17,
- "to_process": 0,
+ "already_scored": 20,
+ "to_process": 106,
  "no_transcript": 0,
- "scored": 0
+ "scored": 98
 }
