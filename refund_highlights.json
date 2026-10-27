@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T00:38:46.364597",
+ "generated": "2026-10-27T13:16:10.553002",
  "window": [
   "2026-07-15",
   "2026-10-27"
@@ -52,30 +52,6 @@
    "quote_receiving": "Second quarter overall gross margin was 71.7%, up 1.8 points year-over-year, primarily due to operational efficiencies, tariff refund and higher clear aligner ASPs.",
    "quote_customers": "",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "ALLE",
-   "company": "Allegion Plc",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Allegion excludes potential IEEPA tariff refunds from outlook due to timing uncertainty; plans to communicate with customers first.",
-   "quote_receiving": "Our outlook does not include potential IEEPA refunds due to uncertainty on future refund timing and as we prioritize communicating with our customers first.",
-   "quote_customers": "our outlook does not include potential IEEPA refunds due to uncertainty on future refund timing and as we prioritize communicating with our customers first",
-   "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "ALV",
-   "company": "Autoliv, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "na",
-   "amount": "$9.6 million",
-   "headline": "Autoliv received a $9.6M IEEPA-related tariff refund in Q2 2026, reducing tariff compensation revenues by ~$5M net.",
-   "quote_receiving": "an IEEPA-related refund of $9.6 million during the quarter",
-   "quote_customers": "",
-   "event_date": "2026-07-17"
   },
   {
    "ticker": "AMZN",
@@ -306,18 +282,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "COCO",
-   "company": "The Vita Coco Co., Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Vita Coco received tariff refunds on prior-year payments, boosting Q2 2026 gross margin by ~700 basis points; company using benefit to absorb cost increases rather than raise prices.",
-   "quote_receiving": "We are seeing cost of goods year-to-date in 2026 benefit from refunds of tariffs paid last year and from lower ocean freight costs year-to-date",
-   "quote_customers": "",
-   "event_date": "2026-07-23"
-  },
-  {
    "ticker": "COLM",
    "company": "Columbia Sportswear Co.",
    "receiving": true,
@@ -378,18 +342,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "DECK",
-   "company": "Deckers Outdoor Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Deckers pursuing IEEPA tariff refunds but has included no refund assumptions in FY2027 guidance.",
-   "quote_receiving": "On the tariffs previously paid, we continue to pursue tariff refunds related to the IEEPA ruling, but have not included any assumptions regarding refunds as a part of our guidance at this time.",
-   "quote_customers": "",
-   "event_date": "2026-07-23"
-  },
-  {
    "ticker": "DIS",
    "company": "The Walt Disney Co.",
    "receiving": true,
@@ -400,18 +352,6 @@
    "quote_receiving": "we had about $100 million of tariff refunds in the quarter at Disney Experiences which hit segment OI with no impact on revenue.",
    "quote_customers": "",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "DORM",
-   "company": "Dorman Products, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Dorman received IEEPA tariff refunds in Q2 2026, boosting record EPS; company is making targeted price reductions as tariffs stabilize.",
-   "quote_receiving": "Our results were positively impacted by the recovery of IEEPA tariff costs, which Charles will cover in just a moment.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "EMR",
@@ -570,18 +510,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "GGG",
-   "company": "Graco, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$9 million",
-   "headline": "Graco received $9 million in tariff refunds net of related surcharges, boosting Q2 gross margin by 130 basis points.",
-   "quote_receiving": "the favorable impact of $9 million in tariff refunds, net of related surcharges",
-   "quote_customers": "",
-   "event_date": "2026-07-23"
-  },
-  {
    "ticker": "GNRC",
    "company": "Generac Holdings, Inc.",
    "receiving": true,
@@ -592,18 +520,6 @@
    "quote_receiving": "our second quarter results included an approximate $71 million pre-tax impact related to tariff refunds, which is reflected in gross margin, net income, adjusted net income, and adjusted EBITDA.",
    "quote_customers": "",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "GNTX",
-   "company": "Gentex Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$38 million",
-   "headline": "Gentex received ~$38M in IEEPA tariff reimbursements in Q2 2026; ~$18M reduced cost of goods sold and boosted gross margin.",
-   "quote_receiving": "the company received approximately $38 million of IEEPA tariff reimbursements during the quarter, of which roughly $18 million reduced cost of goods sold and favorably impacted gross margin",
-   "quote_customers": "",
-   "event_date": "2026-07-24"
   },
   {
    "ticker": "GRMN",
@@ -1288,18 +1204,6 @@
    "quote_receiving": "our adjusted results include a net benefit for IEEPA tariff refunds of $8 million or $0.08 per share",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "TSCO",
-   "company": "Tractor Supply Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Tractor Supply received tariff refunds in Q2 2025, using the benefit to invest in customer value/pricing rather than passing refunds directly to customers.",
-   "quote_receiving": "Disciplined product cost management and benefits from tariff refunds more than offset pressure from higher freight expense and investments to strengthen our price-value position.",
-   "quote_customers": "",
-   "event_date": "2026-07-23"
   },
   {
    "ticker": "TXT",
@@ -2354,6 +2258,66 @@
    "amount": "$90 million",
    "headline": "P&G received ~$90 million IEPA tariff refund in Q1, recognized as a P&L benefit for the quarter.",
    "quote_receiving": "we had the second part of the IEPA tariff refund in quarter one of about $90 million",
+   "quote_customers": "",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "ALLE",
+   "company": "Allegion Plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Allegion received IEEPA tariff refunds in Q3 2026; favorable impact excluded from adjusted operating income and EPS.",
+   "quote_receiving": "third quarter 2026 adjusted operating income and adjusted earnings per share exclude the favorable impact from IEEPA tariff refunds.",
+   "quote_customers": "",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "COCO",
+   "company": "The Vita Coco Co., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Vita Coco applied tariff refunds received against cost increases rather than raising prices, supporting consumers and retail partners.",
+   "quote_receiving": "we chose to apply our tariff refunds against our cost increases rather than taking pricing this year in order to support our consumers and retail partners",
+   "quote_customers": "",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "DECK",
+   "company": "Deckers Outdoor Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$0.28 per diluted share benefit",
+   "headline": "Deckers received IEEPA tariff refunds in Q2, adding $0.28 to diluted EPS; no mention of passing refunds to customers.",
+   "quote_receiving": "Diluted earnings per share was $2.31, including a $0.28 benefit from the impact of IEEPA net tariff refunds received in the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "DORM",
+   "company": "Dorman Products, Inc.",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Dorman received tariff/IEEPA refunds and passed savings to customers via lower prices, though cannot control end-retail pricing.",
+   "quote_receiving": "the decision on factoring volume is that because you had incremental liquidity available from EIP refunds",
+   "quote_customers": "we did, you know, we continue to go through those negotiations with customers and, you know, seeing the EPA tariffs down, you know, in kind like we talked about last quarter",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "TSCO",
+   "company": "Tractor Supply Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$100 million",
+   "headline": "Tractor Supply expects ~$100M in tariff refunds in 2026; investing ~40% in customer value/lower prices, remainder offsets freight costs.",
+   "quote_receiving": "we expect to realize approximately $100 million in tariff refunds this year, and we're investing about 40% of that benefit in customer value, with the remainder helping to offset higher freight cost.",
    "quote_customers": "",
    "event_date": "2026-10-22"
   }
