@@ -282,7 +282,9 @@ def get_todays_earnings() -> list[dict]:
     _dj.dump({"stage": "calendar", "window": [start_str, end_str], "universe": len(symbols),
               "raw_events": len(results), "unique": len(unique),
               "transcripts_probe": _tprobe, "fallback_events": len(unique),
-              "targeted": _tg_diag, "errors": _derr[:12]},
+              "targeted": _tg_diag,
+              "errors": ([f"calendar 403 x{sum(1 for e in _derr if 'calendar/events' in e)}"] +
+                         [e for e in _derr if "calendar/events" not in e][:10])},
              open("digest_diag.json", "w"), indent=1)
     return unique
 
