@@ -124,6 +124,7 @@ def get_todays_earnings() -> list[dict]:
 
     # FactSet limits symbols per request — batch into chunks of 100
     results = []
+    _derr = []
     for i in range(0, len(symbols), 100):
         chunk = symbols[i:i+100]
         payload = {
@@ -153,6 +154,7 @@ def get_todays_earnings() -> list[dict]:
                     })
         except Exception as e:
             print(f"   ⚠️  Calendar API error (chunk {i//100}): {e}")
+            _derr.append(f"chunk {i//100}: {type(e).__name__}: {e}")
         time.sleep(0.3)
 
     # Deduplicate by symbol
@@ -162,6 +164,10 @@ def get_todays_earnings() -> list[dict]:
         if r["symbol"] not in seen:
             seen.add(r["symbol"])
             unique.append(r)
+    import json as _dj
+    _dj.dump({"stage": "calendar", "window": [start_str, end_str], "universe": len(symbols),
+              "raw_events": len(results), "unique": len(unique), "errors": _derr[:20]},
+             open("digest_diag.json", "w"), indent=1)
     return unique
 
 
@@ -1013,6 +1019,9 @@ def main():
     _nb = len(todays)
     todays = [c for c in todays if c["symbol"] not in _done]
     print(f"   {_nb - len(todays)} already scored this season; {len(todays)} to process")
+    import json as _dj
+    _dg = _dj.load(open("digest_diag.json")); _dg.update({"already_scored": _nb - len(todays), "to_process": len(todays), "no_transcript": 0, "scored": 0})
+    _dj.dump(_dg, open("digest_diag.json", "w"), indent=1)
 
     if not todays:
         print("   No S&P 500 earnings today — skipping email.")
@@ -1055,6 +1064,11 @@ def main():
 
         if not transcript and not sec_filing:
             print(f"   ⚠️  No data for {ticker} — skipping.")
+            try:
+                import json as _dj
+                _dg = _dj.load(open("digest_diag.json")); _dg["no_transcript"] += 1
+                _dj.dump(_dg, open("digest_diag.json", "w"), indent=1)
+            except Exception: pass
             continue
 
         analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing, market_cap)
@@ -1065,6 +1079,11 @@ def main():
         if pmi_score:
             pmi_scores_today.append(pmi_score)
             add_pmi_scores([pmi_score])   # save immediately: a timed-out run keeps its work
+            try:
+                import json as _dj
+                _dg = _dj.load(open("digest_diag.json")); _dg["scored"] += 1
+                _dj.dump(_dg, open("digest_diag.json", "w"), indent=1)
+            except Exception: pass
 
         # AI Watch — grounded, verbatim-verified AI-use snippet (or nothing)
         if transcript_full:
