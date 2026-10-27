@@ -282,7 +282,7 @@ def get_todays_earnings() -> list[dict]:
     _dj.dump({"stage": "calendar", "window": [start_str, end_str], "universe": len(symbols),
               "raw_events": len(results), "unique": len(unique),
               "transcripts_probe": _tprobe, "fallback_events": len(unique),
-              "targeted": _tg_diag, "errors": _derr[:4]},
+              "targeted": _tg_diag, "errors": _derr[:12]},
              open("digest_diag.json", "w"), indent=1)
     return unique
 
