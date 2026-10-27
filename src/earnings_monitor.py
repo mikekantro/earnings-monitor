@@ -202,6 +202,7 @@ def get_todays_earnings() -> list[dict]:
             time.sleep(0.3)
         print(f"   fallback discovered {len(unique)} reporters in window")
 
+    _tg_diag = {}
     # Backfill mode: the no-ids transcripts feed only reaches back ~30 days, so a
     # deep window needs per-ticker (ids) queries. Target only tickers not yet scored
     # in the season file, in small chunks.
@@ -230,6 +231,24 @@ def get_todays_earnings() -> list[dict]:
             except Exception as _fe:
                 _derr.append(f"targeted chunk {_i}: {type(_fe).__name__}: {_fe}")
                 continue
+            _tg_diag.setdefault("chunks", []).append([_i, len(_items)])
+            if _items and "sample" not in _tg_diag:
+                _it0 = _items[0]
+                _tg_diag["sample"] = {k: _it0.get(k) for k in
+                    ("eventType", "primaryIds", "headline", "storyDateTime", "eventDate", "reportId")}
+            if not _items and _i == 0:
+                # retry first chunk with primaryId False to scope the shape problem
+                try:
+                    _r2 = requests.post(f"{FS_BASE}/transcripts", auth=FS_AUTH, headers=HEADERS,
+                            json={"data": {"ids": _chunk, "primaryId": False,
+                                           "startDate": start_str[:10], "endDate": end_str[:10],
+                                           "dateType": "storyDateTime"},
+                                  "meta": {"pagination": {"limit": 1000, "offset": 0}}}, timeout=60)
+                    _tg_diag["retry_primaryid_false"] = [_r2.status_code, len(_r2.json().get("data", []))]
+                    if _r2.ok and _r2.json().get("data"):
+                        _items = _r2.json().get("data", [])
+                except Exception as _fe2:
+                    _tg_diag["retry_primaryid_false"] = f"{type(_fe2).__name__}: {_fe2}"
             for _it in _items:
                 if (_it.get("eventType") or "") != "Earnings":
                     continue
@@ -261,7 +280,8 @@ def get_todays_earnings() -> list[dict]:
     import json as _dj
     _dj.dump({"stage": "calendar", "window": [start_str, end_str], "universe": len(symbols),
               "raw_events": len(results), "unique": len(unique),
-              "transcripts_probe": _tprobe, "fallback_events": len(unique), "errors": _derr[:4]},
+              "transcripts_probe": _tprobe, "fallback_events": len(unique),
+              "targeted": _tg_diag, "errors": _derr[:4]},
              open("digest_diag.json", "w"), indent=1)
     return unique
 
