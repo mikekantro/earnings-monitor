@@ -164,9 +164,21 @@ def get_todays_earnings() -> list[dict]:
         if r["symbol"] not in seen:
             seen.add(r["symbol"])
             unique.append(r)
+    # probe the transcripts endpoint too, to scope the 403
+    _tprobe = ""
+    try:
+        _tp = requests.post(f"{FS_BASE}/transcripts", auth=FS_AUTH, headers=HEADERS,
+                            json={"data": {"ids": ["AAPL-US"], "primaryId": False,
+                                           "startDate": "2026-07-01", "endDate": "2026-10-27",
+                                           "dateType": "storyDateTime"},
+                                  "meta": {"pagination": {"limit": 1}}}, timeout=20)
+        _tprobe = f"{_tp.status_code}"
+    except Exception as _te:
+        _tprobe = f"{type(_te).__name__}: {_te}"
     import json as _dj
     _dj.dump({"stage": "calendar", "window": [start_str, end_str], "universe": len(symbols),
-              "raw_events": len(results), "unique": len(unique), "errors": _derr[:20]},
+              "raw_events": len(results), "unique": len(unique),
+              "transcripts_probe": _tprobe, "errors": _derr[:4]},
              open("digest_diag.json", "w"), indent=1)
     return unique
 
