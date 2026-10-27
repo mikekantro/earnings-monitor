@@ -242,19 +242,27 @@ def get_todays_earnings() -> list[dict]:
                 if not _docs:
                     _tg_diag["empty_doc_rows"] = _tg_diag.get("empty_doc_rows", 0) + 1
                     continue
+                _docs = sorted(_docs, key=lambda d: str(d.get("eventDate") or d.get("storyDateTime") or ""), reverse=True)
                 for _it in _docs:
                     if "sample_doc" not in _tg_diag:
                         _tg_diag["sample_doc"] = str(_it)[:700]
+                    # earnings check: per-id docs may lack eventType; use the headline
                     _et = _it.get("eventType")
                     if _et is not None and _et != "Earnings":
+                        continue
+                    if _et is None and "earnings" not in str(_it.get("headline") or "").lower():
                         continue
                     # window guard: per-id docs may ignore the date filter
                     _dt = str(_it.get("storyDateTime") or _it.get("eventDate") or "")[:10]
                     if _dt and not (start_str[:10] <= _dt <= end_str[:10]):
                         continue
-                    _pids = _it.get("primaryIds") or []
-                    _t = (str(_pids[0]).split(",")[0].replace("-US", "").strip()
-                          if _pids else _rq)
+                    # ticker: ids lists mix entity ids (064TYD-E) with tickers (FIVN-US)
+                    _t = ""
+                    for _cand in list(_it.get("primaryIds") or []) + list(_it.get("allIds") or []):
+                        _c = str(_cand).strip()
+                        if _c.endswith("-US") and _c[:-3] in SP500:
+                            _t = _c[:-3]; break
+                    if not _t: _t = _rq
                     if not _t or _t not in SP500 or _t in _tg_seen: continue
                     _tg_seen.add(_t)
                     _hl = _it.get("headline") or ""
