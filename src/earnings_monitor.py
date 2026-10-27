@@ -202,6 +202,51 @@ def get_todays_earnings() -> list[dict]:
             time.sleep(0.3)
         print(f"   fallback discovered {len(unique)} reporters in window")
 
+    # Backfill mode: the no-ids transcripts feed only reaches back ~30 days, so a
+    # deep window needs per-ticker (ids) queries. Target only tickers not yet scored
+    # in the season file, in small chunks.
+    if os.environ.get("DIGEST_START"):
+        _tg_seen = {u["symbol"] for u in unique}
+        _targets = [t for t in SP500 if t not in _tg_seen]
+        try:
+            _sc0 = load_pmi_scores()
+            if _sc0.get("season") == _current_season():
+                _done0 = {x["ticker"] for x in _sc0.get("scores", [])}
+                _targets = [t for t in _targets if t not in _done0]
+        except Exception:
+            pass
+        print(f"   targeted discovery over {len(_targets)} unscored tickers")
+        for _i in range(0, len(_targets), 50):
+            _chunk = [f"{t}-US" for t in _targets[_i:_i+50]]
+            try:
+                _r = requests.post(f"{FS_BASE}/transcripts", auth=FS_AUTH, headers=HEADERS,
+                        json={"data": {"ids": _chunk, "primaryId": True,
+                                       "startDate": start_str[:10], "endDate": end_str[:10],
+                                       "dateType": "storyDateTime"},
+                              "meta": {"pagination": {"limit": 1000, "offset": 0},
+                                       "sort": ["-storyDateTime"]}}, timeout=60)
+                _r.raise_for_status()
+                _items = _r.json().get("data", [])
+            except Exception as _fe:
+                _derr.append(f"targeted chunk {_i}: {type(_fe).__name__}: {_fe}")
+                continue
+            for _it in _items:
+                if (_it.get("eventType") or "") != "Earnings":
+                    continue
+                _pids = _it.get("primaryIds") or []
+                if not _pids: continue
+                _t = str(_pids[0]).split(",")[0].replace("-US", "").strip()
+                if _t not in SP500 or _t in _tg_seen: continue
+                _tg_seen.add(_t)
+                _hl = _it.get("headline") or ""
+                _nm = _hl.split("(")[0].split(":")[-1].strip() or _t
+                unique.append({"symbol": _t, "name": _nm,
+                               "eventId": str(_it.get("eventId") or ""),
+                               "reportId": str(_it.get("reportId") or ""),
+                               "quarter": "", "eventType": "Earnings"})
+            time.sleep(0.3)
+        print(f"   targeted discovery: {len(unique)} total reporters in window")
+
     # probe the transcripts endpoint too, to scope the 403
     _tprobe = ""
     try:
