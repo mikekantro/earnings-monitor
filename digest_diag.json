@@ -1,20 +1,49 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-10-15T00:00:00Z",
-  "2026-10-27T23:59:59Z"
+  "2026-07-01T00:00:00Z",
+  "2026-09-30T23:59:59Z"
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 195,
+ "unique": 17,
  "transcripts_probe": "200",
- "fallback_events": 195,
- "targeted": {},
+ "fallback_events": 17,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    50
+   ],
+   [
+    150,
+    45
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'FIVN-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8810360', 'primaryIds': ['064TYD-E', 'FIVN-US'], 'allIds': ['064TYD-E', 'FIVN-US'], 'reportId': '3539433', 'eventId': '1204467249', 'eventDate': '2026-09-11', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Five9, Inc.(FIVN-US), Goldman Sachs Communacopia + Technology Conference, 11-September-2026 11:50 AM ET', 'storyDateTime': '2026-09-13T23:36:47Z', 'uploadDateTime': '2026-09-14T08:14:55Z', 'eventType': 'ConferencePresentation', 'categories': ['IN:COMPTC', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:EVT"
+  },
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8810360', 'primaryIds': ['064TYD-E', 'FIVN-US'], 'allIds': ['064TYD-E', 'FIVN-US'], 'reportId': '3539433', 'eventId': '1204467249', 'eventDate': '2026-09-11', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Five9, Inc.(FIVN-US), Goldman Sachs Communacopia + Technology Conference, 11-September-2026 11:50 AM ET', 'storyDateTime': '2026-09-13T23:36:47Z', 'uploadDateTime': '2026-09-14T08:14:55Z', 'eventType': 'ConferencePresentation', 'categories': ['IN:COMPTC', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https://api.factset.com/v2/tr",
+  "empty_doc_rows": 69
+ },
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 185,
- "to_process": 10,
+ "already_scored": 17,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 10
+ "scored": 0
 }
