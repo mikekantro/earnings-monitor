@@ -763,7 +763,7 @@ SEC FILING EXCERPT:
 
 
 # ── PMI Storage (JSON file in repo) ──────────────────────────────────────────
-PMI_FILE = os.environ.get("SCORES_FILE", "pmi_scores.json")
+PMI_FILE = os.environ.get("SCORES_FILE") or "pmi_scores.json"
 
 def load_pmi_scores() -> dict:
     """Load accumulated PMI scores from local JSON file."""
