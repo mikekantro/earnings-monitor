@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:04:57.962754",
+ "generated": "2026-10-27T22:29:20.231027",
  "window": [
   "2026-07-15",
   "2026-10-27"
@@ -3106,16 +3106,6 @@
    "event_date": "2026-10-27"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue was up 60% year-over-year",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth, with AI-related revenue up 60% year-over-year.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "JCI",
    "company": "Johnson Controls International Plc",
    "channel": "data_center_construction",
@@ -3174,6 +3164,16 @@
    "direction": "accelerating",
    "headline": "Xylem cites accelerating data-center infrastructure demand driving ultrapure water treatment wins and 200%+ order growth in Applied Water segment.",
    "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth and capacity expansion.",
+   "event_date": "2026-09-30"
   }
  ]
 }

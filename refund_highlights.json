@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:04:00.369078",
+ "generated": "2026-10-27T22:29:07.896593",
  "window": [
   "2026-07-15",
   "2026-10-27"
@@ -880,18 +880,6 @@
    "quote_receiving": "last year it was depressed because we were a taker of the tariff this year. We got a refund of the tariff. So, that elevated our margins.",
    "quote_customers": "",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "PCAR",
-   "company": "PACCAR, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "PACCAR received a net tariff benefit in Q2 2025, including a small IEEPA benefit expected to carry into Q3; no dollar figure disclosed.",
-   "quote_receiving": "there's a little bit of IEEPA benefit in 2Q, but that'll carry forward into 3Q.",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "RAL",
