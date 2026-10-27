@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T15:52:40.505863",
+ "generated": "2026-10-27T16:04:00.369078",
  "window": [
   "2026-07-15",
   "2026-10-27"
@@ -100,18 +100,6 @@
    "quote_receiving": "Operating income also included an $80 million or $0.04 per share net benefit related to the recovery of IEEPA tariffs.",
    "quote_customers": "",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "AWI",
-   "company": "Armstrong World Industries, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$2 million",
-   "headline": "AWI received a $2 million IEEPA tariff refund in Q2 2025; no material additional refunds expected in the back half.",
-   "quote_receiving": "a $2 million increase in manufacturing costs, inclusive of a $2 million benefit from IEEPA tariff refunds",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "AXON",
@@ -594,18 +582,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "HUBB",
-   "company": "Hubbell, Inc.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "undecided",
-   "amount": "$20 million",
-   "headline": "Hubbell expects ~$20M net benefit in Q3 from IEEPA tariff refunds, net of potential customer considerations.",
-   "quote_receiving": "anticipated net benefit of $20 million in the quarter, largely as a result of IEEPA refunds net of potential customer considerations",
-   "quote_customers": "IEEPA refunds net of potential customer considerations and a slight increase in underlying tariff costs from recent changes to the Section 301 tariff framework",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "HZO",
    "company": "MarineMax, Inc.",
    "receiving": true,
@@ -736,18 +712,6 @@
    "quote_receiving": "the non-recurrence of the one-time adjustments to reverse IEEPA-related tariff recoveries and the application of import adjustment credits applied retroactively and recorded in the first quarter",
    "quote_customers": "",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "LECO",
-   "company": "Lincoln Electric Holdings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Lincoln Electric received tariff refunds (primarily Section 232) in Q2 2026; ~100bp EBIT margin benefit noted at Harris Products Group.",
-   "quote_receiving": "we had filed for refunds, we expected overall inflationary pressures in the business and we had incorporated the expected refunds into our pricing actions and our price/cost neutrality projection",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "MAS",
@@ -930,30 +894,6 @@
    "event_date": "2026-07-28"
   },
   {
-   "ticker": "PII",
-   "company": "Polaris Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$74 million",
-   "headline": "Polaris received $74M in IEEPA tariff refunds in Q2 2026, boosting adjusted EPS; excluded from operational adjusted metrics.",
-   "quote_receiving": "our results include a $74 million benefit related to IEEPA refund claims",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
-  },
-  {
-   "ticker": "PNR",
-   "company": "Pentair plc",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$35 million",
-   "headline": "Pentair received ~$35 million in tariff refunds across three segments in Q2 2026, boosting adjusted operating income.",
-   "quote_receiving": "Second quarter adjusted operating income included approximately $35 million of tariff refunds across our three reporting segments.",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "RAL",
    "company": "Ralliant Corp.",
    "receiving": true,
@@ -976,18 +916,6 @@
    "quote_receiving": "the timing of tariff refunds, which temporarily alleviated the impact of ongoing global tariff costs, provided almost 100 basis points of benefit to gross margins this quarter.",
    "quote_customers": "",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "RGEN",
-   "company": "Repligen Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$1 million",
-   "headline": "Repligen received ~$1M tariff refund in Q2 2026, a revenue headwind but margin benefit; full-year tariff impact now below prior 50bp estimate.",
-   "quote_receiving": "we did receive tariff refunds in the quarter that were a slight headwind to both reported and organic growth.",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "RL",
@@ -2320,6 +2248,54 @@
    "quote_receiving": "we expect to realize approximately $100 million in tariff refunds this year, and we're investing about 40% of that benefit in customer value, with the remainder helping to offset higher freight cost.",
    "quote_customers": "",
    "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "HUBB",
+   "company": "Hubbell, Inc.",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "refund_customers",
+   "amount": "$30 million",
+   "headline": "Hubbell received $30M in IEEPA tariff refunds in Q3 2026; ~$10M offset via customer considerations, with ~$5M spilling into Q4.",
+   "quote_receiving": "We did received the $30 million of IEEPA refunds in the quarter as anticipated.",
+   "quote_customers": "we were expecting about $10 million of customer considerations and other, we realized about $5 million of that in 3Q. And about $5 million of that is going to spill over into 4Q.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PII",
+   "company": "Polaris Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$10 million",
+   "headline": "Polaris recorded $10M in IEEPA tariff refunds and related interest in Q3; excluded from adjusted metrics.",
+   "quote_receiving": "We also recorded 10 million in IEEPA tariff refunds and related interest during the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PNR",
+   "company": "Pentair plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$8 million (Q3), $35 million (Q2)",
+   "headline": "Pentair received ~$8M in tariff refunds in Q3 2024, down from $35M in Q2; refunds benefited quarterly results but did not change underlying view.",
+   "quote_receiving": "Adjusted operating income in the quarter included approximately 8 million in tariff refunds, significantly below the $35 million received in Q2.",
+   "quote_customers": "",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "RGEN",
+   "company": "Repligen Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Repligen recognized de minimis tariff refunds in Q3 2026; impact on gross margin was also de minimis.",
+   "quote_receiving": "we recognized de minimis tariff refunds in the quarter",
+   "quote_customers": "",
+   "event_date": "2026-10-27"
   }
  ]
 }

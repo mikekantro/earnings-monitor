@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T15:52:49.829512",
+ "generated": "2026-10-27T16:04:57.962754",
  "window": [
   "2026-07-15",
   "2026-10-27"
@@ -126,16 +126,6 @@
    "event_date": "2026-08-07"
   },
   {
-   "ticker": "AIT",
-   "company": "Applied Industrial Technologies, Inc.",
-   "channel": "equipment_components",
-   "quote": "new business continuing to develop around data centers ... technology vertical represents over 15% of our Engineered Solutions segment today, with related participation across all three areas of the segment, including automation, fluid power, and flow control.",
-   "metric": "technology vertical represents over 15% of Engineered Solutions segment",
-   "direction": "accelerating",
-   "headline": "Applied Industrial Technologies cites emerging data-center business within its technology vertical as a contributor to segment growth.",
-   "event_date": "2026-08-13"
-  },
-  {
    "ticker": "AJG",
    "company": "Arthur J. Gallagher & Co.",
    "channel": "equipment_components",
@@ -214,16 +204,6 @@
    "direction": "accelerating",
    "headline": "AMETEK cites AI-driven semiconductor demand for its optics and metrology systems as a growth driver.",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "AMT",
-   "company": "American Tower Corp.",
-   "channel": "networking_compute",
-   "quote": "AI ... fundamentally will change the way the wireless networks work. It'll require the asymmetry that's built into the networks today, which favors downlink. In an AI world, the machines will be sending us data through the uplink more so than any other technology in the past. That'll be a fundamental shift in the networks that'll have to be built into the networks, which, again, will be, should be amendment cycles for us over time.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "American Tower cites AI-driven uplink capacity demand as a catalyst for future network amendments and revenue cycles.",
-   "event_date": "2026-09-10"
   },
   {
    "ticker": "AMTM",
@@ -404,16 +384,6 @@
    "direction": "accelerating",
    "headline": "Avnet cites AI-infrastructure demand as accelerating semiconductor and component sales across data center and broader end markets.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "AWI",
-   "company": "Armstrong World Industries, Inc.",
-   "channel": "data_center_construction",
-   "quote": "the data center market represents another focus area for growth ... we have expanded into structural grid and containment offerings to capture more share within these projects. With a broader solution set for data centers, we are positioned to more effectively serve demand from hyperscalers, co-locators and enterprise customers, and we're seeing healthy growth in both our project quoting and intake pipelines with wins year to date in 2026, increasing more than 50% compared to last year.",
-   "metric": "wins year to date in 2026, increasing more than 50% compared to last year",
-   "direction": "accelerating",
-   "headline": "Armstrong World Industries cites expanding data center infrastructure demand driving 50%+ year-over-year growth in project wins and quoting pipelines.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "BDC",
@@ -634,16 +604,6 @@
    "direction": "accelerating",
    "headline": "Cummins cites accelerating data-center demand as primary driver of 19% growth in North America power generation revenues.",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "CNP",
-   "company": "CenterPoint Energy, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "14 gigawatts of projects eligible for Batch Zero would represent over a 65% increase in our system's peak demand ... we expect nearly all of these projects to be energized by the end of 2030, extending our industry-leading growth trajectory well into the next decade.",
-   "metric": "14 gigawatts of eligible base load and studied load projects; 65% increase in system peak demand",
-   "direction": "accelerating",
-   "headline": "CenterPoint Energy cites 14 gigawatts of large-load AI and data-center customer projects as driver of 65% system peak demand increase and accelerated capital investment plan.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "CNR",
@@ -1236,16 +1196,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "GLW",
-   "company": "Corning, Inc.",
-   "channel": "networking_compute",
-   "quote": "what's driving our sales today, let's say 2025, 2026 into 2027 is scale out of the network, larger data centers, more GPUs. Those GPUs need to be connected to each other. So much more fiber is being sold.",
-   "metric": "$1 billion a year (data center interconnect opportunity, sooner than end of decade); $10 billion CPO/photonics business by end of decade",
-   "direction": "accelerating",
-   "headline": "Corning cites AI data-center buildout\u2014larger clusters, more GPUs, and scale-out networking\u2014as the primary driver of its optical fiber and connectivity sales growth in 2025\u20132027.",
-   "event_date": "2026-09-09"
-  },
-  {
    "ticker": "GNRC",
    "company": "Generac Holdings, Inc.",
    "channel": "equipment_components",
@@ -1296,16 +1246,6 @@
    "event_date": "2026-09-09"
   },
   {
-   "ticker": "HLT",
-   "company": "Hilton Worldwide Holdings, Inc.",
-   "channel": "power_energy",
-   "quote": "We expect US RevPAR to continue to benefit from macro tailwinds, including supportive tax and regulatory policy, increased private sector investment in the AI complex, and ongoing public infrastructure spending, which should benefit the middle and lower income consumer and drive broader demand growth across our system",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Hilton cites increased private sector investment in AI complex and infrastructure spending as drivers of expected US RevPAR growth and broader demand.",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "HPE",
    "company": "Hewlett Packard Enterprise Co.",
    "channel": "networking_compute",
@@ -1314,16 +1254,6 @@
    "direction": "accelerating",
    "headline": "HPE management links AI data-center networking demand directly to its Networks for AI business, raising the fiscal 2026 order target to $2.5\u2013$3 billion.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "HUBB",
-   "company": "Hubbell, Inc.",
-   "channel": "power_energy",
-   "quote": "orders and quoting activity for transmission and substation projects, driven by load growth and datacenter buildouts",
-   "metric": "book-to-bill ratio of approximately 1.2 times for Utility Solutions",
-   "direction": "accelerating",
-   "headline": "Hubbell cites datacenter buildouts and load growth as drivers of transmission and substation order strength in utility infrastructure markets.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "ICHR",
@@ -1404,16 +1334,6 @@
    "direction": "accelerating",
    "headline": "Jacobs Solutions cites AI data center buildout as growing revenue driver, representing 11% of adjusted net revenue with 100 basis point quarter-over-quarter increase.",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "JCI",
-   "company": "Johnson Controls International Plc",
-   "channel": "cooling_thermal",
-   "quote": "As AI infrastructure scales, customers are increasingly focused on maximizing computing capacity from available power... these efficiency gains support additional AI computing capacity without increasing onsite power generation, creating the potential for billions of dollars of additional revenue over the life of a 1-gigawatt facility.",
-   "metric": "potential for billions of dollars of additional revenue over the life of a 1-gigawatt facility",
-   "direction": "accelerating",
-   "headline": "Johnson Controls cites AI infrastructure scaling and data-center thermal management demand as driver of cooling solutions revenue and margin expansion.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "JLL",
@@ -1816,16 +1736,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "NUE",
-   "company": "Nucor Corp.",
-   "channel": "equipment_components",
-   "quote": "Within sheet, underlying demand is strong and we expect that to continue into 2027, led by energy, advanced manufacturing, and data centers.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Nucor cites data-center demand as a driver of sheet steel shipment growth and outlook into 2027.",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "NVDA",
    "company": "NVIDIA Corp.",
    "channel": "hyperscaler_platform",
@@ -1956,16 +1866,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "PII",
-   "company": "Polaris Inc.",
-   "channel": "equipment_components",
-   "quote": "Commercial remains a clear bright spot delivering solid revenue growth in the quarter, driven by strong infrastructure-related demand, particularly from data center construction projects.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Polaris Inc. cites data-center construction demand as a driver of its commercial business revenue growth.",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "PLUS",
    "company": "ePlus, Inc.",
    "channel": "equipment_components",
@@ -1984,16 +1884,6 @@
    "direction": "accelerating",
    "headline": "Plexus Corp. won a new program to manufacture battery energy storage systems for data-center customers, cited as part of robust industrial-sector growth.",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "PNR",
-   "company": "Pentair plc",
-   "channel": "cooling_thermal",
-   "quote": "Importantly, this transaction significantly strengthens our positions in attractive, high-growth commercial end markets, including HVAC, data centers and related infrastructure build-outs. Demand for solutions in these markets is supported by key secular trends, including infrastructure investment, digital infrastructure and the AI revolution...",
-   "metric": "Data centers represent approximately 15% of Taco's commercial and industrial revenue, with a significant pipeline of opportunities expected to support accelerating growth.",
-   "direction": "accelerating",
-   "headline": "Pentair cites AI-driven data-center infrastructure buildout as a growth driver for its Taco acquisition in HVAC and cooling solutions.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "PNW",
@@ -2204,16 +2094,6 @@
    "direction": "accelerating",
    "headline": "Shenandoah Telecommunications cites hyperscaler data-center connectivity opportunity leveraging existing fiber assets in Ohio and Virginia markets.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "SHW",
-   "company": "The Sherwin-Williams Co.",
-   "channel": "equipment_components",
-   "quote": "Data centers, semiconductor infrastructure and manufacturing onshoring are among several drivers of this growth, where customers continue turning to Sherwin-Williams for a suite of solutions that can be delivered quickly and consistently.",
-   "metric": "eighth straight quarter of at least high-single-digit growth in this business",
-   "direction": "accelerating",
-   "headline": "Sherwin-Williams cites data-center construction and semiconductor infrastructure as drivers of protective and marine coatings growth.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "SITM",
@@ -2676,16 +2556,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "CMS",
-   "company": "CMS Energy Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "On the data center front, we have made meaningful progress and have taken an additional step reaching an agreement under our large load tariff... we will incorporate the load growth associated with the agreement into our integrated resource plan or IRP, which we'll file in September.",
-   "metric": "load growth to be incorporated into IRP; earlier reference to \"one of the most constructive frameworks in the country for data center growth\"",
-   "direction": "accelerating",
-   "headline": "CMS Energy cites data-center load agreement and large load tariff as driver of Michigan utility growth incorporated into integrated resource plan filing.",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "NXT",
    "company": "Nextpower, Inc.",
    "channel": "equipment_components",
@@ -2694,16 +2564,6 @@
    "direction": "accelerating",
    "headline": "Nextpower cites AI data-center demand as a driver of global electricity demand that its solar tracking and energy infrastructure technologies are positioned to address.",
    "event_date": "2026-08-18"
-  },
-  {
-   "ticker": "XYL",
-   "company": "Xylem, Inc.",
-   "channel": "equipment_components",
-   "quote": "the AI ecosystem build-out is increasing the strategic importance of water across a broader set of end markets ... We're already supporting data centers through wins with hyperscalers, HVAC OEMs and infrastructure partners. And this year's revenue is expected to increase by approximately 200%.",
-   "metric": "revenue expected to increase by approximately 200%",
-   "direction": "accelerating",
-   "headline": "Xylem cites AI-infrastructure data-center demand as driver of Applied Water segment revenue, expecting 200% growth this year.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "PENG",
@@ -3166,14 +3026,154 @@
    "event_date": "2026-10-22"
   },
   {
+   "ticker": "AIT",
+   "company": "Applied Industrial Technologies, Inc.",
+   "channel": "equipment_components",
+   "quote": "our deep capabilities and strategic supplier relationships across areas of fluid conveyance, pneumatics, industrial power, process flow control and robotics are opening up new addressable markets, supporting the buildout of advanced industrial systems and related energy infrastructure as AI proliferates",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Applied Industrial Technologies cites AI infrastructure buildout driving demand for fluid power, robotics, and related industrial systems across new addressable markets.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "AMT",
+   "company": "American Tower Corp.",
+   "channel": "networking_compute",
+   "quote": "AI traffic to grow three times faster than traditional wireless traffic, and account for nearly one-third of broadband traffic by 2034... Supporting these use cases will require additional spectrum, network capacity, lower latency, and greater density.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "American Tower cites AI-driven traffic growth as a driver of increased wireless network density and infrastructure demand supporting its tower business.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "AWI",
+   "company": "Armstrong World Industries, Inc.",
+   "channel": "data_center_construction",
+   "quote": "In data centers, we are applying Armstrong's established strengths in specification, systems, technical support and installation efficiency to an attractive growing vertical ... our complete set of structural grid, containment, and integrated Mineral Fiber solutions can improve building efficiency and installation speed.",
+   "metric": "ceiling and DynaMax structural grid data center sales have exceeded our full year revenue plans",
+   "direction": "accelerating",
+   "headline": "Armstrong World Industries cites data-center infrastructure demand as a driver of ceiling and structural grid sales growth, with sales exceeding full-year plans.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "CMS",
+   "company": "CMS Energy Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "we've added approximately 745 megawatts of new contracts in our service territory and we've energized more than half of that load or approximately 450 megawatts. Essentially, we're adding the equivalent of a large data center through primarily the manufacturing and semiconductor industries",
+   "metric": "745 megawatts of new contracts signed, 450 megawatts energized",
+   "direction": "accelerating",
+   "headline": "CMS Energy cites large load growth from data centers and manufacturing as driver of contracted capacity and revenue opportunities.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "CNP",
+   "company": "CenterPoint Energy, Inc.",
+   "channel": "power_energy",
+   "quote": "many of the large hyperscalers are long shifts in short power, so having 700 megawatts that is readily is incredibly attractive. We look at we're looking to secure that and then grow from there in the region.",
+   "metric": "1.4 gigawatts",
+   "direction": "accelerating",
+   "headline": "CenterPoint Energy cites hyperscaler power demand as a driver of large-load customer growth in Indiana, with up to 1.4 gigawatts of capacity targeted for that demand.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "GLW",
+   "company": "Corning, Inc.",
+   "channel": "networking_compute",
+   "quote": "Gen AI product sales growing more than 100% year-over-year, significantly outpacing GPU unit growth. This was driven by the rapid and broader adoption of our innovations and enabled by our steady capacity additions.",
+   "metric": "Gen AI product sales growing more than 100% year-over-year",
+   "direction": "accelerating",
+   "headline": "Corning cites AI-driven GPU demand and data-center networking buildout as driver of Enterprise segment sales acceleration exceeding 100% year-over-year.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "HRI",
+   "company": "Herc Holdings, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Our top line growth continues to be led by national accounts, fueled by robust mega project activity across data centers, infrastructure, manufacturing and energy.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Herc Holdings cites robust mega project activity in data centers as a driver of national account growth and rental revenue expansion.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "HUBB",
+   "company": "Hubbell, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Data center sales increased over 80% on an organic basis in the third quarter as content gains, new product introductions and capacity additions drove outgrowth in a strong underlying market.",
+   "metric": "Data center sales increased over 80% on an organic basis in the third quarter",
+   "direction": "accelerating",
+   "headline": "Hubbell cites data-center buildout as driver of 80%+ organic growth in electrical-solutions segment in Q3 2026.",
+   "event_date": "2026-10-27"
+  },
+  {
    "ticker": "JBL",
    "company": "Jabil, Inc.",
    "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue was up 60% year-over-year",
    "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand driving 60% growth in AI-related revenue and driving Intelligent Infrastructure segment upside.",
+   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth, with AI-related revenue up 60% year-over-year.",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "JCI",
+   "company": "Johnson Controls International Plc",
+   "channel": "data_center_construction",
+   "quote": "Our portfolio brings together integrated thermal management and controls with liquid cooling technologies, including cooling distribution units and cold plates for data centers... As data center architectures continue to evolve, we see additional opportunity in modular data centers.",
+   "metric": "backlog grew 43% to a record $23 billion",
+   "direction": "accelerating",
+   "headline": "Johnson Controls cites data-center construction demand, including modular data centers and liquid cooling, as driver of record $23B backlog and 43% backlog growth.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "NUE",
+   "company": "Nucor Corp.",
+   "channel": "data_center_construction",
+   "quote": "data center construction activity has gone from a small niche to a significant driver of non-residential building construction activity ... today, with the acquisition of Southwest data products, our Nucor warehouse systems, our capability set in our buildings, plate, structural tool, group, all are now combining where today Nucor can make or supply roughly 95% of all the steel required inside of an outside of a data center today.",
+   "metric": "~15% of backlog; 95% of steel required for data centers",
+   "direction": "accelerating",
+   "headline": "Nucor cites data-center construction as significant driver of non-residential building and notes capability to supply ~95% of steel required for data-center projects.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PII",
+   "company": "Polaris Inc.",
+   "channel": "equipment_components",
+   "quote": "Commercial demand is tied to infrastructure and data center construction, and these construction contractors rely on our purpose built vehicles and our parts support to keep their projects running.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Polaris Inc. cites data center construction and infrastructure projects as drivers of commercial vehicle demand and growth.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "PNR",
+   "company": "Pentair plc",
+   "channel": "equipment_components",
+   "quote": "Taco's established positions in data centers, schools, hospitals, universities, commercial buildings, and other mission critical water and HVAC systems.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "Pentair cites data-center presence as strategic benefit of Taco acquisition in water circulation and hydronic flow control.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "SHW",
+   "company": "The Sherwin-Williams Co.",
+   "channel": "data_center_construction",
+   "quote": "This team's combination of technical expertise and fast, reliable service continues to win business in multiple end markets, including AI infrastructure, energy, water treatment, manufacturing, and processing.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Sherwin-Williams cites AI infrastructure as a growth driver for its Protective & Marine business, which delivered nine straight quarters of high single-digit or better growth.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "XYL",
+   "company": "Xylem, Inc.",
+   "channel": "data_center_construction",
+   "quote": "treatment solutions for data center infrastructure projects at scale ... we secured a significant win with a new customer in one of the world's leading semiconductor manufacturers, providing advanced ultrapure water treatment technology for a critical US fabrication facility",
+   "metric": "Data Center Orders in Q3 were again up over 200%",
+   "direction": "accelerating",
+   "headline": "Xylem cites accelerating data-center infrastructure demand driving ultrapure water treatment wins and 200%+ order growth in Applied Water segment.",
+   "event_date": "2026-10-27"
   }
  ]
 }
