@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T13:20:20.236582",
+ "generated": "2026-10-27T15:52:49.829512",
  "window": [
   "2026-07-15",
   "2026-10-27"
@@ -3046,16 +3046,6 @@
    "event_date": "2026-10-22"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "Demand for AI infrastructure remains strong and continues to accelerate. As customers expand their infrastructure, the systems they need are becoming more complex.",
-   "metric": "AI-related revenue was up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscaler customers as a driver of Intelligent Infrastructure segment revenue growth of 60% year-over-year in AI-related revenue.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "LBRT",
    "company": "Liberty Energy, Inc.",
    "channel": "power_energy",
@@ -3174,6 +3164,16 @@
    "direction": "accelerating",
    "headline": "Wyndham Hotels cites AI data-center and infrastructure projects as drivers of midweek demand strength in regional markets.",
    "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand driving 60% growth in AI-related revenue and driving Intelligent Infrastructure segment upside.",
+   "event_date": "2026-09-30"
   }
  ]
 }
