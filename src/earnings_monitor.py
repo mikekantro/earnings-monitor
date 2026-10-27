@@ -164,6 +164,42 @@ def get_todays_earnings() -> list[dict]:
         if r["symbol"] not in seen:
             seen.add(r["symbol"])
             unique.append(r)
+    # Calendar entitlement lost (Oct 2026): when the calendar comes back empty with
+    # errors, discover reporters from the transcripts feed itself.
+    if not unique and _derr:
+        print("   Calendar unavailable — falling back to transcripts-feed discovery")
+        _fb_seen = set()
+        for _off in range(0, 8000, 1000):
+            try:
+                _r = requests.post(f"{FS_BASE}/transcripts", auth=FS_AUTH, headers=HEADERS,
+                        json={"data": {"startDate": start_str[:10], "endDate": end_str[:10],
+                                       "dateType": "storyDateTime"},
+                              "meta": {"pagination": {"limit": 1000, "offset": _off},
+                                       "sort": ["-storyDateTime"]}}, timeout=30)
+                _r.raise_for_status()
+                _items = _r.json().get("data", [])
+            except Exception as _fe:
+                _derr.append(f"fallback offset {_off}: {type(_fe).__name__}: {_fe}")
+                break
+            for _it in _items:
+                if (_it.get("eventType") or "") != "Earnings":
+                    continue
+                _pids = _it.get("primaryIds") or []
+                if not _pids: continue
+                _t = str(_pids[0]).split(",")[0].replace("-US", "").strip()
+                if _t not in SP500 or _t in _fb_seen: continue
+                _fb_seen.add(_t)
+                _hl = _it.get("headline") or ""
+                _nm = _hl.split("(")[0].split(":")[-1].strip() or _t
+                unique.append({"symbol": _t, "name": _nm,
+                               "eventId": str(_it.get("eventId") or ""),
+                               "reportId": str(_it.get("reportId") or ""),
+                               "quarter": "", "eventType": "Earnings"})
+            if len(_items) < 1000:
+                break
+            time.sleep(0.3)
+        print(f"   fallback discovered {len(unique)} reporters in window")
+
     # probe the transcripts endpoint too, to scope the 403
     _tprobe = ""
     try:
@@ -178,7 +214,7 @@ def get_todays_earnings() -> list[dict]:
     import json as _dj
     _dj.dump({"stage": "calendar", "window": [start_str, end_str], "universe": len(symbols),
               "raw_events": len(results), "unique": len(unique),
-              "transcripts_probe": _tprobe, "errors": _derr[:4]},
+              "transcripts_probe": _tprobe, "fallback_events": len(unique), "errors": _derr[:4]},
              open("digest_diag.json", "w"), indent=1)
     return unique
 
