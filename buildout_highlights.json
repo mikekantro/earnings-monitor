@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T00:36:47.482873",
+ "generated": "2026-10-28T16:38:05.514014",
  "window": [
   "2026-07-15",
   "2026-10-28"
@@ -866,16 +866,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "ECL",
-   "company": "Ecolab, Inc.",
-   "channel": "cooling_thermal",
-   "quote": "Global High-Tech accelerated to 29%, reflecting very strong demand across both microelectronics and data centers driven by the rapid build-out of AI infrastructure.",
-   "metric": "29% growth in Global High-Tech; approaching $1.5 billion in annualized sales; targeting $4 billion by 2030",
-   "direction": "accelerating",
-   "headline": "Ecolab cites AI infrastructure buildout as driver of 29% acceleration in Global High-Tech segment, with data-center cooling demand fueling growth toward $4B revenue target.",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "EFOR",
    "company": "Everforth, Inc.",
    "channel": "data_center_construction",
@@ -914,16 +904,6 @@
    "direction": "accelerating",
    "headline": "Emerson Electric cites data-center-driven behind-the-meter power demand as a driver of Power segment participation gains.",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "ENPH",
-   "company": "Enphase Energy, Inc.",
-   "channel": "equipment_components",
-   "quote": "The rapid build-out of AI infrastructure is reshaping data center power architecture as rack densities rise from approximately 150 kilowatts today towards 1 megawatt and beyond... IQ SST is designed to meet that need by converting 13.8 Kv or 34.5 Kv medium voltage AC directly to 800-volt DC.",
-   "metric": "potential demand totaling multiple gigawatts",
-   "direction": "accelerating",
-   "headline": "Enphase Energy cites rapid AI data-center infrastructure buildout as driver of demand for its IQ Solid-State Transformer equipment, with multiple gigawatts of potential customer engagements.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "ENS",
@@ -1756,16 +1736,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "NXPI",
-   "company": "NXP Semiconductors NV",
-   "channel": "data_center_construction",
-   "quote": "the data center, invest at least portfolio for us as particularly the control plane. These are top of racks, which is in processing that goes into the boards that handles and monitors the well-being of the rack ... This business has grown, and will grow. We provided a guidance this year of $500 million, growing from $200 million last year",
-   "metric": "$500 million in data center revenue guidance this year, growing from $200 million last year",
-   "direction": "accelerating",
-   "headline": "NXP Semiconductors cites data-center control-plane demand as driver of business growth, guiding data-center revenue to $500M from $200M year-over-year.",
-   "event_date": "2026-09-09"
-  },
-  {
    "ticker": "OC",
    "company": "Owens Corning",
    "channel": "equipment_components",
@@ -1986,16 +1956,6 @@
    "event_date": "2026-09-15"
   },
   {
-   "ticker": "ROG",
-   "company": "Rogers Corp.",
-   "channel": "cooling_thermal",
-   "quote": "customer validation of our micro-channel cooler technology for high power AI and data center applications continues to advance with multiple customers ... We are making substantial progress with our customers and feedback on the differentiated performance of our solutions remain highly encouraging.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Rogers Corp. cites advancing customer validation of micro-channel cooler technology for AI and data-center thermal management as a growth driver.",
-   "event_date": "2026-07-28"
-  },
-  {
    "ticker": "ROK",
    "company": "Rockwell Automation, Inc.",
    "channel": "data_center_construction",
@@ -2176,16 +2136,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "ST",
-   "company": "Sensata Technologies Holding Plc",
-   "channel": "equipment_components",
-   "quote": "sensors supporting onsite power generation for data centers contribute nearly 1 point of growth in the quarter, and we expect that contribution to continue in the second half and accelerate in 2027. As onsite power becomes more common in new data center builds, it is creating attractive demand for our diesel engine solutions, including cylinder pressure and high-temperature sensing.",
-   "metric": "nearly 1 point of growth in Q2; expected acceleration in 2027",
-   "direction": "accelerating",
-   "headline": "Sensata Technologies cites data-center onsite power generation demand as driver of growth in diesel engine sensing solutions, with acceleration expected in 2027.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "STAG",
    "company": "STAG Industrial, Inc.",
    "channel": "equipment_components",
@@ -2204,16 +2154,6 @@
    "direction": "accelerating",
    "headline": "Sterling Infrastructure cites AI data-center site development and electrical buildout as driver of revenue and multi-year project visibility.",
    "event_date": "2026-09-15"
-  },
-  {
-   "ticker": "STX",
-   "company": "Seagate Technology Holdings Plc",
-   "channel": "equipment_components",
-   "quote": "the growth in the CapEx is signaling still being in a first part or the phase of AI investment and therefore for what we're concerned on investment in storage, in data storage, especially in the big public cloud and more recently, I would say, even more on on-prem data center",
-   "metric": "80% of revenue from data center segment",
-   "direction": "accelerating",
-   "headline": "Seagate cites AI infrastructure investment in public cloud and on-prem data centers as driver of storage demand and revenue growth.",
-   "event_date": "2026-09-10"
   },
   {
    "ticker": "SWK",
@@ -2366,16 +2306,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "UCTT",
-   "company": "Ultra Clean Holdings, Inc.",
-   "channel": "equipment_components",
-   "quote": "Momentum is building as AI-driven investment reshaped the semiconductor capital equipment landscape, driving increased volume and complexity in the system and components our customers require ... every layer of semiconductor manufacturing must scale to support this next wave of infrastructure investment and AI chip demand expansion beyond GPU and HBM.",
-   "metric": "$4 billion annualized revenue run rate with $200 billion WFE by the middle of 2027",
-   "direction": "accelerating",
-   "headline": "Ultra Clean Holdings cites AI-infrastructure demand and semiconductor manufacturing scale-up as driver of equipment component revenue growth and capacity expansion.",
-   "event_date": "2026-08-03"
-  },
-  {
    "ticker": "UGI",
    "company": "UGI Corp.",
    "channel": "power_energy",
@@ -2494,16 +2424,6 @@
    "direction": "accelerating",
    "headline": "WEC Energy Group cites 2.6 gigawatt AI data-center demand forecast through 2030 as driver of capital plan expansion in Wisconsin.",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "WERN",
-   "company": "Werner Enterprises, Inc.",
-   "channel": "data_center_construction",
-   "quote": "not much to point to in terms of demand outside some of the tech and... and data center build out.",
-   "metric": null,
-   "direction": "steady",
-   "headline": "Werner Enterprises cites data center buildout as a source of freight demand alongside steady tech sector activity.",
-   "event_date": "2026-09-15"
   },
   {
    "ticker": "WLK",
@@ -3166,14 +3086,84 @@
    "event_date": "2026-10-27"
   },
   {
+   "ticker": "ECL",
+   "company": "Ecolab, Inc.",
+   "channel": "equipment_components",
+   "quote": "Growth remains very strong across both data center cooling and circular water for microelectronics, as AI infrastructure rapidly expands around the world. At the heart of AI is water. Water is required to produce, to power, and to cool chips.",
+   "metric": "63% organic sales growth in Global High-Tech; $4 billion sales target by 2030; 25% operating income margin target",
+   "direction": "accelerating",
+   "headline": "Ecolab cites AI-infrastructure expansion driving 63% organic growth in Global High-Tech segment, with data-center cooling and microelectronics water systems as key beneficiaries.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ENPH",
+   "company": "Enphase Energy, Inc.",
+   "channel": "data_center_construction",
+   "quote": "This is particularly compelling in communities near data centers, where distributed batteries can help manage growing electricity demand, while providing financial benefits to homeowners... By 2030, we believe IQ SST has the potential to become a $1 billion annual revenue business for Enphase in the data center market alone.",
+   "metric": "$1 billion annual revenue business potential by 2030",
+   "direction": "accelerating",
+   "headline": "Enphase Energy cites AI data-center infrastructure demand as a major growth driver for its IQ Solid-State Transformer product with $1B revenue potential by 2030.",
+   "event_date": "2026-10-27"
+  },
+  {
    "ticker": "JBL",
    "company": "Jabil, Inc.",
    "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue was up 60% year-over-year, four customers with AI-related revenue above $1 billion annually",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... AI-related revenue was up 60% year-over-year",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
    "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth and capacity expansion.",
+   "headline": "Jabil cites AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth, with AI-related revenue up 60% year-over-year and expanding customer base.",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "NXPI",
+   "company": "NXP Semiconductors NV",
+   "channel": "equipment_components",
+   "quote": "Given the strength we're seeing year-to-date, we now expect our revenue to exceed the $500 million outlook provided earlier this year. Given the new products we're developing, combined with expanding customer engagements, we now expect this business to be over $1 billion in a couple of years.",
+   "metric": "data center revenue >$500M in 2026, >$1B in ~2 years",
+   "direction": "accelerating",
+   "headline": "NXP Semiconductors raised its data-center revenue outlook above $500M for 2026 and projects over $1B within a couple of years, driven by expanding products and customer engagements in data-center infrastructure.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ROG",
+   "company": "Rogers Corp.",
+   "channel": "data_center_construction",
+   "quote": "These programs leverage capabilities where Rogers has established technical expertise and are designed to address increasing demand requirements in AI data centers.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Rogers Corp. cites increasing demand requirements in AI data centers as a driver for its signal integrity, chip cooling, and elastomeric materials product programs.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ST",
+   "company": "Sensata Technologies Holding Plc",
+   "channel": "data_center_construction",
+   "quote": "data center revenue from sensing and electrical protection spans two segments ... Together, these businesses generated $27 million of revenue in 2025, and we expect $48 million of revenue in 2026, representing annual growth of 76%.",
+   "metric": "$27 million in 2025, $48 million expected in 2026, representing 76% annual growth",
+   "direction": "accelerating",
+   "headline": "Sensata Technologies cites accelerating data-center construction demand driving 76% growth in sensing and electrical protection revenue.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "STX",
+   "company": "Seagate Technology Holdings Plc",
+   "channel": "hyperscaler_platform",
+   "quote": "Data growth is profound across a wide variety of applications ... AI innovations are amplifying this dynamic. As AI adoption expands beyond model training and toward inference and agentic applications, persistent data becomes increasingly important.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Seagate cites AI inference and agentic applications driving persistent data storage demand for hyperscalers.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "UCTT",
+   "company": "Ultra Clean Holdings, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI demand continue to deliver strong investment across the semiconductor ecosystem, with the world's leading chipmakers and equipment companies expanding capacity to support multi-year AI growth ... Leading edge foundries are adding capacity on new nodes. Memory makers are adding clear room space and fab capacity for DRAM and next-gen HBM. And advanced packaging is growing rapidly to fulfill the HBM demand. These are the areas where UCT is the strongest.",
+   "metric": "2027 wafer fab equipment spending to be above $200 billion",
+   "direction": "accelerating",
+   "headline": "Ultra Clean Holdings cites AI-driven semiconductor capacity expansion and HBM demand as drivers of equipment component sales and 2027 WFE outlook above $200 billion.",
+   "event_date": "2026-10-27"
   }
  ]
 }

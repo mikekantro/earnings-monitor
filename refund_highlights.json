@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T00:36:42.397681",
+ "generated": "2026-10-28T16:37:20.855552",
  "window": [
   "2026-07-15",
   "2026-10-28"
@@ -352,18 +352,6 @@
    "quote_receiving": "we got $82 million in the quarter. We continue to file some claims. Just a reminder that we are accounting for those on a cash basis as we get on and we report them in cost of sales.",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "ENPH",
-   "company": "Enphase Energy, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "na",
-   "amount": "$52 million",
-   "headline": "Enphase received ~$41M in IEEPA tariff refunds from CBP in Q2 2026, with $11M more after quarter end, totaling $52M impact on GAAP results.",
-   "quote_receiving": "We received tariff refunds of approximately $41 million from US Customs and Border Protection or CBP in the second quarter, with another $11 million received after the quarter end.",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "ENR",
@@ -1011,18 +999,6 @@
    "headline": "Sonos received $24M in IEEPA tariff refunds in Q3; $23M recorded as GAAP gross profit benefit, $1M as interest income.",
    "quote_receiving": "Of the $41 million in claim we filed, we received $24 million in Q3. Of that amount, $23 million was principal recovery and recorded as a benefit to GAAP gross profit",
    "quote_customers": "",
-   "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "ST",
-   "company": "Sensata Technologies Holding Plc",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Sensata excludes potential IEEPA tariff refunds from Q3 guidance; no decision made on passing refunds to customers.",
-   "quote_receiving": "Our third quarter guidance does not include any potential tariff refunds related to the recent IEEPA tariff rulings",
-   "quote_customers": "nor does it reflect any possible pass-through of such refunds",
    "event_date": "2026-07-29"
   },
   {
@@ -2282,6 +2258,18 @@
    "amount": null,
    "headline": "Repligen recognized de minimis tariff refunds in Q3 2026; impact on gross margin was also de minimis.",
    "quote_receiving": "we recognized de minimis tariff refunds in the quarter",
+   "quote_customers": "",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "ENPH",
+   "company": "Enphase Energy, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Enphase received IEEPA tariff refunds in Q2 2026, boosting GAAP gross margin by 15.6 percentage points that quarter.",
+   "quote_receiving": "Q2's GAAP gross margin was positively impacted by 15.6 percentage points for the IEEPA tariff refunds received.",
    "quote_customers": "",
    "event_date": "2026-10-27"
   }
