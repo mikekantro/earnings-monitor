@@ -3923,7 +3923,88 @@
    "quote": "the technology platforms, whether it's with AI or digital and the connectivity we're bringing across our brands, we feel very confident that we're going to get a greater share of our guests and our customers vacation wallet",
    "metric": null,
    "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "LSTR",
+   "company": "Landstar System, Inc.",
+   "category": "efficiency",
+   "headline": "Landstar deploys agentic AI workflows in 8 agent offices and AI-powered corporate support across broader agent network.",
+   "quote": "Agentic AI workflows are now actively deployed in eight independent agent offices and AI-powered corporate support capabilities have been deployed across our broader agent network.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CSGP",
+   "company": "CoStar Group, Inc.",
+   "category": "efficiency",
+   "headline": "CoStar launches AI-driven tenant research agents claiming 10x researcher productivity and single-digit error rates",
+   "quote": "We are launching a transformative new AI-driven research process for CoStar Tenant that I believe can expand the productivity of our tenant researchers more than 10-fold",
+   "metric": "10x researcher productivity; single-digit error rates vs 75% for public-data-only AI",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FFIV",
+   "company": "F5, Inc.",
+   "category": "efficiency",
+   "headline": "F5 uses AI to scan 140M+ lines of its own code and remediate vulnerabilities, compressing 7 years of fixes into 3 months.",
+   "quote": "We are continuously scanning more than 140 million lines of code with F5-built AI harnesses and leveraging AI to remediate thousands of vulnerabilities.",
+   "metric": "7 years of engineering fixes implemented in 3 months",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ENPH",
+   "company": "Enphase Energy, Inc.",
+   "category": "efficiency",
+   "headline": "Enphase AI assistant rolled out to all homeowners worldwide and now expanding to installers for fleet management.",
+   "quote": "Our AI assistant has been rolled out to all our homeowners worldwide, and we are now rolling it to Enphase installers in this quarter to help them manage their fleet.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "V",
+   "company": "Visa Inc.",
+   "category": "efficiency",
+   "headline": "Visa's agentic toolchain cut product build time dramatically; 60%+ of engineering teams adopted it.",
+   "quote": "the Visa Stablecoin Platform enablement for O-USD was designed, built, and shipped in seven weeks with 12 people. This would have taken much, much longer and required many more people without utilizing our agentic toolchain.",
+   "metric": "60%+ of global product development and engineering teams adopted the agentic toolchain",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "MANH",
+   "company": "Manhattan Associates, Inc.",
+   "category": "product",
+   "headline": "Manhattan Associates embeds agentic AI into its ActivePlatform, sold as Active AI subscription to supply chain customers.",
+   "quote": "our Active AI offering consists of two primary elements: a set of base agents ready to be activated immediately; and then our Agent Foundry, which enables our customers to quickly build and deploy their own agents.",
+   "metric": "100% conversion success from AI pilot to AI subscription",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "NXPI",
+   "company": "NXP Semiconductors NV",
+   "category": "product",
+   "headline": "NXP sells AI-enabled processors and discrete NPU (Ara) for industrial automation and automotive AI applications.",
+   "quote": "AI-enabled processors will represent approximately 15% of Industrial & IoT processor revenue in 2026, more than doubling from last year.",
+   "metric": "~15% of Industrial & IoT processor revenue in 2026, more than doubling year-over-year",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "HOOD",
+   "company": "Robinhood Markets, Inc.",
+   "category": "revenue",
+   "headline": "Robinhood launched agentic trading in-app with $250M+ in agentic accounts, enabling AI agents to trade on behalf of customers.",
+   "quote": "customers have over 250 million in agentic accounts. Remember, this is the account started zero. So you have to make a choice to move money into them.",
+   "metric": "$250M in agentic accounts",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ECL",
+   "company": "Ecolab, Inc.",
+   "category": "product",
+   "headline": "Ecolab embeds digital/AI-driven monitoring in pest and water solutions sold to customers, driving 34% digital sales growth.",
+   "quote": "Pest intelligence today connects over 800,000 devices. Around the clock monitoring and predictive insights help our team identify issues sooner and target service more precisely.",
+   "metric": "34% digital sales growth",
+   "event_date": "2026-10-28"
   }
  ],
- "updated": "2026-10-27T22:28:03"
+ "updated": "2026-10-28T06:37:25"
 }

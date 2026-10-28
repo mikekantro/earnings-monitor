@@ -1,41 +1,20 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-07-01T00:00:00Z",
-  "2026-09-30T23:59:59Z"
+  "2026-10-16T00:00:00Z",
+  "2026-10-28T23:59:59Z"
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 30,
+ "unique": 199,
  "transcripts_probe": "200",
- "fallback_events": 30,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    47
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'SLAB-US', 'documents': []}"
-  },
-  "empty_doc_rows": 69,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8818430', 'primaryIds': ['0035K2-E', 'JPM-US'], 'allIds': ['0035K2-E', 'JPM-US'], 'reportId': '3530836', 'eventId': '1204446630', 'eventDate': '2026-09-15', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: JPMorgan Chase & Co.(JPM-US), Barclays Global Financial Services Conference, 15-September-2026 2:45 PM ET', 'storyDateTime': '2026-09-15T23:15:10Z', 'uploadDateTime': '2026-09-17T21:51:11Z', 'eventType': 'ConferencePresentation', 'categories': ['LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:FNLSVC', 'IN:SECS', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factse"
- },
+ "fallback_events": 199,
+ "targeted": {},
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 22,
- "to_process": 8,
+ "already_scored": 182,
+ "to_process": 17,
  "no_transcript": 0,
- "scored": 8
+ "scored": 17
 }
