@@ -4004,7 +4004,376 @@
    "quote": "Pest intelligence today connects over 800,000 devices. Around the clock monitoring and predictive insights help our team identify issues sooner and target service more precisely.",
    "metric": "34% digital sales growth",
    "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "PSN",
+   "company": "Parsons Corp.",
+   "category": "product",
+   "headline": "Parsons highlights AI as part of digital transformation capabilities offered to Critical Infrastructure customers.",
+   "quote": "we're uniquely positioned with our portfolio because we can bring capabilities like artificial intelligence, cybersecurity protection, digital twins, because we have all those technologies across our business",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EXE",
+   "company": "Expand Energy Corp.",
+   "category": "efficiency",
+   "headline": "Expand Energy says it continues to find opportunities to exploit AI within its business, expecting to unlock additional value.",
+   "quote": "We continue to find opportunities to exploit artificial intelligence within the business as well. And we see that unlocking additional value in the year to come.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ENSG",
+   "company": "The Ensign Group, Inc.",
+   "category": "efficiency",
+   "headline": "Ensign Group deploying AI for clinical documentation, coding, compliance, and decision support for clinicians.",
+   "quote": "we have many, many projects underway that are leveraging efficiency that we can gain from that, certainly on an administrative side and on kind of business processes and and have copilot and cowork rolled out throughout most of our teams",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "MAS",
+   "company": "Masco Corp.",
+   "category": "revenue",
+   "headline": "Masco uses AI-powered ChatHUE color selection tool for Behr Paint to engage consumers and drive brand differentiation",
+   "quote": "continuing to advance ChatHUE, our AI-powered color selection tool, along with recently launching a new marketing campaign highlighting Behr Paint as having the best quality at the best price",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EXLS",
+   "company": "ExlService Holdings, Inc.",
+   "category": "product",
+   "headline": "EXL embeds agentic AI into client workflows and sells AI-powered solutions across insurance, healthcare, finance, and banking.",
+   "quote": "EXL strengthened its agentic AI leadership with enhanced solutions across finance, life and annuities, and payment integrity in areas where we control the full AI stack.",
+   "metric": "Data and AI-led revenue grew 36% reported, 31% organically; represents ~two-thirds of total revenue",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "PB",
+   "company": "Prosperity Bancshares, Inc.",
+   "category": "efficiency",
+   "headline": "Prosperity Bancshares mentions AI as part of its upgraded IT infrastructure and internal capabilities.",
+   "quote": "we have a great team with internal audit, enterprise risk management, now AI, everything. So I feel good where we're at.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "JLL",
+   "company": "Jones Lang LaSalle, Inc.",
+   "category": "efficiency",
+   "headline": "JLL launched Ask JLL AI assistant for internal HR/IT support and is using AI agents to redesign invoicing and collections globally.",
+   "quote": "In July, we launched Ask JLL, an AI-powered front door for colleagues around the world, empowering them to find answers and act across our corporate functions such as foundational HR and IT support.",
+   "metric": "20 bps annual margin expansion expected from platform enhancements (including AI)",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "IEX",
+   "company": "IDEX Corp.",
+   "category": "product",
+   "headline": "IDEX offers AI-enabled software as part of its Intelligent Water platform, connected via its PERISPEK cloud platform for municipalities.",
+   "quote": "we've brought together leading positions in flow monitoring, robotic pipe inspection, AI-enabled software and rehab tools all connected through PERISPEK, our cloud-based platform",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BIIB",
+   "company": "Biogen, Inc.",
+   "category": "efficiency",
+   "headline": "Biogen uses AI-powered patient-finding tools to identify SKYCLARYS patients more efficiently.",
+   "quote": "the AI predicting where these patients are and the way in which the teams collaborate to find them has really gotten to a level, I think, of one of the most efficient models that I have seen.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FTV",
+   "company": "Fortive Corp.",
+   "category": "product",
+   "headline": "Fortive embeds AI in ServiceChannel and eMaint software products sold to customers for asset management and work order workflows.",
+   "quote": "at ServiceChannel, our R2 release introduced new capabilities, including AI-powered asset recognition and intelligent agents that not only help create and route work orders",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "GEHC",
+   "company": "GE Healthcare Technologies, Inc.",
+   "category": "product",
+   "headline": "GE HealthCare embeds AI in imaging and cardiovascular products, supporting premium pricing and growing customer demand.",
+   "quote": "our Vivid cardiovascular platform, where differentiated AI-enabled capabilities supported premium pricing while a simplified design reduced manufacturing costs.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BKR",
+   "company": "Baker Hughes Co.",
+   "category": "product",
+   "headline": "Baker Hughes secured contract to deploy AI-enabled production solutions and hybrid drill bits for KOC in Kuwait.",
+   "quote": "KOC awarded Baker Hughes a significant multi-year contract to deploy fit-for-purpose production, AI enabled solutions and hybrid Kymera drill bits.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "OTIS",
+   "company": "Otis Worldwide Corp.",
+   "category": "efficiency",
+   "headline": "Otis uses AI-enabled micro-pricing and data intelligence tools to improve pricing decisions, identify repair/mod opportunities, and optimize field service scheduling.",
+   "quote": "our AI-enabled micro-pricing capabilities support more consistent and disciplined pricing decisions.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ADP",
+   "company": "Automatic Data Processing, Inc.",
+   "category": "product",
+   "headline": "ADP embeds AI in HCM products including Assist and Recruiting AI Interviewer Agent, reporting 75% reduction in interview time",
+   "quote": "More than 4,400 AI interviews have been completed since the start of September with a 75% reduction in interview-related time spent",
+   "metric": "75% reduction in interview-related time spent; 4,400+ AI interviews completed; 100,000 new clients on ADP Assist",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CHRW",
+   "company": "C.H. Robinson Worldwide, Inc.",
+   "category": "efficiency",
+   "headline": "C.H. Robinson uses custom-built AI agents to automate workflows, decouple headcount from volume growth, and expand operating margins.",
+   "quote": "we've lowered our cost to serve and improved our operating leverage by removing waste and automating manual processes through Lean disciplines and custom-built AI agents. This has enabled us to decouple head count growth from volume growth.",
+   "metric": "NAST operating margin expanded 1,500 bps; Global Forwarding expanded 2,500 bps",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "category": "product",
+   "headline": "Teradyne sells test equipment for AI chips/data centers; launches AI-focused products including UltraFLEXplus S for edge AI devices.",
+   "quote": "ODMs and CMs are increasingly turning to flexible, physical AI-based robots to assist in assembly and test processes.",
+   "metric": "AI-driven revenue represents more than 60% of total revenue",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "NI",
+   "company": "NiSource, Inc.",
+   "category": "efficiency",
+   "headline": "NiSource uses AI-enabled tools and Project Apollo to strengthen efficiency and productivity across its business.",
+   "quote": "AI enabled tools and project Apollo are strengthening efficiency and productivity across the business.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "VRT",
+   "company": "Vertiv Holdings Co.",
+   "category": "product",
+   "headline": "Vertiv uses digital twin and AI infrastructure tools to cut data center design time by 10x and boost AI token output by 30%",
+   "quote": "Pre-engineered reference designs are configured and validated in a digital twin. This reduces the design time by a factor of 10.",
+   "metric": "30% more cumulative AI token output in first 12 months",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "WING",
+   "company": "Wingstop, Inc.",
+   "category": "revenue",
+   "headline": "Wingstop activated AI-driven personalization engine for loyalty members, generating higher total sales in initial tests.",
+   "quote": "In September, we activated our AI-driven personalization engine, initially focusing on testing more relevant offers and messages with targeted guest segments. In those initial tests, guests receiving personalized offers generated higher total sales",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ETSY",
+   "company": "Etsy, Inc.",
+   "category": "revenue",
+   "headline": "Etsy uses AI/ML for personalized search and discovery, contributing ~2 percentage points to annualized GMS growth",
+   "quote": "personalization improvements alone contributed approximately 2 percentage points to our annualized year-over-year GMS growth rate",
+   "metric": "~2 percentage points to annualized GMS growth",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EAT",
+   "company": "Brinker International, Inc.",
+   "category": "efficiency",
+   "headline": "Brinker plans AI-fueled Heart of House system to integrate forecasting, ordering, inventory, prep, and labor scheduling at Chili's.",
+   "quote": "the Heart of House project, which is going to be fueled by AI so we think about like almost like a completely new system that's an integrated kind of like an ERP system for the Heart of House that is going to make forecasting, ordering, inventory, prep, labor scheduling",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EVR",
+   "company": "Evercore, Inc.",
+   "category": "efficiency",
+   "headline": "Evercore investing in AI initiatives it expects will increase future productivity and efficiencies.",
+   "quote": "investments in technology, including AI initiatives, which we believe will result in increased future productivity and efficiencies",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "UMBF",
+   "company": "UMB Financial Corp.",
+   "category": "efficiency",
+   "headline": "UMB deployed AI tool 'Green' to ~1,000 associates, generating 53,000+ work actions and 550 use cases across credit, fraud, and back-office functions.",
+   "quote": "Green have been rolled out to nearly 1,000 associates who collectively have used the tool to prompt over 53,000 work actions. The work has generated more than 550 use cases to date",
+   "metric": "53,000 work actions; 550 use cases; ~1,000 associates",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FLEX",
+   "company": "Flex Ltd.",
+   "category": "product",
+   "headline": "Flex introduced prefabricated AI modules to accelerate AI factory deployment by up to 50%.",
+   "quote": "we introduced prefabricated AI modules, which help accelerate AI factory deployment by up to 50%.",
+   "metric": "50% faster AI factory deployment",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CHEF",
+   "company": "The Chefs' Warehouse, Inc.",
+   "category": "efficiency",
+   "headline": "Chefs' Warehouse integrating AI-type technology into pricing and sales tools to improve gross profit margins and team productivity.",
+   "quote": "we have continued improvements in digital with integrating AI-type technology that's flowing through to our pricing and to our sales teams.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "PPG",
+   "company": "PPG Industries, Inc.",
+   "category": "efficiency",
+   "headline": "PPG uses AI to optimize raw material formulations, completing over 150 formulas to offset input cost inflation.",
+   "quote": "We use AI to optimize our raw material combinations without sacrificing performance for our customers. And 100 years worth of formulas scattered across 100 labs around the world and AI has brought us that capability. And we're over 150 formulas now",
+   "metric": "150+ formulas optimized",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "PRG",
+   "company": "PROG Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "PROG Holdings' Four unit uses AI support bot (Four Bot) to handle refund claims end-to-end, resolving ~90% without human intervention.",
+   "quote": "Four Bot Four's AI support agent now handles Four Plus cancellations and refunds end-to-end, which is our first support flow that issues refunds automatically within defined eligibility rules.",
+   "metric": "~90% of refund claims resolved without human intervention",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "MIR",
+   "company": "Mirion Technologies, Inc.",
+   "category": "efficiency",
+   "headline": "Mirion spent ~$4M year-to-date on AI initiatives, creating ~70 bps margin headwind but expected to drive future value.",
+   "quote": "we've spent almost $4 million in year-to-date operating expenses on AI initiatives that we expect to drive significant value in the coming years",
+   "metric": "$4M YTD opex on AI; ~70 bps margin headwind in Q3",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "LII",
+   "company": "Lennox International, Inc.",
+   "category": "efficiency",
+   "headline": "Lennox investing in AI tools as part of ~$225M capex plan to drive growth and productivity.",
+   "quote": "AI tools to drive growth, and productivity.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "WM",
+   "company": "Waste Management, Inc.",
+   "category": "efficiency",
+   "headline": "WM uses AI in dispatcher support, routing algorithms, and pricing analytics to lower costs and expand margins.",
+   "quote": "we're also looking at where we might have opportunities to leverage AI in some unique applications related to helping our dispatchers.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "AVTR",
+   "company": "Avantor, Inc.",
+   "category": "efficiency",
+   "headline": "Avantor deploys AI-powered Internal Sales Assistant (ISA) in VWR to boost sales productivity and customer experience",
+   "quote": "VWR Internal Sales Assistant or ISA, which use AI to combine customer, sales, and product data to help sales team prepare for meetings, generate leads, prioritize opportunities, and act on recommendation.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "GEV",
+   "company": "GE Vernova, Inc.",
+   "category": "efficiency",
+   "headline": "GE Vernova investing in automation and AI across all three business segments to expand margins over the medium term.",
+   "quote": "Across all three businesses and corporate, we have investments in automation and AI with strong use cases that will expand margins over the medium term, but in 3Q in isolation remain a net expense.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "SBCF",
+   "company": "Seacoast Banking Corp. of Florida",
+   "category": "efficiency",
+   "headline": "Seacoast plans to invest in AI to operate more efficiently and improve customer experience.",
+   "quote": "investing in technology and AI to operate more efficiently and deliver an even better experience for our customers",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EXTR",
+   "company": "Extreme Networks, Inc.",
+   "category": "product",
+   "headline": "Extreme Networks embeds AI in Platform ONE and Agent ONE products sold to enterprise networking customers.",
+   "quote": "Agent ONE Coworker, our next generation AI agent reached all Platform ONE customers in early September and drove a 10x adoption rate over the first generation.",
+   "metric": "10x adoption rate over first generation",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "OSW",
+   "company": "OneSpaWorld Holdings Ltd.",
+   "category": "revenue",
+   "headline": "OneSpaWorld runs AI platforms Amanda (yield optimization), AVA (operations), Serena/Marina (guest-facing), and Claude (enterprise) across its fleet.",
+   "quote": "Amanda is our AI powered recommendation and yield optimization platform that provides daily yield improvement recommendations to our managers onboard.",
+   "metric": "90% of tickets handled by AVA closed with no human escalation, freeing 150 hours of staff time",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "UHS",
+   "company": "Universal Health Services, Inc.",
+   "category": "efficiency",
+   "headline": "UHS developing AI tools for revenue cycle improvement and length-of-stay management in acute care.",
+   "quote": "developing technology, AI, and otherwise, to help us do that, developing technology, AI, and otherwise, to help us control length of stay \u2013 better control length of stay in acute care.",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BLKB",
+   "company": "Blackbaud, Inc.",
+   "category": "efficiency",
+   "headline": "Blackbaud uses AI in engineering to expand capacity and increase product delivery velocity",
+   "quote": "Our use of AI in engineering has expanded our capacity and increased our velocity such that we are announcing more new solutions than we ever have",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BSX",
+   "company": "Boston Scientific Corp.",
+   "category": "efficiency",
+   "headline": "Boston Scientific uses AI as part of supply chain optimization within its $500M restructuring program.",
+   "quote": "supply chain optimization looking across our global supply network to better leverage technology AI and streamline across supply chain",
+   "metric": "$500M savings over three years",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "DINO",
+   "company": "HF Sinclair Corp",
+   "category": "efficiency",
+   "headline": "HF Sinclair exploring AI technology investments to improve refinery reliability and earlier fault detection.",
+   "quote": "investments in technology where we see opportunities to go improve, seeing things sooner or fixing things sooner and learning through AI technology that will give us a better footprint",
+   "metric": null,
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "DBD",
+   "company": "Diebold Nixdorf, Inc.",
+   "category": "product",
+   "headline": "Diebold Nixdorf sells Smart Vision AI computer vision solution to retail and banking customers, targeting shrink reduction and branch automation.",
+   "quote": "Smart Vision AI continues to gain traction with major retailers. Our pilot and initial deployments are meeting or exceeding customer shrink reduction targets, and we remain on track to exceed 1,000 deployments by year end.",
+   "metric": "1,000 deployments by year end",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "AON",
+   "company": "Aon Plc",
+   "category": "revenue",
+   "headline": "Aon uses AI-powered analyzers and diagnostics to win more business, retain clients, and create new revenue opportunities.",
+   "quote": "our strategy is further accelerated by AI as our analyzers and diagnostics lead to better insights that help us win more business, retain more clients, and create new revenue opportunities.",
+   "metric": null,
+   "event_date": "2026-10-28"
   }
  ],
- "updated": "2026-10-28T06:37:25"
+ "updated": "2026-10-28T19:02:49"
 }
