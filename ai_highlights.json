@@ -4373,7 +4373,196 @@
    "quote": "our strategy is further accelerated by AI as our analyzers and diagnostics lead to better insights that help us win more business, retain more clients, and create new revenue opportunities.",
    "metric": null,
    "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FTNT",
+   "company": "Fortinet, Inc.",
+   "category": "product",
+   "headline": "Fortinet embeds AI into FortiOS, FortiGuard services, and SOC agents sold to enterprise customers as core security products.",
+   "quote": "our SOC Forti agent deliver a highly automated solution to solve the industry accuracy shortage and tools flooding by enabling autonomous incident detection and response.",
+   "metric": "Billings from AI-driven security operations grew 15%",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "GEN",
+   "company": "Gen Digital, Inc.",
+   "category": "revenue",
+   "headline": "Gen Digital's AI recommender lifts Norton cross-sell revenue by mid-single digits; AI decisioning agents re-engage abandoned applicants with own bookings target.",
+   "quote": "our AI recommender lifts revenue from new Norton cross-sells by mid-single digits. Our AI decisioning agents that re-engage abandoned applicants now has its own bookings target",
+   "metric": "mid-single digit revenue lift from AI recommender on Norton cross-sells",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "RJF",
+   "company": "Raymond James Financial, Inc.",
+   "category": "efficiency",
+   "headline": "Raymond James uses proprietary AI assistant 'Raimond' and AI-powered CRM to help advisors work more efficiently.",
+   "quote": "Tools such as our proprietary AI assistant Raimond, an AI-powered integrated CRM solution meeting manager, improve access to institutional knowledge, client insights and workflow support.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace, Inc.",
+   "category": "efficiency",
+   "headline": "Honeywell Aerospace's new Tempe facility will include AI-enabled production optimization among other advanced manufacturing technologies.",
+   "quote": "It will include modular robotics, automated inspection, AI-enabled production optimization, digital twins, and other productivity enhancing technologies.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "MSFT",
+   "company": "Microsoft Corp.",
+   "category": "product",
+   "headline": "Microsoft deploys AI across Copilot, GitHub, healthcare, and Azure Foundry platform sold to enterprise customers.",
+   "quote": "We think of Copilot as the new OS for work. Customers are increasingly turning to Copilot to get real work done. Automated tasks has nearly doubled since July.",
+   "metric": "Daily Copilot users up ~50% QoQ and 5x YoY; 120,000+ Foundry customers with revenue tripling YoY",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "NEO",
+   "company": "NeoGenomics, Inc.",
+   "category": "efficiency",
+   "headline": "NeoGenomics using AI-driven digital image interpretation to improve lab operational efficiency and free up pathologist capacity.",
+   "quote": "we can use AI interpretation of digital images. So that's going to be a big area of focus for us. It's one of the Lab of the Future initiatives. It's going help and it's particularly going to free up capacity on the doctor side",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "SFM",
+   "company": "Sprouts Farmers Market, Inc.",
+   "category": "efficiency",
+   "headline": "Sprouts plans to invest in AI and data modernization to connect data across the business and scale more efficiently.",
+   "quote": "Modernizing our systems and selectively applying AI will help us connect data across the business, move faster, and scale more efficiently.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "OLED",
+   "company": "Universal Display Corp.",
+   "category": "efficiency",
+   "headline": "UDC uses AI-enabled discovery platform to evaluate 50M molecular candidates for next-gen OLED materials R&D",
+   "quote": "Our AI-enabled discovery platform has generated a virtual library of more than 1 billion molecular designs and evaluated approximately 50 million candidates using proprietary models",
+   "metric": "1 billion molecular designs generated; ~50 million candidates evaluated",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "QTWO",
+   "company": "Q2 Holdings, Inc.",
+   "category": "product",
+   "headline": "Q2 Holdings sells AI products (Q2 Code, Q2 Assistant, User Activity Monitoring) to financial institutions via early adopter programs.",
+   "quote": "we continue to make progress with AI offerings we've already introduced, including Q2 Code, Q2 Assistant and User Activity Monitoring. During the quarter, we continued to sign customers into our early adopter programs",
+   "metric": "nearly 20 financial institutions signed into User Activity Monitoring early adopter program, roughly twice what was expected",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "EBAY",
+   "company": "eBay, Inc.",
+   "category": "revenue",
+   "headline": "eBay's AI-powered Magical Listing cuts listing time by ~one-third and drives measurable gains in conversion and sell-through for sellers.",
+   "quote": "active sellers are creating more than one-third more listings per attempt with Magical Listing, while their average listing time has been reduced by approximately one-third",
+   "metric": "1/3 more listings per attempt; 1/3 reduction in listing time",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "EQIX",
+   "company": "Equinix, Inc.",
+   "category": "product",
+   "headline": "Equinix launched Equinix Inference Exchange with NVIDIA and Together AI, offering enterprises access to 200+ open AI models.",
+   "quote": "we introduced Equinix Inference Exchange with NVIDIA and Together AI. It gives enterprises a faster path from pilot to production with the freedom to choose from more than 200 open models",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "CMG",
+   "company": "Chipotle Mexican Grill, Inc.",
+   "category": "efficiency",
+   "headline": "Chipotle deploys AI-based Cook to Needs tool in 500+ restaurants to optimize food prep and reduce waste",
+   "quote": "uses AI-based demand forecast to recommend the right amount of freshly prepared food at the right time. This helps reduce manual data entry, increase prep efficiency and readiness, reduce waste",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "PI",
+   "company": "Impinj, Inc.",
+   "category": "product",
+   "headline": "Impinj launched 'Physical Intelligence' platform to feed trusted item-level RFID data into enterprise AI systems.",
+   "quote": "We launched Physical Intelligence in September, spotlighting how our platform provides real, trusted item data to enterprise AI systems.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "EFOR",
+   "company": "Everforth, Inc.",
+   "category": "product",
+   "headline": "Everforth built AI-driven security triage and regulatory compliance platforms sold to enterprise and financial services clients.",
+   "quote": "our enterprise Security Operations Center or SOC, developed an AI-driven security triage capability that helps reduce false alarms and prioritize higher risk concerns.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "FDX",
+   "company": "FedEx Corp.",
+   "category": "efficiency",
+   "headline": "FedEx deploying robotic loaders at Hagerstown hub using 'physical AI' to automate load/unload operations.",
+   "quote": "we are deploying robotic loaders at our Hagerstown, Maryland hub to support peak and post-peak operations, allowing us to prove this technology in the coming months.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "COHU",
+   "company": "Cohu, Inc.",
+   "category": "product",
+   "headline": "Cohu embeds AI in HBM inspection software and onsite AI appliance for predictive maintenance sold to customers.",
+   "quote": "an expanded AI-based HBM inspection software deployment at a leading memory manufacturer",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "NOW",
+   "company": "ServiceNow, Inc.",
+   "category": "product",
+   "headline": "ServiceNow embeds AI specialists and agentic workflows in its platform, targeting $1.7B+ AI ACV by year-end 2026.",
+   "quote": "AI, net new, ACV was 65% year-over-year growth in Q3. Control Tower, net new ACV grew over 6x year-over-year.",
+   "metric": "65% YoY AI net new ACV growth; $1.7B+ AI ACV target by year-end",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "ALGN",
+   "company": "Align Technology, Inc.",
+   "category": "product",
+   "headline": "Align Technology embeds AI-enabled treatment planning in its Align Digital Platform for doctors and patients.",
+   "quote": "We are connecting iTero, scanning diagnostics, AI-enabled treatment planning, Invisalign treatment, exocad restorative workflows, and practice applications to create a more integrated digital workflow for doctors and patients.",
+   "metric": null,
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "GOOGL",
+   "company": "Alphabet, Inc.",
+   "category": "revenue",
+   "headline": "Google deploys Gemini AI across Search, Ads, and YouTube to drive query growth and advertiser conversions",
+   "quote": "our year-over-year query growth rate is the highest it's been in the last five years",
+   "metric": "18% incremental advertiser value; 8% increase in user sentiment on Discover ads; 52% conversion lift for Telstra via AI Max",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "TENB",
+   "company": "Tenable Holdings, Inc.",
+   "category": "product",
+   "headline": "Tenable embeds AI (Anthropic Claude Mythos, Hexa agentic AI) into Tenable One platform sold to customers for exposure management.",
+   "quote": "Adversary View applies Mythos to that telemetry to reason like an attacker. It sees how low signal exposures can be chained together to reach critical systems.",
+   "metric": "Customers using Hexa resolve 2 to 3 times more critical exposures",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "TMUS",
+   "company": "T-Mobile US, Inc.",
+   "category": "efficiency",
+   "headline": "T-Mobile uses digital and AI tools to empower customer experience teams, with 80%+ of upgrades done digitally.",
+   "quote": "we're leveraging our amazing team, empowered with digital and AI tools to deliver a best-in-class experience.",
+   "metric": null,
+   "event_date": "2026-10-29"
   }
  ],
- "updated": "2026-10-28T19:02:49"
+ "updated": "2026-10-29T07:03:43"
 }
