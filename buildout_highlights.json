@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-28T16:38:05.514014",
+ "generated": "2026-10-29T01:09:01.221757",
  "window": [
   "2026-07-15",
-  "2026-10-28"
+  "2026-10-29"
  ],
  "highlights": [
   {
@@ -84,16 +84,6 @@
    "direction": "accelerating",
    "headline": "Advanced Energy Industries cites hyperscaler data-center buildout and higher power requirements as driver of 50%+ revenue growth in 2026.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "AEP",
-   "company": "American Electric Power Co., Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "AEP contracted an additional 6 gigawatts of load, primarily driven by fully executed LOAs in Texas ... we now have 69 gigawatts of contracted load additions through 2030, supported by high quality, well-capitalized customers.",
-   "metric": "69 gigawatts of contracted load additions through 2030",
-   "direction": "accelerating",
-   "headline": "AEP cites hyperscaler and large industrial customer demand for 69 GW of contracted load additions through 2030 as a driver of its capital investment and growth outlook.",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "AESI",
@@ -233,16 +223,6 @@
    "metric": "$12.6 billion revenue guidance, 40% growth",
    "direction": "accelerating",
    "headline": "Arista Networks cites AI-infrastructure demand\u2014specifically AI networking complexity and hyperscaler/neocloud AI cluster buildout\u2014as a primary driver of its 40% revenue growth guidance and rising purchase commitments.",
-   "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "AON",
-   "company": "Aon Plc",
-   "channel": "data_center_construction",
-   "quote": "when we complete a major data center and the opportunity, it's often, the top 10%, 15% of that gets done into the wholesale market, and the E&S market because the admitted market just can't, not enough capacity.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Aon cites data-center construction as a driver of its E&S market opportunity and USI acquisition rationale.",
    "event_date": "2026-09-10"
   },
   {
@@ -424,16 +404,6 @@
    "direction": "accelerating",
    "headline": "Black Hills Corp. cites hyperscale data-center demand as a key driver of large-load growth and power revenue expansion in its service territory.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "BKR",
-   "company": "Baker Hughes Co.",
-   "channel": "power_energy",
-   "quote": "We continued to expand our presence in power generation for data center markets, securing several significant awards across North America that further reinforced our strategy and technology leadership. Most notably, we secured a major award from Dynamis for NovaLT gas turbines, representing approximately 1.3 gigawatts of mobile power generation capacity across data center and oil and gas applications.",
-   "metric": "1.3 gigawatts of mobile power generation capacity across data center applications",
-   "direction": "accelerating",
-   "headline": "Baker Hughes secured major power generation awards for data center markets, including 1.3 gigawatts from Dynamis for AI-driven infrastructure demand.",
-   "event_date": "2026-07-27"
   },
   {
    "ticker": "BNL",
@@ -976,16 +946,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "ESS",
-   "company": "Essex Property Trust, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "the fundamental backdrop for Northern California, the demand catalyst with AI what we're seeing with job postings and company formation office leases that are being taken down, does ... give it legs for several years",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Essex Property Trust cites AI-driven job formation and office leasing in Northern California as a demand catalyst supporting multifamily rent growth.",
-   "event_date": "2026-09-16"
-  },
-  {
    "ticker": "ETN",
    "company": "Eaton Corp. Plc",
    "channel": "equipment_components",
@@ -1026,16 +986,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "EXE",
-   "company": "Expand Energy Corp.",
-   "channel": "power_energy",
-   "quote": "There are utilities all over the country, near population centers who are building data centers. We don't think data centers will only be in the east. We think they'll be all over. Twin Eagle already has long relationships with utility companies.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Expand Energy cites data-center demand driving utility relationships and Twin Eagle acquisition strategy across U.S. footprint.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "EXP",
    "company": "Eagle Materials, Inc.",
    "channel": "equipment_components",
@@ -1064,36 +1014,6 @@
    "direction": "accelerating",
    "headline": "Diamondback Energy is developing a data-center power project on its Bryant Ranch that will deliver power via behind-the-meter generation starting in late 2027 and grid-connected power in 2028.",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "FE",
-   "company": "FirstEnergy Corp.",
-   "channel": "power_energy",
-   "quote": "total forecasted data center demand has increased 30% since the first quarter to approximately 25 gigawatts. And during the second quarter alone, we contracted an additional 2.1 gigawatts, bringing our total contracted demand to 6.4 gigawatts.",
-   "metric": "6.4 gigawatts contracted demand; 25 gigawatts total forecasted data center demand",
-   "direction": "accelerating",
-   "headline": "FirstEnergy cites data-center infrastructure demand as driver of contracted power sales and capital investment opportunities.",
-   "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "FELE",
-   "company": "Franklin Electric Co., Inc.",
-   "channel": "cooling_thermal",
-   "quote": "We also see a growing opportunity in making computing more energy efficient, particularly through advanced liquid cooling solutions that support the rapid expansion of AI and data center infrastructure.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Franklin Electric cites advanced liquid cooling solutions for AI and data center infrastructure as a growing opportunity in its Water Systems segment.",
-   "event_date": "2026-07-28"
-  },
-  {
-   "ticker": "FLEX",
-   "company": "Flex Ltd.",
-   "channel": "equipment_components",
-   "quote": "the fundamental reason why you're seeing this increase, you're taking chips that you saw operate at 150 watts are now going at 3,000 watts. It's a 20-fold increase in power... growth estimate out that isn't below two to three times the amount of power consumption, right, in the data center fleet here in the US.",
-   "metric": "20-fold increase in power per chip; 2-3x power consumption growth in US data center fleet",
-   "direction": "accelerating",
-   "headline": "Flex cites AI-driven 20-fold chip power increase and 2-3x data center power consumption growth as drivers of networking and CPI segment demand.",
-   "event_date": "2026-09-09"
   },
   {
    "ticker": "FLR",
@@ -1146,26 +1066,6 @@
    "event_date": "2026-09-08"
   },
   {
-   "ticker": "FTV",
-   "company": "Fortive Corp.",
-   "channel": "equipment_components",
-   "quote": "data center is an exciting driver of the growth... we really think about it as we participate in the build out and commissioning stage of the data center. But even more importantly and in a more enduring way, we participate a lot in the ongoing operations and maintenance of data centers.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Fortive cites data-center buildout and operations as a meaningful driver of Fluke measurement and testing equipment demand.",
-   "event_date": "2026-09-15"
-  },
-  {
-   "ticker": "GEV",
-   "company": "GE Vernova, Inc.",
-   "channel": "equipment_components",
-   "quote": "In 2Q, we booked $2.7 billion of data center orders in electrification, bringing total segment data center orders to over $5 billion in the first half of 2026, more than double full year 2025.",
-   "metric": "$5 billion in data center orders in first half 2026, more than double full year 2025",
-   "direction": "accelerating",
-   "headline": "GE Vernova booked over $5 billion in data center orders in Electrification in H1 2026, more than double prior year, citing data center demand as a driver of segment growth.",
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "GFF",
    "company": "Griffon Corp.",
    "channel": "data_center_construction",
@@ -1174,16 +1074,6 @@
    "direction": null,
    "headline": "Griffon Corp. cites data-center construction as an emerging growth avenue for its commercial door products.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "GNRC",
-   "company": "Generac Holdings, Inc.",
-   "channel": "equipment_components",
-   "quote": "revenue from products sold to the data center market, which underpinned a 29% increase in C&I segment sales on a year-over-year basis ... our backlog for products sold to the data center market now stands at $1.6 billion",
-   "metric": "$1.6 billion backlog for data center products; $450 million expected data center revenue for full year 2026",
-   "direction": "accelerating",
-   "headline": "Generac cites data-center demand as driver of 29% C&I segment growth and $1.6B backlog in large megawatt generators.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "GOOGL",
@@ -1316,26 +1206,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "JLL",
-   "company": "Jones Lang LaSalle, Inc.",
-   "channel": "data_center_construction",
-   "quote": "Within Project Management, the increase in revenue was driven by mid-single-digit management fee growth, led by double-digit growth in the Americas, including momentum from data centers.",
-   "metric": "double-digit growth in the Americas from data centers",
-   "direction": "accelerating",
-   "headline": "JLL cites data-center project management momentum as a driver of Project Management revenue growth in the Americas.",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "KEX",
-   "company": "Kirby Corp.",
-   "channel": "power_energy",
-   "quote": "In power generation, customer demand remains exceptionally strong, particularly for behind-the-meter power solutions, serving data centers and other industrial applications.",
-   "metric": "power generation represents approximately 40% of total segment revenues",
-   "direction": "accelerating",
-   "headline": "Kirby Corporation cites strong demand for behind-the-meter power solutions serving data centers as a driver of power generation segment growth and backlog.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "KEYS",
    "company": "Keysight Technologies, Inc.",
    "channel": "equipment_components",
@@ -1424,16 +1294,6 @@
    "direction": "accelerating",
    "headline": "Koppers Holdings cites AI infrastructure buildout driving electricity demand as a key driver of strength in its Utility and Industrial Products business.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "LFUS",
-   "company": "Littelfuse, Inc.",
-   "channel": "equipment_components",
-   "quote": "data center remained a leading contributor to growth as we continue to leverage our unparalleled grid-to-chip capabilities across our businesses",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Littelfuse cites data-center demand as a leading growth contributor, leveraging grid-to-chip product capabilities.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "LHX",
@@ -1654,16 +1514,6 @@
    "direction": "accelerating",
    "headline": "National Fuel Gas cites data-center and power-generation demand driving pipeline capacity expansion on its Line N system.",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "NI",
-   "company": "NiSource, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "Our agreements with Amazon and Alphabet are expected to provide approximately $1.4 billion of bill reductions for existing NIPSCO Electric customers over the respective contract terms ... We expect these benefits to begin flowing to customers as early as the fourth quarter of this year",
-   "metric": "$1.4 billion of bill reductions over contract terms; 3 gigawatts in active strategic negotiations; 2 gigawatts additional potential customers",
-   "direction": "accelerating",
-   "headline": "NiSource cites data center customer agreements with Amazon and Alphabet as drivers of customer bill reductions and capital investment through its GenCo strategy.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "NPO",
@@ -2136,16 +1986,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "STAG",
-   "company": "STAG Industrial, Inc.",
-   "channel": "equipment_components",
-   "quote": "We've seen significant warehouse demand from users contracted to support ongoing data center operations. Since the beginning of last year, we have leased 2.3 million square feet to data center-related tenants.",
-   "metric": "2.3 million square feet leased to data center-related tenants since beginning of last year",
-   "direction": "accelerating",
-   "headline": "STAG Industrial cites data-center support warehouse demand as a source of leasing growth, with 2.3 million square feet leased to data-center-related tenants.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "STRL",
    "company": "Sterling Infrastructure, Inc.",
    "channel": "data_center_construction",
@@ -2196,36 +2036,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "TEL",
-   "company": "TE Connectivity Plc",
-   "channel": "equipment_components",
-   "quote": "Our biggest growth driver, both this year and last year, really has to do with where we work with semiconductor companies and hyperscalers on how you connect GPUs and all the connectivity that go in the rack ... our position with our hyperscale customers really has set up nice momentum not only this year but into next year.",
-   "metric": "orders are up about 70% this year in our AI space",
-   "direction": "accelerating",
-   "headline": "TE Connectivity cites AI infrastructure demand\u2014specifically GPU connectivity and rack buildout for hyperscalers\u2014as a major growth driver with 70% order growth in AI and expected momentum into 2027.",
-   "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "TER",
-   "company": "Teradyne, Inc.",
-   "channel": "equipment_components",
-   "quote": "Teradyne has exposure to the AI build-out from wafer, all the way to data center ... our robotics business really picks up in the areas of robotic-assisted test, robotic-assisted assembly and robotic-assisted operations in data center.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Teradyne cites AI data-center buildout as unifying theme across its semiconductor test, product test, and robotics businesses.",
-   "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "TEX",
-   "company": "Terex Corp.",
-   "channel": "equipment_components",
-   "quote": "Materials Processing sales increased 11.1% or $47 million to $464 million, driven by healthy demand, particularly for mobile crushers in the US, supported by infrastructure, data centers and other industrial projects.",
-   "metric": "11.1% sales increase",
-   "direction": "accelerating",
-   "headline": "Terex cites data-center demand as driver of Materials Processing segment's mobile crusher sales growth.",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "TLN",
    "company": "Talen Energy Corp.",
    "channel": "hyperscaler_platform",
@@ -2264,16 +2074,6 @@
    "direction": "accelerating",
    "headline": "Trimble cites data-center construction as a driver of Field Systems revenue growth and strength in Q2 2026.",
    "event_date": "2026-08-12"
-  },
-  {
-   "ticker": "TRMK",
-   "company": "Trustmark Corp.",
-   "channel": "data_center_construction",
-   "quote": "economic activity \u2013 and so what we're most familiar with State of Mississippi is off the charts relative to historic levels within our state. And it does relate partially to the data center builds that are occurring, and there are multiple data center builds across the state.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Trustmark Corp. cites multiple data-center construction projects across Mississippi as a partial driver of the elevated economic activity benefiting loan demand and line utilization in its Gulf South markets.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "TT",
@@ -2374,16 +2174,6 @@
    "direction": "accelerating",
    "headline": "Vulcan Materials cites data-center construction and associated power-infrastructure buildout as drivers of private-side aggregate demand, reflected in quoting and booking activity.",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "VRT",
-   "company": "Vertiv Holdings Co.",
-   "channel": "equipment_components",
-   "quote": "demand for compute capacity will continue to expand, and we have no doubt about the fact that demand for compute power, especially AI compute power, but not only, will continue to expand.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Vertiv cites AI compute power demand as driver of continued data-center buildout and its own growth trajectory.",
-   "event_date": "2026-09-08"
   },
   {
    "ticker": "VSH",
@@ -3106,16 +2896,6 @@
    "event_date": "2026-10-27"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... AI-related revenue was up 60% year-over-year",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
-   "direction": "accelerating",
-   "headline": "Jabil cites AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth, with AI-related revenue up 60% year-over-year and expanding customer base.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "NXPI",
    "company": "NXP Semiconductors NV",
    "channel": "equipment_components",
@@ -3164,6 +2944,196 @@
    "direction": "accelerating",
    "headline": "Ultra Clean Holdings cites AI-driven semiconductor capacity expansion and HBM demand as drivers of equipment component sales and 2027 WFE outlook above $200 billion.",
    "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "AEP",
+   "company": "American Electric Power Co., Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Construction is well underway on the Wyoming Fuel Cell project, which is underpinned by a 20-year power purchase agreement with Google.",
+   "metric": "20-year PPA with Google",
+   "direction": "accelerating",
+   "headline": "AEP cites Google's AI-infrastructure power demand as driver of Wyoming fuel cell project and capital investment.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "AON",
+   "company": "Aon Plc",
+   "channel": "data_center_construction",
+   "quote": "Growth in construction was fueled by our record pipeline of data center projects.",
+   "metric": "record pipeline of data center projects",
+   "direction": "accelerating",
+   "headline": "Aon cites record pipeline of data center construction projects as a driver of growth in its Commercial Risk segment.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BKR",
+   "company": "Baker Hughes Co.",
+   "channel": "power_energy",
+   "quote": "Reflecting the scale of the AI driven power opportunity, we secured a major order to provide 1.1 gigawatts of power generation capacity for a major US technology company. The project will support advanced computing infrastructure for model training, inference and physical AI workloads.",
+   "metric": "1.1 gigawatts of power generation capacity",
+   "direction": "accelerating",
+   "headline": "Baker Hughes secured 1.1 gigawatts of AI-driven power generation orders, citing AI infrastructure demand as a driver of its power systems revenue and backlog.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EXE",
+   "company": "Expand Energy Corp.",
+   "channel": "power_energy",
+   "quote": "structural increase in natural gas demand, with rising needs for LNG, data centers, industrial projects, and broad scale electrification",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Expand Energy cites data-center and AI-driven electricity demand as a structural driver of natural gas demand growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FE",
+   "company": "FirstEnergy Corp.",
+   "channel": "power_energy",
+   "quote": "We continue to see strong interest from data center companies with contracted and pipeline demand up nearly 60% since year-end ... West Virginia is a big part of that growth, with pipeline demand up approximately 6 times to nearly 6 gigawatts. Our proposed Maidsville energy-generating facility will be a key investment to support this demand.",
+   "metric": "7.9 gigawatts of contracted data center demand; 6 gigawatts pipeline demand in West Virginia; approximately 4 gigawatts of additional load in active negotiations",
+   "direction": "accelerating",
+   "headline": "FirstEnergy cites data-center AI-infrastructure demand as driver of generation investment and transmission expansion in West Virginia and across its service territory.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FLEX",
+   "company": "Flex Ltd.",
+   "channel": "equipment_components",
+   "quote": "our advanced networking business, which is one of our high value markets and are tied to those AI-related trends for data center build out ... Industrial overdelivered primarily on the strength in our energy infrastructure business where those businesses are tied to the AI and data center build-out.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Flex cites AI data-center buildout driving strength in advanced networking and energy infrastructure businesses.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FTV",
+   "company": "Fortive Corp.",
+   "channel": "data_center_construction",
+   "quote": "we participate in the construction and builder phase as well as in the enduring ongoing operations and maintenance of these data centers. We already are well positioned with a broad portfolio of market-leading solutions. That ranges from power quality monitoring analytics to power calibration, high-voltage diagnostics, electric ground fault detection.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Fortive's Fluke brand is expanding dedicated sales capacity and product innovation to capture growing demand from hyperscaler data-center construction and ongoing operations.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "GEV",
+   "company": "GE Vernova, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Data centers require large electricity loads, driving the increasing need for more efficient high-voltage equipment. Trench, as an example, has secured multiple agreements with hyperscalers in the past two years.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "GE Vernova cites data-center electricity demand as a driver for its Trench high-voltage equipment acquisition and Electrification backlog growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "GNRC",
+   "company": "Generac Holdings, Inc.",
+   "channel": "equipment_components",
+   "quote": "revenue from products sold into the data center market leading to a 28% increase in C&I segment net sales on a year-over-year basis ... we entered a long term supply agreement with Amazon for data center backup power generators. Initial deliveries in this agreement are expected to be a combined $2.4 billion in 2027 and 2028",
+   "metric": "$4.5 billion backlog for products sold to the data center market; $2.4 billion in initial deliveries expected in 2027 and 2028; data center revenue nearly $500 million for full year 2026; expected to well exceed $2 billion in 2027",
+   "direction": "accelerating",
+   "headline": "Generac cites AI-infrastructure data center demand as primary driver of 28% C&I segment growth and $4.5 billion backlog.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... we're beginning to see our capacity investments drive growth.",
+   "metric": "AI-related revenue was up 60% year-over-year",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth of 56% year-over-year, with AI-related revenue up 60%.",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "JLL",
+   "company": "Jones Lang LaSalle, Inc.",
+   "channel": "data_center_construction",
+   "quote": "For Project Management, higher pass-through costs augmented a mid-single-digit increase in management fees. Growth was led by double-digit growth in the US and India, with particular strength in office and data centers.",
+   "metric": "double-digit growth in data centers within Project Management",
+   "direction": "accelerating",
+   "headline": "JLL cites data-center project management as a driver of double-digit growth in its Real Estate Management Services segment.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "KEX",
+   "company": "Kirby Corp.",
+   "channel": "power_energy",
+   "quote": "In power gen, customer demand remains exceptionally strong particularly for behind-the-meter power solutions, serving data centers and other industrial applications ... growth in the behind-the-meter power application that operate continuously creates longer-term aftermarket parts and service opportunities",
+   "metric": "backlog north of $1.5 billion",
+   "direction": "accelerating",
+   "headline": "Kirby Corp cites strong data-center power demand driving behind-the-meter power generation backlog and aftermarket service revenue.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "LFUS",
+   "company": "Littelfuse, Inc.",
+   "channel": "equipment_components",
+   "quote": "Data center was, again, a leading contributor as we continue to capitalize on our unique grid-to-chip capability ... Data center was the leading growth driver for our performance in the quarter",
+   "metric": "data center backlog expanding",
+   "direction": "accelerating",
+   "headline": "Littelfuse cites data-center infrastructure demand as a leading revenue driver, with expanding backlog and strong design wins in grid-to-chip power semiconductor solutions.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "NI",
+   "company": "NiSource, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Our growing GenCo business adds differentiated growth delivering power and capacity to large load customers supporting national security through data center operations.",
+   "metric": "5 gigawatts of capacity across signed projects; up to 4 gigawatts of potential additional load",
+   "direction": "accelerating",
+   "headline": "NiSource's GenCo segment cites data-center demand as a driver of power delivery and capacity growth, with 5 GW signed and 4 GW pipeline.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "STAG",
+   "company": "STAG Industrial, Inc.",
+   "channel": "data_center_construction",
+   "quote": "We are seeing broad-based demand primarily from 3PLs, advanced manufacturing and data center-related tenants. We have now leased 2.5 million square feet to data center-related tenants since the start of 2025. This data center-related leasing activity accounted for 26% of all of our new operating portfolio leasing during that same period.",
+   "metric": "2.5 million square feet leased to data center-related tenants since start of 2025; 26% of new operating portfolio leasing",
+   "direction": "accelerating",
+   "headline": "STAG Industrial cites data center-related tenant leasing as a significant driver of portfolio leasing activity, representing 26% of new leases since 2025.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "TEL",
+   "company": "TE Connectivity Plc",
+   "channel": "equipment_components",
+   "quote": "In Digital Data Networks, we delivered another strong year performance in fiscal 2026, with orders growing by roughly 70% for the full year, driven by our strong position with our hyperscale customers. We expect this strong performance to continue into fiscal 2027 as well as longer term. In 2027, we expect to add over $1 billion of DDN revenue with the vast majority of that from AI applications.",
+   "metric": "$1 billion of DDN revenue growth in 2027 from AI applications",
+   "direction": "accelerating",
+   "headline": "TE Connectivity cites AI-infrastructure demand as driver of $1B+ DDN revenue growth in fiscal 2027, with 70% order growth from hyperscaler customers.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-driven revenue represents more than 60% of total revenue, a key proof point that our wafer to data center strategy is delivering results. From wafers to modules to trays to racks and into full data centers, Teradyne equipment is used to build and test the high-performance computing that underpins the growth of agentic AI.",
+   "metric": "AI-driven revenue represents more than 60% of total revenue",
+   "direction": "accelerating",
+   "headline": "Teradyne cites AI infrastructure buildout (data center construction and test equipment) as driver of 60%+ of revenue and strong growth across all business groups.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "TEX",
+   "company": "Terex Corp.",
+   "channel": "equipment_components",
+   "quote": "Materials Processing sales grew 11.3% or $44 million to $434 million, driven by healthy equipment utilization and demand, particularly for mobile crushers and screeners in the US, supported by infrastructure, data center and other construction projects.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Terex Materials Processing segment cites data center construction as a demand driver for mobile crushers and screeners equipment sales.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "VRT",
+   "company": "Vertiv Holdings Co.",
+   "channel": "hyperscaler_platform",
+   "quote": "data center demand is accelerating ... With a robust backlog and strong pipeline visibility, we expect continued significant above-market organic sales growth in 2027.",
+   "metric": "100%-plus order growth year-over-year organically",
+   "direction": "accelerating",
+   "headline": "Vertiv cites accelerating data-center demand and robust backlog driving significant above-market organic sales growth in 2027.",
+   "event_date": "2026-10-28"
   }
  ]
 }
