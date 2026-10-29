@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T01:09:01.221757",
+ "generated": "2026-10-29T16:58:17.450320",
  "window": [
   "2026-07-15",
   "2026-10-29"
@@ -256,16 +256,6 @@
    "event_date": "2026-09-09"
   },
   {
-   "ticker": "APH",
-   "company": "Amphenol Corp.",
-   "channel": "equipment_components",
-   "quote": "continued acceleration in demand for our products used in artificial intelligence applications ... The revolution in AI has no doubt created a unique opportunity for Amphenol given our leading high-speed fiber optic and power interconnect solutions. All of these high-technology products are critical components in our customer's current and next-generation systems.",
-   "metric": "IT Datacom represented 43% of sales in Q2; grew 89% in US dollars and 63% organically, driven by AI applications; sequential sales increase of 22% in Q2 and expected mid-teens increase in Q3",
-   "direction": "accelerating",
-   "headline": "Amphenol reports AI-driven acceleration in IT Datacom segment, citing high-speed fiber optic and power interconnect demand as critical components for customer systems.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "APO",
    "company": "Apollo Global Management, Inc.",
    "channel": "equipment_components",
@@ -386,16 +376,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "BHE",
-   "company": "Benchmark Electronics, Inc.",
-   "channel": "equipment_components",
-   "quote": "AC&C, we delivered outstanding results, driven by the production ramp of one of the AI related wins we have previously discussed.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Benchmark Electronics cites AI-related program production ramp as driver of AC&C segment revenue growth and outstanding results.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "BKH",
    "company": "Black Hills Corp.",
    "channel": "power_energy",
@@ -414,16 +394,6 @@
    "direction": "accelerating",
    "headline": "Broadstone Net Lease cites AI-infrastructure demand (powered shell for Fortune 20 hyperscaler with 100 MW committed capacity) as driver of largest transaction in company history and largest tenant by ABR.",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "BOOT",
-   "company": "Boot Barn Holdings, Inc.",
-   "channel": "equipment_components",
-   "quote": "Blue-collar employment, whether it's from oil and gas or construction or data center builds, is something that is good for our customer who is working outside and needs our product to protect them from the elements.",
-   "metric": null,
-   "direction": "steady",
-   "headline": "Boot Barn cites data center construction employment as a driver of demand for work-related footwear and apparel.",
-   "event_date": "2026-09-16"
   },
   {
    "ticker": "BRC",
@@ -596,16 +566,6 @@
    "event_date": "2026-08-12"
   },
   {
-   "ticker": "COHU",
-   "company": "Cohu, Inc.",
-   "channel": "equipment_components",
-   "quote": "Cohu is benefiting from durable demand drivers in AI infrastructure and edge computing, where customers are investing to address increasing power levels, production yield and increased factory productivity.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Cohu cites AI infrastructure demand as a driver of its thermal handler and test equipment sales, with high-performance computing orders up 150% year-over-year.",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "CON",
    "company": "Concentra Group Holdings Parent, Inc.",
    "channel": "data_center_construction",
@@ -664,16 +624,6 @@
    "direction": "accelerating",
    "headline": "Cisco links AI-infrastructure demand to $9.3 billion in hyperscale AI networking orders in fiscal 2026, with $4 billion in Q4 alone, citing a multi-year networking supercycle driven by hyperscaler, neo-cloud, and enterprise AI buildout.",
    "event_date": "2026-09-08"
-  },
-  {
-   "ticker": "CSL",
-   "company": "Carlisle Cos., Inc.",
-   "channel": "data_center_construction",
-   "quote": "data centers are one that continue to be a higher-growth area. You see that, I think, in the PVC sales across companies.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Carlisle cites data-center construction as a higher-growth roofing market, noting increased demand for premium TPO and EBITDA roofing materials in that segment.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "CUZ",
@@ -836,16 +786,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "EFOR",
-   "company": "Everforth, Inc.",
-   "channel": "data_center_construction",
-   "quote": "our cloud and infrastructure practice continues to expand as we support the nationwide buildout of next-generation data centers. Everforth has contracts in place with the top four global hyperscalers. And in the second quarter, we were awarded a contract by a global hyperscaler to provide network services for a new AI data center currently under construction.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Everforth cites data-center construction and AI data-center buildout as a driver of its cloud and infrastructure practice expansion and new hyperscaler contracts.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "EG",
    "company": "Everest Group Ltd.",
    "channel": "services_other",
@@ -904,16 +844,6 @@
    "direction": "accelerating",
    "headline": "EOG Resources cites growing data-center power demand as a strategic opportunity for its Dorado gas asset in South Texas.",
    "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "EQIX",
-   "company": "Equinix, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "our customers are asking us for ... we invest and build where the customers are, where we know we have market opportunity. And a lot of that is driven by what our customers are asking us for.",
-   "metric": "$5 billion to $7 billion annually from 2027 through 2029",
-   "direction": "accelerating",
-   "headline": "Equinix cites strong AI and digital transformation customer demand as driver of $5\u20137 billion annual development investment through 2029.",
-   "event_date": "2026-09-15"
   },
   {
    "ticker": "EQT",
@@ -1036,16 +966,6 @@
    "event_date": "2026-08-18"
   },
   {
-   "ticker": "FORM",
-   "company": "FormFactor, Inc.",
-   "channel": "equipment_components",
-   "quote": "custom ASICs are embarking in a region here where the power both consumed and produced by these chips is driving their performance envelope to an area where a MEMS probe with these advanced metallurgies and advanced structures is really required to do test ... We see custom ASICs really crossing this brink in 2027 and into 2028 of needing an advanced MEMS probe technology",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "FormFactor cites custom AI ASICs (Google TPU, AWS Trainium) driving demand for advanced MEMS probe card technology as power and performance requirements increase in 2027\u20132028.",
-   "event_date": "2026-09-09"
-  },
-  {
    "ticker": "FSLR",
    "company": "First Solar, Inc.",
    "channel": "hyperscaler_platform",
@@ -1056,16 +976,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "FTNT",
-   "company": "Fortinet, Inc.",
-   "channel": "data_center_construction",
-   "quote": "the neocloud won't buy and put it on the shelves. They will buy in firewalls and related services as they deploy the data centers. And so it's critical for us to be in early, so that we can grow with them.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Fortinet cites neocloud/AI data-center buildout as a driver of firewall and security product demand, noting customers ramp purchases 5-10x quarter-over-quarter as they deploy AI infrastructure.",
-   "event_date": "2026-09-08"
-  },
-  {
    "ticker": "GFF",
    "company": "Griffon Corp.",
    "channel": "data_center_construction",
@@ -1074,16 +984,6 @@
    "direction": null,
    "headline": "Griffon Corp. cites data-center construction as an emerging growth avenue for its commercial door products.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "GOOGL",
-   "company": "Alphabet, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "as the demand for training, inference, and computation grows, we're seeing lots of customers choosing us for infrastructure",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Alphabet's Google Cloud cites growing demand for AI training, inference, and computation as a driver of customer infrastructure adoption.",
-   "event_date": "2026-09-08"
   },
   {
    "ticker": "GVA",
@@ -1234,16 +1134,6 @@
    "direction": "accelerating",
    "headline": "KKR cites $7.6 trillion hyperscaler AI infrastructure CapEx over five years as driver of private IG credit financing demand.",
    "event_date": "2026-09-15"
-  },
-  {
-   "ticker": "KLAC",
-   "company": "KLA Corp.",
-   "channel": "equipment_components",
-   "quote": "revenue reached a record $3.66 billion, supported by accelerating investment tied to AI infrastructure ... KLA remains uniquely positioned on the critical path of AI infrastructure expansion, where the increasing number and sophistication of leading-edge designs that are consuming a growing percentage of new wafer starts are driving greater demand for process control.",
-   "metric": "revenue of $3.66 billion",
-   "direction": "accelerating",
-   "headline": "KLA Corp. cites accelerating AI-infrastructure investment as a driver of record equipment-component revenue and process-control demand.",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "KLIC",
@@ -1444,16 +1334,6 @@
    "direction": "accelerating",
    "headline": "MSA Safety cites data-center infrastructure spending as a driver of Industrial PPE segment growth in North America.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "MSFT",
-   "company": "Microsoft Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "We added 31 new data centers across five continents this quarter, bringing the total to 88 this year as we expand our footprint in response to accelerating demand ... All up, we added another gigawatt of capacity this quarter and remain on track to roughly double our overall capacity in just two years.",
-   "metric": "88 data centers added this year; 1 gigawatt capacity added this quarter; capacity to roughly double in two years",
-   "direction": "accelerating",
-   "headline": "Microsoft cites accelerating AI-infrastructure demand driving data-center expansion and capacity buildout across its hyperscaler platform.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "MTRN",
@@ -2266,16 +2146,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "NXT",
-   "company": "Nextpower, Inc.",
-   "channel": "equipment_components",
-   "quote": "Global electricity demand continues to grow, driven by electrification, artificial intelligence, data centers, industrial expansion, and the need for more resilient energy infrastructure. We believe Nextpower is uniquely positioned to help meet these evolving needs through our expanded portfolio of technologies",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Nextpower cites AI data-center demand as a driver of global electricity demand that its solar tracking and energy infrastructure technologies are positioned to address.",
-   "event_date": "2026-08-18"
-  },
-  {
    "ticker": "PENG",
    "company": "Penguin Solutions, Inc.",
    "channel": "equipment_components",
@@ -3036,16 +2906,6 @@
    "event_date": "2026-10-28"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... we're beginning to see our capacity investments drive growth.",
-   "metric": "AI-related revenue was up 60% year-over-year",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth of 56% year-over-year, with AI-related revenue up 60%.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "JLL",
    "company": "Jones Lang LaSalle, Inc.",
    "channel": "data_center_construction",
@@ -3133,6 +2993,146 @@
    "metric": "100%-plus order growth year-over-year organically",
    "direction": "accelerating",
    "headline": "Vertiv cites accelerating data-center demand and robust backlog driving significant above-market organic sales growth in 2027.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "APH",
+   "company": "Amphenol Corp.",
+   "channel": "equipment_components",
+   "quote": "The revolution in AI has created a unique opportunity for Amphenol, given our leading high-speed fiber optic and power interconnect solutions. All of these high-technology products are critical components in our customers' next-generation systems.",
+   "metric": "IT Datacom sales grew 117% in US dollars and 77% organically; AI now represents approximately three-quarters of IT Datacom sales; IT Datacom represented 48% of Q3 sales",
+   "direction": "accelerating",
+   "headline": "Amphenol cites AI infrastructure demand as a driver of record IT Datacom segment growth, with AI representing three-quarters of that segment's Q3 sales.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BHE",
+   "company": "Benchmark Electronics, Inc.",
+   "channel": "equipment_components",
+   "quote": "A recent example involved a key AI infrastructure customer that needed additional capacity on a compressed timeline. Our teams moved quickly to expand our manufacturing footprint, support the customer's requirements, and successfully execute the ramp.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Benchmark Electronics, an electronics manufacturing services provider, cites AI-infrastructure customer demand driving its own capacity expansion and manufacturing footprint growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "COHU",
+   "company": "Cohu, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI infrastructure is driving a major transition in power architecture. As rack power moves from traditional levels of 10 kilowatts to 30 kilowatts to well above 100 kilowatts, data centers are adopting higher voltage distribution and more efficient power conversion to address thermal reliability and operating cost challenges ... This broadens demand for power devices that operate at higher voltages and currents, increasing the need for scalable and accurate semiconductor test solutions.",
+   "metric": "$290 million serviceable addressable market opportunity",
+   "direction": "accelerating",
+   "headline": "Cohu cites AI infrastructure power-architecture transition driving demand for its semiconductor test solutions for power management ICs in data centers.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CSL",
+   "company": "Carlisle Cos., Inc.",
+   "channel": "data_center_construction",
+   "quote": "Data centers continue to build momentum, driven by our newly formed and dedicated data center market team. Our premium TPO portfolio and our manufacturing capacity is benefiting data center customers as PVC supply remains constrained and as these customers discover the excellent attributes of TPO for data center roofs.",
+   "metric": "data center business up ~200% in Q3",
+   "direction": "accelerating",
+   "headline": "Carlisle Companies cites data-center construction demand as driver of CCM segment growth through premium TPO roofing systems.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EFOR",
+   "company": "Everforth, Inc.",
+   "channel": "data_center_construction",
+   "quote": "we're engaged in data center services across the world's four largest hyperscalers, and the pace of that work continues to accelerate. Our hyperscaler customers consistently identify people, power, and equipment as the three factors limiting AI build out.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Everforth cites accelerating data-center construction work with hyperscalers as a significant driver of Commercial Segment bookings and revenue growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "EQIX",
+   "company": "Equinix, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Large enterprises, particularly in financial services, are building out their own hybrid AI infrastructure. This is contributing to what you see in the industry data. Server spending is projected to grow more than 80% and AI server backlogs have doubled this year.",
+   "metric": "Server spending projected to grow more than 80%; AI server backlogs doubled this year",
+   "direction": "accelerating",
+   "headline": "Equinix cites enterprise AI infrastructure buildout and accelerating AI server demand as drivers of its interconnection and capacity demand.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FDX",
+   "company": "FedEx Corp.",
+   "channel": "equipment_components",
+   "quote": "we drove a 15-fold increase in aircraft engine moves and won new air freight business with an AI data center customer after more than a 40-year largely parcel-centric relationship",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "FedEx won new air freight business from an AI data center customer, marking a shift from a 40-year parcel-centric relationship.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FORM",
+   "company": "FormFactor, Inc.",
+   "channel": "equipment_components",
+   "quote": "we shipped probe cards to the world's leading foundry for a single GPU design in multi-million dollar volumes ... we're well positioned to meaningfully grow share in this important part of the Foundry & Logic market in 2027, with Farmers Branch providing the required capacity.",
+   "metric": "multi-million dollar volumes",
+   "direction": "accelerating",
+   "headline": "FormFactor cites GPU design demand from foundry customers and expanded capacity at Farmers Branch to capture GPU probe card share growth in 2027.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FTNT",
+   "company": "Fortinet, Inc.",
+   "channel": "data_center_construction",
+   "quote": "an AI company developing frontier models selected Fortinet for a seven-figure expansion to secure its rapidly growing AI workloads ... the customer has standardized on Fortinet, deploying our high-end data center firewalls across five additional data centers.",
+   "metric": "seven-figure expansion across five additional data centers",
+   "direction": "accelerating",
+   "headline": "Fortinet cites AI-driven data center expansion as driver of customer deployment and revenue growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "GOOGL",
+   "company": "Alphabet, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Google Cloud revenues grew 103%. Our AI infrastructure and solutions are the major drivers for Cloud growth, and our customers see us as the leading provider here. So there's huge demand. We are working hard to bring more capacity online to meet this long-term demand.",
+   "metric": "Cloud revenues up 103%, $561 billion backlog, 55% to be recognized over next 24 months",
+   "direction": "accelerating",
+   "headline": "Alphabet cites AI infrastructure demand as primary driver of 103% Google Cloud revenue growth and $561 billion backlog.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... The upside was driven by two factors. First, AI-related demand remained very strong and continued to accelerate.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually; Intelligent Infrastructure revenue up 56% year-over-year",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand driving 56% Intelligent Infrastructure segment revenue growth and 60% AI-related revenue growth in fiscal 2026.",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "KLAC",
+   "company": "KLA Corp.",
+   "channel": "equipment_components",
+   "quote": "KLA's performance in the quarter was supported by continued strength in leading edge foundry/logic related to AI infrastructure investments ... process control, and KLA in particular, remain critical to the AI ecosystem build-out",
+   "metric": "Advanced packaging process control systems revenue remains on track to hit approximately $1.1 billion, or more than 70% year-over-year growth",
+   "direction": "accelerating",
+   "headline": "KLA Corporation cites AI infrastructure investments and ecosystem buildout as driver of process control equipment demand and advanced packaging revenue growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "MSFT",
+   "company": "Microsoft Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "Accelerating demand led to us adding 24 new data centers across five continents this quarter. And we are bringing capacity online faster, reducing dock-to-live times by about 20% quarter-over-quarter for new GB300s in our biggest regions, which make up the majority of the GPU deployments.",
+   "metric": "24 new data centers added; dock-to-live times reduced ~20% QoQ",
+   "direction": "accelerating",
+   "headline": "Microsoft, as a hyperscaler platform, cites accelerating AI demand driving data-center buildout and capacity expansion across five continents.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "NXT",
+   "company": "Nextpower, Inc.",
+   "channel": "power_energy",
+   "quote": "Energy storage contributed approximately $100 million of revenue and more than $20 million of adjusted EBITDA, including revenue from a behind-the-meter storage project for a Tier 1 hyperscaler's AI data center.",
+   "metric": "$100 million of revenue from energy storage, including AI data center project",
+   "direction": "accelerating",
+   "headline": "Nextpower cites AI data-center infrastructure demand as a driver of energy storage revenue and EBITDA in Q2 2027.",
    "event_date": "2026-10-28"
   }
  ]
