@@ -4562,7 +4562,313 @@
    "quote": "we're leveraging our amazing team, empowered with digital and AI tools to deliver a best-in-class experience.",
    "metric": null,
    "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems, Inc.",
+   "category": "efficiency",
+   "headline": "MPS uses in-house-developed AI design tools to expand customer base and win new designs in Enterprise Data.",
+   "quote": "using our in-house-developed AI design tools, we significantly expanded our customer base in traditional areas, as well as landing new wins in applications such as desktop AI designs.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "GDDY",
+   "company": "GoDaddy, Inc.",
+   "category": "revenue",
+   "headline": "GoDaddy's AI product Airo reaches $100M+ annualized bookings run rate, driving incremental bookings growth",
+   "quote": "Airo's analyzed bookings run rate more than doubled to over $100 million, up from $50 million last quarter and $10 million the quarter before.",
+   "metric": "$100M+ annualized bookings run rate",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "RMD",
+   "company": "ResMed, Inc.",
+   "category": "product",
+   "headline": "ResMed's AI sleep coach 'Dawn' surpasses 2.1M patient inquiries; AI device 'Smart Comfort' shows 4.3% compliance lift",
+   "quote": "our generative AI-powered digital sleep coach that we call Dawn, has now seen more than 2.1 million inquiries from patients already on therapy. That's up over 40% just from last quarter.",
+   "metric": "4.3% increase in 30-day compliance (Smart Comfort); 2.1M inquiries to Dawn AI coach, up 40% quarter-over-quarter",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "ALHC",
+   "company": "Alignment Healthcare, Inc.",
+   "category": "efficiency",
+   "headline": "Alignment Healthcare upgraded claims system partly to counter AI-driven provider billing tactics, investing in payment integrity.",
+   "quote": "we needed to make sure that we had kind of state-of-the-art payment integrity programs to offset the AI initiatives from a lot of the larger providers",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "TWLO",
+   "company": "Twilio, Inc.",
+   "category": "product",
+   "headline": "Twilio sells AI-powered communications infrastructure (Conversation Relay, Conversation Intelligence) enabling customers' voice AI agents.",
+   "quote": "The leading voice in consumer AI companies are using our platform to power the first wave of agentic experiences.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "COIN",
+   "company": "Coinbase Global, Inc.",
+   "category": "revenue",
+   "headline": "Coinbase's AI-agent trading product (Coinbase for Agents/MCP) sees agentic trading volume grow ~20% week-over-week",
+   "quote": "the agentic trading volume is growing something like 20% week-over-week right now, which is just shocking.",
+   "metric": "20% week-over-week agentic trading volume growth",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "PINS",
+   "company": "Pinterest, Inc.",
+   "category": "revenue",
+   "headline": "Pinterest uses AI-powered Assistant and agentic discovery to drive commercial search; ~80% of Assistant searches are commercial.",
+   "quote": "approximately 80% of searches using Pinterest Assistant are commercial in nature.",
+   "metric": "80% of Pinterest Assistant searches are commercial; AI cost per transaction <8% of comparable closed proprietary models",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SYK",
+   "company": "Stryker Corp.",
+   "category": "product",
+   "headline": "Stryker has three FDA-approved AI products and embeds AI components in new Enabling Technology product launches.",
+   "quote": "we have three FDA-approved AI products and you referenced a couple of them when you were speaking in your question and we have a number of other ones. Most of our product innovations that we're launching, anything in an Enabling Tech world is likely going to have some kind of AI component to it",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "RDDT",
+   "company": "Reddit, Inc.",
+   "category": "efficiency",
+   "headline": "Reddit uses AI-powered moderation tools to cut enforcement response time from 58 hours to 5 seconds.",
+   "quote": "make moderation much easier and more consistent by giving moderators AI-powered tools. This approach has helped our own enforcement team reduce the median time to action on violating content from 58 hours to 5 seconds this year.",
+   "metric": "58 hours \u2192 5 seconds median enforcement response time",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "RSG",
+   "company": "Republic Services, Inc.",
+   "category": "efficiency",
+   "headline": "Republic Services deploys AI-enabled pricing technology and pilots AI-enhanced routing platform to cut costs and boost productivity.",
+   "quote": "AI-enabled pricing technology is now deployed across the business, providing enhanced insights to support pricing decisions that reflect service requirements and market conditions.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SPSC",
+   "company": "SPS Commerce, Inc.",
+   "category": "product",
+   "headline": "SPS Commerce embeds agentic AI (MAX) in its supply chain product and internally for customer onboarding, driving measurable ROI.",
+   "quote": "MAX, our embedded agentic AI supply chain offering, is now available to all of our fulfillment customers. Grounded in real-world trading behaviors, MAX guides users through daily supply chain workflows",
+   "metric": "$200,000 saved for RIP-IT Sports in first week; up to $3M in receivables protected for Zevia; 170 bps gross margin expansion YoY",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CACC",
+   "company": "Credit Acceptance Corp.",
+   "category": "efficiency",
+   "headline": "Credit Acceptance uses AI for risk selection, pricing, inventory matching tools for dealers, and operational efficiency.",
+   "quote": "we are applying proprietary data and AI to inventory matching tools that help identify vehicles that fit well with our programs for consumers.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "DXC",
+   "company": "DXC Technology Co.",
+   "category": "product",
+   "headline": "DXC embeds AI in agentic platform OASIS, Workplace Services, and Frontier Code Assurance sold to enterprise clients",
+   "quote": "utilization surged 6x from last quarter. Demand for OASIS continues to be strong with increased adoption from existing clients and interest from new customers",
+   "metric": "6x utilization surge quarter-over-quarter for OASIS",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "ILMN",
+   "company": "Illumina, Inc.",
+   "category": "product",
+   "headline": "Illumina launched BioInsight Platform with AI models including SpliceAI2, which identified 17% more disease-relevant splice variants.",
+   "quote": "we launched the BioInsight Platform, which brings our analysis application, AI models and curated biological data together in one place",
+   "metric": "17% more disease-relevant splice variants",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com, Inc.",
+   "category": "product",
+   "headline": "Amazon sells AI services via AWS including Bedrock inference, AgentCore, custom chips, and agentic tools to enterprise customers.",
+   "quote": "Fortune 500 companies spending nearly seven times more on Bedrock year-over-year and total Bedrock token volume growing nearly 17 times year-over-year.",
+   "metric": "17x Bedrock token volume YoY; 7x Fortune 500 Bedrock spend YoY",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CVSA",
+   "company": "Covista, Inc.",
+   "category": "product",
+   "headline": "Covista's AI-powered classroom moves from prototype to full development, targeting personalized student learning experience.",
+   "quote": "The AI-powered classroom has moved beyond the prototype stage and is now in full development in testing, bringing together all of our capabilities along with those of our leading technology partners.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "BFAM",
+   "company": "Bright Horizons Family Solutions, Inc.",
+   "category": "revenue",
+   "headline": "Bright Horizons deploying conversational AI navigation and adapting marketing to LLM/agent-based search to drive enrollment",
+   "quote": "a conversational AI-supported consumer-navigation experience and a more connected experience across our services through One Bright Horizons",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "AJG",
+   "company": "Arthur J. Gallagher & Co.",
+   "category": "efficiency",
+   "headline": "AJG uses AI and automation to reduce repetitive work, improve quality, and boost productivity across its 20,000-person Centers of Excellence.",
+   "quote": "AI and automation helps to accelerate that journey and helps us capitalize on our scale, while continuing to invest where it strengthens client service and growth while improving efficiency and margins over time.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "EIX",
+   "company": "Edison International",
+   "category": "efficiency",
+   "headline": "SCE uses AI-enhanced inspections and AI-enabled cameras to identify maintenance needs and equipment failures earlier.",
+   "quote": "AI-enhanced inspections and AI-enabled cameras, are helping SCE address the risk that remains by identifying maintenance needs, threats, and potential equipment failures earlier.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SBUX",
+   "company": "Starbucks Corp.",
+   "category": "revenue",
+   "headline": "Starbucks testing AI for drive-thru order accuracy and exploring AI-powered search, discovery, and conversational ordering in app",
+   "quote": "we'll begin testing background AI models in the drive-thru that help our baristas input orders more accurately and efficiently as they interact with customers",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CFR",
+   "company": "Cullen/Frost Bankers, Inc.",
+   "category": "efficiency",
+   "headline": "Cullen/Frost says AI efficiency gains may eventually self-fund investments but acknowledges not yet there.",
+   "quote": "I think at some point, we will get to realize self-funding AI projects. I wouldn't say that we're there yet, but I would hope in the near, near future that's the case",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SNDR",
+   "company": "Schneider National, Inc.",
+   "category": "efficiency",
+   "headline": "Schneider National uses AI-enabled tools to improve driver recruitment and response speed in constrained markets.",
+   "quote": "How do we use AI to respond faster to the drivers? And you know, you're seeing some of that evidence within the results as well.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "RYAN",
+   "company": "Ryan Specialty Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Ryan Specialty uses AI to cut submission processing from 2 hours to under 3 minutes and review 30% more RFPs weekly",
+   "quote": "For commercial auto liability submissions, we have cut processing time per submission from as much as two 2 hours to under three 3 minutes.",
+   "metric": "processing time cut from ~2 hours to under 3 minutes per submission; 30% more submissions reviewed weekly",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "AX",
+   "company": "Axos Financial, Inc.",
+   "category": "efficiency",
+   "headline": "Axos deploying AI across the enterprise, expecting expense efficiencies from AI investments.",
+   "quote": "we expect our expense growth to normalize as efficiencies are gained through AI and we maintain our 30% cap on personnel plus professional fees growth as a percentage of revenue growth.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "FDXF",
+   "company": "FedEx Freight Holding Co., Inc.",
+   "category": "efficiency",
+   "headline": "FedEx Freight enters strategic alliance with Palantir to deploy AI and advanced analytics across operations for productivity and network efficiency.",
+   "quote": "we entered into a strategic alliance with Palantir, a leading provider of artificial intelligence and advanced analytics. This relationship is expected to expand our ability to leverage data and AI across our operations.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "PATK",
+   "company": "Patrick Industries, Inc.",
+   "category": "efficiency",
+   "headline": "Patrick Industries launches 'Patrick 2.0' initiative targeting AI, automation, and IT to optimize operations and reduce costs.",
+   "quote": "This organizational initiative is designed to meaningfully capitalize on procurement synergies, structural adjustments, automation, information technology, software, and AI, and certain facility consolidations.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "THG",
+   "company": "The Hanover Insurance Group, Inc.",
+   "category": "efficiency",
+   "headline": "Hanover uses AI for submission intake/triage, claims Adjuster Workbench, and commercial data exchange to cut turnaround time and costs.",
+   "quote": "we launched a new AI enabled data exchange capability designed to make it easier and faster to transact business with our agents and brokers",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "DFIN",
+   "company": "Donnelley Financial Solutions, Inc.",
+   "category": "product",
+   "headline": "DFIN embeds AI-driven capabilities in ActiveDisclosure software sold to clients",
+   "quote": "With the most modern technology in the market, improved go-to-market execution and expanding AI-driven capabilities, ActiveDisclosure is well positioned for future growth.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "BLDR",
+   "company": "Builders FirstSource, Inc.",
+   "category": "efficiency",
+   "headline": "Builders FirstSource invested in AI platforms Digs and Scaffold, and piloted a sales app cutting order time by up to 90%.",
+   "quote": "we led the Series A financing for Digs, with AI platform brings builders' construction documents into a single source of truth that follows the home from pre-construction through warranty.",
+   "metric": "90% reduction in order placement time",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "DASH",
+   "company": "DoorDash, Inc.",
+   "category": "revenue",
+   "headline": "DoorDash deploying own AI agents (DoorDash Ask, Text DoorDash) and MCP to make app easier to use and drive orders",
+   "quote": "what are the features that actually just make the DoorDash app and our own AI agents, whether it's DoorDash Ask, the Text DoorDash, which is something that we released recently, our MCP that we've been giving to third-parties",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CHDN",
+   "company": "Churchill Downs, Inc.",
+   "category": "revenue",
+   "headline": "TwinSpires launched AI-powered features (Paddock PRO AI, AI race preview) to expand bettor engagement, especially among VIP customers.",
+   "quote": "TwinSpires has also successfully launched several enhancements leveraging AI, such as Paddock PRO AI and AI race preview to expand bettor engagement, especially among our VIP customers.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SIRI",
+   "company": "Sirius XM Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "SiriusXM uses AI agents via Sierra to handle customer service interactions, achieving higher CSAT, better business results, and lower costs.",
+   "quote": "we have a significant percentage of our interactions today across chat and voice already handled by AI agents. And these automated interactions have higher levels of CSAT, because of lower level of effort. They have better business results, and they're generally at a lower cost.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "HSY",
+   "company": "The Hershey Co.",
+   "category": "efficiency",
+   "headline": "Hershey rolling out 'decision intelligence' technology to drive working capital and waste reduction efficiencies",
+   "quote": "Decision intelligence, which is something that's broadly being rolled out, enabling things like working capital and waste reduction.",
+   "metric": null,
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CARR",
+   "company": "Carrier Global Corp.",
+   "category": "efficiency",
+   "headline": "Carrier uses AI in dynamic pricing model to improve pricing decisions by customer in residential HVAC business.",
+   "quote": "There's some AI behind some of that dynamic pricing model that we're using.",
+   "metric": null,
+   "event_date": "2026-10-30"
   }
  ],
- "updated": "2026-10-29T07:03:43"
+ "updated": "2026-10-30T07:25:29"
 }
