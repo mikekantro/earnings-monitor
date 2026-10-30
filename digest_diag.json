@@ -6,15 +6,15 @@
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 303,
+ "unique": 241,
  "transcripts_probe": "200",
- "fallback_events": 303,
+ "fallback_events": 241,
  "targeted": {},
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 224,
- "to_process": 79,
+ "already_scored": 189,
+ "to_process": 52,
  "no_transcript": 0,
- "scored": 79
+ "scored": 52
 }
