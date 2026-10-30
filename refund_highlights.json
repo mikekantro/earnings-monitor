@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T01:12:19.312398",
+ "generated": "2026-10-30T16:42:20.392381",
  "window": [
   "2026-07-15",
   "2026-10-30"
@@ -28,18 +28,6 @@
    "quote_receiving": "During the quarter, we received the large majority of our expected IEEPA tariff refunds.",
    "quote_customers": "",
    "event_date": "2026-08-03"
-  },
-  {
-   "ticker": "AMZN",
-   "company": "Amazon.com, Inc.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "refund_customers",
-   "amount": "$600 million",
-   "headline": "Amazon received ~$600M in tariff-related refunds in Q2; will refund customers where traceable, otherwise invest in low prices.",
-   "quote_receiving": "we received tariff-related refunds of approximately $600 million. This is included in our North America segment and represents a significant majority of refunds we expect to receive.",
-   "quote_customers": "we will proactively contact affected customers and automatically issue refunds to them. Otherwise, like other large retailers, we'll utilize refunds to continue to invest in low prices for customers.",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "ANET",
@@ -102,18 +90,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "CAT",
-   "company": "Caterpillar, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$392 million",
-   "headline": "Caterpillar recognized $392M in IEEPA tariff recoveries in Q2 2026, boosting adjusted operating profit margin.",
-   "quote_receiving": "we recognized $392 million in expected IEEPA tariff recoveries with the majority of this amount reflected in corporate items.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "CHD",
    "company": "Church & Dwight Co., Inc.",
    "receiving": true,
@@ -146,18 +122,6 @@
    "amount": null,
    "headline": "Core Laboratories received a partial refund of import tariffs incurred in prior periods during Q2 2026.",
    "quote_receiving": "in the second quarter of 2026, we received a partial refund of import tariffs, which were incurred in prior periods.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "COLM",
-   "company": "Columbia Sportswear Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$78 million",
-   "headline": "Columbia Sportswear received ~$78M in IEEPA tariff refunds and interest in Q2, recognized primarily as a reduction to cost of sales.",
-   "quote_receiving": "During Q2, we began receiving refunds of the US IEEPA tariffs with the majority of cash owed received in June. As such, during the quarter, we recognized approximately $78 million in refunds and interest",
    "quote_customers": "",
    "event_date": "2026-07-30"
   },
@@ -232,30 +196,6 @@
    "quote_receiving": "our impact in Q2 from the IEEPA refunds is less than $3 million. So, it's less than $0.01 of EPS",
    "quote_customers": "",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "FND",
-   "company": "Floor & Decor Holdings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$45.2 million net pre-tax benefit",
-   "headline": "Floor & Decor recognized $45.2M net pre-tax IEEPA tariff refund benefit in Q2 2026, boosting gross margin and interest income.",
-   "quote_receiving": "we recognized a $45.2 million net pre-tax benefit related to the IEEPA tariff refunds, which affected gross margin, SG&A and interest income.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "FSLR",
-   "company": "First Solar, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$89 million",
-   "headline": "First Solar recorded an estimated $89M net IEEPA tariff-related benefit in Q2 2026, reflecting expected recoveries on commercial obligations.",
-   "quote_receiving": "an estimated $89 million net IEEPA tariff-related benefits",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "GWW",
@@ -426,18 +366,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "MMSI",
-   "company": "Merit Medical Systems, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Merit Medical received a tariff refund in Q2; most flowed through to margin, some retained to reinvest in business.",
-   "quote_receiving": "as that money came back, we you know, we thought we'd bring some of those, you know, you know, opportunities forward.",
-   "quote_customers": "",
-   "event_date": "2026-08-12"
-  },
-  {
    "ticker": "MOG.A",
    "company": "Moog, Inc.",
    "receiving": true,
@@ -510,18 +438,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "PBI",
-   "company": "Pitney Bowes, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Pitney Bowes received a tariff refund in SendTech segment, elevating margins above normal mid-30s range.",
-   "quote_receiving": "last year it was depressed because we were a taker of the tariff this year. We got a refund of the tariff. So, that elevated our margins.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "RAL",
    "company": "Ralliant Corp.",
    "receiving": true,
@@ -580,18 +496,6 @@
    "quote_receiving": "Even when excluding the $16 million of tariff-related refunds we received in the quarter which drove about half of the adjusted EPS upside",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "SBUX",
-   "company": "Starbucks Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Starbucks received reciprocal tariff refunds in Q3 FY2026 that largely offset tariffs incurred in the first three quarters.",
-   "quote_receiving": "lower inflation paired with reciprocal tariff refunds. The refunds we received in Q3 largely offset related tariffs incurred in the first three quarters of fiscal 2026.",
-   "quote_customers": "",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "SCHL",
@@ -702,18 +606,6 @@
    "event_date": "2026-07-24"
   },
   {
-   "ticker": "SYK",
-   "company": "Stryker Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Stryker received tariff refunds in Q2, partially driving EPS beat, offset by cyber-event costs.",
-   "quote_receiving": "when we look at the beat in the quarter, it is driven partially by the tariff refunds that happened in the quarter",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "TFX",
    "company": "Teleflex, Inc.",
    "receiving": true,
@@ -748,18 +640,6 @@
    "quote_receiving": "Net performance also included the recognition of approximately $7 million of IEEPA tariff refunds during the quarter.",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "WHD",
-   "company": "Cactus, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$10 million",
-   "headline": "Cactus received ~$10M in IEEPA and unconstitutional tariff refunds in Q2, representing less than 15% of total tariffs paid over the relevant period.",
-   "quote_receiving": "the receipt of initial reciprocal and fentanyl related tariff refunds. These refunds in the second quarter totaled approximately $10 million, which represents less than 15% of the total tariffs paid",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "XRAY",
@@ -2126,6 +2006,66 @@
    "amount": "$15 million",
    "headline": "Omnicell received ~$15M one-time tariff refund benefit in Q2 2025; excluded from ongoing 2026 guidance.",
    "quote_receiving": "the Q2 gross margin reflects almost a $15 million one-time benefit from tariff refunds",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "CAT",
+   "company": "Caterpillar, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$128 million",
+   "headline": "Caterpillar recognized $128M in IEEPA tariff recoveries in Q3 2026; separate tariff costs were ~$600M for the quarter.",
+   "quote_receiving": "In the quarter, we recognized $128 million in IEEPA tariff recoveries. Nearly all of this amount is reflected in corporate items.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "COLM",
+   "company": "Columbia Sportswear Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "roughly 180 basis point benefit",
+   "headline": "Columbia Sportswear recognized tariff refunds net of factory accommodations, totaling ~180 bps gross margin benefit for full-year 2026.",
+   "quote_receiving": "this includes a roughly 180 basis point benefit from tariff refunds net of accommodations for factory partners",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "FND",
+   "company": "Floor & Decor Holdings, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$22 million",
+   "headline": "Floor & Decor recognized ~$14M of IEEPA tariff refunds in Q3 2026; ~$8M remaining to flow through in Q4.",
+   "quote_receiving": "we had approximately $22 million of IEEPA tariff refunds still in inventory at the end of the second quarter. We recognized approximately $14 million of that benefit during the third quarter",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "MMSI",
+   "company": "Merit Medical Systems, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$1.3 million",
+   "headline": "Merit Medical expects ~$1.3M in tariff refunds from freight carrier acting as importer of record, likely arriving early next year.",
+   "quote_receiving": "we're expecting another let's say $1.3 million or so in tariff refunds. You know, now those are kind of with the vendor, I'll say one of our freight carriers. That's the importer of record.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "WHD",
+   "company": "Cactus, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$6 million",
+   "headline": "Cactus received ~$6M in tariff refunds in Q3; company states vast majority of anticipated refunds have been received.",
+   "quote_receiving": "Our refunds totaled approximately $6 million in the quarter, and we've received a vast majority of the refunds that we anticipate are due.",
    "quote_customers": "",
    "event_date": "2026-10-29"
   }
