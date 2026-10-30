@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-29T16:57:03.105209",
+ "generated": "2026-10-30T01:12:19.312398",
  "window": [
   "2026-07-15",
-  "2026-10-29"
+  "2026-10-30"
  ],
  "highlights": [
   {
@@ -30,18 +30,6 @@
    "event_date": "2026-08-03"
   },
   {
-   "ticker": "AGCO",
-   "company": "AGCO Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$22 million",
-   "headline": "AGCO received ~$22M in IEEPA tariff refunds in Q2 2026, reducing full-year net tariff impact to $95M; no future refunds assumed.",
-   "quote_receiving": "North America operating results were generally in line with the prior year, including a benefit of approximately $22 million from certain IEEPA tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "AMZN",
    "company": "Amazon.com, Inc.",
    "receiving": true,
@@ -66,18 +54,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "AOS",
-   "company": "A. O. Smith Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "~$0.01 EPS (described as not material, approximately a penny)",
-   "headline": "A. O. Smith received minor IEEPA tariff refunds in Q2 2026 (~1 cent EPS impact) where it was importer of record; not material.",
-   "quote_receiving": "in Q2 we did receive some refunds related to the IEEPA tariff. In the cases where A. O. Smith was the importer of record, however the amount in that quarter was not material, I would say about a penny",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "AXON",
    "company": "Axon Enterprise, Inc.",
    "receiving": true,
@@ -88,42 +64,6 @@
    "quote_receiving": "We received a refund in Q2 for tariffs, but we are also facing increasing component costs for the year, especially on memory, which leaves our full year guidance unchanged.",
    "quote_customers": "",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "BAX",
-   "company": "Baxter International, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$75 million",
-   "headline": "Baxter received a $75M IEEPA tariff refund in Q2 2026, contributing ~$0.11 per diluted share, not in original guidance.",
-   "quote_receiving": "a $0.11 per diluted share benefit related to an IEEPA tariff refund",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "BC",
-   "company": "Brunswick Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$60 million to $70 million",
-   "headline": "Brunswick expects $60M-$70M in gross IEEPA tariff refunds; ~$30M recognized in Q2 from submitted and accepted refunds.",
-   "quote_receiving": "We now expect total gross IEEPA refunds of approximately $60 million to $70 million. We recognized approximately $30 million of submitted and accepted refunds in the quarter",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "BDC",
-   "company": "Belden, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$0.25 per share",
-   "headline": "Belden recognized a net ~$0.25/share EPS benefit from expected recovery of IEEPA tariffs, recorded to gross profit.",
-   "quote_receiving": "the company recognized a net EPS benefit of approximately $0.25 related to the expected recovery of IEEPA tariffs, partially offset by the introduction of new tariffs",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "BRKR",
@@ -234,18 +174,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "DAR",
-   "company": "Darling Ingredients, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$51 million",
-   "headline": "DGD recorded $51M IEEPA tariff recovery in Q2 2026; Rousselot had ~$18M net IEEPA tariff recovery; additional recoveries pending.",
-   "quote_receiving": "This includes a favorable IEEPA tariff recovery of approximately $51 million at the entity level.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "DIS",
    "company": "The Walt Disney Co.",
    "receiving": true,
@@ -306,18 +234,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "FLS",
-   "company": "Flowserve Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Flowserve received IEEPA tariff cash refunds from government; recognized in Q1, cash received in July.",
-   "quote_receiving": "in July, we received the remaining IEEPA tariff cash refunds that were submitted and recognized in our first quarter results.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "FND",
    "company": "Floor & Decor Holdings, Inc.",
    "receiving": true,
@@ -364,18 +280,6 @@
    "quote_receiving": "we still have high confidence of 150 basis point increase this year from 10.5% to 12% before the tariff refund that happened.",
    "quote_customers": "",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "HOG",
-   "company": "Harley-Davidson, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Harley-Davidson received IEEPA tariff recoveries in Q2 2026, benefiting gross profit; no further meaningful recoveries expected for rest of 2026.",
-   "quote_receiving": "We also benefited from tariff recovery in Q2 of 2026, primarily surrounding IEEPA recoveries.",
-   "quote_customers": "",
-   "event_date": "2026-07-23"
   },
   {
    "ticker": "HSIC",
@@ -534,18 +438,6 @@
    "event_date": "2026-08-12"
   },
   {
-   "ticker": "MO",
-   "company": "Altria Group, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Altria expects higher export-related tax/duty refunds (duty drawback) in H2 2026, with benefit spread across Q3 and Q4.",
-   "quote_receiving": "refunds of taxes and duties paid on imported cigarettes for the quarter were flat sequentially due to timing factors, we continue to expect export volume and related tax refunds to be higher in the second-half",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "MOG.A",
    "company": "Moog, Inc.",
    "receiving": true,
@@ -616,18 +508,6 @@
    "quote_receiving": "the recording of a receivable for nearly $100 million of recoveries related to IEEPA tariffs expensed in 2025. Excluding this one-time benefit, both normalized gross margin and normalized operating margin would have been up slightly year-over-year.",
    "quote_customers": "",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "OMCL",
-   "company": "Omnicell, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$15 million",
-   "headline": "Omnicell received a one-time $15 million tariff refund in Q2 2026, boosting non-GAAP EBITDA and free cash flow.",
-   "quote_receiving": "We benefited from a one-time $15 million tariff refund during the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "PBI",
@@ -856,18 +736,6 @@
    "quote_receiving": "our adjusted results include a net benefit for IEEPA tariff refunds of $8 million or $0.08 per share",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "TXT",
-   "company": "Textron, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$21 million gross / $18 million net",
-   "headline": "Textron received a $21M gross IEEPA tariff refund at TSV (Industrial segment) in Q2 2026, with $18M net impact on results.",
-   "quote_receiving": "We got a gross refund of IEEPA tariffs of $21 million for TSV. The net impact of that on the results was about $18 million.",
-   "quote_customers": "",
-   "event_date": "2026-07-28"
   },
   {
    "ticker": "VGNT",
@@ -2176,6 +2044,90 @@
    "quote_receiving": "Adjusted EBIT benefited from approximately $50 million of net IEEPA tariff refunds that added over 100 basis points to our margin.",
    "quote_customers": "",
    "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "AGCO",
+   "company": "AGCO Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$13 million",
+   "headline": "AGCO recognized ~$13M in IEEPA tariff refunds in Q3 2026, benefiting North America operating income.",
+   "quote_receiving": "Higher sales and production volumes, combined with approximately $13 million of certain IEEPA tariff refunds recognized during the quarter, contributed to the improvement.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "AOS",
+   "company": "A. O. Smith Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "A. O. Smith received IEEPA tariff refunds in Q3 2026, totaling $16M benefit alongside other cost savings, helping offset higher steel and freight costs.",
+   "quote_receiving": "IEEPA tariff refunds helped offset these pressures.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "BAX",
+   "company": "Baxter International, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Baxter received an IEEPA tariff refund in Q2 2026; cash timing benefited Q3 free cash flow.",
+   "quote_receiving": "Results in the quarter also benefited from the timing of certain cash receipts, including the IEEPA tariff refund recognized in the prior quarter and proceeds from a legal settlement.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "BC",
+   "company": "Brunswick Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$60 million to $70 million",
+   "headline": "Brunswick recognized ~$33M in gross IEEPA tariff refunds year-to-date; expects $60M\u2013$70M total, with majority of balance in 2027.",
+   "quote_receiving": "We recognized around $3 million of gross IEEPA refunds in the quarter and approximately $33 million year-to-date with approximately an additional $10 million reflected in full year guidance.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "DAR",
+   "company": "Darling Ingredients, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$18 million",
+   "headline": "Darling Ingredients received $18 million in IEEPA tariff refunds in Q2, which was excluded from core business baseline for Q3 guidance.",
+   "quote_receiving": "you take off the $18 million of IEEPA tariff refunds, we really operated at 334 million",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "HOG",
+   "company": "Harley-Davidson, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Harley-Davidson received tariff/supplier recoveries largely offsetting ~$94M YTD gross tariff costs; no further recoveries expected in 2027.",
+   "quote_receiving": "Recoveries are higher by a very similar amount to the change in gross. This means we net to virtually no change in 2026 operating income impact due to tariffs.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "OMCL",
+   "company": "Omnicell, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$15 million",
+   "headline": "Omnicell received ~$15M one-time tariff refund benefit in Q2 2025; excluded from ongoing 2026 guidance.",
+   "quote_receiving": "the Q2 gross margin reflects almost a $15 million one-time benefit from tariff refunds",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
   }
  ]
 }
