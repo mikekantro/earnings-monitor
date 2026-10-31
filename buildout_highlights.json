@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-30T16:44:09.339329",
+ "generated": "2026-10-31T00:56:18.764928",
  "window": [
   "2026-07-15",
-  "2026-10-30"
+  "2026-10-31"
  ],
  "highlights": [
   {
@@ -506,16 +506,6 @@
    "event_date": "2026-09-08"
   },
   {
-   "ticker": "CUZ",
-   "company": "Cousins Properties, Inc.",
-   "channel": "data_center_construction",
-   "quote": "AI-related office demand broadened across the country into all of our markets. As an example, according to BTS, there is approximately 1.2 million square feet of AI office demand in Austin.",
-   "metric": "1.2 million square feet of AI office demand in Austin",
-   "direction": "accelerating",
-   "headline": "Cousins Properties cites AI-related office demand as a driver of leasing activity and occupancy growth across its Sun Belt markets.",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "CWK",
    "company": "Cushman & Wakefield Ltd.",
    "channel": "data_center_construction",
@@ -524,16 +514,6 @@
    "direction": "accelerating",
    "headline": "Cushman & Wakefield cites data-center-related revenue growth of 83% year-to-date and expanding integrated facilities management services as drivers of company results.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "D",
-   "company": "Dominion Energy, Inc.",
-   "channel": "power_energy",
-   "quote": "We're continuing to see strong sales in our service areas driven by continued economic growth and data center expansion. Notably, nine of the DOM Zones top 10 all-time peak days have occurred this year, including the eight highest summer peak days which have all occurred in the last two months.",
-   "metric": "over 53 gigawatts of data center capacity in various stages of contracting, including approximately 12 gigawatts of capacity contracted under Electric Service Agreements",
-   "direction": "accelerating",
-   "headline": "Dominion Energy cites data-center expansion as driver of record electricity demand and peak-day records in its service territory.",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "DCI",
@@ -736,16 +716,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "EXC",
-   "company": "Exelon Corp.",
-   "channel": "power_energy",
-   "quote": "demand is growing faster than supply, and the system is under increasing strain ... Utility-generated power and storage can add supply, improve reliability, and put downward pressure on long-term costs",
-   "metric": "500 megawatt battery storage project in New Jersey",
-   "direction": "accelerating",
-   "headline": "Exelon cites accelerating AI-driven data-center load and system strain as driver for 500 MW battery storage and generation expansion.",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "EXP",
    "company": "Eagle Materials, Inc.",
    "channel": "equipment_components",
@@ -856,16 +826,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "IR",
-   "company": "Ingersoll Rand, Inc.",
-   "channel": "data_center_construction",
-   "quote": "when you think about air compression technology, pumps, things that move air, gas and liquid for cooling purposes or other purposes, we do feel like there is applicability there ... with some of these larger hyperscalers or data center manufacturers, that is a capability they want to see.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Ingersoll Rand sees emerging opportunities to provide compression and ETO capabilities to hyperscalers and data center manufacturers, though revenue impact remains minimal today.",
-   "event_date": "2026-09-10"
-  },
-  {
    "ticker": "IRM",
    "company": "Iron Mountain, Inc.",
    "channel": "hyperscaler_platform",
@@ -966,16 +926,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "LNT",
-   "company": "Alliant Energy Corp.",
-   "channel": "power_energy",
-   "quote": "our efforts to date have resulted in an expectation of driving a 60% increase in our demand by 2031 through five executed electric service agreements with large load customers ... QTS continues to make substantial progress on construction of its seven-building data center campus, with initial energization of 300 megawatts anticipated later this year",
-   "metric": "60% increase in demand by 2031; 5 executed electric service agreements; 2\u20134 gigawatts pipeline",
-   "direction": "accelerating",
-   "headline": "Alliant Energy links data-center customer load growth\u2014including Google, QTS, and Meta\u2014to a projected 60% increase in electricity demand by 2031 and near-term revenue uplift.",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "LOW",
    "company": "Lowe's Companies, Inc.",
    "channel": "data_center_construction",
@@ -1014,16 +964,6 @@
    "direction": "accelerating",
    "headline": "Lumen Technologies cites AI inference demand and hyperscaler infrastructure buildout as key driver of its network connectivity and PCF products.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "LYB",
-   "company": "LyondellBasell Industries NV",
-   "channel": "equipment_components",
-   "quote": "Infrastructure-related demand also remains a bright spot... Health care and infrastructure applications show steady growth, supported by areas such as pipe, wire and cable, and data-center-related investments.",
-   "metric": null,
-   "direction": "steady",
-   "headline": "LyondellBasell cites data-center-related infrastructure investments as supporting steady growth in polyethylene demand for pipe, wire, and cable applications.",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "MARA",
@@ -1106,16 +1046,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "MTZ",
-   "company": "MasTec, Inc.",
-   "channel": "data_center_construction",
-   "quote": "Our recent turnkey data center project is also progressing well and is a strong example of the demand for the breadth of MasTec's platform ... Demand for the skill set that MasTec has developed in construction management, coupled with the capabilities we have in civil, power, telecom and maintenance, creates a significant opportunity to substantially expand this part of our business.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "MasTec cites data-center construction demand as driver of turnkey project awards and expanded mission-critical business opportunity.",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "MWA",
    "company": "Mueller Water Products, Inc.",
    "channel": "materials",
@@ -1194,16 +1124,6 @@
    "direction": "accelerating",
    "headline": "NVIDIA cites AI-infrastructure demand as driver of its own compute platform deployment, citing 2 gigawatts of capacity standing up in Australia by 2027 valued at $80 billion.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "NVT",
-   "company": "nVent Electric Plc",
-   "channel": "data_center_construction",
-   "quote": "We expect our total data center sales to be more than $2 billion in 2026, more than double last year's sales. ... Our portfolio transformation and the AI data center buildout are accelerating our growth.",
-   "metric": "more than $2 billion in 2026 data center sales, more than double last year's",
-   "direction": "accelerating",
-   "headline": "nVent Electric links AI data-center buildout directly to its own revenue, forecasting over $2 billion in data-center sales in 2026\u2014more than double the prior year\u2014while announcing a third liquid-cooling facility expansion.",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "OC",
@@ -1586,16 +1506,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "SXI",
-   "company": "Standex International Corp.",
-   "channel": "power_energy",
-   "quote": "building out the world's power infrastructure to support increasing living standards, electrification, replacement of an aging Western grid, and the current rapid build out of data centers.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Standex Grid cites rapid data-center buildout as driver of power-infrastructure expansion demand.",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "TLN",
    "company": "Talen Energy Corp.",
    "channel": "hyperscaler_platform",
@@ -1704,16 +1614,6 @@
    "direction": "accelerating",
    "headline": "Viavi Solutions cites growing test infrastructure demand from hyperscalers building optical circuit switches for data centers as a driver of its testing equipment sales.",
    "event_date": "2026-08-17"
-  },
-  {
-   "ticker": "VLTO",
-   "company": "Veralto Corp.",
-   "channel": "equipment_components",
-   "quote": "in Water, our industrial market demand continues to be strong. And this is really on the back of the data center demand and the associated ecosystem there, including power, mining, and semiconductor.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Veralto cites data-center demand and associated ecosystem (power, mining, semiconductor) as driver of industrial water market strength and core sales acceleration.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "VSH",
@@ -3026,16 +2926,6 @@
    "event_date": "2026-10-29"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... AI-related revenue was up 60% year-over-year",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI infrastructure demand from hyperscalers as driver of Intelligent Infrastructure segment growth, with AI-related revenue up 60% year-over-year and expectations for 50%-plus growth in fiscal 2027.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "LIN",
    "company": "Linde Plc",
    "channel": "data_center_construction",
@@ -3084,6 +2974,116 @@
    "direction": "accelerating",
    "headline": "WEC Energy Group cites hyperscaler data-center expansion (Microsoft, Oracle, Vantage) driving 4.9 gigawatts of incremental electric demand and $10 billion increase to five-year capital plan.",
    "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "D",
+   "company": "Dominion Energy, Inc.",
+   "channel": "power_energy",
+   "quote": "We now have over 54 gigawatts of data center capacity in various stages of contracting, including over 12 gigawatts of capacity contracted under electric service agreements.",
+   "metric": "54 gigawatts of data center capacity in various stages of contracting; 12 gigawatts contracted; 6 gigawatts added since end of last year",
+   "direction": "accelerating",
+   "headline": "Dominion Energy cites 54 gigawatts of data center capacity demand driving its Virginia service territory power demand and capital planning.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "EXC",
+   "company": "Exelon Corp.",
+   "channel": "power_energy",
+   "quote": "we see a significant runway beyond the current plan, with $12 billion to $17 billion of identified transmission opportunities and another $3 billion to $7 billion of potential regulated storage investment ... These investment opportunities directly address the challenges our customers are facing.",
+   "metric": "$12 billion to $17 billion of identified transmission opportunities and $3 billion to $7 billion of potential regulated storage investment",
+   "direction": "accelerating",
+   "headline": "Exelon cites transmission and storage investment opportunities tied to grid reliability and supply constraints as drivers of growth beyond its current plan.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "GTES",
+   "company": "Gates Industrial Corp. Ltd.",
+   "channel": "equipment_components",
+   "quote": "Our data center revenues increased about two and a half times compared to the last year's third quarter. In data center applications, we continue to expand our product offering and customer base. We anticipate to deliver material growth in this end market as liquid cooling application adoption continues to accelerate.",
+   "metric": "data center revenues increased 2.5x year-over-year",
+   "direction": "accelerating",
+   "headline": "Gates Industrial cites accelerating data-center liquid-cooling demand driving material revenue growth in the segment.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "IR",
+   "company": "Ingersoll Rand, Inc.",
+   "channel": "data_center_construction",
+   "quote": "We booked an approximately $195 million order that is an engineered-to-order solution for mission-critical data center infrastructure. This order covers integrated backup power solutions for mission-critical data center operations, paired with a differentiated filtration system engineered to the customer's specifications for maximum uptime, longevity, and reliability.",
+   "metric": "$195 million order",
+   "direction": "accelerating",
+   "headline": "Ingersoll Rand cites a $195 million engineered-to-order data center infrastructure order as a driver of IT&S segment momentum, with management noting a robust and growing funnel of additional opportunities in the data center market.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscalers as a driver of Intelligent Infrastructure segment revenue growth.",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "LNT",
+   "company": "Alliant Energy Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "Five data centers support our expectation for greater than 60% contracted demand growth by 2031, three are actively under construction. Google is taking transmission service with a load ramp consistent with the accelerated schedule we filed with the Iowa Commission.",
+   "metric": "greater than 60% contracted demand growth by 2031; 3.4 gigawatts of load growth from three sites; ~1 additional gigawatt of contracted large load within the next six months",
+   "direction": "accelerating",
+   "headline": "Alliant Energy cites data center AI-infrastructure demand as driver of 60%-plus contracted load growth through 2031 and $15.9B capital plan.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "LYB",
+   "company": "LyondellBasell Industries NV",
+   "channel": "equipment_components",
+   "quote": "strong demand for electrical components, supporting data center expansion and grid buildout",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "LyondellBasell cites strong demand for electrical components supporting data center expansion and grid buildout as driver for Advanced Polymer Solutions segment.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "MTZ",
+   "company": "MasTec, Inc.",
+   "channel": "data_center_construction",
+   "quote": "our turnkey data center business. Our existing turnkey data center projects are progressing very well ... customers are looking for partners that can help solve infrastructure challenges early in the development process, coordinate multiple scopes of work and ultimately deliver projects more efficiently. That's exactly where we believe MasTec is uniquely positioned.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "MasTec links AI-driven data-center construction demand to its growing turnkey data-center business, citing strong backlog builds and several large awards in pursuit.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "NVT",
+   "company": "nVent Electric Plc",
+   "channel": "data_center_construction",
+   "quote": "Infrastructure led the way, with organic sales up over 70%, primarily driven by outstanding growth in data centers ... We expect the infrastructure vertical to deliver record double-digit organic growth this year, with data center expansion and the need for power.",
+   "metric": "Infrastructure organic sales up over 70%, infrastructure 60% of YTD sales, data center opportunity expands to approximately $2 million per megawatt with Maverick",
+   "direction": "accelerating",
+   "headline": "nVent Electric cites data-center expansion and power demand as driver of record 70%+ infrastructure sales growth and guides continued strong 2027 growth.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SXI",
+   "company": "Standex International Corp.",
+   "channel": "power_energy",
+   "quote": "It is behind about 30% of our expected growth in fiscal year 2027. The grid business is also experiencing growth stemming from general increases in grid capacity to support economic growth and increased electrification.",
+   "metric": "30% of expected organic growth in fiscal 2027; $40+ million grid growth with ~75% from data centers",
+   "direction": "accelerating",
+   "headline": "Standex cites AI data-center power demand as driving approximately 30% of its fiscal 2027 organic growth, primarily through its grid business.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "VLTO",
+   "company": "Veralto Corp.",
+   "channel": "power_energy",
+   "quote": "We have good secular drivers relative to data centers and feeder industries in power, semiconductor and mining.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Veralto cites data-center demand as a secular driver for its industrial water business, particularly through ChemTreat's involvement in early-stage data-center project designs.",
+   "event_date": "2026-10-30"
   }
  ]
 }

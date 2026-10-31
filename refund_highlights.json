@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-30T16:42:20.392381",
+ "generated": "2026-10-31T00:55:21.544308",
  "window": [
   "2026-07-15",
-  "2026-10-30"
+  "2026-10-31"
  ],
  "highlights": [
   {
@@ -90,30 +90,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "CHD",
-   "company": "Church & Dwight Co., Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$15 million",
-   "headline": "Church & Dwight expects ~$15M in Phase II tariff refunds in H2 2026, to be invested in consumer-facing business activities.",
-   "quote_receiving": "we expect to receive approximately $15 million of Phase II tariff refund benefits during the second half of 2026. We will invest these proceeds in primarily consumer-facing business activities.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "CL",
-   "company": "Colgate-Palmolive Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Colgate received tariff refunds in Q2 that partially offset higher raw material costs; no further refunds expected.",
-   "quote_receiving": "the higher raw material costs were partially offset by the benefits of the tariff refunds in the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "CLB",
    "company": "Core Laboratories, Inc.",
    "receiving": true,
@@ -124,18 +100,6 @@
    "quote_receiving": "in the second quarter of 2026, we received a partial refund of import tariffs, which were incurred in prior periods.",
    "quote_customers": "",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "CRI",
-   "company": "Carter's, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$132 million",
-   "headline": "Carter's received $132M back from US government for previously paid tariffs and related interest in Q2 2026.",
-   "quote_receiving": "In the second quarter, we received $132 million back from the US government. $128 million benefited gross profit, and $4 million was recorded as interest income.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "DIS",
@@ -270,18 +234,6 @@
    "event_date": "2026-07-16"
   },
   {
-   "ticker": "INVX",
-   "company": "Innovex International, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Innovex applied for and received modest tariff refunds (non-232) expected to arrive in Q3; deemed immaterial to business.",
-   "quote_receiving": "we have applied for and received some, let's say, modest tariff refunds that we'll see come in the door in Q3 here.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "IPGP",
    "company": "IPG Photonics Corp.",
    "receiving": true,
@@ -292,18 +244,6 @@
    "quote_receiving": "We recorded a benefit from tariff refunds of approximately $4.7 million, and had a positive impact on gross margin of approximately 170 basis points in the quarter.",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "IR",
-   "company": "Ingersoll Rand, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "na",
-   "amount": "$10 million",
-   "headline": "Ingersoll Rand received ~$10M in tariff refunds in Q2 2025, concentrated in ITS segment.",
-   "quote_receiving": "the tariff refunds were like $10 million in 2Q",
-   "quote_customers": "",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "JBTM",
@@ -340,30 +280,6 @@
    "quote_receiving": "the tariff refund that we received in the second quarter drove the better than expected and solid operating profit growth and EPS performance in the quarter.",
    "quote_customers": "",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "LEA",
-   "company": "Lear Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Lear received IEEPA-related tariff recoveries and import adjustment credits in Q1 2026; one-time items not expected to recur in H2.",
-   "quote_receiving": "the non-recurrence of the one-time adjustments to reverse IEEPA-related tariff recoveries and the application of import adjustment credits applied retroactively and recorded in the first quarter",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "MHK",
-   "company": "Mohawk Industries, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Mohawk received tariff refunds worth ~$0.63 EPS benefit in Q2 2026, representing reversal of previously absorbed tariff costs.",
-   "quote_receiving": "adjusted EPS was $3.67, including a benefit of approximately $0.63 from tariff refunds, which were not included in our second quarter guidance.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "MOG.A",
@@ -426,18 +342,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "NWL",
-   "company": "Newell Brands, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "nearly $100 million (plus $26 million Q1 2026 IEEPA recoveries)",
-   "headline": "Newell Brands recorded ~$100M receivable for IEEPA tariff recoveries from 2025, plus $26M from Q1 2026; cash collection begun in July.",
-   "quote_receiving": "the recording of a receivable for nearly $100 million of recoveries related to IEEPA tariffs expensed in 2025. Excluding this one-time benefit, both normalized gross margin and normalized operating margin would have been up slightly year-over-year.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "RAL",
    "company": "Ralliant Corp.",
    "receiving": true,
@@ -448,18 +352,6 @@
    "quote_receiving": "This is inclusive of a small benefit from tariff refunds received through Q2 and will be recognized in cost of sales.",
    "quote_customers": "",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "RBC",
-   "company": "RBC Bearings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "~100 basis points of gross margin benefit",
-   "headline": "RBC Bearings received tariff refunds in Q1 FY2027, providing ~100 bps gross margin benefit, primarily in Industrial segment; treated as one-time.",
-   "quote_receiving": "the timing of tariff refunds, which temporarily alleviated the impact of ongoing global tariff costs, provided almost 100 basis points of benefit to gross margins this quarter.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "RL",
@@ -522,18 +414,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "SMP",
-   "company": "Standard Motor Products, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "SMP received IEEPA tariff refunds in Q2 2026; treated as pass-through affecting both sales and COGS.",
-   "quote_receiving": "we received refunds in Q2 for amounts previously paid under the IEEPA tariff regime",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "SOLV",
    "company": "Solventum Corp.",
    "receiving": true,
@@ -580,30 +460,6 @@
    "quote_receiving": "We also received tariff refunds during the second quarter, which contributed to adjusted gross margins.",
    "quote_customers": "",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "SXI",
-   "company": "Standex International Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Standex Scientific segment adjusted operating margin rose 440 bps YoY, partly reflecting tariff refunds received.",
-   "quote_receiving": "Adjusted operating margin of 28.6% increased 440 basis points year-on-year, reflecting higher sales and tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "SXT",
-   "company": "Sensient Technologies Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$5 million",
-   "headline": "Sensient received ~$5M in tariff refunds in Q2 2026, mostly in Color Group; no significant additional refunds expected.",
-   "quote_receiving": "The company received approximately $5 million of tariff refunds in the second quarter, most of which was in the Color Group, as Paul mentioned.",
-   "quote_customers": "",
-   "event_date": "2026-07-24"
   },
   {
    "ticker": "TFX",
@@ -2068,6 +1924,90 @@
    "quote_receiving": "Our refunds totaled approximately $6 million in the quarter, and we've received a vast majority of the refunds that we anticipate are due.",
    "quote_customers": "",
    "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "CHD",
+   "company": "Church & Dwight Co., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "undecided",
+   "amount": "$15 million (Q3), $5 million (Q4 expected)",
+   "headline": "Church & Dwight received ~$15M tariff refund benefit in Q3 2024, with ~$5M more expected in Q4, flowing through net inflation figure.",
+   "quote_receiving": "it was a net about $15 million in the third quarter. And in the fourth quarter, we expect it to be about $5 million.",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CL",
+   "company": "Colgate-Palmolive Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Colgate received an insignificant tariff refund in Q3; no further tariff refunds expected in Q4.",
+   "quote_receiving": "We had an insignificant amount of tariff refund come through in the third quarter, so that was not the driver there, and we're not anticipating in the fourth quarter to have any further tariff refunds.",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CRI",
+   "company": "Carter's, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$130 million",
+   "headline": "Carter's received ~$130 million recovery of previously paid tariffs and related interest, boosting year-to-date cash flow and earnings.",
+   "quote_receiving": "the most significant of which was the roughly $130 million recovery of previously paid tariffs and related interest.",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "IR",
+   "company": "Ingersoll Rand, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$32 million",
+   "headline": "Ingersoll Rand received $32M in IEEPA tariff refunds in Q3 2026, boosting adjusted EBITDA and EPS.",
+   "quote_receiving": "Adjusted EBITDA was $584 million. This includes $32 million of IEEPA tariff refunds received in the quarter, $25 million in IT&S and $7 million at P&ST.",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "MHK",
+   "company": "Mohawk Industries, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$10 million",
+   "headline": "Mohawk Industries received $10M in tariff refunds in Q3 2026, benefiting Flooring North America segment margins.",
+   "quote_receiving": "Productivity gains of $24 million, price and mix of $15 million, and tariff refunds of $10 million were partially offset by underlying inflation of $25 million.",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "NWL",
+   "company": "Newell Brands, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$100 million",
+   "headline": "Newell Brands received ~$100M IEEPA tariff refund in Q2 2026 for costs expensed in 2025; retained to support margins and EPS.",
+   "quote_receiving": "this updated full year outlook continues to include approximately $100 million, or $0.17 per share, from the one-time out-of-period recovery of IEEPA tariff costs expensed in 2025",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "SMP",
+   "company": "Standard Motor Products, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "na",
+   "amount": null,
+   "headline": "SMP received additional IEEPA tariff refunds in Q3; treated as pass-through affecting both sales and COGS.",
+   "quote_receiving": "we received additional refunds in Q3 for amounts previously paid under the IEEPA tariff regime",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
   }
  ]
 }
