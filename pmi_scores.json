@@ -13185,6 +13185,21 @@
       "ticker": "JOE",
       "name": "The St. Joe Co.",
       "date": "2026-10-30"
+    },
+    {
+      "new_orders": 72,
+      "output": 78,
+      "employment": 55,
+      "prices": 52,
+      "supply_chains": 42,
+      "demand_breadth": 58,
+      "composite": 65,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "Record shipments of 5,972 homes and a 63% YoY backlog surge signal durable manufactured housing demand, but steel prices up ~150% YTD are compressing factory-built gross margins from 22.9% to 21.1%, representing a significant cost-push inflation risk for any manufacturer with commodity exposure.",
+      "ticker": "CVCO",
+      "name": "Cavco Industries, Inc.",
+      "date": "2026-10-31"
     }
   ]
 }
