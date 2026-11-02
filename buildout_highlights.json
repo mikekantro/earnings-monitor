@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-31T00:56:18.764928",
+ "generated": "2026-11-02T20:21:06.792389",
  "window": [
   "2026-07-15",
-  "2026-10-31"
+  "2026-11-02"
  ],
  "highlights": [
   {
@@ -3016,16 +3016,6 @@
    "event_date": "2026-10-30"
   },
   {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand from hyperscalers as a driver of Intelligent Infrastructure segment revenue growth.",
-   "event_date": "2026-09-30"
-  },
-  {
    "ticker": "LNT",
    "company": "Alliant Energy Corp.",
    "channel": "hyperscaler_platform",
@@ -3084,6 +3074,16 @@
    "direction": "accelerating",
    "headline": "Veralto cites data-center demand as a secular driver for its industrial water business, particularly through ChemTreat's involvement in early-stage data-center project designs.",
    "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Demand for AI infrastructure remains strong and continues to accelerate. As customers expand their infrastructure, the systems they need are becoming more complex. That creates more opportunities for Jabil. Fiscal 2026 reflected that. Segment revenue grew more than 40% and AI-related revenue was up 60% year-over-year",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand driving 60% growth in AI-related revenue and expansion of its Intelligent Infrastructure segment.",
+   "event_date": "2026-09-30"
   }
  ]
 }
