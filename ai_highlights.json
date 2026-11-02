@@ -4994,7 +4994,43 @@
    "quote": "Our target is to manage to approximately 700 employees over the next three years by both reallocating resources and through efficiency gains, using AI and other tools.",
    "metric": "$40M annual run-rate savings",
    "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "EL",
+   "company": "The Est\u00e9e Lauder Companies, Inc.",
+   "category": "efficiency",
+   "headline": "Est\u00e9e Lauder partners with Profound, an AI marketing platform, to track how its brands appear across AI platforms.",
+   "quote": "partnering with Profound, an AI marketing platform bringing global insights into how our brands appear across AI platforms.",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "CHH",
+   "company": "Choice Hotels International, Inc.",
+   "category": "revenue",
+   "headline": "Choice Hotels' AI-enabled EasyBid platform improved RFP win rates by 210 bps and drove 27% growth in group revenue.",
+   "quote": "Our AI-enabled EasyBid platform is helping owners win more group business, improving RFP win rates by 210 basis points and supporting 27% year-over-year growth in group revenue during the quarter.",
+   "metric": "210 bps RFP win rate improvement; 27% group revenue growth",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "MAR",
+   "company": "Marriott International, Inc.",
+   "category": "revenue",
+   "headline": "Marriott deploying conversational AI 'Ask Bonvoy' in own channels and integrating with Google and OpenAI to drive bookings.",
+   "quote": "introducing conversational AI in our own channels through features such as Ask Bonvoy, and testing new search and commerce experiences through integrations with leading platforms, like Google and OpenAI.",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "IDXX",
+   "company": "IDEXX Laboratories, Inc.",
+   "category": "product",
+   "headline": "IDEXX acquired CoVet, an AI-native ambient listening and clinical workflow software for veterinary practices, to drive diagnostic utilization.",
+   "quote": "we acquired CoVet, a leading and rapidly growing provider of AI native ambient listening and clinical workflow software for veterinary practices",
+   "metric": "$20M annualized revenue run rate",
+   "event_date": "2026-11-02"
   }
  ],
- "updated": "2026-10-31T06:27:17"
+ "updated": "2026-11-02T21:39:14"
 }
