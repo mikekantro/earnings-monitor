@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-02T20:21:06.792389",
+ "generated": "2026-11-03T02:59:12.620678",
  "window": [
   "2026-07-15",
-  "2026-11-02"
+  "2026-11-03"
  ],
  "highlights": [
   {
@@ -696,16 +696,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "ETR",
-   "company": "Entergy Corp.",
-   "channel": "power_energy",
-   "quote": "technology sector is the largest demand growth contributor in our five-year plan ... we continue to have 7 to 12 gigawatts of hyperscale data center potential in our pipeline",
-   "metric": "7 to 12 gigawatts of hyperscale data center potential",
-   "direction": "accelerating",
-   "headline": "Entergy cites 7-12 GW hyperscale data center pipeline as largest demand growth contributor in its five-year plan.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "EVRG",
    "company": "Evergy, Inc.",
    "channel": "hyperscaler_platform",
@@ -1094,16 +1084,6 @@
    "direction": "accelerating",
    "headline": "Insight Enterprises cites strong AI infrastructure demand (servers, storage, networking) as a key growth driver and continuing tailwind for its hardware business.",
    "event_date": "2026-08-11"
-  },
-  {
-   "ticker": "NSSC",
-   "company": "Napco Security Technologies, Inc.",
-   "channel": "equipment_components",
-   "quote": "We are also seeing supply chain challenges as a result of data center expansion, which is putting pressure on the cost of electronic component parts.",
-   "metric": null,
-   "direction": null,
-   "headline": "NAPCO Security Technologies cites data-center expansion driving up electronic component costs that pressure equipment margins.",
-   "event_date": "2026-08-24"
   },
   {
    "ticker": "NTCT",
@@ -3076,13 +3056,23 @@
    "event_date": "2026-10-30"
   },
   {
+   "ticker": "ETR",
+   "company": "Entergy Corp.",
+   "channel": "power_energy",
+   "quote": "Data center interest remains strong and in the range of 7 to 12 gigawatts. Our traditional industrial segments continue with discussions for 3 to 5 gigawatts. We see these projects as having the potential to convert into signed agreements within the next 24 months",
+   "metric": "7 to 12 gigawatts",
+   "direction": "accelerating",
+   "headline": "Entergy Corp. cites 7\u201312 gigawatts of data-center demand interest as a driver of its generation, transmission, and capacity outlook.",
+   "event_date": "2026-11-02"
+  },
+  {
    "ticker": "JBL",
    "company": "Jabil, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "Demand for AI infrastructure remains strong and continues to accelerate. As customers expand their infrastructure, the systems they need are becoming more complex. That creates more opportunities for Jabil. Fiscal 2026 reflected that. Segment revenue grew more than 40% and AI-related revenue was up 60% year-over-year",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually, up from one $1 billion customer two years ago",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
    "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand driving 60% growth in AI-related revenue and expansion of its Intelligent Infrastructure segment.",
+   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth of 56% year-over-year and 63% expected growth in Q1 FY2027.",
    "event_date": "2026-09-30"
   }
  ]

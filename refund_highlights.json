@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-02T20:21:01.481559",
+ "generated": "2026-11-03T02:58:48.020538",
  "window": [
   "2026-07-15",
-  "2026-11-02"
+  "2026-11-03"
  ],
  "highlights": [
   {
@@ -1108,18 +1108,6 @@
    "quote_receiving": "the International Emergency Economic Powers Act tariff refunds received during the quarter helped offset a portion of those impacts.",
    "quote_customers": "",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "NSSC",
-   "company": "Napco Security Technologies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "NAPCO received IEEPA tariff refunds boosting Q4 gross margin by ~600 bps and full-year gross margin by ~50 bps.",
-   "quote_receiving": "Overall, gross profit for the quarter benefits by approximately 600 basis points from IEEPA tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-08-24"
   },
   {
    "ticker": "NVST",

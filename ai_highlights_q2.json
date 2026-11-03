@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-02T20:21:17.236235",
+ "generated": "2026-11-03T02:59:45.916270",
  "window": [
   "2026-07-15",
-  "2026-11-02"
+  "2026-11-03"
  ],
  "highlights": [
   {
@@ -546,18 +546,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "EL",
-   "company": "The Estee Lauder Companies, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Estee Lauder uses AI for consumer insights, media personalization, Enterprise Business Services, and Meta advertising tools.",
-   "quote": "standing up key AI-enabled technologies to facilitate service delivery and productivity. For our new Unified Global Media Model, most of our market have transitioned to WPP, already lighting up over 1,500 campaigns and harnessing AI for real-time personalization",
-   "metric": "1,500+ campaigns using AI for real-time personalization",
-   "event_date": "2026-08-19"
-  },
-  {
    "ticker": "EMR",
    "company": "Emerson Electric Co.",
    "category": "product",
@@ -726,18 +714,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "IDXX",
-   "company": "IDEXX Laboratories, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "IDEXX embeds AI in veterinary diagnostic instruments sold to customers, including inVue Dx trained on 60M+ images for cytology analysis.",
-   "quote": "sophisticated NVIDIA chips, AI that's been trained on over 60 million images. It takes 20 glass slides worth of blood smears to equal the diagnostic content of just one run on inVue Dx.",
-   "metric": "AI trained on over 60 million images; inVue Dx placed over 9,000 instruments through Q2",
-   "event_date": "2026-08-13"
-  },
-  {
    "ticker": "IPGP",
    "company": "IPG Photonics Corp.",
    "category": "product",
@@ -868,18 +844,6 @@
    "quote": "we're using AI to help power our coding and development at Ticketmaster, and then we're also looking to integrate it more in the direct fan experience when they're on-site or in the app",
    "metric": null,
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "MAR",
-   "company": "Marriott International, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Marriott launched Ask Bonvoy, an AI-powered conversational search on marriott.com and Bonvoy app, to drive engagement and revenue.",
-   "quote": "In June, we began our phased rollout of Ask Bonvoy, our AI-powered conversational search experience on marriott.com and the Marriott Bonvoy app",
-   "metric": null,
-   "event_date": "2026-08-03"
   },
   {
    "ticker": "MC",
@@ -2154,18 +2118,6 @@
    "event_date": "2026-08-10"
   },
   {
-   "ticker": "CHH",
-   "company": "Choice Hotels International, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Choice Hotels uses AI-enabled EasyBid platform to boost group RFP conversion 360 bps and AI tool CHARLIE to cut support requests 40%",
-   "quote": "Our AI-enabled EasyBid platform improved group RFP conversion by 360 basis points, contributing to 16% year-over-year growth in group revenue in the second quarter.",
-   "metric": "360 bps improvement in group RFP conversion; 16% year-over-year group revenue growth; ~40% reduction in operational support requests",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "CHRD",
    "company": "Chord Energy Corp.",
    "category": "efficiency",
@@ -2824,18 +2776,6 @@
    "quote": "James has already done a lot of AI transformation in finance, my CMO in marketing, my HR lead in HR. But we've got a lot more of our opportunities to deploy AI internally",
    "metric": null,
    "event_date": "2026-08-11"
-  },
-  {
-   "ticker": "NSSC",
-   "company": "Napco Security Technologies, Inc.",
-   "category": "efficiency",
-   "margin_claim": true,
-   "margin_quote": "Equipment margins benefited from IEEPA tariff refunds discussed earlier and lower inventory reserve adjustments. These benefits were partially offset by section 122 tariff costs during the period, as well as increased technical service costs related to investments in AI solutions to improve customer experience.",
-   "margin_metric": null,
-   "headline": "NAPCO investing in AI solutions to improve customer experience, cited as cost pressure on equipment margins",
-   "quote": "increased technical service costs related to investments in AI solutions to improve customer experience",
-   "metric": null,
-   "event_date": "2026-08-24"
   },
   {
    "ticker": "NTCT",
@@ -6348,10 +6288,46 @@
    "margin_claim": false,
    "margin_quote": "",
    "margin_metric": null,
-   "headline": "Carnival uses AI across commercial systems to improve decisions, personalize guest experiences, automate shoreside ops, and find vessel efficiencies.",
-   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies",
+   "headline": "Carnival deploys AI across commercial systems, shoreside operations, and vessel management for better decisions and efficiency.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
    "metric": null,
    "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "CHH",
+   "company": "Choice Hotels International, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Choice Hotels uses AI-enabled EasyBid and smart response tools to boost franchisee group revenue and cut reputation management fees by ~30%.",
+   "quote": "we've reduced reputation management fees by approximately 30% through our AI-enabled smart response tool.",
+   "metric": "30% reduction in reputation management fees; 210 bps RFP win rate improvement; 27% YoY group revenue growth",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "EL",
+   "company": "The Est\u00e9e Lauder Companies, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Est\u00e9e Lauder partners with Profound, an AI marketing platform, to gain global insights on brand appearance across AI platforms.",
+   "quote": "partnering with Profound, an AI marketing platform bringing global insights into how our brands appear across AI platforms",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "IDXX",
+   "company": "IDEXX Laboratories, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "IDEXX acquired CoVet, an AI-native ambient listening and clinical workflow software for veterinary practices.",
+   "quote": "we acquired CoVet, a leading and rapidly growing provider of AI native ambient listening and clinical workflow software for veterinary practices.",
+   "metric": "$20 million annualized revenue run rate, growing at strong double-digit rates",
+   "event_date": "2026-11-02"
   },
   {
    "ticker": "KMX",
@@ -6364,6 +6340,18 @@
    "quote": "we scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
    "metric": null,
    "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "MAR",
+   "company": "Marriott International, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Marriott expanding AI use via Ask Bonvoy conversational AI and integrations with Google and OpenAI to drive bookings.",
+   "quote": "introducing conversational AI in our own channels through features such as Ask Bonvoy, and testing new search and commerce experiences through integrations with leading platforms, like Google and OpenAI.",
+   "metric": null,
+   "event_date": "2026-11-02"
   }
  ]
 }
