@@ -1,22 +1,10 @@
 {
- "generated": "2026-11-03T02:59:45.916270",
+ "generated": "2026-11-03T17:52:12.526063",
  "window": [
   "2026-07-15",
   "2026-11-03"
  ],
  "highlights": [
-  {
-   "ticker": "AAPL",
-   "company": "Apple, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Apple embeds Siri AI and Apple Intelligence across iPhone, Mac, iPad and AirPods as core product features.",
-   "quote": "We were tremendously excited to unveil the all-new Siri AI, a completely reimagined version of Siri that is profoundly capable, deeply personal, and integrated seamlessly across our platforms.",
-   "metric": null,
-   "event_date": "2026-07-30"
-  },
   {
    "ticker": "ABNB",
    "company": "Airbnb, Inc.",
@@ -244,18 +232,6 @@
    "quote": "we announced the rollout of our agentic AI partnership model, offering up to 30% day-one operational cost reduction, with additional savings over time.",
    "metric": "30% day-one operational cost reduction",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "BWXT",
-   "company": "BWX Technologies, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "BWXT plans AI-enabled capabilities in new HPDU factories as blueprint for modernizing its manufacturing footprint.",
-   "quote": "These new factories will incorporate advanced automation, digital manufacturing, and AI-enabled capabilities that will serve as a blueprint for the continued modernization of our entire manufacturing footprint.",
-   "metric": null,
-   "event_date": "2026-08-03"
   },
   {
    "ticker": "CALX",
@@ -762,18 +738,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "JAZZ",
-   "company": "Jazz Pharmaceuticals Plc",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Jazz Pharmaceuticals investing in digital and AI as key commercial capabilities, contributing to SG&A growth.",
-   "quote": "the increase in SG&A driven by higher expenses for Modeyso and Ziihera first-line GEA and to a lesser extent by investments in key commercial capabilities in digital and AI",
-   "metric": null,
-   "event_date": "2026-08-03"
-  },
-  {
    "ticker": "JKHY",
    "company": "Jack Henry & Associates, Inc.",
    "category": "product",
@@ -942,18 +906,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "MTCH",
-   "company": "Match Group, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Match Group uses AI to accelerate product development, compressing multi-month cycles to weeks at Tinder",
-   "quote": "AI helped this team move from idea to final product in just a few weeks, compressing what would typically be a multi-month development process.",
-   "metric": null,
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "NWSA",
    "company": "News Corp.",
    "category": "revenue",
@@ -1060,18 +1012,6 @@
    "quote": "higher expenses associated with continued investments in AI and technology infrastructure",
    "metric": null,
    "event_date": "2026-07-28"
-  },
-  {
-   "ticker": "PLTR",
-   "company": "Palantir Technologies, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Palantir sells AIP, an enterprise AI platform embedding agent orchestration, ontology, and post-training to convert tokens into customer value.",
-   "quote": "AIP succeeded because it's the best, most ergonomic environment for AI in the enterprise. It integrates mixed mammal-AI teams across heterogeneous, interdependent workflows, and delivers the fastest implementations that turn tokens into real economic value",
-   "metric": "93% year-over-year revenue growth; $2.1B TCV in US commercial; 220 deals worth $1M+",
-   "event_date": "2026-08-03"
   },
   {
    "ticker": "PLUS",
@@ -1480,18 +1420,6 @@
    "quote": "Our recently announced strategic partnership with IMU Biosciences is an early proof point of our important role supporting next-generation immune profiling and AI-enabled precision medicine in clinical diagnostic applications.",
    "metric": null,
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "WAY",
-   "company": "Waystar Holding Corp.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Waystar embeds AI (AltitudeAI) in its revenue-cycle platform, driving client bookings and measurable outcomes like 88% autonomous match rates.",
-   "quote": "Our AI deployment is not experimental; it is embedded and monetized, and it delivers meaningful outcomes inside the mission-critical workflows our clients rely on every day.",
-   "metric": "88% autonomous match rate; ~80% reduction in recoupment management time; ~$3M incremental revenue per 10,000 admissions",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "WU",
@@ -1998,18 +1926,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "BMRN",
-   "company": "BioMarin Pharmaceutical, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "BioMarin used AI to accelerate supplemental NDA filing for VOXZOGO in hypochondroplasia, reaching top quartile speed.",
-   "quote": "we filed the supplemental NDA with the FDA in record time. Again, AI-enabled. We benchmarked it, and we're top quartile with the best companies out there in terms of Phase 3 data timing to filing.",
-   "metric": "top quartile Phase 3 data-to-filing speed",
-   "event_date": "2026-08-12"
-  },
-  {
    "ticker": "BOX",
    "company": "Box, Inc.",
    "category": "product",
@@ -2488,18 +2404,6 @@
    "quote": "AI has reduced non-clinical tasks like order updates and general side effect questions that are handled by our support teams by nearly 50%.",
    "metric": "AI answers 80% of customer questions; reduces non-clinical support tasks by ~50%; customers send 3x as many messages",
    "event_date": "2026-08-10"
-  },
-  {
-   "ticker": "HLIT",
-   "company": "Harmonic, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Harmonic sells AI-powered network intelligence products (Beacon, Amply) to broadband operators, reducing subscriber calls by 30%+",
-   "quote": "Beacon is now live with approximately 20 customers and our broader intelligence platform is expanding, with newer offerings now running with about 10 operators.",
-   "metric": "reduction in subscriber calls to service providers by more than 30%",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "HRB",
@@ -6282,18 +6186,6 @@
    "event_date": "2026-10-30"
   },
   {
-   "ticker": "CCL",
-   "company": "Carnival Corp. Ltd.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Carnival deploys AI across commercial systems, shoreside operations, and vessel management for better decisions and efficiency.",
-   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
-   "metric": null,
-   "event_date": "2026-09-29"
-  },
-  {
    "ticker": "CHH",
    "company": "Choice Hotels International, Inc.",
    "category": "efficiency",
@@ -6330,18 +6222,6 @@
    "event_date": "2026-11-02"
   },
   {
-   "ticker": "KMX",
-   "company": "CarMax, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "CarMax scaled AI voice technology to 100% of inbound calls to resolve inquiries and support sales conversion.",
-   "quote": "we scaled AI voice technology to 100% of both inbound store and customer experience center calls, which enables customers to quickly resolve their inquiries through our agentic AI tools",
-   "metric": null,
-   "event_date": "2026-09-29"
-  },
-  {
    "ticker": "MAR",
    "company": "Marriott International, Inc.",
    "category": "revenue",
@@ -6351,6 +6231,126 @@
    "headline": "Marriott expanding AI use via Ask Bonvoy conversational AI and integrations with Google and OpenAI to drive bookings.",
    "quote": "introducing conversational AI in our own channels through features such as Ask Bonvoy, and testing new search and commerce experiences through integrations with leading platforms, like Google and OpenAI.",
    "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "AAPL",
+   "company": "Apple, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Apple embeds Siri AI assistant across iPhone, Mac, and iPad lineup as a reimagined personal AI experience",
+   "quote": "Siri AI marks a new chapter in AI at Apple. It is a completely reimagined assistant that is powerful, personal, private, and deeply relevant to our users' daily lives.",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "BWXT",
+   "company": "BWX Technologies, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "BWXT technical services team adopting AI to drive site performance and generate operating efficiencies",
+   "quote": "our technical services team is rapidly adopting AI to drive site performance and generate operating efficiencies.",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "CCL",
+   "company": "Carnival Corp. Ltd.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Carnival uses AI across commercial systems to improve decisions, personalize guest experiences, automate shoreside ops, and find vessel efficiencies.",
+   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
+   "metric": null,
+   "event_date": "2026-09-29"
+  },
+  {
+   "ticker": "HLIT",
+   "company": "Harmonic, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Harmonic sells SensAI intelligence platform to broadband operators for network issue detection and operations efficiency",
+   "quote": "SensAI pinpointed in about 10 minutes a field issue the team had chased for 10 days, then caught another further down the same line.",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "KMX",
+   "company": "CarMax, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "CarMax deploys AI digital and voice agents across online, phone, and in-store channels to improve conversion and efficiency",
+   "quote": "AI runs through every step of the journey. Our digital and voice agents work alongside our associates online by phone and in-store. Early tests show improvement version and efficiency",
+   "metric": null,
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "MTCH",
+   "company": "Match Group, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Match Group deployed AI tools company-wide, doubling AI costs from ~$5M to ~$10M while offsetting spend by slowing headcount growth.",
+   "quote": "we gave all our employees tools like Claude, tools like OpenAI, enterprise search tools like Glean and gave them the training, gave them the tokens to go use these tools and our cost probably went from $5 million to about $10 million",
+   "metric": "AI costs grew from ~$5M to ~$10M+; engineers capped at $1,000/month, non-engineers at $250/month",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Palantir sells AI platform (AIP) and sovereign AI solutions to enterprise and government customers, driving 96% revenue growth.",
+   "quote": "AIP implements enterprise workflows and is able to bring AI to, in a way that generates objective, quantifiable value.",
+   "metric": "96% revenue growth year-over-year",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "UPWK",
+   "company": "Upwork, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Upwork's MCP server and Upwork Now use AI integration to drive new client demand and GSV growth",
+   "quote": "MCP implementations are an important new source of demand. GSV from work started through our MCP server grew more than 150% month-over-month in October.",
+   "metric": "GSV from MCP server grew >150% month-over-month in October; MCP Connects usage at >$3M annual revenue run rate",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "VVX",
+   "company": "V2X, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "V2X CEO cites adoption of AI to create differentiated solutions both internally and externally, driving bid competitiveness.",
+   "quote": "I've talked at length in the prior calls about us adopting AI and creating differentiated solutions with AI, both internally and externally.",
+   "metric": null,
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "WAY",
+   "company": "Waystar Holding Corp.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Waystar embeds AltitudeAI in revenue cycle products, including autonomous claim resubmission capable of handling $5B in rejected claims annually.",
+   "quote": "Powered by AltitudeAI, the capability interprets payer responses, applies payer-specific intelligence to determine the next action and autonomously resubmit eligible rejected claims with minimal human intervention.",
+   "metric": "$5B in previously rejected claims autonomously resubmittable annually; 400,000+ hours of manual work eliminated per year; 75% reduction in data analysis time for early adopters",
    "event_date": "2026-11-02"
   }
  ]

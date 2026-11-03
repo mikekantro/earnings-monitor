@@ -1,34 +1,10 @@
 {
- "generated": "2026-11-03T02:58:48.020538",
+ "generated": "2026-11-03T17:50:34.548266",
  "window": [
   "2026-07-15",
   "2026-11-03"
  ],
  "highlights": [
-  {
-   "ticker": "AAPL",
-   "company": "Apple, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$0.11 per diluted share; ~2 percentage points gross margin benefit",
-   "headline": "Apple received tariff refunds boosting June quarter gross margin by ~2pp and EPS by $0.11; plans to reinvest refunds in the US.",
-   "quote_receiving": "we plan to reinvest the tariff refunds we've received into the US.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "AEIS",
-   "company": "Advanced Energy Industries, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Advanced Energy received the large majority of expected IEEPA tariff refunds in Q2, benefiting gross margin and EPS by $0.04.",
-   "quote_receiving": "During the quarter, we received the large majority of our expected IEEPA tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-08-03"
-  },
   {
    "ticker": "ANET",
    "company": "Arista Networks, Inc.",
@@ -1996,6 +1972,30 @@
    "quote_receiving": "we received additional refunds in Q3 for amounts previously paid under the IEEPA tariff regime",
    "quote_customers": "",
    "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "AAPL",
+   "company": "Apple, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "approximately 1 percentage point gross margin impact; $0.05 EPS impact",
+   "headline": "Apple received tariff refunds boosting September quarter gross margin by ~1 point and EPS by $0.05; vast majority of refunds now received.",
+   "quote_receiving": "As of the September quarter, we have received the vast majority of refunds related to tariffs paid.",
+   "quote_customers": "",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "AEIS",
+   "company": "Advanced Energy Industries, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "AEIS received tariff refunds in Q2 that benefited gross margin; Q3 gross margin expansion cited excluding that Q2 benefit.",
+   "quote_receiving": "Excluding the benefit of Q2 tariff refunds, gross margin expanded 140 basis points, driven by higher volume and manufacturing efficiency.",
+   "quote_customers": "",
+   "event_date": "2026-11-02"
   }
  ]
 }

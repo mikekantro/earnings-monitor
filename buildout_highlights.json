@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T02:59:12.620678",
+ "generated": "2026-11-03T17:51:22.502713",
  "window": [
   "2026-07-15",
   "2026-11-03"
@@ -46,16 +46,6 @@
    "event_date": "2026-08-07"
   },
   {
-   "ticker": "ADEA",
-   "company": "Adeia, Inc.",
-   "channel": "equipment_components",
-   "quote": "the increasing demands from AI have induced an unprecedented acceleration in the development and production of highly advanced logic and memory devices... we now expect our long-term semiconductor opportunity to reach $200 million annually",
-   "metric": "$200 million annually (long-term semiconductor revenue target, raised from $100 million)",
-   "direction": "accelerating",
-   "headline": "Adeia raised its long-term semiconductor licensing revenue target to $200 million annually, citing AI-driven demand accelerating adoption of hybrid bonding in advanced logic and memory devices.",
-   "event_date": "2026-08-03"
-  },
-  {
    "ticker": "ADI",
    "company": "Analog Devices, Inc.",
    "channel": "equipment_components",
@@ -74,16 +64,6 @@
    "direction": "accelerating",
    "headline": "Ameren cites Google and Amazon data-center projects (2.8 GW of signed ESAs) as drivers of substantial sales growth and capital investment through 2029.",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "AEIS",
-   "company": "Advanced Energy Industries, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "data center revenue more than doubled in 2025 and you're talking about \u2013 you're guiding more than 50% growth in 2026. So for 2026, I'm curious, is the growth moved from continued buildout in your top customers \u2013 in top customer, in one top customer in data center, or is it also a broadening of your positions in the other hyperscalers? Yeah, so in 2026, what we've seen is a ramp based on our hyperscaler customer only ... These wins typically carry higher ASPs because they're driving higher power requirements.",
-   "metric": "more than 50% growth in 2026",
-   "direction": "accelerating",
-   "headline": "Advanced Energy Industries cites hyperscaler data-center buildout and higher power requirements as driver of 50%+ revenue growth in 2026.",
-   "event_date": "2026-09-10"
   },
   {
    "ticker": "AESI",
@@ -736,16 +716,6 @@
    "event_date": "2026-08-07"
   },
   {
-   "ticker": "FN",
-   "company": "Fabrinet",
-   "channel": "hyperscaler_platform",
-   "quote": "DCI, or DCI in particular, 400ZR, 800ZR, it really solves a power problem for the industry in a very elegant way. So for a lot of these huge data centers, the limiting factor is often the amount of power that can be physically gotten into the data center from the substation that you max out your power. And the best way around that is to spread the data centers around and connect them using DCI like 400ZR or 800ZR, ZR+.",
-   "metric": "$1 billion run rate in DCI",
-   "direction": "accelerating",
-   "headline": "Fabrinet cites data-center interconnect demand driven by hyperscaler power constraints as a key growth driver, with DCI reaching a $1 billion run rate.",
-   "event_date": "2026-08-18"
-  },
-  {
    "ticker": "GFF",
    "company": "Griffon Corp.",
    "channel": "data_center_construction",
@@ -784,16 +754,6 @@
    "direction": "accelerating",
    "headline": "HPE management links AI data-center networking demand directly to its Networks for AI business, raising the fiscal 2026 order target to $2.5\u2013$3 billion.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "ICHR",
-   "company": "Ichor Holdings Ltd.",
-   "channel": "equipment_components",
-   "quote": "Investments in advanced etch and deposition applications supporting AI infrastructure, gate-all-around architectures, advanced memory and leading edge process technologies continue to favor Ichor's portfolio.",
-   "metric": "revenue growth in alignment with the high end of WFE expectations, which would be an increase by at least 30% full year 2025",
-   "direction": "accelerating",
-   "headline": "Ichor Holdings cites AI-infrastructure demand (advanced etch and deposition for AI) as a driver of its equipment and component revenue growth trajectory.",
-   "event_date": "2026-08-03"
   },
   {
    "ticker": "IIIN",
@@ -934,16 +894,6 @@
    "direction": "accelerating",
    "headline": "Liquidity Services cites data center construction equipment sales as a growing component of its CAG heavy equipment business.",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "LSCC",
-   "company": "Lattice Semiconductor Corp.",
-   "channel": "equipment_components",
-   "quote": "comms and compute grew 80%, over 80%, which would obviously suggest that AI data center is growing faster than that ... we've continued to see our demand going up and up and up",
-   "metric": "comms and compute grew over 80%; AI penetration grown into the high 20% of overall business",
-   "direction": "accelerating",
-   "headline": "Lattice Semiconductor cites AI data-center infrastructure buildout as driver of 80%+ growth in comms and compute segment.",
-   "event_date": "2026-08-11"
   },
   {
    "ticker": "LUMN",
@@ -1124,16 +1074,6 @@
    "direction": "accelerating",
    "headline": "ONE Gas cites data center and advanced manufacturing infrastructure demand as driver of large load customer projects and capital deployment.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "ON",
-   "company": "ON Semiconductor Corp.",
-   "channel": "equipment_components",
-   "quote": "we talked about, as we penetrated that market with new products, we are generating revenue across every single part of that power tree ... Last quarter, the first two quarters came in ahead of where we expected at the time we guided. So, we increased our outlook for 2026 to we're going to more than double.",
-   "metric": "more than doubling year-on-year (AI data center revenue)",
-   "direction": "accelerating",
-   "headline": "ON Semiconductor links AI data-center infrastructure demand to its power-semiconductor revenue, raising its 2026 AI data-center outlook from doubling to more than doubling year-on-year.",
-   "event_date": "2026-08-27"
   },
   {
    "ticker": "ORA",
@@ -1354,16 +1294,6 @@
    "direction": "accelerating",
    "headline": "Sanmina cites strong AI infrastructure demand driving accelerated compute, general purpose compute, storage and networking revenue growth up 173% year-over-year.",
    "event_date": "2026-07-27"
-  },
-  {
-   "ticker": "SBAC",
-   "company": "SBA Communications Corp.",
-   "channel": "equipment_components",
-   "quote": "There are a number of edge data center companies that have been funded. And they are looking to basically lease space at the bottom of the tower, horizontal space in order to put a cabinet and install basically computing power for AI.",
-   "metric": "a few thousand sites",
-   "direction": "accelerating",
-   "headline": "SBA Communications cites AI-driven edge data center demand as a potential revenue opportunity leveraging tower infrastructure for computing power deployment.",
-   "event_date": "2026-09-10"
   },
   {
    "ticker": "SCSC",
@@ -3066,14 +2996,74 @@
    "event_date": "2026-11-02"
   },
   {
+   "ticker": "ADEA",
+   "company": "Adeia, Inc.",
+   "channel": "equipment_components",
+   "quote": "hybrid bonding will be essential to the manufacturing process at 20-plus layers in HPM in the next few years, as well as for future 3D DRAM, 3D NAND and High Bandwidth Flash ... we view the ultimate pervasive adoption of hybrid bonding across both the memory and logic markets as the key to driving a sustainable and growing revenue stream",
+   "metric": "contract renewals with the top three memory manufacturers",
+   "direction": "accelerating",
+   "headline": "Adeia cites hybrid bonding adoption for advanced memory and logic manufacturing as driver of recurring semiconductor revenue growth through 2028-2029.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "AEIS",
+   "company": "Advanced Energy Industries, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "In data center computing, revenue grew almost 50% year-on-year. Increased demand and factory execution drove the outperformance. Our business with hyperscale customers continues to strengthen, with multiple new programs driving revenue growth this year and into 2027 and 2028.",
+   "metric": "revenue grew almost 50% year-on-year",
+   "direction": "accelerating",
+   "headline": "Advanced Energy Industries cites hyperscaler AI data-center demand driving 50% YoY revenue growth with multiple new programs extending into 2027-2028.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "FN",
+   "company": "Fabrinet",
+   "channel": "equipment_components",
+   "quote": "Our impressive results are being driven by broad-based demand across multiple product areas, including continued strong momentum for data center interconnect, growing demand for data center transceivers and expansion in high-performance computing.",
+   "metric": "Data center revenue grew 78% year-over-year to $777 million, or 53% of total revenue",
+   "direction": "accelerating",
+   "headline": "Fabrinet cites strong data center interconnect, transceiver, and high-performance computing demand as driver of 51% revenue acceleration and record earnings.",
+   "event_date": "2026-11-02"
+  },
+  {
    "ticker": "JBL",
    "company": "Jabil, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... capacity came online sooner than planned, and customer ramps progressed better than anticipated, allowing us to support that higher level of demand.",
-   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "channel": "networking_compute",
+   "quote": "As AI workloads grow, more of the network is moving into dedicated racks with higher capacity systems to address more complex topologies for neural networks.",
+   "metric": "five customers with revenue above $1 billion",
    "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand as driver of Intelligent Infrastructure segment revenue growth of 56% year-over-year and 63% expected growth in Q1 FY2027.",
+   "headline": "Jabil cites accelerating AI-infrastructure demand in networking and compute as driver of Intelligent Infrastructure segment growth, expecting 43% revenue increase in fiscal 2027.",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "LSCC",
+   "company": "Lattice Semiconductor Corp.",
+   "channel": "equipment_components",
+   "quote": "Our Compute and Communications segment delivered record revenue, up 132% year-over-year, driven by rapid adoption in data center AI applications. This growing demand reflects AI infrastructure investment, more server deployments for agentic inference and increasing AI content per server.",
+   "metric": "Compute and Communications segment up 132% year-over-year",
+   "direction": "accelerating",
+   "headline": "Lattice Semiconductor cites AI-infrastructure demand\u2014data-center AI applications, server deployments, and AI content growth\u2014as driver of 132% year-over-year growth in Compute and Communications segment.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "ON",
+   "company": "ON Semiconductor Corp.",
+   "channel": "equipment_components",
+   "quote": "AI data center continues to be our fastest growing market, scaling more rapidly than we anticipated ... In the third quarter, our AI data center revenue grew 39% sequentially to $180 million, and we now expect to deliver approximately $620 million of revenue in 2026, an increase of 140% year-over-year.",
+   "metric": "$620 million in 2026 AI data center revenue, 140% year-over-year increase",
+   "direction": "accelerating",
+   "headline": "ON Semiconductor cites AI data center as fastest-growing market with 140% year-over-year revenue growth and continued acceleration into 2027.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "SBAC",
+   "company": "SBA Communications Corp.",
+   "channel": "services_other",
+   "quote": "The explosive growth in AI is driving a migration toward a more distributed compute architecture, particularly for inference workloads that require low latency, storage capacity and a general need to sit closer to the end user ... Through our SBA Edge entity, we offer access to the power and infrastructure needed so that AI customers can deploy quickly and efficiently.",
+   "metric": "several edge sites up and running with a handful of different companies building out distributed AI inference capacity",
+   "direction": "accelerating",
+   "headline": "SBA Communications is deploying distributed AI inference capacity at its tower sites through SBA Edge, citing AI-driven demand for edge compute infrastructure.",
+   "event_date": "2026-11-02"
   }
  ]
 }
