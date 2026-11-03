@@ -5030,7 +5030,97 @@
    "quote": "we acquired CoVet, a leading and rapidly growing provider of AI native ambient listening and clinical workflow software for veterinary practices",
    "metric": "$20M annualized revenue run rate",
    "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "WAY",
+   "company": "Waystar Holding Corp.",
+   "category": "product",
+   "headline": "Waystar embeds AltitudeAI in claims management and analytics products sold to healthcare clients, driving 43% of Q3 bookings.",
+   "quote": "AltitudeAI-powered offerings represented approximately 43% of third quarter bookings. More than 130 clients have joined our early adopter program",
+   "metric": "43% of Q3 bookings from AltitudeAI-powered offerings",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "MTCH",
+   "company": "Match Group, Inc.",
+   "category": "efficiency",
+   "headline": "Match Group uses AI tools (Claude, OpenAI, Glean) company-wide, doubling AI spend to ~$10M+ to drive productivity while slowing headcount growth.",
+   "quote": "we gave all our employees tools like Claude, tools like OpenAI, enterprise search tools like Glean and gave them the training, gave them the tokens to go use these tools and our cost probably went from $5 million to about $10 million",
+   "metric": "$10M+ AI token costs (up from ~$5M)",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "BWXT",
+   "company": "BWX Technologies, Inc.",
+   "category": "efficiency",
+   "headline": "BWXT's technical services team adopting AI to drive site performance and generate operating efficiencies.",
+   "quote": "our technical services team is rapidly adopting AI to drive site performance and generate operating efficiencies.",
+   "metric": null,
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "AAPL",
+   "company": "Apple, Inc.",
+   "category": "product",
+   "headline": "Apple embeds Siri AI assistant across iPhone, Mac, and iPad lineup as a reimagined personal AI product feature.",
+   "quote": "Siri AI marks a new chapter in AI at Apple. It is a completely reimagined assistant that is powerful, personal, private, and deeply relevant to our users' daily lives.",
+   "metric": null,
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "LSCC",
+   "company": "Lattice Semiconductor Corp.",
+   "category": "product",
+   "headline": "Lattice launched Lattice Prompt, an AI-assisted development tool letting customers generate FPGA applications from natural-language prompts.",
+   "quote": "We launched Lattice Prompt, an AI-assisted development tool for Lattice FPGAs. It allows our developers to generate and validate their FPGA applications from natural-language prompts.",
+   "metric": null,
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies, Inc.",
+   "category": "product",
+   "headline": "Palantir sells AI platform AIP enabling enterprise sovereign AI workflows, driving 96% revenue growth YoY.",
+   "quote": "All the value comes from the elegant integration of AI, software, and humans. And this requires not a harness for the model, but something closer to a harness for the enterprise, which is exactly what AIP is.",
+   "metric": "96% revenue growth year-over-year",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "HLIT",
+   "company": "Harmonic, Inc.",
+   "category": "product",
+   "headline": "Harmonic sells SensAI, an AI-powered network intelligence platform, to broadband operators for fault detection and operational efficiency.",
+   "quote": "SensAI pinpointed in about 10 minutes a field issue the team had chased for 10 days, then caught another further down the same line.",
+   "metric": null,
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "SBAC",
+   "company": "SBA Communications Corp.",
+   "category": "revenue",
+   "headline": "SBA Communications leases tower sites to AI inference customers via its SBA Edge entity, generating new revenue.",
+   "quote": "Through our SBA Edge entity, we offer access to the power and infrastructure needed so that AI customers can deploy quickly and efficiently. We have several edge sites up and running with a handful of different companies building out distributed AI inference capacity.",
+   "metric": null,
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "UPWK",
+   "company": "Upwork, Inc.",
+   "category": "revenue",
+   "headline": "Upwork's MCP server and Upwork Now use AI integration to drive new demand and GSV growth on its marketplace.",
+   "quote": "GSV from work started through our MCP server grew more than 150% month-over-month in October.",
+   "metric": "150% month-over-month GSV growth via MCP server in October; $3M+ annual revenue run rate from MCP Connects usage",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "VVX",
+   "company": "V2X, Inc.",
+   "category": "efficiency",
+   "headline": "V2X says it is adopting AI to create differentiated solutions both internally and externally, driving bid velocity and growth.",
+   "quote": "I've talked at length in the prior calls about us adopting AI and creating differentiated solutions with AI, both internally and externally.",
+   "metric": null,
+   "event_date": "2026-11-03"
   }
  ],
- "updated": "2026-11-02T21:39:14"
+ "updated": "2026-11-03T07:36:55"
 }
