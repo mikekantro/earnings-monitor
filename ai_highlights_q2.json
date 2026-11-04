@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-03T17:52:12.526063",
+ "generated": "2026-11-04T01:31:47.357450",
  "window": [
   "2026-07-15",
-  "2026-11-03"
+  "2026-11-04"
  ],
  "highlights": [
   {
@@ -6256,18 +6256,6 @@
    "quote": "our technical services team is rapidly adopting AI to drive site performance and generate operating efficiencies.",
    "metric": null,
    "event_date": "2026-11-02"
-  },
-  {
-   "ticker": "CCL",
-   "company": "Carnival Corp. Ltd.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Carnival uses AI across commercial systems to improve decisions, personalize guest experiences, automate shoreside ops, and find vessel efficiencies.",
-   "quote": "putting AI to work across our commercial systems to help our teams make better decisions, and provide more personalized experiences for our guests, automating more of how we operate shoreside, and identifying new efficiencies in how we manage our vessels",
-   "metric": null,
-   "event_date": "2026-09-29"
   },
   {
    "ticker": "HLIT",

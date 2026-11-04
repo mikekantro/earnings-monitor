@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-03T17:51:22.502713",
+ "generated": "2026-11-04T01:31:45.479272",
  "window": [
   "2026-07-15",
-  "2026-11-03"
+  "2026-11-04"
  ],
  "highlights": [
   {
@@ -3024,16 +3024,6 @@
    "direction": "accelerating",
    "headline": "Fabrinet cites strong data center interconnect, transceiver, and high-performance computing demand as driver of 51% revenue acceleration and record earnings.",
    "event_date": "2026-11-02"
-  },
-  {
-   "ticker": "JBL",
-   "company": "Jabil, Inc.",
-   "channel": "networking_compute",
-   "quote": "As AI workloads grow, more of the network is moving into dedicated racks with higher capacity systems to address more complex topologies for neural networks.",
-   "metric": "five customers with revenue above $1 billion",
-   "direction": "accelerating",
-   "headline": "Jabil cites accelerating AI-infrastructure demand in networking and compute as driver of Intelligent Infrastructure segment growth, expecting 43% revenue increase in fiscal 2027.",
-   "event_date": "2026-09-30"
   },
   {
    "ticker": "LSCC",
