@@ -5120,7 +5120,313 @@
    "quote": "I've talked at length in the prior calls about us adopting AI and creating differentiated solutions with AI, both internally and externally.",
    "metric": null,
    "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "KMT",
+   "company": "Kennametal, Inc.",
+   "category": "revenue",
+   "headline": "Kennametal targets power generation for AI data centers as a strategic growth market, winning tooling business tied to AI infrastructure.",
+   "quote": "supporting power generation for AI data centers. The common thread is applying our expertise to demanding customer applications.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "BRKR",
+   "company": "Bruker Corp.",
+   "category": "product",
+   "headline": "Bruker invested in Atinary Technologies to integrate agentic AI into its lab automation and analytical instruments for chemistry R&D.",
+   "quote": "Atinary integrates our Chemspeed lab automation and Bruker analytical measurement instrument into its agentic AI workflows.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "DRH",
+   "company": "DiamondRock Hospitality Co.",
+   "category": "revenue",
+   "headline": "DiamondRock testing AI for reservations, group leads, suite upselling, guest requests, and referral traffic at independent hotels.",
+   "quote": "We are also testing AI across reservations, group leads, suite upselling, and guest requests.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "NYT",
+   "company": "The New York Times Co.",
+   "category": "product",
+   "headline": "NYT launched an AI-powered tool in its Cooking product to help subscribers adapt recipes.",
+   "quote": "We launched a new AI-powered tool in cooking that helps home cooks adapt our human-crafted recipes.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "DDOG",
+   "company": "Datadog, Inc.",
+   "category": "product",
+   "headline": "Datadog embeds AI in its platform via Bits AI agent, Scout reasoning model, and AI observability/security products sold to customers.",
+   "quote": "our flagship agent, Bits AI, is off to a very strong start. Since we launched Bits, it has become the fastest-adopted product in our history.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "ARCB",
+   "company": "ArcBest Corp.",
+   "category": "efficiency",
+   "headline": "ArcBest deploys AI across operations to reduce manual work and improve employee decision-making productivity",
+   "quote": "We're utilizing it across ArcBest to drive greater productivity and profitable growth.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GXO",
+   "company": "GXO Logistics, Inc.",
+   "category": "efficiency",
+   "headline": "GXO deploying GXO IQ warehouse AI platform across 50+ sites in 2026, expecting productivity benefits in 2027",
+   "quote": "GXO IQ is now live across all three of our regions and we remain on track to meet or exceed our target of roughly 50 sites deployed in 2026.",
+   "metric": "~50 sites deployed in 2026",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "ESAB",
+   "company": "ESAB Corp.",
+   "category": "efficiency",
+   "headline": "ESAB uses EBXai platform to drive productivity gains and margin expansion across both business segments.",
+   "quote": "EBXai productivity helped drive the expansion. We were price-cost neutral in the quarter, and EBXai productivity helped fund our continued investments in equipment growth.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "JKHY",
+   "company": "Jack Henry & Associates, Inc.",
+   "category": "efficiency",
+   "headline": "Jack Henry uses AI internally with 50%+ of associates using AI tools daily, achieving up to 90% increase in development output.",
+   "quote": "more than half of our associates now using at least one AI tool daily. This has unlocked substantial productivity gains, including up to 90% increase in development output",
+   "metric": "up to 90% increase in development output",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GWW",
+   "company": "W.W. Grainger, Inc.",
+   "category": "product",
+   "headline": "Grainger acquired technology using computer vision and AI for real-time inventory tracking and frictionless checkouts for customers.",
+   "quote": "This new technology uses computer vision and AI to enable real-time inventory tracking and frictionless checkouts to help customers reduce labor needs and operating costs.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "AIZ",
+   "company": "Assurant, Inc.",
+   "category": "efficiency",
+   "headline": "Assurant deploys AI across connected living, auto, and housing to optimize operations, claims, and customer engagement.",
+   "quote": "In connected living, AI is helping optimize device supply and demand, improve claims outcomes, and enhance customer engagement. In auto, AI is supporting both revenue generation and claims decision-making",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "PFGC",
+   "company": "Performance Food Group Co.",
+   "category": "revenue",
+   "headline": "PFG deploys AI-enabled sales tools and CustomerFirst platform with AI search to drive independent restaurant share gains.",
+   "quote": "With AI-enabled search features, CustomerFirst has the ability to translate menus and recipes and seamlessly facilitates two-way communication with our customers.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "OPLN",
+   "company": "OPENLANE, Inc.",
+   "category": "product",
+   "headline": "OPENLANE uses AI expertise and data resources to advance price prediction tools and improve customer touchpoints.",
+   "quote": "we are advancing a broad pipeline of innovation by leveraging our vast data resources and AI expertise",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "SN",
+   "company": "SharkNinja, Inc.",
+   "category": "revenue",
+   "headline": "SharkNinja's AI-powered search on sharkninja.com delivers high-single-digit increase in revenue per search visitor",
+   "quote": "AI powered search is live, with early results showing a nice high-single digit increase in revenue per search visitor.",
+   "metric": "high-single digit increase in revenue per search visitor",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "FIS",
+   "company": "Fidelity National Information Services, Inc.",
+   "category": "product",
+   "headline": "FIS launched AI-native products including an AML Investigation Agent; uses AI internally to find and remediate software vulnerabilities.",
+   "quote": "our investments in AI-native product have yielded ten new products, including our new anti-money laundering agent.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "OC",
+   "company": "Owens Corning",
+   "category": "efficiency",
+   "headline": "Owens Corning uses AI model combining internal and external data to optimize production planning and inventory allocation.",
+   "quote": "we have developed an AI model that combines our internal forecasts with external housing, weather, financial, and market data to provide timely economic insights.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "ZBH",
+   "company": "Zimmer Biomet Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Zimmer Biomet working with AI partners to re-engineer processes, improve demand planning, and reduce its ~46% OpEx-to-sales ratio.",
+   "quote": "we're partnering with sophisticated partners in AI implementation that are looking at what are things that we can work on around re-engineering processes",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "AIG",
+   "company": "American International Group, Inc.",
+   "category": "efficiency",
+   "headline": "AIG deploys AI via 'Underwriting by AIG Assist' and 'Claims by AIG Assist' to speed submissions, quotes, and claims response.",
+   "quote": "We're deployed, our underwriters are reviewing more submissions and generating quotes faster. AI-powered insights are also giving us a sharper view of broker performance and distribution trends",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "CDW",
+   "company": "CDW Corp.",
+   "category": "product",
+   "headline": "CDW builds AI capabilities and an 'AI-first perspective' to help customers adopt AI across infrastructure, apps, and workflows.",
+   "quote": "CDW's AI-first perspective puts outcomes first, then builds the strategy around what must connect across both the technology and the organization to deliver it.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "MTRN",
+   "company": "Materion Corp.",
+   "category": "efficiency",
+   "headline": "Materion uses AI tools to augment R&D efficiency and productivity",
+   "quote": "we also have AI-related activities. I mean, we're using sort of technology or AI-related activities to sort of augment, I think, on the R&D side",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "SMG",
+   "company": "Scotts Miracle-Gro Co.",
+   "category": "efficiency",
+   "headline": "Scotts Miracle-Gro hired a CIO with a remit to accelerate AI integration and digital capabilities as part of SMG 2.0 transformation.",
+   "quote": "a remit that includes accelerating our technology transformation, AI integration and digital capabilities. Her experience and leadership are directly relevant to where we are headed with SMG 2.0.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "VTOL",
+   "company": "Bristow Group, Inc.",
+   "category": "efficiency",
+   "headline": "Bristow implementing new ERP system with built-in AI to modernize finance processes and improve decision-making efficiency.",
+   "quote": "the project will modernize our finance processes and systems with built in AI and other new capabilities that will make us more efficient and better at making decisions across the organization",
+   "metric": "several million dollars a year",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "COR",
+   "company": "Cencora, Inc.",
+   "category": "product",
+   "headline": "Cencora introduced AI-powered tools for independent pharmacies at its ThoughtSpot trade show to improve efficiency and growth.",
+   "quote": "introducing novel solutions, including AI-powered tools designed to help pharmacies run more efficiently, free up time for patient care, and create new growth opportunities.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "KD",
+   "company": "Kyndryl Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Kyndryl embeds automation and AI into its own operations to improve productivity and move teams to higher-value work.",
+   "quote": "we are embedding automation and AI into our operations to improve productivity and move our teams to higher-value work.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "CVS",
+   "company": "CVS Health Corp.",
+   "category": "product",
+   "headline": "CVS Health embedding AI throughout its businesses and building Health100, an AI-native consumer healthcare engagement platform.",
+   "quote": "thoughtfully embedding AI throughout our businesses and creating a differentiated foundation to simplify and improve the healthcare experience.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "OVV",
+   "company": "Ovintiv, Inc.",
+   "category": "efficiency",
+   "headline": "Ovintiv uses AI and automation in its Permian Operations Control Center to optimize artificial lift parameters.",
+   "quote": "the team is using AI and automation to optimize artificial lift parameters. This is technology we imported from the Montney and we are now seeing the benefits across the portfolio.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "PRGO",
+   "company": "Perrigo Co. Plc",
+   "category": "revenue",
+   "headline": "Perrigo CEO cites AI agents as future opportunity to recommend lower-cost store-brand OTC products to consumers",
+   "quote": "an AI agent is at some point going to recommend a brand that costs a lot less, that has exactly the same FDA ingredients. So those are opportunities that we carry forward that allow us to gain share.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "TRMB",
+   "company": "Trimble, Inc.",
+   "category": "product",
+   "headline": "Trimble embeds AI-native innovation into its construction and logistics platforms, including agentic AI in Trimble Connect.",
+   "quote": "AI is inspiring us to redesign how we work across the company, from go-to-market to product development to customer success.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "AVNT",
+   "company": "Avient Corp.",
+   "category": "efficiency",
+   "headline": "Avient plans to use AI tools in procurement to identify savings opportunities across its global supply chain.",
+   "quote": "using tools and technologies, including AI, to really get even more dialed-in to the opportunities to create savings across our procurement opportunity",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "REYN",
+   "company": "Reynolds Consumer Products, Inc.",
+   "category": "revenue",
+   "headline": "Reynolds Consumer Products investing to ensure brands are present on AI-enabled shopping discovery tools.",
+   "quote": "Consumers now find products in more places than ever, whether on the shelf, through retailer search, social platforms, or AI-enabled shopping tools. Our job is to make sure Reynolds and Hefty are present and easy to find wherever that discovery happens.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "UBER",
+   "company": "Uber Technologies, Inc.",
+   "category": "revenue",
+   "headline": "Uber uses AI to simplify transactions and personalize discovery for consumers on its platform.",
+   "quote": "We're using AI to make everyday transactions simpler and discovery more personalized while selectively exploring new distribution channels that can bring incremental demand.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "VAC",
+   "company": "Marriott Vacations Worldwide Corp.",
+   "category": "efficiency",
+   "headline": "Marriott Vacations uses data-driven yield algorithm (tour logistics) to match tours with sales executives, driving 30% VPG increase.",
+   "quote": "tour logistics is our data-driven yield algorithm we launched in April. That is now in its sixth month of execution and continues to drive higher transaction sizes and VPGs.",
+   "metric": "30% year-over-year VPG increase",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "IT",
+   "company": "Gartner, Inc.",
+   "category": "product",
+   "headline": "Gartner embeds AskGartner AI capabilities in its mobile app and platforms, with usage growing sequentially and year-over-year.",
+   "quote": "embedded AskGartner capabilities. Across our platforms, usage of AskGartner has continued to grow sequentially and is up year-over-year.",
+   "metric": null,
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "EQH",
+   "company": "Equitable Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Equitable Holdings plans to leverage AI during Corebridge merger integration to improve customer experience and productivity.",
+   "quote": "being able to leverage AI as we integrate in this merger is going to make us \u2013 enable us to have a better customer experience coming out of this and also enable us to be more \u2013 have more productivity",
+   "metric": null,
+   "event_date": "2026-11-04"
   }
  ],
- "updated": "2026-11-03T07:36:55"
+ "updated": "2026-11-04T20:30:48"
 }
