@@ -1,22 +1,10 @@
 {
- "generated": "2026-11-04T01:31:43.589294",
+ "generated": "2026-11-04T17:59:29.390202",
  "window": [
   "2026-07-15",
   "2026-11-04"
  ],
  "highlights": [
-  {
-   "ticker": "ANET",
-   "company": "Arista Networks, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "20-30 bps gross margin benefit vs. guide; 30-40 bps vs. prior year",
-   "headline": "Arista received tariff refunds boosting Q2 gross margin by ~20-30 bps vs. guidance and ~30-40 bps vs. prior year.",
-   "quote_receiving": "up from 62.4% in the prior quarter, benefiting from both tariff refunds and customer mix",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
   {
    "ticker": "AXON",
    "company": "Axon Enterprise, Inc.",
@@ -126,18 +114,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "ETN",
-   "company": "Eaton Corp. Plc",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "less than $3 million",
-   "headline": "Eaton says Q2 IEEPA tariff refund impact was less than $3 million (<$0.01 EPS); second-half refund impact immaterial and embedded in guidance.",
-   "quote_receiving": "our impact in Q2 from the IEEPA refunds is less than $3 million. So, it's less than $0.01 of EPS",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
    "ticker": "GWW",
    "company": "W.W. Grainger, Inc.",
    "receiving": true,
@@ -146,30 +122,6 @@
    "amount": null,
    "headline": "Grainger recognized IEEPA tariff refunds on directly imported products, providing a 90 basis point gross margin tailwind in Q2.",
    "quote_receiving": "recognized a 90 basis point tailwind from IEEPA tariff refunds on products directly imported by Granger",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "HNI",
-   "company": "HNI Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "HNI Corp. references a tariff refund that benefited margins in both Workplace and Residential segments; no amount disclosed.",
-   "quote_receiving": "we still have high confidence of 150 basis point increase this year from 10.5% to 12% before the tariff refund that happened.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "HSIC",
-   "company": "Henry Schein, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Henry Schein excludes potential tariff refund benefits from 2026 guidance, citing inability to estimate them without unreasonable effort.",
-   "quote_receiving": "Guidance does not include any remeasurement gains for the remainder of 2026 or any future benefits from tariff refunds.",
    "quote_customers": "",
    "event_date": "2026-08-04"
   },
@@ -210,42 +162,6 @@
    "event_date": "2026-07-16"
   },
   {
-   "ticker": "IPGP",
-   "company": "IPG Photonics Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$4.7 million",
-   "headline": "IPG Photonics recorded a $4.7M tariff refund benefit in Q2 2026, adding ~170 basis points to adjusted gross margin.",
-   "quote_receiving": "We recorded a benefit from tariff refunds of approximately $4.7 million, and had a positive impact on gross margin of approximately 170 basis points in the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "JBTM",
-   "company": "JBT Marel Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$17 million",
-   "headline": "JBT Marel recognized $17M in IEEPA tariff refunds in Q2 2026, contributing ~200 bps to Protein segment margins.",
-   "quote_receiving": "We recognized $17 million of IEEPA tariff refunds, which was partially offset by $4 million and higher-than-expected tariff expense, associated with the prior years",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "KDP",
-   "company": "Keurig Dr Pepper, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "KDP expects a one-time cash benefit from tariff refunds in 2026, largely offsetting a non-cash depreciation headwind to EPS.",
-   "quote_receiving": "our outlook also now includes an anticipated onetime cash benefit from tariff refunds. On a net basis, we expect these two factors to largely offset, resulting in a neutral impact to our full year EPS outlook.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "KMB",
    "company": "Kimberly-Clark Corp.",
    "receiving": true,
@@ -266,18 +182,6 @@
    "amount": "$30 million",
    "headline": "Moog received $30M IEEPA tariff refund in Q3 FY2026, adding 270bps to operating margin and ~$0.70 EPS.",
    "quote_receiving": "We recognized a benefit related to the recovery of previously paid IEEPA tariffs in our adjusted results. There's a $30 million benefit included in operating profit for the tariff refund this quarter",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "MSA",
-   "company": "MSA Safety, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$4 million",
-   "headline": "MSA Safety received ~$4M in tariff refunds in Q2 2026, boosting gross margin by ~100 basis points.",
-   "quote_receiving": "Also included in the quarter was approximately $4 million of tariff refunds, which favorably impacted gross margin by approximately 100 basis points.",
    "quote_customers": "",
    "event_date": "2026-07-31"
   },
@@ -304,18 +208,6 @@
    "quote_receiving": "we had a one-time gross benefit of $52 million from IEEPA tariff refunds in Q2 that benefited cost of sales",
    "quote_customers": "offset in part by a $28 million related refund to our customers that reduced our reported net sales by 3%",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "NPO",
-   "company": "Enpro, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Enpro says tariff refunds were minimal and not a significant impact on results.",
-   "quote_receiving": "The tariff refunds, we always say, were minimal and manageable. We said that all the way on the way up, so it'll be the same on the... ...way down. So, there's a little bit... ...but not significant impact.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "RAL",
@@ -350,18 +242,6 @@
    "amount": null,
    "headline": "Rockwell says Q3 results and full-year guide exclude expected IEEPA tariff refunds or claims from Supreme Court decision.",
    "quote_receiving": "Our third quarter results and full year guide do not include any impact from expected IEEPA refunds or claims resulting from the Supreme Court decision.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "RVTY",
-   "company": "Revvity, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$16 million",
-   "headline": "Revvity received $16M in tariff-related refunds in Q2, retaining ~half and reinvesting ~half into strategic initiatives.",
-   "quote_receiving": "Even when excluding the $16 million of tariff-related refunds we received in the quarter which drove about half of the adjusted EPS upside",
    "quote_customers": "",
    "event_date": "2026-08-04"
   },
@@ -484,18 +364,6 @@
    "quote_receiving": "the benefit from $44 million in tariff refunds offset by a decline in gross profit, driven by lower volumes, sales mix and incremental tariff impacts.",
    "quote_customers": "",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "ZBRA",
-   "company": "Zebra Technologies Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$73 million",
-   "headline": "Zebra Technologies received $73 million IEEPA tariff recovery in Q2 2026, boosting adjusted gross margin by 540 basis points.",
-   "quote_receiving": "Adjusted gross margin improved 540 basis points to 53.3%, largely due to the $73 million IEEPA tariff recovery that was not included in our outlook",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "HD",
@@ -870,18 +738,6 @@
    "event_date": "2026-08-12"
   },
   {
-   "ticker": "FBIN",
-   "company": "Fortune Brands Innovations, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$122 million",
-   "headline": "Fortune Brands recognized $122M gross tariff refunds in Q2 2026; plans to invest proceeds in service, new product development, and brand awareness.",
-   "quote_receiving": "During the second quarter, we recognized $122 million in gross tariff refunds. Of this amount, $104 million was recognized as reduction in cost of goods during the second quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "FIVE",
    "company": "Five Below, Inc.",
    "receiving": true,
@@ -1182,30 +1038,6 @@
    "event_date": "2026-08-12"
   },
   {
-   "ticker": "RRX",
-   "company": "Regal Rexnord Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$32 million",
-   "headline": "Regal Rexnord recorded $32 million in IEEPA tariff refunds in Q2 2025, boosting gross margin by ~200 bps.",
-   "quote_receiving": "We recorded $32 million of refunds in the quarter. I will discuss these refunds in greater detail in the guidance section of the presentation.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "SMCI",
-   "company": "Super Micro Computer, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "SMCI actively pursuing tariff refunds but has not yet booked any benefit; IEEPA tariff suspension reduced tariff costs this quarter.",
-   "quote_receiving": "we did not book a tariff rebate in our numbers. We are actively pursuing refunds, but we did not take benefit for those until we see them.",
-   "quote_customers": "",
-   "event_date": "2026-08-11"
-  },
-  {
    "ticker": "SN",
    "company": "SharkNinja, Inc.",
    "receiving": true,
@@ -1312,18 +1144,6 @@
    "quote_receiving": "Our guidance excludes any potential refund related to the $36 million of IEEPA tariffs previously paid, which we continue to actively pursue.",
    "quote_customers": "",
    "event_date": "2026-08-13"
-  },
-  {
-   "ticker": "XYZ",
-   "company": "Block, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "2 points",
-   "headline": "Block received a tariff reimbursement benefit of ~2 points in Q2, roughly offsetting a network remediation comparison.",
-   "quote_receiving": "We did have in the quarter a tariff reimbursement benefit of about 2 points that roughly offset a network remediation comparison from Q2 2025.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "YETI",
@@ -1996,6 +1816,78 @@
    "quote_receiving": "Excluding the benefit of Q2 tariff refunds, gross margin expanded 140 basis points, driven by higher volume and manufacturing efficiency.",
    "quote_customers": "",
    "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "FBIN",
+   "company": "Fortune Brands Innovations, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$29 million gross; $18 million net; ~$0.59 EPS full-year",
+   "headline": "Fortune Brands recognized $29M gross tariff refunds in Q3 via CAPE process; net $18M operating income benefit, ~$0.59 EPS full-year.",
+   "quote_receiving": "During the third quarter, we recognized $29 million in gross tariff refunds. This amount includes the portion that was recognized as a reduction in inventory in the second quarter, as well as incremental tariff refunds recognized in the third quarter related to Phase 3 of the CAPE process.",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "HSIC",
+   "company": "Henry Schein, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$0.19 per diluted share",
+   "headline": "Henry Schein received tariff refunds in Q3 2026 worth $0.19 per diluted share, boosting GAAP and non-GAAP EPS.",
+   "quote_receiving": "On an EPS basis, the net benefit from tariff refunds in the quarter was $0.19 per diluted share, which is included in our GAAP and non-GAAP results.",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "IPGP",
+   "company": "IPG Photonics Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$5 million",
+   "headline": "IPG Photonics recorded a $5 million net tariff refund benefit in Q3, boosting gross margin by ~170 bps; no similar benefit expected in Q4.",
+   "quote_receiving": "We recorded a $5 million net benefit from tariff refunds that had a positive impact on gross margin of approximately 170 basis points in the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "KDP",
+   "company": "Keurig Dr Pepper, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$99 million",
+   "headline": "KDP received $99 million one-time tariff refund in Q3, boosting operating income by $0.05 per share, disproportionately weighted to U.S. Coffee segment.",
+   "quote_receiving": "This included a $99 million one-time benefit from tariff refunds or $0.05 per share, which was disproportionately weighted to our U.S. Coffee segment.",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "MSA",
+   "company": "MSA Safety, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "MSA Safety received tariff refunds in Q2 that did not repeat in Q3, negatively impacting Q3 margin comparisons.",
+   "quote_receiving": "we had some tariff refunds that didn't repeat in Q3 and in this quarter, we actually from an organic basis improved our operating margins another 50 basis points",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "RRX",
+   "company": "Regal Rexnord Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$14.7 million",
+   "headline": "Regal Rexnord received $14.7M in IEEPA tariff refunds in Q3, boosting adjusted gross margin by ~90bps and EPS by $0.18.",
+   "quote_receiving": "Our third quarter adjusted gross margin was 37.7%, or 36.8%, excluding $14.7 million of IEEPA tariff refunds.",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
   }
  ]
 }
