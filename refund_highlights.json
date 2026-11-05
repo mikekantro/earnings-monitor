@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-04T17:59:29.390202",
+ "generated": "2026-11-05T01:34:35.661820",
  "window": [
   "2026-07-15",
-  "2026-11-04"
+  "2026-11-05"
  ],
  "highlights": [
   {
@@ -16,18 +16,6 @@
    "quote_receiving": "We received a refund in Q2 for tariffs, but we are also facing increasing component costs for the year, especially on memory, which leaves our full year guidance unchanged.",
    "quote_customers": "",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "BRKR",
-   "company": "Bruker Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Bruker received net US tariff refunds in Q2 2026, adding ~200bps to operating margin and ~$0.06 to EPS, but reducing reported organic revenue growth by ~60bps.",
-   "quote_receiving": "Net US tariffs contributed about $0.06 to EPS in the second quarter. Most importantly, we also saw the accumulating impact of our cost-saving actions accelerate in the quarter",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "CAH",
@@ -78,18 +66,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "EMR",
-   "company": "Emerson Electric Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$82 million",
-   "headline": "Emerson received $82 million in tariff refunds in Q3, recognized on a cash basis in cost of sales, boosting margins and free cash flow.",
-   "quote_receiving": "we got $82 million in the quarter. We continue to file some claims. Just a reminder that we are accounting for those on a cash basis as we get on and we report them in cost of sales.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "ENR",
    "company": "Energizer Holdings, Inc.",
    "receiving": true,
@@ -114,18 +90,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "GWW",
-   "company": "W.W. Grainger, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Grainger recognized IEEPA tariff refunds on directly imported products, providing a 90 basis point gross margin tailwind in Q2.",
-   "quote_receiving": "recognized a 90 basis point tailwind from IEEPA tariff refunds on products directly imported by Granger",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "HZO",
    "company": "MarineMax, Inc.",
    "receiving": true,
@@ -136,18 +100,6 @@
    "quote_receiving": "the tariff refund contributed approximately 110 basis points during the quarter",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "IFF",
-   "company": "International Flavors & Fragrances, Inc.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "na",
-   "amount": null,
-   "headline": "IFF noted US tariff refunds netted against customer pass-throughs as a net EBITDA benefit in Q2 2026.",
-   "quote_receiving": "US tariff refunds netted against customer pass-throughs, which was a benefit",
-   "quote_customers": "US tariff refunds netted against customer pass-throughs, which was a benefit",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "IIIN",
@@ -208,18 +160,6 @@
    "quote_receiving": "we had a one-time gross benefit of $52 million from IEEPA tariff refunds in Q2 that benefited cost of sales",
    "quote_customers": "offset in part by a $28 million related refund to our customers that reduced our reported net sales by 3%",
    "event_date": "2026-07-31"
-  },
-  {
-   "ticker": "RAL",
-   "company": "Ralliant Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Ralliant received tariff refunds through Q2 2026; small benefit included in full-year guidance, recognized in cost of sales.",
-   "quote_receiving": "This is inclusive of a small benefit from tariff refunds received through Q2 and will be recognized in cost of sales.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "RL",
@@ -306,18 +246,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "SWK",
-   "company": "Stanley Black & Decker, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Stanley Black & Decker received tariff refunds in Q2, contributing ~250 bps to adjusted gross margins; proceeds to be used for growth investments.",
-   "quote_receiving": "We also received tariff refunds during the second quarter, which contributed to adjusted gross margins.",
-   "quote_customers": "",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "TFX",
    "company": "Teleflex, Inc.",
    "receiving": true,
@@ -328,30 +256,6 @@
    "quote_receiving": "We will recognize the tariff refund upon full confirmation from the US government.",
    "quote_customers": "",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "TKR",
-   "company": "The Timken Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$8 million",
-   "headline": "Timken received $8M net IEEPA tariff refunds in Q2 2026, contributing $0.08/share benefit to adjusted EPS.",
-   "quote_receiving": "our adjusted results include a net benefit for IEEPA tariff refunds of $8 million or $0.08 per share",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "VGNT",
-   "company": "Versigent Plc",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$7 million",
-   "headline": "Versigent recognized approximately $7 million of IEEPA tariff refunds in Q2, boosting net performance.",
-   "quote_receiving": "Net performance also included the recognition of approximately $7 million of IEEPA tariff refunds during the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "XRAY",
@@ -376,18 +280,6 @@
    "quote_receiving": "we received IEEPA tariff refunds which reduced our cost of goods sold by $685 million",
    "quote_customers": "",
    "event_date": "2026-08-18"
-  },
-  {
-   "ticker": "TRMB",
-   "company": "Trimble, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "na",
-   "amount": null,
-   "headline": "Trimble received tariff refunds in Q2 2026, creating a ~300 bps revenue headwind in Field Systems with offsetting COGS credit; no income impact.",
-   "quote_receiving": "Field Systems revenue was up 12% in the quarter, despite a headwind of approximately 300 basis points due to tariff refunds, which we do not expect to materially impact future quarters.",
-   "quote_customers": "",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "LOW",
@@ -786,18 +678,6 @@
    "event_date": "2026-09-02"
   },
   {
-   "ticker": "GOLF",
-   "company": "Acushnet Holdings Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$38 million",
-   "headline": "Acushnet received IEEPA tariff refunds providing ~$38M net benefit to Q2 adjusted EBITDA; cash retained by company.",
-   "quote_receiving": "These results include IEEPA tariff refunds, which represented an approximately $38 million benefit to adjusted EBITDA net of the impact on incentive compensation.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "HAE",
    "company": "Haemonetics Corp.",
    "receiving": true,
@@ -832,30 +712,6 @@
    "quote_receiving": "the net impacts of the tariff refunds were immaterial to the quarter at just $0.5 million",
    "quote_customers": "",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "KAI",
-   "company": "Kadant Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Kadant received a tariff refund benefit in Q2 2026, which was largely offset by acquisition-related inventory amortization.",
-   "quote_receiving": "We had a benefit in the second quarter from tariff refunds, but this was largely offset by the negative impact from the amortization of acquired profit and inventory",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "KMT",
-   "company": "Kennametal, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Kennametal applied for and received immaterial IEEPA tariff refunds; plans to reinvest in supply chain and product development.",
-   "quote_receiving": "we have applied for refunds and we have received some, but it was immaterial to report. We continue to apply.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "KSS",
@@ -954,18 +810,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "OC",
-   "company": "Owens Corning",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$25 million",
-   "headline": "Owens Corning received $25 million in tariff refunds in Q2 2026, about half at its Doors business and the remainder across the enterprise.",
-   "quote_receiving": "Our EBITDA results for the second quarter include $25 million in tariff refunds. About half of the impact was at our Doors business, with the remainder across the enterprise.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "OLLI",
    "company": "Ollie's Bargain Outlet Holdings, Inc.",
    "receiving": true,
@@ -1038,18 +882,6 @@
    "event_date": "2026-08-12"
   },
   {
-   "ticker": "SN",
-   "company": "SharkNinja, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": "$247 million",
-   "headline": "SharkNinja received $247M in CBP-accepted tariff refunds; ~half treated as 2025 add-back, rest allocated across reinvestment, offsets, and flexibility.",
-   "quote_receiving": "$247 million is what has been accepted by the CBP. It has not been paid yet, but that's what we've filed for and has been accepted. So we do expect to book that in Q3.",
-   "quote_customers": "",
-   "event_date": "2026-08-11"
-  },
-  {
    "ticker": "TTC",
    "company": "The Toro Co.",
    "receiving": true,
@@ -1096,18 +928,6 @@
    "quote_receiving": "we recognized a onetime favorable net impact from IEEPA tariff refunds related to inventory sold in the prior year",
    "quote_customers": "",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "VSH",
-   "company": "Vishay Intertechnology, Inc.",
-   "receiving": false,
-   "to_customers": true,
-   "disposition": "refund_customers",
-   "amount": "$13.0 million",
-   "headline": "Vishay passed through $13.0M in tariff refunds to customers in Q2 2026, excluded from adjusted revenue with no gross profit impact.",
-   "quote_receiving": "",
-   "quote_customers": "second quarter 2026 adjusted net revenues exclude $13.0 million for tariff refunds passed through to customers with no impact on gross profit.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "WSM",
@@ -1888,6 +1708,126 @@
    "quote_receiving": "Our third quarter adjusted gross margin was 37.7%, or 36.8%, excluding $14.7 million of IEEPA tariff refunds.",
    "quote_customers": "",
    "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "EMR",
+   "company": "Emerson Electric Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "na",
+   "amount": null,
+   "headline": "Emerson notes tariff refunds are excluded from adjusted earnings results; no further detail on amount or disposition provided.",
+   "quote_receiving": "the impact of tariff refunds are excluded from our adjusted earnings results.",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GOLF",
+   "company": "Acushnet Holdings Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$30 million",
+   "headline": "Acushnet received ~$30M net IEEPA tariff refunds in 2026, boosting adjusted EBITDA; benefit will not recur in 2027.",
+   "quote_receiving": "year-to-date cash flow from operations of $319 million increased $124 million from the first nine months of 2025, driven in part by tariff refunds received in the second quarter",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GWW",
+   "company": "W.W. Grainger, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Grainger received a small IEEPA tariff refund benefit in Q3, largely offset by an inventory write-off from a Louisville DC fire.",
+   "quote_receiving": "We also received a small IEEPA tariff refund benefit in the quarter, which was largely offset by an inventory write-off for products damaged during a fire",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "KAI",
+   "company": "Kadant Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Kadant received tariff refunds in Q3 2026, which benefited gross margin but was offset by acquisition-related costs.",
+   "quote_receiving": "We had a benefit in the third quarter from tariff refunds, but this was offset by the negative impact from the amortization of acquired profit and inventory",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "PRGO",
+   "company": "Perrigo Co. Plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Perrigo recognized a recovery of a portion of previously paid tariffs within its Oral Care / All Other segment in Q3 2026.",
+   "quote_receiving": "Results benefited from the recognition of our recovery of a portion of previously paid tariffs, along with improved productivity and lower operating expenses in Oral Care.",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "SN",
+   "company": "SharkNinja, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$247 million (total claim); ~$110 million attributable to FY2025; ~$45 million reinvested to factory partners",
+   "headline": "SharkNinja received IEEPA tariff refunds from CBP (~$247M total claim) and reinvested a portion into operations and factory partners.",
+   "quote_receiving": "the recognition of refund claims accepted by the US Customs and Border Protection for duties previously paid under IEEPA that are attributable to duties expensed in cost of sales",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "SWK",
+   "company": "Stanley Black & Decker, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Stanley Black & Decker received meaningful IEEPA tariff refunds, contributing $0.67 to Q3 EPS net of related costs and reinvestments.",
+   "quote_receiving": "we also received a meaningful amount of IEEPA tariff refunds, and we have now received the vast majority of what we have applied for",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "TKR",
+   "company": "The Timken Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$12 million",
+   "headline": "Timken received ~$12M IEEPA tariff refunds in Q3 2026, adding $0.13/share to adjusted EPS.",
+   "quote_receiving": "our adjusted results include a net benefit for IEEPA tariff refunds of approximately $12 million or $0.13 per share",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "VGNT",
+   "company": "Versigent Plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$7 million",
+   "headline": "Versigent received ~$7M in IEEPA tariff refunds in Q2 2026; benefit did not repeat in Q3, creating a sequential headwind.",
+   "quote_receiving": "the second quarter of 2026 results benefited from approximately $7 million of IEEPA tariff refunds that benefit did not repeat in the third quarter",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "VSH",
+   "company": "Vishay Intertechnology, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "na",
+   "amount": null,
+   "headline": "Vishay received tariff refunds credited to accounts receivable, improving DSO from 38 to 35 days in Q3.",
+   "quote_receiving": "DSO improved from 38 days in quarter two to 35 days, primarily due to higher revenues and the application of credits for tariff refunds.",
+   "quote_customers": "",
+   "event_date": "2026-11-04"
   }
  ]
 }

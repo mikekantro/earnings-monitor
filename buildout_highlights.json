@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-04T18:01:39.124563",
+ "generated": "2026-11-05T01:36:10.808531",
  "window": [
   "2026-07-15",
-  "2026-11-04"
+  "2026-11-05"
  ],
  "highlights": [
   {
@@ -74,16 +74,6 @@
    "direction": "accelerating",
    "headline": "Argan cites data-center construction demand driving Industrial segment growth and new North Carolina fabrication facility investment.",
    "event_date": "2026-09-02"
-  },
-  {
-   "ticker": "AIG",
-   "company": "American International Group, Inc.",
-   "channel": "equipment_components",
-   "quote": "Let's take data centers as an example. These are end-to-end multi-line projects for global AI hyperscalers that require financing, construction, marine, cyber, energy, operational, multinational programs and bespoke risk solutions. AIG is one of the few insurers that can bring all of these capabilities to the table with the expertise to manage the complex scale and timetable these projects require. And we are demonstrating leadership in this area.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "AIG is providing insurance solutions for AI hyperscaler data-center construction projects and demonstrating leadership in this growing area.",
-   "event_date": "2026-08-07"
   },
   {
    "ticker": "AKAM",
@@ -166,16 +156,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "ASH",
-   "company": "Ashland, Inc.",
-   "channel": "materials",
-   "quote": "higher NMP demand in North America EV battery and energy storage applications",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Ashland cites increased NMP demand from EV battery and energy storage applications as a driver of Intermediates segment growth.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "ATEN",
    "company": "A10 Networks, Inc.",
    "channel": "networking_compute",
@@ -194,16 +174,6 @@
    "direction": "accelerating",
    "headline": "Broadcom cites AI data-center infrastructure buildout demand as driver of custom silicon and chip revenue growth, with AI revenue forecast to double annually.",
    "event_date": "2026-09-08"
-  },
-  {
-   "ticker": "AVT",
-   "company": "Avnet, Inc.",
-   "channel": "equipment_components",
-   "quote": "While we benefit from sales into data center applications and technologies that support AI infrastructure, we are also seeing positive effects across our diversified end markets. Investments are being made to support AI are accelerating demand for power management, connectivity, automation and other enabling technologies across a wide range of application.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Avnet cites AI-infrastructure demand as accelerating semiconductor and component sales across data center and broader end markets.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "BGC",
@@ -234,16 +204,6 @@
    "direction": "accelerating",
    "headline": "Brady Corp. cites data-center capital expenditure as a driver of wire identification product growth in its Americas business.",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "BRKR",
-   "company": "Bruker Corp.",
-   "channel": "equipment_components",
-   "quote": "semi mostly being driven by the AI demand field, but that's staggering order growth levels for us actually in the first quarter and the second quarter",
-   "metric": "staggering order growth levels in Q1 and Q2",
-   "direction": "accelerating",
-   "headline": "Bruker reports staggering semiconductor metrology order growth driven by AI demand in first half of 2026.",
-   "event_date": "2026-09-16"
   },
   {
    "ticker": "BSY",
@@ -386,16 +346,6 @@
    "event_date": "2026-09-08"
   },
   {
-   "ticker": "CWK",
-   "company": "Cushman & Wakefield Ltd.",
-   "channel": "data_center_construction",
-   "quote": "Our data center work is diversified and expanding, with data center-related revenue up 83% year-to-date. And while we have strong transactional presence, integrated facilities management is actually the largest of our data center businesses, and 25% of our pipeline in the broader IFM business is now data center-related.",
-   "metric": "data center-related revenue up 83% year-to-date; 25% of IFM pipeline is data center-related",
-   "direction": "accelerating",
-   "headline": "Cushman & Wakefield cites data-center-related revenue growth of 83% year-to-date and expanding integrated facilities management services as drivers of company results.",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "DCI",
    "company": "Donaldson Co., Inc.",
    "channel": "power_energy",
@@ -496,26 +446,6 @@
    "event_date": "2026-08-26"
   },
   {
-   "ticker": "ECG",
-   "company": "Everus Construction Group, Inc.",
-   "channel": "data_center_construction",
-   "quote": "Our data center work tends to be focused on several hyperscaler customers. We continue to be very involved in long-term planning with these customers, and demand remains strong.",
-   "metric": null,
-   "direction": "steady",
-   "headline": "Everus Construction Group cites strong ongoing demand from hyperscaler data-center customers as a driver of E&M backlog growth and business momentum.",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "EMR",
-   "company": "Emerson Electric Co.",
-   "channel": "power_energy",
-   "quote": "Behind-the-meter opportunities driven by data centers and new capacity adds in North America, there is significant penetration gains or participation gains we're driving.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Emerson Electric cites data-center-driven behind-the-meter power demand as a driver of Power segment participation gains.",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "ENS",
    "company": "EnerSys",
    "channel": "equipment_components",
@@ -576,16 +506,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "EXP",
-   "company": "Eagle Materials, Inc.",
-   "channel": "equipment_components",
-   "quote": "our customers across all of our regions are seeing growth in data center construction ... sales volume growth in both business lines was supported by continued strength in public infrastructure spending, as well as key areas of private nonresidential construction, such as data center development.",
-   "metric": "double the number of data centers bid in first half of calendar 2026 versus first half of calendar 2025",
-   "direction": "accelerating",
-   "headline": "Eagle Materials reports cement and aggregate volumes supported by data-center construction growth across its regional footprint.",
-   "event_date": "2026-07-29"
-  },
-  {
    "ticker": "FLR",
    "company": "Fluor Corp.",
    "channel": "power_energy",
@@ -604,26 +524,6 @@
    "direction": null,
    "headline": "Griffon Corp. cites data-center construction as an emerging growth avenue for its commercial door products.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "GWW",
-   "company": "W.W. Grainger, Inc.",
-   "channel": "data_center_construction",
-   "quote": "outsized growth in our contractor and retail end markets, which are both benefiting from data center activities as new facilities are stood up",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "W.W. Grainger cites data center construction activities as driver of outsized growth in contractor and retail end markets.",
-   "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "GXO",
-   "company": "GXO Logistics, Inc.",
-   "channel": "data_center_construction",
-   "quote": "We're doing business with multiple hyperscalers across the regions that we operate in. We participate from a supply chain perspective in supporting the build-out, we have individuals work in our warehouses who build the racks, who do the wiring, who deliver a completed rack to the data center.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "GXO Logistics cites hyperscaler data-center build-out as a driver of new contract wins and supply-chain services revenue.",
-   "event_date": "2026-09-09"
   },
   {
    "ticker": "HPE",
@@ -704,16 +604,6 @@
    "direction": "accelerating",
    "headline": "Kulicke & Soffa cites AI-driven data center expansion as driver of thermo-compression and wire bonding equipment demand, with advanced solutions revenue accelerating.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "KMT",
-   "company": "Kennametal, Inc.",
-   "channel": "equipment_components",
-   "quote": "The trend in the market for AI data center, power generation continues to experience rapid expansion, which provides further support for growth in this end market ... energy increased 36% this quarter. The growth was driven by price and continued AI data center project wins.",
-   "metric": "energy end market up 36% in Q4, driven by AI data center project wins",
-   "direction": "accelerating",
-   "headline": "Kennametal cites AI data-center project wins driving growth in its energy end market and supporting fiscal 2027 outlook.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "KNTK",
@@ -806,26 +696,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "MLM",
-   "company": "Martin Marietta Materials, Inc.",
-   "channel": "data_center_construction",
-   "quote": "more than 70% of planned or under-construction data center square footage ... are located within 55 miles of a Martin Marietta facility. This proximity advantage positions us to participate meaningfully in several of the secular growth trends reshaping the United States industrial economy.",
-   "metric": "70% of planned or under-construction data center square footage within 55 miles of MLM facilities",
-   "direction": "accelerating",
-   "headline": "Martin Marietta Materials cites data-center construction proximity advantage as positioning the company to participate in secular growth trends and benefit from heavy non-residential construction demand.",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "MTRN",
-   "company": "Materion Corp.",
-   "channel": "data_center_construction",
-   "quote": "data center buildouts are positively impacting nonresidential construction and increasing demand for our beryllium-nickel spring material ... telecom and data center grew almost 50%, propelled by the AI infrastructure build-out",
-   "metric": "telecom and data center grew almost 50%",
-   "direction": "accelerating",
-   "headline": "Materion cites AI infrastructure buildout as driver of data center and telecom segment growth, up 50% year-over-year.",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "MTSI",
    "company": "MACOM Technology Solutions Holdings, Inc.",
    "channel": "equipment_components",
@@ -894,16 +764,6 @@
    "direction": "accelerating",
    "headline": "NVIDIA cites AI-infrastructure demand as driver of its own compute platform deployment, citing 2 gigawatts of capacity standing up in Australia by 2027 valued at $80 billion.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "OC",
-   "company": "Owens Corning",
-   "channel": "equipment_components",
-   "quote": "One example is data centers, which leverage several of our product lines, including FOAMGLAS, mineral wool, and fiberglass pipe insulation to support critical thermal, acoustic, and HVAC performance requirements.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Owens Corning cites data-center construction as a driver of non-residential insulation demand and volume growth.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "ORA",
@@ -996,26 +856,6 @@
    "event_date": "2026-08-07"
   },
   {
-   "ticker": "PRIM",
-   "company": "Primoris Services Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "the hyperscaler CapEx and PayneCrest resume in doing that work for customers is very relevant. The relationship that they have with one hyperscaler in particular is, given their track record in the region, is what's allowing them to capture further work.",
-   "metric": "$250 million in bookings in the quarter from PayneCrest",
-   "direction": "accelerating",
-   "headline": "Primoris cites hyperscaler capital expenditure and data-center work through PayneCrest acquisition as driver of electrical construction services growth and backlog.",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "Q",
-   "company": "Qnity Electronics, Inc.",
-   "channel": "equipment_components",
-   "quote": "advanced packaging, thermal management, and AI PCBs comprise about 30% of that segment, and that's been growing by more than 50% year-over-year ... Dramatic increases in advanced packaging capacity, and a lot of our PCB customers upgrading their capabalities to do more sophisticated, higher-end printed circuit boards",
-   "metric": "advanced packaging, AI PCBs and thermal management comprise ~30% of interconnect portfolio, growing >50% YoY",
-   "direction": "accelerating",
-   "headline": "Qnity Electronics cites AI-infrastructure-driven advanced packaging and thermal management demand as a major driver of interconnect segment growth exceeding 50% year-over-year.",
-   "event_date": "2026-09-10"
-  },
-  {
    "ticker": "QCOM",
    "company": "QUALCOMM, Inc.",
    "channel": "equipment_components",
@@ -1024,16 +864,6 @@
    "direction": "accelerating",
    "headline": "Qualcomm links hyperscaler AI-infrastructure demand\u2014via a $60B Amazon custom-silicon and optical-connectivity agreement plus engagements with Meta and others\u2014to its data-center revenue targets of $5B in FY2027 and $15B in FY2029.",
    "event_date": "2026-09-08"
-  },
-  {
-   "ticker": "RAL",
-   "company": "Ralliant Corp.",
-   "channel": "equipment_components",
-   "quote": "when there's innovation happening in electronics, like there is in the data center, going from 400 volt to 800 volts, and a lot of the equipments, the electronics equipment going into that data center needs to be upgraded or expanded. Those are good opportunities for test and measurement equipment.",
-   "metric": "10 to 20% of revenue has direct exposure to data centers and infrastructure",
-   "direction": "accelerating",
-   "headline": "Ralliant Corp. cites data-center electronics upgrades (400V to 800V) as driver of test-and-measurement equipment demand, with 10-20% of revenue directly exposed to data-center infrastructure.",
-   "event_date": "2026-09-15"
   },
   {
    "ticker": "ROK",
@@ -1156,16 +986,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "SOLS",
-   "company": "Solstice Advanced Materials, Inc.",
-   "channel": "equipment_components",
-   "quote": "data center orders remain robust again this quarter, underscoring how this business sits at the intersection of several key secular growth trends ... we are expanding Electronic Materials capacity to meet AI and data center driven semiconductor demand, which we see as a significant multiyear opportunity for Solstice.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Solstice Advanced Materials cites accelerating AI data-center demand driving refrigerants and electronic materials sales growth and capacity expansion.",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "SRE",
    "company": "Sempra",
    "channel": "power_energy",
@@ -1176,26 +996,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "SWK",
-   "company": "Stanley Black & Decker, Inc.",
-   "channel": "equipment_components",
-   "quote": "That need is increasingly relevant in non-residential construction, where the market context is strong, especially in areas like data centers, power generation, and prefabrication manufacturing.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Stanley Black & Decker cites data-center construction demand as relevant to professional end-user tool needs in non-residential markets.",
-   "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "SWX",
-   "company": "Southwest Gas Holdings, Inc.",
-   "channel": "equipment_components",
-   "quote": "a variety of different industries, primarily driven by data center development, power gen ... we feel good about the regional economics and the attractive area this part of the state, for this type of development.",
-   "metric": "1.8 Bcf across the region for the 2029 through 2035 timeframe",
-   "direction": "accelerating",
-   "headline": "Southwest Gas' Great Basin subsidiary cites data center development as primary driver of incremental pipeline demand and expansion project.",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "TPL",
    "company": "Texas Pacific Land Corp.",
    "channel": "hyperscaler_platform",
@@ -1204,16 +1004,6 @@
    "direction": "accelerating",
    "headline": "Texas Pacific Land Corp. cites AI data-center and power infrastructure development as driver of land acquisitions and power/compute projects, including Project Kilby and 25 gigawatts in advanced conversations.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "TRMB",
-   "company": "Trimble, Inc.",
-   "channel": "data_center_construction",
-   "quote": "Global end markets demonstrate broad strength, notably in data centers, utilities and energy infrastructure ... Mission-critical data center construction demands millimeter accuracy, tight coordination and delivery of reliable as-builts.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Trimble cites data-center construction as a driver of Field Systems revenue growth and strength in Q2 2026.",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "TTC",
@@ -1276,16 +1066,6 @@
    "event_date": "2026-08-17"
   },
   {
-   "ticker": "VSH",
-   "company": "Vishay Intertechnology, Inc.",
-   "channel": "equipment_components",
-   "quote": "our bookings increased for industrial power applications for customers who are participating in power conversion and cooling projects for AI data centers. We are increasing our part count on new projects as customers add our passives to AI power management solutions.",
-   "metric": "$1.9 billion backlog (6.1 months), book-to-bill 1.32",
-   "direction": "accelerating",
-   "headline": "Vishay Intertechnology reports accelerating bookings and backlog growth driven by customer demand for components used in AI data center power conversion and cooling projects.",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "VST",
    "company": "Vistra Corp.",
    "channel": "hyperscaler_platform",
@@ -1294,16 +1074,6 @@
    "direction": "accelerating",
    "headline": "Vistra cites strong data-center development activity and active negotiations with large load customers as drivers of growth opportunities.",
    "event_date": "2026-08-07"
-  },
-  {
-   "ticker": "WLK",
-   "company": "Westlake Corp.",
-   "channel": "data_center_construction",
-   "quote": "end market conditions remain favorable, driven by robust demand for municipal pipe as a result of the Infrastructure Act, as well as strong growth in overall US infrastructure spending, including the construction of new data centers",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Westlake's Pipe & Fittings business cites data-center construction alongside infrastructure spending as a driver of favorable end-market demand and expected healthy sales-volume growth.",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "WSC",
@@ -3004,6 +2774,176 @@
    "direction": "accelerating",
    "headline": "UL Solutions cites AI data-center ecosystem demand driving double-digit certification testing growth and new test program launches.",
    "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "AIG",
+   "company": "American International Group, Inc.",
+   "channel": "data_center_construction",
+   "quote": "For large, complex data centers, construction is often the first line of business we secure, opening the door for us to demonstrate our end-to-end capabilities and expand our business. This success has made construction one of our fastest growing lines within the Global Specialty business.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "AIG cites data-center construction as one of its fastest-growing lines of business within Global Specialty, driven by securing large, complex data-center construction projects.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "AVT",
+   "company": "Avnet, Inc.",
+   "channel": "equipment_components",
+   "quote": "As investment in AI infrastructure increases, it drives demand for more than just processors. Those solutions require a wide range of other semiconductors and IP&E technologies ... AI infrastructure buildout is a key contributor to that demand.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Avnet cites AI infrastructure buildout as a key driver of demand for semiconductors and interconnect/passive/electromechanical components.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "BRKR",
+   "company": "Bruker Corp.",
+   "channel": "equipment_components",
+   "quote": "This robust order growth is being fueled by the AI megatrend, which requires our metrology solutions for logic, chip foundries, high bandwidth memory, and advanced packaging.",
+   "metric": "greater than 30% organic bookings growth in BSI semicon metrology markets year-to-date",
+   "direction": "accelerating",
+   "headline": "Bruker cites AI infrastructure demand driving over 30% year-to-date growth in semiconductor metrology orders for logic, foundries, HBM, and advanced packaging.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "CWK",
+   "company": "Cushman & Wakefield Ltd.",
+   "channel": "services_other",
+   "quote": "Specifically to data centers, we've had a couple of big services wins there as well. And data centers are still a real and growing opportunity for us.",
+   "metric": "data centers were about 3% of our Americas Leasing revenue",
+   "direction": "accelerating",
+   "headline": "Cushman & Wakefield cites data-center services wins and growing opportunity, particularly in project management and facilities management.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "ECG",
+   "company": "Everus Construction Group, Inc.",
+   "channel": "data_center_construction",
+   "quote": "The outlook for our data center business remains robust, and this was a key driver of our backlog growth in the quarter. Our data center and customers tend to be large hyperscalers, and we remain deeply involved in the project planning process for these customers.",
+   "metric": "data center work is the largest part of backlog; backlog up 86% YoY to $5.5B",
+   "direction": "accelerating",
+   "headline": "Everus Construction cites robust data center hyperscaler demand as key driver of record backlog growth and company results.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "EXP",
+   "company": "Eagle Materials, Inc.",
+   "channel": "data_center_construction",
+   "quote": "data centers have been moving the needle very meaningfully there. They're very meaningful in our markets. And so we continue to see good strength and good backlog for those types of activities.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Eagle Materials cites data-center construction as a meaningful driver of private non-residential cement demand and backlog in its markets.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GWW",
+   "company": "W.W. Grainger, Inc.",
+   "channel": "equipment_components",
+   "quote": "growth in industries exposed to data centers, which shows up most notably in our retail, commercial services and contractor end markets",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "W.W. Grainger cites data-center-exposed end-market growth as driver of High-Touch Solutions segment results.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GXO",
+   "company": "GXO Logistics, Inc.",
+   "channel": "data_center_construction",
+   "quote": "In the quarter, we again saw strong momentum with our technology and data center customers where we see no signs of slowing and there are more RFPs in the market than ever.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "GXO Logistics cites accelerating data-center customer momentum and increasing RFPs as driver of strong technology and data-center segment performance.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "KMT",
+   "company": "Kennametal, Inc.",
+   "channel": "power_energy",
+   "quote": "Data center power generation continues to experience strong mid-teens growth ... supporting power generation for AI data centers.",
+   "metric": "mid-teens growth",
+   "direction": "accelerating",
+   "headline": "Kennametal cites strong mid-teens growth in data center power generation as part of its strategic focus on AI infrastructure.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "MLM",
+   "company": "Martin Marietta Materials, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Data center project shipments more than doubled in the third quarter versus the prior year's comparable period. Our extensive distribution network, particularly in Texas and Louisiana, positions us well to serve the scale and logistical complexity of these often geographically remote projects with both construction aggregates and lime for soil stabilization.",
+   "metric": "Data center project shipments more than doubled year-over-year in Q3",
+   "direction": "accelerating",
+   "headline": "Martin Marietta Materials cites accelerating data-center construction demand as driver of aggregate shipment growth, with volumes more than doubling in Q3.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "MTRN",
+   "company": "Materion Corp.",
+   "channel": "equipment_components",
+   "quote": "Telecom and data center. Sales increased more than 70% year-over-year, delivering our strongest quarterly performance since 2019. Demand continues to be fueled by ongoing investments in data center infrastructure, high-speed connectivity, and network expansion to support accelerating global data consumption.",
+   "metric": "Sales increased more than 70% year-over-year",
+   "direction": "accelerating",
+   "headline": "Materion Corp. cites data-center infrastructure investments as driver of 70% year-over-year growth in telecom and data-center segment.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "PRIM",
+   "company": "Primoris Services Corp.",
+   "channel": "data_center_construction",
+   "quote": "PayneCrest team continues to capitalize on significant opportunities across industrial, power and data center markets throughout its core Midwest geography.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Primoris Services benefits from PayneCrest acquisition capturing data center market opportunities in Midwest.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "Q",
+   "company": "Qnity Electronics, Inc.",
+   "channel": "equipment_components",
+   "quote": "Thermal management, advanced packaging and AI printed circuit boards remain the segment's fastest-growing platforms, driven by AI tailwinds and rising data center demand.",
+   "metric": "Interconnect Solutions organic sales growth of 29% year over year",
+   "direction": "accelerating",
+   "headline": "Qnity Electronics cites AI-driven data center demand as a driver of thermal management, advanced packaging, and AI PCB growth within its Interconnect Solutions segment.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "RAL",
+   "company": "Ralliant Corp.",
+   "channel": "power_energy",
+   "quote": "Rising global power demand is driving investment in grid and energy infrastructure ... accelerating technology innovation from the data center to the edge. Engineers are designing more complex power electronics to improve efficiency, performance and reliability",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Ralliant cites accelerating data-center and grid power demand as driver of test-and-measurement and grid-solutions revenue growth.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "SOLS",
+   "company": "Solstice Advanced Materials, Inc.",
+   "channel": "equipment_components",
+   "quote": "Solstice's businesses serving data center and AI related applications represent approximately 6% of our expected 2026 revenue, with sales up more than 50% versus last year ... In Electronics, we expect over $150 million of 2026 sales from our thermal interface materials, heat spreaders, physical vapor deposition targets and electronic polymers, which support performance across the semiconductor and data center value chain.",
+   "metric": "$150 million of 2026 sales from thermal interface materials, heat spreaders, physical vapor deposition targets and electronic polymers for data center; 50% sales growth year-over-year in data center and AI applications",
+   "direction": "accelerating",
+   "headline": "Solstice Advanced Materials cites AI data-center demand driving 50% growth in materials sales, with $150M expected 2026 revenue from thermal and deposition products for hyperscaler infrastructure.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "VSH",
+   "company": "Vishay Intertechnology, Inc.",
+   "channel": "equipment_components",
+   "quote": "We continue to record demand levels for polymer capacitors associated with AI server applications ... Customers continue to add Vishay passive technologies to AI power management solutions, with the percent of passive components increasing as industrial and AI topologies move to higher voltages and as AI requirements for higher power density, efficiency, heat dissipation, higher switching frequencies, and precision sensing drive more Vishay passive usage.",
+   "metric": "Record demand levels for polymer capacitors associated with AI server applications; percent of passive components increasing",
+   "direction": "accelerating",
+   "headline": "Vishay Intertechnology cites record demand for polymer capacitors and expanding passive component usage in AI server power applications as a driver of revenue growth.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "WLK",
+   "company": "Westlake Corp.",
+   "channel": "data_center_construction",
+   "quote": "pipe & fittings sales volume through the first three quarters of 2026 was 8% higher than the first three quarters of 2025, which we believe is more indicative of the overall trend of pipe & fittings sales volume growth driven by infrastructure spending including increased demand from the construction of data centers",
+   "metric": "pipe & fittings sales volume 8% higher YTD through Q3 2026 vs Q3 2025",
+   "direction": "accelerating",
+   "headline": "Westlake Corp. cites increased demand from data-center construction as a driver of pipe & fittings sales volume growth in its HIP segment.",
+   "event_date": "2026-11-04"
   }
  ]
 }
