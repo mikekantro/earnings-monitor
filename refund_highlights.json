@@ -1,34 +1,10 @@
 {
- "generated": "2026-11-06T01:41:46.027238",
+ "generated": "2026-11-06T17:29:17.810596",
  "window": [
   "2026-07-15",
   "2026-11-06"
  ],
  "highlights": [
-  {
-   "ticker": "AXON",
-   "company": "Axon Enterprise, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Axon received a tariff refund in Q2 2025 that boosted gross margin, but increasing memory costs offset the benefit for full year guidance.",
-   "quote_receiving": "We received a refund in Q2 for tariffs, but we are also facing increasing component costs for the year, especially on memory, which leaves our full year guidance unchanged.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "CALY",
-   "company": "Callaway Golf Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$50 million",
-   "headline": "Callaway receiving IEEPA tariff refunds; ~$50M total potential, ~$18M received to date, balance of Phase 2 expected in H2 2026.",
-   "quote_receiving": "We have also recently begun receiving refunds for the IEEPA tariffs, with more expected in the future.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
   {
    "ticker": "CLB",
    "company": "Core Laboratories, Inc.",
@@ -150,18 +126,6 @@
    "event_date": "2026-07-23"
   },
   {
-   "ticker": "SOLV",
-   "company": "Solventum Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$100 million",
-   "headline": "Solventum recognized a $100M one-time tariff refund benefit in Q2 2026, boosting gross margins by ~450bps and EPS by $0.48.",
-   "quote_receiving": "The performance includes a one-time tariff refund benefit of $100 million.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "SONO",
    "company": "Sonos, Inc.",
    "receiving": true,
@@ -172,18 +136,6 @@
    "quote_receiving": "Of the $41 million in claim we filed, we received $24 million in Q3. Of that amount, $23 million was principal recovery and recorded as a benefit to GAAP gross profit",
    "quote_customers": "",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "XRAY",
-   "company": "Dentsply Sirona, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$44 million",
-   "headline": "Dentsply Sirona received $44 million in tariff refunds in Q2 2026, contributing $0.17 per share and boosting operating cash flow.",
-   "quote_receiving": "the benefit from $44 million in tariff refunds offset by a decline in gross profit, driven by lower volumes, sales mix and incremental tariff impacts.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "HD",
@@ -390,18 +342,6 @@
    "event_date": "2026-08-26"
   },
   {
-   "ticker": "ARLO",
-   "company": "Arlo Technologies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$8 million",
-   "headline": "Arlo received $8M in tariff refunds in Q2 2026, boosting product gross margins and adding $0.07 to non-GAAP EPS; Q3 refunds to be reinvested in growth.",
-   "quote_receiving": "we reported non-GAAP product gross margins of 1%, up significantly from the negative 13.8% in the prior year period, primarily related to the $8 million in tariff refunds that were recorded during the period",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "BJ",
    "company": "BJ's Wholesale Club Holdings, Inc.",
    "receiving": true,
@@ -460,18 +400,6 @@
    "quote_receiving": "What we saw in Q3 was kind of a one-time accounting adjustment for those tariff refunds that we don't expect to continue moving forward, and that gave us about 70 basis points of uplift.",
    "quote_customers": "",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "CRSR",
-   "company": "Corsair Gaming, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$15.6 million",
-   "headline": "Corsair received ~$15.6M in IEEPA tariff refunds in Q2 2026, adding ~500bps to gross margin; process now materially complete.",
-   "quote_receiving": "the company recognized a benefit of approximately $15.6 million to GAAP gross profit from refunds of tariffs previously paid under the International Emergency Economic Powers Act",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "CTKB",
@@ -534,18 +462,6 @@
    "event_date": "2026-09-02"
   },
   {
-   "ticker": "FOXF",
-   "company": "Fox Factory Holding Corp.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "undecided",
-   "amount": "$2 million (received); up to $8 million potential additional",
-   "headline": "Fox Factory received ~$2M IEEPA tariff refunds in Q2; up to $8M more possible, portion may be shared with commercial counterparties.",
-   "quote_receiving": "Adjusted EBITDA was $45.5 million and included approximately $2 million of IEEPA tariff refunds.",
-   "quote_customers": "A portion of any amounts recovered may be shared with our commercial counterparties, and we have not included any recovery in our outlook.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "GAP",
    "company": "Gap, Inc.",
    "receiving": true,
@@ -568,18 +484,6 @@
    "quote_receiving": "Our cash position benefited from the receipt of approximately $134 million in tariff refunds, including interest during the second quarter.",
    "quote_customers": "",
    "event_date": "2026-09-02"
-  },
-  {
-   "ticker": "IPAR",
-   "company": "Interparfums, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$17.6 million",
-   "headline": "Interparfums received $17.6M in IEEPA tariff refunds; reinvesting proceeds into A&P spending to protect top-line growth.",
-   "quote_receiving": "As of June 30, 2026, the company also received $8.7 million in IEEPA tariff refunds, of which $6.9 million was recognized as a non-recurring reduction in cost of sales in the second quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "KSS",
@@ -628,18 +532,6 @@
    "quote_receiving": "240 basis point favorable tariff impact, including IEEPA refunds and pricing actions net of tariff costs",
    "quote_customers": "",
    "event_date": "2026-08-19"
-  },
-  {
-   "ticker": "MAT",
-   "company": "Mattel, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Mattel engaged in tariff refund process but excludes any benefit from guidance; use of proceeds undecided until refunds received.",
-   "quote_receiving": "we're, of course, actively engaged in the refund process, and we're working through the system.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "NVST",
@@ -747,18 +639,6 @@
    "headline": "Universal Corp. confirms it has begun receiving tariff refunds and is in discussions with customers on how to handle amounts that may flow back to them.",
    "quote_receiving": "We have. We are working through those now. We have started to see some movement of getting refunds in",
    "quote_customers": "the affected businesses have been in discussions with customers on how best to manage what could flow back to them. But it is early in the process and it is a work in process.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "VNT",
-   "company": "Vontier Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Vontier received a one-time favorable net impact from IEEPA tariff refunds on prior-year inventory, adding ~120 bps to adjusted operating margin.",
-   "quote_receiving": "we recognized a onetime favorable net impact from IEEPA tariff refunds related to inventory sold in the prior year",
-   "quote_customers": "",
    "event_date": "2026-08-06"
   },
   {
@@ -1766,6 +1646,78 @@
    "amount": "$39 million",
    "headline": "Watts Water received $39 million in tariff refunds in Q3; excluded from adjusted earnings and included in free cash flow.",
    "quote_receiving": "adjusted earnings excludes the impact of $39 million of tariff refunds received in the quarter",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CALY",
+   "company": "Callaway Golf Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$44 million",
+   "headline": "Callaway received ~$44M in tariff refunds and interest through September 2026; excluded from non-GAAP results.",
+   "quote_receiving": "Through September 2026, we have received approximately $44 million of refunds and associated interest.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "FOXF",
+   "company": "Fox Factory Holding Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$12 million",
+   "headline": "Fox Factory received ~$12M in IEEPA tariff refunds in Q3, boosting adjusted EBITDA; refunds excluded from original outlook.",
+   "quote_receiving": "Adjusted EBITDA was $50.4 million and included approximately $12 million of IEEPA tariff refunds.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "IPAR",
+   "company": "Interparfums, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$16.4 million",
+   "headline": "Interparfums recognized $16.4M in tariff refunds in 9-month 2026 results, reinvesting proceeds into A&P to protect top-line growth.",
+   "quote_receiving": "we also recognized $16.4 million of tariff refunds in our consolidated statements of income for the nine months ended September 2026",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "MAT",
+   "company": "Mattel, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$88 million",
+   "headline": "Mattel received $88 million in tariff refunds in Q3 2026, contributing 490 basis points to adjusted gross margin improvement.",
+   "quote_receiving": "adjusted gross margin increased 480 basis points to 55%, including $88 million of tariff refunds that benefited cost of goods sold.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "SOLV",
+   "company": "Solventum Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "120 basis points annual margin benefit",
+   "headline": "Solventum received a one-time tariff refund in Q2 2026, adding 120 bps to full-year gross margins; proceeds retained on balance sheet.",
+   "quote_receiving": "free cash flow increased by $97 million, which includes costs for separation-related activities and portfolio optimization, which were more than offset by tariff refunds received",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "XRAY",
+   "company": "Dentsply Sirona, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$0.17 one-time gain (EPS)",
+   "headline": "Dentsply Sirona received a one-time tariff refund worth $0.17 EPS, excluded from adjusted EPS guidance.",
+   "quote_receiving": "excluding the $0.17 one-time gain from tariff refunds",
    "quote_customers": "",
    "event_date": "2026-11-05"
   }

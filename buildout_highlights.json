@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T01:43:58.238391",
+ "generated": "2026-11-06T17:31:12.049224",
  "window": [
   "2026-07-15",
   "2026-11-06"
@@ -66,16 +66,6 @@
    "event_date": "2026-09-02"
   },
   {
-   "ticker": "AKAM",
-   "company": "Akamai Technologies, Inc.",
-   "channel": "equipment_components",
-   "quote": "We made a decision five years ago to get into the compute business... and realized that there's this big opportunity to lean into not only GPUs, but compute in a much bigger way and start building out bigger locations and offering an offering for compute from large scale CPU and GPU deployments",
-   "metric": "$2.8 billion in multi-year cloud infrastructure commitments",
-   "direction": "accelerating",
-   "headline": "Akamai cites AI compute demand as driver of major infrastructure buildout and revenue growth, with $2.8B in signed commitments.",
-   "event_date": "2026-09-09"
-  },
-  {
    "ticker": "AMAT",
    "company": "Applied Materials, Inc.",
    "channel": "equipment_components",
@@ -94,16 +84,6 @@
    "direction": "accelerating",
    "headline": "Amentum cites AI data-center and nuclear energy infrastructure buildout at Savannah River as driver of $1B+ revenue opportunity.",
    "event_date": "2026-08-11"
-  },
-  {
-   "ticker": "AOSL",
-   "company": "Alpha & Omega Semiconductor Ltd.",
-   "channel": "equipment_components",
-   "quote": "Demand for our medium voltage MOSFET portfolio continues to expand across AI and cloud infrastructure, with growing engagement from power supply providers, module makers, leading ODMs, cloud service providers and hyperscale customers.",
-   "metric": "Advanced Computing expected to exceed 40% of Computing segment revenue and approach 20% of total company revenue",
-   "direction": "accelerating",
-   "headline": "Alpha & Omega Semiconductor cites expanding demand for medium voltage MOSFETs across AI and cloud infrastructure from hyperscalers and power supply providers as a driver of Advanced Computing growth.",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "APD",
@@ -126,16 +106,6 @@
    "event_date": "2026-09-14"
   },
   {
-   "ticker": "ATEN",
-   "company": "A10 Networks, Inc.",
-   "channel": "networking_compute",
-   "quote": "Both verticals align with our strategy and reflect the strength of our offerings, supporting AI infrastructure build-outs.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "A10 Networks cites AI infrastructure build-outs as a driver supporting strength in enterprise and service provider verticals.",
-   "event_date": "2026-08-05"
-  },
-  {
    "ticker": "AVGO",
    "company": "Broadcom Inc.",
    "channel": "equipment_components",
@@ -144,16 +114,6 @@
    "direction": "accelerating",
    "headline": "Broadcom cites AI data-center infrastructure buildout demand as driver of custom silicon and chip revenue growth, with AI revenue forecast to double annually.",
    "event_date": "2026-09-08"
-  },
-  {
-   "ticker": "BKH",
-   "company": "Black Hills Corp.",
-   "channel": "power_energy",
-   "quote": "Large-load demand is a key driver of this growth... Looking to the future, we are excited about serving significant large-load demand, led by hyperscale data centers. This large load pipeline is outlined on slide 4. Of more than 3 gigawatts of data center opportunities, only 600 megawatts is included in our current plan, driven by both Microsoft's ongoing expansion and Meta's new AI data center, which is slated to begin ramping later this year.",
-   "metric": "3+ gigawatts of data center opportunities; 600 megawatts included in current plan through 2030",
-   "direction": "accelerating",
-   "headline": "Black Hills Corp. cites hyperscale data-center demand as a key driver of large-load growth and power revenue expansion in its service territory.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "BRC",
@@ -216,16 +176,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "CNR",
-   "company": "Core Natural Resources, Inc.",
-   "channel": "power_energy",
-   "quote": "Elevated clearing prices reflect robust electricity demand from data center growth and industrial reshoring, which continues to outpace additions on dispatchable generation.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Core Natural Resources cites data-center electricity demand as driver of elevated power-generation clearing prices supporting coal demand.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "COHR",
    "company": "Coherent Corp.",
    "channel": "equipment_components",
@@ -244,26 +194,6 @@
    "direction": "accelerating",
    "headline": "Concentra cites data-center development proximity as driver of improved manufacturing and construction visit activity.",
    "event_date": "2026-08-07"
-  },
-  {
-   "ticker": "CRK",
-   "company": "Comstock Resources, Inc.",
-   "channel": "power_energy",
-   "quote": "The Western Haynesville represents one of the largest undeveloped natural gas resources with access to the growing demand along the Gulf Coast. It will also serve the recently announced Texas Power Generation Hub in Anderson County, Texas.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Comstock Resources cites AI-driven power generation demand as validation for Western Haynesville natural gas development.",
-   "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "CRSR",
-   "company": "Corsair Gaming, Inc.",
-   "channel": "equipment_components",
-   "quote": "System was a bright spot too with solid year-over-year growth in AI workstations. This is an a pivot is a natural extension of capabilities we've built over decades in high performance system design, customization, overclocked memory, advanced water cooling and power delivery to support the hottest GPUs.",
-   "metric": "roughly $22 billion desktop AI PC market",
-   "direction": "accelerating",
-   "headline": "Corsair Gaming cites AI workstation demand as a growth driver for high-performance systems targeting the $22 billion desktop AI PC market.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "CSCO",
@@ -313,16 +243,6 @@
    "metric": null,
    "direction": "accelerating",
    "headline": "Digi International cites AI-driven data center buildout as a factor affecting its sales pipeline and deal velocity.",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "DIOD",
-   "company": "Diodes, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI infrastructure build out is increasing semiconductor content per server, creating opportunities across connectivity, signal integrity, interface, power management, sensing, and protection devices.",
-   "metric": "estimated total content opportunity is approximately $267 million, representing a meaningful incremental increase compared to AI server platform of $109 million",
-   "direction": "accelerating",
-   "headline": "Diodes cites AI infrastructure buildout as driver of increased semiconductor content and revenue across multiple server and data-center applications.",
    "event_date": "2026-08-05"
   },
   {
@@ -383,16 +303,6 @@
    "metric": "double-digit revenue growth year-to-date",
    "direction": "accelerating",
    "headline": "ESCO Technologies cites data-center-driven power and grid infrastructure expansion as a driver of Doble utility solutions revenue and order growth.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "EVRG",
-   "company": "Evergy, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "We recorded higher revenues this year from the March 2026 start of operations of a large data center and from Panasonic's ramp of operations. Combined, these two customers had an approximate $0.04 benefit to EPS compared to the prior-year quarters.",
-   "metric": "$0.04 benefit to EPS from data center and Panasonic operations; 3 gigawatts of secured ESAs",
-   "direction": "accelerating",
-   "headline": "Evergy cites data center customer operations and ramp as driver of Q2 2026 earnings, with 3 gigawatts of signed ESAs and 7-8% annual retail load growth through 2030.",
    "event_date": "2026-08-06"
   },
   {
@@ -536,46 +446,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "MCHP",
-   "company": "Microchip Technology, Inc.",
-   "channel": "equipment_components",
-   "quote": "I think a lot of that is driven by what's happening in AI and that's squeezing out some of the capacity.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Microchip Technology cites AI infrastructure demand as driver of foundry and assembly/test capacity constraints.",
-   "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "MDU",
-   "company": "MDU Resources Group, Inc.",
-   "channel": "power_energy",
-   "quote": "We now have over 1 gigawatt of data center load under signed ESAs with approximately 240 megawatts currently online, with additional volumes expected over the next few years as additional buildings are constructed.",
-   "metric": "1 gigawatt of data center load under signed ESAs; 240 megawatts currently online",
-   "direction": "accelerating",
-   "headline": "MDU Resources cites data center infrastructure demand as driver of electric utility load growth, with 1 gigawatt contracted and 240 megawatts currently serving AI facilities.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "MTSI",
-   "company": "MACOM Technology Solutions Holdings, Inc.",
-   "channel": "equipment_components",
-   "quote": "Our data center business is growing due to increased demand for high speed connectivity, using our 800G, 1.6T PAM-4 products ... hyperscalers are moving from passive copper to fiber connectivity and scale-up applications. This trend represents a large SAM expansion opportunity for MACOM",
-   "metric": "data center revenue $137.6 million, up 40% sequentially; book-to-bill 1.6 to 1; expected 50% year-over-year data center growth in fiscal 2027",
-   "direction": "accelerating",
-   "headline": "MACOM cites hyperscaler demand for high-speed optical connectivity (800G, 1.6T) driving data center equipment sales and expansion.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "NFG",
-   "company": "National Fuel Gas Co.",
-   "channel": "power_energy",
-   "quote": "This includes substantial demand for capacity to support both data center and power generation facilities.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "National Fuel Gas cites data-center and power-generation demand driving pipeline capacity expansion on its Line N system.",
-   "event_date": "2026-07-30"
-  },
-  {
    "ticker": "NRG",
    "company": "NRG Energy, Inc.",
    "channel": "hyperscaler_platform",
@@ -586,16 +456,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "NSIT",
-   "company": "Insight Enterprises, Inc.",
-   "channel": "equipment_components",
-   "quote": "The first is the growth in infrastructure and AI infrastructure. We had a very strong quarter in infrastructure, especially in service, growth in servers was through the roof, but also in storage and networking ... we see that as a continuing tailwind.",
-   "metric": "server growth was through the roof; infrastructure business showed very strong quarters",
-   "direction": "accelerating",
-   "headline": "Insight Enterprises cites strong AI infrastructure demand (servers, storage, networking) as a key growth driver and continuing tailwind for its hardware business.",
-   "event_date": "2026-08-11"
-  },
-  {
    "ticker": "NVDA",
    "company": "NVIDIA Corp.",
    "channel": "hyperscaler_platform",
@@ -604,16 +464,6 @@
    "direction": "accelerating",
    "headline": "NVIDIA cites AI-infrastructure demand as driver of its own compute platform deployment, citing 2 gigawatts of capacity standing up in Australia by 2027 valued at $80 billion.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "ORA",
-   "company": "Ormat Technologies, Inc.",
-   "channel": "power_energy",
-   "quote": "the demand for the next 25 years with 40% growth, 1.3% growth annually, a lot of it coming to datacenter ... the world is moving to electrification and that is creating the additional demand.",
-   "metric": "40% growth expected over 25 years; datacenter demand driving 28% of growth in next five years",
-   "direction": "accelerating",
-   "headline": "Ormat Technologies cites AI data-center and electrification demand as drivers of electricity market growth and company growth opportunities.",
-   "event_date": "2026-09-08"
   },
   {
    "ticker": "ORCL",
@@ -644,26 +494,6 @@
    "direction": "accelerating",
    "headline": "Penske's Australian power systems business cites AI data-center backup power demand as driver of $1B revenue target by 2030.",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "PDFS",
-   "company": "PDF Solutions, Inc.",
-   "channel": "equipment_components",
-   "quote": "The investment in semiconductors continues to be driven by the unprecedented buildout of AI data centers ... it is clear to me that we are in the very early stages of a AI transformation of semiconductor manufacturing and engineering.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "PDF Solutions cites AI data-center buildout as driver of semiconductor investment and demand for its manufacturing and engineering solutions.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "PLUS",
-   "company": "ePlus, Inc.",
-   "channel": "equipment_components",
-   "quote": "Outside AI opportunities, particularly related to AI infrastructure are surfacing regularly and we have booked some large AI-linked modern network infrastructure and data center wins across multiple industries ... AI-related demand for infrastructure is robust with a strong pipeline.",
-   "metric": "open orders up over $650 million year-over-year",
-   "direction": "accelerating",
-   "headline": "ePlus booked large AI-infrastructure wins in networking and data center with robust pipeline and strong open order growth.",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "POWI",
@@ -736,16 +566,6 @@
    "event_date": "2026-07-27"
   },
   {
-   "ticker": "SCSC",
-   "company": "ScanSource, Inc.",
-   "channel": "data_center_construction",
-   "quote": "MicroAge's technologies. Many of them are new to ScanSource, expand our TAM in high growth technologies like cloud, cybersecurity, data center, and AI ... next-generation AI data center implementation, and AI solutions development.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "ScanSource cites AI data center implementation as a capability being added through MicroAge acquisition to serve channel partners.",
-   "event_date": "2026-08-20"
-  },
-  {
    "ticker": "SHEN",
    "company": "Shenandoah Telecommunications Co. (Virginia)",
    "channel": "hyperscaler_platform",
@@ -784,16 +604,6 @@
    "direction": "accelerating",
    "headline": "Synopsys cites AI-driven demand for advanced chip design and multi-die architectures as a driver of EDA and IP growth.",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "SRE",
-   "company": "Sempra",
-   "channel": "power_energy",
-   "quote": "Texas is continuing to experience unprecedented growth in electricity demand as evidenced by ERCOT's new all-time peak load of 91 gigawatts that was reached last month. Importantly, with forecasts of significant load growth in the future, Oncor is well-positioned to participate in what we believe is a multi-decade investment opportunity focused on modernizing and extending the electric grid.",
-   "metric": "91 gigawatts peak load; 44 gigawatts Batch Zero large-load requests; 27 gigawatts base load; 17 gigawatts studied load",
-   "direction": "accelerating",
-   "headline": "Sempra (via Oncor) cites unprecedented electricity demand growth and multi-decade grid modernization opportunity to support transmission capital investment and earnings growth in Texas.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "TTC",
@@ -864,16 +674,6 @@
    "direction": "accelerating",
    "headline": "Vistra cites strong data-center development activity and active negotiations with large load customers as drivers of growth opportunities.",
    "event_date": "2026-08-07"
-  },
-  {
-   "ticker": "WSC",
-   "company": "WillScot Mobile Mini Holdings Corp.",
-   "channel": "data_center_construction",
-   "quote": "We continue to support critical infrastructure investments, manufacturing projects, power generation facilities, data centers, large-scale retail operations, and special events of all sizes.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "WillScot Mobile Mini cites data-center projects as part of diverse large-project opportunities driving modular activation growth and enterprise account revenue.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "WWD",
@@ -2873,6 +2673,186 @@
    "metric": "Organic sales up 12% in Q3, data center segment high single digits for full year",
    "direction": "accelerating",
    "headline": "Watts Water Technologies cites strong data center demand as driver of Q3 organic sales growth of 12% and record results.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "AKAM",
+   "company": "Akamai Technologies, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "we signed an $11.6 billion commitment over seven years with Anthropic, to support their CPU workloads with our distributed infrastructure and software ... we now anticipate that our CIS revenue will more than double in 2027 to $1.1 billion to $1.3 billion",
+   "metric": "$11.6 billion commitment over seven years; CIS revenue expected to reach $1.1 billion to $1.3 billion in 2027",
+   "direction": "accelerating",
+   "headline": "Akamai cites AI-infrastructure demand from hyperscaler commitments (Anthropic and other AI companies) as a driver of accelerating CIS revenue and overall company growth.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "AOSL",
+   "company": "Alpha & Omega Semiconductor Ltd.",
+   "channel": "equipment_components",
+   "quote": "growing demand for AI infrastructure is creating additional opportunities in adjacent applications, such as server cooling and power supplies ... our expanding participation in high performance AI power applications, particularly differentiated medium voltage MOSFETs",
+   "metric": "AI and server applications accounted for nearly 90% of advanced computing revenue and approximately 20% of total company revenue, compared with just 5.5% a year ago",
+   "direction": "accelerating",
+   "headline": "Alpha & Omega Semiconductor cites AI infrastructure demand driving medium voltage MOSFET sales for server power conversion and cooling applications.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "ASTE",
+   "company": "Astec Industries, Inc.",
+   "channel": "equipment_components",
+   "quote": "Private work like data center construction and industrial mega projects are positive drivers in the private market. These projects consume large quantities of aggregates, concrete, and asphalt. Thus far, we estimate data center and industrial projects to have generated between $75 million to $100 million of orders.",
+   "metric": "$75 million to $100 million of orders from data center and industrial projects",
+   "direction": "accelerating",
+   "headline": "Astec Industries cites data center construction as a driver generating $75\u2013$100 million in orders for its equipment.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "BKH",
+   "company": "Black Hills Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "we are thrilled to have successfully executed definitive agreements to serve Google's planned data center in Wyoming ... The project is planned to begin taking service by late 2027 and reach peak load in 2030.",
+   "metric": "2.7 gigawatts total resources to serve Google data center; 564 megawatts of company-owned generation; $1.8 billion generation investment; $150 million net income in 2030",
+   "direction": "accelerating",
+   "headline": "Black Hills Corp. cites AI data-center demand from Google as driver of generation and transmission investment and 2030 earnings outlook.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CNR",
+   "company": "Core Natural Resources, Inc.",
+   "channel": "power_energy",
+   "quote": "we continue to believe the long-term outlook for U.S. power demand is compelling, supported by the expansion of data centers and broader industrial activity... the epicenter of data center build-out",
+   "metric": "EIA projects commercial electricity demand, which includes data centers, to increase 2.8%",
+   "direction": "accelerating",
+   "headline": "Core Natural Resources cites data center expansion as driver of U.S. thermal coal demand outlook for power generation.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CRK",
+   "company": "Comstock Resources, Inc.",
+   "channel": "power_energy",
+   "quote": "natural gas will be undersupplied by 2029 with the demand growth of LNG going from about 20 Bcf a day now to 35 Bcf a day by 2032, plus the additional 12 Bcf needed to provide turbines \u2013 power for turbines for data centers",
+   "metric": "12 Bcf needed for data center power turbines",
+   "direction": "accelerating",
+   "headline": "Comstock Resources cites data-center power demand as driver of natural gas supply needs and demand growth outlook.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "DIOD",
+   "company": "Diodes, Inc.",
+   "channel": "equipment_components",
+   "quote": "We also continue to strengthen our position in AI data center power infrastructures, seeing increasing demand for our silicon carbide solutions in high power, 800 volt and 400 volt server and AI platform power supplies.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Diodes cites increasing demand for silicon carbide power solutions in AI data center and server power supplies as a driver of industrial segment growth.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "EVRG",
+   "company": "Evergy, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "increased large customer revenues from data center projects currently operating ... Commercial growth reflects increased data center customer usage",
+   "metric": "3.1 gigawatts of peak load expected over time; 2,250 megawatts in 2030; 4.5% weather-normalized retail demand growth in Q3",
+   "direction": "accelerating",
+   "headline": "Evergy cites data-center AI-infrastructure demand as driver of large customer revenue growth, retail load increases, and long-term 7-8% annual retail demand growth through 2030.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "MCHP",
+   "company": "Microchip Technology, Inc.",
+   "channel": "equipment_components",
+   "quote": "Net sales from our data center business unit was over $250 million in the September quarter, and is well on its way to be $1 billion in calendar year 2026... In power, our digital power controllers are winning across AI data center power applications from server power supplies to battery backup units.",
+   "metric": "$250 million in Q2 FY2027; on track to $1 billion in calendar 2026",
+   "direction": "accelerating",
+   "headline": "Microchip Technology cites AI data-center power applications driving digital power controller design wins and $250M+ quarterly data-center revenue.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "MDU",
+   "company": "MDU Resources Group, Inc.",
+   "channel": "power_energy",
+   "quote": "we currently have over one gigawatt of data center load signed under ISAs with approximately 280 megawatts currently online, and additional volumes expected to ramp online over the next few years.",
+   "metric": "over one gigawatt of data center load signed; approximately 280 megawatts currently online",
+   "direction": "accelerating",
+   "headline": "MDU Resources reports over 1 GW of signed data-center load with 280 MW online and growth expected, driving electric utility demand.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "MTSI",
+   "company": "MACOM Technology Solutions Holdings, Inc.",
+   "channel": "equipment_components",
+   "quote": "Our 3.2T chipset solution was designed to help our customers accelerate development of their next-generation optical interconnects for AI infrastructure across thin film lithium niobate, silicon photonics, and EML-based architectures.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "MACOM cites AI infrastructure demand driving optical chipset development and data center revenue growth exceeding prior year rates.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "NSIT",
+   "company": "Insight Enterprises, Inc.",
+   "channel": "equipment_components",
+   "quote": "Infrastructure hardware gross profit increased more than 50%, supported by demand for servers, storage, and networking as clients modernize their technology environments for AI.",
+   "metric": "Infrastructure hardware gross profit increased more than 50%",
+   "direction": "accelerating",
+   "headline": "Insight Enterprises cites AI-driven demand for servers, storage, and networking as driver of 50%+ infrastructure hardware gross profit growth.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "ORA",
+   "company": "Ormat Technologies, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "as we are adding more assets to our Google and other data centers portfolio the average price of the PPA of new BESS facilities is expected to be near",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Ormat cites data-center demand as a driver of energy storage project additions and PPA pricing.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "PLUS",
+   "company": "ePlus, Inc.",
+   "channel": "equipment_components",
+   "quote": "Data Center and cloud net sales grew 39.2% in the quarter. We secured several multimillion dollar wins across data center cloud security and networking, fueled by AI and IT modernization initiatives.",
+   "metric": "Data center and cloud net sales grew 39.2%",
+   "direction": "accelerating",
+   "headline": "ePlus cites AI-fueled data center and cloud infrastructure demand driving 39.2% segment growth in Q2 FY2027.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "SCSC",
+   "company": "ScanSource, Inc.",
+   "channel": "equipment_components",
+   "quote": "In our MicroAge business, for sure. We definitely, as we did our due diligence, we looked at that very carefully. We were wanting to understand how they were performing so well, frankly, in the market with their data center products and services.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "ScanSource cites AI data-center products and services as a driver of MicroAge acquisition attractiveness and market opportunity.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "SEI",
+   "company": "Solaris Energy Infrastructure, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Solaris has successfully delivered power for superintelligence loads for over two years for our power customers... we have supported and can continue to support a wide range of load profiles, including today's challenging superintelligence loads.",
+   "metric": "3.2 gigawatts of long-term power contracts",
+   "direction": "accelerating",
+   "headline": "Solaris Energy Infrastructure cites AI compute demand ('superintelligence loads') as driver of power generation contracts and backlog growth.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "SRE",
+   "company": "Sempra",
+   "channel": "equipment_components",
+   "quote": "Oncor continues to experience remarkably strong demand growth, having recently reached a new peak on its system of 33 gigawatts, a 6% increase over the prior record set last year. This increase underscores the robust economic growth that's occurring in Texas as electric demand continues to exceed expectations.",
+   "metric": "33 gigawatts peak demand, 6% increase year-over-year",
+   "direction": "accelerating",
+   "headline": "Sempra's Oncor subsidiary cites accelerating electric demand growth in Texas, reaching 33 gigawatts peak capacity, to justify 20% increase in transmission and distribution capital plan.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "WSC",
+   "company": "WillScot Mobile Mini Holdings Corp.",
+   "channel": "data_center_construction",
+   "quote": "we've seen consistent growth across large scale data center and power generation projects all over North America",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "WillScot cites consistent growth in large-scale data center projects across North America as part of enterprise account expansion.",
    "event_date": "2026-11-05"
   }
  ]
