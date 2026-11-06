@@ -5426,7 +5426,160 @@
    "quote": "being able to leverage AI as we integrate in this merger is going to make us \u2013 enable us to have a better customer experience coming out of this and also enable us to be more \u2013 have more productivity",
    "metric": null,
    "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "PLMR",
+   "company": "Palomar Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Palomar uses AI agents for policyholder requests, an AI underwriting workbench for property, and AI-driven data enrichment cutting hundreds of hours of manual entry monthly.",
+   "quote": "AI agents now handle some of our most routine policyholder requests providing service instantly with no wait.",
+   "metric": "hundreds of hours a month of manual data entry cut",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "SHO",
+   "company": "Sunstone Hotel Investors, Inc.",
+   "category": "efficiency",
+   "headline": "Sunstone expects hotel operators' AI investments to begin aiding productivity scheduling and cost offsets in 2027.",
+   "quote": "I do think that there is a chance that we start to see the beginnings of some of their AI investment help in probably the early stages of that will be productivity scheduling.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "DVN",
+   "company": "Devon Energy Corp.",
+   "category": "efficiency",
+   "headline": "Devon Energy uses embedded AI tools to identify best practices, optimize subsurface models, and improve drilling/completion efficiency across 34 rigs.",
+   "quote": "we leaned in hard to Devon's embedded AI tools, and really what those have allowed us to do is just capture best practices, identify top performance, and then immediately extrapolate it.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "FNF",
+   "company": "Fidelity National Financial, Inc.",
+   "category": "efficiency",
+   "headline": "FNF deploying AI-driven agents in production workflows to improve speed and productivity across title and settlement process.",
+   "quote": "We're already deploying AI-driven agents into production workflows to improve speed and execution across the title and settlement process. This isn't a pilot. It's operational.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "MTD",
+   "company": "Mettler-Toledo International, Inc.",
+   "category": "product",
+   "headline": "Mettler-Toledo introduced AI-enabled image recognition software for X-ray systems to improve contamination detection and reduce false rejects.",
+   "quote": "We also introduced AI-enabled image recognition software for our X-ray systems, improving contamination detection, while reducing false rejects for customers.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "PPL",
+   "company": "PPL Corp.",
+   "category": "efficiency",
+   "headline": "PPL Corp sees AI as a 'game changer' for utility cost savings but has not yet baked significant AI savings into its plan.",
+   "quote": "we continue to see AI as a game changer for the utility industry, one that will come with significant cost savings.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "BEN",
+   "company": "Franklin Templeton, Inc.",
+   "category": "efficiency",
+   "headline": "Franklin Templeton expanding AI adoption across sales, marketing, operations and investment management to improve productivity and decision-making.",
+   "quote": "we are expanding adoption across sales, marketing, operations and investment management to improve productivity, strengthen decision making, and enhance the client experience.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "UAA",
+   "company": "Under Armour, Inc.",
+   "category": "efficiency",
+   "headline": "Under Armour using AI in supply chain, product merchandising and marketing to speed decisions and reduce repetitive work.",
+   "quote": "Our initial work with AI is focused on supply chain, product merchandising and marketing. Our priority is calendar compression, shorten the time from an athlete insight to a product in the market",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "MRNA",
+   "company": "Moderna, Inc.",
+   "category": "product",
+   "headline": "Moderna uses a proprietary AI-informed algorithm to select neoantigens for its individualized cancer therapy (INT).",
+   "quote": "the algorithm for selection, in fact, the entire front-end process for designing an INT for an individual patient is a part of the drug. Effectively, there is software in it, and that is a proprietary feature",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "ELAN",
+   "company": "Elanco Animal Health, Inc.",
+   "category": "efficiency",
+   "headline": "Elanco launched a proprietary AI-driven regulatory submission tool in R&D to accelerate speed to market and free up resources.",
+   "quote": "we launched a proprietary AI-driven regulatory submission tool in R&D. By utilizing a human-in-the-loop framework, this system accelerates our speed to market and unlocks resource capacity.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "ZD",
+   "company": "Ziff Davis, Inc.",
+   "category": "efficiency",
+   "headline": "Ziff Davis reports 90%+ of pull requests written by AI, driving lower costs and headcount reduction of ~10%",
+   "quote": "more than 90% of pull requests across the product and engineering teams are written by AI. The result is a lower cost per feature delivered and a leaner cost base",
+   "metric": "90% of pull requests written by AI; headcount down 10% by year-end",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "CHTR",
+   "company": "Charter Communications, Inc.",
+   "category": "efficiency",
+   "headline": "Charter uses AI tools to help frontline teams serve customers and reduce unnecessary service transactions.",
+   "quote": "continued technology deployment, where we already use AI, allowing our team members to serve happier customers more effectively, and reducing unnecessary service transactions.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "MMI",
+   "company": "Marcus & Millichap, Inc.",
+   "category": "efficiency",
+   "headline": "Marcus & Millichap plans to implement AI-enabled tools and is standing up a new AI system as part of enterprise technology investment.",
+   "quote": "Enterprise technology development includes standing up a new AI system while also implementing a new ERP system, as well as various upgrades to our business analytics, reporting and security applications.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "FLR",
+   "company": "Fluor Corp.",
+   "category": "efficiency",
+   "headline": "Fluor investing in AI initiatives to strengthen project execution tools, reduce cost and schedule risk for clients.",
+   "quote": "We're investing in AI, in our ERP replacement, and in our Project of the Future initiative to strengthen the tools and systems required to plan and execute projects.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "CXT",
+   "company": "Crane NXT, Co.",
+   "category": "product",
+   "headline": "Crane NXT investing in AI-enabled inspection technologies at Antares Vision combining vision systems with serialization capabilities",
+   "quote": "we continue to invest in innovation at Antares Vision, including new AI-enabled inspection technologies that combine advanced vision systems with our broader serialization and traceability capabilities",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "APD",
+   "company": "Air Products & Chemicals, Inc.",
+   "category": "efficiency",
+   "headline": "Air Products uses AI tools to pursue productivity gains and cost reductions toward multi-year commitments.",
+   "quote": "We'll continue to pursue further productivity gains using tools like AI and taking meaningful productivity actions that keep us on track to deliver our multi-year commitments.",
+   "metric": null,
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "VYX",
+   "company": "NCR Voyix Corp.",
+   "category": "efficiency",
+   "headline": "NCR Voyix uses AI agents to automate store migrations, enabling deployments of 50 stores per week with no one in the room.",
+   "quote": "AI agents automating migrations and getting remote installations\u2026 they're doing 50 a week\u2026 we did a deployment one night with no one in the room.",
+   "metric": "50 stores per week",
+   "event_date": "2026-11-06"
   }
  ],
- "updated": "2026-11-04T20:30:48"
+ "updated": "2026-11-06T19:37:27"
 }
