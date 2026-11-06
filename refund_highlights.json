@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-05T18:00:06.922234",
+ "generated": "2026-11-06T01:41:46.027238",
  "window": [
   "2026-07-15",
-  "2026-11-05"
+  "2026-11-06"
  ],
  "highlights": [
   {
@@ -16,18 +16,6 @@
    "quote_receiving": "We received a refund in Q2 for tariffs, but we are also facing increasing component costs for the year, especially on memory, which leaves our full year guidance unchanged.",
    "quote_customers": "",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "CAH",
-   "company": "Cardinal Health, Inc.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "retain",
-   "amount": "$200 million",
-   "headline": "Cardinal Health recorded $100M net benefit from ~$200M IEEPA tariff refunds, offset by payables to customers for higher prices paid.",
-   "quote_receiving": "we recorded a onetime $100 million net operating earnings benefit from IEEPA tariff refunds in our GMPD segment. This reflects increased clarity and confidence in receiving approximately $200 million in IEEPA tariff refunds",
-   "quote_customers": "offset primarily by payables to customers for the increased prices they paid related to the IEEPA tariffs",
-   "event_date": "2026-08-11"
   },
   {
    "ticker": "CALY",
@@ -114,18 +102,6 @@
    "event_date": "2026-07-16"
   },
   {
-   "ticker": "KMB",
-   "company": "Kimberly-Clark Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$45 million",
-   "headline": "Kimberly-Clark received a $45 million tariff refund in Q2, representing roughly half of North America tariffs paid; no material additional refunds expected.",
-   "quote_receiving": "the tariff refund that we received in the second quarter drove the better than expected and solid operating profit growth and EPS performance in the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "MOG.A",
    "company": "Moog, Inc.",
    "receiving": true,
@@ -162,30 +138,6 @@
    "event_date": "2026-07-31"
   },
   {
-   "ticker": "RL",
-   "company": "Ralph Lauren Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Ralph Lauren excludes tariff refunds from adjusted results; plans to reinvest any proceeds back into the business.",
-   "quote_receiving": "Our guidance continues to exclude the impact of tariff refunds, which we are not planning to include in our adjusted non-GAAP results.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "ROK",
-   "company": "Rockwell Automation, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Rockwell says Q3 results and full-year guide exclude expected IEEPA tariff refunds or claims from Supreme Court decision.",
-   "quote_receiving": "Our third quarter results and full year guide do not include any impact from expected IEEPA refunds or claims resulting from the Supreme Court decision.",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
-  },
-  {
    "ticker": "SCHL",
    "company": "Scholastic Corp.",
    "receiving": true,
@@ -196,18 +148,6 @@
    "quote_receiving": "reduce tariff-related costs versus our initial estimate through targeted mitigation actions and refunds received during the year, as well as the suspension of tariffs earlier than initially assumed.",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "SHOO",
-   "company": "Steven Madden Ltd.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$92.1 million",
-   "headline": "Steven Madden received $92.1M in IEEPA tariff refunds (incl. $3.1M interest) and used the proceeds to pay down debt.",
-   "quote_receiving": "we received $92.1 million in refunds related to the reversal of IEEPA tariffs, which included $3.1 million in interest.",
-   "quote_customers": "",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "SOLV",
@@ -232,30 +172,6 @@
    "quote_receiving": "Of the $41 million in claim we filed, we received $24 million in Q3. Of that amount, $23 million was principal recovery and recorded as a benefit to GAAP gross profit",
    "quote_customers": "",
    "event_date": "2026-07-29"
-  },
-  {
-   "ticker": "STE",
-   "company": "STERIS Plc (Ireland)",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$4 million",
-   "headline": "STERIS received $4M in tariff refunds in Q1; gross tariff costs were $14M, yielding net tariff favorability of $2M year-over-year.",
-   "quote_receiving": "Tariff refunds of $4 million were received in the quarter. So on a year-over-year basis, net tariffs were favorable $2 million.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "TFX",
-   "company": "Teleflex, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Teleflex expects IEEPA tariff refunds but has not recognized any; guidance excludes benefit pending US government confirmation.",
-   "quote_receiving": "We will recognize the tariff refund upon full confirmation from the US government.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "XRAY",
@@ -462,18 +378,6 @@
    "event_date": "2026-09-01"
   },
   {
-   "ticker": "AAP",
-   "company": "Advance Auto Parts, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$26 million",
-   "headline": "Advance Auto Parts received $26M in IEEPA tariff refunds in Q2 2026, contributing 130 bps of gross margin expansion.",
-   "quote_receiving": "Tariff refunds contributed $26 million in gross margin, accounting for 130 basis points of year-over-year change.",
-   "quote_customers": "",
-   "event_date": "2026-08-20"
-  },
-  {
    "ticker": "ANF",
    "company": "Abercrombie & Fitch Co.",
    "receiving": true,
@@ -556,18 +460,6 @@
    "quote_receiving": "What we saw in Q3 was kind of a one-time accounting adjustment for those tariff refunds that we don't expect to continue moving forward, and that gave us about 70 basis points of uplift.",
    "quote_customers": "",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "COTY",
-   "company": "Coty, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$30 million",
-   "headline": "Coty awaiting a potential ~$30M tariff refund it would receive, cited as upside to EBITDA outlook.",
-   "quote_receiving": "we are still waiting for a potential tariff refund, which is about $30 million that comes or comes not depending when it comes, but there's an upside",
-   "quote_customers": "",
-   "event_date": "2026-08-20"
   },
   {
    "ticker": "CRSR",
@@ -678,18 +570,6 @@
    "event_date": "2026-09-02"
   },
   {
-   "ticker": "HAE",
-   "company": "Haemonetics Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$7 million",
-   "headline": "Haemonetics expects to record a $7 million tariff refund in Q2 fiscal 2027, largely offset by higher oil, transport, and material costs.",
-   "quote_receiving": "we will record about $7 million tariff refund in Q2, but I wouldn't read too much into that on a net basis.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "IPAR",
    "company": "Interparfums, Inc.",
    "receiving": true,
@@ -700,18 +580,6 @@
    "quote_receiving": "As of June 30, 2026, the company also received $8.7 million in IEEPA tariff refunds, of which $6.9 million was recognized as a non-recurring reduction in cost of sales in the second quarter.",
    "quote_customers": "",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "ITT",
-   "company": "ITT, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$0.5 million",
-   "headline": "ITT received $0.5M in tariff refunds in Q2 2026; impact deemed immaterial; no additional refund benefit assumed in updated guidance.",
-   "quote_receiving": "the net impacts of the tariff refunds were immaterial to the quarter at just $0.5 million",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "KSS",
@@ -774,30 +642,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "MIDD",
-   "company": "The Middleby Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$5 million",
-   "headline": "Middleby received ~$5M IEEPA tariff refund in Q2 2025; expects similar ~$5M refund in back half of year.",
-   "quote_receiving": "we experienced a total margin headwind of nearly 100 basis points, which is driven by the higher-than-expected inflationary impacts, partially offset by the benefit of a tariff refund of approximately $5 million.",
-   "quote_customers": "",
-   "event_date": "2026-08-11"
-  },
-  {
-   "ticker": "MWA",
-   "company": "Mueller Water Products, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Mueller Water Products received IEEPA tariff refunds in Q3, boosting gross margin and adjusted EBITDA to records.",
-   "quote_receiving": "the International Emergency Economic Powers Act tariff refunds received during the quarter helped offset a portion of those impacts.",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "NVST",
    "company": "Envista Holdings Corp.",
    "receiving": true,
@@ -844,18 +688,6 @@
    "quote_receiving": "Animal Health adjusted EBITDA was $75.4 million, a 25% increase driven by the new MFA business, higher gross profit from improved mix in the legacy business, and one-time tariff recovery in the quarter",
    "quote_customers": "",
    "event_date": "2026-08-27"
-  },
-  {
-   "ticker": "PTON",
-   "company": "Peloton Interactive, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$3 million",
-   "headline": "Peloton received $3M in tariff refunds year-to-date from federal government; expects additional refunds not yet in forecast.",
-   "quote_receiving": "Year-to-date, we've received $3 million of tariff refunds from the federal government. We do anticipate receiving additional refunds",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "PVH",
@@ -940,18 +772,6 @@
    "quote_receiving": "We're pleased to have received a refund of $200 million.",
    "quote_customers": "We are excited to be able to reimburse a total of $47 million to many of our vendors for the discounts they gave us to mitigate the tariff pressures",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "WTS",
-   "company": "Watts Water Technologies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Watts Water not including potential IEEPA tariff refunds in guidance; any refunds received will be treated as non-recurring special items.",
-   "quote_receiving": "we are also not including any potential IEEPA tariff refunds in our outlook and any refunds received in future periods will be treated as non-recurring special items",
-   "quote_customers": "",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "WWW",
@@ -1828,6 +1648,126 @@
    "quote_receiving": "DSO improved from 38 days in quarter two to 35 days, primarily due to higher revenues and the application of credits for tariff refunds.",
    "quote_customers": "",
    "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "AAP",
+   "company": "Advance Auto Parts, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$26 million",
+   "headline": "Advance Auto Parts received ~$26M in IEEPA tariff refunds in Q2; Q3 refunds were immaterial (~$600K); vendor tariff refund work ongoing.",
+   "quote_receiving": "our direct tariffs, we took most of that in Q2. That was about $26 million in Q2.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CAH",
+   "company": "Cardinal Health, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Cardinal Health references an ex-tariff refund adjusted fiscal 2026 EPS baseline of $10.95 when presenting FY2027 EPS growth guidance.",
+   "quote_receiving": "17% to 19% growth off our ex-tariff refund adjusted fiscal 2026 EPS of $10.95 and 14% to 15% growth off our reported fiscal 2026 EPS of $11.26",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "HAE",
+   "company": "Haemonetics Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Haemonetics received tariff refunds in Q2 FY2027, providing ~200 bps gross margin benefit; no pass-through to customers mentioned.",
+   "quote_receiving": "This included a roughly 200-basis point benefit from tariff refunds, partially offset by a 60-basis point foreign exchange headwind.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "MIDD",
+   "company": "The Middleby Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$5 million",
+   "headline": "Middleby received $5 million in EIFA tariff refunds, benefiting Q3 adjusted EBITDA margin.",
+   "quote_receiving": "the current year margin includes a benefit from record sales volume, operating initiatives and pricing due to the realization of the January 2026 price and the $5 million benefit of EIFA tariff refunds.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "MWA",
+   "company": "Mueller Water Products, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Mueller Water Products received tariff refunds in fiscal 2025, contributing $0.09/share benefit; no refunds expected in fiscal 2026 guidance.",
+   "quote_receiving": "full-year earnings per share included a combined $0.09 benefit from tariff refunds and the onetime tax item associated with the i2O business exit.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "RL",
+   "company": "Ralph Lauren Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Ralph Lauren excludes tariff refunds from adjusted results; proceeds to be reinvested in business and purpose/values initiatives.",
+   "quote_receiving": "Our guidance continues to exclude the benefit of tariff refunds, which are not included in our adjusted non-GAAP results.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "ROK",
+   "company": "Rockwell Automation, Inc.",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "refund_customers",
+   "amount": "$85 million (net impact on reported sales)",
+   "headline": "Rockwell received IEEPA tariff refunds from US government and initiated a refund program for eligible customers; net impact reduced sales by ~$85M.",
+   "quote_receiving": "we had a very strong Q4 even before the benefit from tariff refunds received from the US government",
+   "quote_customers": "we initiated a tariff refund program for eligible customers",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "STE",
+   "company": "STERIS Plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$20 million",
+   "headline": "STERIS received ~$20M in tariff refunds in Q2 FY2027, adding 130 bps to gross margin; no material additional refunds expected rest of year.",
+   "quote_receiving": "Margin expansion was driven primarily by tariff refunds of approximately $20 million during the quarter, which added 130 basis points year-over-year.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "TFX",
+   "company": "Teleflex, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$16.5 million",
+   "headline": "Teleflex received $16.5M IEEPA tariff refund in Q3 2026, boosting adjusted gross margin by 290 bps and EPS by $0.31.",
+   "quote_receiving": "our 2026 adjusted gross margin assumption has been updated to include the receipt of IEEPA tariff refunds, which reduced third quarter adjusted cost of sales by $16.5 million.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "WTS",
+   "company": "Watts Water Technologies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$39 million",
+   "headline": "Watts Water received $39 million in tariff refunds in Q3; excluded from adjusted earnings and included in free cash flow.",
+   "quote_receiving": "adjusted earnings excludes the impact of $39 million of tariff refunds received in the quarter",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
   }
  ]
 }
