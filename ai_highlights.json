@@ -5579,7 +5579,25 @@
    "quote": "AI agents automating migrations and getting remote installations\u2026 they're doing 50 a week\u2026 we did a deployment one night with no one in the room.",
    "metric": "50 stores per week",
    "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "AHR",
+   "company": "American Healthcare REIT, Inc.",
+   "category": "efficiency",
+   "headline": "AHR layering AI onto operational and market data to improve asset management and investment decisions.",
+   "quote": "it's layering on AI to those \u2013 to all that data, so that we can better use the data that we have.",
+   "metric": null,
+   "event_date": "2026-11-07"
+  },
+  {
+   "ticker": "ARQT",
+   "company": "Arcutis Biotherapeutics, Inc.",
+   "category": "revenue",
+   "headline": "Arcutis equips field sales team with AI tools to prioritize clinician calls and improve ZORYVE prescription workflows.",
+   "quote": "we've recently equipped our field sales team with an industry-leading AI-enabled set of tools that help them harness all of the information at our disposal to better analyze their business, prioritize which clinicians to call on",
+   "metric": null,
+   "event_date": "2026-11-07"
   }
  ],
- "updated": "2026-11-06T19:37:27"
+ "updated": "2026-11-07T06:45:42"
 }

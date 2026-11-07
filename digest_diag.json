@@ -1,20 +1,20 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-10-25T00:00:00Z",
-  "2026-11-06T23:59:59Z"
+  "2026-10-26T00:00:00Z",
+  "2026-11-07T23:59:59Z"
  ],
  "universe": 1506,
  "raw_events": 0,
- "unique": 240,
+ "unique": 232,
  "transcripts_probe": "200",
- "fallback_events": 240,
+ "fallback_events": 232,
  "targeted": {},
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 187,
- "to_process": 53,
+ "already_scored": 227,
+ "to_process": 5,
  "no_transcript": 0,
- "scored": 53
+ "scored": 5
 }
