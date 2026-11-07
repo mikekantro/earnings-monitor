@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-06T17:31:12.049224",
+ "generated": "2026-11-07T01:00:26.734187",
  "window": [
   "2026-07-15",
-  "2026-11-06"
+  "2026-11-07"
  ],
  "highlights": [
   {
@@ -26,16 +26,6 @@
    "event_date": "2026-08-10"
   },
   {
-   "ticker": "ACMR",
-   "company": "ACM Research, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI is driving one of most significant new technology transitions the semiconductor industry has experienced in many years. As chip complexity and chip size continue to increase, traditional wafer level packaging approaches are reaching practical limit, creating demand for entire new manufacturing technology across advanced packaging.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "ACM Research cites AI-driven demand for advanced packaging as driver of new manufacturing technology and equipment orders.",
-   "event_date": "2026-08-07"
-  },
-  {
    "ticker": "ADI",
    "company": "Analog Devices, Inc.",
    "channel": "equipment_components",
@@ -44,16 +34,6 @@
    "direction": "accelerating",
    "headline": "Analog Devices cites AI infrastructure demand\u2014data center capacity buildout and power requirements\u2014as driver of doubled 2030 SAM and 100%+ data center revenue growth.",
    "event_date": "2026-08-19"
-  },
-  {
-   "ticker": "AEE",
-   "company": "Ameren Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "During the second quarter, Google and Amazon announced projects in our Missouri service territory, representing a combined planned investment of $25 billion. These projects are part of the 2.8 gigawatts of electric service agreements signed earlier this year.",
-   "metric": "2.8 gigawatts of signed ESAs; 60% increase in annual electricity sales by end of 2029 from 2025 levels",
-   "direction": "accelerating",
-   "headline": "Ameren cites Google and Amazon data-center projects (2.8 GW of signed ESAs) as drivers of substantial sales growth and capital investment through 2029.",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "AGX",
@@ -84,16 +64,6 @@
    "direction": "accelerating",
    "headline": "Amentum cites AI data-center and nuclear energy infrastructure buildout at Savannah River as driver of $1B+ revenue opportunity.",
    "event_date": "2026-08-11"
-  },
-  {
-   "ticker": "APD",
-   "company": "Air Products & Chemicals, Inc.",
-   "channel": "equipment_components",
-   "quote": "A significant portion of the capital projected for that backlog will support electronic customers. This includes over $1.5 billion in projects wins for Air Products in the last six months.",
-   "metric": "$1.5 billion in project wins in last six months; $3 billion traditional industrial gas backlog; approximately $1.5 billion per year CapEx into additional industrial gas projects",
-   "direction": "accelerating",
-   "headline": "Air Products cites $1.5 billion in recent semiconductor/electronics equipment project wins driving backlog and capital deployment.",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "ARMK",
@@ -146,16 +116,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "CENX",
-   "company": "Century Aluminum Co.",
-   "channel": "hyperscaler_platform",
-   "quote": "Aluminum demand is being driven by the power and data infrastructure buildout by commercial aerospace, and by defense and rearmament programs",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Century Aluminum cites power and data infrastructure buildout as a driver of aluminum demand in strong US market conditions.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "CIEN",
    "company": "Ciena Corp.",
    "channel": "networking_compute",
@@ -184,16 +144,6 @@
    "direction": "accelerating",
    "headline": "Coherent Corp. cites AI data-center optical networking infrastructure expansion as primary driver of 40% segment revenue growth and accelerating momentum in fiscal 2026.",
    "event_date": "2026-08-12"
-  },
-  {
-   "ticker": "CON",
-   "company": "Concentra Group Holdings Parent, Inc.",
-   "channel": "data_center_construction",
-   "quote": "we are seeing indications of improved activity in the manufacturing and construction sectors and in particular some encouraging activities in markets proximate to data center development.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Concentra cites data-center development proximity as driver of improved manufacturing and construction visit activity.",
-   "event_date": "2026-08-07"
   },
   {
    "ticker": "CSCO",
@@ -246,16 +196,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "DXPE",
-   "company": "DXP Enterprises, Inc.",
-   "channel": "equipment_components",
-   "quote": "Customers in water and wastewater, energy infrastructure, general industry, air compression, data centers, and other technical markets need reliability, responsiveness, and expertise.",
-   "metric": null,
-   "direction": null,
-   "headline": "DXP Enterprises cites data centers as a customer market requiring its rotating equipment and technical solutions.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "DY",
    "company": "Dycom Industries, Inc.",
    "channel": "data_center_construction",
@@ -276,16 +216,6 @@
    "event_date": "2026-09-11"
   },
   {
-   "ticker": "EOG",
-   "company": "EOG Resources, Inc.",
-   "channel": "power_energy",
-   "quote": "There is a certainly a lot of talks about data centers and adding more gas power plants in Texas ... as you talked about the opportunity for additional power demand in data centers as that continues evolve with time.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "EOG Resources cites growing data-center power demand as a strategic opportunity for its Dorado gas asset in South Texas.",
-   "event_date": "2026-09-09"
-  },
-  {
    "ticker": "EQT",
    "company": "EQT Corp.",
    "channel": "power_energy",
@@ -304,16 +234,6 @@
    "direction": "accelerating",
    "headline": "ESCO Technologies cites data-center-driven power and grid infrastructure expansion as a driver of Doble utility solutions revenue and order growth.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "FLR",
-   "company": "Fluor Corp.",
-   "channel": "power_energy",
-   "quote": "demand for electricity generation continues to build, driven by data center growth, industrial expansion and broader electrification. That demand is creating a meaningful set of opportunities in domestic gas fueled power",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Fluor Corp. cites data-center-driven electricity demand as driver of power generation project opportunities and meaningful backlog growth expected in first half 2027.",
-   "event_date": "2026-08-07"
   },
   {
    "ticker": "GFF",
@@ -393,16 +313,6 @@
    "metric": "advanced solutions segment revenue exceeded $100 million for fiscal 2026; expected $150 million to $200 million in FY 2027",
    "direction": "accelerating",
    "headline": "Kulicke & Soffa cites AI-driven data center expansion as driver of thermo-compression and wire bonding equipment demand, with advanced solutions revenue accelerating.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "KOP",
-   "company": "Koppers Holdings, Inc.",
-   "channel": "power_energy",
-   "quote": "Market sentiment remains bullish for the balance of 2026, primarily driven by the continued build out of AI infrastructure, which is contributing to increased electricity demand.",
-   "metric": "Organic demand was up 12% in the second quarter and 10.5% year-to-date",
-   "direction": "accelerating",
-   "headline": "Koppers Holdings cites AI infrastructure buildout driving electricity demand as a key driver of strength in its Utility and Industrial Products business.",
    "event_date": "2026-08-06"
   },
   {
@@ -504,16 +414,6 @@
    "direction": "accelerating",
    "headline": "Power Integrations cites $1B data center SAM opportunity driven by AI infrastructure power demands, with design activity underway for GPU main power path and auxiliary power solutions.",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "PPL",
-   "company": "PPL Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "Signed data center agreements with PPL Electric Utilities increased for the 10th consecutive quarter to about 32 gigawatts, an increase of 3.5 gigawatts from last quarter, with over 1 gigawatt coming from signed electric services agreements, or ESAs. We now have more than 11 gigawatts under ESAs, which carry meaningful financial commitments from the customer.",
-   "metric": "32 gigawatts of signed data center agreements; 11 gigawatts under ESAs; 6.5 gigawatts under construction; 2 gigawatts expected load ramp by 2031",
-   "direction": "accelerating",
-   "headline": "PPL Corp cites accelerating data-center customer agreements and construction driving utility-service revenue and load growth across its regulated territories.",
-   "event_date": "2026-08-07"
   },
   {
    "ticker": "QCOM",
@@ -664,16 +564,6 @@
    "direction": "accelerating",
    "headline": "Viavi Solutions cites growing test infrastructure demand from hyperscalers building optical circuit switches for data centers as a driver of its testing equipment sales.",
    "event_date": "2026-08-17"
-  },
-  {
-   "ticker": "VST",
-   "company": "Vistra Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "Data center development activity remains strong, and we continue to be in active negotiations with large load customers as they seek to meet their power needs, both in the short and long-term planning horizons.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Vistra cites strong data-center development activity and active negotiations with large load customers as drivers of growth opportunities.",
-   "event_date": "2026-08-07"
   },
   {
    "ticker": "WWD",

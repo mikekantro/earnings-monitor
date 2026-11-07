@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-06T17:29:17.810596",
+ "generated": "2026-11-07T01:00:22.776115",
  "window": [
   "2026-07-15",
-  "2026-11-06"
+  "2026-11-07"
  ],
  "highlights": [
   {
@@ -100,18 +100,6 @@
    "quote_receiving": "a $60 million benefit from the IEEPA refunds recorded during the quarter",
    "quote_customers": "",
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "MTD",
-   "company": "Mettler-Toledo International, Inc.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "refund_customers",
-   "amount": "$52 million gross / $28 million to customers",
-   "headline": "Mettler-Toledo received $52M IEEPA tariff refund in Q2 2026; passed $28M back to customers, reducing net sales by 3%.",
-   "quote_receiving": "we had a one-time gross benefit of $52 million from IEEPA tariff refunds in Q2 that benefited cost of sales",
-   "quote_customers": "offset in part by a $28 million related refund to our customers that reduced our reported net sales by 3%",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "SCHL",
@@ -570,18 +558,6 @@
    "event_date": "2026-09-03"
   },
   {
-   "ticker": "PAHC",
-   "company": "Phibro Animal Health Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Phibro Animal Health reported a one-time tariff recovery in Q4 FY2026 that boosted Animal Health adjusted EBITDA 25%.",
-   "quote_receiving": "Animal Health adjusted EBITDA was $75.4 million, a 25% increase driven by the new MFA business, higher gross profit from improved mix in the legacy business, and one-time tariff recovery in the quarter",
-   "quote_customers": "",
-   "event_date": "2026-08-27"
-  },
-  {
    "ticker": "PVH",
    "company": "PVH Corp.",
    "receiving": true,
@@ -628,18 +604,6 @@
    "quote_receiving": "During the second quarter, we received substantially all of our refund relating to the incremental IEEPA tariffs imposed beginning in the spring of FY 2026.",
    "quote_customers": "",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "UVV",
-   "company": "Universal Corp.",
-   "receiving": true,
-   "to_customers": true,
-   "disposition": "undecided",
-   "amount": null,
-   "headline": "Universal Corp. confirms it has begun receiving tariff refunds and is in discussions with customers on how to handle amounts that may flow back to them.",
-   "quote_receiving": "We have. We are working through those now. We have started to see some movement of getting refunds in",
-   "quote_customers": "the affected businesses have been in discussions with customers on how best to manage what could flow back to them. But it is early in the process and it is a work in process.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "WSM",
