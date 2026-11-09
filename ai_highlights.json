@@ -5597,7 +5597,70 @@
    "quote": "we've recently equipped our field sales team with an industry-leading AI-enabled set of tools that help them harness all of the information at our disposal to better analyze their business, prioritize which clinicians to call on",
    "metric": null,
    "event_date": "2026-11-07"
+  },
+  {
+   "ticker": "SGI",
+   "company": "Somnigroup International, Inc.",
+   "category": "revenue",
+   "headline": "Somnigroup optimizing for AI agentic search to drive consumer traffic, calling it a top marketing priority",
+   "quote": "AI has changed some of the searches. And there are some competitive advantages and disadvantages for various companies because of that. And certainly, strategies in marketing need to change and move with the times.",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "RDNT",
+   "company": "RadNet, Inc.",
+   "category": "product",
+   "headline": "RadNet sells AI-powered clinical radiology solutions (DeepHealth) generating $16.2M AI revenue, up 51% YoY, with 28 FDA clearances",
+   "quote": "total procedure volume across our AI and Informatics Solutions reached over $18 million for the quarter, up more than 170% year-over-year",
+   "metric": "AI revenue $16.2M, up 51% YoY; procedure volume up 170% YoY",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "KGS",
+   "company": "Kodiak Gas Services, Inc.",
+   "category": "efficiency",
+   "headline": "Kodiak uses AI to remotely monitor compression units, identify issues early, and improve technician efficiency and safety.",
+   "quote": "We continue to find ways to increase our operating efficiencies through the use of AI technology, allowing us to remotely monitor our units, identify potential issues before they disrupt operations",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "NRG",
+   "company": "NRG Energy, Inc.",
+   "category": "revenue",
+   "headline": "NRG plans to use AI to attract more retail energy customers in Eastern markets where competitive penetration is low.",
+   "quote": "we anticipate using AI to bring more of those customers onto our platform.",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "HOS",
+   "company": "Hornbeck Offshore Services, Inc.",
+   "category": "efficiency",
+   "headline": "Hornbeck Offshore uses AI and autonomy technology to retrofit commercial vessels for defense support workscopes.",
+   "quote": "with the technology that we're developing with several others on autonomy and AI is really moving that forward",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "TGTX",
+   "company": "TG Therapeutics, Inc.",
+   "category": "efficiency",
+   "headline": "TG Therapeutics uses AI-enabled tools to improve field targeting, personalized physician education, and commercial resource deployment.",
+   "quote": "investing in data analytics and AI enabled tools to improve field targeting, personalized physician education, and help us deploy our commercial resources more effectively.",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "ADMA",
+   "company": "ADMA Biologics, Inc.",
+   "category": "efficiency",
+   "headline": "ADMA's proprietary AI platform ADMAlytics uses computational modeling and predictive analytics to accelerate SG-001 drug development.",
+   "quote": "ADMAlytics, our proprietary AI platform has, helped accelerate SG-001 development by using computational modeling, artificial intelligence and predictive analytics to forecast final titer values from limited experimental data.",
+   "metric": null,
+   "event_date": "2026-11-09"
   }
  ],
- "updated": "2026-11-07T06:45:42"
+ "updated": "2026-11-09T22:16:09"
 }
