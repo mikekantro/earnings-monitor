@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-07T01:00:22.776115",
+ "generated": "2026-11-09T20:43:17.202038",
  "window": [
   "2026-07-15",
-  "2026-11-07"
+  "2026-11-09"
  ],
  "highlights": [
   {
@@ -1684,6 +1684,18 @@
    "quote_receiving": "excluding the $0.17 one-time gain from tariff refunds",
    "quote_customers": "",
    "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "UAA",
+   "company": "Under Armour, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$70 million",
+   "headline": "Under Armour expects ~$70M in IEEPA tariff refunds from fiscal 2026 expenses, providing ~150 bps gross margin benefit in fiscal 2027.",
+   "quote_receiving": "This includes roughly 150 basis points of benefit from IEEPA tariff refunds related to costs expense in fiscal 2026.",
+   "quote_customers": "",
+   "event_date": "2026-11-06"
   }
  ]
 }
