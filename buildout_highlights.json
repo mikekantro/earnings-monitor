@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09T20:43:35.075010",
+ "generated": "2026-11-10T03:41:39.262533",
  "window": [
   "2026-07-15",
-  "2026-11-09"
+  "2026-11-10"
  ],
  "highlights": [
   {
@@ -104,16 +104,6 @@
    "direction": "accelerating",
    "headline": "Cogent Communications cites AI training as a significant new use case driving demand for its Wavelength optical transport services.",
    "event_date": "2026-09-08"
-  },
-  {
-   "ticker": "CEG",
-   "company": "Constellation Energy Corp.",
-   "channel": "power_energy",
-   "quote": "Since the last call, we have signed approximately 920 megawatts of long-term nuclear deals that are consistent with our view of long-term value. These contracts have an average duration of 18.5 years and are with investment grade customers.",
-   "metric": "920 megawatts of long-term nuclear deals",
-   "direction": "accelerating",
-   "headline": "Constellation Energy signed ~920 MW of long-term nuclear power deals, driven by data-center and hyperscaler demand for clean, reliable baseload electricity.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "CIEN",
@@ -286,26 +276,6 @@
    "event_date": "2026-09-15"
   },
   {
-   "ticker": "KGS",
-   "company": "Kodiak Gas Services, Inc.",
-   "channel": "power_energy",
-   "quote": "data center power demand is expected to more than double over the next five years ... Behind the meter power solutions are going to have to be a part of the solution to solve our nation's growing power crisis.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Kodiak Gas Services cites accelerating data-center power demand as driver of its power infrastructure business expansion and behind-the-meter power solutions.",
-   "event_date": "2026-08-07"
-  },
-  {
-   "ticker": "KKR",
-   "company": "KKR & Co., Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "if you look at the CapEx from the hyperscalers over the next five years, it's $7.6 trillion forecasted. That'll get financed through public markets, equity markets, but they're going to rely a big part on private IG as a result.",
-   "metric": "$7.6 trillion CapEx forecasted over next five years",
-   "direction": "accelerating",
-   "headline": "KKR cites $7.6 trillion hyperscaler AI infrastructure CapEx over five years as driver of private IG credit financing demand.",
-   "event_date": "2026-09-15"
-  },
-  {
    "ticker": "KLIC",
    "company": "Kulicke & Soffa Industries, Inc.",
    "channel": "equipment_components",
@@ -354,16 +324,6 @@
    "direction": "accelerating",
    "headline": "MARA Holdings cites accelerating AI infrastructure power demand as driver of its digital infrastructure growth strategy and power asset portfolio expansion to 4.8 gigawatts.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "NRG",
-   "company": "NRG Energy, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "We are aligned on the principal commercial terms with a leading global cloud and AI hyperscaler, including their capital commitment to support 1.2 gigawatts of new generation in Texas, with the potential to expand to 2.4 gigawatts.",
-   "metric": "1.2 gigawatts of new generation with potential expansion to 2.4 gigawatts; $500 million of annual adjusted EBITDA; $375 million of annual free cash flow at full operation",
-   "direction": "accelerating",
-   "headline": "NRG Energy is advancing a 1.2-gigawatt combined-cycle power plant backed by a leading global cloud and AI hyperscaler's capital commitment to support its data-center load expansion in Texas.",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "NVDA",
@@ -534,16 +494,6 @@
    "direction": "accelerating",
    "headline": "UGI Corp.'s Midstream segment cites data-center and power-generation energy demand as driver of natural-gas system expansion and long-term growth.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "UNIT",
-   "company": "Uniti Group, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "we talked about the real benefit of bringing together the Windstream wholesale business with the Uniti wholesale business and how that would position us really well to capture the hyperscaler and AI investment opportunity",
-   "metric": "$1.5 billion of anchor build opportunity and $500 million of recurring revenue from AI-driven lease up through 2026-2028",
-   "direction": "accelerating",
-   "headline": "Uniti Group cites hyperscaler AI infrastructure demand as driver of fiber wholesale bookings and network builds, with $1.5B anchor contracts and $500M recurring opportunity expected through 2028.",
-   "event_date": "2026-09-08"
   },
   {
    "ticker": "VECO",
@@ -2744,6 +2694,56 @@
    "direction": "accelerating",
    "headline": "WillScot cites consistent growth in large-scale data center projects across North America as part of enterprise account expansion.",
    "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CEG",
+   "company": "Constellation Energy Corp.",
+   "channel": "power_energy",
+   "quote": "Data economy customers are an important part of that opportunity, but this demand is significantly broader than AI. Customers throughout the industrial and commercial space continue to want clean, firm, reliable energy and long term price visibility ... Our assets are available today for utility in PJM that want price certainty for their customers at an enormous discount to this new build price.",
+   "metric": "more than 100 million megawatt hours of existing clean generation available for premium long term agreements; 91 million megawatt hours in 2032 and roughly 94 million in into the 2040s; by 2032, about 45% of our clean baseload fleet is supported by long term agreements",
+   "direction": "accelerating",
+   "headline": "Constellation Energy cites data-center and industrial AI-infrastructure demand as a driver of long-term nuclear power agreements and contracted megawatts extending into the 2040s.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "FERG",
+   "company": "Ferguson Enterprises, Inc.",
+   "channel": "equipment_components",
+   "quote": "Commercial/Mechanical had another outstanding quarter, growing 17% on top of 24% growth in the prior year. This momentum was driven by our disciplined execution on large capital projects, such as data centers, pharma, biotechnology and general manufacturing.",
+   "metric": "17% growth in Commercial/Mechanical segment",
+   "direction": "accelerating",
+   "headline": "Ferguson Enterprises cites data-center construction as a driver of Commercial/Mechanical segment growth, alongside pharma and biotech projects.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "KGS",
+   "company": "Kodiak Gas Services, Inc.",
+   "channel": "power_energy",
+   "quote": "As discussed by many of the Hyperscalers during this earning season, compute capacity remains in high demand. That demand level continues to be reflected in our commercial discussions... The projects that we are pursuing have the potential to rapidly put to work our new units and deliver attractive returns.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Kodiak Gas Services cites AI-driven data-center compute demand as driver of power infrastructure deployment and project pipeline.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "NRG",
+   "company": "NRG Energy, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "It's designed to bring new, dispatchable generation alongside new demand, anchored by a long-term customer commitment and disciplined investment standards. This is exactly the type of contracted growth we've positioned NRG to pursue",
+   "metric": "1.2 gigawatts",
+   "direction": "accelerating",
+   "headline": "NRG Energy cites AI data-center demand as driver of 1.2-gigawatt Texas generation project with long-term hyperscaler customer commitment.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "UNIT",
+   "company": "Uniti Group, Inc.",
+   "channel": "networking_compute",
+   "quote": "we're increasing our previous guidance related to the generative AI opportunity ... the expected gross CapEx during this build phase is expected to be roughly the same. But the upfront payments from customers, onetime cash revenue and recurring annual cash revenue are expected to be 36%, 33% and 90% higher, respectively, than our previous estimates.",
+   "metric": "upfront payments from customers 36% higher, onetime cash revenue 33% higher, recurring annual cash revenue 90% higher",
+   "direction": "accelerating",
+   "headline": "Uniti Group cites AI-driven generative AI opportunity and hyperscaler/superscaler fiber infrastructure demand as driver of upward guidance revision for customer payments and revenue.",
+   "event_date": "2026-11-09"
   }
  ]
 }

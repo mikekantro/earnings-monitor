@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09T20:43:17.202038",
+ "generated": "2026-11-10T03:40:59.416227",
  "window": [
   "2026-07-15",
-  "2026-11-09"
+  "2026-11-10"
  ],
  "highlights": [
   {
@@ -1696,6 +1696,18 @@
    "quote_receiving": "This includes roughly 150 basis points of benefit from IEEPA tariff refunds related to costs expense in fiscal 2026.",
    "quote_customers": "",
    "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "SGI",
+   "company": "Somnigroup International, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$20 million",
+   "headline": "Somnigroup received ~$20M in tariff refunds in Q3, which reduced cost of goods sold and boosted North America gross margins.",
+   "quote_receiving": "We also received approximately $20 million in tariff refunds, which reduced cost of goods sold.",
+   "quote_customers": "",
+   "event_date": "2026-11-09"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09T20:43:46.391828",
+ "generated": "2026-11-10T03:42:13.016435",
  "window": [
   "2026-07-15",
-  "2026-11-09"
+  "2026-11-10"
  ],
  "highlights": [
   {
@@ -40,18 +40,6 @@
    "quote": "agentic AI enabled our product development teams to complete 12 months of software development in just 6 weeks",
    "metric": "12 months of software development completed in 6 weeks; thousands of hours of conventional engineering work avoided",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "CNH",
-   "company": "CNH Industrial NV",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "CNH advancing precision technology with AI-enabled solutions across its installed base and dealer network",
-   "quote": "We also continue advancing our precision technology capabilities with increasing adoption of connected and AI-enabled solutions across our installed base and dealer network.",
-   "metric": null,
-   "event_date": "2026-08-03"
   },
   {
    "ticker": "CSCO",
@@ -388,18 +376,6 @@
    "quote": "we have projects that sort of fall into both the basic research and the applied research buckets here to see on the basic research side, the art of the possible, on the applied research side, how we can innovate more and how we can create additional efficiencies",
    "metric": null,
    "event_date": "2026-08-07"
-  },
-  {
-   "ticker": "UNIT",
-   "company": "Uniti Group, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Uniti uses AI to monitor inbound customer calls, refine retention scripts, and manage customer base to reduce churn.",
-   "quote": "We've got AI now monitoring every single one of our inbound calls and refining our script and refining our offers to customers based upon those calls",
-   "metric": null,
-   "event_date": "2026-08-11"
   },
   {
    "ticker": "WU",
@@ -906,18 +882,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "KGS",
-   "company": "Kodiak Gas Services, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Kodiak Gas Services uses AI-enabled technical monitoring solutions for its compression fleet, creating new roles in Fleet Reliability and Telemetry.",
-   "quote": "our internal development of our AI enabled technical monitoring solutions that not only require us to hire software engineers, but we also need field technicians to help monitor and assess the information.",
-   "metric": null,
-   "event_date": "2026-08-07"
-  },
-  {
    "ticker": "KSS",
    "company": "Kohl's Corp.",
    "category": "revenue",
@@ -1182,18 +1146,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "RDNT",
-   "company": "RadNet, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "RadNet sells AI radiology solutions (DeepHealth suite) to hospitals and outpatient centers, with $105.5M ARR up 97% YoY",
-   "quote": "Digital Health revenue for the quarter was $32.4 million, up 56.5% year over year... ARR, annual recurring revenue, ended the quarter at $105.5 million, up 97% year over year",
-   "metric": "$105.5M ARR, up 97% YoY; Digital Health revenue $32.4M, up 56.5% YoY",
-   "event_date": "2026-08-10"
-  },
-  {
    "ticker": "RELY",
    "company": "Remitly Global, Inc.",
    "category": "efficiency",
@@ -1204,18 +1156,6 @@
    "quote": "We launched the Global Card, we launched it in barely 60 days with a very small team... that would have taken three, four, five extra time that it took us, and that's purely an impact of AI.",
    "metric": null,
    "event_date": "2026-08-10"
-  },
-  {
-   "ticker": "ROIV",
-   "company": "Roivant Sciences Ltd.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Roivant CEO used ChatGPT to research drug approval timelines ahead of the call.",
-   "quote": "this morning, I was doing what I suspect many people do every morning, which is talking to ChatGPT, in this case, about the timelines here.",
-   "metric": null,
-   "event_date": "2026-08-28"
   },
   {
    "ticker": "RUN",
@@ -5668,6 +5608,42 @@
    "quote": "Our initial work with AI is focused on supply chain, product merchandising and marketing. Our priority is calendar compression, shorten the time from an athlete insight to a product in the market",
    "metric": null,
    "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "HOS",
+   "company": "Hornbeck Offshore Services, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Hornbeck Offshore developing autonomy and AI technology to retrofit commercial vessels for defense support workscopes.",
+   "quote": "with the technology that we're developing with several others on autonomy and AI is really moving that forward",
+   "metric": null,
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "KGS",
+   "company": "Kodiak Gas Services, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Kodiak uses AI to remotely monitor compression units, identify issues early, and improve technician efficiency and safety.",
+   "quote": "We continue to find ways to increase our operating efficiencies through the use of AI technology, allowing us to remotely monitor our units, identify potential issues before they disrupt operations",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "RDNT",
+   "company": "RadNet, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "RadNet's Digital Health segment sells clinical AI and enterprise imaging solutions, generating $16.2M AI revenue in Q3, up 51% YoY.",
+   "quote": "Digital Health revenue for the quarter was $32.9 million, up 33% as compared with last year's third quarter... $16.2 million of AI revenue, up 51% from last year's third quarter",
+   "metric": "$16.2M AI revenue, up 51% YoY; ARR $112.6M up 67% YoY; 18M+ procedures processed",
+   "event_date": "2026-11-09"
   }
  ]
 }
