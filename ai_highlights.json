@@ -5660,7 +5660,133 @@
    "quote": "ADMAlytics, our proprietary AI platform has, helped accelerate SG-001 development by using computational modeling, artificial intelligence and predictive analytics to forecast final titer values from limited experimental data.",
    "metric": null,
    "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "TDG",
+   "company": "TransDigm Group, Inc.",
+   "category": "efficiency",
+   "headline": "TransDigm plans significant increase in AI-driven productivity projects across operating units in all functional areas for FY2027.",
+   "quote": "We also anticipate a significant increase in the number of AI-driven projects in our businesses, with targeted projects across our operating units in all functional areas.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "OXY",
+   "company": "Occidental Petroleum Corp.",
+   "category": "efficiency",
+   "headline": "OXY uses AI surveillance and autonomous control on ~9,000 wells, delivering up to 7% production uplift and 22% fewer failures.",
+   "quote": "approximately 9,000 or 68% of our artificial lift wells are under AI surveillance with predictive intelligence, supporting up to 7% annual production uplift and reducing failure frequency by 22%",
+   "metric": "7% annual production uplift; 22% reduction in failure frequency; ~50% of surveilled wells operating autonomously",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "CWST",
+   "company": "Casella Waste Systems, Inc.",
+   "category": "efficiency",
+   "headline": "Casella uses AI-enabled tracking for non-standard service events and Lytx in-cab AI for fleet safety coaching",
+   "quote": "By replacing manual tracking with real-time AI-enabled automatic tracking, we ensure full cost recovery for non-standard events, not only protecting our margins, but also driving high margin ancillary revenue",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "MARA",
+   "company": "MARA Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "MARA's Vertebrai platform cut wind farm curtailment from 46% to 22% by using onsite computing to absorb unused power.",
+   "quote": "Vertebrai helped our Texas wind farm cut curtailment by more than half. Without Vertebrai, an estimated 46% of potential wind generation would have been curtailed.",
+   "metric": "Curtailment reduced from 46% to 22%",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "LIF",
+   "company": "Life360, Inc.",
+   "category": "revenue",
+   "headline": "Life360's AI monetization engine drives shift to higher price tiers and web-based billing, lifting revenue and margins.",
+   "quote": "Our AI monetization engine, powered by Life360's family intelligence, is doing more for us all the time. Where it started optimizing conversion, it's now also driving a shift to both web-based billing and higher price tiers",
+   "metric": "ARPPC up 4% driven by AI-driven optimization shift to higher-priced offerings",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "SBH",
+   "company": "Sally Beauty Holdings, Inc.",
+   "category": "revenue",
+   "headline": "Sally Beauty plans to launch AI-assisted shopping agent for Sally and AI-assisted search for BSG in fiscal 2027.",
+   "quote": "the launch of an AI-assisted shopping agent, and marketplace expansion, including the rollout of store marketplaces to Canada.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "KMPR",
+   "company": "Kemper Corp.",
+   "category": "efficiency",
+   "headline": "Kemper plans small-scale AI 'agentic' distribution tests to improve how customers discover, evaluate, and purchase insurance.",
+   "quote": "we're going to continue to test and learn in small cycles so that we can be sure that at the right time we're positioned to compete in an evolving environment.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "HIMS",
+   "company": "Hims & Hers Health, Inc.",
+   "category": "revenue",
+   "headline": "Hims & Hers AI-native experience drives 4x more customer messages, now available to majority of weight loss subscribers",
+   "quote": "Customers with access to the new experience are sending 4 times as many messages on the platform, helping them stay more connected to their care team",
+   "metric": "4x messages on platform",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "GSHD",
+   "company": "Goosehead Insurance, Inc.",
+   "category": "efficiency",
+   "headline": "Goosehead deploys AI voice assistant 'Lily' and digital channels handling ~1/3 of service workload, reducing cost per policy.",
+   "quote": "Our service function is now reachable through channels that weren't available even a few years ago, places like our web portal, mobile app, and AI voice assistant, Lily.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "QLYS",
+   "company": "Qualys, Inc.",
+   "category": "product",
+   "headline": "Qualys embeds AI agents into its security platform for autonomous vulnerability detection, validation, and patch remediation at customer environments.",
+   "quote": "Agent Val, powered by TruConfirm, has already performed approximately 9 million exploit validations across customer environments, and still 11% of those confirmed exploitable",
+   "metric": "9 million exploit validations; 180 million patches deployed in 12 months with 60% running autonomously; rollback rate <1 in 8,000",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "TTD",
+   "company": "The Trade Desk, Inc.",
+   "category": "product",
+   "headline": "The Trade Desk uses AI internally for operations and product development, and embeds AI in its platform to help clients manage advertising.",
+   "quote": "AI is helping us operate. AI is helping us build product, and AI is in the product to help our clients manage their advertising.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "SKYD",
+   "company": "Skydance Corp.",
+   "category": "efficiency",
+   "headline": "Skydance using AI tools to accelerate streaming platform convergence and drive cost synergies across tech and workflows.",
+   "quote": "we have an ambitious target to converge Paramount+ and HBO Max in roughly a year. This is possible because of the latest tools in artificial intelligence.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "TTWO",
+   "company": "Take-Two Interactive Software, Inc.",
+   "category": "efficiency",
+   "headline": "Take-Two says AI advances make asset creation easier but notes hit creation still requires human creativity",
+   "quote": "some of the most recent technological advances that you've seen have made it easier to create assets. Well, that is consistent with the story of our business.",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "HRB",
+   "company": "H&R Block, Inc.",
+   "category": "revenue",
+   "headline": "H&R Block uses AI to review client tax transcripts for Second Look, lifting new client retention by 600+ bps",
+   "quote": "we use AI to review up to three years of a new client's prior tax transcripts to identify potential missed opportunities or risk",
+   "metric": "600 bps higher retention for new clients who received Second Look",
+   "event_date": "2026-11-10"
   }
  ],
- "updated": "2026-11-09T22:16:09"
+ "updated": "2026-11-10T19:43:09"
 }
