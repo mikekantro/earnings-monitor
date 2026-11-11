@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T01:20:44.565473",
+ "generated": "2026-11-11T17:53:34.737748",
  "window": [
   "2026-07-15",
   "2026-11-11"
@@ -112,18 +112,6 @@
    "quote_receiving": "reduce tariff-related costs versus our initial estimate through targeted mitigation actions and refunds received during the year, as well as the suspension of tariffs earlier than initially assumed.",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "SONO",
-   "company": "Sonos, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$24 million received (of $41 million total claims filed)",
-   "headline": "Sonos received $24M in IEEPA tariff refunds in Q3; $23M recorded as GAAP gross profit benefit, $1M as interest income.",
-   "quote_receiving": "Of the $41 million in claim we filed, we received $24 million in Q3. Of that amount, $23 million was principal recovery and recorded as a benefit to GAAP gross profit",
-   "quote_customers": "",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "HD",
@@ -556,18 +544,6 @@
    "quote_receiving": "we received the tariff refunds we discussed last quarter, which contributed $107 million and approximately 510 basis points benefit to gross margin.",
    "quote_customers": "",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "REZI",
-   "company": "Resideo Technologies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$27 million",
-   "headline": "Resideo received $27M in tariff refunds in Q2 2026, primarily through ADI segment; no material refunds expected for remainder of 2026.",
-   "quote_receiving": "Adjusted EBITDA includes the favorable impact of $27 million of tariff refunds during the quarter, primarily received by ADI.",
-   "quote_customers": "",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "TTC",
@@ -1696,6 +1672,30 @@
    "quote_receiving": "We also received approximately $20 million in tariff refunds, which reduced cost of goods sold.",
    "quote_customers": "",
    "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "REZI",
+   "company": "Resideo Technologies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$6 million",
+   "headline": "Resideo received $6 million in tariff refunds in Q3 2026; net tariff benefit was $4 million after tariffs paid; no Q4 refunds expected.",
+   "quote_receiving": "$6 million of tariff refunds, which were partially offset by unfavorable product sales mix and inflationary input costs.",
+   "quote_customers": "",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "SONO",
+   "company": "Sonos, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$18 million",
+   "headline": "Sonos received $18M in tariff refunds in Q4 against IEEPA duty claims, boosting GAAP gross margin by 270 bps for the full year.",
+   "quote_receiving": "we received the remaining $18 million in tariff refunds against the claims that we filed for prior duties paid under IEEPA",
+   "quote_customers": "",
+   "event_date": "2026-11-10"
   }
  ]
 }

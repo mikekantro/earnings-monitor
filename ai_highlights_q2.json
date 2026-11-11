@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T01:22:15.916569",
+ "generated": "2026-11-11T17:53:45.557064",
  "window": [
   "2026-07-15",
   "2026-11-11"
@@ -304,18 +304,6 @@
    "quote": "we're finding opportunities on deploying AI to get more productive. I'd say there's four or five that we're working on right now that if successful... should have a benefit next year of like $1 million plus annual savings.",
    "metric": "$1M+ annual savings",
    "event_date": "2026-08-10"
-  },
-  {
-   "ticker": "SONO",
-   "company": "Sonos, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Sonos is developing AI-enabled home audio products, positioning its platform as the operating environment for conversational AI in the home.",
-   "quote": "Conversational computing and predictive intelligence are moving into the home and Sonos brings to this moment 20 years of solving the hard problems the home uniquely creates, sound, form, systemness and intelligence.",
-   "metric": null,
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "TGT",
@@ -904,18 +892,6 @@
    "quote": "AI-based improvements to core business processes, such as IVR and script optimization, chatbot enhancement, and proactive text and e-mail engagement, in just five contracts yielded a better customer experience and a 3.5% operating margin improvement for that group.",
    "metric": "3.5% operating margin improvement across 5 contracts",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "MRCY",
-   "company": "Mercury Systems, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Mercury Systems partners with Palantir to use AI software for material planning and factory operations to improve backlog conversion.",
-   "quote": "we recently announced a strategic agreement with Palantir to leverage AI software to enhance material planning and factory operations in an effort to improve backlog conversion",
-   "metric": null,
-   "event_date": "2026-08-18"
   },
   {
    "ticker": "NABL",
@@ -5644,6 +5620,18 @@
    "quote": "some of the most recent technological advances that you've seen have made it easier to create assets. Well, that is consistent with the story of our business.",
    "metric": null,
    "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "SONO",
+   "company": "Sonos, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Sonos embeds AI via 27voice assistant and 27mcp open interface enabling AI agents to control its speaker systems",
+   "quote": "27mcp is an open interface that lets you invite any AI agent, whether that's Claude, ChatGPT, Gemini, or even something you built yourself, to discover and control your Sonos system.",
+   "metric": null,
+   "event_date": "2026-11-10"
   }
  ]
 }
