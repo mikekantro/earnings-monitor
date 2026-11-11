@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-10T17:48:30.891800",
+ "generated": "2026-11-11T01:20:44.565473",
  "window": [
   "2026-07-15",
-  "2026-11-10"
+  "2026-11-11"
  ],
  "highlights": [
   {
@@ -484,18 +484,6 @@
    "quote_receiving": "In Q2, we received approximately $150 million of tariff refunds, of which approximately $100 million benefited our cost of merchandise sold.",
    "quote_customers": "",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "LIF",
-   "company": "Life360, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$3.6 million",
-   "headline": "Life360 received a $3.6M tariff refund in Q2, boosting hardware gross margin and adjusted EBITDA margin by ~3 percentage points.",
-   "quote_receiving": "Hardware gross margin was 43%, up from 17% a year ago, but that increase was largely a one-time item, primarily a $3.6 million tariff refund that we'd expected later in the year.",
-   "quote_customers": "",
-   "event_date": "2026-08-10"
   },
   {
    "ticker": "LULU",

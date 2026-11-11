@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-10T17:48:34.159237",
+ "generated": "2026-11-11T01:22:15.916569",
  "window": [
   "2026-07-15",
-  "2026-11-10"
+  "2026-11-11"
  ],
  "highlights": [
   {
@@ -126,18 +126,6 @@
    "event_date": "2026-07-30"
   },
   {
-   "ticker": "GSHD",
-   "company": "Goosehead Insurance, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Goosehead's AI voice assistant 'Lily' handles ~20% of inbound service calls end-to-end, freeing agents for complex client needs.",
-   "quote": "Lily, our AI voice assistant, now handles approximately 20% of our inbound service calls from start to finish, with performance exceeding 30% during certain periods.",
-   "metric": "~20% of inbound service calls handled end-to-end (exceeding 30% during certain periods)",
-   "event_date": "2026-07-22"
-  },
-  {
    "ticker": "HD",
    "company": "The Home Depot, Inc.",
    "category": "revenue",
@@ -246,18 +234,6 @@
    "event_date": "2026-07-29"
   },
   {
-   "ticker": "OXY",
-   "company": "Occidental Petroleum Corp.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Occidental integrates AI alongside CO2, power, and water technologies to improve operational results and drive cost savings.",
-   "quote": "we seek to integrate advancing technologies and partnerships around our key areas of CO2, power, water and AI to further improve our results",
-   "metric": null,
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "PAYC",
    "company": "Paycom Software, Inc.",
    "category": "product",
@@ -364,18 +340,6 @@
    "quote": "We've done work with and tested a number of products using agentic AI. And that's looking good and we'll expand that as we move forward.",
    "metric": null,
    "event_date": "2026-08-03"
-  },
-  {
-   "ticker": "TTWO",
-   "company": "Take-Two Interactive Software, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Take-Two uses AI/ML tools internally for innovation and efficiency in game development, but does not expect headcount reduction.",
-   "quote": "we have projects that sort of fall into both the basic research and the applied research buckets here to see on the basic research side, the art of the possible, on the applied research side, how we can innovate more and how we can create additional efficiencies",
-   "metric": null,
-   "event_date": "2026-08-07"
   },
   {
    "ticker": "WU",
@@ -762,18 +726,6 @@
    "event_date": "2026-09-02"
   },
   {
-   "ticker": "CWST",
-   "company": "Casella Waste Systems, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Casella deploys Lytx in-cab AI across fleet for real-time driver coaching and is investing in AI-enabled back-office tools",
-   "quote": "We continue to deploy the Lytx in-cab AI technology across our fleet, and it's helping to drive safer behavior through real-time coaching.",
-   "metric": null,
-   "event_date": "2026-08-07"
-  },
-  {
    "ticker": "CXM",
    "company": "Sprinklr, Inc.",
    "category": "product",
@@ -846,30 +798,6 @@
    "event_date": "2026-09-03"
   },
   {
-   "ticker": "HIMS",
-   "company": "Hims & Hers Health, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Hims & Hers AI cuts support team non-clinical tasks by ~50% and answers 80% of Hers weight-loss customer questions",
-   "quote": "AI has reduced non-clinical tasks like order updates and general side effect questions that are handled by our support teams by nearly 50%.",
-   "metric": "AI answers 80% of customer questions; reduces non-clinical support tasks by ~50%; customers send 3x as many messages",
-   "event_date": "2026-08-10"
-  },
-  {
-   "ticker": "HRB",
-   "company": "H&R Block, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "H&R Block's AI tools drove 4.2M client interactions and nearly doubled DIY engagement; Sidekick AI assistant launched across all offices",
-   "quote": "AI Tax Assist for paid DIY filers supported 4.2 million client interactions and drove nearly double the level of engagement we saw a year ago.",
-   "metric": "4.2 million client interactions; ~2x engagement vs. prior year",
-   "event_date": "2026-08-11"
-  },
-  {
    "ticker": "HTZ",
    "company": "Hertz Global Holdings, Inc.",
    "category": "efficiency",
@@ -892,18 +820,6 @@
    "quote": "customers who engage with our AI shopping assistant are showing stronger conversion and higher revenue per visit. We see significant opportunities to expand AI-assisted discovery, gifting and purchase confidence over time.",
    "metric": null,
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "LIF",
-   "company": "Life360, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Life360's AI-powered monetization engine automates first-party data use to deliver targeted messages, driving subscription and ad revenue.",
-   "quote": "our proprietary AI-powered monetization engine, which continues to deliver exceptional performance by automating our use of first party data to deliver the right message to the right member at the right time.",
-   "metric": null,
-   "event_date": "2026-08-10"
   },
   {
    "ticker": "LMAT",
@@ -976,18 +892,6 @@
    "quote": "There is a little bit of investments in technology and AI spend as well.",
    "metric": null,
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "MARA",
-   "company": "MARA Holdings, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "MARA's Vertebr.AI platform manages power allocation in real time, adding compute capacity without increasing electrical footprint.",
-   "quote": "Vertebr.AI is one example. The platform manages power allocation and infrastructure performance in real time. In our mining operation, it has helped us add computing capacity with the same electrical footprint.",
-   "metric": null,
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "MMS",
@@ -1122,18 +1026,6 @@
    "event_date": "2026-08-31"
   },
   {
-   "ticker": "QLYS",
-   "company": "Qualys, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Qualys embeds AI in security products including Agent Val, Agents Insta, and TotalAI 2.0 for vulnerability detection and Shadow AI visibility.",
-   "quote": "we also announced the launch of TotalAI 2.0, which is really an area that is up and coming now. When we talk about security for AI and AI for security",
-   "metric": null,
-   "event_date": "2026-08-11"
-  },
-  {
    "ticker": "QNST",
    "company": "QuinStreet, Inc.",
    "category": "efficiency",
@@ -1264,18 +1156,6 @@
    "quote": "we are expanding these capabilities with AI-enabled business processes and product innovations such as our Spatial Adjust precision irrigation technology.",
    "metric": null,
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "TTD",
-   "company": "The Trade Desk, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Trade Desk embeds AI in Audience Unlimited data platform and Zuma platform upgrade to improve media buying decisioning",
-   "quote": "marketers leverage AI models with their own proprietary data to select data",
-   "metric": "25%+ reduction in cost per unique household and data CPM for Audience Unlimited users",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "URBN",
@@ -5643,6 +5523,126 @@
    "headline": "RadNet's Digital Health segment sells clinical AI and enterprise imaging solutions, generating $16.2M AI revenue in Q3, up 51% YoY.",
    "quote": "Digital Health revenue for the quarter was $32.9 million, up 33% as compared with last year's third quarter... $16.2 million of AI revenue, up 51% from last year's third quarter",
    "metric": "$16.2M AI revenue, up 51% YoY; ARR $112.6M up 67% YoY; 18M+ procedures processed",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "CWST",
+   "company": "Casella Waste Systems, Inc.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "By replacing manual tracking with real-time AI-enabled automatic tracking, we ensure full cost recovery for non-standard events, not only protecting our margins, but also driving high margin ancillary revenue with virtually zero administrative overhead.",
+   "margin_metric": null,
+   "headline": "Casella uses AI-enabled tracking and in-cab AI coaching to protect margins and improve safety across its fleet",
+   "quote": "By replacing manual tracking with real-time AI-enabled automatic tracking, we ensure full cost recovery for non-standard events, not only protecting our margins, but also driving high margin ancillary revenue",
+   "metric": null,
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "GSHD",
+   "company": "Goosehead Insurance, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Goosehead uses AI voice assistant 'Lily' and digital channels to cut service costs while handling nearly a third of service workload digitally.",
+   "quote": "our service function is now reachable through channels that weren't available even a few years ago, places like our web portal, mobile app, and AI voice assistant, Lily.",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "HIMS",
+   "company": "Hims & Hers Health, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Hims & Hers AI-native care experience drives 4x more customer messages and higher engagement across weight loss specialty",
+   "quote": "Customers with access to the new experience are sending 4 times as many messages on the platform, helping them stay more connected to their care team",
+   "metric": "4x messages on platform",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "LIF",
+   "company": "Life360, Inc.",
+   "category": "revenue",
+   "margin_claim": true,
+   "margin_quote": "Our AI monetization engine, powered by Life360's family intelligence, is doing more for us all the time. Where it started optimizing conversion, it's now also driving a shift to both web-based billing and higher price tiers, helping our top and bottom lines.",
+   "margin_metric": null,
+   "headline": "Life360's AI monetization engine drives shift to higher price tiers and web-based billing, lifting top and bottom lines.",
+   "quote": "Our AI monetization engine, powered by Life360's family intelligence, is doing more for us all the time. Where it started optimizing conversion, it's now also driving a shift to both web-based billing and higher price tiers, helping our top and bottom lines.",
+   "metric": "4% ARPPC growth driven by AI-driven optimization shifting members to higher priced offerings",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "MARA",
+   "company": "MARA Holdings, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "MARA's Vertebrai platform cut wind farm curtailment from 46% to 22% by using onsite computing to absorb unused power.",
+   "quote": "Vertebrai helped our Texas wind farm cut curtailment by more than half. Without Vertebrai, an estimated 46% of potential wind generation would have been curtailed... Vertebrai reduced that figure to 22%",
+   "metric": "curtailment reduced from 46% to 22%",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "OXY",
+   "company": "Occidental Petroleum Corp.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "OXY uses AI surveillance and autonomous control on 9,000 wells, supporting 7% production uplift and 22% fewer failures",
+   "quote": "approximately 9,000 or 68% of our artificial lift wells are under AI surveillance, with predictive intelligence, supporting up to 7% annual production uplift and reducing failure frequency by 22% compared to 2023",
+   "metric": "7% annual production uplift; 22% reduction in failure frequency; ~50% of surveilled wells operating autonomously (~450,000 barrels/day)",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "QLYS",
+   "company": "Qualys, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Qualys embeds agentic AI in its security platform for autonomous vulnerability detection, validation, and patch remediation at scale.",
+   "quote": "Agent Val, powered by TruConfirm, has already performed approximately 9 million exploit validations across customer environments, and still 11% of those confirmed exploitable eliminating 89% of that noise",
+   "metric": "9 million exploit validations; 180 million patches deployed in 12 months; 60% running autonomously; patch deployments up 47%",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "SKYD",
+   "company": "Skydance Corp.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Skydance using AI tools to accelerate streaming platform convergence and drive $6B synergy program across tech and workflows.",
+   "quote": "we have an ambitious target to converge Paramount+ and HBO Max in roughly a year. This is possible because of the latest tools in artificial intelligence.",
+   "metric": "$1.4 billion in technology savings targeted, partly through AI coding tools",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "TTD",
+   "company": "The Trade Desk, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "The Trade Desk uses AI internally to accelerate product development, operations, and client advertising management.",
+   "quote": "AI is helping us operate. AI is helping us build product, and AI is in the product to help our clients manage their advertising.",
+   "metric": null,
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "TTWO",
+   "company": "Take-Two Interactive Software, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Take-Two notes AI-assisted tools make asset creation easier for game development, while flagging AI piracy risks.",
+   "quote": "some of the most recent technological advances that you've seen have made it easier to create assets. Well, that is consistent with the story of our business.",
+   "metric": null,
    "event_date": "2026-11-09"
   }
  ]

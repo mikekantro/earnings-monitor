@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-10T17:48:32.550738",
+ "generated": "2026-11-11T01:21:24.109023",
  "window": [
   "2026-07-15",
-  "2026-11-10"
+  "2026-11-11"
  ],
  "highlights": [
   {
@@ -14,16 +14,6 @@
    "direction": "accelerating",
    "headline": "Agilent Technologies cites AI infrastructure capital investment build-out in China as driver of semiconductor and spectroscopy equipment demand.",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "AAON",
-   "company": "AAON, Inc.",
-   "channel": "data_center_construction",
-   "quote": "The long-term market opportunity remains compelling, supported by continued investment in data center infrastructure and a differentiated solutions we provide to the market.",
-   "metric": "BASX-branded sales increased 216% year-over-year in the quarter",
-   "direction": "accelerating",
-   "headline": "AAON cites data-center infrastructure investment as driver of BASX brand sales growth, which increased 216% year-over-year in Q2 2026.",
-   "event_date": "2026-08-10"
   },
   {
    "ticker": "ADI",
@@ -316,16 +306,6 @@
    "event_date": "2026-09-10"
   },
   {
-   "ticker": "MARA",
-   "company": "MARA Holdings, Inc.",
-   "channel": "power_energy",
-   "quote": "AI infrastructure investment is accelerating while the supply of power-ready sites is not keeping up. Industry estimates suggest that the four largest hyperscalers alone could invest approximately $725 billion in AI infrastructure during 2026, and that annual capital spending could exceed $1 trillion by 2027. The power requirement is rising just as quickly. US data center electricity demand is expected to grow from about 31 gigawatts in 2025 to 41 gigawatts in 2026 and 66 gigawatts in 2027. ... That imbalance is increasing the value of infrastructure that is already energized or can be delivered with greater certainty. Our strategy is designed for that environment, own scarce powered assets and create as much long-term value from them as possible.",
-   "metric": "US data center electricity demand expected to grow from 31 GW (2025) to 41 GW (2026) to 66 GW (2027); 4.8 gigawatts total power portfolio capacity upon completion",
-   "direction": "accelerating",
-   "headline": "MARA Holdings cites accelerating AI infrastructure power demand as driver of its digital infrastructure growth strategy and power asset portfolio expansion to 4.8 gigawatts.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "NVDA",
    "company": "NVIDIA Corp.",
    "channel": "hyperscaler_platform",
@@ -414,16 +394,6 @@
    "direction": "accelerating",
    "headline": "RXO cites data-center logistics as a growing new vertical and tailwind for its brokerage business.",
    "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "SANM",
-   "company": "Sanmina Corp.",
-   "channel": "equipment_components",
-   "quote": "We're focused on accelerated compute, general purpose compute, storage and high performance networks around IP switching and routing and optical systems. Again, we continue to see strong demand in this segment.",
-   "metric": "Communication networks, cloud and AI infrastructure was 62% of our revenue or $2.148 billion. That's up 173.2% year-over-year.",
-   "direction": "accelerating",
-   "headline": "Sanmina cites strong AI infrastructure demand driving accelerated compute, general purpose compute, storage and networking revenue growth up 173% year-over-year.",
-   "event_date": "2026-07-27"
   },
   {
    "ticker": "SHEN",
@@ -2743,6 +2713,46 @@
    "metric": "upfront payments from customers 36% higher, onetime cash revenue 33% higher, recurring annual cash revenue 90% higher",
    "direction": "accelerating",
    "headline": "Uniti Group cites AI-driven generative AI opportunity and hyperscaler/superscaler fiber infrastructure demand as driver of upward guidance revision for customer payments and revenue.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "AAON",
+   "company": "AAON, Inc.",
+   "channel": "cooling_thermal",
+   "quote": "compute density is increasing, power availability remains constrained, efficiency matters more, and thermal management becomes increasingly more important as these systems become more power dense. That plays directly to where BASX is differentiated.",
+   "metric": "$1.4 billion of BASX-branded backlog",
+   "direction": "accelerating",
+   "headline": "AAON cites AI-driven data-center thermal management demand (compute density, power density) as driver of BASX segment backlog and revenue growth.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "CWEN",
+   "company": "Clearway Energy, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Clearway's first co-located digital infrastructure projects continued to make progress across markets with our Wilcox Energy Complex in Wyoming advancing in route to bring first generating capacity online in 2029 and completing its first 3.4 gigawatts of generating resources by year end 2030 ... signed an LOI with a top tier hyperscaler.",
+   "metric": "3.4 gigawatts of generating resources by year end 2030; first major complex targeting completion in time to add to our 2031 CAFD per share goals",
+   "direction": "accelerating",
+   "headline": "Clearway Energy cites AI-driven data-center demand as driver of digital infrastructure complex investments and CAFD growth through 2031.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "MARA",
+   "company": "MARA Holdings, Inc.",
+   "channel": "data_center_construction",
+   "quote": "The market is becoming more selective about how AI infrastructure is financed and delivered. Tenants, lenders and investors want more than a position in an interconnection queue, they want near-term power, a suitable site, the right development partner, credit-worthy tenants, and a credible path to completion. Those requirements go directly to MARA's strength",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "MARA Holdings cites strong AI-infrastructure tenant demand for its power-ready data-center sites as a key driver of its development pipeline and outlook.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "SANM",
+   "company": "Sanmina Corp.",
+   "channel": "equipment_components",
+   "quote": "We've won some additional programs ... By combining ZT Systems' large scale systems integration capabilities with Sanmina's extensive subassembly expertise, we can deliver a full suite of offerings that includes our components, products and services.",
+   "metric": "cloud and AI systems revenue to be in the range of $7.5 billion to $9.0 billion",
+   "direction": "accelerating",
+   "headline": "Sanmina cites AI infrastructure demand driving cloud and AI systems component and platform revenue growth to $7.5-$9.0B in fiscal 2027.",
    "event_date": "2026-11-09"
   }
  ]
