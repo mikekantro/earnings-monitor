@@ -20850,6 +20850,21 @@
       "ticker": "SONO",
       "name": "Sonos, Inc.",
       "date": "2026-11-11"
+    },
+    {
+      "new_orders": 60,
+      "output": 55,
+      "employment": 45,
+      "prices": 48,
+      "supply_chains": 50,
+      "demand_breadth": 58,
+      "composite": 55,
+      "sector": "Healthcare",
+      "confidence": 2,
+      "key_signal": "Improving Q4 booking trends across Azenta's portfolio, particularly in Gene Synthesis driven by AI-enabled drug discovery, signal an early-cycle recovery in life science capital spending entering FY2027 after a year of biotech CapEx austerity.",
+      "ticker": "AZTA",
+      "name": "Azenta, Inc.",
+      "date": "2026-11-11"
     }
   ]
 }
