@@ -5786,7 +5786,25 @@
    "quote": "we use AI to review up to three years of a new client's prior tax transcripts to identify potential missed opportunities or risk",
    "metric": "600 bps higher retention for new clients who received Second Look",
    "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "REZI",
+   "company": "Resideo Technologies, Inc.",
+   "category": "product",
+   "headline": "Resideo adds AI-powered intelligence layer to Pro-IQ services to proactively predict HVAC problems for professionals.",
+   "quote": "Today's announcement of the addition of our AI-powered intelligence layer within Pro-IQ services is designed to proactively predict HVAC problems",
+   "metric": null,
+   "event_date": "2026-11-11"
+  },
+  {
+   "ticker": "SONO",
+   "company": "Sonos, Inc.",
+   "category": "product",
+   "headline": "Sonos embeds AI into its audio platform via 27voice assistant and 27mcp open interface for AI agents to control Sonos systems.",
+   "quote": "27mcp is an open interface that lets you invite any AI agent, whether that's Claude, ChatGPT, Gemini or even something you built yourself to discover and control your Sonos system.",
+   "metric": null,
+   "event_date": "2026-11-11"
   }
  ],
- "updated": "2026-11-10T19:43:09"
+ "updated": "2026-11-11T07:23:34"
 }

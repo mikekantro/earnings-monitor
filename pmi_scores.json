@@ -20790,6 +20790,66 @@
       "ticker": "HRB",
       "name": "H&R Block, Inc.",
       "date": "2026-11-10"
+    },
+    {
+      "new_orders": 58,
+      "output": 62,
+      "employment": 48,
+      "prices": 54,
+      "supply_chains": 55,
+      "demand_breadth": 57,
+      "composite": 57,
+      "sector": "Industrials",
+      "confidence": 2,
+      "key_signal": "Resideo's core revenue grew 6% YoY despite a soft housing environment, with non-discretionary product demand and electrical distribution record volumes partially offsetting security channel weakness tied to low existing-home resale activity \u2014 a bifurcated macro signal for housing-adjacent industrials.",
+      "ticker": "REZI",
+      "name": "Resideo Technologies, Inc.",
+      "date": "2026-11-11"
+    },
+    {
+      "new_orders": 88,
+      "output": 80,
+      "employment": 60,
+      "prices": 75,
+      "supply_chains": 65,
+      "demand_breadth": 55,
+      "composite": 77,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Record Q1 bookings of $370M (+48% YoY) with a 1.46 book-to-bill and $2.1B total backlog signal that U.S. defense procurement acceleration is converting into firm orders well ahead of expectations, providing exceptional forward revenue visibility.",
+      "ticker": "MRCY",
+      "name": "Mercury Systems, Inc.",
+      "date": "2026-11-11"
+    },
+    {
+      "new_orders": 54,
+      "output": 52,
+      "employment": 48,
+      "prices": 44,
+      "supply_chains": 42,
+      "demand_breadth": 45,
+      "composite": 49,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Traffic growth of 2.4% driven by new customers confirms accelerating consumer trade-down to deep-discount grocery formats amid persistent inflation pressure, but margin compression from freight and supply chain costs signals ongoing cost headwinds for food retail.",
+      "ticker": "GO",
+      "name": "Grocery Outlet Holding Corp.",
+      "date": "2026-11-11"
+    },
+    {
+      "new_orders": 58,
+      "output": 63,
+      "employment": 50,
+      "prices": 35,
+      "supply_chains": 38,
+      "demand_breadth": 62,
+      "composite": 53,
+      "sector": "Consumer Discretionary",
+      "confidence": 2,
+      "key_signal": "Memory/component cost inflation driven by AI infrastructure buildout is creating a ~1,200bps gross margin headwind in Q1 FY2027, illustrating how AI-driven commodity inflation is reaching deep into consumer electronics supply chains even as Sonos returns to revenue growth.",
+      "ticker": "SONO",
+      "name": "Sonos, Inc.",
+      "date": "2026-11-11"
     }
   ]
 }
