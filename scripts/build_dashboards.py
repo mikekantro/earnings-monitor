@@ -81,7 +81,10 @@ q1_all = load(f"{ROOT}/pmi_scores_q2_2026.json")["scores"]  # prev season (Q3 fl
 q1arch_all = load(f"{ROOT}/pmi_scores_q1_2026.json")["scores"]  # two seasons back
 q1arch = {r["ticker"]: r for r in q1arch_all}
 q1s = {r["ticker"]: r for r in q1_all}
-raw = load(f"{ROOT}/pmi_scores.json")["scores"]
+_livefile = load(f"{ROOT}/pmi_scores.json")
+raw = _livefile["scores"]
+SEASON_LIVE = (_livefile.get("season") or "Q3 2026").split()[0]   # e.g. "Q3"
+SEASON_PREV = (load(f"{ROOT}/pmi_scores_q2_2026.json").get("season") or "Q2 2026").split()[0]
 # Season-rollover guard (Oct 2026): when the live file has reset for a new
 # quarter, the displayed season comes from the archived file until the full
 # Q3 rollover design ships. The live file's early-season records are ignored
@@ -640,6 +643,7 @@ for t in sorted(uni_all):
     if _bx and _inq3(_bx): e["bo"] = {"ch": _bx["channel"], "q": _bx["quote"], "m": _bx.get("metric") or ""}
     C[t] = {k: v for k, v in e.items() if v not in (None,"",0) or k in ("x",)}
 DBP = {"c": C, "m": {"n": len(C), "idx": SC["comp2"], "date": today,
+                     "sL": SEASON_LIVE, "sP": SEASON_PREV,
                      "ed": fmt(d_per), "ep": f"{p_per:.3f}"}}
 a = s.index("const DB="); bnd = s.index(";\n", a)
 s = s[:a] + "const DB=" + json.dumps(DBP, separators=(",",":")) + s[bnd:]
