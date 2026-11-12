@@ -20865,6 +20865,21 @@
       "ticker": "AZTA",
       "name": "Azenta, Inc.",
       "date": "2026-11-11"
+    },
+    {
+      "new_orders": 72,
+      "output": 75,
+      "employment": 55,
+      "prices": 42,
+      "supply_chains": 38,
+      "demand_breadth": 62,
+      "composite": 63,
+      "sector": "Technology",
+      "confidence": 2,
+      "key_signal": "AI data center buildout is creating second-order component allocation constraints and gross margin compression for non-AI IoT hardware companies, even as underlying demand for managed connectivity remains robust with ARR on track to hit 5-year targets a full year early.",
+      "ticker": "DGII",
+      "name": "Digi International, Inc.",
+      "date": "2026-11-12"
     }
   ]
 }

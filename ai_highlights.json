@@ -5804,7 +5804,16 @@
    "quote": "27mcp is an open interface that lets you invite any AI agent, whether that's Claude, ChatGPT, Gemini or even something you built yourself to discover and control your Sonos system.",
    "metric": null,
    "event_date": "2026-11-11"
+  },
+  {
+   "ticker": "DGII",
+   "company": "Digi International, Inc.",
+   "category": "product",
+   "headline": "Digi International adds AI as a fifth pillar of its IoT value proposition, leveraging AI at edge and cloud to improve customer solutions.",
+   "quote": "with the advent of AI, we've got a fifth pillar which is really leveraging AI both at the edge and in the cloud to make our systems even more valuable",
+   "metric": null,
+   "event_date": "2026-11-12"
   }
  ],
- "updated": "2026-11-11T19:25:16"
+ "updated": "2026-11-12T07:51:36"
 }
