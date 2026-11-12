@@ -101,7 +101,10 @@ def main():
     hits = []
     if args.resume:
         if os.path.exists(done_path):
-            done = set(open(done_path).read().split())
+            done = {}
+            for _ln in open(done_path).read().splitlines():
+                _p = _ln.split()
+                if _p: done[_p[0]] = _p[1] if len(_p) > 1 else ""
         if os.path.exists(args.out):
             try:
                 hits = json.load(open(args.out)).get("highlights", [])
@@ -112,7 +115,8 @@ def main():
         for h in hits:
             t9 = h.get("ticker"); d9 = h.get("event_date") or ""
             if t9 and d9 > latest.get(t9, ""): latest[t9] = d9
-        stale = {t for t in done if latest.get(t, "") and latest[t] < SEASON_START}
+        stale = {t for t, _dd in done.items()
+                 if not (_dd >= SEASON_START or latest.get(t, "") >= SEASON_START)}
         before = len(tickers)
         tickers = [t for t in tickers if t not in done or t in stale]
         if stale:
@@ -145,7 +149,7 @@ def main():
             else:
                 skipped += 1
                 if args.debug: print(f"[{i}/{len(tickers)}] {t:6s} —")
-            done_f.write(t + "\n"); done_f.flush()
+            done_f.write(t + " " + datetime.date.today().isoformat() + "\n"); done_f.flush()
         except Exception as e:
             errors += 1
             print(f"[{i}/{len(tickers)}] {t:6s} ⚠️  {str(e)[:70]}")
