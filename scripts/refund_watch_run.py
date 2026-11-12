@@ -42,6 +42,12 @@ HDRS = {"Content-Type": "application/json", "Accept": "application/json"}
 
 
 def fetch_transcript(ticker: str, start: str, end: str):
+    _cp = os.path.join(".tx_cache", f"{ticker}.json")
+    try:
+        _cj = json.load(open(_cp))
+        return _cj["text"], _cj["edate"]
+    except Exception:
+        pass
     body = {"data": {"ids": [f"{ticker}-US"], "startDate": start, "endDate": end,
                      "eventType": "Earnings"},
             "meta": {"pagination": {"limit": 1, "offset": 0}}}
@@ -66,6 +72,12 @@ def fetch_transcript(ticker: str, start: str, end: str):
             return None
         text = re.sub(r"<[^>]+>", " ", rc.text)
         text = re.sub(r"\s+", " ", text).strip()
+        try:
+            os.makedirs(".tx_cache", exist_ok=True)
+            json.dump({"text": text, "edate": (doc.get("eventDate") or "")[:10],
+                       "headline": doc.get("headline", "")}, open(_cp, "w"))
+        except Exception:
+            pass
         return text, (doc.get("eventDate") or "")[:10]
     return None
 
@@ -136,8 +148,12 @@ def main():
             got = fetch_transcript(t, args.start, args.end)
             if not got:
                 no_tx += 1
+                _ntstreak = _ntstreak + 1 if '_ntstreak' in dir() else 1
+                if _ntstreak >= 15:
+                    print(f"ABORT: {_ntstreak} consecutive no-transcript results - FactSet throttled; resume later"); break
                 if args.debug: print(f"[{i}/{len(tickers)}] {t:6s} no transcript")
                 continue
+            _ntstreak = 0
             text, edate = got
             h = get_refund_highlight(t, names.get(t, t), text, debug=args.debug)
             if h:

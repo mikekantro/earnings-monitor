@@ -63,6 +63,12 @@ def _get(url, **kw):
 
 def fetch_transcript(ticker, start, end):
     """Return (text, event_date, headline) for the company's earnings call, or None."""
+    _cp = os.path.join(".tx_cache", f"{ticker}.json")
+    try:
+        _cj = json.load(open(_cp))
+        return _cj["text"], _cj["edate"], _cj.get("headline", "")
+    except Exception:
+        pass
     fid = f"{ticker}-US"
     body = {"data": {"ids": [fid], "startDate": start, "endDate": end, "eventType": "Earnings"},
             "meta": {"pagination": {"limit": 1, "offset": 0}}}
@@ -85,6 +91,11 @@ def fetch_transcript(ticker, start, end):
         return None
     text = re.sub(r"<[^>]+>", " ", rc.text)      # strip XML/NLP tags -> plain text
     text = re.sub(r"\s+", " ", text).strip()
+    try:
+        os.makedirs(".tx_cache", exist_ok=True)
+        json.dump({"text": text, "edate": doc.get("eventDate"), "headline": doc.get("headline", "")}, open(_cp, "w"))
+    except Exception:
+        pass
     return text, doc.get("eventDate"), doc.get("headline", "")
 
 
@@ -155,7 +166,11 @@ def main():
             got = fetch_transcript(t, args.start, args.end)
             if not got:
                 no_tx += 1
+                _ntstreak = _ntstreak + 1 if '_ntstreak' in dir() else 1
+                if _ntstreak >= 15:
+                    print(f"ABORT: {_ntstreak} consecutive no-transcript results - FactSet throttled; resume later"); break
                 print(f"[{i}/{len(tickers)}] {t:6s} no transcript"); continue
+            _ntstreak = 0
             text, edate, headline = got
             h = get_ai_highlight(t, names.get(t, t), text, debug=args.debug)
             if h:
