@@ -5813,7 +5813,61 @@
    "quote": "with the advent of AI, we've got a fifth pillar which is really leveraging AI both at the edge and in the cloud to make our systems even more valuable",
    "metric": null,
    "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "MBGL",
+   "company": "Mobility Global, Inc.",
+   "category": "product",
+   "headline": "Mobility Global uses AI to cut CARFAX report processing from 2 days to under 2 hours and powers Marketing Lab with agentic AI for dealers.",
+   "quote": "AI has reduced the processing time for certain reports from two business days to less than two hours. Our proprietary purpose-built models decode nearly 180 categories of service and repair events with 99.5% accuracy.",
+   "metric": "Processing time reduced from 2 business days to less than 2 hours; 99.5% accuracy across 180 service/repair categories",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "CTVA",
+   "company": "Corteva, Inc.",
+   "category": "efficiency",
+   "headline": "Corteva plans to apply AI on top of simplified processes to drive cost reductions and gain better business insights.",
+   "quote": "Once we do that and simplify it, we can put technology and AI on the top of it to further drive our costs down to further gain better insights.",
+   "metric": null,
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "YETI",
+   "company": "YETI Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "YETI monitors AI-driven search changes and optimizes website content to appear in AI-powered off-platform product discovery.",
+   "quote": "we are showing up really well, which we believe we do today in the off-platform search, in the various models. And some of that is the richness of the content we create.",
+   "metric": null,
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "EZPW",
+   "company": "EZCORP, Inc.",
+   "category": "efficiency",
+   "headline": "EZCORP uses AI to improve merchandise pricing and lending accuracy, supporting margin expansion across its pawn stores.",
+   "quote": "that pricing team has done a lot of work, especially with the assistance of AI, on getting better at pricing the items that come to our store.",
+   "metric": null,
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "ENS",
+   "company": "EnerSys",
+   "category": "efficiency",
+   "headline": "EnerSys appointed a Chief Digital, AI and Information Officer to use AI for productivity and operational efficiency.",
+   "quote": "Navi will lead our digital transformation efforts, leveraging data and AI to simplify our systems, enhance productivity and drive greater operational efficiency across the organization.",
+   "metric": null,
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "EPC",
+   "company": "Edgewell Personal Care Co.",
+   "category": "efficiency",
+   "headline": "Edgewell plans to increase use of AI-enabled capabilities in FY2027 to improve decision-making and lower costs.",
+   "quote": "increase our use of technology, advanced analytics, and AI-enabled capabilities. This work is intended to improve speed and agility, enhance decision making, and create a structurally lower cost base.",
+   "metric": null,
+   "event_date": "2026-11-12"
   }
  ],
- "updated": "2026-11-12T07:51:36"
+ "updated": "2026-11-12T19:48:20"
 }
