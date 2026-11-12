@@ -35,7 +35,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
           FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
-        run: python scripts/refund_watch_run.py --start 2026-07-15 --scores pmi_scores.json --resume
+        run: timeout --signal=INT 11m python scripts/refund_watch_run.py --start 2026-07-15 --scores pmi_scores.json --resume
 
       - name: Buildout sweep (resume)
         continue-on-error: true
@@ -44,7 +44,7 @@ jobs:
           FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
           FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
         run: |
-          python3 scripts/buildout_run.py --start 2026-07-15 --scores pmi_scores.json \
+          timeout --signal=INT 11m python3 scripts/buildout_run.py --start 2026-07-15 --scores pmi_scores.json \
             --out buildout_highlights.json --model claude-haiku-4-5-20251001 --resume
 
       - name: AI sweep (resumed — only new reporters)
@@ -53,7 +53,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FACTSET_USERNAME:  ${{ secrets.FACTSET_USERNAME }}
           FACTSET_API_KEY:   ${{ secrets.FACTSET_API_KEY }}
-        run: python scripts/ai_watch_run.py --start 2026-07-15 --scores pmi_scores.json --out ai_highlights_q2.json --model claude-haiku-4-5-20251001 --resume
+        run: timeout --signal=INT 11m python scripts/ai_watch_run.py --start 2026-07-15 --scores pmi_scores.json --out ai_highlights_q2.json --model claude-haiku-4-5-20251001 --resume
 
       - name: Industry map (self-heal; no-op when fully mapped)
         continue-on-error: true

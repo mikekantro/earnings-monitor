@@ -171,7 +171,7 @@ def main():
             print(f"[{i}/{len(tickers)}] {t:6s} ⚠️  {str(e)[:80]}")
 
         # incremental save so a long run is never lost
-        if i % 10 == 0 or i == len(tickers):
+        if True:  # save every ticker: done-marks flush per ticker, so hits must too
             json.dump({"generated": datetime.datetime.now().isoformat(),
                        "window": [args.start, args.end], "highlights": hits},
                       open(args.out, "w"), indent=1)
