@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:21:04.044881",
+ "generated": "2026-11-12T10:38:36.903454",
  "window": [
   "2026-07-15",
   "2026-11-12"
@@ -164,16 +164,6 @@
    "direction": "accelerating",
    "headline": "Dell Technologies cites accelerating AI server and GPU demand as driver of record $61 billion Q2 bookings and $95 billion backlog.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "DGII",
-   "company": "Digi International, Inc.",
-   "channel": "data_center_construction",
-   "quote": "The AI wave here, which is, obviously, impacting data center builds, but also then affecting utilities and other indirect areas.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Digi International cites AI-driven data center buildout as a factor affecting its sales pipeline and deal velocity.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "DY",
@@ -2754,6 +2744,116 @@
    "direction": "accelerating",
    "headline": "Sanmina cites AI infrastructure demand driving cloud and AI systems component and platform revenue growth to $7.5-$9.0B in fiscal 2027.",
    "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "ACMR",
+   "company": "ACM Research, Inc.",
+   "channel": "equipment_components",
+   "quote": "We believe our differentiated technology positions us to enable next-generation solutions driven by the increasingly complex 2.5D and 3D packaging roadmap for the global AI.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "ACM Research cites AI-driven demand for advanced packaging and electroplating equipment to support 2.5D and 3D packaging roadmaps.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "AEE",
+   "company": "Ameren Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "During the second quarter, Google and Amazon announced projects in our Missouri service territory, representing a combined planned investment of $25 billion. These projects are part of the 2.8 gigawatts of ESAs we signed earlier this year.",
+   "metric": "2.8 gigawatts of electric service agreements; 2.9 gigawatts of new load by 2031",
+   "direction": "accelerating",
+   "headline": "Ameren Corp. cites Google and Amazon data-center and large-load projects as drivers of 2.8 GW in signed electric service agreements and 12.9% compound annual Missouri sales growth through 2031.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "ALB",
+   "company": "Albemarle Corp.",
+   "channel": "power_energy",
+   "quote": "Lithium battery demand for stationary storage is expected to grow at a 25% CAGR through 2030... Due to the reduced cost and increased global scale for lithium-ion batteries, stationary storage installations deliver attractive returns across most major end markets, such as China and Europe.",
+   "metric": "stationary storage production nearly doubled year-over-year through September; approximately 1,000 gigawatt hours of stationary storage projects are in the pipeline for 2027",
+   "direction": "accelerating",
+   "headline": "Albemarle cites surging stationary energy-storage demand as a major driver of its lithium business, with production nearly doubling and 1,000 GWh of projects in the 2027 pipeline.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "In cloud, hyperscalers deployed substantial volumes of EPYC servers in the quarter to run more internal services and expand their public cloud offerings ... Cloud providers also added significant EPYC capacity in the quarter for personal and enterprise agents",
+   "metric": "Data Center revenue grew 97% year-over-year to a record $8.5 billion",
+   "direction": "accelerating",
+   "headline": "AMD cites hyperscaler data-center AI infrastructure deployments and agentic workload demand driving record data-center revenue growth.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "APTV",
+   "company": "Aptiv Plc",
+   "channel": "equipment_components",
+   "quote": "high-performance interconnect and connectivity solutions for data center and battery energy storage applications. Reinforcing our portfolio supports next-gen AI infrastructure.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Aptiv cites data-center and energy-storage infrastructure demand as driver of new business awards in high-performance interconnect solutions.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "AUB",
+   "company": "Atlantic Union Bankshares Corp.",
+   "channel": "equipment_components",
+   "quote": "we have clients who are benefiting from the data center expansion that is going on and that is continuing. One of the more interesting things that we noticed... we're seeing a lot of very large contractors being pulled into these",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Atlantic Union Bankshares cites data center expansion as benefiting adjacent client businesses including contractors and industrial warehousing.",
+   "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "AZTA",
+   "company": "Azenta, Inc.",
+   "channel": "equipment_components",
+   "quote": "These new investments will initially strengthen our position in North America with the potential to scale across our global network ... the market is showing strong demand for gene and antibody synthesis products due to the accelerating investment in AI-enabled drug discovery.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Azenta cites accelerating AI-enabled drug discovery investment as driver of demand for its Gene Synthesis products via Elegen and SynPlexity acquisitions.",
+   "event_date": "2026-11-11"
+  },
+  {
+   "ticker": "BLK",
+   "company": "BlackRock, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "We partnered with Meta on the financing of its planned $14 billion data center in Texas, bringing together infrastructure investments from GIP, private financing capabilities from HPS. We're also working alongside leading technology companies to create dedicated pools of financing for their customers to expand compute capabilities and capacity.",
+   "metric": "$14 billion data center; $68 billion raised in private markets over last 12 months",
+   "direction": "accelerating",
+   "headline": "BlackRock cites AI infrastructure financing as a growth driver, including a $14 billion Meta data-center deal and dedicated compute-capacity financing pools for technology companies.",
+   "event_date": "2026-10-14"
+  },
+  {
+   "ticker": "BOOT",
+   "company": "Boot Barn Holdings, Inc.",
+   "channel": "equipment_components",
+   "quote": "With significant investment underway in data centers, infrastructure, and other large-scale construction projects across the country, we believe Boot Barn Workforce is well-positioned to attract new customers and expand our share of the workwear market.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Boot Barn cites data-center and infrastructure construction projects as a driver of growth opportunity for its B2B workwear platform, Boot Barn Workforce.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "BTU",
+   "company": "Peabody Energy Corp.",
+   "channel": "power_energy",
+   "quote": "We're also evaluating opportunities to pair mine-mouth generation with data centers.",
+   "metric": null,
+   "direction": null,
+   "headline": "Peabody Energy is evaluating pairing mine-mouth coal generation with data-center facilities as a potential revenue stream.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "BXP",
+   "company": "BXP, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "investment in AI and associated infrastructure when measured versus historical new technology CapEx cycles is very material today and could become unprecedented. This investment activity is driving both US GDP and corporate earnings growth, which creates strong leasing demand from not only AI companies, but also from financial, legal and business service companies",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "BXP cites AI infrastructure investment as driver of strong leasing demand and corporate expansion in its premier office portfolio.",
+   "event_date": "2026-10-28"
   }
  ]
 }

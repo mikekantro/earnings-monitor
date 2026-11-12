@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:21:02.633237",
+ "generated": "2026-11-12T10:27:36.450719",
  "window": [
   "2026-07-15",
   "2026-11-12"
@@ -1696,6 +1696,126 @@
    "quote_receiving": "we received the remaining $18 million in tariff refunds against the claims that we filed for prior duties paid under IEEPA",
    "quote_customers": "",
    "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "ADNT",
+   "company": "Adient plc",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "refund_customers",
+   "amount": "$35 million",
+   "headline": "Adient received ~$35M in IEEPA tariff refunds in FY2026, expects to return the full amount to customers in FY2027.",
+   "quote_receiving": "the tariff repayment from the government that came in sooner than what we had anticipated. And so, that cash sits on our balance sheet.",
+   "quote_customers": "a favorable impact of roughly $35 million due to the timing of IEEPA refunds in fiscal year 2026, which we expect to return to our customers in fiscal year 2027.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "AIN",
+   "company": "Albany International Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Albany International received tariff refunds in Q3 2026, benefiting both Machine Clothing and Engineered Composites segments and free cash flow.",
+   "quote_receiving": "We also benefited in the quarter from a tariff refund and other discrete items.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "ALRM",
+   "company": "Alarm.com Holdings, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$3.8 million",
+   "headline": "Alarm.com recognized ~$3.8M temporary tariff-related cost recovery benefit in Q3 2026, boosting hardware gross margin and EBITDA; not recurring in Q4.",
+   "quote_receiving": "Results included approximately $3.8 million of temporary benefit associated with tariff-related cost recoveries, which accounts for the majority of the year-over-year gross margin expansion.",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "ATMU",
+   "company": "Atmus Filtration Technologies, Inc.",
+   "receiving": false,
+   "to_customers": true,
+   "disposition": "refund_customers",
+   "amount": "$9 million",
+   "headline": "Atmus sales reduced by $9M from IEEPA tariff refunds expected to be returned to customers.",
+   "quote_receiving": "",
+   "quote_customers": "Sales were reduced by $9 million related to IEEPA tariff refunds that we expect to return to customers.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "BDX",
+   "company": "Becton, Dickinson & Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "BD received tariff refunds in fiscal 2026, used $183M of proceeds for share repurchases; refunds excluded from adjusted results.",
+   "quote_receiving": "with $183 million repurchased in Q4 using proceeds from recent tariff refunds",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CAG",
+   "company": "Conagra Brands, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "close to $0.01 EPS",
+   "headline": "Conagra received a tariff refund in Q1 that contributed approximately $0.01 to EPS beat.",
+   "quote_receiving": "we did get a bit of benefit on the tariff refund that we got in the quarter, which was close to $0.01",
+   "quote_customers": "",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "CNH",
+   "company": "CNH Industrial NV",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$71 million",
+   "headline": "CNH received $71M net IEEPA tariff refunds in 2026, reinvesting most back into the business via one-time operational efforts.",
+   "quote_receiving": "The 2026 results include $71 million in net IEEPA tariff refunds after some of the proceeds received were reinvested in the business for time-constrained, one-time efforts",
+   "quote_customers": "",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "CPRI",
+   "company": "Capri Holdings Ltd.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Capri notes it will anniversary a tariff refund in Q4 2026, flagging it as a gross margin headwind in the second half.",
+   "quote_receiving": "we also will be anniversarying the tariff refund in the fourth quarter of 2026",
+   "quote_customers": "",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "CROX",
+   "company": "Crocs, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "na",
+   "amount": "$64 million",
+   "headline": "Crocs received $64 million in tariff refunds during the quarter, excluded from adjusted gross margin.",
+   "quote_receiving": "adjusted gross margin excludes $64 million of tariff refunds, which we received during the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "ENOV",
+   "company": "Enovis Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$8 million",
+   "headline": "Enovis received $8 million in tariff refunds in Q3, boosting adjusted gross margins by contributing to a 60 bps improvement.",
+   "quote_receiving": "This includes $8 million of tariff refunds, offset by roughly $3 million of inflationary pressure from higher raw material and freight and distribution costs",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
   }
  ]
 }
