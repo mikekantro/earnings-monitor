@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T10:38:36.903454",
+ "generated": "2026-11-12T11:12:55.407079",
  "window": [
   "2026-07-15",
   "2026-11-12"
@@ -2854,6 +2854,166 @@
    "direction": "accelerating",
    "headline": "BXP cites AI infrastructure investment as driver of strong leasing demand and corporate expansion in its premier office portfolio.",
    "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CB",
+   "company": "Chubb Ltd.",
+   "channel": "data_center_construction",
+   "quote": "Right now, in the cycle of data center development, particularly hyperscalers, a medium-sized, we're more in the construction phase, with the operation phase more in front of us than behind us that's to come... We are quite active. We're quite active in the physical property-related construction. We're active in marine, surety.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Chubb cites active engagement in data-center construction phase driven by hyperscaler AI buildout, with significant pipeline ahead as projects advance from permitting delays to shovel-in-ground phase.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "CCI",
+   "company": "Crown Castle, Inc.",
+   "channel": "equipment_components",
+   "quote": "Mobile data demand, one of the clearest indicators of demand for our infrastructure, continues to grow at a healthy pace and is showing no signs of stopping with the emergence of AI-enabled applications, physical AI and the acceleration of data only wireless devices.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Crown Castle cites AI-enabled applications and physical AI as drivers of mobile data demand growth supporting its tower infrastructure.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "CDNS",
+   "company": "Cadence Design Systems, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "We continue to benefit from strong AI-driven tailwinds, fueling accelerating AI infrastructure investments, growing adoption of custom silicon, and increasing demand for high-performance IP.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Cadence Design Systems cites AI infrastructure investments and hyperscaler custom silicon demand as drivers of IP business growth.",
+   "event_date": "2026-10-26"
+  },
+  {
+   "ticker": "CDW",
+   "company": "CDW Corp.",
+   "channel": "equipment_components",
+   "quote": "demand was strongest in AI-driven hybrid infrastructure and data center modernization, particularly in servers, storage, and cloud",
+   "metric": "Hardware increased 21%, driven by modernization, including AI-related investment",
+   "direction": "accelerating",
+   "headline": "CDW cites AI-driven infrastructure modernization and data center demand as driver of strong server, storage, and hardware sales growth.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "CENX",
+   "company": "Century Aluminum Co.",
+   "channel": "power_energy",
+   "quote": "Demand in our US and European markets remains strong, driven by data center and power system build-out and good automotive demand.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Century Aluminum cites data center and power system build-out as drivers of strong US and European market demand.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "CGNX",
+   "company": "Cognex Corp.",
+   "channel": "data_center_construction",
+   "quote": "underneath that end market umbrella is also work we're doing as part of the data center build-out, right? So, today, a lot of that is visual inspection for the electronic and other mechanical components as they're manufactured, but also the box builds that are happening at the EMS providers. That has been a good source of growth for us.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Cognex cites data-center build-out as a source of growth in its electronics business through visual inspection services.",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "CHH",
+   "company": "Choice Hotels International, Inc.",
+   "channel": "data_center_construction",
+   "quote": "We also continued to benefit from infrastructure-related demand, including data center development. Approximately 30% of our US hotels are located within 10 miles of a major data center, and those hotels delivered more than 400 basis points higher RevPAR growth than the rest of our system during the quarter.",
+   "metric": "30% of US hotels within 10 miles of major data center; 400+ basis points higher RevPAR growth",
+   "direction": "accelerating",
+   "headline": "Choice Hotels cites data center development proximity as driver of higher RevPAR performance, with hotels near major data centers outperforming system average by 400+ basis points.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "CLH",
+   "company": "Clean Harbors, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Within Industrial Services, our data center offerings are getting great traction ... we are accelerating and increasing our investment in the data center growth opportunity. Last quarter, we had outlined an expected $50 million of capital spend over the next two years with about $10 million this year. Given the early success of the data center initiative, we are increasing our investment this year to $15 million to an overall target of $70 million in dedicated data center capital.",
+   "metric": "$70 million in dedicated data center capital",
+   "direction": "accelerating",
+   "headline": "Clean Harbors increased its dedicated data-center capital investment target to $70 million, citing strong traction in its Industrial Services data-center offerings as a driver of revenue and outlook.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CNXN",
+   "company": "PC Connection, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI is driving a new wave of enterprise investments that extend well beyond software. Customers need the infrastructure, security, devices and expertise to put AI to work at scale ... Demand for data center modernization, AI-ready devices, cybersecurity and technical services is expanding our opportunity",
+   "metric": "Enterprise Solutions record backlog; servers/storage up 45.1%; networking improved by 43.3%",
+   "direction": "accelerating",
+   "headline": "PC Connection cites AI-driven demand for infrastructure, devices and services as driver of record enterprise sales and backlog growth.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "CON",
+   "company": "Concentra Group Holdings Parent, Inc.",
+   "channel": "data_center_construction",
+   "quote": "with respect to data centers, it's a really small \u2013 it's growing part of our business, but it's still a relatively small and immaterial part of the overall book of business. We're tracking all 300 plus projects across our sales team, both onsite and our core brick-and-mortar sales teams.",
+   "metric": "300 plus projects being tracked",
+   "direction": "accelerating",
+   "headline": "Concentra cites data-center construction projects as a growing but currently small part of occupational health revenue, tracking 300+ projects across sales teams.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "CTSH",
+   "company": "Cognizant Technology Solutions Corp.",
+   "channel": "data_center_construction",
+   "quote": "The trillions of dollars being spent on AI infrastructure build out creates opportunities across data center operations, networks, AI environments, and digital workplace services. Our Astreya acquisition strengthens our ability to serve this market and show early momentum during the quarter, including an expanded engagement with Google.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Cognizant cites AI infrastructure buildout as driver of data-center operations and workplace services revenue growth through Astreya acquisition.",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "CVCO",
+   "company": "Cavco Industries, Inc.",
+   "channel": "data_center_construction",
+   "quote": "It's important we discuss the increasing role being played by data center workforce housing in our orders, shipments, and backlogs. Data center orders and shipments increased significantly during the quarter.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Cavco Industries cites data-center workforce housing as a driver of orders, shipments, and backlog growth in Q2 fiscal 2027.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "DBX",
+   "company": "Dropbox, Inc.",
+   "channel": "equipment_components",
+   "quote": "Every company's need for storage keeps growing, and AI applications and agents are accelerating that demand. The datasets, model artifacts, images and video they depend on need a reliable, portable home ... DBX Agent Cloud brings that expertise to companies and developers, starting with a standalone S3 compatible object storage",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Dropbox cites AI applications and agents accelerating storage demand as driver for new DBX Agent Cloud infrastructure business.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "DGII",
+   "company": "Digi International, Inc.",
+   "channel": "data_center_construction",
+   "quote": "The AI data center surge and buildout has really put a lot of pressure on the supply chain, especially memory, but it's spilled over into other components as well that are fighting for capacity all the way down to the fab level.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Digi International cites AI data-center buildout as a driver of supply-chain pressure affecting gross margins and component availability.",
+   "event_date": "2026-11-11"
+  },
+  {
+   "ticker": "DOCN",
+   "company": "DigitalOcean Holdings, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "We continue to steadily add incremental data center capacity to take advantage of our strong returns ... we secured an incremental 20 megawatts of committed capacity from our Tier 1 data center partners for 2028. This brings total committed capacity to approximately 180 megawatts",
+   "metric": "180 megawatts total committed capacity; 20 megawatts incremental for 2028",
+   "direction": "accelerating",
+   "headline": "DigitalOcean, a hyperscaler/cloud platform, ties incremental data-center capacity buildout (180 megawatts committed, 20 MW new for 2028) to meeting AI-driven customer demand outstripping supply.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "DXPE",
+   "company": "DXP Enterprises, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Customers in water and wastewater, energy infrastructure, general industry, air compression, data centers, and other technical markets need reliable responsiveness and expertise.",
+   "metric": null,
+   "direction": null,
+   "headline": "DXP Enterprises cites data center customers as a market where they provide technical solutions and expertise.",
+   "event_date": "2026-11-05"
   }
  ]
 }
