@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-11T17:53:45.557064",
+ "generated": "2026-11-12T02:21:10.483630",
  "window": [
   "2026-07-15",
-  "2026-11-11"
+  "2026-11-12"
  ],
  "highlights": [
   {
@@ -579,18 +579,6 @@
    "headline": "AppLovin uses AI model improvements to drive advertiser spend growth in gaming and consumer verticals",
    "quote": "The single biggest driver of its growth is model performance. When our models improve, advertisers can profitably deploy more spend at their target return on ad spend goals and budgets naturally step up.",
    "metric": "53% year-over-year revenue growth to $1.92B; consumer advertiser spend 28% above Q4 2025 peak",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "AZTA",
-   "company": "Azenta, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Azenta deployed AI-enabled Biorepository inventory solution that meaningfully improved inventory capture productivity vs. prior manual process.",
-   "quote": "we completed the first customer deployment of an AI-enabled Biorepository inventory solution with advanced imaging and data management that creates actionable digital data. In this initial deployment, the solution meaningfully improved inventory capture productivity versus the prior manual process",
-   "metric": "expects to double productivity over time",
    "event_date": "2026-08-05"
   },
   {
@@ -5632,6 +5620,18 @@
    "quote": "27mcp is an open interface that lets you invite any AI agent, whether that's Claude, ChatGPT, Gemini, or even something you built yourself, to discover and control your Sonos system.",
    "metric": null,
    "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "AZTA",
+   "company": "Azenta, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Azenta positions GENEWIZ services to support AI-enabled drug discovery workflows via new Gene Synthesis capabilities.",
+   "quote": "GENEWIZ connects the AI-generated designs with the wet lab through synthesis, sequencing, and validation, helping customers accelerate the design-build-test-learn cycle.",
+   "metric": null,
+   "event_date": "2026-11-11"
   }
  ]
 }
