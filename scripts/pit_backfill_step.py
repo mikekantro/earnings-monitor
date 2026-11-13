@@ -34,6 +34,18 @@ def main():
         print(f"backfill: {item['key']} already complete")
         return
 
+    # live season first: hard cap on backfill scoring per rolling 20 hours
+    cap = int(os.environ.get("BACKFILL_DAILY_CAP", "500"))
+    try: _log = json.load(open(LOG))
+    except Exception: _log = []
+    _cut = (datetime.datetime.utcnow() - datetime.timedelta(hours=20)).isoformat(timespec="minutes")
+    used = sum(int(e.get("scored") or 0) for e in _log if e.get("at", "") >= _cut)
+    room = cap - used
+    if room <= 0:
+        print(f"backfill: daily cap reached ({used}/{cap}); leaving quota for the live season")
+        return
+    targets = targets[:min(room, 120)]
+
     tf = os.path.join(ROOT, ".backfill_targets.json")
     json.dump(targets, open(tf, "w"))
     label = item.get("season") or f"Q{item['key'][-1]} {item['key'][:4]}"
@@ -65,7 +77,7 @@ def main():
 
     after = scored(item["file"])
     gained = sorted((after - before) & set(targets))
-    remaining = [t for t in targets if t not in after]
+    remaining = [t for t in item["targets"] if t not in after and not t.startswith("@")]
 
     # did the run get to look? (throttled runs must not retire a season)
     diag = {}
@@ -73,7 +85,12 @@ def main():
     except Exception: pass
     looked = (str(diag.get("transcripts_probe")) == "200"
               and (diag.get("window") or [""])[0][:10] == item["start"])
-    exhausted = looked and not gained and int(diag.get("to_process") or 0) == 0
+    exhausted = (looked and not gained and int(diag.get("to_process") or 0) == 0
+                 and len(targets) >= len(remaining))
+    if looked and not gained and not exhausted:
+        # this slice had no transcripts: set it aside so the next run tries new names
+        item.setdefault("unavailable", []).extend(targets)
+        remaining = [t for t in remaining if t not in set(targets)]
 
     item["targets"] = [] if exhausted else remaining
     if exhausted:
