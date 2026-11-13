@@ -21075,6 +21075,36 @@
       "ticker": "ARWR",
       "name": "Arrowhead Pharmaceuticals, Inc.",
       "date": "2026-11-13"
+    },
+    {
+      "new_orders": 36,
+      "output": 33,
+      "employment": 45,
+      "prices": 38,
+      "supply_chains": 47,
+      "demand_breadth": 38,
+      "composite": 37,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Fresh packaged bread category volume declined ~3% with structural headwinds from GLP-1 adoption, price sensitivity, and lapsing commodity hedges threatening margins and covenant compliance into 2027, signaling deep stress in a core consumer staples category.",
+      "ticker": "FLO",
+      "name": "Flowers Foods, Inc.",
+      "date": "2026-11-13"
+    },
+    {
+      "new_orders": 60,
+      "output": 55,
+      "employment": 50,
+      "prices": 65,
+      "supply_chains": 45,
+      "demand_breadth": 52,
+      "composite": 57,
+      "sector": "Materials",
+      "confidence": 2,
+      "key_signal": "Vylor's deliberate shift to a higher-margin IP licensing model in Brazil and North America is driving EBITDA growth (~10% YoY) well ahead of revenue growth (~3%), signaling a structurally improving agricultural biotech business despite near-term volume headwinds from weather, FX, and route-to-market transitions.",
+      "ticker": "VYLR",
+      "name": "Vylor, Inc.",
+      "date": "2026-11-13"
     }
   ]
 }
