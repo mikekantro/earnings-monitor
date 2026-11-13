@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T02:14:57.999675",
+ "generated": "2026-11-13T06:27:24.032555",
  "window": [
   "2026-07-15",
   "2026-11-13"
@@ -3114,6 +3114,196 @@
    "direction": "accelerating",
    "headline": "Graco's ETM subsidiary is licensing motor technology to ABB for data-center cooling systems, targeting first installations by 2029 as AI and cloud-computing infrastructure demand grows.",
    "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "HWM",
+   "company": "Howmet Aerospace, Inc.",
+   "channel": "power_energy",
+   "quote": "gas turbines were fundamental to it ... Howmet does supply those turbine blades to both Titan and to the LM6000 series of aeroderivative turbines",
+   "metric": "1.2 gigawatts of power level, 20 gigawatts of power capabilities planned for 2027",
+   "direction": "accelerating",
+   "headline": "Howmet Aerospace cites AI data-center power demand as driver of industrial gas turbine blade sales and future capacity expansion.",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "IBM",
+   "company": "International Business Machines Corp.",
+   "channel": "equipment_components",
+   "quote": "AI continues to increase demand for storage and we are gaining share through differentiated offerings across Flash, Fusion, Tape and IBM Z storage, including AI-enabled capabilities that help clients scale and manage data for AI.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "IBM cites AI infrastructure demand driving storage revenue growth and market share gains across Flash, Fusion, Tape and Z storage.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "ICE",
+   "company": "Intercontinental Exchange, Inc.",
+   "channel": "power_energy",
+   "quote": "data centers are creating a new location-specific source of energy demand... Our North American gas markets delivered their strongest third quarter on record, with volume up 15% and OI reaching a record of 13.4 million lots on July 1. LNG export demand, new Permian pipeline capacity, summer heat and data center development are all creating greater regional basis risk, driving activity across our network of over 70 North American gas hubs",
+   "metric": "volume up 15%, OI record of 13.4 million lots",
+   "direction": "accelerating",
+   "headline": "ICE management links data-center energy demand to record North American gas market volumes and open interest in Q3 2026.",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "IEX",
+   "company": "IDEX Corp.",
+   "channel": "data_center_construction",
+   "quote": "In data centers, our teams win by solving increasingly more difficult technical problems as the industry scales. Our primary solutions include thermal management technologies for clean, behind-the-meter power generation and solutions that improve reliability of liquid cooling systems.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "IDEX Corp. cites data-center thermal management and power generation demand as a driver of HST segment growth and orders.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ITW",
+   "company": "Illinois Tool Works Inc.",
+   "channel": "data_center_construction",
+   "quote": "commercial construction, which represents about 15% of the region, was up 19% due to strong demand in areas such as data center construction.",
+   "metric": "commercial construction up 19%",
+   "direction": "accelerating",
+   "headline": "Illinois Tool Works' Construction Products segment cites data center construction as a driver of 19% commercial construction growth.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... we're beginning to see our capacity investments drive growth.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "direction": "accelerating",
+   "headline": "Jabil cites accelerating AI-infrastructure demand driving Intelligent Infrastructure segment revenue growth of 56% year-over-year in Q4 FY2026.",
+   "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "JPM",
+   "company": "JPMorgan Chase & Co.",
+   "channel": "equipment_components",
+   "quote": "with this huge infrastructure build-out that we're seeing, I don't think it would have been possible... without that SLR rule change. There are institutions today who are big participants in that intermediation who really couldn't operate at the current level of balance sheet leverage without that rule change.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "JPMorgan Chase cites major infrastructure buildout as a driver of its own balance-sheet leverage and capital deployment needs.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "KAI",
+   "company": "Kadant Inc.",
+   "channel": "data_center_construction",
+   "quote": "project activity to remain healthy, particularly in infrastructure spending and the build-outs in data centers.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "Kadant cites data-center build-outs as a contributor to steady Material Handling segment demand.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "KEY",
+   "company": "KeyCorp",
+   "channel": "power_energy",
+   "quote": "we absolutely are seeing that and we obviously have a big power business, which is creating the \u2013 providing the capital to create the electrons to serve that build-out",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "KeyCorp cites its power business as benefiting from AI data-center infrastructure buildout capital financing needs.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "KKR",
+   "company": "KKR & Co., Inc.",
+   "channel": "data_center_construction",
+   "quote": "Digital infrastructure, data centers have been a big part of our infrastructure build-out.",
+   "metric": "$120 billion of AUM",
+   "direction": "accelerating",
+   "headline": "KKR cites data-center infrastructure as a significant component of its $120 billion infrastructure platform AUM.",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "KOP",
+   "company": "Koppers Holdings, Inc.",
+   "channel": "power_energy",
+   "quote": "Utility infrastructure investment is being driven by higher electricity rates and growing power requirements associated with AI infrastructure, crypto mining, EV development and increased manufacturing activity.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Koppers Holdings cites AI infrastructure as a driver of growing power requirements supporting utility pole demand in its UIP segment.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "KRC",
+   "company": "Kilroy Realty Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "demand from growing technology and AI companies continues to accelerate. And over the last two quarters, we have also seen a meaningful uptick in activity from robotics users, particularly in the Peninsula and Silicon Valley submarkets.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Kilroy Realty cites accelerating AI and robotics company demand as driver of San Francisco Bay Area leasing activity and pipeline expansion.",
+   "event_date": "2026-10-23"
+  },
+  {
+   "ticker": "KWR",
+   "company": "Quaker Houghton",
+   "channel": "equipment_components",
+   "quote": "our hypothesis is a lot of that is probably related to data centers and infrastructure and the electrical grid because it's not really happening in auto and it's not happening in construction.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Quaker Houghton attributes North American steel and aluminum production growth to data center and electrical grid infrastructure demand.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "LDOS",
+   "company": "Leidos Holdings, Inc.",
+   "channel": "data_center_construction",
+   "quote": "We're also actively pursuing a large number of new projects in a larger addressable market, including our opportunities in data centers around the nation.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Leidos cites data-center opportunities as part of energy segment growth strategy alongside AI-powered tools for power distribution and grid projects.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "LECO",
+   "company": "Lincoln Electric Holdings, Inc.",
+   "channel": "equipment_components",
+   "quote": "However, energy, logistics and electronic component costs continue to increase with unprecedented AI data center demand, creating spot shortages for some raw materials.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Lincoln Electric cites AI data center demand as driver of raw material cost inflation and supply constraints affecting its business.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "LII",
+   "company": "Lennox International, Inc.",
+   "channel": "cooling_thermal",
+   "quote": "we continue to expect approximately $225 million in capital expenditures this year to support our entry-tier product launch in early 2027, new contractor training facilities, innovation labs for data center cooling applications",
+   "metric": null,
+   "direction": "steady",
+   "headline": "Lennox International is investing in innovation labs for data-center cooling applications as part of its 2026 capital expenditure plan.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "META",
+   "company": "Meta Platforms, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "We expect to invest $135 billion to $145 billion in cash CapEx in 2026 and we expect that investment to grow in 2027. ... We're building four superclusters that will each be 1 gigawatt or more with one of our sites scaling to 5 gigawatts over time.",
+   "metric": "$135B\u2013$145B cash CapEx in 2026; four superclusters of 1 GW+ each",
+   "direction": "accelerating",
+   "headline": "Meta Platforms cites AI-infrastructure demand as the driver of $135B\u2013$145B in 2026 CapEx for data-center superclusters and compute capacity to support personal superintelligence at scale.",
+   "event_date": "2026-10-25"
+  },
+  {
+   "ticker": "MIR",
+   "company": "Mirion Technologies, Inc.",
+   "channel": "power_energy",
+   "quote": "there's a very high degree of urgency there overall. When I look at the dynamic that we expect to experience within the \u2013 within the sector again, the American installed base, I see it as being a more metered, accelerating rate of growth ... the highest priority for capital spending today is anything that will generate an additional megawatt of capacity overall.",
+   "metric": "2 gigawatts of operated capacity that essentially represents two new nuclear power plants",
+   "direction": "accelerating",
+   "headline": "Mirion Technologies cites urgency from hyperscaler nuclear power upgrades and life extensions driving accelerating capital spending in its installed base business.",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "MMM",
+   "company": "3M Co.",
+   "channel": "networking_compute",
+   "quote": "EBO's patented ferrule technology enables faster installation, greater durability and higher density optical connections for AI infrastructure ... particularly valuable in scale-out and scale-across applications, including optical backplanes, where connectors at the back of a server rack can be difficult to access, install and maintain.",
+   "metric": "$6 billion in cumulative sales of optical connectivity and other data center-related products over the next seven years",
+   "direction": "accelerating",
+   "headline": "3M cites AI-infrastructure demand for optical connectivity (EBO) products as driver of growth, with $6B revenue target over seven years from hyperscaler deployments.",
+   "event_date": "2026-10-20"
   }
  ]
 }
