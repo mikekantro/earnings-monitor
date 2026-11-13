@@ -111,9 +111,9 @@ if len(_lu9) < 20:
             '<div style="border-left:4px solid #C24F1F;background:#FBF4EF;'
             'padding:12px 16px;margin:0 0 20px">'
             '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
-            'color:#223E4C">Q3 2026 season under way</span>'
+            'color:#1E5162">Q3 2026 season under way</span>'
             '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;'
-            f'color:#3E4C57"> &middot; {_n9} of the {UNIV_N:,}-company universe in &middot; early read: '
+            f'color:#555B60"> &middot; {_n9} of the {UNIV_N:,}-company universe in &middot; early read: '
             f'composite {_avg9}, new orders {_avo9}, employment {_ave9}</span>'
             '<div class="note" style="margin:6px 0 0">Too few reporters yet to re-rank '
             'sectors, so everything below still shows the completed Q2 2026 season. '
@@ -128,11 +128,11 @@ if len(_lu9) < 20:
         print(f"rollover guard: archive unavailable ({e}); building from live file")
 else:
     QTRK_HTML = (
-        '<div style="border-left:4px solid #8AA2B0;background:#F4F7F8;'
+        '<div style="border-left:4px solid #9AA4AB;background:#F5F5F5;'
         'padding:10px 16px;margin:0 0 20px">'
         '<span style="font-family:\'Titillium Web\',sans-serif;font-weight:700;'
-        'color:#223E4C">Q3 2026 season &middot; live</span>'
-        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:#3E4C57">'
+        'color:#1E5162">Q3 2026 season &middot; live</span>'
+        '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:#555B60">'
         f' &middot; {len(_lu9)} of the {UNIV_N:,}-company S&P 1500 universe reported; the dashboard updates as transcripts post</span></div>')
 best = {}
 for r in raw:
@@ -926,25 +926,25 @@ panel fills. New-orders cut: cohort {nc:+.2f} vs {nx:+.2f}.</p></div>'''
         o=[f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Composite vs employment scatter">']
         for v in range(20,100,10):
             o.append(f'<line x1="{X(v):.0f}" y1="{T}" x2="{X(v):.0f}" y2="{H-Bm}" stroke="#EEF1F3" stroke-width="1"/>')
-            o.append(f'<text x="{X(v):.0f}" y="{H-Bm+16}" font-size="10" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace">{v}</text>')
+            o.append(f'<text x="{X(v):.0f}" y="{H-Bm+16}" font-size="10" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif">{v}</text>')
         for v in range(30,90,10):
             o.append(f'<line x1="{L}" y1="{Y(v):.0f}" x2="{W-R}" y2="{Y(v):.0f}" stroke="#EEF1F3" stroke-width="1"/>')
-            o.append(f'<text x="{L-8}" y="{Y(v):.0f}" font-size="10" fill="#5C6B76" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono,monospace">{v}</text>')
-        o.append(f'<line x1="{X(50):.0f}" y1="{T}" x2="{X(50):.0f}" y2="{H-Bm}" stroke="#B7C9D3" stroke-width="1.2" stroke-dasharray="4 3"/>')
-        o.append(f'<line x1="{L}" y1="{Y(50):.0f}" x2="{W-R}" y2="{Y(50):.0f}" stroke="#B7C9D3" stroke-width="1.2" stroke-dasharray="4 3"/>')
+            o.append(f'<text x="{L-8}" y="{Y(v):.0f}" font-size="10" fill="#666666" text-anchor="end" dominant-baseline="middle" font-family="Inter,Helvetica,Arial,sans-serif">{v}</text>')
+        o.append(f'<line x1="{X(50):.0f}" y1="{T}" x2="{X(50):.0f}" y2="{H-Bm}" stroke="#666666" stroke-width="1.2" stroke-dasharray="4 3"/>')
+        o.append(f'<line x1="{L}" y1="{Y(50):.0f}" x2="{W-R}" y2="{Y(50):.0f}" stroke="#666666" stroke-width="1.2" stroke-dasharray="4 3"/>')
         for _,x,y,bb in _p9:
-            if not bb: o.append(f'<circle cx="{X(x):.0f}" cy="{Y(y):.0f}" r="2.4" fill="#8AA2B0" fill-opacity="0.45"/>')
+            if not bb: o.append(f'<circle cx="{X(x):.0f}" cy="{Y(y):.0f}" r="2.4" fill="#9AA4AB" fill-opacity="0.45"/>')
         for _,x,y,bb in _p9:
             if bb: o.append(f'<circle cx="{X(x):.0f}" cy="{Y(y):.0f}" r="3" fill="#C24F1F" fill-opacity="0.8"/>')
         _co=[(x,y) for _,x,y,bb in _p9 if bb]; _ex=[(x,y) for _,x,y,bb in _p9 if not bb]
-        for grp,col,lbl in [(_ex,"#3E4C57","all others"),(_co,"#C24F1F","build-out cohort")]:
+        for grp,col,lbl in [(_ex,"#555B60","all others"),(_co,"#C24F1F","build-out cohort")]:
             mx,my=float(np.mean([p[0] for p in grp])),float(np.mean([p[1] for p in grp]))
             o.append(f'<circle cx="{X(mx):.0f}" cy="{Y(my):.0f}" r="7" fill="none" stroke="{col}" stroke-width="2.4"/>')
-            o.append(f'<text x="{X(mx)+11:.0f}" y="{Y(my)-8:.0f}" font-size="11" font-weight="600" fill="{col}" font-family="Titillium Web,sans-serif">{lbl} mean ({mx:.0f}, {my:.0f})</text>')
-        o.append(f'<text x="{(L+W-R)/2:.0f}" y="{H-8}" font-size="11" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace">composite score</text>')
-        o.append(f'<text x="14" y="{(T+H-Bm)/2:.0f}" font-size="11" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace" transform="rotate(-90 14 {(T+H-Bm)/2:.0f})">employment score</text>')
-        o.append(f'<circle cx="{W-190}" cy="{T+10}" r="3" fill="#C24F1F"/><text x="{W-182}" y="{T+14}" font-size="11" fill="#3E4C57" font-family="Titillium Web,sans-serif">build-out claimants</text>')
-        o.append(f'<circle cx="{W-190}" cy="{T+28}" r="2.4" fill="#8AA2B0"/><text x="{W-182}" y="{T+32}" font-size="11" fill="#3E4C57" font-family="Titillium Web,sans-serif">everyone else</text>')
+            o.append(f'<text x="{X(mx)+11:.0f}" y="{Y(my)-8:.0f}" font-size="11" font-weight="600" fill="{col}" font-family="Inter,Helvetica,Arial,sans-serif">{lbl} mean ({mx:.0f}, {my:.0f})</text>')
+        o.append(f'<text x="{(L+W-R)/2:.0f}" y="{H-8}" font-size="11" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif">composite score</text>')
+        o.append(f'<text x="14" y="{(T+H-Bm)/2:.0f}" font-size="11" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" transform="rotate(-90 14 {(T+H-Bm)/2:.0f})">employment score</text>')
+        o.append(f'<circle cx="{W-190}" cy="{T+10}" r="3" fill="#C24F1F"/><text x="{W-182}" y="{T+14}" font-size="11" fill="#555B60" font-family="Inter,Helvetica,Arial,sans-serif">build-out claimants</text>')
+        o.append(f'<circle cx="{W-190}" cy="{T+28}" r="2.4" fill="#9AA4AB"/><text x="{W-182}" y="{T+32}" font-size="11" fill="#555B60" font-family="Inter,Helvetica,Arial,sans-serif">everyone else</text>')
         o.append('</svg>')
         return "".join(o)
     _qcs = sorted((x for x in Bh if _inq3(x) and x.get("quote")),

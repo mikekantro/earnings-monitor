@@ -4,44 +4,44 @@
 <title>AI &amp; Employment | Piper Sandler Portfolio Strategy</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Titillium+Web:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#223E4C;--paper:#F6F7F8;--card:#fff;--rule:#DBE0E4;--muted:#5C6B76;
---teal:#3E7A99;--rust:#C24F1F;--blue:#38678A;--amber:#E89B6B;--ice:#B7C9D3;
+:root{--ink:#0A0A0A;--paper:#FFFFFF;--card:#fff;--rule:#E5E5E5;--muted:#666666;
+--teal:#1E5162;--rust:#C24F1F;--blue:#38678A;--amber:#E89B6B;--ice:#666666;
 --shadow:0 1px 2px rgba(15,30,46,.06),0 4px 14px rgba(15,30,46,.04)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:"Titillium Web",system-ui,sans-serif;font-size:15px;line-height:1.5}
+body{margin:0;background:#fff;color:var(--ink);font-family:Inter,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;font-variant-numeric:tabular-nums}
 .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
-.masthead{background:var(--ink);color:#EAF0F3;padding:40px 0 34px}
-.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8AA2B0;margin:0 0 14px}
-.wtag{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;
-text-transform:uppercase;color:#223E4C;background:var(--amber);padding:4px 11px;border-radius:3px;margin:0 0 16px}
-.thesis{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:clamp(20px,2.4vw,28px);
-line-height:1.3;letter-spacing:-.01em;margin:0;max-width:60ch;color:#FFFFFF}
+.masthead{background:var(--ink);color:#0A0A0A;padding:40px 0 34px}
+.eyebrow{font-family:Inter,Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#666666;margin:0 0 14px}
+.wtag{display:inline-block;font-family:Inter,Helvetica,Arial,sans-serif;font-size:10.5px;letter-spacing:.12em;
+text-transform:uppercase;color:#1E5162;background:var(--amber);padding:4px 11px;border-radius:3px;margin:0 0 16px}
+.thesis{font-family:Inter,Helvetica,Arial,sans-serif;font-weight:300;font-size:clamp(24px,2.6vw,30px);
+line-height:1.3;letter-spacing:-.01em;margin:0;max-width:60ch;color:var(--ink)}
 .thesis em{font-style:italic;color:#9EC7DA}
 .sub{margin:18px 0 0;max-width:70ch;color:var(--ice);font-size:14.5px;line-height:1.6}
-.mrow{display:flex;flex-wrap:wrap;gap:26px;margin-top:24px;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ice)}
-.mrow b{display:block;font-size:22px;color:#FFFFFF;font-weight:500;margin-bottom:2px}
+.mrow{display:flex;flex-wrap:wrap;gap:26px;margin-top:24px;font-family:Inter,Helvetica,Arial,sans-serif;font-size:12px;color:var(--ice)}
+.mrow b{display:block;font-size:20px;color:var(--ink);font-weight:500;margin-bottom:2px}
 .traj{background:#2B4A59;border-top:1px solid #3A5766;padding:22px 0}
 .tsteps{display:flex;flex-wrap:wrap;gap:0}
 .tstep{flex:1 1 200px;padding:14px 18px;border:1px solid #3A5766;border-right:0;background:transparent}
 .tstep:last-child{border-right:1px solid #3A5766}
-.tstep .d{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#8AA2B0;margin-bottom:5px}
-.tstep .v{font-family:"IBM Plex Mono",monospace;font-size:16px;color:#FFFFFF;font-weight:500}
+.tstep .d{font-family:Inter,Helvetica,Arial,sans-serif;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#666666;margin-bottom:5px}
+.tstep .v{font-family:Inter,Helvetica,Arial,sans-serif;font-size:16px;color:#FFFFFF;font-weight:500}
 .tstep .l{font-size:12px;color:var(--ice);margin-top:3px}
 .tstep.next{border-style:dashed}
 .tstep.next .v{color:var(--amber)}
 section{padding:34px 0 8px}
-.sh{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(17px,1.9vw,22px);margin:0 0 8px;letter-spacing:-.01em}
-.sp{margin:0 0 18px;color:#4A5A64;font-size:14px;max-width:80ch;line-height:1.6}
+.sh{font-family:Inter,Helvetica,Arial,sans-serif;font-size:clamp(17px,1.9vw,22px);margin:0 0 8px;letter-spacing:-.01em}
+.sp{margin:0 0 18px;color:#4A4F54;font-size:14px;max-width:80ch;line-height:1.6}
 .sp b{color:var(--ink)}
 .grid2{display:grid;grid-template-columns:1.15fr 1fr;gap:28px;align-items:start}
 @media(max-width:860px){.grid2{grid-template-columns:1fr}}
 .dtbl{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);border:1px solid var(--rule);border-radius:8px;overflow:hidden;box-shadow:var(--shadow)}
-.dtbl caption{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:10px 14px;background:#FAFBFC;border-bottom:1px solid var(--rule);caption-side:top}
-.dtbl td{padding:11px 14px;border-bottom:1px solid #EDF0F3;vertical-align:top}
+.dtbl caption{font-family:Inter,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:10px 14px;background:#FAFBFC;border-bottom:1px solid var(--rule);caption-side:top}
+.dtbl td{padding:11px 14px;border-bottom:1px solid #ECECEC;vertical-align:top}
 .dtbl tr:last-child td{border-bottom:0}
-.dtbl .v{font-family:"IBM Plex Mono",monospace;text-align:right;white-space:nowrap;font-weight:500}
+.dtbl .v{font-family:Inter,Helvetica,Arial,sans-serif;text-align:right;white-space:nowrap;font-weight:500}
 .dtbl .v small{display:block;color:var(--muted);font-size:10.5px;font-weight:400}
 .dtbl tr.hot td{background:#FBF1E9}
 .divg{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:18px 20px;box-shadow:var(--shadow)}
@@ -53,28 +53,28 @@ section{padding:34px 0 8px}
 .dbar{position:absolute;top:2px;height:10px;border-radius:2px}
 .dbar.neg{background:var(--blue);right:42%}
 .dbar.pos{background:var(--muted);left:58%}
-.dval{font-family:"IBM Plex Mono",monospace;font-size:12px;text-align:right}
+.dval{font-family:Inter,Helvetica,Arial,sans-serif;font-size:12px;text-align:right}
 .dfoot{margin:10px 0 0;font-size:11px;color:var(--muted)}
 
 .tnote{margin:10px 0 0;background:#FBF3E8;border:1px solid #EAD9BE;border-radius:8px;padding:12px 16px;font-size:12.5px;color:#5C4A2E;line-height:1.55}
 .tnote b{color:#8A5A17}
-.tnote .tnd{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#C24F1F;display:block;margin-bottom:4px}
+.tnote .tnd{font-family:Inter,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#C24F1F;display:block;margin-bottom:4px}
 
 .rules{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:20px 24px;box-shadow:var(--shadow)}
 .rules h3{font-size:14.5px;margin:0 0 8px}
-.rules p{margin:0 0 12px;font-size:13px;color:#3E4C57;line-height:1.6}
+.rules p{margin:0 0 12px;font-size:13px;color:#555B60;line-height:1.6}
 .rules p:last-child{margin:0}
 footer{border-top:1px solid var(--rule);margin-top:40px;padding:24px 0 60px;color:var(--muted);font-size:12.5px}
 footer p{margin:0 0 9px;max-width:86ch}footer b{color:var(--ink)}
 
-/* brand */ .thesis,.fh,.vh,.sh,h1,h2{font-weight:600} .thesis em,.fh em,.vh em,.sh em,h1 em,h2 em,.thesis i,h2 i{font-style:normal}
+/* brand */ .thesis,.fh,.vh,h1,h2{font-weight:300} .sh{font-weight:300} .thesis em,.fh em,.vh em,.sh em,h1 em,h2 em,.thesis i,h2 i{font-style:normal}
 </style></head><body>
 
 <header class="masthead"><div class="wrap">
 <p class="eyebrow">Piper Sandler &middot; Portfolio Strategy &middot; AI disclosure × employment · S&amp;P 1500 same-company panel · updates each refresh</p>
 <span class="wtag">Tracked hypothesis · pre-registered · not a finding</span>
 <h1 class="thesis">Are AI adopters <em>lagging the hiring recovery?</em></h1>
-<!--QTRK--><div style="border-left:4px solid #8AA2B0;background:#F4F7F8;padding:10px 16px;margin:0 0 20px"><span style="font-family:'Titillium Web',sans-serif;font-weight:700;color:#223E4C">Q3 2026 season &middot; live</span><span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#3E4C57"> &middot; 1216 of the 1,506-company S&P 1500 universe reported; the dashboard updates as transcripts post</span></div><!--/QTRK-->
+<!--QTRK--><div style="border-left:4px solid #9AA4AB;background:#F5F5F5;padding:10px 16px;margin:0 0 20px"><span style="font-family:'Titillium Web',sans-serif;font-weight:700;color:#1E5162">Q3 2026 season &middot; live</span><span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#555B60"> &middot; 1216 of the 1,506-company S&P 1500 universe reported; the dashboard updates as transcripts post</span></div><!--/QTRK-->
 
 <p class="sub"><!--EMPLEAD-->The pre-registered question: do companies with a persistent AI claim hire more slowly than companies that never mention AI? The early Q3 panel currently shows persistent claimants +0.22 points above never-claimants (n=289 v 549, p=0.54).<!--/EMPLEAD--> This page tracks that gap under a pre-committed significance bar and a
 pre-committed decision date, until the data promotes it to a finding or retires it.</p>
@@ -117,7 +117,7 @@ split, nothing more. Ordering was never significance, and the bar is the bar.</p
 </table>
 
 <div class="divg">
-<p style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px">
+<p style="font-family:Inter,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px">
 Latest-season employment: adopters minus non-adopters, within sector</p>
 <div class="drow"><span class="dname">Industrials <span class="dn">· 69 v 83</span></span><span class="dtrack"><span class="dzero"></span><span class="dbar neg" style="width:48%"></span></span><span class="dval">−2.7</span></div>
 <div class="drow"><span class="dname">Technology <span class="dn">· 58 v 38</span></span><span class="dtrack"><span class="dzero"></span><span class="dbar neg" style="width:32%"></span></span><span class="dval">−1.8</span></div>

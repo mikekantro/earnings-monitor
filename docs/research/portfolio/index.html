@@ -4,51 +4,51 @@
 <title>Portfolio Screen | Piper Sandler Portfolio Strategy</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Titillium+Web:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#223E4C;--paper:#F6F7F8;--card:#fff;--rule:#DBE0E4;--muted:#5C6B76;
---slate:#3E7A99;--orange:#C24F1F;--dk:#2B4A59;--ice:#B7C9D3;
+:root{--ink:#0A0A0A;--paper:#FFFFFF;--card:#fff;--rule:#E5E5E5;--muted:#666666;
+--slate:#1E5162;--orange:#C24F1F;--dk:#2B4A59;--ice:#666666;
 --shadow:0 1px 2px rgba(34,62,76,.06),0 4px 14px rgba(34,62,76,.05)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:"Titillium Web",system-ui,sans-serif;font-size:15px;line-height:1.5}
+body{margin:0;background:#fff;color:var(--ink);font-family:Inter,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;font-variant-numeric:tabular-nums}
 .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
-.masthead{background:var(--ink);color:#EAF0F3;padding:36px 0 30px}
-.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8AA2B0;margin:0 0 12px}
-h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(20px,2.4vw,28px);line-height:1.3;margin:0;color:#fff;max-width:60ch}
+.masthead{background:var(--ink);color:#0A0A0A;padding:36px 0 30px}
+.eyebrow{font-family:Inter,Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#666666;margin:0 0 12px}
+h1{font-family:Inter,Helvetica,Arial,sans-serif;font-weight:600;font-size:clamp(20px,2.4vw,28px);line-height:1.3;margin:0;color:#fff;max-width:60ch}
 .sub{margin:14px 0 0;max-width:76ch;color:var(--ice);font-size:14.5px;line-height:1.6}
-.priv{display:inline-block;margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#EAF0F3;background:#3A5766;padding:5px 12px;border-radius:3px}
+.priv{display:inline-block;margin-top:14px;font-family:Inter,Helvetica,Arial,sans-serif;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#0A0A0A;background:#3A5766;padding:5px 12px;border-radius:3px}
 .inbox{background:var(--card);border:1px solid var(--rule);border-radius:10px;box-shadow:var(--shadow);padding:20px 22px;margin:26px 0 8px}
 textarea{width:100%;min-height:96px;border:1px solid var(--rule);border-radius:8px;padding:12px 14px;
-font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink);resize:vertical;background:#FBFCFC}
+font-family:Inter,Helvetica,Arial,sans-serif;font-size:13px;color:var(--ink);resize:vertical;background:#FBFCFC}
 textarea:focus{outline:2px solid var(--slate)}
 .inrow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:12px}
 button.go{background:var(--ink);color:#fff;border:0;border-radius:6px;padding:10px 26px;
-font-family:"Titillium Web",sans-serif;font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+font-family:Inter,Helvetica,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 button.go:hover{background:var(--dk)}
 .hint{font-size:12px;color:var(--muted)}
 .acct{margin:14px 0 0;font-size:13px}
-.acct b{font-family:"IBM Plex Mono",monospace}
+.acct b{font-family:Inter,Helvetica,Arial,sans-serif}
 .nomatch{color:var(--orange)}
-.sumstrip{display:flex;flex-wrap:wrap;gap:26px;margin:22px 0 6px;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
+.sumstrip{display:flex;flex-wrap:wrap;gap:26px;margin:22px 0 6px;font-family:Inter,Helvetica,Arial,sans-serif;font-size:12px;color:var(--muted)}
 .sumstrip b{display:block;font-size:22px;color:var(--ink);font-weight:500}
 table.pt{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);border:1px solid var(--rule);border-radius:10px;overflow:hidden;box-shadow:var(--shadow);margin:16px 0 30px}
-.pt th{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+.pt th{font-family:Inter,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
 text-align:left;padding:10px 12px;background:#FBFCFC;border-bottom:1px solid var(--rule);cursor:pointer;user-select:none}
-.pt th.num,.pt td.num{text-align:right;font-family:"IBM Plex Mono",monospace}
+.pt th.num,.pt td.num{text-align:right;font-family:Inter,Helvetica,Arial,sans-serif}
 .pt td{padding:10px 12px;border-bottom:1px solid #EEF1F3;vertical-align:top}
 .pt tr.row{cursor:pointer}
 .pt tr.row:hover{background:#F3F6F8}
-.tk{font-family:"IBM Plex Mono",monospace;font-weight:600}
+.tk{font-family:Inter,Helvetica,Arial,sans-serif;font-weight:600}
 .co{color:var(--muted);font-size:12px}
-.tag{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.06em;padding:2px 8px;border-radius:3px;text-transform:uppercase}
+.tag{display:inline-block;font-family:Inter,Helvetica,Arial,sans-serif;font-size:9.5px;letter-spacing:.06em;padding:2px 8px;border-radius:3px;text-transform:uppercase}
 .tag.revenue{background:#EAF1F5;color:var(--slate)}
-.tag.efficiency{background:#EEF1F3;color:#4A5A64}
+.tag.efficiency{background:#EEF1F3;color:#4A4F54}
 .tag.product{background:#EDF2F6;color:#38678A}
 .tag.mg{background:var(--slate);color:#fff}
 .tag.retain{background:#FAF0E8;color:var(--orange)}
 .tag.invest_in_price{background:#EDF2F6;color:#38678A}
 .tag.refund_customers{background:#EAF1F5;color:#2F5E75}
-.tag.undecided{background:#EEF1F3;color:#5C6B76}
+.tag.undecided{background:#EEF1F3;color:#666666}
 .tag.bo{background:#2B4A59;color:#fff}
 .tag.none{background:transparent;color:#9AA7B0;border:1px dashed #C9D2D8}
 .pos{color:#2F6B4F}.neg{color:var(--orange)}
@@ -58,10 +58,10 @@ text-align:left;padding:10px 12px;background:#FBFCFC;border-bottom:1px solid var
 .dgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:800px){.dgrid{grid-template-columns:1fr}}
 .dcard{background:#fff;border:1px solid var(--rule);border-radius:8px;padding:12px 15px}
-.dcard h4{margin:0 0 6px;font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-family:"IBM Plex Mono",monospace;font-weight:500}
-.dcard p{margin:0 0 6px;font-size:12.5px;line-height:1.55;color:#3E4C57}
+.dcard h4{margin:0 0 6px;font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-family:Inter,Helvetica,Arial,sans-serif;font-weight:500}
+.dcard p{margin:0 0 6px;font-size:12.5px;line-height:1.55;color:#555B60}
 .dcard blockquote{margin:6px 0;padding:8px 12px;background:#F3F6F8;border-radius:6px;font-size:12px;font-style:italic;color:#2B4A59;line-height:1.5}
-.dcard .mono{font-family:"IBM Plex Mono",monospace}
+.dcard .mono{font-family:Inter,Helvetica,Arial,sans-serif}
 .abs{color:#9AA7B0;font-style:italic}
 .empty{padding:40px 20px;text-align:center;color:var(--muted)}
 footer{border-top:1px solid var(--rule);margin-top:20px;padding:22px 0 56px;color:var(--muted);font-size:12.5px}
@@ -72,7 +72,7 @@ h1 em,h2 em{font-style:normal}
 <header class="masthead"><div class="wrap">
 <p class="eyebrow">Piper Sandler &middot; Portfolio Strategy &middot; Portfolio screen &middot; updates each refresh</p>
 <h1>Screen your holdings against the research.</h1>
-<!--QTRK--><div style="border-left:4px solid #8AA2B0;background:#F4F7F8;padding:10px 16px;margin:0 0 20px"><span style="font-family:'Titillium Web',sans-serif;font-weight:700;color:#223E4C">Q3 2026 season &middot; live</span><span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#3E4C57"> &middot; 1216 of the 1,506-company S&P 1500 universe reported; the dashboard updates as transcripts post</span></div><!--/QTRK-->
+<!--QTRK--><div style="border-left:4px solid #9AA4AB;background:#F5F5F5;padding:10px 16px;margin:0 0 20px"><span style="font-family:'Titillium Web',sans-serif;font-weight:700;color:#1E5162">Q3 2026 season &middot; live</span><span style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#555B60"> &middot; 1216 of the 1,506-company S&P 1500 universe reported; the dashboard updates as transcripts post</span></div><!--/QTRK-->
 
 <p class="sub">Paste tickers or company names. Each match returns the full record from every dataset in this
 suite: the earnings-call PMI, verified AI disclosures with margin claims, tariff-refund dispositions, and
