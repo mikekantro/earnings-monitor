@@ -166,11 +166,7 @@ throughout. Select a sector or the whole index; 2025 quarters appear as the hist
 the other sub-indices is the series&rsquo; defining feature.</p>
 <div class="chips" id="hchips"></div>
 <div class="decomp" style="padding:14px 16px" id="hchart"></div>
-<h3>Industry Earnings PMI &mdash; time series</h3>
-<p class="abs" style="margin:0 0 8px">Same series at GICS-industry level. Quarters with fewer than 4 scored companies are omitted; small samples are noisy.</p>
-<select id="itsel" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:6px;max-width:100%"></select>
-<span class="abs" id="itnote" style="margin-left:10px"></span>
-<div class="decomp" style="padding:14px 16px" id="itchart"></div>
+
 
 <h2 id="s-sectors" class="sh">Sector scorecard</h2>
 <p class="note">Every sub-index, by sector. Select a component; the table re-ranks instantly.
@@ -188,6 +184,11 @@ build-out chain, the bottom the consumer aisle.</p>
 <th class="num srtbl" onclick="isort(3)">Level</th><th class="num srtbl" onclick="isort(4)">&Delta; vs Q2</th></tr></thead>
 <tbody id="indbody"></tbody></table>
 <div class="more"><button id="indmore" onclick="indall=!indall;irender()"></button></div>
+<h3>Industry Earnings PMI &mdash; time series</h3>
+<p class="abs" style="margin:0 0 8px">Same series at GICS-industry level. Quarters with fewer than 4 scored companies are omitted; small samples are noisy.</p>
+<select id="itsel" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:6px;max-width:100%"></select>
+<span class="abs" id="itnote" style="margin-left:10px"></span>
+<div class="decomp" style="padding:14px 16px" id="itchart"></div>
 <p class="note"><!--INDN-->The 51 industries above cover 1100 of the 1216 companies reported so far; the remaining 116 sit in industries with fewer than 8 reports, which join the table as coverage grows.<!--/INDN--></p>
 
 <h2 id="s-movers" class="sh">Who moved, in their own words</h2>
@@ -232,11 +233,10 @@ build-out chain, the bottom the consumer aisle.</p>
   </tr></thead><tbody id="tbody"></tbody></table>
   <div class="more"><button id="more">Show 100 more</button></div>
 </section>
-</main>
+
 
 <section>
   <h2 class="sh">How the scores are built</h2>
-<details class="methd"><summary>Expand methodology</summary>
   <p class="sp">This is an ISM-style diffusion index derived from earnings calls rather than purchasing-manager
      surveys. Each company's quarterly call is read in full context and scored on six sub-indices under a
      <b>fixed rubric applied identically to every company in both quarters</b>. Each sub-index runs 0&ndash;100,
@@ -267,8 +267,10 @@ build-out chain, the bottom the consumer aisle.</p>
          reported so far cannot masquerade as changes in conditions. Sector bars require at least 10 matched companies.</p>
     </div>
   </div>
-</details>
+
 </section>
+
+</main>
 
 <footer><div class="wrap">
   <p><b>Source &amp; scoring.</b> FactSet earnings-call transcripts, scored by Claude (Anthropic) under a fixed rubric;
