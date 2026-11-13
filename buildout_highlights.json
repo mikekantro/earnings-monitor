@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T06:51:45.539215",
+ "generated": "2026-11-13T07:00:46.184416",
  "window": [
   "2026-07-15",
   "2026-11-13"
@@ -3534,6 +3534,56 @@
    "direction": "accelerating",
    "headline": "Tetra Tech cites data-center modernization and AI-enabled automation services as a growth driver for its commercial business.",
    "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "VST",
+   "company": "Vistra Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "the development team has delivered over 4 gigawatts of long-term power purchase agreements across both our nuclear and gas sites, some of which, like the Perry nuclear contract with Meta, will begin contributing to our 2027 results.",
+   "metric": "4 gigawatts of long-term power purchase agreements",
+   "direction": "accelerating",
+   "headline": "Vistra cites hyperscaler power purchase agreements (Meta, AWS) as a driver of earnings growth through 2027 and beyond.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "WAT",
+   "company": "Waters Corp.",
+   "channel": "equipment_components",
+   "quote": "Growth was led by materials testing for semiconductors and data center buildouts, along with thermal analysis for aerospace and defense.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Waters Corp. cites data center buildouts as a driver of materials testing growth in its Materials Sciences Division.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "WFC",
+   "company": "Wells Fargo & Co.",
+   "channel": "data_center_construction",
+   "quote": "We set up a cross-functional team across all of CIB that we have like long-dated long-tenured experts in all things data centers just given our leadership in Commercial Real Estate... we brought all of those folks together to come up with a very intentional strategy as you look across the hyperscalers, the neoclouds, the semi complexes, the LLM companies.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Wells Fargo CIB established cross-functional data-center team to capture AI infrastructure demand from hyperscalers and cloud platforms.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "WMB",
+   "company": "The Williams Cos., Inc.",
+   "channel": "power_energy",
+   "quote": "power demand is surging for the first time in decades ... demand for natural gas continues to accelerate. LNG exports are growing along the Gulf Coast, industrial reshoring is happening",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Williams cites accelerating power and LNG demand as driver of natural gas infrastructure growth through 2030.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "WMS",
+   "company": "Advanced Drainage Systems, Inc.",
+   "channel": "data_center_construction",
+   "quote": "In the non-residential end market, revenue is up 10% year-to-date or 8% on an organic basis. We generated double-digit growth on large projects like data centers and warehouses",
+   "metric": "double-digit growth on data center projects; 10% non-residential revenue growth year-to-date",
+   "direction": "accelerating",
+   "headline": "Advanced Drainage Systems cites data-center construction as a driver of double-digit revenue growth in its non-residential end market.",
+   "event_date": "2026-11-05"
   }
  ]
 }
