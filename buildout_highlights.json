@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T06:39:39.165428",
+ "generated": "2026-11-13T06:51:45.539215",
  "window": [
   "2026-07-15",
   "2026-11-13"
@@ -3444,6 +3444,96 @@
    "direction": null,
    "headline": "RPC acknowledges data center construction competing for labor resources but reports no material impact on oilfield operations.",
    "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "RYAN",
+   "company": "Ryan Specialty Holdings, Inc.",
+   "channel": "equipment_components",
+   "quote": "We were encouraged by activity tied to data centers, which improved each quarter in 2026.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Ryan Specialty Holdings cites data-center activity as an encouraging driver of construction casualty business improvement throughout 2026.",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "SEDG",
+   "company": "SolarEdge Technologies, Inc.",
+   "channel": "equipment_components",
+   "quote": "the power architecture in the data center is going to change to 800 volt ... we believe that people will quickly move into DC-native type solutions and definitely the SST",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "SolarEdge is advancing solid-state transformer (SST) technology for 800-volt data-center power architecture as hyperscalers transition to next-generation GPU deployments.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "SNDK",
+   "company": "Sandisk Corp.",
+   "channel": "equipment_components",
+   "quote": "structural increase in NAND demand driven, particularly by AI and by customer signals now extending beyond fiscal year 2030 through our New Business Model or NBM partnerships ... Datacenter has expanded from approximately 20% of industry bits early in the decade to roughly half of the industry bits today. This structural shift in customer mix is reshaping industry economics",
+   "metric": "Datacenter expanded to roughly half of industry bits; Datacenter revenue $4.8B up 61% sequentially; over 55% of market expected in calendar 2027 with bit demand growing about 40% year-on-year",
+   "direction": "accelerating",
+   "headline": "SanDisk cites structural increase in NAND demand driven by AI infrastructure buildout as core driver of datacenter revenue growth and long-term business trajectory.",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "SPGI",
+   "company": "S&P Global, Inc.",
+   "channel": "materials",
+   "quote": "Demand for data center build-out is unprecedented, with our teams forecasting significant increases in demand for power, chips, and materials to deliver that infrastructure. In fact, our team forecasts nearly $900 billion of CapEx this year for the six largest hyperscalers, nearly doubling from 2025 levels. The intensity of investment in this area is benefiting every one of our divisions",
+   "metric": "nearly $900 billion of CapEx this year for the six largest hyperscalers, nearly doubling from 2025 levels",
+   "direction": "accelerating",
+   "headline": "S&P Global cites AI data-center buildout and hyperscaler CapEx acceleration as benefiting all divisions through demand for supply-chain insights, power forecasts, and logistics data.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "STWD",
+   "company": "Starwood Property Trust, Inc.",
+   "channel": "power_energy",
+   "quote": "data centers stealing all the construction workers and paying them two, three times what they were making building commercial office buildings. So for the first time in history, we had more data centers being built than almost all the other asset classes",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Starwood Property Trust CEO notes data-center construction is drawing workers from other real-estate sectors at elevated wages, marking a historic shift in construction priorities.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "SWK",
+   "company": "Stanley Black & Decker, Inc.",
+   "channel": "data_center_construction",
+   "quote": "that's where a lot of the data center build-out is being sourced from a tools perspective... there's a heck of a lot of construction activity, whether it's data centers or elsewhere.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "Stanley Black & Decker cites data-center construction as a contributor to double-digit growth in its US professional tools channel, though notes broader construction activity beyond data centers.",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "T",
+   "company": "AT&T, Inc.",
+   "channel": "networking_compute",
+   "quote": "Our broad and deep fiber network also has us well positioned to be a leader in AI-grade connectivity. Over 90% of mapped US data centers are within 10 miles of our fiber and over 80% are within 1 mile. This is one of the reasons why the nation's leading hyperscalers are working with AT&T to support their rapidly growing high capacity connectivity needs. This includes AWS, who is using AT&T to connect their locations with high capacity fiber. We are also working with Microsoft to support its high capacity needs as AI growth drives demand.",
+   "metric": "Over 90% of mapped US data centers within 10 miles of fiber; over 80% within 1 mile",
+   "direction": "accelerating",
+   "headline": "AT&T cites AI-driven hyperscaler demand for high-capacity fiber connectivity as driver of business growth with AWS and Microsoft.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "THRM",
+   "company": "Gentherm, Inc.",
+   "channel": "data_center_construction",
+   "quote": "A lot of that is going into the data center. And so the business has been building up a backlog associated with that now for a number of months, we've been working on capacity, and that's really in place to execute at this point.",
+   "metric": "backlog building up over a number of months",
+   "direction": "accelerating",
+   "headline": "Gentherm (via Modine acquisition) cites data-center diesel-generation demand driving backlog and capacity buildout in power generation business.",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "TTEK",
+   "company": "Tetra Tech, Inc.",
+   "channel": "equipment_components",
+   "quote": "supporting industrial facilities across the US to modernize digital systems to support future AI-enabled automation and greater operational efficiency. We provide specialized expertise to commercial clients in data centers, power generation, oil and gas, and mining, helping them modernize systems and secure infrastructure assets.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Tetra Tech cites data-center modernization and AI-enabled automation services as a growth driver for its commercial business.",
+   "event_date": "2026-11-12"
   }
  ]
 }
