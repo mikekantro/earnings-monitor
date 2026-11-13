@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T07:05:00.796598",
+ "generated": "2026-11-13T12:14:16.885666",
  "window": [
   "2026-07-15",
   "2026-11-13"
@@ -34,16 +34,6 @@
    "direction": "accelerating",
    "headline": "Argan cites data-center construction demand driving Industrial segment growth and new North Carolina fabrication facility investment.",
    "event_date": "2026-09-02"
-  },
-  {
-   "ticker": "AMAT",
-   "company": "Applied Materials, Inc.",
-   "channel": "equipment_components",
-   "quote": "AI, especially data center, is an enormous driver for our business... 80% of wafer fab equipment growth this year is the leading foundry logic, DRAM including high bandwidth memory and advanced packaging.",
-   "metric": "80% of wafer fab equipment growth this year; revenue growth approaching 40% in 2026",
-   "direction": "accelerating",
-   "headline": "Applied Materials cites AI data-center infrastructure demand as driver of 80% of wafer fab equipment growth and approaching 40% revenue growth in 2026.",
-   "event_date": "2026-09-09"
   },
   {
    "ticker": "AMTM",
@@ -124,16 +114,6 @@
    "direction": "accelerating",
    "headline": "Coherent Corp. cites AI data-center optical networking infrastructure expansion as primary driver of 40% segment revenue growth and accelerating momentum in fiscal 2026.",
    "event_date": "2026-08-12"
-  },
-  {
-   "ticker": "CSCO",
-   "company": "Cisco Systems, Inc.",
-   "channel": "networking_compute",
-   "quote": "two years ago we had said, hey, we need to do $1 billion in orders taken ... We ended up at $9.3 billion. And we literally in Q4 did $4 billion of orders",
-   "metric": "$9.3 billion in hyperscale AI orders (fiscal year); $4 billion in Q4 alone",
-   "direction": "accelerating",
-   "headline": "Cisco links AI-infrastructure demand to $9.3 billion in hyperscale AI networking orders in fiscal 2026, with $4 billion in Q4 alone, citing a multi-year networking supercycle driven by hyperscaler, neo-cloud, and enterprise AI buildout.",
-   "event_date": "2026-09-08"
   },
   {
    "ticker": "DCI",
@@ -3584,6 +3564,26 @@
    "direction": "accelerating",
    "headline": "Advanced Drainage Systems cites data-center construction as a driver of double-digit revenue growth in its non-residential end market.",
    "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "AMAT",
+   "company": "Applied Materials, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI computing drives strong secular growth in semiconductors and wafer fab equipment, Applied is outgrowing the wafer fab equipment market because we've built leadership positions in the most enabling, highest-value technologies for AI computing.",
+   "metric": "Semiconductor Systems revenue up more than 40% in calendar 2026",
+   "direction": "accelerating",
+   "headline": "Applied Materials cites AI-driven semiconductor demand as driver of wafer fab equipment outperformance and 40%+ revenue growth in calendar 2026.",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "CSCO",
+   "company": "Cisco Systems, Inc.",
+   "channel": "networking_compute",
+   "quote": "Overall, our hyperscaler business continues to show strong momentum with AI infrastructure revenue projected to grow to $9 billion in fiscal year 2027, more than double fiscal year 2026 levels. Hyperscalers are now deploying our scale across networking architecture and production environments as they extend coordinated AI workloads across data centers.",
+   "metric": "AI infrastructure revenue projected to grow to $9 billion in fiscal year 2027, more than double fiscal year 2026 levels",
+   "direction": "accelerating",
+   "headline": "Cisco cites AI infrastructure demand driving hyperscaler networking revenue to $9 billion in FY2027, more than double prior year.",
+   "event_date": "2026-11-12"
   }
  ]
 }

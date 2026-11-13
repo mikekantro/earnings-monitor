@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T07:05:02.192539",
+ "generated": "2026-11-13T12:14:25.729874",
  "window": [
   "2026-07-15",
   "2026-11-13"
@@ -18,18 +18,6 @@
    "event_date": "2026-07-21"
   },
   {
-   "ticker": "AMAT",
-   "company": "Applied Materials, Inc.",
-   "category": "efficiency",
-   "margin_claim": true,
-   "margin_quote": "Our investments in AI are on track to deliver compelling returns by accelerating our revenue growth and operating profit margins.",
-   "margin_metric": null,
-   "headline": "Applied Materials uses AI internally in R&D, services, operations and supply chain to boost productivity and scale revenue faster than headcount.",
-   "quote": "In operations, supply chain and our corporate functions, AI is helping us ramp faster, drive meaningful improvements in productivity, and scale our revenue significantly faster than our head count.",
-   "metric": null,
-   "event_date": "2026-08-13"
-  },
-  {
    "ticker": "BIO",
    "company": "Bio-Rad Laboratories, Inc.",
    "category": "efficiency",
@@ -40,18 +28,6 @@
    "quote": "agentic AI enabled our product development teams to complete 12 months of software development in just 6 weeks",
    "metric": "12 months of software development completed in 6 weeks; thousands of hours of conventional engineering work avoided",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "CSCO",
-   "company": "Cisco Systems, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Cisco sells AI infrastructure (Silicon One, Optics, Security, Observability) to hyperscalers and enterprises, projecting $7.5B AI revenue in FY2027.",
-   "quote": "AI infrastructure revenue projected to grow to $7.5 billion in fiscal year 2027, supported by demand growth and market share gains.",
-   "metric": "$9.3B in AI infrastructure orders in FY2026; $7.5B AI infrastructure revenue projected for FY2027",
-   "event_date": "2026-08-12"
   },
   {
    "ticker": "CTAS",
@@ -7708,6 +7684,30 @@
    "quote": "more than 90% of pull requests across the product and engineering teams are written by AI. The result is a lower cost per feature delivered and a leaner cost base",
    "metric": "90%+ of pull requests written by AI; headcount down 10% by year-end",
    "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "AMAT",
+   "company": "Applied Materials, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Over 80% of Applied Materials employees use AI tools; software developers average 40%+ productivity gain; monthly token consumption grew 50x.",
+   "quote": "Over 80% of our employees use tools like Microsoft Copilot and Anthropic's Claude... All our software developers use AI with an average productivity gain of over 40%.",
+   "metric": "40%+ productivity gain for software developers; monthly token consumption grew 50x in one year",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "CSCO",
+   "company": "Cisco Systems, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Cisco deployed an AI agent for every employee at the start of fiscal 2027 to boost internal productivity.",
+   "quote": "At the start of fiscal 2027, we provided an AI agent for every employee.",
+   "metric": null,
+   "event_date": "2026-11-12"
   }
  ]
 }
