@@ -256,6 +256,52 @@ def _hist_data():
     return _hd
 _a9 = s.index("const HDATA="); _b9 = s.index(";", _a9)
 s = s[:_a9] + "const HDATA=" + json.dumps(_hist_data(), separators=(",",":")) + s[_b9:]
+
+def _hist_data_ind():
+    """Per-industry PMI time series across all archived seasons (same files as _hist_data)."""
+    _SE=[("Q1'23","pmi_scores_2023q1.json"),("Q2'23","pmi_scores_2023q2.json"),
+         ("Q3'23","pmi_scores_2023q3.json"),("Q4'23","pmi_scores_2023q4.json"),
+         ("Q1'24","pmi_scores_2024q1.json"),("Q2'24","pmi_scores_2024q2.json"),
+         ("Q3'24","pmi_scores_2024q3.json"),("Q4'24","pmi_scores_2024q4.json"),
+         ("Q1'25","pmi_scores_2025q1.json"),("Q2'25","pmi_scores_2025q2.json"),
+         ("Q3'25","pmi_scores_2025q3.json"),("Q4'25","pmi_scores_2025q4.json"),
+         ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26","pmi_scores_q2_2026.json"),("Q3'26",None)]
+    _FL=["composite","new_orders","prices","employment"]
+    import os as _os
+    _imap = load(f"{ROOT}/industry_map.json")
+    _hd={}; _isec={}
+    _qsets=[]
+    for lbl,f in _SE:
+        if f is None: S=list(best.values())
+        elif _os.path.exists(f"{ROOT}/{f}"):
+            _lt={}
+            for r in load(f"{ROOT}/{f}")["scores"]:
+                t=r["ticker"]
+                if t not in _lt or r.get("date","")>_lt[t].get("date",""): _lt[t]=r
+            S=list(_lt.values())
+        else: continue
+        _qsets.append((lbl,S))
+    _inds=sorted({_imap.get(r["ticker"]) for _,S in _qsets for r in S if _imap.get(r["ticker"])})
+    for _ix in _inds:
+        rows=[]
+        for lbl,S in _qsets:
+            Si=[r for r in S if _imap.get(r["ticker"])==_ix]
+            if len(Si)<4: continue
+            row={"l":lbl,"n":len(Si)}
+            for fd in _FL:
+                v=[r[fd] for r in Si if r.get(fd) is not None]
+                row[fd]=round(float(np.mean(v)),1) if v else None
+            rows.append(row)
+        if len(rows)>=4:
+            _hd[_ix]=rows
+            _sx=[r.get("sector") for _,S in _qsets for r in S if _imap.get(r["ticker"])==_ix and r.get("sector")]
+            _isec[_ix]=max(set(_sx), key=_sx.count) if _sx else "Other"
+    return _hd,_isec
+
+_ih,_is9 = _hist_data_ind()
+_a9 = s.index("const IHDATA="); _b9 = s.index(";", _a9)
+s = s[:_a9] + "const IHDATA=" + json.dumps(_ih, separators=(",",":")) + ",IHSEC=" + json.dumps(_is9, separators=(",",":")) + s[_b9:]
+print(f"  industry history: {len(_ih)} industries charted")
 _sfields = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
 _sd = {}
 for _f7 in _sfields:
