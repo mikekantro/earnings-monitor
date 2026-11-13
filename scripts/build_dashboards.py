@@ -1120,4 +1120,17 @@ for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portf
     t = open(f"{SITE}/{page}/index.html").read()
     if today.split(",")[0].split()[1] not in t and today_short.split()[1] not in t:
         die(f"{page}: today's date missing after build")
+# recall guard: marquee AI-infra names that reported must carry a buildout record
+_MARQ = ["ANET","VRT","PWR","AVGO","SMCI","DELL","HPE","CSCO","MU","TSM","EQIX","DLR","ETN",
+         "FIX","MSFT","AMZN","GOOGL","META","ORCL","IBM","AMD","INTC","NVDA","GEV","HUBB","NVT","APH","JBL"]
+_bo_in = {h["ticker"] for h in load(f"{ROOT}/buildout_highlights.json")["highlights"]
+          if (h.get("event_date") or "") >= "2026-10-01"}
+_marq_miss = [t for t in _MARQ if t in best and t not in _bo_in]
+if _marq_miss:
+    print(f"WARNING recall: marquee infra names scored but missing buildout record: {_marq_miss}")
+import re as _re9
+_pat9 = _re9.compile(r"data.?center|hyperscal", _re9.I)
+_kw_miss = [t for t, r in best.items() if t not in _bo_in and _pat9.search(r.get("key_signal") or "")]
+if _kw_miss:
+    print(f"NOTE recall: {len(_kw_miss)} scored names mention data-center/hyperscaler in key signal without a buildout record: {sorted(_kw_miss)[:10]}")
 print("BUILD OK —", today)
