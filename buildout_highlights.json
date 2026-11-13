@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T06:27:24.032555",
+ "generated": "2026-11-13T06:39:39.165428",
  "window": [
   "2026-07-15",
   "2026-11-13"
@@ -3304,6 +3304,146 @@
    "direction": "accelerating",
    "headline": "3M cites AI-infrastructure demand for optical connectivity (EBO) products as driver of growth, with $6B revenue target over seven years from hyperscaler deployments.",
    "event_date": "2026-10-20"
+  },
+  {
+   "ticker": "MU",
+   "company": "Micron Technology, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI is driving significant changes in memory and storage requirements ... memory is at the center of AI and it is absolutely the limiter in terms of ultimate system performance and capability at this point.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Micron cites AI infrastructure demand\u2014specifically data-center memory and storage requirements\u2014as a driver of its own product roadmap and technology development.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "NBTB",
+   "company": "NBT Bancorp, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Central New York businesses, including many NBT Bank customers, are participating in site development, engineering, environmental construction, and other support activities related to the project.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "NBT Bancorp cites semiconductor fabrication construction activity (Micron, GlobalFoundries) as driver of customer lending and business opportunities in its markets.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "NEE",
+   "company": "NextEra Energy, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "Needless to say, hyperscalers know exactly how we plan to serve them in Florida. As we discussed throughout the year, the interest is high. It's why we raised our large load expectations from 6 gigawatts to 8 gigawatts by 2032",
+   "metric": "8 gigawatts of large load by 2032 (raised from 6 gigawatts)",
+   "direction": "accelerating",
+   "headline": "NextEra Energy is raising its large-load (hyperscaler data-center) expectations to 8 gigawatts by 2032, citing high interest from hyperscalers seeking infrastructure in Florida.",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "NWE",
+   "company": "NorthWestern Energy Group, Inc.",
+   "channel": "hyperscaler_platform",
+   "quote": "we're also working on data centers from a data center request perspective, combining the request and assessments. Our queue count has gone from 14 to 16. We're seeing a bit more interest in South Dakota.",
+   "metric": "queue count of 16 data center requests/assessments; Atlas 75-150 megawatts; Quantica 25 megawatts to 1.1 gigawatts",
+   "direction": "accelerating",
+   "headline": "NorthWestern Energy is benefiting from increased hyperscaler data-center demand, with 16 active inquiries and two development agreements for large load customers.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "OGE",
+   "company": "OGE Energy Corp.",
+   "channel": "power_energy",
+   "quote": "crypto load converting to AI is something that we continue to see an interest in ... to the extent that the load changes its nature and it increases our capacity needs, you're going to see that 1.1 gigawatts go up.",
+   "metric": "1.1 gigawatts of remaining capacity need",
+   "direction": "accelerating",
+   "headline": "OGE Energy cites AI-driven load conversion from cryptocurrency as a potential driver of incremental capacity needs beyond its current 1.1 gigawatt remaining requirement.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "OKE",
+   "company": "ONEOK, Inc.",
+   "channel": "power_energy",
+   "quote": "We've been awarded a supply agreement for a 1-gigawatt power plant demand. This project includes a 10-year firm transportation agreement for 250 million cubic feet per day of natural gas and is expected to be in service in late 2030. Additionally, we've been awarded another agreement to supply 110 million cubic feet per day for a 500-megawatt power plant expansion, which will go into effect in May 2028.",
+   "metric": "250 million cubic feet per day for 1-gigawatt power plant; 110 million cubic feet per day for 500-megawatt power plant expansion",
+   "direction": "accelerating",
+   "headline": "ONEOK cited two power plant supply agreements (including AI data-center demand) as drivers of future natural gas pipeline transportation revenue and capital deployment.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "ONTO",
+   "company": "Onto Innovation, Inc.",
+   "channel": "equipment_components",
+   "quote": "The demand for AI and the value it delivers is expanding rapidly with the growing number of use cases across a wide range of markets ... chip demand will see an extended period of growth in the years ahead.",
+   "metric": "$1.3 billion backlog",
+   "direction": "accelerating",
+   "headline": "Onto Innovation cites AI demand driving chip production equipment orders and backlog growth to record $1.3 billion.",
+   "event_date": "2026-11-09"
+  },
+  {
+   "ticker": "OSK",
+   "company": "Oshkosh Corp.",
+   "channel": "data_center_construction",
+   "quote": "Large infrastructure investments and mega projects led by data centers and data center related activities are important drivers of demand.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Oshkosh Access segment cites data-center construction and related megaprojects as key demand drivers for equipment sales and orders.",
+   "event_date": "2026-10-29"
+  },
+  {
+   "ticker": "PCG",
+   "company": "PG&E Corp.",
+   "channel": "hyperscaler_platform",
+   "quote": "we're continuing to build a high-quality data center pipeline and providing visibility into how projects advance from application to energization. Since 2024, we've brought approximately 174 megawatts of data center projects online.",
+   "metric": "174 megawatts of data center projects online since 2024",
+   "direction": "accelerating",
+   "headline": "PG&E cites data-center load growth as driver of new customer connections and rate-reducing load growth strategy.",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "PEG",
+   "company": "Public Service Enterprise Group, Inc.",
+   "channel": "power_energy",
+   "quote": "PJM continues to have a significant resource adequacy problem and will require both existing and new generation to meet ever-increasing electric demand in the region.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "PSEG cites growing electric demand in PJM region as driver of nuclear generation and contracting opportunities.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "ticker": "PIPR",
+   "company": "Piper Sandler Cos.",
+   "channel": "power_energy",
+   "quote": "Increased demand for energy to power the growth in AI data centers helped drive record quarterly revenues for our diversified energy group.",
+   "metric": "record quarterly revenues for diversified energy group",
+   "direction": "accelerating",
+   "headline": "Piper Sandler cites AI data-center power demand as driver of record energy advisory revenues in Q3 2026.",
+   "event_date": "2026-10-30"
+  },
+  {
+   "ticker": "PPG",
+   "company": "PPG Industries, Inc.",
+   "channel": "equipment_components",
+   "quote": "electrical infrastructure for data centers ... high-single-digit percentage, driven by sales volume and selling price growth",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "PPG Industries cites data-center electrical infrastructure as a growth driver within its Industrial Coatings segment.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "PPL",
+   "company": "PPL Corp.",
+   "channel": "power_energy",
+   "quote": "Data center load has increased to 12.8 gigawatts while the non-data center load remains at approximately 2 gigawatts. Importantly, we're also seeing significant progress in converting that pipeline into more committed projects with 2.3 gigawatts of load under reimbursement agreements, up from 1.3 gigawatts at the end of the second quarter.",
+   "metric": "14.7 gigawatts total economic development pipeline; 2.3 gigawatts under reimbursement agreements; $25B capital plan",
+   "direction": "accelerating",
+   "headline": "PPL Corp. cites surging data-center demand in Pennsylvania and Kentucky as a direct driver of its $25B capital plan, new generation investments, and raised 7%-9% EPS growth outlook through 2030.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "RES",
+   "company": "RPC, Inc.",
+   "channel": "power_energy",
+   "quote": "we're hearing that some of the larger companies are looking to add more services as they kind of go into 2027... we're hearing some pretty strong reports that data center construction and other industries are pulling away from the oilfield. And just wanted to know if you're experiencing any of that and seeing any inflation on the labor side as data centers ramp up.",
+   "metric": null,
+   "direction": null,
+   "headline": "RPC acknowledges data center construction competing for labor resources but reports no material impact on oilfield operations.",
+   "event_date": "2026-10-29"
   }
  ]
 }
