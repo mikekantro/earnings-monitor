@@ -1022,8 +1022,92 @@ wa = s.index("<!--WCHG-->") + 11; wb = s.index("<!--/WCHG-->")
 s = s[:wa] + wchg_html + s[wb:]
 open(p, "w").write(s)
 
+# ---------------- read-through page ----------------
+import datetime as _dtm
+_TODAY9 = _dtm.date.today()
+def _read_through():
+    imap = load(f"{ROOT}/industry_map.json")
+    cur_t = set(best)
+    ros9 = {x["ticker"]: x["name"] for x in load(f"{ROOT}/sp1500_universe.json")}
+    # confirmed calendar if the digest has restored it; else year-ago estimates
+    conf = {}
+    try:
+        _up = load(f"{ROOT}/upcoming_earnings.json")
+        if (_TODAY9 - _dtm.date.fromisoformat(_up.get("asof","2000-01-01")[:10])).days <= 3:
+            conf = {e["symbol"]: e["date"][:10] for e in _up.get("events", []) if e.get("date")}
+    except Exception:
+        pass
+    ya = {}
+    try:
+        for r in load(f"{ROOT}/pmi_scores_2025q3.json")["scores"]:
+            t = r["ticker"]; d = (r.get("date") or "")[:10]
+            if d and (t not in ya or d > ya[t]): ya[t] = d
+    except Exception:
+        pass
+    days = {}; late = []
+    for t, nm in ros9.items():
+        if t in cur_t: continue
+        src = "conf" if t in conf else ("est" if t in ya else None)
+        if not src: continue
+        est = conf.get(t) or (_dtm.date.fromisoformat(ya[t]) + _dtm.timedelta(days=364)).isoformat()
+        dd = (_dtm.date.fromisoformat(est) - _TODAY9).days
+        if dd < -2:
+            if dd >= -21: late.append(t)
+            continue
+        if dd > 35: continue
+        days.setdefault(est, []).append({"t": t, "name": nm, "ind": imap.get(t, ""), "src": src})
+    day_list = [{"d": d, "names": sorted(v, key=lambda x: x["t"])} for d, v in sorted(days.items())]
+    # industry peer stats from the live season
+    from collections import defaultdict as _dd9
+    agg = _dd9(list)
+    for t, r in best.items():
+        ind = imap.get(t)
+        if ind: agg[ind].append(r)
+    due = _dd9(int)
+    for g in day_list:
+        for n in g["names"]: due[n["ind"]] += 1
+    for t in late: due[imap.get(t, "")] += 0
+    ind_out = {}
+    for ind, rows9 in agg.items():
+        matched = [(r["composite"] - q1s[r["ticker"]]["composite"], r) for r in rows9 if r["ticker"] in q1s]
+        d9 = round(float(np.mean([m[0] for m in matched])), 1) if len(matched) >= 3 else None
+        sec9 = max({r.get("sector") for r in rows9}, key=lambda sx: sum(1 for r in rows9 if r.get("sector") == sx)) if rows9 else ""
+        peers = sorted([r for r in rows9 if r.get("key_signal")], key=lambda r: r.get("date",""), reverse=True)[:3]
+        pl = []
+        for r in peers:
+            pd = (r["composite"] - q1s[r["ticker"]]["composite"]) if r["ticker"] in q1s else 0
+            pl.append({"t": r["ticker"], "dd": int(round(pd)), "sig": (r.get("key_signal") or "")[:200]})
+        ind_out[ind] = {"n": len(rows9), "d": d9, "sec": sec9, "due": due.get(ind, 0), "peers": pl}
+    return {"days": day_list, "ind": ind_out, "late": sorted(late), "v": {"r": 0.26, "n": 326}}
+
+_rt = _read_through()
+_rp = f"{SITE}/read-through/index.html"
+s9 = open(_rp).read()
+_a = s9.index("const RT="); _b = s9.index(";", _a)
+s9 = s9[:_a] + "const RT=" + json.dumps(_rt, separators=(",",":")) + s9[_b:]
+_n7 = sum(len(g["names"]) for g in _rt["days"] if (_dtm.date.fromisoformat(g["d"]) - _TODAY9).days <= 7)
+_n14 = sum(len(g["names"]) for g in _rt["days"] if (_dtm.date.fromisoformat(g["d"]) - _TODAY9).days <= 14)
+_wk = [(k, v) for k, v in _rt["ind"].items() if v["due"] > 0 and v["n"] >= 5 and v["d"] is not None
+       and any(n["ind"] == k for g in _rt["days"][:8] for n in g["names"])]
+_wk.sort(key=lambda x: x[1]["d"], reverse=True)
+if _wk and len(_wk) >= 2:
+    _hd = (f'{_n7} companies are expected in the next week; peers read '
+           f'<span class="up">strongest in {_wk[0][0]} ({_wk[0][1]["d"]:+.1f})</span>, '
+           f'<span class="dn">weakest in {_wk[-1][0]} ({_wk[-1][1]["d"]:+.1f})</span>.')
+else:
+    _hd = f'{_n7} companies are expected to report in the next week.'
+s9 = _swapm(s9, "RTHEAD", _hd)
+s9 = _swapm(s9, "RTSTATS", f"""
+    <span><b>{_n7}</b>expected next 7 days</span>
+    <span><b>{_n14}</b>expected next 14 days</span>
+    <span><b>{len(_rt['late'])}</b>past estimate, awaiting transcript</span>
+    <span><b>{sum(1 for v in _rt['ind'].values() if v['due']>0 and v['n']>=3)}</b>industries with a live peer read</span>
+""")
+open(_rp, "w").write(s9)
+print(f"  read-through: {_n7} next 7d / {_n14} next 14d, {len(_rt['late'])} overdue, {len(_rt['days'])} dates")
+
 # ---------------- self-check ----------------
-for _pg9 in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout"]:
+for _pg9 in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout","read-through"]:
     _pp9 = f"{SITE}/{_pg9}/index.html"
     _t9 = open(_pp9).read()
     _t9 = re.sub(r"\n*<!--QTRK-->.*?<!--/QTRK-->\n*", "\n", _t9, flags=re.S)
@@ -1032,7 +1116,7 @@ for _pg9 in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portf
     _t9 = _t9[:_k9] + _blk9 + _t9[_k9:]
     open(_pp9, "w").write(_t9)
 
-for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout"]:
+for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portfolio","pricing","buildout","read-through"]:
     t = open(f"{SITE}/{page}/index.html").read()
     if today.split(",")[0].split()[1] not in t and today_short.split()[1] not in t:
         die(f"{page}: today's date missing after build")
