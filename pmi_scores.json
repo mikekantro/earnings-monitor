@@ -21030,6 +21030,51 @@
       "ticker": "ADIG",
       "name": "ADI Global Distribution, Inc.",
       "date": "2026-11-12"
+    },
+    {
+      "new_orders": 88,
+      "output": 90,
+      "employment": 58,
+      "prices": 52,
+      "supply_chains": 60,
+      "demand_breadth": 85,
+      "composite": 80,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Cisco's 21% product order growth (on top of 13% prior year) and $9B AI infrastructure revenue projection signal a durable, broad-based networking infrastructure supercycle driven by hyperscaler AI capex that is now meaningfully spreading to enterprise, telco, and geographic markets outside the US.",
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "date": "2026-11-13"
+    },
+    {
+      "new_orders": 95,
+      "output": 96,
+      "employment": 65,
+      "prices": 88,
+      "supply_chains": 72,
+      "demand_breadth": 78,
+      "composite": 88,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "Applied Materials' 53% YoY revenue growth, 30%+ WFE industry growth forecast for 2027, and customers providing rolling 8-quarter forward purchase commitments signal an intensifying AI-driven semiconductor capex supercycle with multi-year structural demand characteristics.",
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "date": "2026-11-13"
+    },
+    {
+      "new_orders": 68,
+      "output": 58,
+      "employment": 52,
+      "prices": 65,
+      "supply_chains": 50,
+      "demand_breadth": 60,
+      "composite": 62,
+      "sector": "Healthcare",
+      "confidence": 2,
+      "key_signal": "REDEMPLO prescription volume surged 63% QoQ with weekly run rate doubling to 50-60 scripts, signaling strong clinical demand but payer conversion friction remains a critical bottleneck to revenue realization ahead of a potentially transformative sHTG launch in Q2 2027.",
+      "ticker": "ARWR",
+      "name": "Arrowhead Pharmaceuticals, Inc.",
+      "date": "2026-11-13"
     }
   ]
 }

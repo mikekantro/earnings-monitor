@@ -1,8 +1,8 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-10-31T00:00:00Z",
-  "2026-11-12T23:59:59Z"
+  "2026-11-01T00:00:00Z",
+  "2026-11-13T23:59:59Z"
  ],
  "universe": 1506,
  "raw_events": 0,
@@ -13,8 +13,8 @@
  "errors": [
   "calendar 403 x16"
  ],
- "already_scored": 5,
- "to_process": 10,
+ "already_scored": 12,
+ "to_process": 3,
  "no_transcript": 0,
- "scored": 10
+ "scored": 3
 }

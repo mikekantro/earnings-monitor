@@ -5867,7 +5867,25 @@
    "quote": "increase our use of technology, advanced analytics, and AI-enabled capabilities. This work is intended to improve speed and agility, enhance decision making, and create a structurally lower cost base.",
    "metric": null,
    "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "CSCO",
+   "company": "Cisco Systems, Inc.",
+   "category": "efficiency",
+   "headline": "Cisco deployed an AI agent for every employee at start of FY2027 to accelerate internal AI adoption.",
+   "quote": "At the start of fiscal 2027, we provided an AI agent for every employee. We expect to continue accelerating AI adoption, helping our employees execute",
+   "metric": null,
+   "event_date": "2026-11-13"
+  },
+  {
+   "ticker": "AMAT",
+   "company": "Applied Materials, Inc.",
+   "category": "efficiency",
+   "headline": "Applied Materials reports 80%+ employee AI tool adoption with 40%+ software developer productivity gains",
+   "quote": "Over 80% of our employees use tools like Microsoft Copilot and Anthropic's Claude... All our software developers use AI with an average productivity gain of over 40%.",
+   "metric": "40%+ productivity gain for software developers; 50x monthly token consumption growth",
+   "event_date": "2026-11-13"
   }
  ],
- "updated": "2026-11-12T19:48:20"
+ "updated": "2026-11-13T07:30:11"
 }
