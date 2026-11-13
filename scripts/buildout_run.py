@@ -118,6 +118,7 @@ def main():
     names = {}
     try:
         blob = json.load(open(args.scores))
+    SECTORS = {r.get("ticker"): r.get("sector") for r in (blob.get("scores") or []) if isinstance(r, dict)}
         for r in blob.get("scores", blob):
             names[r["ticker"]] = r.get("name", r["ticker"])
     except Exception:
@@ -173,6 +174,11 @@ def main():
             _ntstreak = 0
             text, edate, headline = got
             h = get_buildout_highlight(t, names.get(t, t), text, debug=args.debug)
+            if h and h.get("channel") == "hyperscaler_platform" and t not in {
+                    "MSFT","AMZN","GOOGL","META","ORCL","IBM","AKAM","DOCN","CRM","NOW","BABA"}:
+                _sm = {"Utilities": "power_energy", "Energy": "power_energy",
+                       "Real Estate": "data_center_construction", "Financials": "services_other"}
+                h["channel"] = _sm.get(SECTORS.get(t), "equipment_components")
             if h:
                 h["event_date"] = edate
                 hits.append(h)

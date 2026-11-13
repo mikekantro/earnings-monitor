@@ -568,7 +568,7 @@
   {
    "ticker": "MRSH",
    "company": "Marsh & McLennan Cos., Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "services_other",
    "quote": "Digital infrastructure continues to be a growth driver for Marsh. More and more clients across broad sectors of the economy are asking for our help in risk, capital advisory, credit and consulting in the wake of extensive growth in digital infrastructure.",
    "metric": null,
    "direction": "accelerating",
@@ -578,7 +578,7 @@
   {
    "ticker": "MS",
    "company": "Morgan Stanley",
-   "channel": "hyperscaler_platform",
+   "channel": "services_other",
    "quote": "hyperscaler CapEx is running as we speak at around $1 trillion a year, and our role as an advisor in all pieces of this will remain to be a critical differentiator. We're advising clients on the full ecosystem of their strategic and capital markets alternatives.",
    "metric": "hyperscaler CapEx running at around $1 trillion a year",
    "direction": "accelerating",
@@ -698,7 +698,7 @@
   {
    "ticker": "BE",
    "company": "Bloom Energy Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Hyperscalers have been the first to embrace onsite power. They need power rapidly and at large scale, some individual data centers use more power than some small states ... Bloom quickly emerged as a standard solution.",
    "metric": "138% year-over-year revenue growth; backlog expanding faster than revenue",
    "direction": "accelerating",
@@ -788,7 +788,7 @@
   {
    "ticker": "FIX",
    "company": "Comfort Systems USA, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "data_center_construction",
    "quote": "Technology, which is included in industrial was 59% of our revenue, a strong increase from 42% in the prior year ... Third quarter bookings were especially strong in the technology sector, both in our traditional construction business as well as the modular part of our business.",
    "metric": "59% of revenue from technology sector (up from 42% prior year); 17% of revenue from modular; backlog increased $8.4B or 90% year-over-year",
    "direction": "accelerating",
@@ -898,7 +898,7 @@
   {
    "ticker": "VZ",
    "company": "Verizon Communications, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "services_other",
    "quote": "AI infrastructure is becoming a real growth driver for Verizon. Today, we announced that we have signed a dark fiber agreement with Amazon Web Services valued at over $2 billion, building on the Google agreement we announced last quarter.",
    "metric": "$4 billion in signed contracts",
    "direction": "accelerating",
@@ -958,7 +958,7 @@
   {
    "ticker": "CMS",
    "company": "CMS Energy Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "we've added approximately 745 megawatts of new contracts in our service territory and we've energized more than half of that load or approximately 450 megawatts. Essentially, we're adding the equivalent of a large data center through primarily the manufacturing and semiconductor industries",
    "metric": "745 megawatts of new contracts signed, 450 megawatts energized",
    "direction": "accelerating",
@@ -1118,7 +1118,7 @@
   {
    "ticker": "STX",
    "company": "Seagate Technology Holdings Plc",
-   "channel": "hyperscaler_platform",
+   "channel": "equipment_components",
    "quote": "Data growth is profound across a wide variety of applications ... AI innovations are amplifying this dynamic. As AI adoption expands beyond model training and toward inference and agentic applications, persistent data becomes increasingly important.",
    "metric": null,
    "direction": "accelerating",
@@ -1138,7 +1138,7 @@
   {
    "ticker": "AEP",
    "company": "American Electric Power Co., Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Construction is well underway on the Wyoming Fuel Cell project, which is underpinned by a 20-year power purchase agreement with Google.",
    "metric": "20-year PPA with Google",
    "direction": "accelerating",
@@ -1258,7 +1258,7 @@
   {
    "ticker": "NI",
    "company": "NiSource, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Our growing GenCo business adds differentiated growth delivering power and capacity to large load customers supporting national security through data center operations.",
    "metric": "5 gigawatts of capacity across signed projects; up to 4 gigawatts of potential additional load",
    "direction": "accelerating",
@@ -1308,7 +1308,7 @@
   {
    "ticker": "VRT",
    "company": "Vertiv Holdings Co.",
-   "channel": "hyperscaler_platform",
+   "channel": "equipment_components",
    "quote": "data center demand is accelerating ... With a robust backlog and strong pipeline visibility, we expect continued significant above-market organic sales growth in 2027.",
    "metric": "100%-plus order growth year-over-year organically",
    "direction": "accelerating",
@@ -1368,7 +1368,7 @@
   {
    "ticker": "EQIX",
    "company": "Equinix, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "data_center_construction",
    "quote": "Large enterprises, particularly in financial services, are building out their own hybrid AI infrastructure. This is contributing to what you see in the industry data. Server spending is projected to grow more than 80% and AI server backlogs have doubled this year.",
    "metric": "Server spending projected to grow more than 80%; AI server backlogs doubled this year",
    "direction": "accelerating",
@@ -1588,7 +1588,7 @@
   {
    "ticker": "XEL",
    "company": "Xcel Energy, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "serving the growing demand for power by technology companies as they build data infrastructure for cloud and AI compute needs",
    "metric": "4 gigawatts of new data centers expected to contract before the end of next year",
    "direction": "accelerating",
@@ -1628,7 +1628,7 @@
   {
    "ticker": "ARES",
    "company": "Ares Management Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "services_other",
    "quote": "developing capacity that is designed to support the growth of both cloud use cases as well as AI inference with strong hyperscaler counterparties and long-term leases",
    "metric": null,
    "direction": "accelerating",
@@ -1668,7 +1668,7 @@
   {
    "ticker": "DLR",
    "company": "Digital Realty Trust, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "data_center_construction",
    "quote": "The adoption of artificial intelligence is driving unprecedented demand for capacity while simultaneously increasing the value of highly connected environments, strategic locations, and global reach. As enterprises, cloud providers, network operators, and AI innovators continue to expand their digital infrastructure footprints, they increasingly require partners that can provide capacity and connectivity together with the capital, expertise, and operational capabilities necessary to execute at scale.",
    "metric": "$2.5 billion backlog (record); $855 million total leasing (Q3); 11% Core FFO per share growth",
    "direction": "accelerating",
@@ -1708,7 +1708,7 @@
   {
    "ticker": "INTC",
    "company": "Intel Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "equipment_components",
    "quote": "The resurgence in demand for CPU is meaningful tailwind for us along our transformation journey ... server CPU TAM, largely driven by agentic workloads, could increase as much as 5 times from where it is today, from $40 billion to more than $200 billion over five years.",
    "metric": "server CPU TAM could increase from $40 billion to more than $200 billion over five years",
    "direction": "accelerating",
@@ -1738,7 +1738,7 @@
   {
    "ticker": "PWR",
    "company": "Quanta Services, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "data_center_construction",
    "quote": "We're providing behind the meter generation that's going to utility generation so utility scale generation today. I mean, and balance of plant and balance of facilities in multiple areas... the clients in both from the technology side as well as our utility customers, we're in the middle of that, building that whole thing out.",
    "metric": "$15 million per megawatt; expanding from $3-4 million per megawatt to $5-7 million per megawatt",
    "direction": "accelerating",
@@ -1758,7 +1758,7 @@
   {
    "ticker": "WEC",
    "company": "WEC Energy Group, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Microsoft continues to make good progress on its large data center complex in Mt. Pleasant, Wisconsin, with the first facility operating. Construction is underway on additional facilities as Microsoft expands at the site... We are preparing to serve forecasted demand of 3.2 gigawatts in the I-94 region through 2031",
    "metric": "3.2 gigawatts forecasted demand through 2031; up 600 megawatts from previous plan",
    "direction": "accelerating",
@@ -1808,7 +1808,7 @@
   {
    "ticker": "LNT",
    "company": "Alliant Energy Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Five data centers support our expectation for greater than 60% contracted demand growth by 2031, three are actively under construction. Google is taking transmission service with a load ramp consistent with the accelerated schedule we filed with the Iowa Commission.",
    "metric": "greater than 60% contracted demand growth by 2031; 3.4 gigawatts of load growth from three sites; ~1 additional gigawatt of contracted large load within the next six months",
    "direction": "accelerating",
@@ -1888,7 +1888,7 @@
   {
    "ticker": "AEIS",
    "company": "Advanced Energy Industries, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "equipment_components",
    "quote": "In data center computing, revenue grew almost 50% year-on-year. Increased demand and factory execution drove the outperformance. Our business with hyperscale customers continues to strengthen, with multiple new programs driving revenue growth this year and into 2027 and 2028.",
    "metric": "revenue grew almost 50% year-on-year",
    "direction": "accelerating",
@@ -1938,7 +1938,7 @@
   {
    "ticker": "AESI",
    "company": "Atlas Energy Solutions, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Data centers are the factories of the AI economy. A single campus can require hundreds, if not thousands of megawatts ... The capital is ready and the chips are ready, but the power is not. That gap is where Atlas stands.",
    "metric": null,
    "direction": "accelerating",
@@ -2078,7 +2078,7 @@
   {
    "ticker": "PNW",
    "company": "Pinnacle West Capital Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Executed in October, our first direct pricing contract is a 25-year agreement that, subject to regulatory approval, will serve approximately 1.88 gigawatts of demand at full buildout across TSMC's chip manufacturing campus.",
    "metric": "1.88 gigawatts of demand at full buildout",
    "direction": "accelerating",
@@ -2118,7 +2118,7 @@
   {
    "ticker": "TLN",
    "company": "Talen Energy Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "By 2031 AEP is estimated to have an additional 31 gigawatts of contracted large load additions, and PPL will have an additional 10.7 gigawatts. In the PPL Zone this includes 6 gigawatts of data centers currently under construction.",
    "metric": "6 gigawatts of data centers currently under construction in PPL Zone; 31 GW large load additions in AEP Zone by 2031; 10.7 GW in PPL Zone by 2031",
    "direction": "accelerating",
@@ -2428,7 +2428,7 @@
   {
    "ticker": "SO",
    "company": "The Southern Co.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "data center usage was 59% higher this quarter and is now up 52% year-to-date, primarily due to accelerating load ramps from data center customers.",
    "metric": "data center usage up 59% quarter-over-quarter, up 52% year-to-date",
    "direction": "accelerating",
@@ -2488,7 +2488,7 @@
   {
    "ticker": "BKH",
    "company": "Black Hills Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "we are thrilled to have successfully executed definitive agreements to serve Google's planned data center in Wyoming ... The project is planned to begin taking service by late 2027 and reach peak load in 2030.",
    "metric": "2.7 gigawatts total resources to serve Google data center; 564 megawatts of company-owned generation; $1.8 billion generation investment; $150 million net income in 2030",
    "direction": "accelerating",
@@ -2528,7 +2528,7 @@
   {
    "ticker": "EVRG",
    "company": "Evergy, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "increased large customer revenues from data center projects currently operating ... Commercial growth reflects increased data center customer usage",
    "metric": "3.1 gigawatts of peak load expected over time; 2,250 megawatts in 2030; 4.5% weather-normalized retail demand growth in Q3",
    "direction": "accelerating",
@@ -2578,7 +2578,7 @@
   {
    "ticker": "ORA",
    "company": "Ormat Technologies, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "as we are adding more assets to our Google and other data centers portfolio the average price of the PPA of new BESS facilities is expected to be near",
    "metric": null,
    "direction": "accelerating",
@@ -2608,7 +2608,7 @@
   {
    "ticker": "SEI",
    "company": "Solaris Energy Infrastructure, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Solaris has successfully delivered power for superintelligence loads for over two years for our power customers... we have supported and can continue to support a wide range of load profiles, including today's challenging superintelligence loads.",
    "metric": "3.2 gigawatts of long-term power contracts",
    "direction": "accelerating",
@@ -2668,7 +2668,7 @@
   {
    "ticker": "NRG",
    "company": "NRG Energy, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "It's designed to bring new, dispatchable generation alongside new demand, anchored by a long-term customer commitment and disciplined investment standards. This is exactly the type of contracted growth we've positioned NRG to pursue",
    "metric": "1.2 gigawatts",
    "direction": "accelerating",
@@ -2698,7 +2698,7 @@
   {
    "ticker": "CWEN",
    "company": "Clearway Energy, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Clearway's first co-located digital infrastructure projects continued to make progress across markets with our Wilcox Energy Complex in Wyoming advancing in route to bring first generating capacity online in 2029 and completing its first 3.4 gigawatts of generating resources by year end 2030 ... signed an LOI with a top tier hyperscaler.",
    "metric": "3.4 gigawatts of generating resources by year end 2030; first major complex targeting completion in time to add to our 2031 CAFD per share goals",
    "direction": "accelerating",
@@ -2738,7 +2738,7 @@
   {
    "ticker": "AEE",
    "company": "Ameren Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "During the second quarter, Google and Amazon announced projects in our Missouri service territory, representing a combined planned investment of $25 billion. These projects are part of the 2.8 gigawatts of ESAs we signed earlier this year.",
    "metric": "2.8 gigawatts of electric service agreements; 2.9 gigawatts of new load by 2031",
    "direction": "accelerating",
@@ -2758,7 +2758,7 @@
   {
    "ticker": "AMD",
    "company": "Advanced Micro Devices, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "equipment_components",
    "quote": "In cloud, hyperscalers deployed substantial volumes of EPYC servers in the quarter to run more internal services and expand their public cloud offerings ... Cloud providers also added significant EPYC capacity in the quarter for personal and enterprise agents",
    "metric": "Data Center revenue grew 97% year-over-year to a record $8.5 billion",
    "direction": "accelerating",
@@ -2798,7 +2798,7 @@
   {
    "ticker": "BLK",
    "company": "BlackRock, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "services_other",
    "quote": "We partnered with Meta on the financing of its planned $14 billion data center in Texas, bringing together infrastructure investments from GIP, private financing capabilities from HPS. We're also working alongside leading technology companies to create dedicated pools of financing for their customers to expand compute capabilities and capacity.",
    "metric": "$14 billion data center; $68 billion raised in private markets over last 12 months",
    "direction": "accelerating",
@@ -2828,7 +2828,7 @@
   {
    "ticker": "BXP",
    "company": "BXP, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "data_center_construction",
    "quote": "investment in AI and associated infrastructure when measured versus historical new technology CapEx cycles is very material today and could become unprecedented. This investment activity is driving both US GDP and corporate earnings growth, which creates strong leasing demand from not only AI companies, but also from financial, legal and business service companies",
    "metric": null,
    "direction": "accelerating",
@@ -2858,7 +2858,7 @@
   {
    "ticker": "CDNS",
    "company": "Cadence Design Systems, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "services_other",
    "quote": "We continue to benefit from strong AI-driven tailwinds, fueling accelerating AI infrastructure investments, growing adoption of custom silicon, and increasing demand for high-performance IP.",
    "metric": null,
    "direction": "accelerating",
@@ -3228,7 +3228,7 @@
   {
    "ticker": "KRC",
    "company": "Kilroy Realty Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "data_center_construction",
    "quote": "demand from growing technology and AI companies continues to accelerate. And over the last two quarters, we have also seen a meaningful uptick in activity from robotics users, particularly in the Peninsula and Silicon Valley submarkets.",
    "metric": null,
    "direction": "accelerating",
@@ -3328,7 +3328,7 @@
   {
    "ticker": "NEE",
    "company": "NextEra Energy, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "Needless to say, hyperscalers know exactly how we plan to serve them in Florida. As we discussed throughout the year, the interest is high. It's why we raised our large load expectations from 6 gigawatts to 8 gigawatts by 2032",
    "metric": "8 gigawatts of large load by 2032 (raised from 6 gigawatts)",
    "direction": "accelerating",
@@ -3338,7 +3338,7 @@
   {
    "ticker": "NWE",
    "company": "NorthWestern Energy Group, Inc.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "we're also working on data centers from a data center request perspective, combining the request and assessments. Our queue count has gone from 14 to 16. We're seeing a bit more interest in South Dakota.",
    "metric": "queue count of 16 data center requests/assessments; Atlas 75-150 megawatts; Quantica 25 megawatts to 1.1 gigawatts",
    "direction": "accelerating",
@@ -3388,7 +3388,7 @@
   {
    "ticker": "PCG",
    "company": "PG&E Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "we're continuing to build a high-quality data center pipeline and providing visibility into how projects advance from application to energization. Since 2024, we've brought approximately 174 megawatts of data center projects online.",
    "metric": "174 megawatts of data center projects online since 2024",
    "direction": "accelerating",
@@ -3538,7 +3538,7 @@
   {
    "ticker": "VST",
    "company": "Vistra Corp.",
-   "channel": "hyperscaler_platform",
+   "channel": "power_energy",
    "quote": "the development team has delivered over 4 gigawatts of long-term power purchase agreements across both our nuclear and gas sites, some of which, like the Perry nuclear contract with Meta, will begin contributing to our 2027 results.",
    "metric": "4 gigawatts of long-term power purchase agreements",
    "direction": "accelerating",
