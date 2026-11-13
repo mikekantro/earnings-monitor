@@ -14,13 +14,13 @@ body{margin:0;background:#fff;color:var(--ink);font-family:Inter,Helvetica,Arial
 .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
 .masthead{background:#fff;color:var(--ink);border-bottom:1px solid var(--rule);padding:34px 0 28px}
 .eyebrow{font-family:Inter,Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#666666;margin:0 0 12px}
-h1{font-family:Inter,Helvetica,Arial,sans-serif;font-weight:300;font-size:clamp(24px,2.6vw,30px);line-height:1.3;margin:0;color:var(--ink);max-width:60ch}
+h1{font-family:Inter,Helvetica,Arial,sans-serif;font-weight:300;font-size:clamp(24px,2.6vw,30px);line-height:1.3;margin:0;color:var(--ink)}
 h1 em{font-style:normal;color:#1E5162}
-.sub{margin:14px 0 0;max-width:82ch;color:#4A4F54;font-size:14.5px;line-height:1.6}
+.sub{margin:14px 0 0;color:#4A4F54;font-size:14.5px;line-height:1.6}
 .mstrip{display:flex;flex-wrap:wrap;gap:30px;margin:22px 0 0;font-family:Inter,Helvetica,Arial,sans-serif;font-size:12px;color:#666666}
 .mstrip b{display:block;font-size:26px;color:var(--ink);font-weight:500}
 h2.sh{font-family:Inter,Helvetica,Arial,sans-serif;font-weight:300;font-size:24px;margin:34px 0 10px}
-.note{font-size:13.5px;color:#4A4F54;max-width:90ch;line-height:1.6;margin:0 0 14px}
+.note{font-size:13.5px;color:#4A4F54;line-height:1.6;margin:0 0 14px}
 .decomp{background:var(--card);border:1px solid var(--rule);border-radius:10px;box-shadow:var(--shadow);padding:20px 24px;margin:0 0 8px}
 .dc-row{margin:0 0 18px}
 .dc-lb{font-family:Inter,Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 7px}
@@ -48,7 +48,7 @@ table.all{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--
 .all td{padding:7px 12px;border-bottom:1px solid #F1F3F5;vertical-align:top}
 .srch{width:280px;max-width:100%;border:1px solid var(--rule);border-radius:7px;padding:9px 13px;font-family:Inter,Helvetica,Arial,sans-serif;font-size:12.5px;margin:0 0 10px}
 .rules{background:var(--card);border:1px solid var(--rule);border-radius:10px;box-shadow:var(--shadow);padding:18px 22px;margin:26px 0}
-.rules p{margin:0 0 9px;font-size:13px;color:#555B60;line-height:1.6;max-width:96ch}
+.rules p{margin:0 0 9px;font-size:13px;color:#555B60;line-height:1.6}
 .rules b{color:var(--ink)}
 footer{border-top:1px solid var(--rule);margin-top:26px;padding:20px 0 54px;color:var(--muted);font-size:12.5px}
 
@@ -194,7 +194,7 @@ function draw(){
   if(cut) r=r.slice(0,LIM);
   const btn=document.getElementById('showall');
   if(btn){ btn.style.display = cut ? '' : (window.__showAll && !f && full>LIM ? '' : 'none');
-           btn.textContent = cut ? `Show all ${full} claimants` : 'Show top 50'; }
+           btn.textContent = cut ? `Show all ${full} claimants` : 'Show top 50'}
   document.getElementById('tb').innerHTML=r.map(x=>
     `<tr><td style="font-family:Inter,Helvetica,Arial,sans-serif;font-weight:600">${x.t}</td>
      <td style="font-size:11px">${esc(x.ch.replace(/_/g,' '))}</td>
@@ -209,11 +209,11 @@ draw();
 <script>
 (function(){
   var links=[].slice.call(document.querySelectorAll('.secnav a'));
-  var tgts=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));}).filter(Boolean);
+  var tgts=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))}).filter(Boolean);
   function spy(){
     var y=window.scrollY+120, cur=null;
-    tgts.forEach(function(el,i){ if(el.offsetTop<=y) cur=i; });
-    links.forEach(function(a,i){ a.className = (i===cur)?'on':''; });
+    tgts.forEach(function(el,i){ if(el.offsetTop<=y) cur=i});
+    links.forEach(function(a,i){ a.className = (i===cur)?'on':''});
   }
   window.addEventListener('scroll',spy,{passive:true}); spy();
 })();
