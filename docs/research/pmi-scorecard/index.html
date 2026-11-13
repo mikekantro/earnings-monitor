@@ -135,7 +135,7 @@ border-radius:4px;border:1px solid var(--rule);background:var(--card);color:var(
 
   <div class="mrow">
     <span><b>61.6</b>Q3 composite (Q2: 62.7)</span>
-    <span><b>89%</b>companies above 50</span>
+    <span><b>81%</b>companies above 50</span>
     <span><b>507 / 591</b>improving / declining</span>
     <span><b>1205</b>same-company pairs</span>
   </div>
@@ -258,7 +258,7 @@ build-out chain, the bottom the consumer aisle.</p>
 
 <section>
   <h2 class="sh">How the scores are built</h2>
-<p class="sp"><!--NEUTP--><b>Read the level against this index's own history, not against 50.</b> Earnings calls are management-curated and the S&P 1500 grows nominally in most quarters, so the index runs structurally hot versus survey-based PMIs: across 15 seasons the pooled company median is <b>61.0</b>, which is this index's empirical neutral (drawn as a dashed line on the time-series charts). The offset is stable across regimes, so season-over-season changes, cross-sections and dispersion carry the signal. A print below 50 here — 17% of companies this season — is a louder statement than in a survey: a narrative management could not frame as growth.<!--/NEUTP--></p>
+<p class="sp"><!--NEUTP--><b>Read the level against this index's own history, not against 50.</b> Earnings calls are management-curated and the S&P 1500 grows nominally in most quarters, so the index runs structurally hot versus survey-based PMIs: across 15 seasons the pooled company median is <b>61.0</b>, which is this index's empirical neutral. The offset is stable across regimes, so season-over-season changes, cross-sections and dispersion carry the signal. A print below 50 here — 17% of companies this season — is a louder statement than in a survey: a narrative management could not frame as growth.<!--/NEUTP--></p>
   <p class="sp">This is an ISM-style diffusion index derived from earnings calls rather than purchasing-manager
      surveys. Each company's quarterly call is read in full context and scored on six sub-indices under a
      <b>fixed rubric applied identically to every company in both quarters</b>. Each sub-index runs 0&ndash;100,
@@ -431,7 +431,6 @@ let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
 for(let v=Math.ceil(y0);v<=y1;v++){if(v%2===0){
 o+=`<line x1="${L}" y1="${Y(v).toFixed(0)}" x2="${W-R}" y2="${Y(v).toFixed(0)}" stroke="#EEF1F3"/>`;
 o+=`<text x="${L-8}" y="${Y(v).toFixed(0)}" font-size="10" fill="#666666" text-anchor="end" dominant-baseline="middle" font-family="Inter,Helvetica,Arial,sans-serif">${v}</text>`}}
-o=nline(o,NEUT,y0,y1,L,W-R,Y);
 rows.forEach((r,i)=>{o+=`<text x="${X(i).toFixed(0)}" y="${H-Bm+16}" font-size="10" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif">${r.l}</text>`});
 HFL.forEach(f=>{
 const pts=rows.map((r,i)=>r[f[0]]!=null?[X(i),Y(r[f[0]])]:null).filter(Boolean);
@@ -469,7 +468,6 @@ let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
 for(let v=Math.ceil(y0);v<=y1;v++){if(v%2===0){
 o+=`<line x1="${L}" y1="${Y(v).toFixed(0)}" x2="${W-R}" y2="${Y(v).toFixed(0)}" stroke="#EEF1F3"/>`;
 o+=`<text x="${L-8}" y="${Y(v).toFixed(0)}" font-size="10" fill="#666666" text-anchor="end" dominant-baseline="middle" font-family="Inter,Helvetica,Arial,sans-serif">${v}</text>`}}
-o=nline(o,NEUT,y0,y1,L,W-R,Y);
 rows.forEach((r,i)=>{if(n<=10||i%2===0||i===n-1)o+=`<text x="${X(i).toFixed(0)}" y="${H-Bm+16}" font-size="10" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif">${r.l}</text>`});
 HFL.forEach(f=>{
 const pts=rows.map((r,i)=>r[f[0]]!=null?[X(i),Y(r[f[0]])]:null).filter(Boolean);
@@ -522,7 +520,6 @@ let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
 for(let v=Math.ceil(y0);v<=y1;v++){if(v%2===0){
 o+=`<line x1="${L}" y1="${Y(v).toFixed(0)}" x2="${W-R}" y2="${Y(v).toFixed(0)}" stroke="#EEF1F3"/>`;
 o+=`<text x="${L-8}" y="${Y(v).toFixed(0)}" font-size="10" fill="#666666" text-anchor="end" dominant-baseline="middle" font-family="Inter,Helvetica,Arial,sans-serif">${v}</text>`;}}
-o=nline(o,NEUT,y0,y1,L,W-R,Y);
 CLBL.forEach((l,i)=>{if(i%2===0||i===n-1)o+=`<text x="${X(i).toFixed(0)}" y="${H-Bm+16}" font-size="10" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif">${l}</text>`;});
 const labs=[];
 series.forEach(sr=>{

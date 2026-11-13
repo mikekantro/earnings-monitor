@@ -219,6 +219,7 @@ s = sub1(s, r"<b>\d+</b>same-company pairs", f"<b>{SC['n']}</b>same-company pair
 s = sub1(s, r"<b>same \d+ companies</b>", f"<b>same {SC['n']} companies</b>", "sc-same")
 s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} companies scored in <i>both</i> seasons", "sc-both")
 s = sub1(s, r"All \d+ Q3-scored companies", f"All {SC['q2n']} Q3-scored companies", "sc-all")
+s = sub1(s, r"<b>\d+%</b>companies above 50", f"<b>{SC['breadth']}%</b>companies above 50", "sc-above50")
 s = sub1(s, r"Q3: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q3: {SC['q2n']} companies scored through {today}", "sc-date")
 def _hist_data():
     _SE=[("Q1'23","pmi_scores_2023q1.json"),("Q2'23","pmi_scores_2023q2.json"),
@@ -1053,7 +1054,7 @@ _t9 = _swapm(_t9, "NEUTP",
     f"<b>Read the level against this index's own history, not against 50.</b> Earnings calls are "
     f"management-curated and the S&P 1500 grows nominally in most quarters, so the index runs structurally "
     f"hot versus survey-based PMIs: across {_nseas} seasons the pooled company median is <b>{NEUT}</b>, which "
-    f"is this index's empirical neutral (drawn as a dashed line on the time-series charts). The offset is "
+    f"is this index's empirical neutral. The offset is "
     f"stable across regimes, so season-over-season changes, cross-sections and dispersion carry the signal. "
     f"A print below 50 here — {_pbelow}% of companies this season — is a louder statement than in a "
     f"survey: a narrative management could not frame as growth.")
@@ -1171,4 +1172,22 @@ _pat9 = _re9.compile(r"data.?center|hyperscal", _re9.I)
 _kw_miss = [t for t, r in best.items() if t not in _bo_in and _pat9.search(r.get("key_signal") or "")]
 if _kw_miss:
     print(f"NOTE recall: {len(_kw_miss)} scored names mention data-center/hyperscaler in key signal without a buildout record: {sorted(_kw_miss)[:10]}")
+# ---------------- v2 single-page data + render ----------------
+try:
+    _mv12 = {"down": [mrow(*m) for m in mv[:12]], "up": [mrow(*m) for m in mv[-12:][::-1]]}
+    V2 = {
+      "today": today, "univ": UNIV_N, "reported": len(best), "season": "Q3 2026",
+      "neut": NEUT, "sc": SC, "thesis": _th if "_th" in dir() else "",
+      "score": score, "sectors": sectors, "movers": _mv12, "mega": mega, "tbl": tbl,
+      "secdata": _sd, "inddata": _idd,
+      "hdata": _hist_data(), "ihdata": _ih, "ihsec": _is9,
+      "rt": _rt,
+    }
+    json.dump(V2, open(f"{ROOT}/v2_data.json", "w"), separators=(",", ":"))
+    import subprocess as _sp9, sys as _sys9
+    _r9 = _sp9.run([_sys9.executable, f"{ROOT}/scripts/build_v2.py"], capture_output=True, text=True)
+    print(_r9.stdout.strip() or _r9.stderr.strip()[:300])
+except Exception as _e9:
+    print(f"v2 render skipped: {type(_e9).__name__}: {_e9}")
+
 print("BUILD OK —", today)
