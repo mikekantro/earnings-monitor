@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 .tx_cache/
 .backfill_targets.json
+.backfill_stderr.txt

@@ -35,6 +35,9 @@ jobs:
       - name: Backfill one step
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS:     ${{ secrets.GMAIL_APP_PASS }}
+          EMAIL_TO:           ${{ secrets.EMAIL_TO }}
           FACTSET_USERNAME:   ${{ secrets.FACTSET_USERNAME }}
           FACTSET_API_KEY:    ${{ secrets.FACTSET_API_KEY }}
           BACKFILL_BUDGET_S:  "2900"

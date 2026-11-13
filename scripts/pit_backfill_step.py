@@ -40,11 +40,25 @@ def main():
     env = dict(os.environ, DIGEST_START=item["start"], DIGEST_END=item["end"],
                SCORES_FILE=item["file"], SEASON_LABEL=label, TARGETS_FILE=tf, SKIP_EMAIL="1")
     print(f"backfill: {item['key']} — {len(targets)} targets, window {item['start']}..{item['end']}")
+    err_tail, rc = "", None
+    errp = os.path.join(ROOT, ".backfill_stderr.txt")
     try:
-        subprocess.run([sys.executable, os.path.join(ROOT, "src", "earnings_monitor.py")],
-                       env=env, cwd=ROOT, timeout=int(os.environ.get("BACKFILL_BUDGET_S", "2900")))
+        with open(errp, "w") as ef:
+            r = subprocess.run([sys.executable, os.path.join(ROOT, "src", "earnings_monitor.py")],
+                               env=env, cwd=ROOT, stderr=ef,
+                               timeout=int(os.environ.get("BACKFILL_BUDGET_S", "2900")))
+        rc = r.returncode
     except subprocess.TimeoutExpired:
         print("backfill: time budget reached (scores are saved per company)")
+    try:
+        import re
+        raw = open(errp).read()[-600:]
+        # the log is committed to a public repo: strip anything that looks like an address or key
+        err_tail = re.sub(r"[\w.+-]+@[\w-]+\.[\w.-]+", "<email>", raw)
+        err_tail = re.sub(r"[A-Za-z0-9_\-]{28,}", "<redacted>", err_tail)[-400:]
+        os.remove(errp)
+    except Exception:
+        pass
     finally:
         try: os.remove(tf)
         except OSError: pass
@@ -57,7 +71,8 @@ def main():
     diag = {}
     try: diag = json.load(open(os.path.join(ROOT, "digest_diag.json")))
     except Exception: pass
-    looked = str(diag.get("transcripts_probe")) == "200"
+    looked = (str(diag.get("transcripts_probe")) == "200"
+              and (diag.get("window") or [""])[0][:10] == item["start"])
     exhausted = looked and not gained and int(diag.get("to_process") or 0) == 0
 
     item["targets"] = [] if exhausted else remaining
@@ -69,7 +84,8 @@ def main():
     except Exception: log = []
     log.append({"at": datetime.datetime.utcnow().isoformat(timespec="minutes"), "season": item["key"],
                 "scored": len(gained), "remaining": len(item["targets"]),
-                "retired": bool(exhausted), "probe": diag.get("transcripts_probe")})
+                "retired": bool(exhausted), "probe": diag.get("transcripts_probe"),
+                "window": (diag.get("window") or [""])[0][:10], "rc": rc, "err": err_tail})
     json.dump(log[-200:], open(LOG, "w"), indent=1)
     left = sum(len(x.get("targets") or []) for x in q)
     print(f"backfill: {item['key']} +{len(gained)} scored, {len(item['targets'])} left in season"
