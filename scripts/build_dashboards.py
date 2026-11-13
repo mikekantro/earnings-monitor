@@ -228,7 +228,7 @@ def _hist_data():
          ("Q1'25","pmi_scores_2025q1.json"),("Q2'25","pmi_scores_2025q2.json"),
          ("Q3'25","pmi_scores_2025q3.json"),("Q4'25","pmi_scores_2025q4.json"),
          ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26","pmi_scores_q2_2026.json"),("Q3'26",None)]
-    _FL=["composite","new_orders","prices","employment"]
+    _FL=["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
     import os as _os
     def _rows(sector=None):
         out=[]
@@ -266,7 +266,7 @@ def _hist_data_ind():
          ("Q1'25","pmi_scores_2025q1.json"),("Q2'25","pmi_scores_2025q2.json"),
          ("Q3'25","pmi_scores_2025q3.json"),("Q4'25","pmi_scores_2025q4.json"),
          ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26","pmi_scores_q2_2026.json"),("Q3'26",None)]
-    _FL=["composite","new_orders","prices","employment"]
+    _FL=["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
     import os as _os
     _imap = load(f"{ROOT}/industry_map.json")
     _hd={}; _isec={}
