@@ -55,6 +55,9 @@ Channel examples:
 - A chip, server, GPU, or electrical-equipment maker -> "equipment_components"
 - The hyperscaler/cloud platform itself citing AI demand for its own
   infrastructure and cloud revenue -> "hyperscaler_platform"
+  ("hyperscaler_platform" is ONLY for the platform companies themselves,
+  e.g. Microsoft/Amazon/Google/Meta/Oracle. A utility, REIT, contractor,
+  bank, or supplier SERVING hyperscalers goes in its own channel.)
 - A builder, contractor, or building-products supplier on data-center
   construction -> "data_center_construction"
 

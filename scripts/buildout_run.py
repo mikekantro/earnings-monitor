@@ -116,11 +116,12 @@ def main():
         os.environ["AI_HIGHLIGHT_MODEL"] = args.model  # shared env var
 
     names = {}
+    SECTORS = {}
     try:
         blob = json.load(open(args.scores))
-    SECTORS = {r.get("ticker"): r.get("sector") for r in (blob.get("scores") or []) if isinstance(r, dict)}
         for r in blob.get("scores", blob):
             names[r["ticker"]] = r.get("name", r["ticker"])
+            SECTORS[r["ticker"]] = r.get("sector")
     except Exception:
         pass
 
