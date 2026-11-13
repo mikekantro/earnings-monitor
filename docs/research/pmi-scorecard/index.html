@@ -26,18 +26,18 @@
 
   section{padding:36px 0 8px}
   .sh{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(17px,1.9vw,22px);margin:0 0 6px;letter-spacing:-.01em}
-  .sp{margin:0 0 20px;color:#4A5A64;font-size:14px;max-width:78ch}
+  .sp{margin:0 0 18px;color:#4A5A64;font-size:14px;line-height:1.6;max-width:76ch}
   .sp b{color:var(--ink)}
 
   /* scorecard */
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
   @media(max-width:860px){.grid2{grid-template-columns:1fr}}
-  .duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
-@media(max-width:860px){.duo{grid-template-columns:1fr}}
-.methd summary{cursor:pointer;font-family:"Titillium Web",sans-serif;font-size:14px;font-weight:600;color:#3E7A99;padding:4px 0;list-style-position:inside}
+  .methd summary{cursor:pointer;font-family:"Titillium Web",sans-serif;font-size:14px;font-weight:600;color:#3E7A99;padding:4px 0;list-style-position:inside}
 .methd[open] summary{margin-bottom:10px}
+h3{font-family:"Titillium Web",sans-serif;font-size:16px;font-weight:600;letter-spacing:0;margin:26px 0 6px;color:var(--ink)}
+.abs{font-size:12.5px;color:#5C6B76;line-height:1.5}
+.note{font-size:12.5px;color:#5C6B76}
 .srtbl{cursor:pointer;user-select:none}.srtbl:hover{color:#3E7A99}
-.statbig{font-family:"IBM Plex Mono",monospace;font-size:26px;font-weight:600;color:#223E4C}
 .stbl{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--card);border:1px solid var(--rule);border-radius:8px;overflow:hidden;box-shadow:var(--shadow)}
   .stbl th{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400;text-align:right;padding:10px 12px;border-bottom:1px solid var(--rule);background:#FAFBFC}
   .stbl th:first-child{text-align:left}
@@ -88,8 +88,8 @@
   .ctbl td{padding:8px 10px;border-bottom:1px solid #EDF0F3;vertical-align:top}
   .ctbl td.num{text-align:right;font-family:"IBM Plex Mono",monospace;white-space:nowrap}
   .ctbl .tk{font-family:"IBM Plex Mono",monospace;font-weight:500}
-  .ctbl .sig{color:#4A5A64;font-size:12px;line-height:1.45;max-width:52ch}
-  .ctbl .sec{color:var(--muted);font-size:11.5px;white-space:nowrap}
+  .ctbl .sig{color:#4A5A64;font-size:12.5px;line-height:1.45;max-width:52ch}
+  .ctbl .sec{color:var(--muted);font-size:12px;white-space:nowrap}
   .more{margin:14px 0 0;text-align:center}
   .more button{font:inherit;font-size:13px;padding:9px 18px;border:1px solid var(--rule);background:var(--card);border-radius:999px;cursor:pointer}
 
@@ -117,7 +117,7 @@ border-radius:999px;border:1px solid var(--rule);background:var(--card);color:va
 .secnav{position:sticky;top:0;z-index:50;background:rgba(246,248,249,.96);backdrop-filter:blur(4px);
   border-bottom:1px solid #E2E8EB;padding:7px 0;margin:0 0 6px}
 .secnav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
-.secnav a{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:#3E4C57;text-decoration:none;
+.secnav a{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#3E4C57;text-decoration:none;
   padding:5px 10px;border-radius:14px;white-space:nowrap;border:1px solid transparent}
 .secnav a:hover{background:#E9EEF0}
 .secnav a.on{background:#223E4C;color:#fff}
@@ -166,13 +166,7 @@ throughout. Select a sector or the whole index; 2025 quarters appear as the hist
 the other sub-indices is the series&rsquo; defining feature.</p>
 <div class="chips" id="hchips"></div>
 <div class="decomp" style="padding:14px 16px" id="hchart"></div>
-<div class="duo" style="grid-template-columns:1fr;max-width:600px">
-<div><h3 style="margin:0 0 4px">Demand&minus;hiring spread</h3>
-<p class="abs" style="margin:0 0 6px">New orders minus employment, index-wide. Demand running ahead of hiring is the margin tailwind; a closing gap means hiring is catching up or demand is rolling over.</p>
-<p style="margin:0 0 6px"><span class="statbig" id="spnow"></span> <span class="abs" id="spsub"></span></p>
-<div class="decomp" style="padding:12px 14px" id="spchart"></div></div>
-</div>
-<h3 style="margin:26px 0 4px">Industry Earnings PMI &mdash; time series</h3>
+<h3>Industry Earnings PMI &mdash; time series</h3>
 <p class="abs" style="margin:0 0 8px">Same series at GICS-industry level. Quarters with fewer than 4 scored companies are omitted; small samples are noisy.</p>
 <select id="itsel" style="font:13px 'Titillium Web',sans-serif;padding:6px 10px;border:1px solid #D8DEE2;border-radius:6px;max-width:100%"></select>
 <span class="abs" id="itnote" style="margin-left:10px"></span>
@@ -376,7 +370,7 @@ if(icol!=null)rows.sort((a,b)=>{const x=a[icol],y=b[icol];return (typeof x==="st
 const btn=document.getElementById("indmore");
 if(btn){btn.textContent=indall?"Show 10 biggest movers":`Show all ${all.length} industries`;btn.style.display=all.length>10?"":"none";}
 document.getElementById("indbody").innerHTML=rows.length?rows.map(r=>
-`<tr><td>${r[0]}</td><td style="font-size:11px;color:var(--muted)">${r[1]}</td><td class="num">${r[2]}</td>
+`<tr><td>${r[0]}</td><td style="font-size:12px;color:var(--muted)">${r[1]}</td><td class="num">${r[2]}</td>
 <td class="num"><b>${r[3].toFixed(1)}</b></td>
 <td class="num ${r[4]>0?"pos":"neg"}">${r[4]>0?"+":""}${r[4].toFixed(1)}</td></tr>`).join("")
 :'<tr><td colspan="5" style="color:var(--muted)">Industry classification pending.</td></tr>';
@@ -448,29 +442,6 @@ const last=rows[rows.length-1];
 document.getElementById("itnote").textContent=last?`${rows.length} quarters charted · n=${last.n} companies in ${last.l}`:"";
 }
 itrender();
-function miniline(id,rows,color,ref){
-const W=340,H=190,L=40,Bm=28,T=12,R=16;
-const ys=rows.map(r=>r.v).concat(ref!=null?[ref]:[]);
-const y0=Math.floor(Math.min(...ys))-1, y1=Math.ceil(Math.max(...ys))+1, n=rows.length;
-const X=i=>L+(i/Math.max(n-1,1))*(W-L-R), Y=v=>H-Bm-(v-y0)/(y1-y0)*(H-Bm-T);
-const st=(y1-y0)>24?10:(y1-y0)>12?5:2;
-let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
-for(let v=Math.ceil(y0/st)*st;v<=y1;v+=st){
-o+=`<line x1="${L}" y1="${Y(v).toFixed(0)}" x2="${W-R}" y2="${Y(v).toFixed(0)}" stroke="#EEF1F3"/>`;
-o+=`<text x="${L-6}" y="${Y(v).toFixed(0)}" font-size="9" fill="#5C6B76" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono,monospace">${v}</text>`;}
-if(ref!=null&&ref>=y0&&ref<=y1)o+=`<line x1="${L}" y1="${Y(ref).toFixed(0)}" x2="${W-R}" y2="${Y(ref).toFixed(0)}" stroke="#B9C4CC" stroke-dasharray="4 3"/>`;
-rows.forEach((r,i)=>{if((i%4===0&&i<n-2)||i===n-1)o+=`<text x="${X(i).toFixed(0)}" y="${H-Bm+14}" font-size="9" fill="#5C6B76" text-anchor="middle" font-family="IBM Plex Mono,monospace">${r.l}</text>`;});
-const pts=rows.map((r,i)=>[X(i),Y(r.v)]);
-o+=`<path d="M${pts.map(q2=>q2[0].toFixed(0)+" "+q2[1].toFixed(0)).join(" L")}" fill="none" stroke="${color}" stroke-width="2.4"/>`;
-pts.forEach(q2=>{o+=`<circle cx="${q2[0].toFixed(0)}" cy="${q2[1].toFixed(0)}" r="2.6" fill="${color}"/>`;});
-o+="</svg>";
-document.getElementById(id).innerHTML=o;}
-(function(){const sp=HDATA.All.filter(r=>r.new_orders!=null&&r.employment!=null).map(r=>({l:r.l,v:+(r.new_orders-r.employment).toFixed(1)}));
-if(!sp.length)return;
-miniline("spchart",sp,"#3E7A99",0);
-const sl=sp[sp.length-1], pv=sp.length>1?sp[sp.length-2].v:null;
-document.getElementById("spnow").textContent=(sl.v>0?"+":"")+sl.v.toFixed(1)+" pts";
-document.getElementById("spsub").textContent=pv!=null?`in ${sl.l} (${pv.toFixed(1)} last quarter)`:`in ${sl.l}`;})();
 
 </script>
 
