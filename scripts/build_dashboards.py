@@ -302,6 +302,42 @@ _ih,_is9 = _hist_data_ind()
 _a9 = s.index("const IHDATA="); _b9 = s.index(";", _a9)
 s = s[:_a9] + "const IHDATA=" + json.dumps(_ih, separators=(",",":")) + ",IHSEC=" + json.dumps(_is9, separators=(",",":")) + s[_b9:]
 print(f"  industry history: {len(_ih)} industries charted")
+
+def _breadth_data():
+    """Share of matched companies improving QoQ (diffusion: up + half of flat)."""
+    _SE=[("Q1'23","pmi_scores_2023q1.json"),("Q2'23","pmi_scores_2023q2.json"),
+         ("Q3'23","pmi_scores_2023q3.json"),("Q4'23","pmi_scores_2023q4.json"),
+         ("Q1'24","pmi_scores_2024q1.json"),("Q2'24","pmi_scores_2024q2.json"),
+         ("Q3'24","pmi_scores_2024q3.json"),("Q4'24","pmi_scores_2024q4.json"),
+         ("Q1'25","pmi_scores_2025q1.json"),("Q2'25","pmi_scores_2025q2.json"),
+         ("Q3'25","pmi_scores_2025q3.json"),("Q4'25","pmi_scores_2025q4.json"),
+         ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26","pmi_scores_q2_2026.json"),("Q3'26",None)]
+    import os as _os
+    seas=[]
+    for lbl,f in _SE:
+        if f is None: S=dict(best)
+        elif _os.path.exists(f"{ROOT}/{f}"):
+            _lt={}
+            for r in load(f"{ROOT}/{f}")["scores"]:
+                t=r["ticker"]
+                if t not in _lt or r.get("date","")>_lt[t].get("date",""): _lt[t]=r
+            S=_lt
+        else: continue
+        seas.append((lbl,S))
+    out=[]
+    for i in range(1,len(seas)):
+        _,P=seas[i-1]; cl,C=seas[i]
+        m=[t for t in C if t in P and C[t].get("composite") is not None and P[t].get("composite") is not None]
+        if len(m)<50: continue
+        up=sum(1 for t in m if C[t]["composite"]>P[t]["composite"])
+        fl=sum(1 for t in m if C[t]["composite"]==P[t]["composite"])
+        out.append({"l":cl,"v":round((up+0.5*fl)/len(m)*100,1),"n":len(m)})
+    return out
+
+_a9 = s.index("const BRDATA="); _b9 = s.index(";", _a9)
+_br = _breadth_data()
+s = s[:_a9] + "const BRDATA=" + json.dumps(_br, separators=(",",":")) + s[_b9:]
+print(f"  breadth: {len(_br)} quarters, latest {_br[-1]['v']}% (n={_br[-1]['n']})" if _br else "  breadth: EMPTY")
 _sfields = ["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
 _sd = {}
 for _f7 in _sfields:
