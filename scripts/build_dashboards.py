@@ -1022,6 +1022,44 @@ wa = s.index("<!--WCHG-->") + 11; wb = s.index("<!--/WCHG-->")
 s = s[:wa] + wchg_html + s[wb:]
 open(p, "w").write(s)
 
+# ---------------- empirical neutral (pooled median across all seasons) ----------------
+def _empirical_neutral():
+    _SE9=["pmi_scores_2023q1.json","pmi_scores_2023q2.json","pmi_scores_2023q3.json","pmi_scores_2023q4.json",
+          "pmi_scores_2024q1.json","pmi_scores_2024q2.json","pmi_scores_2024q3.json","pmi_scores_2024q4.json",
+          "pmi_scores_2025q1.json","pmi_scores_2025q2.json","pmi_scores_2025q3.json","pmi_scores_2025q4.json",
+          "pmi_scores_q1_2026.json","pmi_scores_q2_2026.json"]
+    import os as _os
+    vals=[]
+    nf=0
+    for f in _SE9:
+        if not _os.path.exists(f"{ROOT}/{f}"): continue
+        nf+=1
+        _lt={}
+        for r in load(f"{ROOT}/{f}")["scores"]:
+            t=r["ticker"]
+            if t not in _lt or r.get("date","")>_lt[t].get("date",""): _lt[t]=r
+        vals += [v["composite"] for v in _lt.values() if v.get("composite") is not None]
+    vals += [v["composite"] for v in best.values() if v.get("composite") is not None]
+    return round(float(np.median(vals)),1), nf+1
+
+NEUT, _nseas = _empirical_neutral()
+_below = sum(1 for v in best.values() if v["composite"] < 50)
+_pbelow = round(_below/len(best)*100)
+_sc9 = f"{SITE}/pmi-scorecard/index.html"
+_t9 = open(_sc9).read()
+_a = _t9.index("const NEUT="); _b = _t9.index(";", _a)
+_t9 = _t9[:_a] + f"const NEUT={NEUT}" + _t9[_b:]
+_t9 = _swapm(_t9, "NEUTP",
+    f"<b>Read the level against this index's own history, not against 50.</b> Earnings calls are "
+    f"management-curated and the S&P 1500 grows nominally in most quarters, so the index runs structurally "
+    f"hot versus survey-based PMIs: across {_nseas} seasons the pooled company median is <b>{NEUT}</b>, which "
+    f"is this index's empirical neutral (drawn as a dashed line on the time-series charts). The offset is "
+    f"stable across regimes, so season-over-season changes, cross-sections and dispersion carry the signal. "
+    f"A print below 50 here — {_pbelow}% of companies this season — is a louder statement than in a "
+    f"survey: a narrative management could not frame as growth.")
+open(_sc9, "w").write(_t9)
+print(f"  empirical neutral: {NEUT} across {_nseas} seasons; {_pbelow}% below 50 now")
+
 # ---------------- read-through page ----------------
 import datetime as _dtm
 _TODAY9 = _dtm.date.today()
