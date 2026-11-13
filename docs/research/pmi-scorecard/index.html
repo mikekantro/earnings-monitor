@@ -37,6 +37,9 @@
 h3{font-family:Inter,Helvetica,Arial,sans-serif;font-size:16px;font-weight:600;letter-spacing:0;margin:26px 0 6px;color:var(--ink)}
 .abs{font-size:12.5px;color:#666666;line-height:1.5}
 .note{font-size:12.5px;color:#666666}
+.ctitle{font-size:13.5px;font-weight:600;margin:10px 0 2px;color:var(--ink)}
+.clegend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:#444B50;margin:2px 0 6px}
+.clegend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
 .srtbl{cursor:pointer;user-select:none}.srtbl:hover{color:#1E5162}
 .stbl{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--card);border:1px solid var(--rule);border-radius:8px;overflow:hidden;box-shadow:var(--shadow)}
   .stbl th{font-family:Inter,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400;text-align:right;padding:10px 12px;border-bottom:1px solid var(--rule);background:#FAFBFC}
@@ -166,6 +169,8 @@ throughout. Select a sector or the whole index; 2025 quarters appear as the hist
 the other sub-indices is the series&rsquo; defining feature.</p>
 <div class="chips" id="hchips"></div>
 <p class="abs" style="margin:0 0 6px"><button class="chip" id="hlockb" onclick="hlock=!hlock;hrender()" style="font-size:11px;padding:4px 10px">scale: locked</button> <span class="abs">Locked keeps one y-axis across every sector so moves compare honestly; auto zooms to the selection.</span></p>
+<p class="ctitle" id="hchart_t"></p>
+<div class="clegend" id="hchart_l"></div>
 <div class="decomp" style="padding:14px 16px" id="hchart"></div>
 
 
@@ -177,6 +182,8 @@ the other sub-indices is the series&rsquo; defining feature.</p>
   <select id="cmpind" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px;max-width:320px"><option value="">+ add industry&hellip;</option></select>
 </div>
 <div class="chips" id="cmpchosen"></div>
+<p class="ctitle" id="cmpchart_t"></p>
+<div class="clegend" id="cmpchart_l"></div>
 <div class="decomp" style="padding:14px 16px" id="cmpchart"></div>
 
 <h2 id="s-sectors" class="sh">Sector scorecard</h2>
@@ -200,6 +207,8 @@ build-out chain, the bottom the consumer aisle.</p>
 <select id="itsel" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:6px;max-width:100%"></select>
 <span class="abs" id="itnote" style="margin-left:10px"></span>
 <button class="chip" id="itlockb" onclick="itlock=!itlock;itrender()" style="font-size:11px;padding:4px 10px;margin-left:10px">scale: locked</button>
+<p class="ctitle" id="itchart_t"></p>
+<div class="clegend" id="itchart_l"></div>
 <div class="decomp" style="padding:14px 16px" id="itchart"></div>
 <p class="note"><!--INDN-->The 51 industries above cover 1100 of the 1216 companies reported so far; the remaining 116 sit in industries with fewer than 8 reports, which join the table as coverage grows.<!--/INDN--></p>
 
@@ -400,15 +409,19 @@ const HFL=[["composite","#1E5162",3.2,"Composite"],["new_orders","#1E5162",1.8,"
 let hsec="All";
 function hchips(){document.getElementById("hchips").innerHTML=Object.keys(HDATA)
 .map(k=>`<button class="chip ${k===hsec?"on":""}" onclick="hsec='${k.replace(/'/g,"\\'")}';hchips();hrender()">${k}</button>`).join("")}
+function cleg(id,items){document.getElementById(id).innerHTML=items.map(x=>`<span><i style="background:${x[1]}"></i>${x[0]}</span>`).join("");}
 const HEXT=(()=>{const ys=[];Object.values(HDATA).forEach(rs=>rs.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])})));return [Math.min(...ys)-2,Math.max(...ys)+2]})();
 let hlock=true;
 function hrender(){
 const rows=HDATA[hsec]||[];
-const W=720,H=300,L=52,Bm=42,T=16,R=120;
+document.getElementById("hchart_t").textContent=(hsec==="All"?"S&P 1500":hsec)+" \u2014 Earnings PMI sub-indices, Q1'23 to date";
+cleg("hchart_l",HFL.map(f=>[f[3],f[1]]));
+const W=720,H=300,L=52,Bm=42,T=16,R=56;
 const ys=[]; rows.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])}));
 const y0=hlock?HEXT[0]:Math.min(...ys)-2, y1=hlock?HEXT[1]:Math.max(...ys)+2, n=rows.length;
 const lb=document.getElementById("hlockb"); if(lb)lb.textContent="scale: "+(hlock?"locked":"auto");
 const X=i=>L+(i/Math.max(n-1,1))*(W-L-R), Y=v=>H-Bm-(v-y0)/(y1-y0)*(H-Bm-T);
+const hlabs=[];
 let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
 for(let v=Math.ceil(y0);v<=y1;v++){if(v%2===0){
 o+=`<line x1="${L}" y1="${Y(v).toFixed(0)}" x2="${W-R}" y2="${Y(v).toFixed(0)}" stroke="#EEF1F3"/>`;
@@ -420,7 +433,10 @@ if(pts.length<2)return;
 o+=`<path d="M${pts.map(p=>p[0].toFixed(0)+" "+p[1].toFixed(0)).join(" L")}" fill="none" stroke="${f[1]}" stroke-width="${f[2]}"/>`;
 pts.forEach(p=>{o+=`<circle cx="${p[0].toFixed(0)}" cy="${p[1].toFixed(0)}" r="${(f[2]+0.8).toFixed(1)}" fill="${f[1]}"/>`});
 const lp=pts[pts.length-1], lv=rows[rows.length-1][f[0]];
-o+=`<text x="${(lp[0]+9).toFixed(0)}" y="${(lp[1]+3).toFixed(0)}" font-size="11" font-weight="600" fill="${f[1]}" font-family="Inter,Helvetica,Arial,sans-serif">${f[3]} ${lv!=null?lv.toFixed(1):""}</text>`});
+hlabs.push({x:lp[0]+8,y:lp[1]+3,c:f[1],t:lv!=null?lv.toFixed(1):""})});
+hlabs.sort((a,b)=>a.y-b.y);
+for(let i=1;i<hlabs.length;i++){if(hlabs[i].y-hlabs[i-1].y<13)hlabs[i].y=hlabs[i-1].y+13;}
+hlabs.forEach(l=>{o+=`<text x="${l.x.toFixed(0)}" y="${l.y.toFixed(0)}" font-size="11" font-weight="600" fill="${l.c}" font-family="Inter,Helvetica,Arial,sans-serif">${l.t}</text>`;});
 o+="</svg>";
 document.getElementById("hchart").innerHTML=o;
 }
@@ -435,7 +451,9 @@ const IEXT=(()=>{const ys=[];Object.values(IHDATA).forEach(rs=>rs.forEach(r=>HFL
 let itlock=true;
 function itrender(){
 const rows=IHDATA[itind]||[];
-const W=720,H=300,L=52,Bm=42,T=16,R=120;
+document.getElementById("itchart_t").textContent=itind+" \u2014 Industry Earnings PMI sub-indices";
+cleg("itchart_l",HFL.map(f=>[f[3],f[1]]));
+const W=720,H=300,L=52,Bm=42,T=16,R=56;
 const ys=[]; rows.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])}));
 const y0=itlock?IEXT[0]:Math.min(...ys)-2, y1=itlock?IEXT[1]:Math.max(...ys)+2, n=rows.length;
 const lb=document.getElementById("itlockb"); if(lb)lb.textContent="scale: "+(itlock?"locked":"auto");
@@ -452,7 +470,7 @@ if(pts.length<2)return;
 o+=`<path d="M${pts.map(p=>p[0].toFixed(0)+" "+p[1].toFixed(0)).join(" L")}" fill="none" stroke="${f[1]}" stroke-width="${f[2]}"/>`;
 pts.forEach(p=>{o+=`<circle cx="${p[0].toFixed(0)}" cy="${p[1].toFixed(0)}" r="${(f[2]+0.8).toFixed(1)}" fill="${f[1]}"/>`});
 const lp=pts[pts.length-1], lv=rows[rows.length-1][f[0]];
-itlabels.push({x:lp[0]+9,y:lp[1]+3,c:f[1],t:`${f[3]} ${lv!=null?lv.toFixed(1):""}`})});
+itlabels.push({x:lp[0]+8,y:lp[1]+3,c:f[1],t:lv!=null?lv.toFixed(1):""})});
 itlabels.sort((a,b)=>a.y-b.y);
 for(let i=1;i<itlabels.length;i++){if(itlabels[i].y-itlabels[i-1].y<13)itlabels[i].y=itlabels[i-1].y+13}
 itlabels.forEach(l=>{o+=`<text x="${l.x.toFixed(0)}" y="${l.y.toFixed(0)}" font-size="11" font-weight="600" fill="${l.c}" font-family="Inter,Helvetica,Arial,sans-serif">${l.t}</text>`});
@@ -484,7 +502,10 @@ const add=(kind)=>(e)=>{const v=e.target.value;if(!v)return;e.target.value="";
 ss.onchange=add("S"); si.onchange=add("I");
 })();
 function cmprender(){
-const W=760,H=320,L=52,Bm=42,T=16,R=170;
+const _ml=(SFIELDS.find(f=>f[0]===cmet)||["",cmet])[1];
+document.getElementById("cmpchart_t").textContent=_ml+" \u2014 "+(csel.length?csel.map(c=>c[1]).join(" vs "):"select series");
+cleg("cmpchart_l",csel.map((c,i)=>[c[1],CMPCOL[i%6]]));
+const W=760,H=320,L=52,Bm=42,T=16,R=56;
 const series=csel.map((c,i)=>({name:c[1],col:CMPCOL[i%6],map:Object.fromEntries(cmprow(c[0],c[1]).map(r=>[r.l,r[cmet]]))}));
 const ys=[];series.forEach(sr=>CLBL.forEach(l=>{const v=sr.map[l];if(v!=null)ys.push(v)}));
 if(!ys.length){document.getElementById("cmpchart").innerHTML='<p class="abs">Add a sector or industry to compare.</p>';return}
@@ -502,7 +523,7 @@ if(pts.length<2)return;
 o+=`<path d="M${pts.map(p=>p[0].toFixed(0)+" "+p[1].toFixed(0)).join(" L")}" fill="none" stroke="${sr.col}" stroke-width="2.4"/>`;
 pts.forEach(p=>{o+=`<circle cx="${p[0].toFixed(0)}" cy="${p[1].toFixed(0)}" r="2.6" fill="${sr.col}"/>`;});
 const lp=pts[pts.length-1];
-labs.push({x:lp[0]+9,y:lp[1]+3,c:sr.col,t:`${sr.name.length>22?sr.name.slice(0,21)+"…":sr.name} ${lp[2].toFixed(1)}`});});
+labs.push({x:lp[0]+8,y:lp[1]+3,c:sr.col,t:lp[2].toFixed(1)})});
 labs.sort((a,b)=>a.y-b.y);
 for(let i=1;i<labs.length;i++){if(labs[i].y-labs[i-1].y<13)labs[i].y=labs[i-1].y+13;}
 labs.forEach(l=>{o+=`<text x="${l.x.toFixed(0)}" y="${l.y.toFixed(0)}" font-size="11" font-weight="600" fill="${l.c}" font-family="Inter,Helvetica,Arial,sans-serif">${l.t}</text>`;});
@@ -525,5 +546,6 @@ cmpchips();cmprender();
   window.addEventListener('scroll',spy,{passive:true}); spy();
 })();
 </script>
+<script>document.querySelectorAll("main table, main .decomp, main [id$='chart']").forEach(el=>{if(el.closest(".decomp")&&el.closest(".decomp")!==el)return;const p=document.createElement("p");p.style.cssText="font-size:9.5px;color:#9AA4AB;margin:4px 0 14px;font-family:Inter,Helvetica,Arial,sans-serif";p.textContent="Source: Piper Sandler Portfolio Strategy Earnings Intelligence";el.insertAdjacentElement("afterend",p)});</script>
 </body>
 </html>

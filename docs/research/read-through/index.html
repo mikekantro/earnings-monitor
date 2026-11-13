@@ -152,5 +152,6 @@ function renderLate(){
 }
 render();renderInd();renderLate();
 </script>
+<script>document.querySelectorAll("main table, main .decomp, main [id$='chart']").forEach(el=>{if(el.closest(".decomp")&&el.closest(".decomp")!==el)return;const p=document.createElement("p");p.style.cssText="font-size:9.5px;color:#9AA4AB;margin:4px 0 14px;font-family:Inter,Helvetica,Arial,sans-serif";p.textContent="Source: Piper Sandler Portfolio Strategy Earnings Intelligence";el.insertAdjacentElement("afterend",p)});</script>
 </body>
 </html>
