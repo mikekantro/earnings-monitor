@@ -165,8 +165,19 @@ border-radius:4px;border:1px solid var(--rule);background:var(--card);color:var(
 throughout. Select a sector or the whole index; 2025 quarters appear as the historical backfill completes. employment&rsquo;s persistent gap below
 the other sub-indices is the series&rsquo; defining feature.</p>
 <div class="chips" id="hchips"></div>
+<p class="abs" style="margin:0 0 6px"><button class="chip" id="hlockb" onclick="hlock=!hlock;hrender()" style="font-size:11px;padding:4px 10px">scale: locked</button> <span class="abs">Locked keeps one y-axis across every sector so moves compare honestly; auto zooms to the selection.</span></p>
 <div class="decomp" style="padding:14px 16px" id="hchart"></div>
 
+
+<h3>Compare sectors &amp; industries</h3>
+<p class="abs" style="margin:0 0 8px">Overlay up to six series on one metric and one locked scale. Mix sectors and industries freely.</p>
+<div class="chips" id="cmpmet"></div>
+<div style="margin:0 0 8px">
+  <select id="cmpsec" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px"><option value="">+ add sector&hellip;</option></select>
+  <select id="cmpind" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px;max-width:320px"><option value="">+ add industry&hellip;</option></select>
+</div>
+<div class="chips" id="cmpchosen"></div>
+<div class="decomp" style="padding:14px 16px" id="cmpchart"></div>
 
 <h2 id="s-sectors" class="sh">Sector scorecard</h2>
 <p class="note">Every sub-index, by sector. Select a component; the table re-ranks instantly.
@@ -188,6 +199,7 @@ build-out chain, the bottom the consumer aisle.</p>
 <p class="abs" style="margin:0 0 8px">Same series at GICS-industry level. Quarters with fewer than 4 scored companies are omitted; small samples are noisy.</p>
 <select id="itsel" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:6px;max-width:100%"></select>
 <span class="abs" id="itnote" style="margin-left:10px"></span>
+<button class="chip" id="itlockb" onclick="itlock=!itlock;itrender()" style="font-size:11px;padding:4px 10px;margin-left:10px">scale: locked</button>
 <div class="decomp" style="padding:14px 16px" id="itchart"></div>
 <p class="note"><!--INDN-->The 51 industries above cover 1100 of the 1216 companies reported so far; the remaining 116 sit in industries with fewer than 8 reports, which join the table as coverage grows.<!--/INDN--></p>
 
@@ -388,11 +400,14 @@ const HFL=[["composite","#1E5162",3.2,"Composite"],["new_orders","#1E5162",1.8,"
 let hsec="All";
 function hchips(){document.getElementById("hchips").innerHTML=Object.keys(HDATA)
 .map(k=>`<button class="chip ${k===hsec?"on":""}" onclick="hsec='${k.replace(/'/g,"\\'")}';hchips();hrender()">${k}</button>`).join("")}
+const HEXT=(()=>{const ys=[];Object.values(HDATA).forEach(rs=>rs.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])})));return [Math.min(...ys)-2,Math.max(...ys)+2]})();
+let hlock=true;
 function hrender(){
 const rows=HDATA[hsec]||[];
 const W=720,H=300,L=52,Bm=42,T=16,R=120;
 const ys=[]; rows.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])}));
-const y0=Math.min(...ys)-2, y1=Math.max(...ys)+2, n=rows.length;
+const y0=hlock?HEXT[0]:Math.min(...ys)-2, y1=hlock?HEXT[1]:Math.max(...ys)+2, n=rows.length;
+const lb=document.getElementById("hlockb"); if(lb)lb.textContent="scale: "+(hlock?"locked":"auto");
 const X=i=>L+(i/Math.max(n-1,1))*(W-L-R), Y=v=>H-Bm-(v-y0)/(y1-y0)*(H-Bm-T);
 let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
 for(let v=Math.ceil(y0);v<=y1;v++){if(v%2===0){
@@ -416,11 +431,14 @@ let itind=IHDATA[IHDEF]?IHDEF:Object.keys(IHDATA)[0];
 document.getElementById("itsel").innerHTML=Object.keys(bysec).sort()
 .map(sx=>`<optgroup label="${sx}">`+bysec[sx].sort().map(k=>`<option value="${k.replace(/"/g,"&quot;")}" ${k===itind?"selected":""}>${k}</option>`).join("")+"</optgroup>").join("");
 document.getElementById("itsel").onchange=e=>{itind=e.target.value;itrender()}})();
+const IEXT=(()=>{const ys=[];Object.values(IHDATA).forEach(rs=>rs.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])})));return [Math.min(...ys)-2,Math.max(...ys)+2]})();
+let itlock=true;
 function itrender(){
 const rows=IHDATA[itind]||[];
 const W=720,H=300,L=52,Bm=42,T=16,R=120;
 const ys=[]; rows.forEach(r=>HFL.forEach(f=>{if(r[f[0]]!=null)ys.push(r[f[0]])}));
-const y0=Math.min(...ys)-2, y1=Math.max(...ys)+2, n=rows.length;
+const y0=itlock?IEXT[0]:Math.min(...ys)-2, y1=itlock?IEXT[1]:Math.max(...ys)+2, n=rows.length;
+const lb=document.getElementById("itlockb"); if(lb)lb.textContent="scale: "+(itlock?"locked":"auto");
 const X=i=>L+(i/Math.max(n-1,1))*(W-L-R), Y=v=>H-Bm-(v-y0)/(y1-y0)*(H-Bm-T);
 const itlabels=[];
 let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
@@ -444,6 +462,54 @@ const last=rows[rows.length-1];
 document.getElementById("itnote").textContent=last?`${rows.length} quarters charted · n=${last.n} companies in ${last.l}`:"";
 }
 itrender();
+// ---- comparison chart ----
+const CMPCOL=["#1E5162","#C24F1F","#5B8CA3","#8A6FA8","#A3772E","#444B50"];
+let cmet="new_orders";
+let csel=[["S","Technology"],["S","Industrials"],["S","Consumer Discretionary"]];
+const CLBL=HDATA.All.map(r=>r.l);
+function cmprow(kind,name){return kind==="S"?(HDATA[name]||[]):(IHDATA[name]||[])}
+function cmpchips(){
+document.getElementById("cmpmet").innerHTML=SFIELDS.filter(f=>["composite","new_orders","prices","employment"].includes(f[0]))
+ .map(f=>`<button class="chip ${f[0]===cmet?"on":""}" onclick="cmet='${f[0]}';cmpchips();cmprender()">${f[1]}</button>`).join("");
+document.getElementById("cmpchosen").innerHTML=csel.map((c,i)=>
+ `<button class="chip" style="border-color:${CMPCOL[i%6]};color:${CMPCOL[i%6]}" onclick="csel.splice(${i},1);cmpchips();cmprender()">${c[1]} &times;</button>`).join("");
+}
+(function(){
+const ss=document.getElementById("cmpsec"), si=document.getElementById("cmpind");
+Object.keys(HDATA).filter(k=>k!=="All").sort().forEach(k=>{const o=document.createElement("option");o.value=k;o.textContent=k;ss.appendChild(o)});
+const bysec={};Object.keys(IHDATA).forEach(k=>{(bysec[IHSEC[k]||"Other"]=bysec[IHSEC[k]||"Other"]||[]).push(k)});
+Object.keys(bysec).sort().forEach(sx=>{const g=document.createElement("optgroup");g.label=sx;bysec[sx].sort().forEach(k=>{const o=document.createElement("option");o.value=k;o.textContent=k;g.appendChild(o)});si.appendChild(g)});
+const add=(kind)=>(e)=>{const v=e.target.value;if(!v)return;e.target.value="";
+ if(csel.length>=6||csel.some(c=>c[1]===v))return;csel.push([kind,v]);cmpchips();cmprender();};
+ss.onchange=add("S"); si.onchange=add("I");
+})();
+function cmprender(){
+const W=760,H=320,L=52,Bm=42,T=16,R=170;
+const series=csel.map((c,i)=>({name:c[1],col:CMPCOL[i%6],map:Object.fromEntries(cmprow(c[0],c[1]).map(r=>[r.l,r[cmet]]))}));
+const ys=[];series.forEach(sr=>CLBL.forEach(l=>{const v=sr.map[l];if(v!=null)ys.push(v)}));
+if(!ys.length){document.getElementById("cmpchart").innerHTML='<p class="abs">Add a sector or industry to compare.</p>';return}
+const y0=Math.min(...ys)-2,y1=Math.max(...ys)+2,n=CLBL.length;
+const X=i=>L+(i/Math.max(n-1,1))*(W-L-R), Y=v=>H-Bm-(v-y0)/(y1-y0)*(H-Bm-T);
+let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+for(let v=Math.ceil(y0);v<=y1;v++){if(v%2===0){
+o+=`<line x1="${L}" y1="${Y(v).toFixed(0)}" x2="${W-R}" y2="${Y(v).toFixed(0)}" stroke="#EEF1F3"/>`;
+o+=`<text x="${L-8}" y="${Y(v).toFixed(0)}" font-size="10" fill="#666666" text-anchor="end" dominant-baseline="middle" font-family="Inter,Helvetica,Arial,sans-serif">${v}</text>`;}}
+CLBL.forEach((l,i)=>{if(i%2===0||i===n-1)o+=`<text x="${X(i).toFixed(0)}" y="${H-Bm+16}" font-size="10" fill="#666666" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif">${l}</text>`;});
+const labs=[];
+series.forEach(sr=>{
+const pts=CLBL.map((l,i)=>sr.map[l]!=null?[X(i),Y(sr.map[l]),sr.map[l]]:null).filter(Boolean);
+if(pts.length<2)return;
+o+=`<path d="M${pts.map(p=>p[0].toFixed(0)+" "+p[1].toFixed(0)).join(" L")}" fill="none" stroke="${sr.col}" stroke-width="2.4"/>`;
+pts.forEach(p=>{o+=`<circle cx="${p[0].toFixed(0)}" cy="${p[1].toFixed(0)}" r="2.6" fill="${sr.col}"/>`;});
+const lp=pts[pts.length-1];
+labs.push({x:lp[0]+9,y:lp[1]+3,c:sr.col,t:`${sr.name.length>22?sr.name.slice(0,21)+"…":sr.name} ${lp[2].toFixed(1)}`});});
+labs.sort((a,b)=>a.y-b.y);
+for(let i=1;i<labs.length;i++){if(labs[i].y-labs[i-1].y<13)labs[i].y=labs[i-1].y+13;}
+labs.forEach(l=>{o+=`<text x="${l.x.toFixed(0)}" y="${l.y.toFixed(0)}" font-size="11" font-weight="600" fill="${l.c}" font-family="Inter,Helvetica,Arial,sans-serif">${l.t}</text>`;});
+o+="</svg>";
+document.getElementById("cmpchart").innerHTML=o;
+}
+cmpchips();cmprender();
 
 </script>
 
