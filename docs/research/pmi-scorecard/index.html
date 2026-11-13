@@ -180,6 +180,7 @@ the other sub-indices is the series&rsquo; defining feature.</p>
 <div style="margin:0 0 8px">
   <select id="cmpsec" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px"><option value="">+ add sector&hellip;</option></select>
   <select id="cmpind" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px;max-width:320px"><option value="">+ add industry&hellip;</option></select>
+  <input list="indlist" id="cmptype" placeholder="or type an industry to add…" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px;width:250px">
 </div>
 <div class="chips" id="cmpchosen"></div>
 <p class="ctitle" id="cmpchart_t"></p>
@@ -205,6 +206,7 @@ build-out chain, the bottom the consumer aisle.</p>
 <h3>Industry Earnings PMI &mdash; time series</h3>
 <p class="abs" style="margin:0 0 8px">Same series at GICS-industry level. Quarters with fewer than 4 scored companies are omitted; small samples are noisy.</p>
 <select id="itsel" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:6px;max-width:100%"></select>
+<input list="indlist" id="ittype" placeholder="or type an industry…" style="font:13px Inter,Helvetica,Arial,sans-serif;padding:6px 10px;border:1px solid #DDDDDD;border-radius:4px;width:230px;margin-left:8px"><datalist id="indlist"></datalist>
 <span class="abs" id="itnote" style="margin-left:10px"></span>
 <button class="chip" id="itlockb" onclick="itlock=!itlock;itrender()" style="font-size:11px;padding:4px 10px;margin-left:10px">scale: locked</button>
 <p class="ctitle" id="itchart_t"></p>
@@ -536,6 +538,13 @@ o+="</svg>";
 document.getElementById("cmpchart").innerHTML=o;
 }
 cmpchips();cmprender();
+// type-ahead for industries (native datalist autocomplete)
+document.getElementById("indlist").innerHTML=Object.keys(IHDATA).sort().map(k=>`<option value="${k.replace(/"/g,"&quot;")}">`).join("");
+(function(){const pick=(v)=>{const lv=v.trim().toLowerCase();return Object.keys(IHDATA).find(k=>k.toLowerCase()===lv)};
+const a=document.getElementById("ittype");
+a.addEventListener("change",()=>{const k=pick(a.value);if(!k)return;itind=k;document.getElementById("itsel").value=k;itrender();a.value=""});
+const c=document.getElementById("cmptype");
+c.addEventListener("change",()=>{const k=pick(c.value);if(!k)return;c.value="";if(csel.length>=6||csel.some(x=>x[1]===k))return;csel.push(["I",k]);cmpchips();cmprender()});})();
 
 </script>
 

@@ -197,12 +197,13 @@ svg text{font-family:Inter,Helvetica,Arial,sans-serif}
     <p class="src">%SRC%</p></div>
 </div>
 <div class="card"><h3>Industry time series <span class="sub">locked scale across industries</span>
-  <select id="v2itsel" style="float:right;margin-top:-4px"></select></h3>
+  <select id="v2itsel" style="float:right;margin-top:-4px"></select><input list="v2indlist" id="v2ittype" placeholder="or type an industry…" style="float:right;margin:-4px 8px 0 0;width:220px"><datalist id="v2indlist"></datalist></h3>
   <div class="clegend" id="v2itleg"></div><div id="v2itchart"></div><p class="src">%SRC%</p></div>
 <div class="card"><h3>Compare sectors &amp; industries <span class="sub">up to six series, one metric, one scale</span></h3>
   <p style="margin:0 0 8px"><span id="v2cmet"></span></p>
   <p style="margin:0 0 8px"><select id="v2csec"><option value="">+ add sector&hellip;</option></select>
-  <select id="v2cind"><option value="">+ add industry&hellip;</option></select></p>
+  <select id="v2cind"><option value="">+ add industry&hellip;</option></select>
+  <input list="v2indlist" id="v2ctype" placeholder="or type an industry to add…" style="width:250px"></p>
   <div id="v2csel"></div><div class="clegend" id="v2cleg"></div><div id="v2cchart"></div><p class="src">%SRC%</p></div>
 
 <a id="pmi-movers"></a>
@@ -320,6 +321,10 @@ labs.sort((a,b)=>a.y-b.y);for(let i=1;i<labs.length;i++)if(labs[i].y-labs[i-1].y
 labs.forEach(l=>o+=`<text x="${l.x|0}" y="${l.y|0}" font-size="11" font-weight="600" fill="${l.c}">${l.t}</text>`);
 $("v2cchart").innerHTML=o+"</svg>"}
 cmchips();crender();
+$("v2indlist").innerHTML=Object.keys(V2.ihdata).sort().map(k=>`<option value="${k.replace(/"/g,"&quot;")}">`).join("");
+(function(){const pick=v=>{const lv=v.trim().toLowerCase();return Object.keys(V2.ihdata).find(k=>k.toLowerCase()===lv)};
+const a=$("v2ittype");a.addEventListener("change",()=>{const k=pick(a.value);if(!k)return;$("v2itsel").value=k;line("v2itchart",V2.ihdata,k,IEXT);a.value=""});
+const c=$("v2ctype");c.addEventListener("change",()=>{const k=pick(c.value);if(!k)return;c.value="";if(csel.length>=6||csel.some(x=>x[1]===k))return;csel.push(["I",k]);cmchips();crender()});})();
 // every company
 let shown=25;
 (function(){const s=$("v2fsec");[...new Set(V2.tbl.map(r=>r.s))].sort().forEach(x=>{const o=document.createElement("option");o.value=x;o.textContent=x;s.appendChild(o)})})();
