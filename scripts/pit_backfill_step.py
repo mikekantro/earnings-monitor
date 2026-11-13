@@ -94,7 +94,7 @@ def main():
 
     item["targets"] = [] if exhausted else remaining
     if exhausted:
-        item["unavailable"] = remaining
+        item["unavailable"] = sorted(set(item.get("unavailable") or []) | set(remaining))
     json.dump(q, open(QP, "w"), separators=(",", ":"))
 
     try: log = json.load(open(LOG))
