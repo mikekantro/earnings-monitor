@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-12T18:18:44.552647",
+ "generated": "2026-11-13T02:04:45.604999",
  "window": [
   "2026-07-15",
-  "2026-11-12"
+  "2026-11-13"
  ],
  "highlights": [
   {
@@ -402,30 +402,6 @@
    "event_date": "2026-08-25"
   },
   {
-   "ticker": "ENS",
-   "company": "EnerSys",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$31 million",
-   "headline": "EnerSys received $31 million ($0.63/share) in IEEPA tariff refunds in Q1 2027, treated as a one-time benefit.",
-   "quote_receiving": "we realized $31 million or $0.63 per share of tariff refunds related to previously paid IEEPA tariffs, creating a one-time positive impact on our results.",
-   "quote_customers": "",
-   "event_date": "2026-08-13"
-  },
-  {
-   "ticker": "EYE",
-   "company": "National Vision Holdings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$5 million",
-   "headline": "National Vision applied for ~$5M in tariff refunds expected to benefit costs in Q3 2026; plans to reinvest refunds into incremental marketing.",
-   "quote_receiving": "we applied for approximately $5 million in tariff refunds, which is expected to benefit costs applicable to revenue in the third quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-12"
-  },
-  {
    "ticker": "FIVE",
    "company": "Five Below, Inc.",
    "receiving": true,
@@ -580,30 +556,6 @@
    "quote_receiving": "We're pleased to have received a refund of $200 million.",
    "quote_customers": "We are excited to be able to reimburse a total of $47 million to many of our vendors for the discounts they gave us to mitigate the tariff pressures",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "WWW",
-   "company": "Wolverine World Wide, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "undecided",
-   "amount": "$36 million",
-   "headline": "Wolverine World Wide actively pursuing refund of $36M in IEEPA tariffs previously paid; excluded from current guidance.",
-   "quote_receiving": "Our guidance excludes any potential refund related to the $36 million of IEEPA tariffs previously paid, which we continue to actively pursue.",
-   "quote_customers": "",
-   "event_date": "2026-08-13"
-  },
-  {
-   "ticker": "YETI",
-   "company": "YETI Holdings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$8.2 million",
-   "headline": "YETI received $8.2M in IEEPA tariff refunds in Q2 2026, contributing 170 bps gross margin benefit and $0.08 EPS uplift.",
-   "quote_receiving": "a 170-basis point or $8.2 million benefit from refunds of IEEPA tariffs expensed in 2026",
-   "quote_customers": "",
-   "event_date": "2026-08-13"
   },
   {
    "ticker": "COO",
@@ -2032,6 +1984,150 @@
    "quote_receiving": "During the second quarter, we received $13.3 million IEEPA refund and $36 million in the third quarter. We believe approximately $4 million remain to be returned during the fourth quarter.",
    "quote_customers": "",
    "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "ADIG",
+   "company": "ADI Global Distribution, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$24 million",
+   "headline": "ADI Global received ~$4M in tariff refunds in Q3; $24M total recognized in full year 2026, not expected to recur in 2027.",
+   "quote_receiving": "The quarter included approximately $4 million of tariff refunds and an $8 million benefit related to the accounting basis of basis of inventory held at separation.",
+   "quote_customers": "",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "ENS",
+   "company": "EnerSys",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$29 million",
+   "headline": "EnerSys reports $29M year-to-date tariff expense refunds ($0.59/share); excluded from line-of-business results.",
+   "quote_receiving": "bringing our year-to-date tariff expense refunds to $29 million or $0.59 per share",
+   "quote_customers": "",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "EYE",
+   "company": "National Vision Holdings, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$4.7 million",
+   "headline": "National Vision received $4.7M IEEPA tariff refunds in Q3; reinvesting funds in marketing and customer acquisition.",
+   "quote_receiving": "the recovery of our IEEPA tariff refunds. Excluding this one-time $4.7 million benefit from the tariff refunds, gross profit increased approximately 4%",
+   "quote_customers": "",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "TILE",
+   "company": "Interface, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Interface received IEEPA tariff refunds in Q2; treated as one-time gross margin benefit in full-year guidance.",
+   "quote_receiving": "our full-year adjusted gross profit margin guidance includes the one-time benefit of the IEEPA tariff refunds that we received in the second quarter",
+   "quote_customers": "",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "TMO",
+   "company": "Thermo Fisher Scientific, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$60 million",
+   "headline": "Thermo Fisher received ~$60M net tariff refunds in Q3, reinvesting proceeds into AI, pharma services capacity, and employee support.",
+   "quote_receiving": "in the third quarter, we received approvals and recognized the associated recovery for the vast majority of our total potential refund claims",
+   "quote_customers": "",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "TNC",
+   "company": "Tennant Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$6.1 million",
+   "headline": "Tennant received $6.1M in IEEPA tariff refunds for prior-period payments, recognized as a one-time benefit in Q3 adjusted EBITDA.",
+   "quote_receiving": "approximately $6.1 million of tariff refunds paid in prior periods related to changes in IEEPA tariff regulations",
+   "quote_customers": "",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "TSLA",
+   "company": "Tesla, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Tesla received tariff refunds in Q3, which boosted energy gross margins and are being reinvested to expand US production capacity.",
+   "quote_receiving": "The money that we received from the tariff refunds is being reinvested to expand production capacity in the US.",
+   "quote_customers": "",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "VLO",
+   "company": "Valero Energy Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "DGD received a one-time IEEPA recovery benefit in Q2 that boosted margin capture that quarter.",
+   "quote_receiving": "2Q had a lot of one-off onetime benefits like IEEPA recovery, as well as a lot of modeling updates and year-to-date true-ups.",
+   "quote_customers": "",
+   "event_date": "2026-10-22"
+  },
+  {
+   "ticker": "WAB",
+   "company": "Westinghouse Air Brake Technologies Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "WAB received a nominal tariff refund in Q3, partially offsetting year-over-year net tariff headwinds on operating margin.",
+   "quote_receiving": "year-over-year net tariffs, which included a nominal tariff refund",
+   "quote_customers": "",
+   "event_date": "2026-10-21"
+  },
+  {
+   "ticker": "WWW",
+   "company": "Wolverine World Wide, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$0.31 per share benefit",
+   "headline": "Wolverine World Wide received IEEPA tariff refunds in Q3 2026, contributing $0.31 per share to adjusted EPS.",
+   "quote_receiving": "adjusted earnings per share of $0.79, which includes a $0.31 benefit from IEEPA tariff refunds received in the quarter",
+   "quote_customers": "",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "YETI",
+   "company": "YETI Holdings, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$5 million",
+   "headline": "YETI received IEEPA tariff refunds in 2026; ~$5M residual refund partially recognized in Q4, remainder bridging to Q1.",
+   "quote_receiving": "including the refunds, a change in the expectation about the base tariff rates. All-in 2026 tariff impact is approximately $40 million as well.",
+   "quote_customers": "",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "ZTS",
+   "company": "Zoetis, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Zoetis received refunds related to prior tariff assessments, partially offsetting gross margin pressure in Q1.",
+   "quote_receiving": "partially offset by refunds related to prior tariff assessments",
+   "quote_customers": "",
+   "event_date": "2026-11-05"
   }
  ]
 }

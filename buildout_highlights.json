@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-12T18:18:50.037712",
+ "generated": "2026-11-13T02:14:57.999675",
  "window": [
   "2026-07-15",
-  "2026-11-12"
+  "2026-11-13"
  ],
  "highlights": [
   {
@@ -174,16 +174,6 @@
    "direction": "accelerating",
    "headline": "Dycom Industries cites AI workloads and data-center growth as drivers of long-haul fiber demand and backlog expansion.",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "ENS",
-   "company": "EnerSys",
-   "channel": "equipment_components",
-   "quote": "we're tremendously excited about what's going on in the world with data. And even before we get to the AI conversation and look at what the growth was in the area of hyperscale, it's just a massive growth cycle, and AI is only accentuating that. ... it's being reflected in our order book.",
-   "metric": "$500 million this year",
-   "direction": "accelerating",
-   "headline": "EnerSys links AI-driven hyperscaler data-center demand to its ~$500M data-center battery business and high-double-digit order-book growth.",
-   "event_date": "2026-09-11"
   },
   {
    "ticker": "EQT",
@@ -434,16 +424,6 @@
    "direction": "accelerating",
    "headline": "Toro cites data-center infrastructure buildout as a driver for underground construction and drilling demand, citing a Frederick, Maryland project example.",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "TTEK",
-   "company": "Tetra Tech, Inc.",
-   "channel": "data_center_construction",
-   "quote": "the scope of work that we provide for data centers is expanding. We started with more of the engineering commissioning type work, expanded into feasibility studies ... and now doing \u2013 continuing to do the feasibility studies, but also doing work related to power and water supply associated with the development of new data centers.",
-   "metric": "$60 million for the year",
-   "direction": "accelerating",
-   "headline": "Tetra Tech cites growing data-center engineering work\u2014including power and water supply services\u2014as a driver of expanding commercial orders and backlog, with approximately $60 million in annual data-center revenue.",
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "UGI",
@@ -3014,6 +2994,126 @@
    "direction": null,
    "headline": "DXP Enterprises cites data center customers as a market where they provide technical solutions and expertise.",
    "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "ENS",
+   "company": "EnerSys",
+   "channel": "data_center_construction",
+   "quote": "data centers delivered another quarter of double-digit sales growth ... DataSafe Noir new product launch enables us to expand our share of wallet with existing valued customers who may choose lithium batteries, which is largely skewed to new data center construction.",
+   "metric": "double-digit sales growth in data centers; data center backlog more than doubled",
+   "direction": "accelerating",
+   "headline": "EnerSys cites double-digit data center sales growth and new lithium product adoption tied to new data center construction buildout.",
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "ETN",
+   "company": "Eaton Corp. Plc",
+   "channel": "data_center_construction",
+   "quote": "AI-driven data center expansion ... modular business, only the Americas, that business is going to reach $1 billion in revenue already in 2026.",
+   "metric": "$1 billion in revenue in modular business in Americas by 2026",
+   "direction": "accelerating",
+   "headline": "Eaton cites AI-driven data center expansion and modular solutions as drivers of $1 billion revenue target in Americas by 2026.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "ticker": "EVR",
+   "company": "Evercore, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Nexus Data Centers on the $15.6 billion construction financing of its inaugural data center and power development project",
+   "metric": "$15.6 billion financing",
+   "direction": "accelerating",
+   "headline": "Evercore cites data-center construction financing as a growing revenue opportunity, advising on $15.6 billion Nexus Data Centers project.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "F",
+   "company": "Ford Motor Co.",
+   "channel": "power_energy",
+   "quote": "Our starting point is US manufactured grid-scale battery storage for companies building America's new power infrastructure and data centers.",
+   "metric": "20 gigawatt hours of annual capacity online by the end of next year",
+   "direction": "accelerating",
+   "headline": "Ford Energy cites data-center and grid-infrastructure demand as driver of battery-storage business and 2028 capacity buildout.",
+   "event_date": "2026-10-28"
+  },
+  {
+   "ticker": "FCX",
+   "company": "Freeport-McMoRan, Inc.",
+   "channel": "equipment_components",
+   "quote": "Our US customers report robust copper demand associated with growing requirements for electricity and energy infrastructure, data center builds and in the transportation sector.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Freeport-McMoRan cites data center builds among drivers of robust US copper customer demand.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "FFIV",
+   "company": "F5, Inc.",
+   "channel": "networking_compute",
+   "quote": "AI factory load balancing, we are optimizing traffic and GPU utilization both across and within AI factories, increasing token throughput, reducing time to first token, and lowering per token cost ... Direct AI use case bookings for the year more than doubled from the first half to well over $100 million in FY 2026.",
+   "metric": "Direct AI use case bookings well over $100 million in FY 2026, up nearly 300% year-over-year",
+   "direction": "accelerating",
+   "headline": "F5 cites accelerating AI inference demand driving direct AI use case bookings (>$100M in FY2026, +300% YoY) across AI data delivery, runtime security, and factory load balancing.",
+   "event_date": "2026-10-27"
+  },
+  {
+   "ticker": "FHN",
+   "company": "First Horizon Corp. (Tennessee)",
+   "channel": "data_center_construction",
+   "quote": "The data centers are relocating people, paying huge bonuses to come. If you're an electrician or an HVAC, you have a skill that they need. They will give you a bonus. They'll give you free housing, they're renting out. We actually have two data centers going up just south of Memphis right now.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "First Horizon Corp. cites data-center construction activity in Memphis region as affecting client project timelines and skilled-labor availability.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "FLR",
+   "company": "Fluor Corp.",
+   "channel": "data_center_construction",
+   "quote": "In the data center market, we recently announced a contract with TeraWulf for the development and construction of a three-building site in Kentucky.",
+   "metric": "low-single-digit multibillion award for first two buildings",
+   "direction": "accelerating",
+   "headline": "Fluor Corp. cites data-center construction contract with TeraWulf as a new award driver, with potential for expansion to additional sites.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "FNF",
+   "company": "Fidelity National Financial, Inc.",
+   "channel": "data_center_construction",
+   "quote": "We have seen data center transactions in our pipeline over the past four years and in some cases have already seen refinances of transactions that closed between 2022 and 2024, which is an underappreciated demand driver.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "FNF cites data-center transactions and refinances as an underappreciated demand driver in its commercial real estate pipeline.",
+   "event_date": "2026-11-06"
+  },
+  {
+   "ticker": "GE",
+   "company": "GE Aerospace",
+   "channel": "power_energy",
+   "quote": "a lot of need for our engine is to power the new data centers, and a lot of \u2013 and that has largely been a widebody play. And now with the tightness in the number of engines that are available for data centers and the power needs that the data centers have, there's a lot of push to convert CFM56 engines for the data centers as well.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "GE Aerospace cites demand to convert CFM56 engines to power data centers as a driver of aftermarket growth and shop visit absorption.",
+   "event_date": "2026-11-10"
+  },
+  {
+   "ticker": "GEF",
+   "company": "Greif, Inc.",
+   "channel": "equipment_components",
+   "quote": "we have a customer that we have dealt with for many years, but this is relating to the data center markets through the good work of our commercial organization. We won a very large chunk of this customer's business and this is a global chemical producer serving the water treatment markets.",
+   "metric": "customer volume up 200% compared to same period last year",
+   "direction": "accelerating",
+   "headline": "Greif cites data-center-related customer win driving 200% volume growth in polymers segment.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "ticker": "GGG",
+   "company": "Graco, Inc.",
+   "channel": "cooling_thermal",
+   "quote": "As demand for AI, cloud computing and high-density data centers continues to grow, cooling performance is becoming increasingly important to energy efficiency, reliability and operating costs. And we believe ETM's direct-drive motor technology is well-positioned to address those needs ... ABB will license ETM's patented Transverse Flux Motor technology for use in data center cooling towers, heat rejection systems and related thermal management applications.",
+   "metric": "First data center installations targeted by end of 2029",
+   "direction": "accelerating",
+   "headline": "Graco's ETM subsidiary is licensing motor technology to ABB for data-center cooling systems, targeting first installations by 2029 as AI and cloud-computing infrastructure demand grows.",
+   "event_date": "2026-10-22"
   }
  ]
 }
