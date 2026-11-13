@@ -64,6 +64,16 @@ jobs:
       - name: Rebuild dashboards
         run: python scripts/build_dashboards.py
 
+      - name: Desk alert (morning run only)
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 10 * * 1-5'
+        continue-on-error: true
+        env:
+          GMAIL_USER:     ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
+          DESK_ALERT_TO:  ${{ vars.DESK_ALERT_TO }}
+          SITE_URL:       https://whatsnextformarkets.com/research/
+        run: python scripts/desk_alert.py
+
       - name: Commit data + pages
         id: commitpush
         run: |
