@@ -1,0 +1,51 @@
+name: Point-in-time constituent backfill
+
+# Scores historical index members that were never scored (see backfill_queue.json).
+# Ten runs a day, kept clear of the live digest (07:50 / 19:24 UTC) and the daily
+# refresh (10:17 / 21:30 UTC) so the live season keeps its FactSet quota.
+# Does nothing once the queue is empty.
+on:
+  schedule:
+    - cron: "40 0,2,4,12,13,14,15,16,22,23 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: pit-backfill
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Backfill one step
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          FACTSET_USERNAME:   ${{ secrets.FACTSET_USERNAME }}
+          FACTSET_API_KEY:    ${{ secrets.FACTSET_API_KEY }}
+          BACKFILL_BUDGET_S:  "2900"
+        run: python scripts/pit_backfill_step.py
+
+      - name: Commit progress
+        if: always()
+        run: |
+          git config user.name  "earnings-monitor-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "PIT backfill $(date -u +%F-%H%M)"
+          git pull --rebase origin main
+          git push

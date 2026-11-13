@@ -85,6 +85,16 @@ try:
 except Exception as _ue:
     print(f"   ⚠️  sp1500_universe.json unavailable ({_ue}); using hardcoded S&P 500 fallback")
 
+# Point-in-time backfill: TARGETS_FILE (a JSON list of tickers) replaces the universe,
+# so historical members that have since left the index can be discovered and scored.
+if os.environ.get("TARGETS_FILE"):
+    try:
+        with open(os.environ["TARGETS_FILE"]) as _tf:
+            SP500 = {t for t in json.load(_tf) if t and not t.startswith("@")}
+        print(f"   backfill universe: {len(SP500)} target tickers from {os.environ['TARGETS_FILE']}")
+    except Exception as _te:
+        print(f"   ⚠️  TARGETS_FILE unreadable ({_te})")
+
 # ── FactSet: Live S&P 500 constituents via Benchmarks API ────────────────────
 def get_sp500_tickers_live() -> set[str]:
     """
@@ -211,7 +221,7 @@ def get_todays_earnings() -> list[dict]:
         _targets = [t for t in SP500 if t not in _tg_seen]
         try:
             _sc0 = load_pmi_scores()
-            if _sc0.get("season") == _current_season():
+            if _sc0.get("season") == _current_season() or os.environ.get("SCORES_FILE"):
                 _done0 = {x["ticker"] for x in _sc0.get("scores", [])}
                 _targets = [t for t in _targets if t not in _done0]
         except Exception:
@@ -879,8 +889,9 @@ def add_pmi_scores(new_scores: list[dict]):
     """Add new company scores to the season's accumulated data."""
     data = load_pmi_scores()
 
-    # Reset if new season
-    if data.get("season") != _current_season():
+    # Reset if new season — never when writing an explicit archive file (backfill):
+    # the 2023-2025 archives carry no season label and would be wiped.
+    if data.get("season") != _current_season() and not os.environ.get("SCORES_FILE"):
         print(f"   🔄 New earnings season — resetting PMI scores")
         data = {"season": _current_season(), "scores": []}
 
@@ -1145,7 +1156,7 @@ def main():
 
     _prior = load_pmi_scores()
     _done = ({x["ticker"] for x in _prior.get("scores", [])}
-             if _prior.get("season") == _current_season() else set())
+             if (_prior.get("season") == _current_season() or os.environ.get("SCORES_FILE")) else set())
     _nb = len(todays)
     todays = [c for c in todays if c["symbol"] not in _done]
     print(f"   {_nb - len(todays)} already scored this season; {len(todays)} to process")

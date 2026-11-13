@@ -221,6 +221,21 @@ s = sub1(s, r"the \d+ companies scored in <i>both</i> seasons", f"the {SC['n']} 
 s = sub1(s, r"All \d+ Q3-scored companies", f"All {SC['q2n']} Q3-scored companies", "sc-all")
 s = sub1(s, r"<b>\d+%</b>companies above 50", f"<b>{SC['breadth']}%</b>companies above 50", "sc-above50")
 s = sub1(s, r"Q3: \d+ companies scored through [A-Z][a-z]+ \d+, 2026", f"Q3: {SC['q2n']} companies scored through {today}", "sc-date")
+# ---- point-in-time index membership (index_membership.json: period -> ticker -> L/M/S) ----
+_PIT_PER = {"Q1'23":"20230331","Q2'23":"20230630","Q3'23":"20230929","Q4'23":"20231229",
+            "Q1'24":"20240328","Q2'24":"20240628","Q3'24":"20240930","Q4'24":"20241231",
+            "Q1'25":"20250331","Q2'25":"20250630","Q3'25":"20250930","Q4'25":"20251231",
+            "Q1'26":"20260331","Q2'26":"20260630","Q3'26":"20260930"}
+try:
+    _MEM = load(f"{ROOT}/index_membership.json")["periods"]
+except Exception:
+    _MEM = {}
+def _pit(lbl, S, tier=None):
+    """Keep only companies that were S&P 1500 members in that season's quarter."""
+    M = _MEM.get(_PIT_PER.get(lbl, ""))
+    if not M: return [] if tier else S
+    return [r for r in S if (M.get(r["ticker"]) == tier if tier else r["ticker"] in M)]
+
 def _hist_data():
     _SE=[("Q1'23","pmi_scores_2023q1.json"),("Q2'23","pmi_scores_2023q2.json"),
          ("Q3'23","pmi_scores_2023q3.json"),("Q4'23","pmi_scores_2023q4.json"),
@@ -231,7 +246,7 @@ def _hist_data():
          ("Q1'26","pmi_scores_q1_2026.json"),("Q2'26","pmi_scores_q2_2026.json"),("Q3'26",None)]
     _FL=["composite","new_orders","output","employment","prices","supply_chains","demand_breadth","confidence"]
     import os as _os
-    def _rows(sector=None):
+    def _rows(sector=None, tier=None):
         out=[]
         for lbl,f in _SE:
             if f is None: S=list(best.values())
@@ -242,6 +257,7 @@ def _hist_data():
                     if t not in _lt or r.get("date","")>_lt[t].get("date",""): _lt[t]=r
                 S=list(_lt.values())
             else: continue
+            S=_pit(lbl, S, tier)
             if sector: S=[r for r in S if r.get("sector")==sector]
             if len(S)<4: continue
             row={"l":lbl}
@@ -251,6 +267,9 @@ def _hist_data():
             out.append(row)
         return out
     _hd={"All": _rows()}
+    for _tn,_tc in (("S&P 500 (large)","L"),("S&P 400 (mid)","M"),("S&P 600 (small)","S")):
+        _rw=_rows(tier=_tc)
+        if len(_rw)>=2: _hd[_tn]=_rw
     for _sx in sorted({r.get("sector") for r in best.values() if r.get("sector")}):
         _rw=_rows(_sx)
         if len(_rw)>=2: _hd[_sx]=_rw
@@ -281,7 +300,7 @@ def _hist_data_ind():
                 if t not in _lt or r.get("date","")>_lt[t].get("date",""): _lt[t]=r
             S=list(_lt.values())
         else: continue
-        _qsets.append((lbl,S))
+        _qsets.append((lbl,_pit(lbl,S)))
     _inds=sorted({_imap.get(r["ticker"]) for _,S in _qsets for r in S if _imap.get(r["ticker"])})
     for _ix in _inds:
         rows=[]
