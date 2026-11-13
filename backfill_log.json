@@ -6,5 +6,16 @@
   "remaining": 105,
   "retired": false,
   "probe": "200"
+ },
+ {
+  "at": "2026-11-13T21:03",
+  "season": "2026q2",
+  "scored": 0,
+  "remaining": 105,
+  "retired": false,
+  "probe": "403",
+  "window": "2026-07-01",
+  "rc": 0,
+  "err": ""
  }
 ]
