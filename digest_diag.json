@@ -6,19 +6,40 @@
  ],
  "universe": 105,
  "raw_events": 0,
- "unique": 0,
- "transcripts_probe": "403",
- "fallback_events": 0,
- "targeted": {},
+ "unique": 6,
+ "transcripts_probe": "200",
+ "fallback_events": 6,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    5
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'FCFS-US', 'documents': []}"
+  },
+  "empty_doc_rows": 83,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8713983', 'primaryIds': ['0NGNXY-E', 'OGN-US'], 'allIds': ['0NGNXY-E', 'OGN-US'], 'reportId': '3513778', 'eventId': '1204400776', 'eventDate': '2026-07-23', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Organon & Co.(OGN-US), Extraordinary Shareholders Meeting, 23-July-2026 10:00 AM ET', 'storyDateTime': '2026-07-24T14:22:25Z', 'uploadDateTime': '2026-07-24T14:21:11Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['LN:EN', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'CN:US', 'IN:HLTH', 'IN:PHARM', 'RN:AM', 'RN:NA', 'SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX'], 'transcriptsUrl': 'https"
+ },
  "errors": [
-  "calendar 403 x2",
-  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
-  "targeted chunk 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
-  "targeted chunk 50: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
-  "targeted chunk 100: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
+  "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 0,
+ "to_process": 6,
  "no_transcript": 0,
- "scored": 0
+ "scored": 6
 }
