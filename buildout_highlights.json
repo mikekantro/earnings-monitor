@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-13T17:43:25.081605",
+ "generated": "2026-11-14T01:32:07.323783",
  "window": [
   "2026-07-15",
-  "2026-11-13"
+  "2026-11-14"
  ],
  "highlights": [
   {
@@ -3584,6 +3584,16 @@
    "direction": "accelerating",
    "headline": "Cisco cites AI infrastructure demand driving hyperscaler networking revenue to $9 billion in FY2027, more than double prior year.",
    "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "JBL",
+   "company": "Jabil, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI-related demand remained very strong and continued to accelerate, exceeding the significant growth we had already incorporated in our June outlook ... AI-related revenue was up 60% year-over-year, and we ended the year with four customers with AI-related revenue above $1 billion annually.",
+   "metric": "AI-related revenue up 60% year-over-year; four customers with AI-related revenue above $1 billion annually",
+   "direction": "accelerating",
+   "headline": "Jabil's Intelligent Infrastructure segment cites accelerating AI-infrastructure demand as a driver of strong revenue growth and customer expansion.",
+   "event_date": "2026-09-30"
   }
  ]
 }

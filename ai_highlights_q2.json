@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-13T17:43:26.461921",
+ "generated": "2026-11-14T01:32:12.056600",
  "window": [
   "2026-07-15",
-  "2026-11-13"
+  "2026-11-14"
  ],
  "highlights": [
   {
@@ -7706,6 +7706,18 @@
    "margin_metric": null,
    "headline": "Cisco deployed an AI agent for every employee at the start of fiscal 2027 to boost internal productivity.",
    "quote": "At the start of fiscal 2027, we provided an AI agent for every employee.",
+   "metric": null,
+   "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "FLO",
+   "company": "Flowers Foods, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Flowers Foods evaluating AI tools to improve consumer targeting, promotional effectiveness, and spending management.",
+   "quote": "we are evaluating AI tools to improve consumer targeting and promotional effectiveness",
    "metric": null,
    "event_date": "2026-11-12"
   }
