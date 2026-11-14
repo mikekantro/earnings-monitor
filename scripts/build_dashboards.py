@@ -157,7 +157,10 @@ except Exception:
     spy = set()
 print(f"data: pmi {len(raw)}->{len(q2)} | ai Q1 {len(a1h)} Q2 {len(a2h)} | refunds {len(R)}")
 SEASON_START = "2026-10-01"   # Q3 2026; quote showcases display only records dated in-season
-def _inq3(x): return (x.get("event_date") or "") >= SEASON_START
+SEASON_GRACE = "2026-09-15"   # off-cycle fiscal years: a late-September call scored in this season counts
+def _inq3(x):
+    d = x.get("event_date") or ""
+    return d >= SEASON_START or (d >= SEASON_GRACE and x.get("ticker") in best)
 # group floors scale smoothly with season coverage (no threshold cliff)
 _NB = len(best)
 MIN_SEC = max(3, min(5, _NB // 30))     # sector tables / diverging bars (cap 5: all 11 sectors show once sampled)
@@ -1182,7 +1185,7 @@ for page in ["pmi-scorecard","ai-adopters","refund-watch","ai-employment","portf
 _MARQ = ["ANET","VRT","PWR","AVGO","SMCI","DELL","HPE","CSCO","MU","TSM","EQIX","DLR","ETN",
          "FIX","MSFT","AMZN","GOOGL","META","ORCL","IBM","AMD","INTC","NVDA","GEV","HUBB","NVT","APH","JBL"]
 _bo_in = {h["ticker"] for h in load(f"{ROOT}/buildout_highlights.json")["highlights"]
-          if (h.get("event_date") or "") >= "2026-10-01"}
+          if _inq3(h)}
 _marq_miss = [t for t in _MARQ if t in best and t not in _bo_in]
 if _marq_miss:
     print(f"WARNING recall: marquee infra names scored but missing buildout record: {_marq_miss}")
