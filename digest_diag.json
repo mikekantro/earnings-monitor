@@ -1,23 +1,23 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-07-01T00:00:00Z",
-  "2026-09-30T23:59:59Z"
+  "2026-04-01T00:00:00Z",
+  "2026-06-30T23:59:59Z"
  ],
- "universe": 99,
+ "universe": 95,
  "raw_events": 0,
- "unique": 0,
+ "unique": 29,
  "transcripts_probe": "200",
- "fallback_events": 0,
+ "fallback_events": 29,
  "targeted": {
   "chunks": [
    [
     0,
-    50
+    52
    ],
    [
     50,
-    49
+    45
    ]
   ],
   "sample": {
@@ -26,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'JEF-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'BRK.B-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8603794', 'primaryIds': ['000CS1-E', 'BRK.B-US'], 'allIds': ['000CS1-E', 'BRK.B-US'], 'reportId': '3460230', 'eventId': '1204257101', 'eventDate': '2026-05-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Berkshire Hathaway, Inc.(BRK.B-US), Annual General Meeting, 2-May-2026 9:15 AM ET', 'storyDateTime': '2026-05-04T14:18:20Z', 'uploadDateTime': '2026-05-16T04:41:07Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['IN:INS', 'CN:US', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:E"
   },
-  "empty_doc_rows": 83,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8767364', 'primaryIds': ['133D07-E', 'FDXF-US'], 'allIds': ['133D07-E', 'FDXF-US'], 'reportId': '3526766', 'eventId': '1204432115', 'eventDate': '2026-08-11', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: FedEx Freight Holding Co., Inc.(FDXF-US), Deutsche Bank Chicago Industrials Summit, 11-August-2026 1:00 PM ET', 'storyDateTime': '2026-08-12T01:54:18Z', 'uploadDateTime': '2026-08-15T04:08:57Z', 'eventType': 'ConferencePresentation', 'categories': ['IN:TRNSPT', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US'], 'transcriptsUrl': 'https://api.factset.com"
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8603794', 'primaryIds': ['000CS1-E', 'BRK.B-US'], 'allIds': ['000CS1-E', 'BRK.B-US'], 'reportId': '3460230', 'eventId': '1204257101', 'eventDate': '2026-05-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Berkshire Hathaway, Inc.(BRK.B-US), Annual General Meeting, 2-May-2026 9:15 AM ET', 'storyDateTime': '2026-05-04T14:18:20Z', 'uploadDateTime': '2026-05-16T04:41:07Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['IN:INS', 'CN:US', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'http",
+  "empty_doc_rows": 58
  },
  "errors": [
   "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 0,
+ "to_process": 29,
  "no_transcript": 0,
- "scored": 0
+ "scored": 29
 }
