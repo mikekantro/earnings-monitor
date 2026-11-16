@@ -21,6 +21,12 @@ def scored(path):
         return set()
 
 def main():
+    # GitHub can start a scheduled run hours late. Outside 22:00-05:59 UTC the live
+    # digest and refresh own the FactSet allowance, so a late run does nothing.
+    _h = datetime.datetime.utcnow().hour
+    if not (_h >= 22 or _h < 6) and not os.environ.get("BACKFILL_FORCE"):
+        print(f"backfill: {_h:02d}h UTC is outside the overnight window; skipping")
+        return
     q = json.load(open(QP))
     item = next((x for x in q if x.get("targets")), None)
     if not item:
