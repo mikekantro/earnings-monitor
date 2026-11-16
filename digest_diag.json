@@ -1,40 +1,19 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-04-01T00:00:00Z",
-  "2026-06-30T23:59:59Z"
+  "2026-11-04T00:00:00Z",
+  "2026-11-16T23:59:59Z"
  ],
- "universe": 64,
+ "universe": 1506,
  "raw_events": 0,
- "unique": 0,
+ "unique": 15,
  "transcripts_probe": "200",
- "fallback_events": 0,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    14
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CTRA-US', 'documents': []}"
-  },
-  "empty_doc_rows": 58,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8590643', 'primaryIds': ['0K9RPQ-E', 'SNCY-US'], 'allIds': ['0K9RPQ-E', 'SNCY-US'], 'reportId': '3468657', 'eventId': '1204278563', 'eventDate': '2026-05-08', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Sun Country Airlines Holdings, Inc.(SNCY-US), Extraordinary Shareholders Meeting, 8-May-2026 10:00 AM ET', 'storyDateTime': '2026-05-12T03:40:24Z', 'uploadDateTime': '2026-05-12T03:39:10Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'RN:AM', 'RN:NA', 'IN:AIRLNS', 'IN:TRNSPT', 'CN:US', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN']"
- },
+ "fallback_events": 15,
+ "targeted": {},
  "errors": [
-  "calendar 403 x1"
+  "calendar 403 x16"
  ],
- "already_scored": 0,
+ "already_scored": 15,
  "to_process": 0,
  "no_transcript": 0,
  "scored": 0
