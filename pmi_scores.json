@@ -21105,6 +21105,36 @@
       "ticker": "VYLR",
       "name": "Vylor, Inc.",
       "date": "2026-11-13"
+    },
+    {
+      "new_orders": 82,
+      "output": 80,
+      "employment": 65,
+      "prices": 68,
+      "supply_chains": 70,
+      "demand_breadth": 75,
+      "composite": 76,
+      "sector": "Consumer Staples",
+      "confidence": 3,
+      "key_signal": "Record $1.9B in gross new client wins and 97% retention rate signal accelerating structural demand for outsourced food/facilities services, with AI data center campuses (Aramark Nexus) emerging as a new high-growth revenue stream projected at ~$500M in FY2027.",
+      "ticker": "ARMK",
+      "name": "Aramark",
+      "date": "2026-11-16"
+    },
+    {
+      "new_orders": 48,
+      "output": 47,
+      "employment": 50,
+      "prices": 52,
+      "supply_chains": 38,
+      "demand_breadth": 50,
+      "composite": 48,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Severe cattle supply constraints driving a $654M full-year Beef segment loss with no meaningful supply relief expected before late FY2027, creating significant structural drag on the largest U.S. protein producer despite intact consumer demand for protein.",
+      "ticker": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "date": "2026-11-16"
     }
   ]
 }
