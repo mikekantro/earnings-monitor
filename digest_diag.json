@@ -4,20 +4,20 @@
   "2026-04-01T00:00:00Z",
   "2026-06-30T23:59:59Z"
  ],
- "universe": 95,
+ "universe": 66,
  "raw_events": 0,
- "unique": 29,
+ "unique": 2,
  "transcripts_probe": "200",
- "fallback_events": 29,
+ "fallback_events": 2,
  "targeted": {
   "chunks": [
    [
     0,
-    52
+    50
    ],
    [
     50,
-    45
+    16
    ]
   ],
   "sample": {
@@ -26,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'BRK.B-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8603794', 'primaryIds': ['000CS1-E', 'BRK.B-US'], 'allIds': ['000CS1-E', 'BRK.B-US'], 'reportId': '3460230', 'eventId': '1204257101', 'eventDate': '2026-05-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Berkshire Hathaway, Inc.(BRK.B-US), Annual General Meeting, 2-May-2026 9:15 AM ET', 'storyDateTime': '2026-05-04T14:18:20Z', 'uploadDateTime': '2026-05-16T04:41:07Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['IN:INS', 'CN:US', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:E"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'COKE-US', 'documents': []}"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8603794', 'primaryIds': ['000CS1-E', 'BRK.B-US'], 'allIds': ['000CS1-E', 'BRK.B-US'], 'reportId': '3460230', 'eventId': '1204257101', 'eventDate': '2026-05-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Berkshire Hathaway, Inc.(BRK.B-US), Annual General Meeting, 2-May-2026 9:15 AM ET', 'storyDateTime': '2026-05-04T14:18:20Z', 'uploadDateTime': '2026-05-16T04:41:07Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['IN:INS', 'CN:US', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'http",
-  "empty_doc_rows": 58
+  "empty_doc_rows": 58,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8586377', 'primaryIds': ['00127G-E', 'CENT-US'], 'allIds': ['00127G-E', 'CENT-US'], 'reportId': '3467018', 'eventId': '1204275521', 'eventDate': '2026-05-06', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Central Garden & Pet Co.(CENT-US), Q2 2026 Earnings Call, 6-May-2026 4:30 PM ET', 'storyDateTime': '2026-05-07T16:56:22Z', 'uploadDateTime': '2026-05-10T04:07:26Z', 'eventType': 'Earnings', 'categories': ['LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONPRD', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME'], 'transcriptsUrl': 'https://api.factset"
  },
  "errors": [
   "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 29,
+ "to_process": 2,
  "no_transcript": 0,
- "scored": 29
+ "scored": 2
 }
