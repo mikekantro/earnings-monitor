@@ -4,11 +4,11 @@
   "2026-04-01T00:00:00Z",
   "2026-06-30T23:59:59Z"
  ],
- "universe": 66,
+ "universe": 64,
  "raw_events": 0,
- "unique": 2,
+ "unique": 0,
  "transcripts_probe": "200",
- "fallback_events": 2,
+ "fallback_events": 0,
  "targeted": {
   "chunks": [
    [
@@ -17,7 +17,7 @@
    ],
    [
     50,
-    16
+    14
    ]
   ],
   "sample": {
@@ -26,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'COKE-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CTRA-US', 'documents': []}"
   },
   "empty_doc_rows": 58,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8586377', 'primaryIds': ['00127G-E', 'CENT-US'], 'allIds': ['00127G-E', 'CENT-US'], 'reportId': '3467018', 'eventId': '1204275521', 'eventDate': '2026-05-06', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Central Garden & Pet Co.(CENT-US), Q2 2026 Earnings Call, 6-May-2026 4:30 PM ET', 'storyDateTime': '2026-05-07T16:56:22Z', 'uploadDateTime': '2026-05-10T04:07:26Z', 'eventType': 'Earnings', 'categories': ['LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONPRD', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME'], 'transcriptsUrl': 'https://api.factset"
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8590643', 'primaryIds': ['0K9RPQ-E', 'SNCY-US'], 'allIds': ['0K9RPQ-E', 'SNCY-US'], 'reportId': '3468657', 'eventId': '1204278563', 'eventDate': '2026-05-08', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Sun Country Airlines Holdings, Inc.(SNCY-US), Extraordinary Shareholders Meeting, 8-May-2026 10:00 AM ET', 'storyDateTime': '2026-05-12T03:40:24Z', 'uploadDateTime': '2026-05-12T03:39:10Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'RN:AM', 'RN:NA', 'IN:AIRLNS', 'IN:TRNSPT', 'CN:US', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN']"
  },
  "errors": [
   "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 2,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 2
+ "scored": 0
 }
