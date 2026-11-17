@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-16T20:27:46.286359",
+ "generated": "2026-11-17T04:03:12.612543",
  "window": [
   "2026-07-15",
-  "2026-11-16"
+  "2026-11-17"
  ],
  "highlights": [
   {
@@ -44,16 +44,6 @@
    "direction": "accelerating",
    "headline": "Amentum cites AI data-center and nuclear energy infrastructure buildout at Savannah River as driver of $1B+ revenue opportunity.",
    "event_date": "2026-08-11"
-  },
-  {
-   "ticker": "ARMK",
-   "company": "Aramark",
-   "channel": "data_center_construction",
-   "quote": "when you think about on-trend food concepts and hotel-like amenities, activities similar to what you see at colleges and universities with intramural type sports, wellness centers, fitness centers, will be golf courses, really to create an environment for those who are building these data centers, which are being tasked to build at a high rate of speed and quickly",
-   "metric": "$400 million to $500 million opportunity ramping through 2027 and 2028; $2 billion to $3 billion business over the next few years",
-   "direction": "accelerating",
-   "headline": "Aramark cites data-center construction labor demand and hyperscaler buildout speed as driver of Nexus workforce hospitality revenue opportunity.",
-   "event_date": "2026-09-14"
   },
   {
    "ticker": "AVGO",
@@ -3594,6 +3584,16 @@
    "direction": "accelerating",
    "headline": "Jabil's Intelligent Infrastructure segment cites accelerating AI-infrastructure demand as a driver of strong revenue growth and customer expansion.",
    "event_date": "2026-09-30"
+  },
+  {
+   "ticker": "ARMK",
+   "company": "Aramark",
+   "channel": "equipment_components",
+   "quote": "As the AI infrastructure landscape continues to develop and computing needs drive additional demand we believe this adaptability positions us extremely well to support a broad range of client needs.",
+   "metric": "$500 million in Nexus revenue projected for fiscal 2027",
+   "direction": "accelerating",
+   "headline": "Aramark cites AI infrastructure demand as driver of Nexus hyperscaler hospitality services growth, projecting $500 million revenue in fiscal 2027.",
+   "event_date": "2026-11-16"
   }
  ]
 }

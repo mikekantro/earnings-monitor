@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-16T20:27:47.444456",
+ "generated": "2026-11-17T04:03:20.949216",
  "window": [
   "2026-07-15",
-  "2026-11-16"
+  "2026-11-17"
  ],
  "highlights": [
   {
@@ -292,18 +292,6 @@
    "quote": "Target's digital traffic sourced from external AI platforms is growing more than 3.5 times the industry as compared to a year ago.",
    "metric": "3.5x industry growth in AI-sourced digital traffic",
    "event_date": "2026-08-19"
-  },
-  {
-   "ticker": "TSN",
-   "company": "Tyson Foods, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Tyson Foods has tested agentic AI for product development and plans to expand its use.",
-   "quote": "We've done work with and tested a number of products using agentic AI. And that's looking good and we'll expand that as we move forward.",
-   "metric": null,
-   "event_date": "2026-08-03"
   },
   {
    "ticker": "WU",
@@ -7720,6 +7708,18 @@
    "quote": "we are evaluating AI tools to improve consumer targeting and promotional effectiveness",
    "metric": null,
    "event_date": "2026-11-12"
+  },
+  {
+   "ticker": "TSN",
+   "company": "Tyson Foods, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Tyson Foods pursuing 'best cost' strategy using AI in plants and supply chain alongside robotics and automation.",
+   "quote": "We're going after best cost with AI in our plants and supply chain and robotics and automation on the line. That's the culture of this company.",
+   "metric": null,
+   "event_date": "2026-11-16"
   }
  ]
 }
