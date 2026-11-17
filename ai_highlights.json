@@ -5894,7 +5894,34 @@
    "quote": "We're going after best cost with AI in our plants and supply chain and robotics and automation on the line.",
    "metric": null,
    "event_date": "2026-11-16"
+  },
+  {
+   "ticker": "DIS",
+   "company": "The Walt Disney Co.",
+   "category": "revenue",
+   "headline": "Disney uses AI for a vacation planning concierge tool at Walt Disney World, AI-powered streaming recommendations, and AI ad sales tools",
+   "quote": "almost half of all new ad campaigns are actually flowing through that agent",
+   "metric": "30% reduction in rendering compute needs; ~50% of new ad campaigns via agentic tool",
+   "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "HD",
+   "company": "The Home Depot, Inc.",
+   "category": "revenue",
+   "headline": "Home Depot uses AI-enabled search and an AI Material List Builder to drive online sales and Pro engagement",
+   "quote": "Our continued success in online is driven by our ongoing investments from site speed to AI-enabled search, to a multitude of fulfillment options",
+   "metric": null,
+   "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "ACM",
+   "company": "AECOM",
+   "category": "efficiency",
+   "headline": "AECOM using AI/technology investments to drive internal efficiency gains and win new client work, with AI investments net neutral on margins in FY2027.",
+   "quote": "we are seeing efficiencies that are resulting ultimately in improved margins. And we started that process back in effectively the second quarter of this past year.",
+   "metric": null,
+   "event_date": "2026-11-17"
   }
  ],
- "updated": "2026-11-17T04:52:19"
+ "updated": "2026-11-17T20:43:38"
 }
