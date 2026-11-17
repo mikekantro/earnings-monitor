@@ -1,45 +1,20 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-01-01T00:00:00Z",
-  "2026-03-31T23:59:59Z"
+  "2026-11-05T00:00:00Z",
+  "2026-11-17T23:59:59Z"
  ],
- "universe": 120,
+ "universe": 1506,
  "raw_events": 0,
- "unique": 42,
+ "unique": 13,
  "transcripts_probe": "200",
- "fallback_events": 42,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    52
-   ],
-   [
-    50,
-    50
-   ],
-   [
-    100,
-    13
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'SLAB-US', 'documents': []}"
-  },
-  "empty_doc_rows": 56,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8473711', 'primaryIds': ['000D0Q-E', 'BDN-US'], 'allIds': ['000D0Q-E', 'BDN-US'], 'reportId': '3413034', 'eventId': '1204133039', 'eventDate': '2026-03-03', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Brandywine Realty Trust(BDN-US), Citi Global Property CEO Conference, 3-March-2026 7:30 AM ET', 'storyDateTime': '2026-03-03T08:26:22Z', 'uploadDateTime': '2026-03-14T04:02:25Z', 'eventType': 'ConferencePresentation', 'categories': ['SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:RLEST', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/transcripts?rep"
- },
+ "fallback_events": 13,
+ "targeted": {},
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x16"
  ],
- "already_scored": 0,
- "to_process": 42,
+ "already_scored": 13,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 42
+ "scored": 0
 }
