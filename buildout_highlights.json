@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-17T19:10:19.296479",
+ "generated": "2026-11-18T02:59:15.092074",
  "window": [
   "2026-07-15",
-  "2026-11-17"
+  "2026-11-18"
  ],
  "highlights": [
   {
@@ -164,16 +164,6 @@
    "direction": "accelerating",
    "headline": "ESCO Technologies cites data-center-driven power and grid infrastructure expansion as a driver of Doble utility solutions revenue and order growth.",
    "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "GFF",
-   "company": "Griffon Corp.",
-   "channel": "data_center_construction",
-   "quote": "In data centers, it's both entry and fire protection inside the facility. Our doors are used as partitions.",
-   "metric": null,
-   "direction": null,
-   "headline": "Griffon Corp. cites data-center construction as an emerging growth avenue for its commercial door products.",
-   "event_date": "2026-08-05"
   },
   {
    "ticker": "HPE",

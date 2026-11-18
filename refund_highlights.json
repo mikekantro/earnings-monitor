@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-17T19:10:17.936253",
+ "generated": "2026-11-18T02:59:12.410276",
  "window": [
   "2026-07-15",
-  "2026-11-17"
+  "2026-11-18"
  ],
  "highlights": [
   {
@@ -16,30 +16,6 @@
    "quote_receiving": "in the second quarter of 2026, we received a partial refund of import tariffs, which were incurred in prior periods.",
    "quote_customers": "",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "DIS",
-   "company": "The Walt Disney Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$100 million",
-   "headline": "Disney received ~$100M in tariff refunds in Q3 FY2026 at Experiences segment; full-year net impact described as immaterial.",
-   "quote_receiving": "we had about $100 million of tariff refunds in the quarter at Disney Experiences which hit segment OI with no impact on revenue.",
-   "quote_customers": "",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "ENR",
-   "company": "Energizer Holdings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$64 million ($11 million collected, $53 million remaining)",
-   "headline": "Energizer has collected $11M of IEEPA tariff credits and expects remaining $53M booked to generate cash in FY2026-2027.",
-   "quote_receiving": "we've already collected about $11 million of IEEPA tariffs. That's on the recovery side. We expect the remaining $53 million that we've booked to provide a meaningful source of cash generation",
-   "quote_customers": "",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "ETD",
@@ -112,18 +88,6 @@
    "quote_receiving": "reduce tariff-related costs versus our initial estimate through targeted mitigation actions and refunds received during the year, as well as the suspension of tariffs earlier than initially assumed.",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "HD",
-   "company": "The Home Depot, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$685 million",
-   "headline": "Home Depot received $685M in IEEPA tariff refunds in Q2, used to offset rising cost pressures throughout the year.",
-   "quote_receiving": "we received IEEPA tariff refunds which reduced our cost of goods sold by $685 million",
-   "quote_customers": "",
-   "event_date": "2026-08-18"
   },
   {
    "ticker": "LOW",
