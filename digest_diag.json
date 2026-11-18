@@ -1,45 +1,20 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-01-01T00:00:00Z",
-  "2026-03-31T23:59:59Z"
+  "2026-11-06T00:00:00Z",
+  "2026-11-18T23:59:59Z"
  ],
- "universe": 118,
+ "universe": 1506,
  "raw_events": 0,
- "unique": 17,
+ "unique": 13,
  "transcripts_probe": "200",
- "fallback_events": 17,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    50
-   ],
-   [
-    100,
-    18
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CHD-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8428192', 'primaryIds': ['000DQG-E', 'CHD-US'], 'allIds': ['000DQG-E', 'CHD-US'], 'reportId': '3400898', 'eventId': '1204100822', 'eventDate': '2026-02-18', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Church & Dwight Co., Inc.(CHD-US), Consumer Analyst Group Of New York Conference, 18-February-2026 8:00 AM ET', 'storyDateTime': '2026-02-18T11:36:34Z', 'uploadDateTime': '2026-02-21T04:37:19Z', 'eventType': 'ConferencePresentation', 'categories': ['CN:US', 'IN:CONPRD', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:"
-  },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8428192', 'primaryIds': ['000DQG-E', 'CHD-US'], 'allIds': ['000DQG-E', 'CHD-US'], 'reportId': '3400898', 'eventId': '1204100822', 'eventDate': '2026-02-18', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Church & Dwight Co., Inc.(CHD-US), Consumer Analyst Group Of New York Conference, 18-February-2026 8:00 AM ET', 'storyDateTime': '2026-02-18T11:36:34Z', 'uploadDateTime': '2026-02-21T04:37:19Z', 'eventType': 'ConferencePresentation', 'categories': ['CN:US', 'IN:CONPRD', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v",
-  "empty_doc_rows": 69
- },
+ "fallback_events": 13,
+ "targeted": {},
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x16"
  ],
- "already_scored": 0,
- "to_process": 17,
+ "already_scored": 11,
+ "to_process": 2,
  "no_transcript": 0,
- "scored": 17
+ "scored": 2
 }
