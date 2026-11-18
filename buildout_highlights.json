@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T02:59:15.092074",
+ "generated": "2026-11-18T18:51:12.330874",
  "window": [
   "2026-07-15",
   "2026-11-18"
@@ -243,16 +243,6 @@
    "metric": null,
    "direction": "accelerating",
    "headline": "Lumen Technologies cites AI inference demand and hyperscaler infrastructure buildout as key driver of its network connectivity and PCF products.",
-   "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "NVDA",
-   "company": "NVIDIA Corp.",
-   "channel": "hyperscaler_platform",
-   "quote": "we're working with all the companies and data center companies in the region, we stood up 2 gigawatts for 2027... it's $80 billion",
-   "metric": "2 gigawatts for 2027, $80 billion",
-   "direction": "accelerating",
-   "headline": "NVIDIA cites AI-infrastructure demand as driver of its own compute platform deployment, citing 2 gigawatts of capacity standing up in Australia by 2027 valued at $80 billion.",
    "event_date": "2026-09-10"
   },
   {

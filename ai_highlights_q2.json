@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T02:59:17.767119",
+ "generated": "2026-11-18T18:51:14.564886",
  "window": [
   "2026-07-15",
   "2026-11-18"
@@ -40,18 +40,6 @@
    "quote": "We are automating and throughout our facilities as well. We're not in the technology business but every business is in the technology business, so automation plays a role for us internally",
    "metric": null,
    "event_date": "2026-07-15"
-  },
-  {
-   "ticker": "DLB",
-   "company": "Dolby Laboratories, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Dolby OptiView uses AI to predict viewer behavior and generate personalized fan stories for live sports",
-   "quote": "These solutions use AI to predict viewer behavior and to generate compelling stories for individual fans based on the action and their interests.",
-   "metric": null,
-   "event_date": "2026-07-30"
   },
   {
    "ticker": "EXPE",
