@@ -5930,7 +5930,52 @@
    "quote": "This includes driving AI across our internal operations to deliver significant productivity gains.",
    "metric": null,
    "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "P",
+   "company": "Everpure, Inc.",
+   "category": "product",
+   "headline": "Everpure sells AI-focused storage products and Data Intelligence software with MCP integration to enterprise customers.",
+   "quote": "AI agents get secure real-time access to governed enterprise context, protecting sensitive data with zero manual integration.",
+   "metric": "20x faster time to first token for large language models",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "category": "product",
+   "headline": "Palo Alto Networks embeds AI in XSIAM and Prisma AIRS products, reaching ~$170M ARR; XSIAM cuts response times from days to under 10 minutes.",
+   "quote": "XSIAM now in just over 20 petabytes of daily telemetry, leveraging AI to reduce response times from days to under 10 minutes.",
+   "metric": "$170M ARR (Prisma AIRS, 5 quarters); response time reduced from days to under 10 minutes (XSIAM)",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "LOW",
+   "company": "Lowe's Companies, Inc.",
+   "category": "revenue",
+   "headline": "Lowe's AI assistant 'Mylow' on OpenAI platform answers 1M+ questions/month and drives 3x conversion rate online",
+   "quote": "when our Online customers leverage Mylow, we're seeing triple the conversion rate versus customers that don't",
+   "metric": "3x conversion rate",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "TGT",
+   "company": "Target Corp.",
+   "category": "revenue",
+   "headline": "Target launched 'Ask Target', an AI-driven shopping assistant, currently in beta with new capabilities planned.",
+   "quote": "guest-facing tools like Ask Target, our AI-driven shopping assistant. Ask Target is still in beta, but we're encouraged by early results and excited about the new capabilities we'll introduce in the months ahead.",
+   "metric": null,
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "LZB",
+   "company": "La-Z-Boy, Inc.",
+   "category": "efficiency",
+   "headline": "La-Z-Boy advancing AI use across enterprise to improve consumer discoverability, omnichannel journey, and internal efficiencies.",
+   "quote": "thoughtfully advancing our use of AI across the enterprise with a focus on enhancing the consumer experience and driving enhanced analysis and efficiencies",
+   "metric": null,
+   "event_date": "2026-11-19"
   }
  ],
- "updated": "2026-11-19T03:16:54"
+ "updated": "2026-11-19T08:14:31"
 }
