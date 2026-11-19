@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-18T18:51:10.248454",
+ "generated": "2026-11-19T02:41:47.166422",
  "window": [
   "2026-07-15",
-  "2026-11-18"
+  "2026-11-19"
  ],
  "highlights": [
   {
@@ -2092,6 +2092,30 @@
    "quote_receiving": "partially offset by refunds related to prior tariff assessments",
    "quote_customers": "",
    "event_date": "2026-11-05"
+  },
+  {
+   "ticker": "ENR",
+   "company": "Energizer Holdings, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Energizer normalized 2026 EBITDA base by removing IEEPA tariff refunds received, treating them as one-time items not expected to recur in 2027.",
+   "quote_receiving": "if you normalize the impact of IEEPA tariff refunds from 2026, we probably start with a base much more like $535 million in EBITDA",
+   "quote_customers": "",
+   "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "MFP",
+   "company": "Midera Food Processing, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "approximately 30 basis points of margin impact",
+   "headline": "Midera recognized a small amount of tariff refunds in Q3, impacting margins by approximately 30 basis points.",
+   "quote_receiving": "We did recognize a small amount of tariff refunds in the quarter, impacting margins by approximately 30 basis points.",
+   "quote_customers": "",
+   "event_date": "2026-11-17"
   }
  ]
 }

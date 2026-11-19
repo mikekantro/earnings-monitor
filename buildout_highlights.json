@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-18T18:51:12.330874",
+ "generated": "2026-11-19T02:42:28.497088",
  "window": [
   "2026-07-15",
-  "2026-11-18"
+  "2026-11-19"
  ],
  "highlights": [
   {
@@ -3574,6 +3574,26 @@
    "direction": "accelerating",
    "headline": "Aramark cites AI infrastructure demand as driver of Nexus hyperscaler hospitality services growth, projecting $500 million revenue in fiscal 2027.",
    "event_date": "2026-11-16"
+  },
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA Corp.",
+   "channel": "equipment_components",
+   "quote": "Cloud industry backlog now sits at $2.5 trillion, up from $2 trillion just three months ago, underscoring the significant multiyear opportunity ahead of our partners and of NVIDIA.",
+   "metric": "Cloud industry backlog $2.5 trillion, up from $2 trillion",
+   "direction": "accelerating",
+   "headline": "NVIDIA cites accelerating hyperscaler cloud infrastructure backlog as driver of multiyear revenue opportunity.",
+   "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "POWL",
+   "company": "Powell Industries, Inc.",
+   "channel": "data_center_construction",
+   "quote": "one mega data center order for roughly $85 million ... the domestic data center market has pulled Remsdaq technology into the US faster than we had planned, and it complements our medium voltage offerings on many of the data center orders that we secured throughout fiscal 2026.",
+   "metric": "$85 million data center order; Commercial and Other Industrial sector grew by over 350% vs prior year",
+   "direction": "accelerating",
+   "headline": "Powell Industries cites data-center electrical distribution orders as a major driver of recent growth, with an $85 million megaproject booked in Q4 2026.",
+   "event_date": "2026-11-17"
   }
  ]
 }
