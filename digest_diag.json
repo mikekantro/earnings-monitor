@@ -1,21 +1,45 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-06T00:00:00Z",
-  "2026-11-18T23:59:59Z"
+  "2026-01-01T00:00:00Z",
+  "2026-03-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 101,
  "raw_events": 0,
- "unique": 0,
- "transcripts_probe": "403",
- "fallback_events": 0,
- "targeted": {},
+ "unique": 1,
+ "transcripts_probe": "200",
+ "fallback_events": 1,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    1
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'TMUS-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8460375', 'primaryIds': ['0D4BBG-E', 'TMUS-US'], 'allIds': ['0D4BBG-E', 'TMUS-US'], 'reportId': '3410588', 'eventId': '1204125530', 'eventDate': '2026-03-04', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: T-Mobile US, Inc.(TMUS-US), Morgan Stanley Technology, Media & Telecom Conference, 4-March-2026 7:48 PM ET', 'storyDateTime': '2026-03-05T09:14:23Z', 'uploadDateTime': '2026-03-07T04:30:33Z', 'eventType': 'ConferencePresentation', 'categories': ['RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT"
+  },
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8460375', 'primaryIds': ['0D4BBG-E', 'TMUS-US'], 'allIds': ['0D4BBG-E', 'TMUS-US'], 'reportId': '3410588', 'eventId': '1204125530', 'eventDate': '2026-03-04', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: T-Mobile US, Inc.(TMUS-US), Morgan Stanley Technology, Media & Telecom Conference, 4-March-2026 7:48 PM ET', 'storyDateTime': '2026-03-05T09:14:23Z', 'uploadDateTime': '2026-03-07T04:30:33Z', 'eventType': 'ConferencePresentation', 'categories': ['RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:TELCOM'], 'transcriptsUrl': 'https://api.factset.com/v2",
+  "empty_doc_rows": 69
+ },
  "errors": [
-  "calendar 403 x16",
-  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
+  "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 0,
+ "to_process": 1,
  "no_transcript": 0,
- "scored": 0
+ "scored": 1
 }

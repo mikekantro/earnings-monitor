@@ -21571,6 +21571,21 @@
       "ticker": "VMRK",
       "name": "Equity Residential",
       "date": "2026-11-18"
+    },
+    {
+      "new_orders": 35,
+      "output": 32,
+      "employment": 45,
+      "prices": 28,
+      "supply_chains": 42,
+      "demand_breadth": 42,
+      "composite": 35,
+      "sector": "Consumer Discretionary",
+      "confidence": 3,
+      "key_signal": "US tariffs are creating a measurable 200 basis point gross margin headwind for Under Armour, compounded by an inability to hold price in a promotional North American consumer environment, signaling structural margin pressure for mid-tier apparel brands with Asian supply chains.",
+      "ticker": "UA",
+      "name": "Under Armour, Inc.",
+      "date": "2026-11-19"
     }
   ]
 }
