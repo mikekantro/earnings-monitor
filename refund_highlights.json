@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T02:41:47.166422",
+ "generated": "2026-11-19T18:58:59.422570",
  "window": [
   "2026-07-15",
   "2026-11-19"
@@ -88,42 +88,6 @@
    "quote_receiving": "reduce tariff-related costs versus our initial estimate through targeted mitigation actions and refunds received during the year, as well as the suspension of tariffs earlier than initially assumed.",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "LOW",
-   "company": "Lowe's Companies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$80 million",
-   "headline": "Lowe's received ~$80M in IEEPA tariff refunds in Q2, adding $0.11 to EPS; competitors used refunds to cut prices but Lowe's did not.",
-   "quote_receiving": "GAAP diluted earnings per share and adjusted diluted earnings per share both include an $0.11 benefit from IEEPA tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-08-19"
-  },
-  {
-   "ticker": "TGT",
-   "company": "Target Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$994 million",
-   "headline": "Target received $994M pre-tax IEEPA tariff refund in Q2, recorded as reduction of cost of sales; company investing in lower prices for guests.",
-   "quote_receiving": "Our Q2 P&L included a $994 million pre-tax benefit from tariff refunds, which was recorded as a reduction of cost of sales.",
-   "quote_customers": "",
-   "event_date": "2026-08-19"
-  },
-  {
-   "ticker": "TJX",
-   "company": "The TJX Cos., Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "TJX received tariff refunds in Q2 and expects additional refunds in Q3; results reported on adjusted basis excluding these items.",
-   "quote_receiving": "excludes the benefit from tariff refunds that we received in the second quarter and expect to receive in the third quarter",
-   "quote_customers": "",
-   "event_date": "2026-08-19"
   },
   {
    "ticker": "WMT",
@@ -424,18 +388,6 @@
    "quote_receiving": "This result includes $134.5 million pre-tax benefit from IEEPA tariff refunds, which added 560 basis points to operating margin.",
    "quote_customers": "",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "LZB",
-   "company": "La-Z-Boy, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "La-Z-Boy received IEEPA tariff refunds boosting Wholesale gross margin by 240 basis points in Q1 fiscal 2027.",
-   "quote_receiving": "240 basis point favorable tariff impact, including IEEPA refunds and pricing actions net of tariff costs",
-   "quote_customers": "",
-   "event_date": "2026-08-19"
   },
   {
    "ticker": "NVST",
@@ -2116,6 +2068,54 @@
    "quote_receiving": "We did recognize a small amount of tariff refunds in the quarter, impacting margins by approximately 30 basis points.",
    "quote_customers": "",
    "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "LOW",
+   "company": "Lowe's Companies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Lowe's received tariff refunds and plans to reinvest them to enhance customer value proposition and competitive position.",
+   "quote_receiving": "That brings me to the tariff refunds we received during the quarter.",
+   "quote_customers": "",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "LZB",
+   "company": "La-Z-Boy, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "La-Z-Boy reports favorable net tariff impact including refunds; says refund process substantially complete as of Q2 end.",
+   "quote_receiving": "As of the end of the second quarter, we are substantially done with the process for refunds.",
+   "quote_customers": "",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "TGT",
+   "company": "Target Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$300 million",
+   "headline": "Target received ~$300M in tariff refunds in Q3, worth ~$0.50 EPS; year-to-date ~$2.14 EPS benefit.",
+   "quote_receiving": "In Q3, we received approximately $300 million in tariff refunds, equating to about $0.50 of EPS.",
+   "quote_customers": "",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "TJX",
+   "company": "The TJX Cos., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "TJX received tariff refunds in Q2 and Q3; results adjusted to exclude their impact and related compensation accruals.",
+   "quote_receiving": "our third quarter adjusted results exclude the impact from the tariff refunds received as of the end of the third quarter and the related expense accruals for incremental incentive compensation",
+   "quote_customers": "",
+   "event_date": "2026-11-18"
   }
  ]
 }

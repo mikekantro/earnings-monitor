@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T02:42:28.497088",
+ "generated": "2026-11-19T18:59:32.398252",
  "window": [
   "2026-07-15",
   "2026-11-19"
@@ -216,16 +216,6 @@
    "event_date": "2026-08-06"
   },
   {
-   "ticker": "LOW",
-   "company": "Lowe's Companies, Inc.",
-   "channel": "data_center_construction",
-   "quote": "one of their largest segments for them right now is to build out of data centers. And so we're participate in a lot of the commercial side",
-   "metric": null,
-   "direction": "steady",
-   "headline": "Lowe's subsidiary FBM participates in data-center construction buildout as a significant business segment.",
-   "event_date": "2026-09-15"
-  },
-  {
    "ticker": "LQDT",
    "company": "Liquidity Services, Inc.",
    "channel": "equipment_components",
@@ -254,16 +244,6 @@
    "direction": "accelerating",
    "headline": "Oracle cites AI infrastructure capacity delivery and GPU demand as drivers of record Cloud Infrastructure revenue growth of 121% in Q1 FY2027.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "P",
-   "company": "Everpure, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "we secured a design win and supply agreement with a second top five hyperscaler ... we expect large hyperscaler order commitments for our DirectFlash solution to extend into calendar 2028, powering tens of exabytes of capacity",
-   "metric": "tens of exabytes of capacity",
-   "direction": "accelerating",
-   "headline": "Everpure cites hyperscaler AI-infrastructure demand (DirectFlash) driving significant revenue ramp in fiscal 2028 and beyond.",
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "PAG",
@@ -404,16 +384,6 @@
    "direction": "accelerating",
    "headline": "Viavi Solutions cites growing test infrastructure demand from hyperscalers building optical circuit switches for data centers as a driver of its testing equipment sales.",
    "event_date": "2026-08-17"
-  },
-  {
-   "ticker": "WWD",
-   "company": "Woodward, Inc.",
-   "channel": "power_energy",
-   "quote": "Power generation sales increased 19%, driven by higher data center demand for both base and backup power.",
-   "metric": "Power generation sales increased 19%",
-   "direction": "accelerating",
-   "headline": "Woodward cites higher data-center demand as a driver of power generation sales growth in Industrial segment.",
-   "event_date": "2026-07-29"
   },
   {
    "ticker": "PENG",
@@ -3594,6 +3564,46 @@
    "direction": "accelerating",
    "headline": "Powell Industries cites data-center electrical distribution orders as a major driver of recent growth, with an $85 million megaproject booked in Q4 2026.",
    "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "P",
+   "company": "Everpure, Inc.",
+   "channel": "equipment_components",
+   "quote": "Hyperscale Solutions led this growth, with sales increasing substantially during the quarter, and continued expansion expected next quarter and into next year ... As these customers scrutinize performance, power consumption, reliability and maximizing their overall value, our Hyperscale Solutions provide distinct advantages.",
+   "metric": "Hyperscale Solutions led growth with sales increasing substantially; continued expansion expected Q4 and next fiscal year",
+   "direction": "accelerating",
+   "headline": "Everpure cites accelerating hyperscale customer deployments as driver of Hyperscale Solutions revenue growth in Q3 and outlook for Q4 and fiscal 2028.",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "channel": "equipment_components",
+   "quote": "To support our efforts, we plan to build out a diversified global inference capability of north of 100-plus megawatts over the next three to five years. This will be supported by a modest CapEx commitment of at least \u2013 of less than $3 billion through fiscal 2030",
+   "metric": "100-plus megawatts of inference capacity; <$3B CapEx through fiscal 2030",
+   "direction": "accelerating",
+   "headline": "Palo Alto Networks plans to build 100+ megawatts of AI inference capacity and invest less than $3B through fiscal 2030 to support secure sovereign open-weight model deployment to enterprise customers.",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "UTI",
+   "company": "Universal Technical Institute, Inc.",
+   "channel": "equipment_components",
+   "quote": "Data centers, chip manufacturers and other onshoring efforts are increasing the need for skilled workers in the US ... The rapid build out of AI infrastructure from data centers and power generation to electrical systems, HVAC and advanced manufacturing directly aligns with our skilled trade programs.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Universal Technical Institute cites AI infrastructure buildout (data centers, power generation, electrical systems) as driver of accelerating demand for its skilled trades programs.",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "WWD",
+   "company": "Woodward, Inc.",
+   "channel": "power_energy",
+   "quote": "The data center buildout contributed to Industrial's strong sales and earnings in 2026 as we fulfilled increased demand for our products and services to support both grid-based and behind-the-meter onsite power plant applications.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Woodward cites data-center buildout as driver of Industrial segment sales and earnings growth in power generation.",
+   "event_date": "2026-11-18"
   }
  ]
 }

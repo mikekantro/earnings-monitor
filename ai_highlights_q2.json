@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T02:42:53.667591",
+ "generated": "2026-11-19T18:59:59.768779",
  "window": [
   "2026-07-15",
   "2026-11-19"
@@ -100,18 +100,6 @@
    "quote": "positioning ourselves so that the best stories come out when people go to AI to check on Grand Canyon University is going to be the future of the whole market. And we are working very hard to position",
    "metric": null,
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "LOW",
-   "company": "Lowe's Companies, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Lowe's AI agent Mylow drives 3x conversion rate for online customers vs. non-users; 25M+ questions handled.",
-   "quote": "the conversion rate for online customers who use Mylow is triple that of customers who do not use the tool, reinforcing that a well-designed agentic AI experience can be a clear driver in the purchasing decision.",
-   "metric": "3x conversion rate for Mylow users vs. non-users; 25 million+ questions supported",
-   "event_date": "2026-08-19"
   },
   {
    "ticker": "MCK",
@@ -244,18 +232,6 @@
    "quote": "we're finding opportunities on deploying AI to get more productive. I'd say there's four or five that we're working on right now that if successful... should have a benefit next year of like $1 million plus annual savings.",
    "metric": "$1M+ annual savings",
    "event_date": "2026-08-10"
-  },
-  {
-   "ticker": "TGT",
-   "company": "Target Corp.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Target partners with OpenAI and Google Gemini for agentic commerce; AI-sourced digital traffic growing 3.5x industry rate",
-   "quote": "Target's digital traffic sourced from external AI platforms is growing more than 3.5 times the industry as compared to a year ago.",
-   "metric": "3.5x industry growth in AI-sourced digital traffic",
-   "event_date": "2026-08-19"
   },
   {
    "ticker": "WU",
@@ -448,18 +424,6 @@
    "quote": "In Q1, we won approximately 350 AI and data lake modernization deals, up significantly from a year ago. Importantly, deal sizes are increasing as customers move from proof-of-concept to production.",
    "metric": "350 AI and data lake modernization deals in Q1",
    "event_date": "2026-09-02"
-  },
-  {
-   "ticker": "PANW",
-   "company": "Palo Alto Networks, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Palo Alto Networks embeds AI in security products including Prisma AIRS and Frontier AI Defense Service, surpassing $100M ARR",
-   "quote": "Prisma AIRS achieved a significant milestone, surpassing $100 million in ARR within four quarters of general availability. This represents the fastest scaling product in the history of Palo Alto Networks.",
-   "metric": "$100M ARR for Prisma AIRS within 4 quarters of GA",
-   "event_date": "2026-09-01"
   },
   {
    "ticker": "AMTM",
@@ -750,18 +714,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "LZB",
-   "company": "La-Z-Boy, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "La-Z-Boy adds AI-enriched product descriptions and AI-powered search to e-commerce site to drive engagement and conversion",
-   "quote": "We've also incorporated AI-enriched product descriptions to drive a more seamless discovery process... we have added advanced technologies, including AI-powered search capabilities, to accelerate engagement and conversion.",
-   "metric": null,
-   "event_date": "2026-08-19"
-  },
-  {
    "ticker": "MAC",
    "company": "Macerich Co.",
    "category": "efficiency",
@@ -832,18 +784,6 @@
    "quote": "we have transitions underway that will support a reassessment of our IT infrastructure with an eye toward simplifying our tech stack and advancing our data analytics and AI capabilities across the enterprise.",
    "metric": null,
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "P",
-   "company": "Everpure, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Everpure embeds AI-readiness tools and CoPilot assistant in products sold to enterprise customers",
-   "quote": "Our Pure1 CoPilot lets customers monitor, diagnose issues and deploy changes fleet-wide, making global data management easier, more consistent and more secure.",
-   "metric": null,
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "PATH",
@@ -7720,6 +7660,66 @@
    "quote": "Our continued success in online is driven by our ongoing investments from site speed to AI-enabled search, to a multitude of fulfillment options, including our Express Delivery, all of which are working together to improve the interconnected experience, driving greater conversion and higher sales growth.",
    "metric": "13% online comp growth (sixth consecutive quarter of double-digit online comp growth)",
    "event_date": "2026-11-17"
+  },
+  {
+   "ticker": "LOW",
+   "company": "Lowe's Companies, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Lowe's AI assistant 'Mylow' on OpenAI platform answers 1M+ questions/month and drives 3x online conversion rate",
+   "quote": "when our Online customers leverage Mylow, we're seeing triple the conversion rate versus customers that don't",
+   "metric": "3x conversion rate; over 1 million questions answered per month",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "LZB",
+   "company": "La-Z-Boy, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "La-Z-Boy advancing AI use across enterprise to enhance consumer experience, discoverability, and internal efficiencies.",
+   "quote": "We're also thoughtfully advancing our use of AI across the enterprise with a focus on enhancing the consumer experience and driving enhanced analysis and efficiencies.",
+   "metric": null,
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "P",
+   "company": "Everpure, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Everpure sells AI-optimized storage products (FlashBlade//EXA, KVA, Data Intelligence) and embeds AI features in its platform.",
+   "quote": "AI agents get secure real-time access to governed enterprise context, protecting sensitive data with zero manual integration.",
+   "metric": "20x faster time to first token for large language models",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "PANW",
+   "company": "Palo Alto Networks, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Palo Alto Networks embeds AI across Cortex XSIAM, Prisma AIRS, and identity security products sold to enterprise customers.",
+   "quote": "XSIAM now in just over 20 petabytes of daily telemetry, leveraging AI to reduce response times from days to under 10 minutes.",
+   "metric": "$170M ARR for Prisma AIRS in five quarters; response times reduced from days to under 10 minutes",
+   "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "TGT",
+   "company": "Target Corp.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Target deploys AI-driven shopping assistant 'Ask Target' (beta) and AI-powered replenishment/allocation tools to serve guests and improve availability.",
+   "quote": "guest-facing tools like Ask Target, our AI-driven shopping assistant. Ask Target is still in beta, but we're encouraged by early results and excited about the new capabilities we'll introduce in the months ahead.",
+   "metric": null,
+   "event_date": "2026-11-18"
   }
  ]
 }
