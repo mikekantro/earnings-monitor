@@ -21690,6 +21690,66 @@
       "ticker": "KLIC",
       "name": "Kulicke & Soffa Industries, Inc.",
       "date": "2026-11-20"
+    },
+    {
+      "new_orders": 85,
+      "output": 82,
+      "employment": 65,
+      "prices": 78,
+      "supply_chains": 68,
+      "demand_breadth": 74,
+      "composite": 79,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Moog's record backlog (+29% YoY) and FY2027 guidance projecting double-digit growth across defense, commercial aerospace, and industrial segments signals a broad-based, durable demand expansion cycle driven by defense rearmament, AI infrastructure, and aerospace recovery.",
+      "ticker": "MOG.A",
+      "name": "Moog, Inc.",
+      "date": "2026-11-20"
+    },
+    {
+      "new_orders": 72,
+      "output": 78,
+      "employment": 65,
+      "prices": 68,
+      "supply_chains": 60,
+      "demand_breadth": 62,
+      "composite": 71,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "BJ's 17.7% YoY net sales growth driven by traffic gains across all income levels and aggressive club expansion pipeline signals durable consumer trade-up into value formats amid persistent inflation pressure.",
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, Inc.",
+      "date": "2026-11-20"
+    },
+    {
+      "new_orders": 42,
+      "output": 48,
+      "employment": 48,
+      "prices": 38,
+      "supply_chains": 40,
+      "demand_breadth": 44,
+      "composite": 43,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Post Holdings faces a classic cost-push squeeze with mid-single-digit input cost inflation (accelerating in freight, diesel, packaging) outpacing lagging pricing actions, creating a structurally back-half-weighted FY2027 EBITDA profile that signals broad margin compression risk across the food sector.",
+      "ticker": "POST",
+      "name": "Post Holdings, Inc.",
+      "date": "2026-11-20"
+    },
+    {
+      "new_orders": 52,
+      "output": 54,
+      "employment": 48,
+      "prices": 58,
+      "supply_chains": 55,
+      "demand_breadth": 50,
+      "composite": 53,
+      "sector": "Consumer Discretionary",
+      "confidence": 2,
+      "key_signal": "Middle-income consumer resilience is intact but showing strain \u2014 fewer units purchased at higher prices signals a cautious but still-spending shopper, with fashion cycle tailwinds and store expansion driving modest growth rather than organic demand acceleration.",
+      "ticker": "BKE",
+      "name": "The Buckle, Inc.",
+      "date": "2026-11-20"
     }
   ]
 }
