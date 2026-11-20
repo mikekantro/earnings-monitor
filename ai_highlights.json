@@ -5975,7 +5975,106 @@
    "quote": "thoughtfully advancing our use of AI across the enterprise with a focus on enhancing the consumer experience and driving enhanced analysis and efficiencies",
    "metric": null,
    "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "GAP",
+   "company": "Gap, Inc.",
+   "category": "efficiency",
+   "headline": "Gap Inc. is advancing agentic commerce and digital personalization capabilities on its scaled e-commerce platform.",
+   "quote": "We continue to advance our digital and app capabilities, including agentic commerce and of course, always exploring emerging platforms like TikTok.",
+   "metric": null,
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "INTU",
+   "company": "Intuit, Inc.",
+   "category": "revenue",
+   "headline": "Intuit uses AI integrations with major platforms to drive QuickBooks/TurboTax adoption, reaching $1B annualized TPV run rate via AI connectors.",
+   "quote": "sending invoices is one of the most-used features in the QuickBooks connector, and since launching in June, we've rapidly scaled to an annualized TPV run rate of over $1 billion",
+   "metric": "$1B annualized TPV run rate via AI connectors; 2M+ calls to QuickBooks per week",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "WSM",
+   "company": "Williams-Sonoma, Inc.",
+   "category": "revenue",
+   "headline": "Williams-Sonoma AI assistants across brands drive 1M+ customer chat visits; personalized experiences lift revenue per visit",
+   "quote": "revenue per visit for customers engaging with personalized experiences was up substantially versus the site average and versus last year",
+   "metric": "1 million customer chat visits since launch",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "LQDT",
+   "company": "Liquidity Services, Inc.",
+   "category": "efficiency",
+   "headline": "Liquidity Services uses AI analytics, AI-optimized pages, and AI-enabled cataloging to cut prep time and improve seller discovery.",
+   "quote": "Our BigQuery and Copilot analytics workflows reduced recurring account review prep time by roughly 80%, while supporting faster campaign optimization.",
+   "metric": "80% reduction in account review prep time",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "VVV",
+   "company": "Valvoline, Inc.",
+   "category": "revenue",
+   "headline": "Valvoline optimizing content and Google ratings to surface brand in LLM/agentic AI search tools for new customer acquisition",
+   "quote": "we are doing a lot of work making sure that we have content, which the LLMs will source. And so, one, making sure that our site presents itself in a way that the LLMs will use.",
+   "metric": null,
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "WMT",
+   "company": "Walmart, Inc.",
+   "category": "revenue",
+   "headline": "Walmart's AI shopping agent Sparky saw 129% usage growth, with baskets expanding 40% year-over-year",
+   "quote": "In the US, usage grew 129% over last year, and we're seeing these baskets expand 40%, as customers are able to find more of the items they want and need.",
+   "metric": "129% usage growth; 40% basket expansion",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "SNEX",
+   "company": "StoneX Group, Inc.",
+   "category": "efficiency",
+   "headline": "StoneX uses AI to accelerate software delivery, automate reconciliations, triage support, and reimagine client onboarding.",
+   "quote": "Production releases were up approximately 15% in the first nine months of calendar 2026, compared with the same period last year, and quality has held.",
+   "metric": "15% increase in production releases; 75% of payments changes AI-assisted; client sessions grew 4.5x; platform users grew 6x",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "MMS",
+   "company": "MAXIMUS, Inc.",
+   "category": "efficiency",
+   "headline": "Maximus credits AI-enabled solutions and automation investments for EBITDA margin expansion from 13.7% to 14.2% in FY2026.",
+   "quote": "These results are driven by investments in automation and AI-enabled solutions combined with operational discipline that come together to generate value for both our customers and shareholders.",
+   "metric": "EBITDA margin expanded from 13.7% outlook to 14.2% actual in FY2026",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "BBWI",
+   "company": "Bath & Body Works, Inc.",
+   "category": "revenue",
+   "headline": "Bath & Body Works relaunched website with AI-powered browsing and personalized product recommendations to drive digital sales growth.",
+   "quote": "we fully relaunched our website with richer brand and product storytelling, AI-powered browsing and personalized product recommendations.",
+   "metric": null,
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "WMG",
+   "company": "Warner Music Group Corp.",
+   "category": "revenue",
+   "headline": "WMG partners with Suno and other AI companies to monetize music catalog, with Suno becoming first AI firm to pay royalties to rights holders.",
+   "quote": "Suno became the first of what will be many generative AI companies paying revenue to rights holders. That means our artists and songwriters will be getting paid from an AI creative tool for the first time in history.",
+   "metric": null,
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "UGI",
+   "company": "UGI Corp.",
+   "category": "efficiency",
+   "headline": "UGI utilities using AI to drive OpEx efficiency improvements at Pennsylvania and West Virginia operations",
+   "quote": "With AI and various things, they're driving efficiency. So, that's something that's new that we saw in our forecast, meaning their OpEx at both Pennsylvania and West Virginia, we see some improvements",
+   "metric": null,
+   "event_date": "2026-11-20"
   }
  ],
- "updated": "2026-11-19T08:14:31"
+ "updated": "2026-11-20T08:04:16"
 }
