@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T02:27:32.556461",
+ "generated": "2026-11-20T18:38:03.477117",
  "window": [
   "2026-07-15",
   "2026-11-20"
@@ -156,16 +156,6 @@
    "event_date": "2026-07-22"
   },
   {
-   "ticker": "ESE",
-   "company": "ESCO Technologies, Inc.",
-   "channel": "power_energy",
-   "quote": "As utilities expand their generation, transmission, and distribution capacity to support data centers, EVs, industrial electrification, heat pumps, and other sources of load growth, they must invest in tools that help maintain aging assets, diagnose and prevent failures, reduce downtime, and ensure grid reliability, safety, and compliance.",
-   "metric": "double-digit revenue growth year-to-date",
-   "direction": "accelerating",
-   "headline": "ESCO Technologies cites data-center-driven power and grid infrastructure expansion as a driver of Doble utility solutions revenue and order growth.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "HPE",
    "company": "Hewlett Packard Enterprise Co.",
    "channel": "networking_compute",
@@ -194,36 +184,6 @@
    "direction": "accelerating",
    "headline": "Jacobs Solutions cites AI data center buildout as growing revenue driver, representing 11% of adjusted net revenue with 100 basis point quarter-over-quarter increase.",
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "KEYS",
-   "company": "Keysight Technologies, Inc.",
-   "channel": "equipment_components",
-   "quote": "our customers' innovation cadence is increasing. The number of product SKUs that our customers are building and developing is just \u2013 it's unprecedented. That innovation is driving a lot of investment in key solutions and products from us.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Keysight Technologies cites accelerating AI data-center customer innovation and product development driving demand for its test-and-measurement equipment.",
-   "event_date": "2026-09-15"
-  },
-  {
-   "ticker": "KLIC",
-   "company": "Kulicke & Soffa Industries, Inc.",
-   "channel": "equipment_components",
-   "quote": "Growth in artificial intelligence applications remain the driving factor behind data center expansion. This growing data center opportunity, in turn, drives meaningful increase in demand for both our thermo-compression and wire bonding solutions.",
-   "metric": "advanced solutions segment revenue exceeded $100 million for fiscal 2026; expected $150 million to $200 million in FY 2027",
-   "direction": "accelerating",
-   "headline": "Kulicke & Soffa cites AI-driven data center expansion as driver of thermo-compression and wire bonding equipment demand, with advanced solutions revenue accelerating.",
-   "event_date": "2026-08-06"
-  },
-  {
-   "ticker": "LQDT",
-   "company": "Liquidity Services, Inc.",
-   "channel": "equipment_components",
-   "quote": "now data center developments. All that equipment is typically dealer owned, and those fleets, we'll sell a portion of that equipment every year.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "Liquidity Services cites data center construction equipment sales as a growing component of its CAG heavy equipment business.",
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "LUMN",
@@ -354,16 +314,6 @@
    "direction": "accelerating",
    "headline": "Toro cites data-center infrastructure buildout as a driver for underground construction and drilling demand, citing a Frederick, Maryland project example.",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "UGI",
-   "company": "UGI Corp.",
-   "channel": "power_energy",
-   "quote": "the growing energy needs of data centers and power generation, ensuring we have the capacity in place to serve our customers and support long-term growth",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "UGI Corp.'s Midstream segment cites data-center and power-generation energy demand as driver of natural-gas system expansion and long-term growth.",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "VECO",
@@ -3604,6 +3554,56 @@
    "direction": "accelerating",
    "headline": "Woodward cites data-center buildout as driver of Industrial segment sales and earnings growth in power generation.",
    "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "ESE",
+   "company": "ESCO Technologies, Inc.",
+   "channel": "power_energy",
+   "quote": "Rising power demand, electrification, and grid modernization continue to increase the need for reliable, well-maintained electrical infrastructure. As utilities expand generation, transmission and distribution capacity, they must also maintain aging assets, prevent failures, and reduce downtime while meeting reliability, safety, and compliance requirements. This investment creates demand for tools to assess existing equipment, commission new assets, and maintain a larger, more complex grid, providing durable growth drivers for utility test instrumentation providers such as Doble and Megger.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "ESCO Technologies cites rising power demand and grid modernization as drivers of durable growth for its Utility Solutions Group.",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "KEYS",
+   "company": "Keysight Technologies, Inc.",
+   "channel": "equipment_components",
+   "quote": "In Commercial Communications, the rapid development of AI infrastructure technologies continued to drive our wireline business. Wireline delivered record orders again this quarter with strong growth in both R&D and manufacturing for electrical and optical applications.",
+   "metric": "wireline delivered record orders, triple-digit growth in wireline",
+   "direction": "accelerating",
+   "headline": "Keysight Technologies cites AI infrastructure development as driver of record wireline orders and revenue growth in commercial communications.",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "KLIC",
+   "company": "Kulicke & Soffa Industries, Inc.",
+   "channel": "equipment_components",
+   "quote": "As AI adoption drives continuous data center infrastructure expansion, it's creating a new wave of semiconductor unit growth, reinforcing the critical role of wire bonding across high-volume semiconductor production. Wire bonding sales increased 162% year-over-year, and we estimate that 75% of semiconductor packaged units deployed in the data center require wire bonding.",
+   "metric": "75% of semiconductor packaged units deployed in the data center require wire bonding; wire bonding sales increased 162% year-over-year",
+   "direction": "accelerating",
+   "headline": "Kulicke & Soffa cites AI data-center infrastructure expansion as driver of 162% year-over-year wire bonding sales growth, noting 75% of data-center semiconductor units require wire bonding.",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "ROAD",
+   "company": "Construction Partners, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Data centers provide attractive project opportunities, where they overlap with our existing operations. These are good margin projects with exacting requirements that create a competitive advantage for CPI.",
+   "metric": null,
+   "direction": "steady",
+   "headline": "Construction Partners cites data-center projects as selective opportunities with attractive margins within its existing geographic footprint.",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "UGI",
+   "company": "UGI Corp.",
+   "channel": "data_center_construction",
+   "quote": "several have progressed to engineering, construction feasibility, or routing studies. We're still in the early stages, but this pipeline gives us promising new avenue for demand growth ... early commercial wins, including new data center construction accounts beginning this winter, representing approximately 5 million gallons annually",
+   "metric": "approximately 5 million gallons annually from new data center construction accounts",
+   "direction": "accelerating",
+   "headline": "UGI cites data center construction as an emerging demand driver for its midstream business and AmeriGas propane volumes.",
+   "event_date": "2026-11-19"
   }
  ]
 }

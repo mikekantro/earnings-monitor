@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T02:27:31.028881",
+ "generated": "2026-11-20T18:36:47.056924",
  "window": [
   "2026-07-15",
   "2026-11-20"
@@ -90,18 +90,6 @@
    "event_date": "2026-07-23"
   },
   {
-   "ticker": "WMT",
-   "company": "WMT",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "Walmart received tariff refunds in Q2, boosting operating income by ~750 bps; company deploying proceeds into price investment.",
-   "quote_receiving": "This includes the benefit from the receipt of tariff refunds in the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-20"
-  },
-  {
    "ticker": "DE",
    "company": "Deere & Co.",
    "receiving": true,
@@ -126,18 +114,6 @@
    "event_date": "2026-08-20"
   },
   {
-   "ticker": "ROST",
-   "company": "Ross Stores, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$253 million",
-   "headline": "Ross Stores received $253 million (~$0.60 EPS) in tariff refunds in H1 2026, contributing 405 basis points to Q2 gross margin.",
-   "quote_receiving": "both the second quarter and first six months results in 2026 include $253 million or approximately $0.60 in earnings per share of tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-08-20"
-  },
-  {
    "ticker": "SJM",
    "company": "The J. M. Smucker Co.",
    "receiving": true,
@@ -158,18 +134,6 @@
    "amount": "$20 million",
    "headline": "Agilent received $20M net tariff refunds in Q3, boosting operating margin by ~110 bps and EPS by $0.06.",
    "quote_receiving": "Including the net benefit from tariff refunds of $20 million, our operating margin was 28.3%.",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "BBWI",
-   "company": "Bath & Body Works, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$80 million",
-   "headline": "Bath & Body Works received ~$80M in tariff refunds in Q2 2026, contributing ~530 bps to merchandise margin.",
-   "quote_receiving": "adjusted earnings per diluted share included the benefit from approximately $80 million of tariff refunds received in the quarter.",
    "quote_customers": "",
    "event_date": "2026-08-26"
   },
@@ -342,18 +306,6 @@
    "event_date": "2026-09-02"
   },
   {
-   "ticker": "GAP",
-   "company": "Gap, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Gap expects net recovery of IEEPA tariffs previously paid; refund excluded from adjusted results and skews interest income to Q4.",
-   "quote_receiving": "our second quarter results and full year 2026 outlook for adjusted gross margin and operating margin exclude a cost of goods sold adjustment tied to an expected net recovery of tariffs previously paid under the International Emergency Economic Powers Act.",
-   "quote_customers": "",
-   "event_date": "2026-08-27"
-  },
-  {
    "ticker": "GIII",
    "company": "G-III Apparel Group Ltd.",
    "receiving": true,
@@ -459,18 +411,6 @@
    "headline": "URBN received substantially all IEEPA tariff refunds in Q2 FY2027; remaining amounts deemed de minimis.",
    "quote_receiving": "During the second quarter, we received substantially all of our refund relating to the incremental IEEPA tariffs imposed beginning in the spring of FY 2026.",
    "quote_customers": "",
-   "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "WSM",
-   "company": "Williams-Sonoma, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "refund_customers",
-   "amount": "$200 million",
-   "headline": "Williams-Sonoma received a $200M tariff refund; recognized $174M in Q2, reimbursing $47M to vendors and $10M to associates' 401(k)s.",
-   "quote_receiving": "We're pleased to have received a refund of $200 million.",
-   "quote_customers": "We are excited to be able to reimburse a total of $47 million to many of our vendors for the discounts they gave us to mitigate the tariff pressures",
    "event_date": "2026-08-26"
   },
   {
@@ -2116,6 +2056,66 @@
    "quote_receiving": "our third quarter adjusted results exclude the impact from the tariff refunds received as of the end of the third quarter and the related expense accruals for incremental incentive compensation",
    "quote_customers": "",
    "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "GAP",
+   "company": "Gap, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Gap received tariff refunds and associated interest year-to-date; results presented on adjusted basis excluding these benefits.",
+   "quote_receiving": "certain metrics within our third quarter results and full year outlook are presented on a non-GAAP basis to exclude the benefit of tariff refunds and associated interest received year-to-date",
+   "quote_customers": "",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "KEYS",
+   "company": "Keysight Technologies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Keysight received IEEPA tariff refunds in fiscal 2026, providing a one-time 110 bps gross margin tailwind not expected to repeat in 2027.",
+   "quote_receiving": "without the one-time tailwind of 110 basis points that occurred in fiscal 2026 from the IEEPA tariff refunds",
+   "quote_customers": "",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "ROST",
+   "company": "Ross Stores, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$253 million",
+   "headline": "Ross Stores received ~$253 million (~$0.60 EPS) in tariff refunds recognized in Q2 2026, included in full-year guidance.",
+   "quote_receiving": "the 2026 year-to-date results include $253 million, or approximately $0.60 in earnings per share of tariff refunds that were recognized in the second quarter.",
+   "quote_customers": "",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "WMT",
+   "company": "Walmart, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "Walmart received tariff refunds and used them to fund price rollbacks and offset elevated transportation costs.",
+   "quote_receiving": "our gross profit performance also reflects the investments we made in price and customer initiatives using the tariff refunds we received.",
+   "quote_customers": "",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "WSM",
+   "company": "Williams-Sonoma, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$29 million",
+   "headline": "Williams-Sonoma received $29M in IEEPA tariff refunds, recognized in Q3 GAAP results; excluded from non-GAAP figures.",
+   "quote_receiving": "During the quarter, we recognized the remaining $29 million of IEEPA tariff refunds in cost of goods sold as the related inventory sold through.",
+   "quote_customers": "",
+   "event_date": "2026-11-19"
   }
  ]
 }

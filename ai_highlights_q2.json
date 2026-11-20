@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T02:27:34.105464",
+ "generated": "2026-11-20T18:38:51.573022",
  "window": [
   "2026-07-15",
   "2026-11-20"
@@ -256,42 +256,6 @@
    "quote": "We will soon build on that foundation with AI-enabled capabilities designed to unlock even more value from the data within Operations Center.",
    "metric": null,
    "event_date": "2026-08-20"
-  },
-  {
-   "ticker": "ROST",
-   "company": "Ross Stores, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Ross Stores integrating AI across business functions including analytics, planning, allocation, and software development.",
-   "quote": "as we go function-by-function across the business, we don't look at any new process or any sort of system application without figuring out a way to enhance it further with AI. So, that could be analytics or whatever we're doing planning and allocation.",
-   "metric": null,
-   "event_date": "2026-08-20"
-  },
-  {
-   "ticker": "WMT",
-   "company": "Walmart, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Walmart's AI shopping assistant Sparky drives 40% higher spend per order; user base up 70% year-over-year",
-   "quote": "the customers and members who use Sparky for shopping spend 40% more per order than others who don't",
-   "metric": "40% more spend per order; users up 70% YoY",
-   "event_date": "2026-08-20"
-  },
-  {
-   "ticker": "INTU",
-   "company": "Intuit, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Intuit embeds AI agents in QuickBooks and Accountant Suite; customers get paid 4 days faster and cut manual work 30%",
-   "quote": "Millions of customers are using our AI-native experiences, getting paid four days faster and reducing manual work by 30%.",
-   "metric": "4 days faster payments; 30% reduction in manual work; 75%+ of Intuit Enterprise Suite customers use AI agents monthly",
-   "event_date": "2026-08-25"
   },
   {
    "ticker": "A",
@@ -606,18 +570,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "GAP",
-   "company": "Gap, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Gap investing in AI-related technology work to build capability in operations and supply chain.",
-   "quote": "a lot of the technology work that we're doing around AI to be able to build capability and somewhat in our supply chain",
-   "metric": null,
-   "event_date": "2026-08-27"
-  },
-  {
    "ticker": "GTM",
    "company": "ZoomInfo Technologies, Inc.",
    "category": "product",
@@ -678,18 +630,6 @@
    "event_date": "2026-08-04"
   },
   {
-   "ticker": "LQDT",
-   "company": "Liquidity Services, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Liquidity Services uses AI to automate manual item description tasks and power recommendations/organic traffic on its marketplace.",
-   "quote": "AI is a friend of ours. It's allowed us to automate a lot of very manual tasks related to getting one of one Snowflake items that have no other peer, get them to describe accurately, put online with structured data",
-   "metric": null,
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "LULU",
    "company": "lululemon athletica, Inc.",
    "category": "efficiency",
@@ -724,18 +664,6 @@
    "quote": "There is a little bit of investments in technology and AI spend as well.",
    "metric": null,
    "event_date": "2026-08-04"
-  },
-  {
-   "ticker": "MMS",
-   "company": "MAXIMUS, Inc.",
-   "category": "efficiency",
-   "margin_claim": true,
-   "margin_quote": "AI-based improvements to core business processes, such as IVR and script optimization, chatbot enhancement, and proactive text and e-mail engagement, in just five contracts yielded a better customer experience and a 3.5% operating margin improvement for that group.",
-   "margin_metric": "3.5% operating margin improvement",
-   "headline": "Maximus reports 3.5% operating margin improvement across 5 contracts from AI-based IVR, chatbot, and engagement improvements.",
-   "quote": "AI-based improvements to core business processes, such as IVR and script optimization, chatbot enhancement, and proactive text and e-mail engagement, in just five contracts yielded a better customer experience and a 3.5% operating margin improvement for that group.",
-   "metric": "3.5% operating margin improvement across 5 contracts",
-   "event_date": "2026-08-06"
   },
   {
    "ticker": "NABL",
@@ -930,18 +858,6 @@
    "event_date": "2026-08-25"
   },
   {
-   "ticker": "SNEX",
-   "company": "StoneX Group, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "StoneX deploying enterprise-wide AI to accelerate OTC swap platform, reconciliations, settlement, and technology development",
-   "quote": "we went from an AI perspective, from sort of early adoption, experimenting, sort of just playing around to rolling out an enterprise-wide capability, which is becoming increasingly core and central to our overall technology build out",
-   "metric": null,
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "STAA",
    "company": "STAAR Surgical Co.",
    "category": "efficiency",
@@ -1024,30 +940,6 @@
    "quote": "We generated $14 million of AI revenue in the quarter and our pipeline is expanding across models, channels and verticals. We remain well on track to deliver our full-year AI revenue goals.",
    "metric": "$14M AI revenue in Q1 FY2027; full-year target >$50M; AI recurring revenue growing 2-3x year-over-year",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "WMG",
-   "company": "Warner Music Group Corp.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "WMG uses proprietary AI tools across 1M+ song catalog to detect streaming opportunities and create marketing content, boosting streams.",
-   "quote": "our teams are also expertly using proprietary AI tools across our entire catalog of over 1 million songs to detect opportunities to optimize all of our music for streaming services",
-   "metric": "50,000 streams in all of 2025 to over 140 million streams so far this year",
-   "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "WSM",
-   "company": "Williams-Sonoma, Inc.",
-   "category": "revenue",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Williams-Sonoma launched AI shopping assistants Olive and Otto to drive product recommendations and conversion across brands",
-   "quote": "we have recently launched our next AI-powered shopping assistant, Otto, across the Pottery Barn family. Both Olive and Otto are helping our customers with product recommendations",
-   "metric": null,
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "COO",
@@ -7720,6 +7612,138 @@
    "quote": "guest-facing tools like Ask Target, our AI-driven shopping assistant. Ask Target is still in beta, but we're encouraged by early results and excited about the new capabilities we'll introduce in the months ahead.",
    "metric": null,
    "event_date": "2026-11-18"
+  },
+  {
+   "ticker": "BBWI",
+   "company": "Bath & Body Works, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Bath & Body Works relaunched website with AI-powered browsing and personalized product recommendations to drive digital growth.",
+   "quote": "we fully relaunched our website with richer brand and product storytelling, AI-powered browsing and personalized product recommendations.",
+   "metric": null,
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "GAP",
+   "company": "Gap, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Gap Inc. is advancing agentic commerce and digital/app capabilities as part of its digital platform strategy.",
+   "quote": "We continue to advance our digital and app capabilities, including agentic commerce and of course, always exploring emerging platforms like TikTok.",
+   "metric": null,
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "INTU",
+   "company": "Intuit, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Intuit uses AI integrations with major platforms to drive QuickBooks engagement, plan upgrades, and $1B+ annualized TPV run rate",
+   "quote": "QuickBooks customers who connect through AI tools and agents are showing higher rates of payroll, payments, and bill pay adoption and plan upgrades than similar customers who are not connected.",
+   "metric": "annualized TPV run rate of over $1 billion; over 2 million calls to QuickBooks per week; over 30% weekly engagement among connected customers",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "LQDT",
+   "company": "Liquidity Services, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Liquidity Services uses AI for cataloging, solution pages, analytics workflows, and equipment listing data, cutting account review prep time ~80%.",
+   "quote": "Our BigQuery and Copilot analytics workflows reduced recurring account review prep time by roughly 80%, while supporting faster campaign optimization.",
+   "metric": "~80% reduction in account review prep time",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "MMS",
+   "company": "MAXIMUS, Inc.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "These results are driven by investments in automation and AI-enabled solutions combined with operational discipline ... Adjusted EBITDA margin expanded to 14.2% this fiscal year, compared to 12.9% in fiscal year 2025",
+   "margin_metric": "130 bps adjusted EBITDA margin expansion (12.9% to 14.2%)",
+   "headline": "Maximus credits AI-enabled solutions and automation investments for EBITDA margin expansion from 12.9% to 14.2%",
+   "quote": "These results are driven by investments in automation and AI-enabled solutions combined with operational discipline that come together to generate value for both our customers and shareholders.",
+   "metric": "14.2% adjusted EBITDA margin vs 12.9% prior year",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "SNEX",
+   "company": "StoneX Group, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "StoneX uses AI to boost software delivery, automate reconciliations, triage support, and reimagine client onboarding",
+   "quote": "Production releases were up approximately 15% in the first nine months of calendar 2026, compared with the same period last year, and quality has held. Fewer than one in 1,000 changes is reverted.",
+   "metric": "15% increase in production releases; 75% of payments changes AI-assisted; client sessions grew 4.5x; platform users grew 6x; regulatory-reporting assistant scored 99%-100% accuracy",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "UGI",
+   "company": "UGI Corp.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "UGI utility presidents using AI to drive operational efficiency, improving OpEx forecasts for Pennsylvania and West Virginia utilities.",
+   "quote": "With AI and various things, they're driving efficiency. So, that's something that's new that we saw in our forecast, meaning their OpEx at both Pennsylvania and West Virginia, we see some improvements",
+   "metric": null,
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "VVV",
+   "company": "Valvoline, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Valvoline optimizing content and Google star ratings to surface brand in LLM/agentic AI search tools for new customer acquisition",
+   "quote": "we are doing a lot of work making sure that we have content, which the LLMs will source. And so, one, making sure that our site presents itself in a way that the LLMs will use.",
+   "metric": null,
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "WMG",
+   "company": "Warner Music Group Corp.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "WMG struck deals with generative AI companies like Suno to generate new revenue streams for artists and songwriters from AI tools.",
+   "quote": "Suno became the first of what will be many generative AI companies paying revenue to rights holders. That means our artists and songwriters will be getting paid from an AI creative tool for the first time in history.",
+   "metric": null,
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "WMT",
+   "company": "Walmart, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Walmart's Sparky AI shopping agent grew US usage 129% YoY; baskets expanded 40% as customers find more items",
+   "quote": "In the US, usage grew 129% over last year, and we're seeing these baskets expand 40%, as customers are able to find more of the items they want and need.",
+   "metric": "129% usage growth YoY; 40% basket expansion",
+   "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "WSM",
+   "company": "Williams-Sonoma, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Williams-Sonoma AI assistants across brands drive 1M+ customer chat visits; personalized experiences lift revenue per visit",
+   "quote": "revenue per visit for customers engaging with personalized experiences was up substantially versus the site average and versus last year",
+   "metric": "1 million customer chat visits since launch",
+   "event_date": "2026-11-19"
   }
  ]
 }
