@@ -1,18 +1,38 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-07T00:00:00Z",
-  "2026-11-19T23:59:59Z"
+  "2026-01-01T00:00:00Z",
+  "2026-03-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 100,
  "raw_events": 0,
  "unique": 0,
- "transcripts_probe": "403",
+ "transcripts_probe": "200",
  "fallback_events": 0,
- "targeted": {},
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'AL-US', 'documents': []}"
+  },
+  "empty_doc_rows": 69,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8443683', 'primaryIds': ['000TH7-E', 'BCO-US'], 'allIds': ['000TH7-E', 'BCO-US'], 'reportId': '3401159', 'eventId': '1204101304', 'eventDate': '2026-02-26', 'transcriptType': 'Corrected', 'headline': \"CORRECTED TRANSCRIPT: The Brink's Co.(BCO-US), Acquisition of NCR Atleos Corp. by The Brink's Co. Call, 26-February-2026 4:30 PM ET\", 'storyDateTime': '2026-02-27T19:02:20Z', 'uploadDateTime': '2026-02-28T03:48:12Z', 'eventType': 'SpecialSituation', 'categories': ['CN:US', 'RN:AM', 'RN:NA', 'SB:CA_MNA_GEN', 'SB:CORPS', 'SB:EVTS', 'SB:EV_ME', 'SB:MANDA', 'LN:EN', 'DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M"
+ },
  "errors": [
-  "calendar 403 x16",
-  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
+  "calendar 403 x1"
  ],
  "already_scored": 0,
  "to_process": 0,
