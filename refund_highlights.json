@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-20T18:36:47.056924",
+ "generated": "2026-11-21T02:38:07.812091",
  "window": [
   "2026-07-15",
-  "2026-11-20"
+  "2026-11-21"
  ],
  "highlights": [
   {
@@ -52,18 +52,6 @@
    "quote_receiving": "this repayment scheme was mandated by the Court of International Trade. And at the end of June, the Trump administration appealed that ruling, so the adjudication of the legality of the IEEPA tariffs has a long way to run.",
    "quote_customers": "",
    "event_date": "2026-07-16"
-  },
-  {
-   "ticker": "MOG.A",
-   "company": "Moog, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$30 million",
-   "headline": "Moog received $30M IEEPA tariff refund in Q3 FY2026, adding 270bps to operating margin and ~$0.70 EPS.",
-   "quote_receiving": "We recognized a benefit related to the recovery of previously paid IEEPA tariffs in our adjusted results. There's a $30 million benefit included in operating profit for the tariff refund this quarter",
-   "quote_customers": "",
-   "event_date": "2026-07-31"
   },
   {
    "ticker": "MSI",
@@ -208,30 +196,6 @@
    "quote_receiving": "We received and recognized approximately $100 million of refunds related to our IEEPA tariffs in the quarter.",
    "quote_customers": "",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "BJ",
-   "company": "BJ's Wholesale Club Holdings, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": null,
-   "headline": "BJ's received tariff refunds on its own purchases and is working to obtain share of supplier refunds; proceeds invested in member pricing.",
-   "quote_receiving": "the tariff refunds we've talked about are all first person tariffs. So, the things that we paid and gotten refunded.",
-   "quote_customers": "",
-   "event_date": "2026-08-21"
-  },
-  {
-   "ticker": "BKE",
-   "company": "The Buckle, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$2.5 million",
-   "headline": "Buckle received $2.5M in tariff refunds during Q2, adding 65 basis points to merchandise margins; all expected refunds now received.",
-   "quote_receiving": "we received a total of $2.5 million during the quarter. A little over $2 million was a credit to cost of goods sold to impact on tariff or merchandise margins in Q1.",
-   "quote_customers": "",
-   "event_date": "2026-08-21"
   },
   {
    "ticker": "BRC",
@@ -2116,6 +2080,42 @@
    "quote_receiving": "During the quarter, we recognized the remaining $29 million of IEEPA tariff refunds in cost of goods sold as the related inventory sold through.",
    "quote_customers": "",
    "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "BJ",
+   "company": "BJ's Wholesale Club Holdings, Inc.",
+   "receiving": true,
+   "to_customers": true,
+   "disposition": "invest_in_price",
+   "amount": null,
+   "headline": "BJ's Wholesale Club received tariff refunds and used them to fund member value investments in Q3 2026.",
+   "quote_receiving": "we've also had some bad guys we haven't expected like $6 diesel and increasing medical costs. And the unplanned investments in member value that we used tariff refunds to fund",
+   "quote_customers": "we used tariff refunds to fund and we took some of the fair winds in gasoline that we saw in Q2 and invested that as well",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "BKE",
+   "company": "The Buckle, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Buckle received tariff refunds in Q2 that flowed through income statement in Q3, contributing ~10 basis points to merchandise margin.",
+   "quote_receiving": "We had a little bit of impact from tariff refunds that flowed through the income statement that we received in Q2, but flow through in Q3. So that was about 10 basis points of the 30.",
+   "quote_customers": "",
+   "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "MOG.A",
+   "company": "Moog, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "70 basis points of segment operating margin benefit",
+   "headline": "Moog received IEEPA tariff refunds in FY2026, contributing 70 bps to segment operating margin and boosting adjusted EPS.",
+   "quote_receiving": "the recovery of previously incurred IEEPA tariffs",
+   "quote_customers": "",
+   "event_date": "2026-11-20"
   }
  ]
 }

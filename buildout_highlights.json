@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-20T18:38:03.477117",
+ "generated": "2026-11-21T02:38:23.630459",
  "window": [
   "2026-07-15",
-  "2026-11-20"
+  "2026-11-21"
  ],
  "highlights": [
   {
@@ -3604,6 +3604,16 @@
    "direction": "accelerating",
    "headline": "UGI cites data center construction as an emerging demand driver for its midstream business and AmeriGas propane volumes.",
    "event_date": "2026-11-19"
+  },
+  {
+   "ticker": "MOG.A",
+   "company": "Moog, Inc.",
+   "channel": "cooling_thermal",
+   "quote": "Industrial sales increased 15% as a result of growing demand for data center cooling pumps ... Over half of the growth was driven by the rapidly expanding data center cooling market.",
+   "metric": "Industrial sales increased 15%, data center cooling pumps approaching $100 million in sales",
+   "direction": "accelerating",
+   "headline": "Moog cites growing data center cooling pump demand as a driver of Industrial segment sales growth and margin expansion.",
+   "event_date": "2026-11-20"
   }
  ]
 }
