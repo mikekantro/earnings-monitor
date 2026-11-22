@@ -1,21 +1,45 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-09T00:00:00Z",
-  "2026-11-21T23:59:59Z"
+  "2025-10-01T00:00:00Z",
+  "2025-12-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 120,
  "raw_events": 0,
- "unique": 0,
- "transcripts_probe": "403",
- "fallback_events": 0,
- "targeted": {},
+ "unique": 53,
+ "transcripts_probe": "200",
+ "fallback_events": 53,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    19
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'FIZZ-US', 'documents': []}"
+  },
+  "empty_doc_rows": 51,
+  "sample_doc": "{'requestId': 'NVRI.XX2-US', 'error': {'code': 'Bad Request', 'title': 'Missing / Invalid Parameters', 'detail': \"The parameter 'id' should be valid\"}}"
+ },
  "errors": [
-  "calendar 403 x16",
-  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
+  "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 0,
+ "to_process": 53,
  "no_transcript": 0,
- "scored": 0
+ "scored": 53
 }
