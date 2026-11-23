@@ -21750,6 +21750,66 @@
       "ticker": "BKE",
       "name": "The Buckle, Inc.",
       "date": "2026-11-20"
+    },
+    {
+      "new_orders": 92,
+      "output": 90,
+      "employment": 60,
+      "prices": 85,
+      "supply_chains": 55,
+      "demand_breadth": 72,
+      "composite": 83,
+      "sector": "Technology",
+      "confidence": 3,
+      "key_signal": "HPE's Q4 AI systems orders surging 130% YoY to $4.5B with record backlog entering FY27 signals that enterprise AI infrastructure spending is entering a durable multi-year supercycle well beyond hyperscaler GPU buildouts.",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise Co.",
+      "date": "2026-11-23"
+    },
+    {
+      "new_orders": 42,
+      "output": 40,
+      "employment": 48,
+      "prices": 62,
+      "supply_chains": 52,
+      "demand_breadth": 45,
+      "composite": 46,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "Organic sales fell 6% in Q4 and Q1 FY2027 is guided to post a loss, signaling meaningful consumer demand softness in the mid-tier pet and garden market despite record margins achieved through portfolio pruning.",
+      "ticker": "CENT",
+      "name": "Central Garden & Pet Co.",
+      "date": "2026-11-23"
+    },
+    {
+      "new_orders": 82,
+      "output": 78,
+      "employment": 60,
+      "prices": 72,
+      "supply_chains": 62,
+      "demand_breadth": 68,
+      "composite": 74,
+      "sector": "Industrials",
+      "confidence": 3,
+      "key_signal": "Jacobs' $28.7B backlog up 24% YoY with a 1.4x book-to-bill ratio signals multi-year infrastructure capital cycle acceleration across power grid, life sciences, water, and advanced manufacturing that is translating into durable, contracted revenue well into FY2028.",
+      "ticker": "J",
+      "name": "Jacobs Solutions, Inc.",
+      "date": "2026-11-23"
+    },
+    {
+      "new_orders": 82,
+      "output": 85,
+      "employment": 60,
+      "prices": 78,
+      "supply_chains": 70,
+      "demand_breadth": 83,
+      "composite": 79,
+      "sector": "Healthcare",
+      "confidence": 3,
+      "key_signal": "Agilent's record $2.04B quarter with 8.3% core growth, 19% China acceleration, and FY2027 guidance of 5-7% core growth confirms the life science tools destocking cycle has fully reversed and broad-based demand recovery is accelerating across pharma, applied, and industrial end markets.",
+      "ticker": "A",
+      "name": "Agilent Technologies, Inc.",
+      "date": "2026-11-23"
     }
   ]
 }

@@ -6083,7 +6083,43 @@
    "quote": "Bev, our AI shopping assistant, continues to gain momentum and is becoming part of how members shop and get help and she's now in our app.",
    "metric": null,
    "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "HPE",
+   "company": "Hewlett Packard Enterprise Co.",
+   "category": "efficiency",
+   "headline": "HPE deployed 15+ AI models internally via its Catalyst Modernization Initiative to optimize cost and routing.",
+   "quote": "we have deployed more than 15 different AI models, from Frontier models to open source and open white models. This gives us the ability to route the demand to the right model for the lowest number of tokens with the lowest cost per token.",
+   "metric": "15+ AI models deployed",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "CENT",
+   "company": "Central Garden & Pet Co.",
+   "category": "efficiency",
+   "headline": "Central Garden & Pet investing in data and AI enablement technology to understand consumers, accelerate innovation, and improve operations.",
+   "quote": "leveraging data, technology, and AI to better understand consumers needs accelerate innovation and bring differentiated products to market more effectively",
+   "metric": null,
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "J",
+   "company": "Jacobs Solutions, Inc.",
+   "category": "efficiency",
+   "headline": "Jacobs says AI is catalyzing client business and driving its own competitive win rates, top-line growth, and margin expansion; digital tools near $300M revenue growing ~30%.",
+   "quote": "it's catalyzing something that, in fact, it's growing at 30% and it's almost $300 million worth of business for us. But what it's doing from our competitive win rate, as well as what it's doing and driving that overall top line growth rate as well as margin expansion",
+   "metric": "$300M digital/AI-related revenue growing ~30% YoY",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "category": "efficiency",
+   "headline": "Agilent deploys AI-enabled supply chain control tower, improving order conversion ratios by 200 bps and delivery performance to record 95%.",
+   "quote": "Our AI-enabled supply chain control tower has helped us move from traditional supply planning towards a more predictive, intelligence-driven approach, with better visibility into demand and the ability to quickly adjust supply.",
+   "metric": "200 bps improvement in order conversion ratios",
+   "event_date": "2026-11-23"
   }
  ],
- "updated": "2026-11-23T02:53:47"
+ "updated": "2026-11-23T23:39:39"
 }
