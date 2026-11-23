@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 53,
+ "unique": 29,
  "transcripts_probe": "200",
- "fallback_events": 53,
+ "fallback_events": 29,
  "targeted": {
   "chunks": [
    [
@@ -21,7 +21,7 @@
    ],
    [
     100,
-    19
+    20
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'FIZZ-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'NPK-US', 'documents': []}"
   },
-  "empty_doc_rows": 51,
-  "sample_doc": "{'requestId': 'NVRI.XX2-US', 'error': {'code': 'Bad Request', 'title': 'Missing / Invalid Parameters', 'detail': \"The parameter 'id' should be valid\"}}"
+  "empty_doc_rows": 68,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8216098', 'primaryIds': ['00F7B1-E', 'TMHC-US'], 'allIds': ['00F7B1-E', 'TMHC-US'], 'reportId': '3323856', 'eventId': '1203907911', 'eventDate': '2025-10-22', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Taylor Morrison Home Corp.(TMHC-US), Q3 2025 Earnings Call, 22-October-2025 8:30 AM ET', 'storyDateTime': '2025-10-22T14:46:23Z', 'uploadDateTime': '2025-10-22T17:45:10Z', 'eventType': 'Earnings', 'categories': ['LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONST', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME'], 'transcriptsUrl': 'https://api.f"
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 53,
+ "to_process": 29,
  "no_transcript": 0,
- "scored": 53
+ "scored": 29
 }
