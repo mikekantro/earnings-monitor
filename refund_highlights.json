@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-23T22:01:51.567097",
+ "generated": "2026-11-24T05:23:40.465498",
  "window": [
   "2026-07-15",
-  "2026-11-23"
+  "2026-11-24"
  ],
  "highlights": [
   {
@@ -110,18 +110,6 @@
    "amount": "$0.84 per share benefit (Q1); $0.60 net benefit for full year)",
    "headline": "Smucker received $0.84/share tariff refund in fiscal Q1; reinvesting portion in SG&A/marketing and using balance to pay down debt.",
    "quote_receiving": "we did receive an $0.84 benefit from tariff refunds in our first quarter",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "A",
-   "company": "Agilent Technologies, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$20 million",
-   "headline": "Agilent received $20M net tariff refunds in Q3, boosting operating margin by ~110 bps and EPS by $0.06.",
-   "quote_receiving": "Including the net benefit from tariff refunds of $20 million, our operating margin was 28.3%.",
    "quote_customers": "",
    "event_date": "2026-08-26"
   },
@@ -2116,6 +2104,30 @@
    "quote_receiving": "the recovery of previously incurred IEEPA tariffs",
    "quote_customers": "",
    "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Agilent received tariff refunds in H2 2026, boosting operating margin by ~120 bps and EPS by an undisclosed amount.",
+   "quote_receiving": "Excluding the net benefit from tariff refunds, operating margin was 28.8%, an increase of 160 basis points year-over-year.",
+   "quote_customers": "",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "CENT",
+   "company": "Central Garden & Pet Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$24 million",
+   "headline": "Central Garden & Pet received $24 million in tariff refunds in fiscal 2026, with $20 million received in Q4, offsetting facility closure charges.",
+   "quote_receiving": "The offsetting $24 million in tariff refunds included $22 million impact, of which $18 million was received in Q4 and $2 million of Garden, all of which was received in Q4.",
+   "quote_customers": "",
+   "event_date": "2026-11-23"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-23T22:01:54.151733",
+ "generated": "2026-11-24T05:24:10.190302",
  "window": [
   "2026-07-15",
-  "2026-11-23"
+  "2026-11-24"
  ],
  "highlights": [
   {
@@ -76,18 +76,6 @@
    "quote": "AI revenue reached 30.7% of the total company revenue in the second quarter, growing 54.6% year-over-year and crossing the 30% threshold for the first time.",
    "metric": "30.7% of revenue; 54.6% YoY growth",
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "J",
-   "company": "Jacobs Solutions, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Jacobs provides AI data center design, digital twins, and program delivery; AI buildout is 11% of adjusted net revenue.",
-   "quote": "the direct AI buildout represented 11% of our adjusted net revenue, up approximately 100 basis points from last quarter, and our pipeline of future opportunities continues to grow meaningfully.",
-   "metric": "11% of adjusted net revenue from direct AI buildout, up ~100 bps quarter-over-quarter",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "LOPE",
@@ -246,18 +234,6 @@
    "event_date": "2026-08-20"
   },
   {
-   "ticker": "A",
-   "company": "Agilent Technologies, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Agilent embeds AI-driven 'GC Assist' intelligence in new GC instruments and partners with biotech firm using AI for drug discovery on its platforms.",
-   "quote": "Customers are excited about the productivity and GC Assist intelligence features on the systems, which started to ship in July.",
-   "metric": null,
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "CRM",
    "company": "Salesforce, Inc.",
    "category": "product",
@@ -352,18 +328,6 @@
    "quote": "Touch Surgery is used in more than 1,500 operating rooms globally, supporting AI-powered insights, collaboration and workflows.",
    "metric": "CathWorks contributing nearly 300 basis points of organic growth",
    "event_date": "2026-09-01"
-  },
-  {
-   "ticker": "HPE",
-   "company": "Hewlett Packard Enterprise Co.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "HPE sells AI infrastructure, networking, storage, and private cloud AI platforms to enterprise and hyperscale customers.",
-   "quote": "Our private cloud AI platform allows customers to manage enterprise AI applications and AI agents while keeping control of data, governance, security, and operations.",
-   "metric": null,
-   "event_date": "2026-09-02"
   },
   {
    "ticker": "NTAP",
@@ -7732,6 +7696,54 @@
    "quote": "Bev, our AI shopping assistant, continues to gain momentum and is becoming part of how members shop and get help and she's now in our app.",
    "metric": null,
    "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "category": "efficiency",
+   "margin_claim": true,
+   "margin_quote": "Our AI-enabled supply chain control tower has helped us move from traditional supply planning towards a more predictive, intelligence-driven approach ... Beyond driving exceptional margin performance, these improvements are creating room to invest.",
+   "margin_metric": null,
+   "headline": "Agilent deploys AI-enabled supply chain control tower, improving order conversion ratios by 200 bps and delivery performance to record 95%.",
+   "quote": "Our AI-enabled supply chain control tower has helped us move from traditional supply planning towards a more predictive, intelligence-driven approach, with better visibility into demand and the ability to quickly adjust supply.",
+   "metric": "200 bps improvement in order conversion ratios; 95% customer-requested delivery date performance",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "CENT",
+   "company": "Central Garden & Pet Co.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Central Garden & Pet investing in data and AI enablement technology to improve consumer insights, innovation, and operations.",
+   "quote": "we are making deliberate decisions to increase commercial spending and continue the investments in data and AI enablement technology, which are important to our long-term success.",
+   "metric": null,
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "HPE",
+   "company": "Hewlett Packard Enterprise Co.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "HPE deployed 15+ AI models internally via its Catalyst modernization initiative to optimize cost and routing.",
+   "quote": "We have deployed more than 15 different AI models from frontier models to open-source and open-weight models. This give us the ability to route the AI demand to the right AI model for the lowest number of tokens with the lowest cost per token.",
+   "metric": "15+ AI models deployed internally",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "J",
+   "company": "Jacobs Solutions, Inc.",
+   "category": "revenue",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Jacobs says AI is driving client demand in life sciences and advanced manufacturing, catalyzing top-line growth and margin expansion.",
+   "quote": "what AI is doing for our clients business in driving molecules to be released and need for manufacturing in the marketplace or in advanced manufacturing, chip design or advanced node chip design. So, that's really driving our business.",
+   "metric": null,
+   "event_date": "2026-11-23"
   }
  ]
 }

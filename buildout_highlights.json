@@ -1,20 +1,10 @@
 {
- "generated": "2026-11-23T22:01:52.889840",
+ "generated": "2026-11-24T05:23:53.695748",
  "window": [
   "2026-07-15",
-  "2026-11-23"
+  "2026-11-24"
  ],
  "highlights": [
-  {
-   "ticker": "A",
-   "company": "Agilent Technologies, Inc.",
-   "channel": "equipment_components",
-   "quote": "the AI capital investment build-out in China plays directly into our strengths in GC, GC/MS, and spectroscopy ... semiconductor supply chain customers already contributing to robust order funnel",
-   "metric": "funnel exceeds $60 million",
-   "direction": "accelerating",
-   "headline": "Agilent Technologies cites AI infrastructure capital investment build-out in China as driver of semiconductor and spectroscopy equipment demand.",
-   "event_date": "2026-08-26"
-  },
   {
    "ticker": "ADI",
    "company": "Analog Devices, Inc.",
@@ -156,16 +146,6 @@
    "event_date": "2026-07-22"
   },
   {
-   "ticker": "HPE",
-   "company": "Hewlett Packard Enterprise Co.",
-   "channel": "networking_compute",
-   "quote": "Networks for AI, for those who are keeping score, we started back in October, added $1.5 billion by the end of the year, and we're now getting closer, obviously, to the end of the year, and that target is now $2.5 billion to $3 billion. So, we've seen significant demand in what was really a nascent market for us even a year ago.",
-   "metric": "$2.5 billion to $3 billion Networks for AI order target for fiscal 2026",
-   "direction": "accelerating",
-   "headline": "HPE management links AI data-center networking demand directly to its Networks for AI business, raising the fiscal 2026 order target to $2.5\u2013$3 billion.",
-   "event_date": "2026-09-10"
-  },
-  {
    "ticker": "IIIN",
    "company": "Insteel Industries, Inc.",
    "channel": "equipment_components",
@@ -174,16 +154,6 @@
    "direction": "accelerating",
    "headline": "Insteel Industries cites data center-related project delays affecting shipments, expects acceleration in Q4 as a key growth driver for engineered structural mesh products.",
    "event_date": "2026-07-16"
-  },
-  {
-   "ticker": "J",
-   "company": "Jacobs Solutions, Inc.",
-   "channel": "data_center_construction",
-   "quote": "Significant capital is being deployed to build AI data centers, and we have been able to grow our addressable market by expanding our scope of services, which now range from tempo advisory and design to digital twins and full program delivery. ... as of Q3, the direct AI buildout represented 11% of our adjusted net revenue, up approximately 100 basis points from last quarter",
-   "metric": "11% of adjusted net revenue, up approximately 100 basis points from last quarter",
-   "direction": "accelerating",
-   "headline": "Jacobs Solutions cites AI data center buildout as growing revenue driver, representing 11% of adjusted net revenue with 100 basis point quarter-over-quarter increase.",
-   "event_date": "2026-08-04"
   },
   {
    "ticker": "LUMN",
@@ -3614,6 +3584,36 @@
    "direction": "accelerating",
    "headline": "Moog cites growing data center cooling pump demand as a driver of Industrial segment sales growth and margin expansion.",
    "event_date": "2026-11-20"
+  },
+  {
+   "ticker": "A",
+   "company": "Agilent Technologies, Inc.",
+   "channel": "equipment_components",
+   "quote": "semiconductor investment... demand is broadening beyond new fabs to semiconductor supply chain, data centers and related testing, including PFAS. With leading positions in GC, GCMS and ICP-MS, and exposure to all of these applications, we're well positioned to capture this growth.",
+   "metric": "double-digit millions of dollars in related orders during fiscal 2026",
+   "direction": "accelerating",
+   "headline": "Agilent Technologies cites data-center and semiconductor AI-infrastructure demand as a driver of instrument orders and growth in GC, GCMS, and ICP-MS applications.",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "HPE",
+   "company": "Hewlett Packard Enterprise Co.",
+   "channel": "equipment_components",
+   "quote": "AI training has largely driven the current phase of infrastructure spending. Much of that investment has supported GPU-intensive infrastructure deployments in hyperscaler and neocloud data centers.",
+   "metric": "AI systems orders grew over 45%, with AI systems backlog up nearly 90%, while revenue of $5.8 billion was up 28%",
+   "direction": "accelerating",
+   "headline": "HPE cites AI infrastructure spending, particularly GPU-intensive deployments, as a driver of its own server and AI systems revenue and orders.",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "J",
+   "company": "Jacobs Solutions, Inc.",
+   "channel": "equipment_components",
+   "quote": "what AI is doing for our clients business in driving molecules to be released and need for manufacturing in the marketplace or in advanced manufacturing, chip design or advanced node chip design",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Jacobs Solutions cites AI-driven demand for advanced node chip design and advanced manufacturing as a growth driver for its life sciences and advanced manufacturing segment.",
+   "event_date": "2026-11-23"
   }
  ]
 }
