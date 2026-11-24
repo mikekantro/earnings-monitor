@@ -6119,7 +6119,70 @@
    "quote": "Our AI-enabled supply chain control tower has helped us move from traditional supply planning towards a more predictive, intelligence-driven approach, with better visibility into demand and the ability to quickly adjust supply.",
    "metric": "200 bps improvement in order conversion ratios",
    "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "KSS",
+   "company": "Kohl's Corp.",
+   "category": "revenue",
+   "headline": "Kohl's AI-powered 'Ask Kohl's' agentic shopping assistant drives higher conversion and revenue per visit",
+   "quote": "Customers who engaged with Ask Kohl's are finding a more personalized experience, driving higher conversion and revenue per visit.",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "AMTM",
+   "company": "Amentum Holdings, Inc.",
+   "category": "efficiency",
+   "headline": "Amentum applying AI internally to program management, cash generation, back-office operations, and fixed-price contract delivery.",
+   "quote": "we are increasingly looking to apply AI and process performance tools in areas like program management, cash generation and back office operations.",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "ADI",
+   "company": "Analog Devices, Inc.",
+   "category": "product",
+   "headline": "ADI embeds AI in products via acquisition of Alif AI-native microcontrollers; sells components enabling AI infrastructure",
+   "quote": "our acquisition of Alif added AI-native microcontrollers and fusion processors to our AI toolbox",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DKS",
+   "company": "Dick's Sporting Goods, Inc.",
+   "category": "product",
+   "headline": "Dick's uses AI technology in GameChanger app for live streaming, scoring, and stats across sports.",
+   "quote": "we're taking all of the amazing technology that we have built with AI and with all of the live streaming and scoring and stats that we have with Diamond, and we're translating it to a basketball athlete",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "BBY",
+   "company": "Best Buy Co., Inc.",
+   "category": "revenue",
+   "headline": "Best Buy launched Ask Blue AI shopping assistant and integrated checkout into ChatGPT and Gemini to drive purchases.",
+   "quote": "Ask Blue, our conversational AI shopping and support assistant is live on our site and app. The Best Buy catalog and expertise are accessible inside of ChatGPT, Gemini, and Muse, and we've integrated checkout directly into ChatGPT and Gemini",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "category": "efficiency",
+   "headline": "Medtronic uses AI and digitization to drive SG&A efficiency and create operational capacity.",
+   "quote": "we continue to invest behind our highest priority growth opportunities and are integrating recent acquisitions while using AI and digitization to drive efficiency and create capacity",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "ANF",
+   "company": "Abercrombie & Fitch Co.",
+   "category": "efficiency",
+   "headline": "Abercrombie deploys AI-based solutions across the customer journey to improve speed and efficiency.",
+   "quote": "deploying AI-based solutions across the customer journey, which we believe is critical to brand health and relevance",
+   "metric": null,
+   "event_date": "2026-11-24"
   }
  ],
- "updated": "2026-11-24T05:58:59"
+ "updated": "2026-11-24T22:14:27"
 }
