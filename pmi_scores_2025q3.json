@@ -21991,6 +21991,51 @@
       "ticker": "SEE",
       "name": "Sealed Air Corp.",
       "date": "2026-11-23"
+    },
+    {
+      "new_orders": 55,
+      "output": 62,
+      "employment": 50,
+      "prices": 65,
+      "supply_chains": 58,
+      "demand_breadth": 60,
+      "composite": 59,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "WD-40 defended gross margins above 55% despite tariff and FX headwinds through cost reduction and strategic sourcing, signaling durable pricing power for branded specialty chemicals, while Americas softness in Mexico and Canada flags regional macro stress from U.S. trade policy spillovers.",
+      "ticker": "WDFC",
+      "name": "WD-40 Co.",
+      "date": "2026-11-24"
+    },
+    {
+      "new_orders": 72,
+      "output": 68,
+      "employment": 42,
+      "prices": 76,
+      "supply_chains": 65,
+      "demand_breadth": 60,
+      "composite": 67,
+      "sector": "Real Estate",
+      "confidence": 2,
+      "key_signal": "Sun Belt open-air retail occupancy at 94.2% with 19.3% leasing spreads for the 14th consecutive quarter above 17% signals persistent structural undersupply of quality retail space in high-growth migration markets, well above national retail trends.",
+      "ticker": "WSR",
+      "name": "Whitestone REIT",
+      "date": "2026-11-24"
+    },
+    {
+      "new_orders": 32,
+      "output": 38,
+      "employment": 45,
+      "prices": 48,
+      "supply_chains": 42,
+      "demand_breadth": 35,
+      "composite": 38,
+      "sector": "Consumer Discretionary",
+      "confidence": 2,
+      "key_signal": "North American wholesale remains structurally impaired with stabilization not expected until FY2027, while APAC declined 14% citing structural challenges, signaling broad-based demand weakness in athletic apparel across key geographies.",
+      "ticker": "UA",
+      "name": "Under Armour, Inc.",
+      "date": "2026-11-24"
     }
   ]
 }

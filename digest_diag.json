@@ -1,20 +1,41 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-11T00:00:00Z",
-  "2026-11-23T23:59:59Z"
+  "2025-10-01T00:00:00Z",
+  "2025-12-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 94,
  "raw_events": 0,
- "unique": 37,
+ "unique": 3,
  "transcripts_probe": "200",
- "fallback_events": 37,
- "targeted": {},
+ "fallback_events": 3,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    44
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'ED-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8189105', 'primaryIds': ['001TPD-E', 'ED-US'], 'allIds': ['001TPD-E', 'ED-US'], 'reportId': '3321016', 'eventId': '1203902099', 'eventDate': '2025-10-07', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Consolidated Edison, Inc.(ED-US), Business Update Call, 7-October-2025 8:30 AM ET', 'storyDateTime': '2025-10-07T14:10:23Z', 'uploadDateTime': '2025-10-08T03:12:11Z', 'eventType': 'SpecialSituation', 'categories': ['DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M&A', 'DT:MANDA', 'LN:EN', 'SB:CA_MNA_GEN', 'SB:CO"
+  },
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8189105', 'primaryIds': ['001TPD-E', 'ED-US'], 'allIds': ['001TPD-E', 'ED-US'], 'reportId': '3321016', 'eventId': '1203902099', 'eventDate': '2025-10-07', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Consolidated Edison, Inc.(ED-US), Business Update Call, 7-October-2025 8:30 AM ET', 'storyDateTime': '2025-10-07T14:10:23Z', 'uploadDateTime': '2025-10-08T03:12:11Z', 'eventType': 'SpecialSituation', 'categories': ['DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M&A', 'DT:MANDA', 'LN:EN', 'SB:CA_MNA_GEN', 'SB:CORPS', 'SB:EVTS', 'SB:EV_ME', 'SB:MANDA', 'RN:AM', 'RN:NA', 'IN:UTIL', 'CN:US'], '",
+  "empty_doc_rows": 68
+ },
  "errors": [
-  "calendar 403 x16"
+  "calendar 403 x1"
  ],
- "already_scored": 33,
- "to_process": 4,
+ "already_scored": 0,
+ "to_process": 3,
  "no_transcript": 0,
- "scored": 4
+ "scored": 3
 }
