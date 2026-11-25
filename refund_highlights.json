@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:24:42.473336",
+ "generated": "2026-11-25T11:36:51.558582",
  "window": [
   "2026-07-15",
   "2026-11-25"
@@ -100,18 +100,6 @@
    "quote_receiving": "where we have potential, we are pursuing recoveries for selected tariffs like everybody else",
    "quote_customers": "",
    "event_date": "2026-08-20"
-  },
-  {
-   "ticker": "HPQ",
-   "company": "HP, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$0.11 per share",
-   "headline": "HP received tariff refunds in Q3; $0.11 EPS benefit, results above guidance even excluding this amount.",
-   "quote_receiving": "our net earnings per share at $0.83 grew 11% and includes $0.11 related to tariff refunds",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "DG",
@@ -256,18 +244,6 @@
    "quote_receiving": "$0.06 from tariff refunds",
    "quote_customers": "",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "URBN",
-   "company": "Urban Outfitters, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "URBN received substantially all IEEPA tariff refunds in Q2 FY2027; remaining amounts deemed de minimis.",
-   "quote_receiving": "During the second quarter, we received substantially all of our refund relating to the incremental IEEPA tariffs imposed beginning in the spring of FY 2026.",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "COO",
@@ -2114,6 +2090,18 @@
    "amount": "$30 million (Q2); $1.06 EPS gross / $0.75 EPS net through Q1-Q2",
    "headline": "Smucker received ~$30M in tariff refunds in Q2, predominantly through coffee; gross EPS benefit of $1.06, net $0.75 after reinvestment in SG&A/marketing.",
    "quote_receiving": "of the approximate $30 million that we received in the second quarter, I would say the predominance of those came through our coffee portfolio.",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$0.15 per share EPS benefit",
+   "headline": "HP received tariff refunds in Q4, contributing $0.15/share EPS benefit, $0.07 more than previously signaled.",
+   "quote_receiving": "our net earnings per share was $0.83, which includes an estimated $0.15 benefit from tariff refunds received in the quarter",
    "quote_customers": "",
    "event_date": "2026-11-24"
   }

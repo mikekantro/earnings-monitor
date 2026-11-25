@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:25:59.131116",
+ "generated": "2026-11-25T11:37:55.991973",
  "window": [
   "2026-07-15",
   "2026-11-25"
@@ -246,18 +246,6 @@
    "event_date": "2026-08-26"
   },
   {
-   "ticker": "HPQ",
-   "company": "HP, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "HP embeds AI in printers, PCs, and industrial devices sold to customers, including AI-powered Precise Print and Nio AI-companion.",
-   "quote": "In Print, we're already delivering tangible customer value with AI. In June, we expanded our flagship AI-powered print experience, Precise Print to more than 150 countries.",
-   "metric": "Precise Print reduces paper usage by up to 38% and ink consumption up to 47%",
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "SNPS",
    "company": "Synopsys, Inc.",
    "category": "product",
@@ -290,18 +278,6 @@
    "margin_metric": null,
    "headline": "Ulta Beauty uses AI shopping agent, AI-powered inventory tools, and Google Gemini partnership to drive site traffic and conversion.",
    "quote": "we enhanced our on-site shopping agent, Ulta AI, with new features and broader placement of a high-performing discovery experience. These efforts are delivering encouraging results, driving meaningful increases in site traffic and improved conversion.",
-   "metric": null,
-   "event_date": "2026-08-27"
-  },
-  {
-   "ticker": "ADSK",
-   "company": "Autodesk, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Autodesk embeds AI across design, make, and operate workflows via a common AI platform combining proprietary and third-party models.",
-   "quote": "We combine probabilistic AI with deterministic engineering, grounding intelligence in the realities of the physical world. We complement those advantages with a common AI platform that can leverage the right model for the right task",
    "metric": null,
    "event_date": "2026-08-27"
   },
@@ -546,18 +522,6 @@
    "event_date": "2026-08-10"
   },
   {
-   "ticker": "NTNX",
-   "company": "Nutanix, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Nutanix sells Agentic AI full-stack software solution and Agent Gateway to customers for hybrid multi-cloud AI workloads.",
-   "quote": "We delivered Nutanix Agentic AI, a full stack software solution designed to reduce complexity, optimize performance and security, and enable lower and more predictable token costs for agentic AI applications.",
-   "metric": null,
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "OKTA",
    "company": "Okta, Inc.",
    "category": "product",
@@ -738,18 +702,6 @@
    "event_date": "2026-09-03"
   },
   {
-   "ticker": "URBN",
-   "company": "Urban Outfitters, Inc.",
-   "category": "efficiency",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "URBN investing in AI-related technology projects expected to benefit the company for years to come, included in SG&A growth.",
-   "quote": "The technology investments relate to several exciting AI related projects that we anticipate will benefit the company for years to come.",
-   "metric": null,
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "VEEV",
    "company": "Veeva Systems, Inc.",
    "category": "product",
@@ -772,18 +724,6 @@
    "quote": "We are now evaluating, experimenting and using AI that can help us accelerate software development, automate repetitive work, improve forecasting, identify operational abnormalities, and help employees analyze information more quickly.",
    "metric": null,
    "event_date": "2026-08-05"
-  },
-  {
-   "ticker": "WDAY",
-   "company": "Workday, Inc.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Workday AI products drove >$100M new ACV in Q2, ~$600M ARR from AI SKUs, up 200%+ YoY",
-   "quote": "AI products alone drove more than $100 million of new ACV, which accounted for more than 25% of all new ACV closed in the quarter, and is starting to lift our core business, too",
-   "metric": "$600M ARR from AI SKUs, up >200% YoY; >$100M new ACV from AI products in Q2",
-   "event_date": "2026-08-27"
   },
   {
    "ticker": "WLY",
@@ -7743,6 +7683,78 @@
    "headline": "Medtronic uses AI and digitization to drive SG&A efficiency and create capacity for growth investments.",
    "quote": "we continue to invest behind our highest priority growth opportunities and are integrating recent acquisitions while using AI and digitization to drive efficiency and create capacity",
    "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "ADSK",
+   "company": "Autodesk, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Autodesk embeds AI in Revit workflows, achieving 90%+ reduction in drawing generation time for customers.",
+   "quote": "Together, we have developed an AI-orchestrated workflow in Revit, that automates architectural documentation using model data and established drawing standards.",
+   "metric": "90% reduction in drawing generation time; estimated net time savings of at least 50%",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DELL",
+   "company": "Dell Technologies, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Dell uses AI internally to streamline complex engineering designs, delivering results in hours across many iterations.",
+   "quote": "Our technical teams are leveraging AI and the proprietary knowledge we've built over the last 13 quarters to streamline and accelerate the design work, allowing our engineers to deliver complex designs in hours",
+   "metric": "10x productivity improvements from agentic AI use cases",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "HP embeds AI in PCs, printers, and WXP platform sold to customers; WXP AI workflows cut app freezes 35% and GPU events 47%",
+   "quote": "AI workflows helped reduce application freezes by 35%, GPU critical events by 47% and BIOS issues by 34%.",
+   "metric": "35% reduction in application freezes, 47% reduction in GPU critical events, 34% reduction in BIOS issues via AI workflows in WXP",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "NTNX",
+   "company": "Nutanix, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Nutanix platform supports customer AI workloads including GPU-as-a-Service, video analytics, and vision language models.",
+   "quote": "This customer chose the Nutanix Cloud Platform to establish an internal GPU-as-a-Service offering. They plan to run multiple AI applications, including video analytics and vision language models on the service.",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "URBN",
+   "company": "Urban Outfitters, Inc.",
+   "category": "efficiency",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "URBN deploying AI tools to optimize associate workflows and software development, driving measurable efficiencies.",
+   "quote": "we've been making great progress, putting AI tools into the hands of all of our associates and really trying to enable them to optimize a lot of their workflows and a lot of their processes on a daily basis.",
+   "metric": null,
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "WDAY",
+   "company": "Workday, Inc.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Workday embeds AI agents (Sana, autopilot agents, Decision Intelligence) in its platform sold to customers, with $750M ARR from AI SKUs.",
+   "quote": "We have ended Q3 with over $750 million in ARR from our AI SKUs. That's up more than 130% year-over-year and nearly 25% up from last quarter.",
+   "metric": "$750M ARR from AI SKUs, up 130% YoY; $150M new ACV from AI products in Q3, up 3x YoY",
    "event_date": "2026-11-24"
   }
  ]

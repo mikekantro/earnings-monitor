@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:25:27.567205",
+ "generated": "2026-11-25T11:37:26.388131",
  "window": [
   "2026-07-15",
   "2026-11-25"
@@ -56,16 +56,6 @@
    "event_date": "2026-09-03"
   },
   {
-   "ticker": "CLSK",
-   "company": "CleanSpark, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "The demand for compute continues to outpace the industry's ability to supply it. The constraint is not chips and it is not capital. It is energized grid-connected power at scale, sitting on land that can support a full AI campus build.",
-   "metric": null,
-   "direction": "accelerating",
-   "headline": "CleanSpark cites AI-driven compute demand outpacing power supply as driver of its Sandersville lease and portfolio expansion.",
-   "event_date": "2026-08-06"
-  },
-  {
    "ticker": "COHR",
    "company": "Coherent Corp.",
    "channel": "equipment_components",
@@ -94,16 +84,6 @@
    "direction": "accelerating",
    "headline": "Deere & Co. cites data-center construction demand as driver of increased earthmoving equipment sales guidance for 2026.",
    "event_date": "2026-08-20"
-  },
-  {
-   "ticker": "DELL",
-   "company": "Dell Technologies, Inc.",
-   "channel": "equipment_components",
-   "quote": "what we see is this accelerating appetite for infrastructure. And I think we've seen these building blocks emerge over the last nine, six, three months, and it builds on each other. So, obviously, the tailwind of, from a AI server GPU perspective, we booked $61 billion of orders in Q2.",
-   "metric": "$61 billion of orders in Q2, $132 billion over 12 months",
-   "direction": "accelerating",
-   "headline": "Dell Technologies cites accelerating AI server and GPU demand as driver of record $61 billion Q2 bookings and $95 billion backlog.",
-   "event_date": "2026-09-10"
   },
   {
    "ticker": "EQT",
@@ -3604,6 +3584,26 @@
    "direction": "accelerating",
    "headline": "Semtech cites AI networking architecture demand as driver of data-center chip portfolio growth, with optical, copper, and photonics products ramping at 1.6T speeds.",
    "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "CLSK",
+   "company": "CleanSpark, Inc.",
+   "channel": "equipment_components",
+   "quote": "Jensen was on stage and spoke specifically about shortening the supply chain and getting certainty for timelines for execution, and he stood in front of a modular data center. Well, CleanSpark has re",
+   "metric": "approximately 600 megawatts, spread across 30 locations",
+   "direction": "accelerating",
+   "headline": "CleanSpark cites hyperscaler demand for modular data-center deployments as driver of opportunity to commercialize 600 MW across 30 existing sites.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DELL",
+   "company": "Dell Technologies, Inc.",
+   "channel": "equipment_components",
+   "quote": "In AI Servers, demand continues to accelerate. In Q3, we booked $60.2 billion in AI orders and recognized a record $22 billion in AI Server revenue. We exited the quarter with a record $132.3 billion of AI Server backlog.",
+   "metric": "$132.3 billion AI Server backlog; $22 billion AI Server revenue; $60.2 billion in AI orders",
+   "direction": "accelerating",
+   "headline": "Dell Technologies reports record AI Server revenue of $22B and $132.3B backlog, explicitly linking accelerating AI-infrastructure demand to its ISG segment results and outlook.",
+   "event_date": "2026-11-24"
   }
  ]
 }
