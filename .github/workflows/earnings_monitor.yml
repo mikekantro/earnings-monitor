@@ -3,9 +3,9 @@ name: S&P 500 Earnings Monitor
 on:
   schedule:
     # 8 AM ET (12 UTC) — catches pre-market reporters
-    - cron: "0 12 * * 1-5"
+    - cron: "7 5 * * 1-5"
     # 9 PM ET (1 AM UTC next day) — catches after-hours reporters
-    - cron: "0 1 * * 2-6"
+    - cron: "7 18 * * 1-5"
   workflow_dispatch:  # allows manual trigger from GitHub Actions UI
     inputs:
       digest_start:
