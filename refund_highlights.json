@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-24T20:39:26.118579",
+ "generated": "2026-11-25T04:24:42.473336",
  "window": [
   "2026-07-15",
-  "2026-11-24"
+  "2026-11-25"
  ],
  "highlights": [
   {
@@ -102,18 +102,6 @@
    "event_date": "2026-08-20"
   },
   {
-   "ticker": "SJM",
-   "company": "The J. M. Smucker Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$0.84 per share benefit (Q1); $0.60 net benefit for full year)",
-   "headline": "Smucker received $0.84/share tariff refund in fiscal Q1; reinvesting portion in SG&A/marketing and using balance to pay down debt.",
-   "quote_receiving": "we did receive an $0.84 benefit from tariff refunds in our first quarter",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "HPQ",
    "company": "HP, Inc.",
    "receiving": true,
@@ -124,18 +112,6 @@
    "quote_receiving": "our net earnings per share at $0.83 grew 11% and includes $0.11 related to tariff refunds",
    "quote_customers": "",
    "event_date": "2026-08-26"
-  },
-  {
-   "ticker": "BBY",
-   "company": "Best Buy Co., Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$34 million",
-   "headline": "Best Buy received $34M in IEEPA tariff refunds in Q2 FY2027, boosting gross profit rate; similar refunds expected in Q3.",
-   "quote_receiving": "a higher gross profit rate that included a $34 million benefit from tariff refunds",
-   "quote_customers": "",
-   "event_date": "2026-08-27"
   },
   {
    "ticker": "DG",
@@ -150,42 +126,6 @@
    "event_date": "2026-08-27"
   },
   {
-   "ticker": "DLTR",
-   "company": "Dollar Tree, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$383 million",
-   "headline": "Dollar Tree received ~$383M in tariff refunds and is reinvesting proceeds in pricing, marketing, store operations, and store conditions.",
-   "quote_receiving": "We received approximately $383 million, giving us a meaningful opportunity to reinvest in the business and further strengthen our value proposition for our customers.",
-   "quote_customers": "",
-   "event_date": "2026-08-27"
-  },
-  {
-   "ticker": "MDT",
-   "company": "Medtronic Plc",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": null,
-   "headline": "Medtronic says tariffs paid were largely offset by related refunds, resulting in only a slight gross margin headwind in Q1.",
-   "quote_receiving": "the tariff-related impact was a slight headwind as tariffs paid were largely offset by related refunds",
-   "quote_customers": "",
-   "event_date": "2026-09-01"
-  },
-  {
-   "ticker": "ANF",
-   "company": "Abercrombie & Fitch Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$100 million",
-   "headline": "Abercrombie & Fitch received ~$100M in IEEPA tariff refunds in Q2 2025, contributing ~790bps to operating margin and ~$1.75 to diluted EPS.",
-   "quote_receiving": "We received and recognized approximately $100 million of refunds related to our IEEPA tariffs in the quarter.",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
-  },
-  {
    "ticker": "BRC",
    "company": "Brady Corp.",
    "receiving": true,
@@ -196,18 +136,6 @@
    "quote_receiving": "One favorable item in the fourth quarter of this year was our tariff refund, which benefited our gross profit margin by approximately $4 million, which is net of incremental tariffs incurred.",
    "quote_customers": "",
    "event_date": "2026-09-03"
-  },
-  {
-   "ticker": "BURL",
-   "company": "Burlington Stores, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$55 million",
-   "headline": "Burlington received ~$55M in tariff refunds in Q2 and plans to reinvest fully into sharper customer values in H2.",
-   "quote_receiving": "In the second quarter, we received approximately $55 million in tariff refunds.",
-   "quote_customers": "",
-   "event_date": "2026-08-27"
   },
   {
    "ticker": "CIEN",
@@ -234,18 +162,6 @@
    "event_date": "2026-08-05"
   },
   {
-   "ticker": "DKS",
-   "company": "Dick's Sporting Goods, Inc.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$59 million",
-   "headline": "Dick's Sporting Goods received ~$59M in tariff refunds in Q2; reinvested benefits into pricing and cost offsets.",
-   "quote_receiving": "During the second quarter, we received approximately $59 million of tariff refunds, including $57 million related to DICK'S Business and $2 million related to the Foot Locker Business.",
-   "quote_customers": "",
-   "event_date": "2026-08-25"
-  },
-  {
    "ticker": "FIVE",
    "company": "Five Below, Inc.",
    "receiving": true,
@@ -268,18 +184,6 @@
    "quote_receiving": "Our cash position benefited from the receipt of approximately $134 million in tariff refunds, including interest during the second quarter.",
    "quote_customers": "",
    "event_date": "2026-09-02"
-  },
-  {
-   "ticker": "KSS",
-   "company": "Kohl's Corp.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "invest_in_price",
-   "amount": "$150 million",
-   "headline": "Kohl's received ~$150M in tariff refunds in Q2; reinvesting proceeds into business initiatives, inventory, and value for customers.",
-   "quote_receiving": "In Q2, we received approximately $150 million of tariff refunds, of which approximately $100 million benefited our cost of merchandise sold.",
-   "quote_customers": "",
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "LULU",
@@ -2128,6 +2032,90 @@
    "quote_receiving": "The offsetting $24 million in tariff refunds included $22 million impact, of which $18 million was received in Q4 and $2 million of Garden, all of which was received in Q4.",
    "quote_customers": "",
    "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "ANF",
+   "company": "Abercrombie & Fitch Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$120 million",
+   "headline": "ANF received $120M in IEEPA tariff refunds in Q2-Q3, contributing ~220 bps to full-year operating margin and ~$2.15 to full-year EPS.",
+   "quote_receiving": "our full year outlook includes the entire $120 million of tariff refunds recognized during the second and third quarters.",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "BBY",
+   "company": "Best Buy Co., Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$41 million",
+   "headline": "Best Buy received $41 million in tariff refunds (IEEPA rebates) in Q3 FY2027, boosting domestic gross profit rate by ~40 basis points; no Q4 benefit expected.",
+   "quote_receiving": "The increase was driven primarily by $41 million benefit from tariff refunds, which contributed approximately 40 basis points to the gross profit rate",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "BURL",
+   "company": "Burlington Stores, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$55 million",
+   "headline": "Burlington received $55M in tariff refunds in Q2 2026 and is reinvesting them in Q3 and Q4 to sharpen merchandise values.",
+   "quote_receiving": "We received $55 million of tariff refunds in the second quarter and are reinvesting those refunds in Q3 and Q4.",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DLTR",
+   "company": "Dollar Tree, Inc.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$4 million",
+   "headline": "Dollar Tree received $4M in tariff refunds in Q3 and reinvested $103M in customer-facing and operational initiatives.",
+   "quote_receiving": "During the third quarter, we received $4 million of tariff refund proceeds, which benefited gross profit.",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "KSS",
+   "company": "Kohl's Corp.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": "$190 million total; $160 million gross margin benefit for the year",
+   "headline": "Kohl's received ~$190M in tariff refunds, with ~$160M benefiting full-year gross margin; cash retained by company.",
+   "quote_receiving": "we received the majority of the remaining portion of our tariff refunds, bringing our total refund to approximately $190 million",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "MDT",
+   "company": "Medtronic Plc",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "retain",
+   "amount": null,
+   "headline": "Medtronic reports tariff refunds offsetting tariffs paid in Q2; notes non-recurrence of tariff refunds as FY2028 EPS headwind.",
+   "quote_receiving": "The tariff-related impact was slightly positive as tariffs paid were offset by the related refunds.",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "SJM",
+   "company": "The J. M. Smucker Co.",
+   "receiving": true,
+   "to_customers": false,
+   "disposition": "invest_in_price",
+   "amount": "$30 million (Q2); $1.06 EPS gross / $0.75 EPS net through Q1-Q2",
+   "headline": "Smucker received ~$30M in tariff refunds in Q2, predominantly through coffee; gross EPS benefit of $1.06, net $0.75 after reinvestment in SG&A/marketing.",
+   "quote_receiving": "of the approximate $30 million that we received in the second quarter, I would say the predominance of those came through our coffee portfolio.",
+   "quote_customers": "",
+   "event_date": "2026-11-24"
   }
  ]
 }

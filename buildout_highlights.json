@@ -1,20 +1,10 @@
 {
- "generated": "2026-11-24T20:39:27.774709",
+ "generated": "2026-11-25T04:25:27.567205",
  "window": [
   "2026-07-15",
-  "2026-11-24"
+  "2026-11-25"
  ],
  "highlights": [
-  {
-   "ticker": "ADI",
-   "company": "Analog Devices, Inc.",
-   "channel": "equipment_components",
-   "quote": "data center capacity is now measured in gigawatts rather than FLOPS and TOPS underscores one of the most defining challenges of the AI era. Power availability has become the primary constraint to further AI progress ... our 2030 data center and energy SAM has more than doubled from what we had envisioned just one year ago. This dramatic expansion is not simply a function of increased AI infrastructure CapEx.",
-   "metric": "2030 data center and energy SAM more than doubled; data center optical and power growing more than 100% year-over-year; $500 million-plus energy business delivering accelerating growth",
-   "direction": "accelerating",
-   "headline": "Analog Devices cites AI infrastructure demand\u2014data center capacity buildout and power requirements\u2014as driver of doubled 2030 SAM and 100%+ data center revenue growth.",
-   "event_date": "2026-08-19"
-  },
   {
    "ticker": "AGX",
    "company": "Argan, Inc.",
@@ -24,16 +14,6 @@
    "direction": "accelerating",
    "headline": "Argan cites data-center construction demand driving Industrial segment growth and new North Carolina fabrication facility investment.",
    "event_date": "2026-09-02"
-  },
-  {
-   "ticker": "AMTM",
-   "company": "Amentum Holdings, Inc.",
-   "channel": "hyperscaler_platform",
-   "quote": "Amentum was selected by the Department of Energy to lead development of an AI data center and energy infrastructure project at the Savannah River site. Under this initiative, Amentum will lead a broad consortium to develop, design, build, and operate a multi-gigawatt nuclear facility and AI data centers.",
-   "metric": "multi-gigawatt nuclear facility, revenue in excess of $1 billion over the life of the project",
-   "direction": "accelerating",
-   "headline": "Amentum cites AI data-center and nuclear energy infrastructure buildout at Savannah River as driver of $1B+ revenue opportunity.",
-   "event_date": "2026-08-11"
   },
   {
    "ticker": "AVGO",
@@ -124,16 +104,6 @@
    "direction": "accelerating",
    "headline": "Dell Technologies cites accelerating AI server and GPU demand as driver of record $61 billion Q2 bookings and $95 billion backlog.",
    "event_date": "2026-09-10"
-  },
-  {
-   "ticker": "DY",
-   "company": "Dycom Industries, Inc.",
-   "channel": "data_center_construction",
-   "quote": "cloud migration, AI workloads, and data center growth are driving unprecedented demand for long-haul fiber corridors and high-strand interconnects ... Dycom is well positioned to benefit from this massive investment cycle as hyperscalers, cloud providers, and carriers scale their infrastructure.",
-   "metric": "over $1 billion in contracted backlog for long-haul, middle-mile, and inside-the-fence fiber",
-   "direction": "accelerating",
-   "headline": "Dycom Industries cites AI workloads and data-center growth as drivers of long-haul fiber demand and backlog expansion.",
-   "event_date": "2026-08-26"
   },
   {
    "ticker": "EQT",
@@ -254,16 +224,6 @@
    "direction": "accelerating",
    "headline": "SiTime links AI-infrastructure demand\u2014GPUs, switches, NIC cards, optical modules, and hyperscaler deployments\u2014to rapidly growing revenue opportunities in its CED/data-center segment.",
    "event_date": "2026-09-09"
-  },
-  {
-   "ticker": "SMTC",
-   "company": "Semtech Corp.",
-   "channel": "equipment_components",
-   "quote": "We are at the center of one of the most significant infrastructure buildouts in history and our portfolio plays an essential role. We are well aligned with the ramp to 1.6T, complementing 800-gig growth, and demand signals that we are strengthening across every part of data center portfolio, copper, fiber and photonics.",
-   "metric": "data center revenue $100 million, up 91% year-over-year; projected 45% sequential revenue growth in data center, representing approximately 160% growth over the same period last year",
-   "direction": "accelerating",
-   "headline": "Semtech cites AI-infrastructure buildout and 1.6T/800-gig data-center ramp as driver of record data-center revenue and strong forward outlook.",
-   "event_date": "2026-08-25"
   },
   {
    "ticker": "SNPS",
@@ -3613,6 +3573,36 @@
    "metric": null,
    "direction": "accelerating",
    "headline": "Jacobs Solutions cites AI-driven demand for advanced node chip design and advanced manufacturing as a growth driver for its life sciences and advanced manufacturing segment.",
+   "event_date": "2026-11-23"
+  },
+  {
+   "ticker": "ADI",
+   "company": "Analog Devices, Inc.",
+   "channel": "equipment_components",
+   "quote": "AI infrastructure-driven investments drove significant growth for both our ATE and data center businesses ... data center power has become one of the most significant constraints to AI advancement, as increasing rack and processor densities are fundamentally changing how power is converted, controlled, protected and delivered and customers are choosing ADI to help ensure that every watt used in the data center is available for computation",
+   "metric": "data center business was our fastest growing market in fiscal 2026 both from a revenue and design-in perspective; data center now represents 83% of Comms or 13% of total sales, growing more than 100% year-on-year",
+   "direction": "accelerating",
+   "headline": "Analog Devices cites AI-infrastructure power delivery and data-center networking as drivers of record data-center segment growth exceeding 100% year-over-year.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DY",
+   "company": "Dycom Industries, Inc.",
+   "channel": "data_center_construction",
+   "quote": "Continued rapid growth in data consumption, cloud compute and AI are driving the need to connect data centers across the country ... Long-haul and data center interconnect builds are tracking ahead of initial expectations and will be the leading growth driver for our Communications segment next year.",
+   "metric": "$2 billion contracted backlog for long-haul and data center interconnect; $20 billion opportunity set identified",
+   "direction": "accelerating",
+   "headline": "Dycom Industries cites AI-driven data center connectivity demand as leading growth driver for Communications segment in fiscal 2028, with $2 billion contracted backlog.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "SMTC",
+   "company": "Semtech Corp.",
+   "channel": "equipment_components",
+   "quote": "As the industry moves from 800 gig to 1.6T and beyond for data center connectivity, we believe our portfolio spanning copper, optical and photonics positions Semtech as a trusted partner for the signal integrity challenges of next-generation AI networking architecture.",
+   "metric": "Data center revenue was $145 million, up 45% sequentially and 158% year-over-year",
+   "direction": "accelerating",
+   "headline": "Semtech cites AI networking architecture demand as driver of data-center chip portfolio growth, with optical, copper, and photonics products ramping at 1.6T speeds.",
    "event_date": "2026-11-23"
   }
  ]
