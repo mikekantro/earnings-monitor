@@ -182,5 +182,16 @@
   "window": "2025-07-01",
   "rc": 0,
   "err": ""
+ },
+ {
+  "at": "2026-11-25T18:41",
+  "season": "2025q2",
+  "scored": 0,
+  "remaining": 146,
+  "retired": false,
+  "probe": "403",
+  "window": "2025-07-01",
+  "rc": 0,
+  "err": ""
  }
 ]
