@@ -1,45 +1,20 @@
 {
  "stage": "calendar",
  "window": [
-  "2025-07-01T00:00:00Z",
-  "2025-09-30T23:59:59Z"
+  "2026-11-13T00:00:00Z",
+  "2026-11-25T23:59:59Z"
  ],
- "universe": 120,
+ "universe": 1506,
  "raw_events": 0,
- "unique": 64,
+ "unique": 51,
  "transcripts_probe": "200",
- "fallback_events": 64,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    52
-   ],
-   [
-    100,
-    18
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CARS-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8095226', 'primaryIds': ['0GJ20X-E', 'CARS-US'], 'allIds': ['0GJ20X-E', 'CARS-US'], 'reportId': '3286123', 'eventId': '1203823526', 'eventDate': '2025-08-07', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Cars.com, Inc.(CARS-US), Q2 2025 Earnings Call, 7-August-2025 9:00 AM ET', 'storyDateTime': '2025-08-07T19:12:23Z', 'uploadDateTime': '2025-08-09T04:15:32Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:"
-  },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8095226', 'primaryIds': ['0GJ20X-E', 'CARS-US'], 'allIds': ['0GJ20X-E', 'CARS-US'], 'reportId': '3286123', 'eventId': '1203823526', 'eventDate': '2025-08-07', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Cars.com, Inc.(CARS-US), Q2 2025 Earnings Call, 7-August-2025 9:00 AM ET', 'storyDateTime': '2025-08-07T19:12:23Z', 'uploadDateTime': '2025-08-09T04:15:32Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2",
-  "empty_doc_rows": 48
- },
+ "fallback_events": 51,
+ "targeted": {},
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x16"
  ],
- "already_scored": 0,
- "to_process": 64,
+ "already_scored": 50,
+ "to_process": 1,
  "no_transcript": 0,
- "scored": 64
+ "scored": 1
 }
