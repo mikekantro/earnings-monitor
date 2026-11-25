@@ -18,6 +18,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   backfill:
@@ -57,3 +58,14 @@ jobs:
           git diff --cached --quiet || git commit -m "PIT backfill $(date -u +%F-%H%M)"
           git pull --rebase origin main
           git push
+
+      # GitHub's scheduler skips most hourly slots, so a productive run starts the next
+      # one itself. A run that scored nothing (cap reached, throttled, queue empty) ends
+      # the chain; the hourly schedule restarts it.
+      - name: Chain next run
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          N=$(python -c "import json;l=json.load(open('backfill_log.json'));print(int(l[-1].get('scored') or 0) if l else 0)")
+          if [ "$N" -gt 0 ]; then gh workflow run pit_backfill.yml --ref main; echo "chained (last run scored $N)"; else echo "not chaining"; fi
