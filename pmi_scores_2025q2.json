@@ -22066,6 +22066,21 @@
       "ticker": "MSGK",
       "name": "Madison Square Garden Sports Corp.",
       "date": "2026-11-25"
+    },
+    {
+      "new_orders": 58,
+      "output": 52,
+      "employment": 48,
+      "prices": 54,
+      "supply_chains": 60,
+      "demand_breadth": 52,
+      "composite": 55,
+      "sector": "Consumer Staples",
+      "confidence": 2,
+      "key_signal": "UNFI's natural/organic segment grew 9% on a comparable basis, signaling durable above-market consumer demand for health and wellness products despite a one-time $400M cyber-incident sales drag masking underlying momentum.",
+      "ticker": "UNFI",
+      "name": "United Natural Foods, Inc.",
+      "date": "2026-11-25"
     }
   ]
 }

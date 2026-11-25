@@ -4,11 +4,11 @@
   "2025-07-01T00:00:00Z",
   "2025-09-30T23:59:59Z"
  ],
- "universe": 120,
+ "universe": 110,
  "raw_events": 0,
- "unique": 37,
+ "unique": 21,
  "transcripts_probe": "200",
- "fallback_events": 37,
+ "fallback_events": 21,
  "targeted": {
   "chunks": [
    [
@@ -21,7 +21,7 @@
    ],
    [
     100,
-    20
+    9
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'FL-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'STAA-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8084554', 'primaryIds': ['000WV5-E', 'STAA-US'], 'allIds': ['000WV5-E', 'STAA-US'], 'reportId': '3290939', 'eventId': '1203835841', 'eventDate': '2025-08-06', 'transcriptType': 'NearRealTime', 'headline': 'NEAR-REAL-TIME TRANSCRIPT: STAAR Surgical Co.(STAA-US), Q2 2025 Earnings Call, 6-August-2025 4:30 PM ET', 'storyDateTime': '2025-08-06T16:56:22Z', 'uploadDateTime': '2025-08-06T16:55:42Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'IN:HLTH', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_"
   },
-  "empty_doc_rows": 66,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8846053', 'primaryIds': ['0MGSMK-E', 'PPLI-US'], 'allIds': ['0MGSMK-E', 'PPLI-US'], 'reportId': '3312521', 'eventId': '1203887830', 'eventDate': '2025-09-09', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: People, Inc.(PPLI-US), Goldman Sachs Communacopia + Technology Conference, 9-September-2025 1:50 PM ET', 'storyDateTime': '2025-09-09T20:40:19Z', 'uploadDateTime': '2026-10-02T01:14:38Z', 'eventType': 'ConferencePresentation', 'categories': ['CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2/tra"
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8084554', 'primaryIds': ['000WV5-E', 'STAA-US'], 'allIds': ['000WV5-E', 'STAA-US'], 'reportId': '3290939', 'eventId': '1203835841', 'eventDate': '2025-08-06', 'transcriptType': 'NearRealTime', 'headline': 'NEAR-REAL-TIME TRANSCRIPT: STAAR Surgical Co.(STAA-US), Q2 2025 Earnings Call, 6-August-2025 4:30 PM ET', 'storyDateTime': '2025-08-06T16:56:22Z', 'uploadDateTime': '2025-08-06T16:55:42Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'IN:HLTH', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.fact",
+  "empty_doc_rows": 70
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 37,
+ "to_process": 21,
  "no_transcript": 0,
- "scored": 29
+ "scored": 1
 }
