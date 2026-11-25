@@ -27,6 +27,16 @@ def main():
     if not (_h >= 22 or _h < 6) and not os.environ.get("BACKFILL_FORCE"):
         print(f"backfill: {_h:02d}h UTC is outside the overnight window; skipping")
         return
+    # After FactSet refuses a run, stay away for six hours so the live digest gets the
+    # allowance back first.
+    try:
+        _last = json.load(open(LOG))[-1]
+        _age = datetime.datetime.utcnow() - datetime.datetime.fromisoformat(_last["at"])
+        if str(_last.get("probe")) == "403" and _age < datetime.timedelta(hours=6) and not os.environ.get("BACKFILL_IGNORE_COOLDOWN"):
+            print(f"backfill: FactSet refused {_age} ago; cooling down")
+            return
+    except Exception:
+        pass
     q = json.load(open(QP))
     item = next((x for x in q if x.get("targets")), None)
     if not item:
