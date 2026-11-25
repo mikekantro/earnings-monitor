@@ -1,20 +1,41 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-12T00:00:00Z",
-  "2026-11-24T23:59:59Z"
+  "2025-10-01T00:00:00Z",
+  "2025-12-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 91,
  "raw_events": 0,
- "unique": 47,
+ "unique": 0,
  "transcripts_probe": "200",
- "fallback_events": 47,
- "targeted": {},
+ "fallback_events": 0,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    41
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'TR-US', 'documents': []}"
+  },
+  "empty_doc_rows": 68,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8306540', 'primaryIds': ['00780K-E', 'XNCR-US'], 'allIds': ['00780K-E', 'XNCR-US'], 'reportId': '3351757', 'eventId': '1203977292', 'eventDate': '2025-12-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Xencor, Inc.(XNCR-US), Piper Sandler Healthcare Conference, 2-December-2025 2:00 PM ET', 'storyDateTime': '2025-12-02T18:42:24Z', 'uploadDateTime': '2025-12-09T09:43:57Z', 'eventType': 'ConferencePresentation', 'categories': ['CN:US', 'IN:BIOTEC', 'IN:HLTH', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2/transcri"
+ },
  "errors": [
-  "calendar 403 x16"
+  "calendar 403 x1"
  ],
- "already_scored": 35,
- "to_process": 12,
+ "already_scored": 0,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 12
+ "scored": 0
 }
