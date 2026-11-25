@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T11:37:26.388131",
+ "generated": "2026-11-25T23:15:52.644937",
  "window": [
   "2026-07-15",
   "2026-11-25"
@@ -74,16 +74,6 @@
    "direction": "accelerating",
    "headline": "Donaldson cites data-center power generation demand as a strong driver of its Industrial segment filtration business.",
    "event_date": "2026-09-15"
-  },
-  {
-   "ticker": "DE",
-   "company": "Deere & Co.",
-   "channel": "data_center_construction",
-   "quote": "Industry sales for earthmoving equipment in the US and Canada are now expected to be up 5% to 10% for construction equipment and up 5% for compact construction equipment, reflecting strong demand from large-scale infrastructure, data center and energy-related projects",
-   "metric": "construction equipment sales up 5% to 10%, compact construction equipment up 5%",
-   "direction": "accelerating",
-   "headline": "Deere & Co. cites data-center construction demand as driver of increased earthmoving equipment sales guidance for 2026.",
-   "event_date": "2026-08-20"
   },
   {
    "ticker": "EQT",

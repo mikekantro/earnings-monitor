@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T11:36:51.558582",
+ "generated": "2026-11-25T23:15:51.186542",
  "window": [
   "2026-07-15",
   "2026-11-25"
@@ -76,18 +76,6 @@
    "quote_receiving": "reduce tariff-related costs versus our initial estimate through targeted mitigation actions and refunds received during the year, as well as the suspension of tariffs earlier than initially assumed.",
    "quote_customers": "",
    "event_date": "2026-07-23"
-  },
-  {
-   "ticker": "DE",
-   "company": "Deere & Co.",
-   "receiving": true,
-   "to_customers": false,
-   "disposition": "retain",
-   "amount": "$382 million",
-   "headline": "Deere recognized $110M in Q3 IEEPA tariff refunds; total fiscal 2026 refunds stand at $382M with no further refunds expected.",
-   "quote_receiving": "We recognized $110 million of incremental refunds in Q3, slightly above expectations, due to the timing of the Phase 2 IEEPA refund approvals.",
-   "quote_customers": "",
-   "event_date": "2026-08-20"
   },
   {
    "ticker": "NDSN",

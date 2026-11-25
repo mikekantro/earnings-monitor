@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T11:37:55.991973",
+ "generated": "2026-11-25T23:15:54.138738",
  "window": [
   "2026-07-15",
   "2026-11-25"
@@ -220,18 +220,6 @@
    "quote": "We have ramped up our adoption of AI and other automation platforms significantly over the past six months, and we see meaningful opportunity to eliminate manual work and reduce the friction",
    "metric": null,
    "event_date": "2026-07-30"
-  },
-  {
-   "ticker": "DE",
-   "company": "Deere & Co.",
-   "category": "product",
-   "margin_claim": false,
-   "margin_quote": "",
-   "margin_metric": null,
-   "headline": "Deere plans AI-enabled capabilities in its Operations Center platform to unlock more value from farm data for customers.",
-   "quote": "We will soon build on that foundation with AI-enabled capabilities designed to unlock even more value from the data within Operations Center.",
-   "metric": null,
-   "event_date": "2026-08-20"
   },
   {
    "ticker": "CRM",
