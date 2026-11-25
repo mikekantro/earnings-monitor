@@ -6182,7 +6182,61 @@
    "quote": "deploying AI-based solutions across the customer journey, which we believe is critical to brand health and relevance",
    "metric": null,
    "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "NTNX",
+   "company": "Nutanix, Inc.",
+   "category": "product",
+   "headline": "Nutanix platform supports customer AI workloads including GPU-as-a-Service, video analytics, and vision language models.",
+   "quote": "This customer chose the Nutanix Cloud Platform to establish an internal GPU-as-a-Service offering. They plan to run multiple AI applications, including video analytics and vision language models on the service.",
+   "metric": null,
+   "event_date": "2026-11-25"
+  },
+  {
+   "ticker": "URBN",
+   "company": "Urban Outfitters, Inc.",
+   "category": "efficiency",
+   "headline": "URBN deploying AI tools to improve associate workflows and software development across the company",
+   "quote": "we've been making great progress, putting AI tools into the hands of all of our associates and really trying to enable them to optimize a lot of their workflows and a lot of their processes on a daily basis.",
+   "metric": null,
+   "event_date": "2026-11-25"
+  },
+  {
+   "ticker": "HPQ",
+   "company": "HP, Inc.",
+   "category": "product",
+   "headline": "HP embeds AI in WXP platform, printers, and AI PCs; WXP AI workflows cut app freezes 35%, GPU critical events 47%",
+   "quote": "AI workflows helped reduce application freezes by 35%, GPU critical events by 47% and BIOS issues by 34%.",
+   "metric": "35% reduction in app freezes, 47% reduction in GPU critical events, 34% reduction in BIOS issues; WXP up 130% YoY to 5.5M devices",
+   "event_date": "2026-11-25"
+  },
+  {
+   "ticker": "DELL",
+   "company": "Dell Technologies, Inc.",
+   "category": "efficiency",
+   "headline": "Dell uses AI internally to streamline engineering design work, enabling complex designs in hours with many iterations.",
+   "quote": "Our technical teams are leveraging AI and the proprietary knowledge we've built over the last 13 quarters to streamline and accelerate the design work, allowing our engineers to deliver complex designs in hours",
+   "metric": "10x productivity improvement cited for agentic AI use cases internally",
+   "event_date": "2026-11-25"
+  },
+  {
+   "ticker": "ADSK",
+   "company": "Autodesk, Inc.",
+   "category": "product",
+   "headline": "Autodesk embeds AI in Revit workflows, delivering 90%+ reduction in architectural drawing generation time for customers.",
+   "quote": "Together, we have developed an AI-orchestrated workflow in Revit, that automates architectural documentation using model data and established drawing standards.",
+   "metric": "90% reduction in drawing generation time; estimated 50% net time savings",
+   "event_date": "2026-11-25"
+  },
+  {
+   "ticker": "WDAY",
+   "company": "Workday, Inc.",
+   "category": "product",
+   "headline": "Workday's AI products drove ~$150M new ACV in Q3, up 3x YoY; $750M+ ARR from AI SKUs, up 130% YoY",
+   "quote": "In Q3, our AI products drove nearly $150 million in new ACV, up more than threefold year-over-year.",
+   "metric": "$150M new ACV in Q3, up >3x YoY; $750M+ ARR from AI SKUs, up 130% YoY",
+   "event_date": "2026-11-25"
   }
  ],
- "updated": "2026-11-24T22:14:27"
+ "updated": "2026-11-25T09:26:42"
 }
