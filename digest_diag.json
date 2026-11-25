@@ -4,11 +4,11 @@
   "2025-07-01T00:00:00Z",
   "2025-09-30T23:59:59Z"
  ],
- "universe": 110,
+ "universe": 109,
  "raw_events": 0,
- "unique": 21,
+ "unique": 20,
  "transcripts_probe": "200",
- "fallback_events": 21,
+ "fallback_events": 20,
  "targeted": {
   "chunks": [
    [
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'STAA-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8084554', 'primaryIds': ['000WV5-E', 'STAA-US'], 'allIds': ['000WV5-E', 'STAA-US'], 'reportId': '3290939', 'eventId': '1203835841', 'eventDate': '2025-08-06', 'transcriptType': 'NearRealTime', 'headline': 'NEAR-REAL-TIME TRANSCRIPT: STAAR Surgical Co.(STAA-US), Q2 2025 Earnings Call, 6-August-2025 4:30 PM ET', 'storyDateTime': '2025-08-06T16:56:22Z', 'uploadDateTime': '2025-08-06T16:55:42Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'IN:HLTH', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'USNA-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8056647', 'primaryIds': ['0015SQ-E', 'USNA-US'], 'allIds': ['0015SQ-E', 'USNA-US'], 'reportId': '3272582', 'eventId': '1203787031', 'eventDate': '2025-07-23', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: USANA Health Sciences, Inc.(USNA-US), Q2 2025 Earnings Call, 23-July-2025 11:00 AM ET', 'storyDateTime': '2025-07-23T13:28:17Z', 'uploadDateTime': '2025-07-26T03:46:27Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'S"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8084554', 'primaryIds': ['000WV5-E', 'STAA-US'], 'allIds': ['000WV5-E', 'STAA-US'], 'reportId': '3290939', 'eventId': '1203835841', 'eventDate': '2025-08-06', 'transcriptType': 'NearRealTime', 'headline': 'NEAR-REAL-TIME TRANSCRIPT: STAAR Surgical Co.(STAA-US), Q2 2025 Earnings Call, 6-August-2025 4:30 PM ET', 'storyDateTime': '2025-08-06T16:56:22Z', 'uploadDateTime': '2025-08-06T16:55:42Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'IN:HLTH', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.fact",
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8056647', 'primaryIds': ['0015SQ-E', 'USNA-US'], 'allIds': ['0015SQ-E', 'USNA-US'], 'reportId': '3272582', 'eventId': '1203787031', 'eventDate': '2025-07-23', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: USANA Health Sciences, Inc.(USNA-US), Q2 2025 Earnings Call, 23-July-2025 11:00 AM ET', 'storyDateTime': '2025-07-23T13:28:17Z', 'uploadDateTime': '2025-07-26T03:46:27Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:HLTH', 'IN:PHARM', 'CN:US'], 'transcriptsUrl': 'htt",
   "empty_doc_rows": 70
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 21,
+ "to_process": 20,
  "no_transcript": 0,
- "scored": 1
+ "scored": 11
 }
