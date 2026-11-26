@@ -1,23 +1,27 @@
 {
  "stage": "calendar",
  "window": [
-  "2025-07-01T00:00:00Z",
-  "2025-09-30T23:59:59Z"
+  "2025-04-01T00:00:00Z",
+  "2025-06-30T23:59:59Z"
  ],
- "universe": 98,
+ "universe": 120,
  "raw_events": 0,
- "unique": 9,
+ "unique": 73,
  "transcripts_probe": "200",
- "fallback_events": 9,
+ "fallback_events": 73,
  "targeted": {
   "chunks": [
    [
     0,
-    50
+    52
    ],
    [
     50,
-    48
+    50
+   ],
+   [
+    100,
+    14
    ]
   ],
   "sample": {
@@ -26,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'BXMT-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'DFS-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7882953', 'primaryIds': ['061F6G-E', 'DFS-US'], 'allIds': ['061F6G-E', 'DFS-US'], 'reportId': '3209690', 'eventId': '1203621680', 'eventDate': '2025-04-24', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Discover Financial Services(DFS-US), Q1 2025 Earnings Call, 24-April-2025 8:00 AM ET', 'storyDateTime': '2025-04-24T09:00:22Z', 'uploadDateTime': '2025-04-24T14:51:30Z', 'eventType': 'Earnings', 'categories': ['IN:FNLSVC', 'IN:SECS', 'CN:US', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS"
   },
-  "empty_doc_rows": 70,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8485370', 'primaryIds': ['000F0N-E', 'CMC-US'], 'allIds': ['000F0N-E', 'CMC-US'], 'reportId': '3413066', 'eventId': '1204133078', 'eventDate': '2025-09-18', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Commercial Metals Co.(CMC-US), Acquisition of Concrete Pipe & Precast, LLC by Commercial Metals Company Call, 18-September-2025 11:00 AM ET', 'storyDateTime': '2025-09-18T11:00:00Z', 'uploadDateTime': '2026-03-21T04:10:54Z', 'eventType': 'SpecialSituation', 'categories': ['DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M&A', 'DT:MANDA', 'LN:EN', 'SB:CA_MNA_GEN', 'SB:CORPS', 'SB:EVTS', 'SB:"
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7882953', 'primaryIds': ['061F6G-E', 'DFS-US'], 'allIds': ['061F6G-E', 'DFS-US'], 'reportId': '3209690', 'eventId': '1203621680', 'eventDate': '2025-04-24', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Discover Financial Services(DFS-US), Q1 2025 Earnings Call, 24-April-2025 8:00 AM ET', 'storyDateTime': '2025-04-24T09:00:22Z', 'uploadDateTime': '2025-04-24T14:51:30Z', 'eventType': 'Earnings', 'categories': ['IN:FNLSVC', 'IN:SECS', 'CN:US', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https",
+  "empty_doc_rows": 31
  },
  "errors": [
-  "calendar 403 x1"
+  "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 9,
+ "to_process": 73,
  "no_transcript": 0,
- "scored": 0
+ "scored": 73
 }

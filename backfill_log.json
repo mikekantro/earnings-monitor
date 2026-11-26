@@ -259,5 +259,16 @@
   "window": "2025-07-01",
   "rc": 1,
   "err": " in main\n    analysis = analyze_earnings(ticker, name, quarter, transcript, sec_filing, market_cap)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/earnings-monitor/earnings-monitor/src/earnings_monitor.py\", line 731, in analyze_earnings\n    return msg.content[0].text\n           ~~~~~~~~~~~^^^\nIndexError: list index out of range\n"
+ },
+ {
+  "at": "2026-11-26T14:44",
+  "season": "2025q1",
+  "scored": 73,
+  "remaining": 136,
+  "retired": false,
+  "probe": "200",
+  "window": "2025-04-01",
+  "rc": 0,
+  "err": ""
  }
 ]
