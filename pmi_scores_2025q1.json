@@ -22621,6 +22621,21 @@
       "ticker": "VTLE",
       "name": "Vital Energy, Inc.",
       "date": "2026-11-26"
+    },
+    {
+      "new_orders": 58,
+      "output": 62,
+      "employment": 50,
+      "prices": 65,
+      "supply_chains": 60,
+      "demand_breadth": 48,
+      "composite": 59,
+      "sector": "Utilities",
+      "confidence": 2,
+      "key_signal": "Rate recovery driving an 18% YoY EPS increase signals regulated utility earnings inflection, with Montana wildfire legislation materially reducing balance sheet tail-risk for the broader Western utility sector.",
+      "ticker": "NWE",
+      "name": "NorthWestern Energy Group, Inc.",
+      "date": "2026-11-26"
     }
   ]
 }
