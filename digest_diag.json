@@ -4,11 +4,11 @@
   "2025-04-01T00:00:00Z",
   "2025-06-30T23:59:59Z"
  ],
- "universe": 78,
+ "universe": 77,
  "raw_events": 0,
- "unique": 1,
+ "unique": 0,
  "transcripts_probe": "200",
- "fallback_events": 1,
+ "fallback_events": 0,
  "targeted": {
   "chunks": [
    [
@@ -17,7 +17,7 @@
    ],
    [
     50,
-    28
+    27
    ]
   ],
   "sample": {
@@ -26,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'THO-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'PRK-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7891956', 'primaryIds': ['0013YX-E', 'PRK-US'], 'allIds': ['0013YX-E', 'PRK-US'], 'reportId': '3207285', 'eventId': '1203616386', 'eventDate': '2025-04-28', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Park National Corp.(PRK-US), Annual General Meeting, 28-April-2025 2:00 PM ET', 'storyDateTime': '2025-04-29T13:06:22Z', 'uploadDateTime': '2025-04-29T13:05:25Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'LN:EN', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR',"
   },
-  "empty_doc_rows": 51,
-  "sample_doc": "{'requestId': 'BRKL.XX1-US', 'error': {'code': 'Bad Request', 'title': 'Missing / Invalid Parameters', 'detail': \"The parameter 'id' should be valid\"}}"
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7891956', 'primaryIds': ['0013YX-E', 'PRK-US'], 'allIds': ['0013YX-E', 'PRK-US'], 'reportId': '3207285', 'eventId': '1203616386', 'eventDate': '2025-04-28', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Park National Corp.(PRK-US), Annual General Meeting, 28-April-2025 2:00 PM ET', 'storyDateTime': '2025-04-29T13:06:22Z', 'uploadDateTime': '2025-04-29T13:05:25Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'LN:EN', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'CN:US', 'IN:FNLSVC', 'IN:SECS', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https://ap",
+  "empty_doc_rows": 51
  },
  "errors": [
   "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 1,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 1
+ "scored": 0
 }
