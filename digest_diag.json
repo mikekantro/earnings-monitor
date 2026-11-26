@@ -1,20 +1,41 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-14T00:00:00Z",
-  "2026-11-26T23:59:59Z"
+  "2025-07-01T00:00:00Z",
+  "2025-09-30T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 98,
  "raw_events": 0,
- "unique": 51,
+ "unique": 9,
  "transcripts_probe": "200",
- "fallback_events": 51,
- "targeted": {},
+ "fallback_events": 9,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    48
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'BXMT-US', 'documents': []}"
+  },
+  "empty_doc_rows": 70,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8485370', 'primaryIds': ['000F0N-E', 'CMC-US'], 'allIds': ['000F0N-E', 'CMC-US'], 'reportId': '3413066', 'eventId': '1204133078', 'eventDate': '2025-09-18', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Commercial Metals Co.(CMC-US), Acquisition of Concrete Pipe & Precast, LLC by Commercial Metals Company Call, 18-September-2025 11:00 AM ET', 'storyDateTime': '2025-09-18T11:00:00Z', 'uploadDateTime': '2026-03-21T04:10:54Z', 'eventType': 'SpecialSituation', 'categories': ['DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M&A', 'DT:MANDA', 'LN:EN', 'SB:CA_MNA_GEN', 'SB:CORPS', 'SB:EVTS', 'SB:"
+ },
  "errors": [
-  "calendar 403 x16"
+  "calendar 403 x1"
  ],
- "already_scored": 51,
- "to_process": 0,
+ "already_scored": 0,
+ "to_process": 9,
  "no_transcript": 0,
  "scored": 0
 }
