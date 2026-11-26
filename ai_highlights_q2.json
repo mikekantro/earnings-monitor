@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-25T23:15:54.138738",
+ "generated": "2026-11-26T12:29:52.944401",
  "window": [
   "2026-07-15",
-  "2026-11-25"
+  "2026-11-26"
  ],
  "highlights": [
   {
@@ -7744,6 +7744,18 @@
    "quote": "We have ended Q3 with over $750 million in ARR from our AI SKUs. That's up more than 130% year-over-year and nearly 25% up from last quarter.",
    "metric": "$750M ARR from AI SKUs, up 130% YoY; $150M new ACV from AI products in Q3, up 3x YoY",
    "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DE",
+   "company": "Deere & Co.",
+   "category": "product",
+   "margin_claim": false,
+   "margin_quote": "",
+   "margin_metric": null,
+   "headline": "Deere launches JD, an AI assistant embedded in Operations Center, with 6,000 users in 76 countries in its first week.",
+   "quote": "Introducing JD, our first AI assistant, is now in use around the world. Growers can ask questions about their fields and machines in a plain language and get answers drawn from their own operations history.",
+   "metric": "6,000 users in 76 countries, 10,000 conversations in first week",
+   "event_date": "2026-11-25"
   }
  ]
 }

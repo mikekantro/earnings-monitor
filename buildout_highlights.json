@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-25T23:15:52.644937",
+ "generated": "2026-11-26T12:29:48.472286",
  "window": [
   "2026-07-15",
-  "2026-11-25"
+  "2026-11-26"
  ],
  "highlights": [
   {
@@ -3594,6 +3594,16 @@
    "direction": "accelerating",
    "headline": "Dell Technologies reports record AI Server revenue of $22B and $132.3B backlog, explicitly linking accelerating AI-infrastructure demand to its ISG segment results and outlook.",
    "event_date": "2026-11-24"
+  },
+  {
+   "ticker": "DE",
+   "company": "Deere & Co.",
+   "channel": "data_center_construction",
+   "quote": "In construction, demand for North American earthmoving equipment remained strong, supported in part by data center investment.",
+   "metric": null,
+   "direction": "accelerating",
+   "headline": "Deere & Co. cites data center investment as a driver of strong North American construction equipment demand.",
+   "event_date": "2026-11-25"
   }
  ]
 }
