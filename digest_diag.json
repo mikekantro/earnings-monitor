@@ -4,24 +4,20 @@
   "2025-04-01T00:00:00Z",
   "2025-06-30T23:59:59Z"
  ],
- "universe": 120,
+ "universe": 89,
  "raw_events": 0,
- "unique": 48,
+ "unique": 12,
  "transcripts_probe": "200",
- "fallback_events": 48,
+ "fallback_events": 12,
  "targeted": {
   "chunks": [
    [
     0,
-    52
-   ],
-   [
-    50,
     50
    ],
    [
-    100,
-    18
+    50,
+    39
    ]
   ],
   "sample": {
@@ -30,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'TTGT-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7971375', 'primaryIds': ['10WBSK-E', 'TTGT-US'], 'allIds': ['10WBSK-E', 'TTGT-US'], 'reportId': '3254932', 'eventId': '1203745165', 'eventDate': '2025-06-04', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: TechTarget, Inc.(TTGT-US), Q4 2024 Earnings Call, 4-June-2025 8:30 AM ET', 'storyDateTime': '2025-06-04T10:26:24Z', 'uploadDateTime': '2025-06-05T05:13:52Z', 'eventType': 'Earnings', 'categories': ['SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'SITC-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8682280', 'primaryIds': ['000HJ0-E', 'SITC-US'], 'allIds': ['000HJ0-E', 'SITC-US'], 'reportId': '3241994', 'eventId': '1203707960', 'eventDate': '2025-05-14', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: SITE Centers Corp.(SITC-US), Annual General Meeting, 14-May-2025 9:00 AM ET', 'storyDateTime': '2025-05-14T09:00:00Z', 'uploadDateTime': '2026-07-08T03:05:24Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX'"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7971375', 'primaryIds': ['10WBSK-E', 'TTGT-US'], 'allIds': ['10WBSK-E', 'TTGT-US'], 'reportId': '3254932', 'eventId': '1203745165', 'eventDate': '2025-06-04', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: TechTarget, Inc.(TTGT-US), Q4 2024 Earnings Call, 4-June-2025 8:30 AM ET', 'storyDateTime': '2025-06-04T10:26:24Z', 'uploadDateTime': '2025-06-05T05:13:52Z', 'eventType': 'Earnings', 'categories': ['SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https://api.factset.com/v2/transcripts?",
-  "empty_doc_rows": 47
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8682280', 'primaryIds': ['000HJ0-E', 'SITC-US'], 'allIds': ['000HJ0-E', 'SITC-US'], 'reportId': '3241994', 'eventId': '1203707960', 'eventDate': '2025-05-14', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: SITE Centers Corp.(SITC-US), Annual General Meeting, 14-May-2025 9:00 AM ET', 'storyDateTime': '2025-05-14T09:00:00Z', 'uploadDateTime': '2026-07-08T03:05:24Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'RN:AM', 'RN:NA', 'IN:RLEST', 'CN:US'], 'transcriptsUrl': 'https://api.factset.co",
+  "empty_doc_rows": 51
  },
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 48,
+ "to_process": 12,
  "no_transcript": 1,
- "scored": 47
+ "scored": 11
 }
