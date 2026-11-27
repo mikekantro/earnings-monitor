@@ -1,21 +1,45 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-15T00:00:00Z",
-  "2026-11-27T23:59:59Z"
+  "2025-01-01T00:00:00Z",
+  "2025-03-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 120,
  "raw_events": 0,
- "unique": 0,
- "transcripts_probe": "403",
- "fallback_events": 0,
- "targeted": {},
+ "unique": 84,
+ "transcripts_probe": "200",
+ "fallback_events": 84,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    17
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'BOH-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7715381', 'primaryIds': ['000CKK-E', 'BOH-US'], 'allIds': ['000CKK-E', 'BOH-US'], 'reportId': '3151331', 'eventId': '1203492689', 'eventDate': '2025-01-27', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Bank of Hawaii Corp.(BOH-US), Q4 2024 Earnings Call, 27-January-2025 1:00 PM ET', 'storyDateTime': '2025-01-27T16:04:23Z', 'uploadDateTime': '2025-01-28T06:53:24Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME',"
+  },
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7715381', 'primaryIds': ['000CKK-E', 'BOH-US'], 'allIds': ['000CKK-E', 'BOH-US'], 'reportId': '3151331', 'eventId': '1203492689', 'eventDate': '2025-01-27', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Bank of Hawaii Corp.(BOH-US), Q4 2024 Earnings Call, 27-January-2025 1:00 PM ET', 'storyDateTime': '2025-01-27T16:04:23Z', 'uploadDateTime': '2025-01-28T06:53:24Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:BANKS', 'CN:US'], 'transcriptsUrl': 'https://api.factset.co",
+  "empty_doc_rows": 26
+ },
  "errors": [
-  "calendar 403 x16",
-  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
+  "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 0,
- "no_transcript": 0,
- "scored": 0
+ "to_process": 84,
+ "no_transcript": 1,
+ "scored": 83
 }

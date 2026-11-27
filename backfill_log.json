@@ -314,5 +314,16 @@
   "window": "2025-04-01",
   "rc": 0,
   "err": ""
+ },
+ {
+  "at": "2026-11-27T05:57",
+  "season": "2024q4",
+  "scored": 83,
+  "remaining": 236,
+  "retired": false,
+  "probe": "200",
+  "window": "2025-01-01",
+  "rc": 0,
+  "err": ""
  }
 ]
