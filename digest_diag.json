@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 84,
+ "unique": 60,
  "transcripts_probe": "200",
- "fallback_events": 84,
+ "fallback_events": 60,
  "targeted": {
   "chunks": [
    [
@@ -21,7 +21,7 @@
    ],
    [
     100,
-    17
+    18
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'BOH-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7715381', 'primaryIds': ['000CKK-E', 'BOH-US'], 'allIds': ['000CKK-E', 'BOH-US'], 'reportId': '3151331', 'eventId': '1203492689', 'eventDate': '2025-01-27', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Bank of Hawaii Corp.(BOH-US), Q4 2024 Earnings Call, 27-January-2025 1:00 PM ET', 'storyDateTime': '2025-01-27T16:04:23Z', 'uploadDateTime': '2025-01-28T06:53:24Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME',"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'HSII-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7850267', 'primaryIds': ['00253Q-E', 'HSII-US'], 'allIds': ['00253Q-E', 'HSII-US'], 'reportId': '3198332', 'eventId': '1203593569', 'eventDate': '2025-03-19', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Heidrick & Struggles International, Inc.(HSII-US), Sidoti March Small Cap Virtual Conference, 19-March-2025 8:30 AM ET', 'storyDateTime': '2025-03-19T09:24:20Z', 'uploadDateTime': '2025-04-03T23:42:09Z', 'eventType': 'ConferencePresentation', 'categories': ['LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'CN:US', 'DT:CONF', 'DT:E"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7715381', 'primaryIds': ['000CKK-E', 'BOH-US'], 'allIds': ['000CKK-E', 'BOH-US'], 'reportId': '3151331', 'eventId': '1203492689', 'eventDate': '2025-01-27', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Bank of Hawaii Corp.(BOH-US), Q4 2024 Earnings Call, 27-January-2025 1:00 PM ET', 'storyDateTime': '2025-01-27T16:04:23Z', 'uploadDateTime': '2025-01-28T06:53:24Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:BANKS', 'CN:US'], 'transcriptsUrl': 'https://api.factset.co",
-  "empty_doc_rows": 26
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7850267', 'primaryIds': ['00253Q-E', 'HSII-US'], 'allIds': ['00253Q-E', 'HSII-US'], 'reportId': '3198332', 'eventId': '1203593569', 'eventDate': '2025-03-19', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Heidrick & Struggles International, Inc.(HSII-US), Sidoti March Small Cap Virtual Conference, 19-March-2025 8:30 AM ET', 'storyDateTime': '2025-03-19T09:24:20Z', 'uploadDateTime': '2025-04-03T23:42:09Z', 'eventType': 'ConferencePresentation', 'categories': ['LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2/",
+  "empty_doc_rows": 48
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 84,
- "no_transcript": 1,
- "scored": 83
+ "to_process": 60,
+ "no_transcript": 0,
+ "scored": 60
 }
