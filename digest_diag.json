@@ -1,38 +1,18 @@
 {
  "stage": "calendar",
  "window": [
-  "2025-04-01T00:00:00Z",
-  "2025-06-30T23:59:59Z"
+  "2026-11-15T00:00:00Z",
+  "2026-11-27T23:59:59Z"
  ],
- "universe": 77,
+ "universe": 1506,
  "raw_events": 0,
  "unique": 0,
- "transcripts_probe": "200",
+ "transcripts_probe": "403",
  "fallback_events": 0,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    27
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'PRK-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7891956', 'primaryIds': ['0013YX-E', 'PRK-US'], 'allIds': ['0013YX-E', 'PRK-US'], 'reportId': '3207285', 'eventId': '1203616386', 'eventDate': '2025-04-28', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Park National Corp.(PRK-US), Annual General Meeting, 28-April-2025 2:00 PM ET', 'storyDateTime': '2025-04-29T13:06:22Z', 'uploadDateTime': '2025-04-29T13:05:25Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'LN:EN', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR',"
-  },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7891956', 'primaryIds': ['0013YX-E', 'PRK-US'], 'allIds': ['0013YX-E', 'PRK-US'], 'reportId': '3207285', 'eventId': '1203616386', 'eventDate': '2025-04-28', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: Park National Corp.(PRK-US), Annual General Meeting, 28-April-2025 2:00 PM ET', 'storyDateTime': '2025-04-29T13:06:22Z', 'uploadDateTime': '2025-04-29T13:05:25Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'LN:EN', 'DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'CN:US', 'IN:FNLSVC', 'IN:SECS', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https://ap",
-  "empty_doc_rows": 51
- },
+ "targeted": {},
  "errors": [
-  "calendar 403 x1"
+  "calendar 403 x16",
+  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
  ],
  "already_scored": 0,
  "to_process": 0,
