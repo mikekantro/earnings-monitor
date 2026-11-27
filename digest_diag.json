@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 46,
+ "unique": 31,
  "transcripts_probe": "200",
- "fallback_events": 46,
+ "fallback_events": 31,
  "targeted": {
   "chunks": [
    [
@@ -17,11 +17,11 @@
    ],
    [
     50,
-    50
+    52
    ],
    [
     100,
-    16
+    20
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'NHC-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'NVR-US', 'documents': []}"
   },
-  "empty_doc_rows": 57,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7759110', 'primaryIds': ['00301S-E', 'PDFS-US'], 'allIds': ['00301S-E', 'PDFS-US'], 'reportId': '3166055', 'eventId': '1203526527', 'eventDate': '2025-02-13', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: PDF Solutions, Inc.(PDFS-US), Q4 2024 Earnings Call, 13-February-2025 5:00 PM ET', 'storyDateTime': '2025-02-13T23:10:22Z', 'uploadDateTime': '2025-02-17T08:06:10Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2/tran"
+  "empty_doc_rows": 67,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7687311', 'primaryIds': ['0Q0J0Z-E', 'CEG-US'], 'allIds': ['0Q0J0Z-E', 'CEG-US'], 'reportId': '3155463', 'eventId': '1203499491', 'eventDate': '2025-01-10', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Constellation Energy Corp.(CEG-US), Acquisition of  Calpine Corp. by Constellation Energy Corp. Call, 10-January-2025 8:30 AM ET', 'storyDateTime': '2025-01-10T18:12:22Z', 'uploadDateTime': '2025-01-13T07:13:24Z', 'eventType': 'SpecialSituation', 'categories': ['DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M&A', 'DT:MANDA', 'LN:EN', 'SB:CA_MNA_GEN', 'SB:CORPS', 'SB:EVTS', 'SB:EV_ME', 'SB"
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 46,
+ "to_process": 31,
  "no_transcript": 0,
- "scored": 46
+ "scored": 31
 }
