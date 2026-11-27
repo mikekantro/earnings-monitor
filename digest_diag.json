@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 83,
+ "unique": 60,
  "transcripts_probe": "200",
- "fallback_events": 83,
+ "fallback_events": 60,
  "targeted": {
   "chunks": [
    [
@@ -21,7 +21,7 @@
    ],
    [
     100,
-    16
+    19
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CRM-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7662597', 'primaryIds': ['0058W5-E', 'CRM-US'], 'allIds': ['0058W5-E', 'CRM-US'], 'reportId': '3141045', 'eventId': '1203467434', 'eventDate': '2024-12-12', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Salesforce, Inc.(CRM-US), Barclays Global Technology Conference, 12-December-2024 2:35 PM ET', 'storyDateTime': '2024-12-12T19:58:18Z', 'uploadDateTime': '2024-12-13T02:55:26Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:EVTS', '"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'HI-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8843094', 'primaryIds': ['07516L-E', 'HI-US'], 'allIds': ['07516L-E', 'HI-US'], 'reportId': '3119528', 'eventId': '1203405904', 'eventDate': '2024-11-14', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Hillenbrand, Inc.(HI-US), Q4 2024 Earnings Call, 14-November-2024 8:00 AM ET', 'storyDateTime': '2024-11-14T10:40:24Z', 'uploadDateTime': '2026-10-01T18:55:46Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONGL', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN'"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7662597', 'primaryIds': ['0058W5-E', 'CRM-US'], 'allIds': ['0058W5-E', 'CRM-US'], 'reportId': '3141045', 'eventId': '1203467434', 'eventDate': '2024-12-12', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Salesforce, Inc.(CRM-US), Barclays Global Technology Conference, 12-December-2024 2:35 PM ET', 'storyDateTime': '2024-12-12T19:58:18Z', 'uploadDateTime': '2024-12-13T02:55:26Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/transcripts?rep",
-  "empty_doc_rows": 26
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8843094', 'primaryIds': ['07516L-E', 'HI-US'], 'allIds': ['07516L-E', 'HI-US'], 'reportId': '3119528', 'eventId': '1203405904', 'eventDate': '2024-11-14', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Hillenbrand, Inc.(HI-US), Q4 2024 Earnings Call, 14-November-2024 8:00 AM ET', 'storyDateTime': '2024-11-14T10:40:24Z', 'uploadDateTime': '2026-10-01T18:55:46Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONGL', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/",
+  "empty_doc_rows": 47
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 83,
+ "to_process": 60,
  "no_transcript": 0,
- "scored": 83
+ "scored": 60
 }
