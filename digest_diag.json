@@ -6,40 +6,19 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 60,
- "transcripts_probe": "200",
- "fallback_events": 60,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    50
-   ],
-   [
-    100,
-    19
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'HI-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '8843094', 'primaryIds': ['07516L-E', 'HI-US'], 'allIds': ['07516L-E', 'HI-US'], 'reportId': '3119528', 'eventId': '1203405904', 'eventDate': '2024-11-14', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Hillenbrand, Inc.(HI-US), Q4 2024 Earnings Call, 14-November-2024 8:00 AM ET', 'storyDateTime': '2024-11-14T10:40:24Z', 'uploadDateTime': '2026-10-01T18:55:46Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONGL', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN'"
-  },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '8843094', 'primaryIds': ['07516L-E', 'HI-US'], 'allIds': ['07516L-E', 'HI-US'], 'reportId': '3119528', 'eventId': '1203405904', 'eventDate': '2024-11-14', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Hillenbrand, Inc.(HI-US), Q4 2024 Earnings Call, 14-November-2024 8:00 AM ET', 'storyDateTime': '2024-11-14T10:40:24Z', 'uploadDateTime': '2026-10-01T18:55:46Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:CONGL', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/",
-  "empty_doc_rows": 47
- },
+ "unique": 0,
+ "transcripts_probe": "403",
+ "fallback_events": 0,
+ "targeted": {},
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x2",
+  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
+  "targeted chunk 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
+  "targeted chunk 50: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
+  "targeted chunk 100: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
  ],
  "already_scored": 0,
- "to_process": 60,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 60
+ "scored": 0
 }
