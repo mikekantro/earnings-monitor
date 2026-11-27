@@ -4,11 +4,11 @@
   "2025-01-01T00:00:00Z",
   "2025-03-31T23:59:59Z"
  ],
- "universe": 120,
+ "universe": 99,
  "raw_events": 0,
- "unique": 31,
+ "unique": 8,
  "transcripts_probe": "200",
- "fallback_events": 31,
+ "fallback_events": 8,
  "targeted": {
   "chunks": [
    [
@@ -17,11 +17,7 @@
    ],
    [
     50,
-    52
-   ],
-   [
-    100,
-    20
+    48
    ]
   ],
   "sample": {
@@ -30,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'NVR-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'GEAR-US', 'documents': []}"
   },
-  "empty_doc_rows": 67,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7687311', 'primaryIds': ['0Q0J0Z-E', 'CEG-US'], 'allIds': ['0Q0J0Z-E', 'CEG-US'], 'reportId': '3155463', 'eventId': '1203499491', 'eventDate': '2025-01-10', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Constellation Energy Corp.(CEG-US), Acquisition of  Calpine Corp. by Constellation Energy Corp. Call, 10-January-2025 8:30 AM ET', 'storyDateTime': '2025-01-10T18:12:22Z', 'uploadDateTime': '2025-01-13T07:13:24Z', 'eventType': 'SpecialSituation', 'categories': ['DT:CA_MNA_GEN', 'DT:CORPS', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'DT:M&A', 'DT:MANDA', 'LN:EN', 'SB:CA_MNA_GEN', 'SB:CORPS', 'SB:EVTS', 'SB:EV_ME', 'SB"
+  "empty_doc_rows": 68,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7748243', 'primaryIds': ['001416-E', 'WAFD-US'], 'allIds': ['001416-E', 'WAFD-US'], 'reportId': '3148185', 'eventId': '1203485056', 'eventDate': '2025-02-11', 'transcriptType': 'Raw', 'headline': 'RAW TRANSCRIPT: WaFd, Inc.(WAFD-US), Annual General Meeting, 11-February-2025 11:00 AM ET', 'storyDateTime': '2025-02-12T03:40:22Z', 'uploadDateTime': '2025-02-12T03:39:11Z', 'eventType': 'AnalystsShareholdersMeeting', 'categories': ['DT:AN_GEN', 'DT:CORP', 'DT:EVTS', 'DT:EV_GEN', 'DT:EV_PROX', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:AN_GEN', 'SB:EVTS', 'SB:EV_PROX', 'RN:AM', 'RN:NA', 'IN:FNLSVC', 'IN:SECS', 'CN:US'], 'transcriptsUrl': 'https://api."
  },
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 31,
+ "to_process": 8,
  "no_transcript": 0,
- "scored": 31
+ "scored": 8
 }
