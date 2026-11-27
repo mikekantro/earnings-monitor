@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 60,
+ "unique": 46,
  "transcripts_probe": "200",
- "fallback_events": 60,
+ "fallback_events": 46,
  "targeted": {
   "chunks": [
    [
@@ -21,7 +21,7 @@
    ],
    [
     100,
-    18
+    16
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'HSII-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7850267', 'primaryIds': ['00253Q-E', 'HSII-US'], 'allIds': ['00253Q-E', 'HSII-US'], 'reportId': '3198332', 'eventId': '1203593569', 'eventDate': '2025-03-19', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Heidrick & Struggles International, Inc.(HSII-US), Sidoti March Small Cap Virtual Conference, 19-March-2025 8:30 AM ET', 'storyDateTime': '2025-03-19T09:24:20Z', 'uploadDateTime': '2025-04-03T23:42:09Z', 'eventType': 'ConferencePresentation', 'categories': ['LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'CN:US', 'DT:CONF', 'DT:E"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'NHC-US', 'documents': []}"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7850267', 'primaryIds': ['00253Q-E', 'HSII-US'], 'allIds': ['00253Q-E', 'HSII-US'], 'reportId': '3198332', 'eventId': '1203593569', 'eventDate': '2025-03-19', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Heidrick & Struggles International, Inc.(HSII-US), Sidoti March Small Cap Virtual Conference, 19-March-2025 8:30 AM ET', 'storyDateTime': '2025-03-19T09:24:20Z', 'uploadDateTime': '2025-04-03T23:42:09Z', 'eventType': 'ConferencePresentation', 'categories': ['LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2/",
-  "empty_doc_rows": 48
+  "empty_doc_rows": 57,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7759110', 'primaryIds': ['00301S-E', 'PDFS-US'], 'allIds': ['00301S-E', 'PDFS-US'], 'reportId': '3166055', 'eventId': '1203526527', 'eventDate': '2025-02-13', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: PDF Solutions, Inc.(PDFS-US), Q4 2024 Earnings Call, 13-February-2025 5:00 PM ET', 'storyDateTime': '2025-02-13T23:10:22Z', 'uploadDateTime': '2025-02-17T08:06:10Z', 'eventType': 'Earnings', 'categories': ['CN:US', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR'], 'transcriptsUrl': 'https://api.factset.com/v2/tran"
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 60,
+ "to_process": 46,
  "no_transcript": 0,
- "scored": 60
+ "scored": 46
 }
