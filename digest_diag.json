@@ -1,20 +1,45 @@
 {
  "stage": "calendar",
  "window": [
-  "2026-11-15T00:00:00Z",
-  "2026-11-27T23:59:59Z"
+  "2024-10-01T00:00:00Z",
+  "2024-12-31T23:59:59Z"
  ],
- "universe": 1506,
+ "universe": 120,
  "raw_events": 0,
- "unique": 46,
+ "unique": 83,
  "transcripts_probe": "200",
- "fallback_events": 46,
- "targeted": {},
+ "fallback_events": 83,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    16
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CRM-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7662597', 'primaryIds': ['0058W5-E', 'CRM-US'], 'allIds': ['0058W5-E', 'CRM-US'], 'reportId': '3141045', 'eventId': '1203467434', 'eventDate': '2024-12-12', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Salesforce, Inc.(CRM-US), Barclays Global Technology Conference, 12-December-2024 2:35 PM ET', 'storyDateTime': '2024-12-12T19:58:18Z', 'uploadDateTime': '2024-12-13T02:55:26Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:EVTS', '"
+  },
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7662597', 'primaryIds': ['0058W5-E', 'CRM-US'], 'allIds': ['0058W5-E', 'CRM-US'], 'reportId': '3141045', 'eventId': '1203467434', 'eventDate': '2024-12-12', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Salesforce, Inc.(CRM-US), Barclays Global Technology Conference, 12-December-2024 2:35 PM ET', 'storyDateTime': '2024-12-12T19:58:18Z', 'uploadDateTime': '2024-12-13T02:55:26Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/transcripts?rep",
+  "empty_doc_rows": 26
+ },
  "errors": [
-  "calendar 403 x16"
+  "calendar 403 x2"
  ],
- "already_scored": 46,
- "to_process": 0,
+ "already_scored": 0,
+ "to_process": 83,
  "no_transcript": 0,
- "scored": 0
+ "scored": 83
 }
