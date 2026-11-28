@@ -4,11 +4,11 @@
   "2024-07-01T00:00:00Z",
   "2024-09-30T23:59:59Z"
  ],
- "universe": 99,
+ "universe": 94,
  "raw_events": 0,
- "unique": 5,
+ "unique": 0,
  "transcripts_probe": "200",
- "fallback_events": 5,
+ "fallback_events": 0,
  "targeted": {
   "chunks": [
    [
@@ -17,24 +17,25 @@
    ],
    [
     50,
-    49
+    44
    ]
   ],
   "sample": {
    "keys": [
-    "error",
-    "requestId"
+    "documents",
+    "requestId",
+    "transcriptResponseType"
    ],
-   "raw": "{'requestId': 'PINC.XX2-US', 'error': {'code': 'Bad Request', 'title': 'Missing / Invalid Parameters', 'detail': \"The parameter 'id' should be valid\"}}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'INVA-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7541234', 'primaryIds': ['05XCS7-E', 'INVA-US'], 'allIds': ['05XCS7-E', 'INVA-US'], 'reportId': '3095091', 'eventId': '1203341366', 'eventDate': '2024-09-18', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Innoviva, Inc.(INVA-US), Cantor Global Healthcare Conference, 18-September-2024 3:40 PM ET', 'storyDateTime': '2024-09-18T15:40:00Z', 'uploadDateTime': '2024-10-05T03:38:04Z', 'eventType': 'ConferencePresentation', 'categories': ['SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:HLTH', 'IN:PHARM', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_M"
   },
-  "sample_doc": "{'requestId': 'PINC.XX2-US', 'error': {'code': 'Bad Request', 'title': 'Missing / Invalid Parameters', 'detail': \"The parameter 'id' should be valid\"}}",
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7541234', 'primaryIds': ['05XCS7-E', 'INVA-US'], 'allIds': ['05XCS7-E', 'INVA-US'], 'reportId': '3095091', 'eventId': '1203341366', 'eventDate': '2024-09-18', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Innoviva, Inc.(INVA-US), Cantor Global Healthcare Conference, 18-September-2024 3:40 PM ET', 'storyDateTime': '2024-09-18T15:40:00Z', 'uploadDateTime': '2024-10-05T03:38:04Z', 'eventType': 'ConferencePresentation', 'categories': ['SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:HLTH', 'IN:PHARM', 'CN:US', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/trans",
   "empty_doc_rows": 79
  },
  "errors": [
   "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 5,
+ "to_process": 0,
  "no_transcript": 0,
- "scored": 5
+ "scored": 0
 }
