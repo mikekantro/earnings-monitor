@@ -6,19 +6,40 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 0,
- "transcripts_probe": "403",
- "fallback_events": 0,
- "targeted": {},
+ "unique": 48,
+ "transcripts_probe": "200",
+ "fallback_events": 48,
+ "targeted": {
+  "chunks": [
+   [
+    0,
+    50
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    100,
+    17
+   ]
+  ],
+  "sample": {
+   "keys": [
+    "documents",
+    "requestId",
+    "transcriptResponseType"
+   ],
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'PTGX-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7655086', 'primaryIds': ['07F0YZ-E', 'PTGX-US'], 'allIds': ['07F0YZ-E', 'PTGX-US'], 'reportId': '3136487', 'eventId': '1203455028', 'eventDate': '2024-12-03', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Protagonist Therapeutics, Inc.(PTGX-US), Evercore ISI HealthCONx Conference - Fireside Chat, 3-December-2024 8:45 AM ET', 'storyDateTime': '2024-12-04T04:58:30Z', 'uploadDateTime': '2024-12-07T03:32:55Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:EVTS', 'S"
+  },
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7655086', 'primaryIds': ['07F0YZ-E', 'PTGX-US'], 'allIds': ['07F0YZ-E', 'PTGX-US'], 'reportId': '3136487', 'eventId': '1203455028', 'eventDate': '2024-12-03', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Protagonist Therapeutics, Inc.(PTGX-US), Evercore ISI HealthCONx Conference - Fireside Chat, 3-December-2024 8:45 AM ET', 'storyDateTime': '2024-12-04T04:58:30Z', 'uploadDateTime': '2024-12-07T03:32:55Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:BIOTEC', 'IN:HLTH', 'CN:US'], 'transcriptsUrl': 'ht",
+  "empty_doc_rows": 55
+ },
  "errors": [
-  "calendar 403 x2",
-  "fallback offset 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
-  "targeted chunk 0: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
-  "targeted chunk 50: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts",
-  "targeted chunk 100: HTTPError: 403 Client Error: Forbidden for url: https://api.factset.com/content/events/v2/transcripts"
+  "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 0,
+ "to_process": 48,
  "no_transcript": 0,
- "scored": 0
+ "scored": 48
 }
