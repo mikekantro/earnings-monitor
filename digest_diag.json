@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 88,
+ "unique": 64,
  "transcripts_probe": "200",
- "fallback_events": 88,
+ "fallback_events": 64,
  "targeted": {
   "chunks": [
    [
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'ELMES-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7443343', 'primaryIds': ['000YPQ-E', 'ELME-US'], 'allIds': ['000YPQ-E', 'ELME-US'], 'reportId': '3061620', 'eventId': '1203245481', 'eventDate': '2024-08-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Elme Communities(ELME-US), Q2 2024 Earnings Call, 2-August-2024 10:00 AM ET', 'storyDateTime': '2024-08-02T17:02:08Z', 'uploadDateTime': '2024-08-03T04:04:51Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME',"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'JKHY-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7514414', 'primaryIds': ['000LMZ-E', 'JKHY-US'], 'allIds': ['000LMZ-E', 'JKHY-US'], 'reportId': '3095371', 'eventId': '1203342077', 'eventDate': '2024-09-10', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Jack Henry & Associates, Inc.(JKHY-US), Goldman Sachs Communacopia Technology Conference, 10-September-2024 11:10 AM ET', 'storyDateTime': '2024-09-11T11:26:11Z', 'uploadDateTime': '2024-09-14T03:34:53Z', 'eventType': 'ConferencePresentation', 'categories': ['SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILN"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7443343', 'primaryIds': ['000YPQ-E', 'ELME-US'], 'allIds': ['000YPQ-E', 'ELME-US'], 'reportId': '3061620', 'eventId': '1203245481', 'eventDate': '2024-08-02', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Elme Communities(ELME-US), Q2 2024 Earnings Call, 2-August-2024 10:00 AM ET', 'storyDateTime': '2024-08-02T17:02:08Z', 'uploadDateTime': '2024-08-03T04:04:51Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:RLEST', 'CN:US'], 'transcriptsUrl': 'https://api.factset.com/",
-  "empty_doc_rows": 28
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7514414', 'primaryIds': ['000LMZ-E', 'JKHY-US'], 'allIds': ['000LMZ-E', 'JKHY-US'], 'reportId': '3095371', 'eventId': '1203342077', 'eventDate': '2024-09-10', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Jack Henry & Associates, Inc.(JKHY-US), Goldman Sachs Communacopia Technology Conference, 10-September-2024 11:10 AM ET', 'storyDateTime': '2024-09-11T11:26:11Z', 'uploadDateTime': '2024-09-14T03:34:53Z', 'eventType': 'ConferencePresentation', 'categories': ['SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:COMPTC', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'https://api.f",
+  "empty_doc_rows": 51
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 88,
+ "to_process": 64,
  "no_transcript": 0,
- "scored": 86
+ "scored": 64
 }
