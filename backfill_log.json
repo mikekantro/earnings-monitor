@@ -490,5 +490,16 @@
   "window": "2024-07-01",
   "rc": 0,
   "err": ""
+ },
+ {
+  "at": "2026-11-28T10:23",
+  "season": "2024q2",
+  "scored": 39,
+  "remaining": 124,
+  "retired": false,
+  "probe": "200",
+  "window": "2024-07-01",
+  "rc": 0,
+  "err": ""
  }
 ]
