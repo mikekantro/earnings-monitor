@@ -4,24 +4,20 @@
   "2024-10-01T00:00:00Z",
   "2024-12-31T23:59:59Z"
  ],
- "universe": 120,
+ "universe": 100,
  "raw_events": 0,
- "unique": 35,
+ "unique": 11,
  "transcripts_probe": "200",
- "fallback_events": 35,
+ "fallback_events": 11,
  "targeted": {
   "chunks": [
    [
     0,
-    52
+    50
    ],
    [
     50,
     50
-   ],
-   [
-    100,
-    20
    ]
   ],
   "sample": {
@@ -30,16 +26,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'CBSH-US', 'documents': []}"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'TMP-US', 'documents': []}"
   },
-  "empty_doc_rows": 66,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7634759', 'primaryIds': ['000BVL-E', 'HES-US'], 'allIds': ['000BVL-E', 'HES-US'], 'reportId': '3134585', 'eventId': '1203449129', 'eventDate': '2024-11-20', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Hess Corp.(HES-US), Wolfe Research Oil & Gas Conference, 20-November-2024 7:50 AM ET', 'storyDateTime': '2024-11-20T15:58:24Z', 'uploadDateTime': '2024-11-21T01:37:15Z', 'eventType': 'ConferencePresentation', 'categories': ['DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:OIL', 'RN:AM', 'RN:NA', 'SB:EVTS', 'SB:EV_ME', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/transcripts?report=feed&ke"
+  "empty_doc_rows": 69,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7612467', 'primaryIds': ['00DDLX-E', 'VTLE-US'], 'allIds': ['00DDLX-E', 'VTLE-US'], 'reportId': '3108182', 'eventId': '1203375667', 'eventDate': '2024-11-07', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Vital Energy, Inc.(VTLE-US), Q3 2024 Earnings Call, 7-November-2024 8:30 AM ET', 'storyDateTime': '2024-11-08T10:48:24Z', 'uploadDateTime': '2024-11-10T11:50:08Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:OIL', 'RN:AM', 'RN:NA', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com"
  },
  "errors": [
-  "calendar 403 x2"
+  "calendar 403 x1"
  ],
  "already_scored": 0,
- "to_process": 35,
+ "to_process": 11,
  "no_transcript": 0,
- "scored": 35
+ "scored": 11
 }
