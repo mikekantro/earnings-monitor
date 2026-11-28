@@ -1,40 +1,19 @@
 {
  "stage": "calendar",
  "window": [
-  "2024-10-01T00:00:00Z",
-  "2024-12-31T23:59:59Z"
+  "2026-11-16T00:00:00Z",
+  "2026-11-28T23:59:59Z"
  ],
- "universe": 89,
+ "universe": 1506,
  "raw_events": 0,
- "unique": 0,
+ "unique": 46,
  "transcripts_probe": "200",
- "fallback_events": 0,
- "targeted": {
-  "chunks": [
-   [
-    0,
-    50
-   ],
-   [
-    50,
-    39
-   ]
-  ],
-  "sample": {
-   "keys": [
-    "documents",
-    "requestId",
-    "transcriptResponseType"
-   ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'PRFT-US', 'documents': []}"
-  },
-  "empty_doc_rows": 69,
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7655086', 'primaryIds': ['07F0YZ-E', 'PTGX-US'], 'allIds': ['07F0YZ-E', 'PTGX-US'], 'reportId': '3136487', 'eventId': '1203455028', 'eventDate': '2024-12-03', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Protagonist Therapeutics, Inc.(PTGX-US), Evercore ISI HealthCONx Conference - Fireside Chat, 3-December-2024 8:45 AM ET', 'storyDateTime': '2024-12-04T04:58:30Z', 'uploadDateTime': '2024-12-07T03:32:55Z', 'eventType': 'ConferencePresentation', 'categories': ['SB:EVTS', 'SB:EV_ME', 'LN:EN', 'DT:CONF', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'CN:US', 'IN:BIOTEC', 'IN:HLTH', 'RN:AM', 'RN:NA'], 'transcriptsUrl': 'ht"
- },
+ "fallback_events": 46,
+ "targeted": {},
  "errors": [
-  "calendar 403 x1"
+  "calendar 403 x16"
  ],
- "already_scored": 0,
+ "already_scored": 46,
  "to_process": 0,
  "no_transcript": 0,
  "scored": 0
