@@ -6,9 +6,9 @@
  ],
  "universe": 120,
  "raw_events": 0,
- "unique": 39,
+ "unique": 25,
  "transcripts_probe": "200",
- "fallback_events": 39,
+ "fallback_events": 25,
  "targeted": {
   "chunks": [
    [
@@ -21,7 +21,7 @@
    ],
    [
     100,
-    19
+    20
    ]
   ],
   "sample": {
@@ -30,16 +30,16 @@
     "requestId",
     "transcriptResponseType"
    ],
-   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'SPXC-US', 'documents': [{'transcriptResponseType': 'documentResult', 'versionId': '7444468', 'primaryIds': ['0T3XV2-E', 'SPXC-US'], 'allIds': ['0T3XV2-E', 'SPXC-US'], 'reportId': '3068539', 'eventId': '1203269615', 'eventDate': '2024-08-01', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: SPX Technologies, Inc.(SPXC-US), Q2 2024 Earnings Call, 1-August-2024 4:45 PM ET', 'storyDateTime': '2024-08-03T13:48:11Z', 'uploadDateTime': '2024-08-04T03:33:37Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_"
+   "raw": "{'transcriptResponseType': 'transcriptById', 'requestId': 'GME-US', 'documents': []}"
   },
-  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7444468', 'primaryIds': ['0T3XV2-E', 'SPXC-US'], 'allIds': ['0T3XV2-E', 'SPXC-US'], 'reportId': '3068539', 'eventId': '1203269615', 'eventDate': '2024-08-01', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: SPX Technologies, Inc.(SPXC-US), Q2 2024 Earnings Call, 1-August-2024 4:45 PM ET', 'storyDateTime': '2024-08-03T13:48:11Z', 'uploadDateTime': '2024-08-04T03:33:37Z', 'eventType': 'Earnings', 'categories': ['DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN', 'SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:CONST', 'CN:US'], 'transcriptsUrl': 'https://api.factset",
-  "empty_doc_rows": 70
+  "empty_doc_rows": 79,
+  "sample_doc": "{'transcriptResponseType': 'documentResult', 'versionId': '7444670', 'primaryIds': ['000D25-E', 'VGR-US'], 'allIds': ['000D25-E', 'VGR-US'], 'reportId': '3075054', 'eventId': '1203284113', 'eventDate': '2024-08-01', 'transcriptType': 'Corrected', 'headline': 'CORRECTED TRANSCRIPT: Vector Group Ltd.(VGR-US), Q2 2024 Earnings Call, 1-August-2024 8:00 AM ET', 'storyDateTime': '2024-08-04T15:26:10Z', 'uploadDateTime': '2024-08-05T07:05:54Z', 'eventType': 'Earnings', 'categories': ['SB:ERNS', 'SB:ER_GEN', 'SB:EVTS', 'SB:EV_ME', 'RN:AM', 'RN:NA', 'IN:FDTOB', 'CN:US', 'DT:EARN', 'DT:ERNS', 'DT:ER_GEN', 'DT:EVTS', 'DT:EV_ME', 'DT:FILNS_TS_TR', 'LN:EN'], 'transcriptsUrl': 'https://api.factset.com/v2/"
  },
  "errors": [
   "calendar 403 x2"
  ],
  "already_scored": 0,
- "to_process": 39,
+ "to_process": 25,
  "no_transcript": 0,
- "scored": 39
+ "scored": 25
 }
